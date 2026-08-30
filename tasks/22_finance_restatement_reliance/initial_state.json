@@ -1,0 +1,16 @@
+{
+  "schema_version": "detourbench.initial-state.v1",
+  "visibility": "local",
+  "node": "start",
+  "context": "Credit review case DTB-SEC-22, snapshot 2024-08-20. The desk holds a privately placed note of Pioneer Power Solutions, Inc. (CIK 0001449792). Internal policy freezes the issuer's internal rating once the issuer states that previously issued financial statements may no longer be relied upon, and keeps it frozen until the affected periods have been restated and every periodic report is current. Determine the status of the affected periods as of the snapshot under the policy version in force, and record one final disposition. Selecting a disposition forecloses the others, so there is one attempt. A selected disposition is not filed until it has been committed to the credit file, which is the step that closes the case.",
+  "known_resources": [
+    {
+      "identifier": "workflow://DTB-SEC-22",
+      "resource_type": "endpoint"
+    }
+  ],
+  "actions_remaining": 18,
+  "identifiers": [
+    "workflow://DTB-SEC-22"
+  ]
+}

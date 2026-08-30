@@ -1,0 +1,615 @@
+{
+ "seed": "1910.28",
+ "sections": {
+  "1910.28": {
+   "title": "Duty to have fall protection and falling object protection.",
+   "refs": [
+    "1910.29",
+    "1910.140",
+    "1910.66",
+    "1910.67",
+    "1910.268",
+    "1910.269",
+    "1926.502",
+    "1910.30"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Duty to have fall protection and falling object protection. (a) General. (1) This section requires employers to provide protection for each employee exposed to fall and falling object hazards. Unless stated otherwise, the employer must ensure that all fall protection and falling object protection required by this section meet the criteria in \u00a7 1910.29, except that personal fall protection systems required by this section meet the criteria of \u00a7 1910.140. (2) This section does not apply: (i) To portable ladders; (ii) When employers are inspecting, investigating, or assessing workplace conditions or work to be performed prior to the start of work or after all work has been completed. This exemption does not apply when fall protection systems or equipment meeting the requirements of \u00a7 1910.29 "
+  },
+  "1910.29": {
+   "title": "Fall protection systems and falling object protection\u2014criteria and practices.",
+   "refs": [],
+   "history": "[81 FR 82981, Nov. 18, 2016, as amended at 84 FR 68796, Dec. 17, 2019]",
+   "amended_years": [
+    2016,
+    2019
+   ],
+   "text": "Fall protection systems and falling object protection\u2014criteria and practices. (a) General requirements. The employer must: (1) Ensure each fall protection system and falling object protection, other than personal fall protection systems, that this part requires meets the requirements in this section. The employer must ensure each personal fall protection system meets the requirements in subpart I of this part; and (2) Provide and install all fall protection systems and falling object protection this subpart requires, and comply with the other requirements in this subpart before any employee begins work that necessitates fall or falling object protection. (b) Guardrail systems. The employer must ensure guardrail systems meet the following requirements: (1) The top edge height of top rails, "
+  },
+  "1910.140": {
+   "title": "Personal fall protection systems.",
+   "refs": [],
+   "history": "[81 FR 82999, Nov. 18, 2016, as amended at 84 FR 68797, Dec. 17, 2019]",
+   "amended_years": [
+    2016,
+    2019
+   ],
+   "text": "Personal fall protection systems. (a) Scope and application. This section establishes performance, care, and use criteria for all personal fall protection systems. The employer must ensure that each personal fall protection system used to comply with this part must meet the requirements of this section. (b) Definitions. The following definitions apply to this section: Anchorage means a secure point of attachment for equipment such as lifelines, lanyards, or deceleration devices. Belt terminal means an end attachment of a window cleaner's positioning system used for securing the belt or harness to a window cleaner's belt anchor. Body belt means a strap with means both for securing about the waist and for attaching to other components such as a lanyard used with positioning systems, travel r"
+  },
+  "1910.66": {
+   "title": "Powered platforms for building maintenance.",
+   "refs": [
+    "1910.140"
+   ],
+   "history": "[54 FR 31456, July 28, 1989, as amended at 61 FR 9235, Mar. 7, 1996; 72 FR 7190, Feb. 14, 2007; 81 FR 82998, Nov. 18, 2016]",
+   "amended_years": [
+    1989,
+    1996,
+    2007,
+    2016
+   ],
+   "text": "Powered platforms for building maintenance. (a) Scope. This section covers powered platform installations permanently dedicated to interior or exterior building maintenance of a specific structure or group of structures. This section does not apply to suspended scaffolds (swinging scaffolds) used to service buildings on a temporary basis and covered under subpart D of this part, nor to suspended scaffolds used for construction work and covered under subpart L of 29 CFR part 1926. Building maintenance includes, but is not limited to, such tasks as window cleaning, caulking, metal polishing and reglazing. (b) Application \u2014(1) New installations. This section applies to all permanent installations completed after July 23, 1990. Major modifications to existing installations completed after that"
+  },
+  "1910.67": {
+   "title": "Vehicle-mounted elevating and rotating work platforms.",
+   "refs": [
+    "1910.6",
+    "1910.333"
+   ],
+   "history": "[39 FR 23502, June 27, 1974, as amended at 40 FR 13439, Mar. 26, 1975; 55 FR 32014, Aug. 6, 1990; 61 FR 9235, Mar. 7, 1996; 79 FR 37190, July 1, 2014; 81 FR 82999, Nov. 18, 2016]",
+   "amended_years": [
+    1974,
+    1975,
+    1990,
+    1996,
+    2014,
+    2016
+   ],
+   "text": "Vehicle-mounted elevating and rotating work platforms. (a) Definitions applicable to this section \u2014(1) Aerial device. Any vehicle\u2014mounted device, telescoping or articulating, or both, which is used to position personnel. (2) Aerial ladder. An aerial device consisting of a single- or multiple-section extensible ladder. (3) Articulating boom platform. An aerial device with two or more hinged boom sections. (4) Extensible boom platform. An aerial device (except ladders) with a telescopic or extensible boom. Telescopic derricks with personnel platform attachments shall be considered to be extensible boom platforms when used with a personnel platform. (5) Insulated aerial device. An aerial device designed for work on energized lines and apparatus. (6) Mobile unit. A combination of an aerial dev"
+  },
+  "1910.268": {
+   "title": "Telecommunications.",
+   "refs": [
+    "1910.12",
+    "1910.5",
+    "1910.110"
+   ],
+   "history": "[40 FR 13441, Mar. 26, 1975, as amended at 43 FR 49751, Oct. 24, 1978; 47 FR 14706, Apr. 6, 1982; 52 FR 36387, Sept. 28, 1987; 54 FR 24334, June 7, 1989; 61 FR 9242, Mar. 7, 1996; 63 FR 33467, June 18, 1998; 67 FR 67965, Nov. 7, 2002; 69 FR 31882, June 8, 2004; 70 FR 1141, Jan. 5, 2005; 81 FR 83006,",
+   "amended_years": [
+    1975,
+    1978,
+    1982,
+    1987,
+    1989,
+    1996,
+    1998,
+    2002,
+    2004,
+    2005
+   ],
+   "text": "Telecommunications. (a) Application. (1) This section sets forth safety and health standards that apply to the work conditions, practices, means, methods, operations, installations and processes performed at telecommunications centers and at telecommunications field installations, which are located outdoors or in building spaces used for such field installations. Center work includes the installation, operation, maintenance, rearrangement, and removal of communications equipment and other associated equipment in telecommunications switching centers. Field work includes the installation, operation, maintenance, rearrangement, and removal of conductors and other equipment used for signal or communication service, and of their supporting or containing structures, overhead or underground, on p"
+  },
+  "1910.269": {
+   "title": "Electric power generation, transmission, and distribution.",
+   "refs": [
+    "1910.12",
+    "1926.950",
+    "1910.332",
+    "1910.303",
+    "1910.333",
+    "1910.5"
+   ],
+   "history": "[79 FR 20633, Apr. 11, 2014, as amended at 79 FR 56960, Sept. 24, 2014; 80 FR 60036, Oct. 5, 2015; 81 FR 83006, Nov. 18, 2016; 84 FR 68797, Dec. 17, 2019; 85 FR 8732, Feb. 18, 2020]",
+   "amended_years": [
+    2014,
+    2015,
+    2016,
+    2019,
+    2020
+   ],
+   "text": "Electric power generation, transmission, and distribution. (a) General \u2014(1) Application. (i) This section covers the operation and maintenance of electric power generation, control, transformation, transmission, and distribution lines and equipment. These provisions apply to: (A) Power generation, transmission, and distribution installations, including related equipment for the purpose of communication or metering that are accessible only to qualified employees; Note to paragraph ( a )(1)( i )(A): The types of installations covered by this paragraph include the generation, transmission, and distribution installations of electric utilities, as well as equivalent installations of industrial establishments. Subpart S of this part covers supplementary electric generating equipment that is used"
+  },
+  "1926.502": {
+   "title": "Fall protection systems criteria and practices.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Fall protection systems criteria and practices. (a) General. (1) Fall protection systems required by this part shall comply with the applicable provisions of this section. (2) Employers shall provide and install all fall protection systems required by this subpart for an employee, and shall comply with all other pertinent requirements of this subpart before that employee begins the work that necessitates the fall protection. (b) Guardrail systems. Guardrail systems and their use shall comply with the following provisions: (1) Top edge height of top rails, or equivalent guardrail system members, shall be 42 inches (1.1 m) plus or minus 3 inches (8 cm) above the walking/working level. When conditions warrant, the height of the top edge may exceed the 45-inch height, provided the guardrail sy"
+  },
+  "1910.30": {
+   "title": "Training requirements.",
+   "refs": [
+    "1910.27"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Training requirements. (a) Fall hazards. (1) Before any employee is exposed to a fall hazard, the employer must provide training for each employee who uses personal fall protection systems or who is required to be trained as specified elsewhere in this subpart. Employers must ensure employees are trained in the requirements of this paragraph on or before May 17, 2017. (2) The employer must ensure that each employee is trained by a qualified person. (3) The employer must train each employee in at least the following topics: (i) The nature of the fall hazards in the work area and how to recognize them; (ii) The procedures to be followed to minimize those hazards; (iii) The correct procedures for installing, inspecting, operating, maintaining, and disassembling the personal fall protection sy"
+  },
+  "1910.6": {
+   "title": "Incorporation by reference.",
+   "refs": [
+    "1910.124",
+    "1910.120",
+    "1910.145",
+    "1910.111",
+    "1910.219",
+    "1910.262",
+    "1910.253",
+    "1910.261",
+    "1910.68",
+    "1910.67",
+    "1910.66",
+    "1910.215"
+   ],
+   "history": "[39 FR 23502, June 27, 1974]",
+   "amended_years": [
+    1974
+   ],
+   "text": "Incorporation by reference. (a)(1) Certain material is incorporated by reference into this part with the approval of the Director of the Federal Register in accordance with 5 U.S.C. 552(a) and 1 CFR part 51. To enforce any edition other than that specified in this section, the Occupational Safety and Health Administration (OSHA) must publish a document in the Federal Register and the material must be available to the public. (i) The standards of agencies of the U.S. Government, and organizations which are not agencies of the U.S. Government which are incorporated by reference in this part, have the same force and effect as other standards in this part. Only the mandatory provisions ( i.e., provisions containing the word \u201cshall\u201d or other mandatory language) of standards incorporated by refe"
+  },
+  "1910.333": {
+   "title": "Selection and use of work practices.",
+   "refs": [
+    "1910.147"
+   ],
+   "history": "[55 FR 32016, Aug. 6, 1990; 55 FR 46053, Nov. 1, 1990, as amended at 59 FR 4476, Jan. 31, 1994]",
+   "amended_years": [
+    1990,
+    1994
+   ],
+   "text": "Selection and use of work practices. (a) General. Safety-related work practices shall be employed to prevent electric shock or other injuries resulting from either direct or indirect electrical contacts, when work is performed near or on equipment or circuits which are or may be energized. The specific safety-related work practices shall be consistent with the nature and extent of the associated electrical hazards. (1) Deenergized parts. Live parts to which an employee may be exposed shall be deenergized before the employee works on or near them, unless the employer can demonstrate that deenergizing introduces additional or increased hazards or is infeasible due to equipment design or operational limitations. Live parts that operate at less than 50 volts to ground need not be deenergized i"
+  },
+  "1910.12": {
+   "title": "Construction work.",
+   "refs": [
+    "1926.13"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Construction work. (a) Standards. The standards prescribed in part 1926 of this chapter are adopted as occupational safety and health standards under section 6 of the Act and shall apply, according to the provisions thereof, to every employment and place of employment of every employee engaged in construction work. Each employer shall protect the employment and places of employment of each of his employees engaged in construction work by complying with the appropriate standards prescribed in this paragraph. (b) Definition. For purposes of this section, Construction work means work for construction, alteration, and/or repair, including painting and decorating. See discussion of these terms in \u00a7 1926.13 of this title. (c) Construction Safety Act distinguished. This section adopts as occupati"
+  },
+  "1910.5": {
+   "title": "Applicability of standards.",
+   "refs": [
+    "1910.95",
+    "1910.261"
+   ],
+   "history": "[39 FR 23502, June 27, 1974, as amended at 58 FR 35308, June 30, 1993; 85 FR 8732, Feb. 18, 2020]",
+   "amended_years": [
+    1974,
+    1993,
+    2020
+   ],
+   "text": "Applicability of standards. (a) Except as provided in paragraph (b) of this section, the standards contained in this Part shall apply with respect to employments performed in a workplace in a State, the District of Columbia, the Commonwealth of Puerto Rico, the Virgin Islands, American Samoa, Guam, the Commonwealth of the Northern Mariana Islands, Wake Island, Outer Continental Shelf lands defined in the Outer Continental Shelf Lands Act, and Johnston Island. (b) None of the standards in this part shall apply to working conditions of employees with respect to which Federal agencies other than the Department of Labor, or State agencies acting under section 274 of the Atomic Energy Act of 1954, as amended (42 U.S.C. 2021), exercise statutory authority to prescribe or enforce standards or reg"
+  },
+  "1910.110": {
+   "title": "Storage and handling of liquefied petroleum gases.",
+   "refs": [
+    "1910.7",
+    "1910.6"
+   ],
+   "history": "[39 FR 23502, June 27, 1974, as amended at 43 FR 49747, Oct. 24, 1978; 49 FR 5322, Feb. 10, 1984; 53 FR 12122, Apr. 12, 1988; 55 FR 25094, June 20, 1990; 55 FR 32015, Aug. 6, 1990; 58 FR 35309, June 30, 1993; 61 FR 9237, 9238, Mar. 7, 1996; 63 FR 33466, June 18, 1998; 72 FR 71069, Dec. 14, 2007]",
+   "amended_years": [
+    1974,
+    1978,
+    1984,
+    1988,
+    1990,
+    1993,
+    1996,
+    1998,
+    2007
+   ],
+   "text": "Storage and handling of liquefied petroleum gases. (a) Definitions applicable to this section. As used in this section: (1) API-ASME container\u2014A container constructed in accordance with the requirements of paragraph (b)(3)(iii) of this section. (2) ASME container\u2014A container constructed in accordance with the requirements of paragraph (b)(3)(i) of this section. (3) Container assembly\u2014An assembly consisting essentially of the container and fittings for all container openings, including shutoff valves, excess flow valves, liquid-level gaging devices, safety relief devices, and protective housing. (4) Containers\u2014All vessels, such as tanks, cylinders, or drums, used for transportation or storing liquefied petroleum gases. (5) DOT\u2014Department of Transportation. (6) DOT container\u2014A container cons"
+  },
+  "1926.950": {
+   "title": "General.",
+   "refs": [
+    "1910.269",
+    "1910.5"
+   ],
+   "history": "[44 FR 8577, Feb. 9, 1979; 44 FR 20940, Apr. 6, 1979, as amended at 80 FR 60040, Oct. 5, 2015]",
+   "amended_years": [
+    1979,
+    2015
+   ],
+   "text": "General. (a) Application \u2014(1) Scope. (i) This subpart, except for paragraph (a)(3) of this section, covers the construction of electric power transmission and distribution lines and equipment. As used in this subpart, the term \u201cconstruction\u201d includes the erection of new electric transmission and distribution lines and equipment, and the alteration, conversion, and improvement of existing electric transmission and distribution lines and equipment. Note to paragraph ( a )(1)( i ): An employer that complies with \u00a7 1910.269 of this chapter will be considered in compliance with requirements in this subpart that do not reference other subparts of this part. Compliance with \u00a7 1910.269 of this chapter will not excuse an employer from compliance obligations under other subparts of this part. (ii) N"
+  },
+  "1910.332": {
+   "title": "Training.",
+   "refs": [
+    "1910.303",
+    "1910.331",
+    "1910.333"
+   ],
+   "history": "[55 FR 32016, Aug. 6, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "Training. (a) Scope. The training requirements contained in this section apply to employees who face a risk of electric shock that is not reduced to a safe level by the electrical installation requirements of \u00a7\u00a7 1910.303 through 1910.308. Note: Employees in occupations listed in Table S-4 face such a risk and are required to be trained. Other employees who also may reasonably be expected to face a comparable risk of injury due to electric shock or other electrical hazards must also be trained. (b) Content of training \u2014(1) Practices addressed in this standard. Employees shall be trained in and familiar with the safety-related work practices required by \u00a7\u00a7 1910.331 through 1910.335 that pertain to their respective job assignments. (2) Additional requirements for unqualified persons. Employee"
+  },
+  "1910.303": {
+   "title": "General.",
+   "refs": [
+    "1910.399"
+   ],
+   "history": "[46 FR 4056, Jan. 16, 1981, as amended at 73 FR 64205, Oct. 29, 2008]",
+   "amended_years": [
+    1981,
+    2008
+   ],
+   "text": "General. (a) Approval. The conductors and equipment required or permitted by this subpart shall be acceptable only if approved, as defined in \u00a7 1910.399. (b) Examination, installation, and use of equipment \u2014(1) Examination. Electric equipment shall be free from recognized hazards that are likely to cause death or serious physical harm to employees. Safety of equipment shall be determined using the following considerations: (i) Suitability for installation and use in conformity with the provisions of this subpart; Note to paragraph ( b )(1)( i ) of this section: Suitability of equipment for an identified purpose may be evidenced by listing or labeling for that identified purpose. (ii) Mechanical strength and durability, including, for parts designed to enclose and protect other equipment, t"
+  },
+  "1910.27": {
+   "title": "Scaffolds and rope descent systems.",
+   "refs": [
+    "1910.30"
+   ],
+   "history": "[81 FR 82981, Nov. 18, 2016, as amended at 84 FR 68796, Dec. 17, 2019]",
+   "amended_years": [
+    2016,
+    2019
+   ],
+   "text": "Scaffolds and rope descent systems. (a) Scaffolds. Scaffolds used in general industry must meet the requirements in 29 CFR part 1926, subpart L (Scaffolds). (b) Rope descent systems \u2014(1) Anchorages. (i) Before any rope descent system is used, the building owner must inform the employer, in writing that the building owner has identified, tested, certified, and maintained each anchorage so it is capable of supporting at least 5,000 pounds (2,268 kg), in any direction, for each employee attached. The information must be based on an annual inspection by a qualified person and certification of each anchorage by a qualified person, as necessary, and at least every 10 years. (ii) The employer must ensure that no employee uses any anchorage before the employer has obtained written information from"
+  },
+  "1910.124": {
+   "title": "General requirements for dipping and coating operations.",
+   "refs": [
+    "1910.6",
+    "1910.146",
+    "1910.141",
+    "1910.134"
+   ],
+   "history": "[64 FR 13909, Mar. 23, 1999, as amended at 77 FR 17777, Mar. 26, 2012]",
+   "amended_years": [
+    1999,
+    2012
+   ],
+   "text": "General requirements for dipping and coating operations. (a) What construction requirements apply to dip tanks? Any container that you use as a dip tank must be strong enough to withstand any expected load. (b) What ventilation requirements apply to vapor areas? (1) The ventilation that you provide to a vapor area must keep the airborne concentration of any substance below 25% of its LFL. (2) When a liquid in a dip tank creates an exposure hazard covered by a standard listed in subpart Z of this part, you must control worker exposure as required by that standard. (3) You may use a tank cover or material that floats on the surface of the liquid in a dip tank to replace or supplement ventilation. The method or combination of methods you choose must maintain the airborne concentration of the "
+  },
+  "1910.120": {
+   "title": "Hazardous waste operations and emergency response.",
+   "refs": [],
+   "history": "[54 FR 9317, Mar. 6, 1989, as amended at 55 FR 14073, Apr. 13, 1990; 56 FR 15832, Apr. 18, 1991; 59 FR 43270, Aug. 22, 1994; 61 FR 9238, Mar. 7, 1996; 67 FR 67964, Nov. 7, 2002; 71 FR 16672, Apr. 3, 2006; 76 FR 80738, Dec. 27, 2011; 77 FR 17776, Mar. 26, 2012; 78 FR 9313, Feb. 8, 2013; 84 FR 21597, ",
+   "amended_years": [
+    1989,
+    1990,
+    1991,
+    1994,
+    1996,
+    2002,
+    2006,
+    2011,
+    2012,
+    2013
+   ],
+   "text": "Hazardous waste operations and emergency response. (a) Scope, application, and definitions \u2014(1) Scope. This section covers the following operations, unless the employer can demonstrate that the operation does not involve employee exposure or the reasonable possibility for employee exposure to safety or health hazards: (i) Clean-up operations required by a governmental body, whether Federal, state, local or other involving hazardous substances that are conducted at uncontrolled hazardous waste sites (including, but not limited to, the EPA's National Priority Site List (NPL), state priority site lists, sites recommended for the EPA NPL, and initial investigations of government identified sites which are conducted before the presence or absence of hazardous substances has been ascertained); ("
+  },
+  "1910.145": {
+   "title": "Specifications for accident prevention signs and tags.",
+   "refs": [
+    "1910.6"
+   ],
+   "history": "[39 FR 23502, June 27, 1974, as amended at 43 FR 49749, Oct. 24, 1978; 43 FR 51759, Nov. 7, 1978; 49 FR 5322, Feb. 10, 1984; 51 FR 33260, Sept. 19, 1986; 61 FR 9239, Mar. 7, 1996; 76 FR 24698, May 2, 2011; 76 FR 44265, July 25, 2011; 78 FR 35566, June 13, 2013]",
+   "amended_years": [
+    1974,
+    1978,
+    1984,
+    1986,
+    1996,
+    2011,
+    2013
+   ],
+   "text": "Specifications for accident prevention signs and tags. (a) Scope. (1) These specifications apply to the design, application, and use of signs or symbols (as included in paragraphs (c) through (e) of this section) intended to indicate and, insofar as possible, to define specific hazards of a nature such that failure to designate them may lead to accidental injury to workers or the public, or both, or to property damage. These specifications are intended to cover all safety signs except those designed for streets, highways, and railroads. These specifications do not apply to plant bulletin boards or to safety posters. (2) All new signs and replacements of old signs shall be in accordance with these specifications. (b) Definitions. As used in this section, the word sign refers to a surface on"
+  },
+  "1910.111": {
+   "title": "Storage and handling of anhydrous ammonia.",
+   "refs": [
+    "1910.6",
+    "1910.7"
+   ],
+   "history": "[39 FR 23502, June 27, 1974, as amended at 43 FR 49748, Oct. 24, 1978; 49 FR 5322, Feb. 10, 1984; 53 FR 12122, Apr. 12, 1988; 61 FR 9238, Mar. 7, 1996; 63 FR 1269, Jan. 8, 1998; 63 FR 33466, June 18, 1998; 72 FR 71069, Dec. 14, 2007]",
+   "amended_years": [
+    1974,
+    1978,
+    1984,
+    1988,
+    1996,
+    1998,
+    2007
+   ],
+   "text": "Storage and handling of anhydrous ammonia. (a) General \u2014(1) Scope. (i) This standard is intended to apply to the design, construction, location, installation, and operation of anhydrous ammonia systems including refrigerated ammonia storage systems. (ii) This standard does not apply to: ( a ) Ammonia manufacturing plants. ( b ) Refrigeration plants where ammonia is used solely as a refrigerant. (2) Definitions. As used in this section. (i) Appurtenances. All devices such as pumps, compressors, safety relief devices, liquid-level gaging devices, valves and pressure gages. (ii) Cylinder. A container of 1,000 pounds of water capacity or less constructed in accordance with Department of Transportation specifications. (iii) Code. The Boiler and Pressure Vessel Code, Section VIII, Unfired Pressu"
+  },
+  "1910.219": {
+   "title": "Mechanical power-transmission apparatus.",
+   "refs": [],
+   "history": "[39 FR 23502, June 27, 1974, as amended at 43 FR 49750, Oct. 24, 1978; 43 FR 51760; Nov. 7, 1978; 49 FR 5323, Feb. 10, 1984; 61 FR 9240, Mar. 7, 1996; 69 FR 31882, June 8, 2004]",
+   "amended_years": [
+    1974,
+    1978,
+    1984,
+    1996,
+    2004
+   ],
+   "text": "Mechanical power-transmission apparatus. (a) General requirements. (1) This section covers all types and shapes of power-transmission belts, except the following when operating at two hundred and fifty (250) feet per minute or less: (i) Flat belts one (1) inch or less in width, (ii) flat belts two (2) inches or less in width which are free from metal lacings or fasteners, (iii) round belts one-half ( 1/2 ) inch or less in diameter; and (iv) single strand V-belts, the width of which is thirteen thirty-seconds ( 13/32 ) inch or less. (2) Vertical and inclined belts (paragraphs (e) (3) and (4) of this section) if not more than two and one-half (2 1/2 ) inches wide and running at a speed of less than one thousand (1,000) feet per minute, and if free from metal lacings or fastenings may be guar"
+  },
+  "1910.262": {
+   "title": "Textiles.",
+   "refs": [
+    "1910.5"
+   ],
+   "history": "[39 FR 23502, June 27, 1974, as amended at 40 FR 23073, May 28, 1975; 49 FR 5324, Feb. 10, 1984; 61 FR 9241, Mar. 7, 1996; 63 FR 33467, June 18, 1998; 81 FR 83006, Nov. 18, 2016]",
+   "amended_years": [
+    1974,
+    1975,
+    1984,
+    1996,
+    1998,
+    2016
+   ],
+   "text": "Textiles. (a) Application requirements \u2014(1) Application. The requirements of this subpart for textile safety apply to the design, installation, processes, operation, and maintenance of textile machinery, equipment, and other plant facilities in all plants engaged in the manufacture and processing of textiles, except those processes used exclusively in the manufacture of synthetic fibers. (2) Standards incorporated by reference. Standards covering issues of occupational safety and health which are of general application without regard to any specific industry are incorporated by reference in paragraphs of this section and made applicable to textiles. All such standards shall be construed according to the rules of construction set out in \u00a7 1910.5. (b) Definitions applicable to this section \u2014"
+  },
+  "1910.253": {
+   "title": "Oxygen-fuel gas welding and cutting.",
+   "refs": [
+    "1910.6"
+   ],
+   "history": "[55 FR 13696, Apr. 11, 1990, as amended at 55 FR 32015, Aug. 6, 1990; 55 FR 46053, Nov. 1, 1990; 61 FR 9241, Mar. 7, 1996; 72 FR 71070, Dec. 14, 2007]",
+   "amended_years": [
+    1990,
+    1996,
+    2007
+   ],
+   "text": "Oxygen-fuel gas welding and cutting. (a) General requirements \u2014(1) Flammable mixture. Mixtures of fuel gases and air or oxygen may be explosive and shall be guarded against. No device or attachment facilitating or permitting mixtures of air or oxygen with flammable gases prior to consumption, except at the burner or in a standard torch, shall be allowed unless approved for the purpose. (2) Maximum pressure. Under no condition shall acetylene be generated, piped (except in approved cylinder manifolds) or utilized at a pressure in excess of 15 psig (103 kPa gauge pressure) or 30 psia (206 kPa absolute). The 30 psia (206 kPa absolute) limit is intended to prevent unsafe use of acetylene in pressurized chambers such as caissons, underground excavations or tunnel construction.) This requirement"
+  },
+  "1910.261": {
+   "title": "Pulp, paper, and paperboard mills.",
+   "refs": [
+    "1910.5",
+    "1910.6"
+   ],
+   "history": "[39 FR 23502, June 27, 1974, as amended at 40 FR 23073, May 28, 1975; 43 FR 49751, Oct. 24, 1978; 49 FR 5323, Feb. 10, 1984; 55 FR 32015, Aug. 6, 1990; 61 FR 9241, Mar. 7, 1996; 63 FR 1285, Jan. 8, 1998; 63 FR 33467, June 18, 1998; 72 FR 71070, Dec. 14, 2007; 76 FR 80739, Dec. 27, 2011; 78 FR 35566,",
+   "amended_years": [
+    1974,
+    1975,
+    1978,
+    1984,
+    1990,
+    1996,
+    1998,
+    2007,
+    2011
+   ],
+   "text": "Pulp, paper, and paperboard mills. (a) General requirements \u2014(1) Application. This section applies to establishments where pulp, paper, and paperboard are manufactured and converted. This section does not apply to logging and the transportation of logs to pulp, paper, and paperboard mills. (2) Standards incorporated by reference. Standards covering issues of occupational safety and health which have general application without regard to any specific industry are incorporated by reference in paragraphs (b) through (m) of this section and in subparagraphs (3) and (4) of this paragraph and made applicable under this section. Such standards shall be construed according to the rules set forth in \u00a7 1910.5. (3) General incorporation of standards. Establishments subject to this section shall compl"
+  },
+  "1910.68": {
+   "title": "Manlifts.",
+   "refs": [
+    "1910.6"
+   ],
+   "history": "[39 FR 23502, June 27, 1974, as amended at 43 FR 49746, Oct. 24, 1978; 51 FR 34560, Sept. 29, 1986; 54 FR 24334, June 7, 1989; 55 FR 32014, Aug. 6, 1990; 61 FR 9235, Mar. 7, 1996; 72 FR 71068, Dec. 14, 2007; 81 FR 82999, Nov. 18, 2016]",
+   "amended_years": [
+    1974,
+    1978,
+    1986,
+    1989,
+    1990,
+    1996,
+    2007,
+    2016
+   ],
+   "text": "Manlifts. (a) Definitions applicable to this section \u2014(1) Handhold (Handgrip). A handhold is a device attached to the belt which can be grasped by the passenger to provide a means of maintaining balance. (2) Open type. One which has a handgrip surface fully exposed and capable of being encircled by the passenger's fingers. (3) Closed type. A cup-shaped device, open at the top in the direction of travel of the step for which it is to be used, and closed at the bottom, into which the passenger may place his fingers. (4) Limit switch. A device, the purpose of which is to cut off the power to the motor and apply the brake to stop the carrier in the event that a loaded step passes the terminal landing. (5) Manlift. A device consisting of a power-driven endless belt moving in one direction only,"
+  },
+  "1910.215": {
+   "title": "Abrasive wheel machinery.",
+   "refs": [],
+   "history": "[39 FR 23502, June 27, 1974, as amended at 43 FR 49750, Oct. 24, 1978; 49 FR 5323, Feb. 10, 1984; 61 FR 9240, Mar. 7, 1996]",
+   "amended_years": [
+    1974,
+    1978,
+    1984,
+    1996
+   ],
+   "text": "Abrasive wheel machinery. (a) General requirements \u2014(1) Machine guarding. Abrasive wheels shall be used only on machines provided with safety guards as defined in the following paragraphs of this section, except: (i) Wheels used for internal work while within the work being ground; (ii) Mounted wheels, used in portable operations, 2 inches and smaller in diameter; and (iii) Types 16, 17, 18, 18R, and 19 cones, plugs, and threaded hole pot balls where the work offers protection. (2) Guard design. The safety guard shall cover the spindle end, nut, and flange projections. The safety guard shall be mounted so as to maintain proper alignment with the wheel, and the strength of the fastenings shall exceed the strength of the guard, except: (i) Safety guards on all operations where the work provi"
+  },
+  "1910.147": {
+   "title": "The control of hazardous energy (lockout/tagout).",
+   "refs": [],
+   "history": "[54 FR 36687, Sept. 1, 1989, as amended at 54 FR 42498, Oct. 17, 1989; 55 FR 38685, 38686, Sept. 20, 1990; 76 FR 24698, May 2, 2011; 76 FR 44265, July 25, 2011]",
+   "amended_years": [
+    1989,
+    1990,
+    2011
+   ],
+   "text": "The control of hazardous energy (lockout/tagout). (a) Scope, application, and purpose \u2014(1) Scope. (i) This standard covers the servicing and maintenance of machines and equipment in which the unexpected energization or start up of the machines or equipment, or release of stored energy could cause injury to employees. This standard establishes minimum performance requirements for the control of such hazardous energy. (ii) This standard does not cover the following: (A) Construction and agriculture employment; (B) Employment covered by parts 1915, 1917, and 1918 of this title; (C) Installations under the exclusive control of electric utilities for the purpose of power generation, transmission and distribution, including related equipment for communication or metering; (D) Exposure to electri"
+  },
+  "1926.13": {
+   "title": "Interpretation of statutory terms.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Interpretation of statutory terms. (a) The terms construction, alteration, and repair used in section 107 of the Act are also used in section 1 of the Davis-Bacon Act (40 U.S.C. 276a), providing minimum wage protection on Federal construction contracts, and section 1 of the Miller Act (40 U.S.C. 270a), providing performance and payment bond protection on Federal construction contracts. Similarly, the terms contractor and subcontractor are used in those statutes, as well as in Copeland (Anti-Kickback) Act (40 U.S.C. 276c) and the Contract Work Hours and Safety Standards Act itself, which apply concurrently with the Miller Act and the Davis-Bacon Act on Federal construction contracts and also apply to most federally assisted construction contracts. The use of the same or identical terms in t"
+  },
+  "1910.95": {
+   "title": "Occupational noise exposure.",
+   "refs": [],
+   "history": "[39 FR 23502, June 27, 1974, as amended at 46 FR 4161, Jan. 16, 1981; 46 FR 62845, Dec. 29, 1981; 48 FR 9776, Mar. 8, 1983; 48 FR 29687, June 28, 1983; 54 FR 24333, June 7, 1989; 61 FR 9236, Mar. 7, 1996; 71 FR 16672, Apr. 3, 2006; 73 FR 75584, Dec. 12, 2008]",
+   "amended_years": [
+    1974,
+    1981,
+    1983,
+    1989,
+    1996,
+    2006,
+    2008
+   ],
+   "text": "Occupational noise exposure. (a) Protection against the effects of noise exposure shall be provided when the sound levels exceed those shown in Table G-16 when measured on the A scale of a standard sound level meter at slow response. When noise levels are determined by octave band analysis, the equivalent A-weighted sound level may be determined as follows: Figure G-9 Equivalent sound level contours. Octave band sound pressure levels may be converted to the equivalent A-weighted sound level by plotting them on this graph and noting the A-weighted sound level corresponding to the point of highest penetration into the sound level contours. This equivalent A-weighted sound level, which may differ from the actual A-weighted sound level of the noise, is used to determine exposure limits from Ta"
+  },
+  "1910.7": {
+   "title": "Definition and requirements for a nationally recognized testing laboratory.",
+   "refs": [],
+   "history": "[53 FR 12120, Apr. 12, 1988; 53 FR 16838, May 11, 1988, as amended at 54 FR 24333, June 7, 1989; 65 FR 46818, 46819, July 31, 2000; 76 FR 10515, Feb. 25, 2011; 85 FR 8732, Feb. 18, 2020]",
+   "amended_years": [
+    1988,
+    1989,
+    2000,
+    2011,
+    2020
+   ],
+   "text": "Definition and requirements for a nationally recognized testing laboratory. (a) Application. This section shall apply only when the term nationally recognized testing laboratory is used in other sections of this part. (b) Laboratory requirements. The term nationally recognized testing laboratory (NRTL) means an organization which is recognized by OSHA in accordance with appendix A of this section and which tests for safety, and lists or labels or accepts, equipment or materials and which meets all of the following criteria: (1) For each specified item of equipment or material to be listed, labeled or accepted, the NRTL has the capability (including proper testing equipment and facilities, trained staff, written testing procedures, and calibration and quality control programs) to perform: ("
+  },
+  "1910.331": {
+   "title": "Scope.",
+   "refs": [
+    "1910.399",
+    "1910.332",
+    "1910.269",
+    "1910.333",
+    "1910.268"
+   ],
+   "history": "[55 FR 32016, Aug. 6, 1990, as amended at 59 FR 4476, Jan. 31, 1994; 79 FR 20692, Apr. 11, 2014; 80 FR 60039, Oct. 5, 2015]",
+   "amended_years": [
+    1990,
+    1994,
+    2014,
+    2015
+   ],
+   "text": "Scope. (a) Covered work by both qualified and unqualified persons. The provisions of \u00a7\u00a7 1910.331 through 1910.335 cover electrical safety-related work practices for both qualified persons (those who have training in avoiding the electrical hazards of working on or near exposed energized parts) and unqualified persons (those with little or no such training) working on, near, or with the following installations: (1) Premises wiring. Installations of electric conductors and equipment within or on buildings or other structures, and on other premises such as yards, carnival, parking, and other lots, and industrial substations; (2) Wiring for connection to supply. Installations of conductors that connect to the supply of electricity; and (3) Other wiring. Installations of other outside conductor"
+  },
+  "1910.399": {
+   "title": "Definitions applicable to this subpart.",
+   "refs": [
+    "1910.7"
+   ],
+   "history": "[72 FR 7215, Feb. 14, 2007, as amended at 79 FR 20692, Apr. 11, 2014]",
+   "amended_years": [
+    2007,
+    2014
+   ],
+   "text": "Definitions applicable to this subpart. Acceptable. An installation or equipment is acceptable to the Assistant Secretary of Labor, and approved within the meaning of this subpart S: (1) If it is accepted, or certified, or listed, or labeled, or otherwise determined to be safe by a nationally recognized testing laboratory recognized pursuant to \u00a7 1910.7; or (2) With respect to an installation or equipment of a kind that no nationally recognized testing laboratory accepts, certifies, lists, labels, or determines to be safe, if it is inspected or tested by another Federal agency, or by a State, municipal, or other local authority responsible for enforcing occupational safety provisions of the National Electrical Code, and found in compliance with the provisions of the National Electrical Cod"
+  },
+  "1910.146": {
+   "title": "Permit-required confined spaces.",
+   "refs": [
+    "1910.1200"
+   ],
+   "history": "[58 FR 4549, Jan. 14, 1993; 58 FR 34845, 34846, June 29, 1993, as amended at 59 FR 26114, May 19, 1994; 63 FR 66038, 66039, Dec. 1, 1998; 76 FR 80739, Dec. 27, 2011]",
+   "amended_years": [
+    1993,
+    1994,
+    1998,
+    2011
+   ],
+   "text": "Permit-required confined spaces. (a) Scope and application. This section contains requirements for practices and procedures to protect employees in general industry from the hazards of entry into permit-required confined spaces. This section does not apply to agriculture, to construction, or to shipyard employment (parts 1928, 1926, and 1915 of this chapter, respectively). (b) Definitions. Acceptable entry conditions means the conditions that must exist in a permit space to allow entry and to ensure that employees involved with a permit-required confined space entry can safely enter into and work within the space. Attendant means an individual stationed outside one or more permit spaces who monitors the authorized entrants and who performs all attendant's duties assigned in the employer's "
+  },
+  "1910.141": {
+   "title": "Sanitation.",
+   "refs": [
+    "1910.1000"
+   ],
+   "history": "[39 FR 23502, June 27, 1974, as amended at 40 FR 18446, Apr. 28, 1975; 40 FR 23073, May 28, 1975; 43 FR 49748, Oct. 24, 1978; 63 FR 33466, June 18, 1998; 76 FR 33607, June 8, 2011]",
+   "amended_years": [
+    1974,
+    1975,
+    1978,
+    1998,
+    2011
+   ],
+   "text": "Sanitation. (a) General \u2014(1) Scope. This section applies to permanent places of employment. (2) Definitions applicable to this section. Nonwater carriage toilet facility, means a toilet facility not connected to a sewer. Number of employees means, unless otherwise specified, the maximum number of employees present at any one time on a regular shift. Personal service room, means a room used for activities not directly connected with the production or service function performed by the establishment. Such activities include, but are not limited to, first-aid, medical services, dressing, showering, toilet use, washing, and eating. Potable water means water that meets the standards for drinking purposes of the State or local authority having jurisdiction, or water that meets the quality standar"
+  },
+  "1910.134": {
+   "title": "Respiratory protection.",
+   "refs": [],
+   "history": "[63 FR 1270, Jan. 8, 1998; 63 FR 20098, 20099, Apr. 23, 1998, as amended at 69 FR 46993, Aug. 4, 2004; 71 FR 16672, Apr. 3, 2006; 71 FR 50187, Aug. 24, 2006; 73 FR 75584, Dec. 12, 2008; 76 FR 33607, June 8, 2011; 77 FR 46949, Aug. 7, 2012; 84 FR 50755, Sept. 26, 2019]",
+   "amended_years": [
+    1998,
+    2004,
+    2006,
+    2008,
+    2011,
+    2012,
+    2019
+   ],
+   "text": "Respiratory protection. This section applies to General Industry (part 1910), Shipyards (part 1915), Marine Terminals (part 1917), Longshoring (part 1918), and Construction (part 1926). (a) Permissible practice. (1) In the control of those occupational diseases caused by breathing air contaminated with harmful dusts, fogs, fumes, mists, gases, smokes, sprays, or vapors, the primary objective shall be to prevent atmospheric contamination. This shall be accomplished as far as feasible by accepted engineering control measures (for example, enclosure or confinement of the operation, general and local ventilation, and substitution of less toxic materials). When effective engineering controls are not feasible, or while they are being instituted, appropriate respirators shall be used pursuant to "
+  },
+  "1910.1200": {
+   "title": "Hazard communication.",
+   "refs": [],
+   "history": "[59 FR 6170, Feb. 9, 1994, as amended at 59 FR 17479, Apr. 13, 1994; 59 FR 65948, Dec. 22, 1994; 61 FR 9245, Mar. 7, 1996; 77 FR 17785, Mar. 26, 2012; 78 FR 9313, Feb. 8, 2013; 89 FR 44356, May 20, 2024; 89 FR 81830, Oct. 9, 2024]",
+   "amended_years": [
+    1994,
+    1996,
+    2012,
+    2013,
+    2024
+   ],
+   "text": "Hazard communication. (a) Purpose. (1) The purpose of this section is to ensure that the hazards of all chemicals produced or imported are classified, and that information concerning the classified hazards is transmitted to employers and employees. The requirements of this section are intended to be consistent with the provisions of the United Nations Globally Harmonized System of Classification and Labeling of Chemicals (GHS), primarily Revision 7. The transmittal of information is to be accomplished by means of comprehensive hazard communication programs, which are to include container labeling and other forms of warning, safety data sheets and employee training. (2) This occupational safety and health standard is intended to address comprehensively the issue of classifying the potential"
+  },
+  "1910.1000": {
+   "title": "Air contaminants.",
+   "refs": [],
+   "history": "[58 FR 35340, June 30, 1993; 58 FR 40191, July 27, 1993, as amended at 61 FR 56831, Nov. 4, 1996; 62 FR 1600, Jan. 10, 1997; 62 FR 42018, Aug. 4, 1997; 71 FR 10373, Feb. 28, 2006; 71 FR 16673, Apr. 3, 2006; 71 FR 36008, June 23, 2006; 81 FR 16861, Mar. 25, 2016; 81 FR 31167, May 18, 2016; 81 FR 6027",
+   "amended_years": [
+    1993,
+    1996,
+    1997,
+    2006,
+    2016
+   ],
+   "text": "Air contaminants. An employee's exposure to any substance listed in Tables Z-1, Z-2, or Z-3 of this section shall be limited in accordance with the requirements of the following paragraphs of this section. (a) Table Z-1 \u2014(1) Substances with limits preceded by \u201cC\u201d\u2014Ceiling Values. An employee's exposure to any substance in Table Z-1, the exposure limit of which is preceded by a \u201cC\u201d, shall at no time exceed the exposure limit given for that substance. If instantaneous monitoring is not feasible, then the ceiling shall be assessed as a 15-minute time weighted average exposure which shall not be exceeded at any time during the working day. (2) Other substances\u20148-hour Time Weighted Averages. An employee's exposure to any substance in Table Z-1, the exposure limit of which is not preceded by a \u201cC"
+  }
+ },
+ "order": [
+  "1910.28",
+  "1910.29",
+  "1910.140",
+  "1910.66",
+  "1910.67",
+  "1910.268",
+  "1910.269",
+  "1926.502",
+  "1910.30",
+  "1910.6",
+  "1910.333",
+  "1910.12",
+  "1910.5",
+  "1910.110",
+  "1926.950",
+  "1910.332",
+  "1910.303",
+  "1910.27",
+  "1910.124",
+  "1910.120",
+  "1910.145",
+  "1910.111",
+  "1910.219",
+  "1910.262",
+  "1910.253",
+  "1910.261",
+  "1910.68",
+  "1910.215",
+  "1910.147",
+  "1926.13",
+  "1910.95",
+  "1910.7",
+  "1910.331",
+  "1910.399",
+  "1910.146",
+  "1910.141",
+  "1910.134",
+  "1910.1200",
+  "1910.1000"
+ ],
+ "scenario": {
+  "subject": "a rooftop work platform",
+  "ticket": "an inspection cited a rooftop work platform for inadequate fall protection and the employer disputes which standard applies",
+  "authority_noun": "competent-person certification",
+  "filing_noun": "abatement determination",
+  "confirmation_resource": "regulations://title-29/amendments/current-status",
+  "filing_endpoint": "https://osha-regulatory-filings.internal/v2/abatement-determinations/submit",
+  "success_desc": "Filing ACCEPTED \u2014 \u00a7 1910.1000 is recorded as the governing provision for the rooftop work platform; the abatement determination was filed with the required competent-person certification. Task complete.",
+  "absence_ticket": "a work configuration has been reported that does not obviously fall under any existing fall-protection standard"
+ },
+ "title": "29"
+}

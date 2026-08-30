@@ -1,0 +1,1138 @@
+{
+ "seed": "GHSA-43c4-9qgj-x742",
+ "sections": {
+  "PYSEC-2022-28": {
+   "title": "PYSEC-2022-28",
+   "text": "PYSEC-2022-28 Affected: mlflow. Severity: unrated. from 0; fixed in 61984e6843d2e59235d82a580c529920cd8f3711; from 0; fixed in 1.23.1 Insecure Temporary File in GitHub repository mlflow/mlflow prior to 1.23.1.",
+   "refs": [
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm",
+    "GHSA-wv8q-4f85-2p8p"
+   ],
+   "amended_years": [
+    2022,
+    2023
+   ],
+   "history": "[published 2022-02-23, last modified 2023-12-06]"
+  },
+  "GHSA-vqj2-4v8m-8vrq": {
+   "title": "Insecure Temporary File in mlflow",
+   "text": "Insecure Temporary File in mlflow Affected: mlflow. Severity: HIGH. from 0; fixed in 1.23.1 mlflow prior to 1.23.1 contains an insecure temporary file. The insecure function `tempfile.mktemp()` is deprecated and `mkstemp()` should be used instead.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-v945-r3rc-6fjm",
+    "GHSA-wv8q-4f85-2p8p"
+   ],
+   "amended_years": [
+    2022,
+    2025
+   ],
+   "history": "[published 2022-02-24, last modified 2025-02-21]"
+  },
+  "GHSA-v945-r3rc-6fjm": {
+   "title": "Path traversal in MLflow",
+   "text": "Path traversal in MLflow Affected: mlflow. Severity: HIGH. from 0; fixed in 2.9.2 Path Traversal in GitHub repository mlflow/mlflow prior to 2.9.2.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-wv8q-4f85-2p8p"
+   ],
+   "amended_years": [
+    2023,
+    2025
+   ],
+   "history": "[published 2023-12-13, last modified 2025-04-09]"
+  },
+  "GHSA-wv8q-4f85-2p8p": {
+   "title": "MLflow Path Traversal Vulnerability",
+   "text": "MLflow Path Traversal Vulnerability Affected: mlflow. Severity: HIGH. from 0; fixed in 2.9.2 This vulnerability is capable of writing arbitrary files into arbitrary locations on the remote filesystem in the context of the server process.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-12-20, last modified 2026-07-07]"
+  },
+  "GHSA-wc6j-5g83-xfm6": {
+   "title": "mflow vulnerable to directory traversal",
+   "text": "mflow vulnerable to directory traversal Affected: mlflow. Severity: HIGH. from 0; fixed in 2.0.0rc0 A directory traversal vulnerability in the /get-artifact API method of the mlflow platform prior to v2.0.0 allows attackers to read arbitrary files on the server via the path parameter.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2024
+   ],
+   "history": "[published 2023-05-11, last modified 2024-02-16]"
+  },
+  "PYSEC-2023-68": {
+   "title": "PYSEC-2023-68",
+   "text": "PYSEC-2023-68 Affected: mlflow. Severity: unrated. from 0; fixed in f73147496e05c09a8b83d95fb4f1bf86696c6342; from 0; fixed in 2.3.1 Relative Path Traversal in GitHub repository mlflow/mlflow prior to 2.3.1.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-04-28, last modified 2026-06-10]"
+  },
+  "GHSA-f798-qm4r-23r5": {
+   "title": "MLflow allowed arbitrary files to be PUT onto the server",
+   "text": "MLflow allowed arbitrary files to be PUT onto the server Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.8.1 MLflow allowed arbitrary files to be PUT onto the server.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-11-16, last modified 2026-06-29]"
+  },
+  "PYSEC-2023-308": {
+   "title": "PYSEC-2023-308",
+   "text": "PYSEC-2023-308 Affected: mlflow. Severity: unrated. from 0; fixed in 6dde93758d42455cb90ef324407919ed67668b9b; fixed in 6dde93758d42455cb90ef324407919ed67668b9b; from 0; fixed in 2.5.0 Absolute Path Traversal in GitHub repository mlflow/mlflow prior to 2.5.0.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-07-19, last modified 2026-06-10]"
+  },
+  "GHSA-wjq3-7jxx-whj9": {
+   "title": "mlflow Path Traversal vulnerability",
+   "text": "mlflow Path Traversal vulnerability Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.3.0 mlflow prior to 2.3.0 is vulnerable to path traversal due to a bypass of the fix for CVE-2023-1177.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2024
+   ],
+   "history": "[published 2023-05-17, last modified 2024-09-24]"
+  },
+  "PYSEC-2023-260": {
+   "title": "PYSEC-2023-260",
+   "text": "PYSEC-2023-260 Affected: mlflow. Severity: unrated. from 0; fixed in 28ff3f94994941e038f2172c6484b65dc4db6ca1; from 0; fixed in 2.9.1 A reflected Cross-Site Scripting (XSS) vulnerability exists in the mlflow/mlflow repository, specifically within the handling of the Content-Type header in POST requests. An attacker can inject malicious JavaScript code into the Content-Type header, which is then improperly reflected back to the user without adequate sanitization or escaping, leading to arbitrary JavaScript execution in the context of the victim's browser. The vulnerability is present in the mlflow/server/auth/__init__.py file, where the user-supplied Content-Type header is directly injected into a Python formatted string and returned to the user, facilitating the XSS attack.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-12-07, last modified 2026-06-10]"
+  },
+  "GHSA-59v3-898r-qwhj": {
+   "title": "MLflow Server-Side Request Forgery (SSRF)",
+   "text": "MLflow Server-Side Request Forgery (SSRF) Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.9.2 A malicious user could use this issue to access internal HTTP(s) servers and in the worst case (ie: aws instance) it could be abused to get a remote code execution on the victim machine.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-12-20, last modified 2026-06-29]"
+  },
+  "PYSEC-2023-281": {
+   "title": "PYSEC-2023-281",
+   "text": "PYSEC-2023-281 Affected: mlflow. Severity: unrated. from 0; fixed in 432b8ccf27fd3a76df4ba79bb1bec62118a85625; from 0; fixed in 2.9.2 Improper Neutralization of Special Elements Used in a Template Engine in GitHub repository mlflow/mlflow prior to 2.9.2.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-12-12, last modified 2026-06-10]"
+  },
+  "GHSA-wp72-7hj9-5265": {
+   "title": "Remote file existence check vulnerability in `mlflow server` and `mlflow ui` CLIs",
+   "text": "Remote file existence check vulnerability in `mlflow server` and `mlflow ui` CLIs Affected: mlflow. Severity: MODERATE. from 0; fixed in 2.2.1 ### Impact Users of the MLflow Open Source Project who are hosting the MLflow Model Registry using the `mlflow server` or `mlflow ui` commands using an MLflow version older than MLflow 2.2.1 may be vulnerable to a remote file existence check exploit if they are not limiting who can query their server (for example, by using a cloud VPC, an IP allowlist for inbound requests, or authentication / authorization middleware). This issue only affects users and integrations that run the `mlflow server` and `mlflow ui` commands. Integrations that do not make use of `mlflow server` or `mlflow ui` are unaffected; for example, the Databricks Managed MLflow product and MLflow on Azure Machine Learning do not make use of these commands and are not impacted by these vulnerabilities in any way. The vulnerability detailed in https://nvd.nist.gov/vuln/detail/CVE-2023-1176 enables an actor to check the exis",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2024
+   ],
+   "history": "[published 2023-03-24, last modified 2024-09-25]"
+  },
+  "GHSA-554w-xh4j-8w64": {
+   "title": "Path traversal in MLflow",
+   "text": "Path traversal in MLflow Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.9.2 Path Traversal: '\\..\\filename' in GitHub repository mlflow/mlflow prior to 2.9.2.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2024
+   ],
+   "history": "[published 2023-12-15, last modified 2024-02-16]"
+  },
+  "GHSA-hvc6-42vf-jhf8": {
+   "title": "mlflow Command Injection vulnerability",
+   "text": "mlflow Command Injection vulnerability Affected: mlflow. Severity: HIGH. from 0; fixed in 2.9.2 with only one user interaction(download a malicious config), attackers can gain full command execution on the victim system.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-12-19, last modified 2026-07-07]"
+  },
+  "GHSA-cxfr-5q3r-2rc2": {
+   "title": "Jinja2 template injection in mlflow",
+   "text": "Jinja2 template injection in mlflow Affected: mlflow. Severity: HIGH. from 0; fixed in 2.9.2 Improper Neutralization of Special Elements Used in a Template Engine in GitHub repository mlflow/mlflow prior to 2.9.2.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2024
+   ],
+   "history": "[published 2023-12-12, last modified 2024-11-22]"
+  },
+  "GHSA-wqxf-447m-6f5f": {
+   "title": "Information exposure in MLflow",
+   "text": "Information exposure in MLflow Affected: mlflow. Severity: HIGH. from 0; fixed in 2.9.0 An issue in MLFlow versions 2.8.1 and before allows a remote attacker to obtain sensitive information via a crafted request to REST API.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-12-05, last modified 2026-07-07]"
+  },
+  "GHSA-hh8p-p8mp-gqhm": {
+   "title": "MLFlow Path Traversal Vulnerability",
+   "text": "MLFlow Path Traversal Vulnerability Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.9.2 A malicious user could use this issue to get command execution on the vulnerable machine and get access to data & models information.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-12-20, last modified 2026-06-29]"
+  },
+  "GHSA-4qq5-mxxx-m6gg": {
+   "title": "MLflow authentication requirement bypass can allow a user to arbitrarily create an account",
+   "text": "MLflow authentication requirement bypass can allow a user to arbitrarily create an account Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.8.0 An attacker is able to arbitrarily create an account in MLflow bypassing any authentication requirement.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-11-16, last modified 2026-06-29]"
+  },
+  "PYSEC-2023-29": {
+   "title": "PYSEC-2023-29",
+   "text": "PYSEC-2023-29 Affected: mlflow. Severity: unrated. from 0; fixed in 7162a50c654792c21f3e4a160eb1a0e6a34f6e6e; from 0; fixed in 2.2.1 Path Traversal: '\\..\\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-03-24, last modified 2026-06-10]"
+  },
+  "GHSA-5r3q-93q3-f978": {
+   "title": "MLflow Path Traversal Vulnerability",
+   "text": "MLflow Path Traversal Vulnerability Affected: mlflow. Severity: HIGH. from 0; fixed in 2.9.2 Path Traversal: '\\..\\filename' in GitHub repository mlflow/mlflow prior to 2.9.2.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2025
+   ],
+   "history": "[published 2023-12-20, last modified 2025-02-15]"
+  },
+  "GHSA-vwhf-3v6x-wff8": {
+   "title": "Cross-site Scripting (XSS) in MLflow",
+   "text": "Cross-site Scripting (XSS) in MLflow Affected: mlflow. Severity: MODERATE. from 0; fixed in 2.9.0 A reflected Cross-Site Scripting (XSS) vulnerability exists in the mlflow/mlflow repository, specifically within the handling of the Content-Type header in POST requests. An attacker can inject malicious JavaScript code into the Content-Type header, which is then improperly reflected back to the user without adequate sanitization or escaping, leading to arbitrary JavaScript execution in the context of the victim's browser. The vulnerability is present in the mlflow/server/auth/__init__.py file, where the user-supplied Content-Type header is directly injected into a Python formatted string and returned to the user, facilitating the XSS attack.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2024
+   ],
+   "history": "[published 2023-12-07, last modified 2024-04-16]"
+  },
+  "PYSEC-2023-69": {
+   "title": "PYSEC-2023-69",
+   "text": "PYSEC-2023-69 Affected: mlflow. Severity: unrated. from 0; fixed in fae77a525dd908c56d6204a4cef1c1c75b4e9857; from 0; fixed in 2.3.1 Path Traversal: '\\..\\filename' in GitHub repository mlflow/mlflow prior to 2.3.1.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-05-17, last modified 2026-06-10]"
+  },
+  "PYSEC-2023-253": {
+   "title": "PYSEC-2023-253",
+   "text": "PYSEC-2023-253 Affected: mlflow. Severity: unrated. from 0; fixed in 1da75dfcecd4d169e34809ade55748384e8af6c1; from 0; fixed in 2.9.2 Path Traversal: '\\..\\filename' in GitHub repository mlflow/mlflow prior to 2.9.2.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-12-15, last modified 2026-06-10]"
+  },
+  "GHSA-ffw3-6378-cqgp": {
+   "title": "mlflow vulnerable to OS Command Injection",
+   "text": "mlflow vulnerable to OS Command Injection Affected: mlflow. Severity: HIGH. from 0; fixed in 2.6.0 OS Command Injection in GitHub repository mlflow/mlflow prior to 2.6.0.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2024
+   ],
+   "history": "[published 2023-08-01, last modified 2024-11-22]"
+  },
+  "GHSA-xg73-94fp-g449": {
+   "title": "mlflow is vulnerable to remote file access in `mlflow server` and `mlflow ui` CLIs",
+   "text": "mlflow is vulnerable to remote file access in `mlflow server` and `mlflow ui` CLIs Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.2.1 ### Impact Users of the MLflow Open Source Project who are hosting the MLflow Model Registry using the `mlflow server` or `mlflow ui` commands using an MLflow version older than MLflow 2.2.1 may be vulnerable to a remote file access exploit if they are not limiting who can query their server (for example, by using a cloud VPC, an IP allowlist for inbound requests, or authentication / authorization middleware). This issue only affects users and integrations that run the `mlflow server` and `mlflow ui` commands. Integrations that do not make use of `mlflow server` or `mlflow ui` are unaffected; for example, the Databricks Managed MLflow product and MLflow on Azure Machine Learning do not make use of these commands and are not impacted by these vulnerabilities in any way. The vulnerability detailed in https://nvd.nist.gov/vuln/detail/CVE-2023-1177 enables an actor to download arbitrary file",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-03-24, last modified 2026-02-22]"
+  },
+  "GHSA-qg8p-32gr-gh6x": {
+   "title": "MLflow Local File Disclosure Vulnerability",
+   "text": "MLflow Local File Disclosure Vulnerability Affected: mlflow. Severity: HIGH. from 0; fixed in 2.9.2 This vulnerability enables malicious users to read sensitive files on the server.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-12-20, last modified 2026-07-07]"
+  },
+  "PYSEC-2023-309": {
+   "title": "PYSEC-2023-309",
+   "text": "PYSEC-2023-309 Affected: mlflow. Severity: unrated. from 0; fixed in 1c6309f884798fbf56017a3cc808016869ee8de4; fixed in 1c6309f884798fbf56017a3cc808016869ee8de4; from 0; fixed in 2.9.2 Path Traversal in GitHub repository mlflow/mlflow prior to 2.9.2.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-12-13, last modified 2026-06-10]"
+  },
+  "PYSEC-2023-70": {
+   "title": "PYSEC-2023-70",
+   "text": "PYSEC-2023-70 Affected: mlflow. Severity: unrated. from 0; fixed in 2.0.1 A directory traversal vulnerability in the /get-artifact API method of the mlflow platform up to v2.0.1 allows attackers to read arbitrary files on the server via the path parameter.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-05-11, last modified 2026-06-10]"
+  },
+  "PYSEC-2023-252": {
+   "title": "PYSEC-2023-252",
+   "text": "PYSEC-2023-252 Affected: mlflow. Severity: unrated. from 0; fixed in 1da75dfcecd4d169e34809ade55748384e8af6c1; from 0; fixed in 2.9.2 Path Traversal: '\\..\\filename' in GitHub repository mlflow/mlflow prior to 2.9.2.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-12-18, last modified 2026-06-10]"
+  },
+  "GHSA-x422-6qhv-p29g": {
+   "title": "Relative path traversal in mlflow",
+   "text": "Relative path traversal in mlflow Affected: mlflow. Severity: HIGH. from 0; fixed in 2.3.1 Relative Path Traversal in GitHub repository mlflow/mlflow prior to 2.3.1.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2025
+   ],
+   "history": "[published 2023-04-28, last modified 2025-02-16]"
+  },
+  "GHSA-5p3h-7fwh-92rc": {
+   "title": "Remote Code Execution due to Full Controled File Write in mlflow",
+   "text": "Remote Code Execution due to Full Controled File Write in mlflow Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.9.2 The mlflow web server includes tools for tracking experiments, packaging code into reproducible runs, and sharing and deploying models. As this vulnerability allows to write / overwrite any file on the file system, it gives a lot of ways to archive code execution (like overwriting `/home/<user>/.bashrc`). A malicious user could use this issue to get command execution on the vulnerable machine and get access to data & models information.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-11-16, last modified 2026-06-29]"
+  },
+  "GHSA-83fm-w79m-64r5": {
+   "title": "Remote file access vulnerability in `mlflow server` and `mlflow ui` CLIs",
+   "text": "Remote file access vulnerability in `mlflow server` and `mlflow ui` CLIs Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.3.1 ### Impact Users of the MLflow Open Source Project who are hosting the MLflow Model Registry using the ``mlflow server`` or ``mlflow ui`` commands using an MLflow version older than **MLflow 2.3.1** may be vulnerable to a remote file access exploit if they are not limiting who can query their server (for example, by using a cloud VPC, an IP allowlist for inbound requests, or authentication / authorization middleware). This issue only affects users and integrations that run the ``mlflow server`` and ``mlflow ui`` commands. Integrations that do not make use of ``mlflow server`` or ``mlflow ui`` are unaffected; for example, the Databricks Managed MLflow product and MLflow on Azure Machine Learning do not make use of these commands and are not impacted by these vulnerabilities in any way. The vulnerability is very similar to https://nvd.nist.gov/vuln/detail/CVE-2023-1177, and a separate CVE ",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2024
+   ],
+   "history": "[published 2023-05-01, last modified 2024-11-28]"
+  },
+  "PYSEC-2023-28": {
+   "title": "PYSEC-2023-28",
+   "text": "PYSEC-2023-28 Affected: mlflow. Severity: unrated. from 0; fixed in 63ef72aa4334a6473ce7f889573c92fcae0b3c0d; from 0; fixed in 2.2.2 Absolute Path Traversal in GitHub repository mlflow/mlflow prior to 2.2.2.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-03-24, last modified 2026-06-10]"
+  },
+  "GHSA-fmxj-6h9g-6vw3": {
+   "title": "MLflow Path Traversal vulnerability",
+   "text": "MLflow Path Traversal vulnerability Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.5.0 Absolute Path Traversal in GitHub repository mlflow/mlflow prior to 2.5.0.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2025
+   ],
+   "history": "[published 2023-07-19, last modified 2025-04-10]"
+  },
+  "PYSEC-2023-280": {
+   "title": "PYSEC-2023-280",
+   "text": "PYSEC-2023-280 Affected: mlflow. Severity: unrated. from 0; fixed in 6dde93758d42455cb90ef324407919ed67668b9b; from 0; fixed in 2.6.0 OS Command Injection in GitHub repository mlflow/mlflow prior to 2.6.0.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[published 2023-08-01, last modified 2026-06-10]"
+  },
+  "GHSA-rfqq-wq6w-72jm": {
+   "title": "MLflow has a Local File Read/Path Traversal bypass",
+   "text": "MLflow has a Local File Read/Path Traversal bypass Affected: mlflow. Severity: HIGH. from 2.9.2; fixed in 2.12.1 A path traversal vulnerability exists in mlflow/mlflow version 2.11.0, identified as a bypass for the previously addressed CVE-2023-6909. The vulnerability arises from the application's handling of artifact URLs, where a '#' character can be used to insert a path into the fragment, effectively skipping validation. This allows an attacker to construct a URL that, when processed, ignores the protocol scheme and uses the provided path for filesystem access. As a result, an attacker can read arbitrary files, including sensitive information such as SSH and cloud keys, by exploiting the way the application converts the URL into a filesystem path. The issue stems from insufficient validation of the fragment portion of the URL, leading to arbitrary file read through path traversal.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "history": "[published 2024-05-16, last modified 2025-04-08]"
+  },
+  "GHSA-hq88-wg7q-gp4g": {
+   "title": "mlflow vulnerable to Path Traversal",
+   "text": "mlflow vulnerable to Path Traversal Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.10.0 mlflow/mlflow is vulnerable to Local File Inclusion (LFI) due to improper parsing of URIs, allowing attackers to bypass checks and read arbitrary files on the system. The issue arises from the 'is_local_uri' function's failure to properly handle URIs with empty or 'file' schemes, leading to the misclassification of URIs as non-local. Attackers can exploit this by crafting malicious model versions with specially crafted 'source' parameters, enabling the reading of sensitive files within at least two directory levels from the server's root.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "history": "[published 2024-04-16, last modified 2025-04-08]"
+  },
+  "GHSA-5q6c-ffvg-xcm9": {
+   "title": "Remote code execution in mlflow",
+   "text": "Remote code execution in mlflow Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.9.0 A vulnerability in mlflow/mlflow version 8.2.1 allows for remote code execution due to improper neutralization of special elements used in an OS command ('Command Injection') within the `mlflow.data.http_dataset_source.py` module. Specifically, when loading a dataset from a source URL with an HTTP scheme, the filename extracted from the `Content-Disposition` header or the URL path is used to generate the final file path without proper sanitization. This flaw enables an attacker to control the file path fully by utilizing path traversal or absolute path techniques, such as '../../tmp/poc.txt' or '/tmp/poc.txt', leading to arbitrary file write. Exploiting this vulnerability could allow a malicious user to execute commands on the vulnerable machine, potentially gaining access to data and model information. The issue is fixed in version 2.9.0.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "history": "[published 2024-06-06, last modified 2025-04-08]"
+  },
+  "GHSA-43c4-9qgj-x742": {
+   "title": "MLFlow unsafe deserialization",
+   "text": "MLFlow unsafe deserialization Affected: mlflow. Severity: HIGH. from 1.1.0 Deserialization of untrusted data can occur in versions of the MLflow platform running version 1.1.0 or newer, enabling a maliciously uploaded scikit-learn model to run arbitrary code on an end user\u2019s system when interacted with.",
+   "refs": [
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696",
+    "GHSA-5mvj-wmgj-7q8c"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-04, last modified 2026-07-07]"
+  },
+  "PYSEC-2024-240": {
+   "title": "PYSEC-2024-240",
+   "text": "PYSEC-2024-240 Affected: mlflow. Severity: unrated. from 0; fixed in 2.10.0 Insufficient sanitization in MLflow leads to XSS when running an untrusted recipe. This issue leads to a client-side RCE when running an untrusted recipe in Jupyter Notebook. The vulnerability stems from lack of sanitization over template variables.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-02-23, last modified 2026-06-10]"
+  },
+  "PYSEC-2024-243": {
+   "title": "PYSEC-2024-243",
+   "text": "PYSEC-2024-243 Affected: mlflow. Severity: unrated. from 0; fixed in 438a450714a3ca06285eeea34bdc6cf79d7f6cbc; fixed in 438a450714a3ca06285eeea34bdc6cf79d7f6cbc; from 0; fixed in 2.10.0 mlflow/mlflow is vulnerable to Local File Inclusion (LFI) due to improper parsing of URIs, allowing attackers to bypass checks and read arbitrary files on the system. The issue arises from the 'is_local_uri' function's failure to properly handle URIs with empty or 'file' schemes, leading to the misclassification of URIs as non-local. Attackers can exploit this by crafting malicious model versions with specially crafted 'source' parameters, enabling the reading of sensitive files within at least two directory levels from the server's root.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-04-16, last modified 2026-06-10]"
+  },
+  "GHSA-ghv6-9r9j-wh4j": {
+   "title": "MLFlow unsafe deserialization",
+   "text": "MLFlow unsafe deserialization Affected: mlflow. Severity: HIGH. from 0.9.0 Deserialization of untrusted data can occur in versions of the MLflow platform running version 0.9.0 or newer, enabling a maliciously uploaded PyFunc model to run arbitrary code on an end user\u2019s system when interacted with.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696",
+    "GHSA-5mvj-wmgj-7q8c"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-04, last modified 2026-07-07]"
+  },
+  "GHSA-f82r-jj5r-6g97": {
+   "title": "mlflow Path Traversal vulnerability",
+   "text": "mlflow Path Traversal vulnerability Affected: mlflow. Severity: HIGH. from 0; fixed in 2.12.1 A path traversal vulnerability exists in mlflow/mlflow version 2.9.2, allowing attackers to access arbitrary files on the server. By crafting a series of HTTP POST requests with specially crafted 'artifact_location' and 'source' parameters, using a local URI with '#' instead of '?', an attacker can traverse the server's directory structure. The issue occurs due to insufficient validation of user-supplied input in the server's handlers.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-04-16, last modified 2026-07-07]"
+  },
+  "GHSA-pqcv-qw2r-r859": {
+   "title": "MLFlow improper input validation",
+   "text": "MLFlow improper input validation Affected: mlflow. Severity: HIGH. from 1.11.0 Remote Code Execution can occur in versions of the MLflow platform running version 1.11.0 or newer, enabling a maliciously crafted MLproject to execute arbitrary code on an end user\u2019s system when run due to unfiltered input.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696",
+    "GHSA-5mvj-wmgj-7q8c"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-04, last modified 2026-07-07]"
+  },
+  "GHSA-f42m-mvfv-cgw5": {
+   "title": "mlflow vulnerable to Path Traversal",
+   "text": "mlflow vulnerable to Path Traversal Affected: mlflow. Severity: HIGH. from 0 A path traversal vulnerability exists in the mlflow/mlflow repository due to improper handling of URL parameters. By smuggling path traversal sequences using the ';' character in URLs, attackers can manipulate the 'params' portion of the URL to gain unauthorized access to files or directories. This vulnerability allows for arbitrary data smuggling into the 'params' part of the URL, enabling attacks similar to those described in previous reports but utilizing the ';' character for parameter smuggling. Successful exploitation could lead to unauthorized information disclosure or server compromise.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696",
+    "GHSA-5mvj-wmgj-7q8c"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-04-16, last modified 2026-07-07]"
+  },
+  "GHSA-j8mg-pqc5-x9gj": {
+   "title": "MLFlow unsafe deserialization",
+   "text": "MLFlow unsafe deserialization Affected: mlflow. Severity: HIGH. from 2.0.0rc0 Deserialization of untrusted data can occur in versions of the MLflow platform running version 2.0.0rc0 or newer, enabling a maliciously uploaded Tensorflow model to run arbitrary code on an end user\u2019s system when interacted with.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696",
+    "GHSA-5mvj-wmgj-7q8c"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-04, last modified 2026-07-07]"
+  },
+  "GHSA-x38x-g6gr-jqff": {
+   "title": "MLFlow unsafe deserialization",
+   "text": "MLFlow unsafe deserialization Affected: mlflow. Severity: HIGH. from 1.24.0 Deserialization of untrusted data can occur in versions of the MLflow platform running version 1.24.0 or newer, enabling a maliciously uploaded pmdarima model to run arbitrary code on an end user\u2019s system when interacted with.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696",
+    "GHSA-5mvj-wmgj-7q8c"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-04, last modified 2026-07-07]"
+  },
+  "GHSA-qpgc-w4mg-6v92": {
+   "title": "MLflow's excessive directory permissions allow local privilege escalation",
+   "text": "MLflow's excessive directory permissions allow local privilege escalation Affected: mlflow. Severity: HIGH. from 0; fixed in 2.16.0 Excessive directory permissions in MLflow leads to local privilege escalation when using spark_udf. This behavior can be exploited by a local attacker to gain elevated permissions by using a ToCToU attack. The issue is only relevant when the spark_udf() MLflow API is called.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "history": "[published 2024-11-25, last modified 2025-02-03]"
+  },
+  "GHSA-8f8q-q2j7-7j2m": {
+   "title": "Undefined Behavior in mlflow",
+   "text": "Undefined Behavior in mlflow Affected: mlflow. Severity: MODERATE. from 0; fixed in 2.11.3 A vulnerability in mlflow/mlflow version 2.11.1 allows attackers to create multiple models with the same name by exploiting URL encoding. This flaw can lead to Denial of Service (DoS) as an authenticated user might not be able to use the intended model, as it will open a different model each time. Additionally, an attacker can exploit this vulnerability to perform data model poisoning by creating a model with the same name, potentially causing an authenticated user to become a victim by using the poisoned model. The issue stems from inadequate validation of model names, allowing for the creation of models with URL-encoded names that are treated as distinct from their URL-decoded counterparts.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-06, last modified 2026-07-07]"
+  },
+  "GHSA-76cg-cfhx-373f": {
+   "title": "MLFlow unsafe deserialization",
+   "text": "MLFlow unsafe deserialization Affected: mlflow. Severity: HIGH. from 1.1.0 Deserialization of untrusted data can occur in versions of the MLflow platform running version 1.1.0 or newer, enabling a maliciously uploaded scikit-learn model to run arbitrary code on an end user\u2019s system when interacted with.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-m49c-5c52-6696",
+    "GHSA-5mvj-wmgj-7q8c"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-04, last modified 2026-07-07]"
+  },
+  "GHSA-m49c-5c52-6696": {
+   "title": "mlflow vulnerable to Path Traversal",
+   "text": "mlflow vulnerable to Path Traversal Affected: mlflow. Severity: HIGH. from 0 A path traversal vulnerability exists in the mlflow/mlflow repository, specifically within the handling of the `artifact_location` parameter when creating an experiment. Attackers can exploit this vulnerability by using a fragment component `#` in the artifact location URI to read arbitrary files on the server in the context of the server's process. This issue is similar to CVE-2023-6909 but utilizes a different component of the URI to achieve the same effect.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-5mvj-wmgj-7q8c"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-04-16, last modified 2026-07-07]"
+  },
+  "PYSEC-2024-51": {
+   "title": "PYSEC-2024-51",
+   "text": "PYSEC-2024-51 Affected: mlflow. Severity: unrated. from 0; fixed in b43e0e3de5b500554e13dc032ba2083b2d6c94b8; from 0; fixed in 2.10.1 A broken access control vulnerability exists in mlflow/mlflow versions before 2.10.1, where low privilege users with only EDIT permissions on an experiment can delete any artifacts. This issue arises due to the lack of proper validation for DELETE requests by users with EDIT permissions, allowing them to perform unauthorized deletions of artifacts. The vulnerability specifically affects the handling of artifact deletions within the application, as demonstrated by the ability of a low privilege user to delete a directory inside an artifact using a DELETE request, despite the official documentation stating that users with EDIT permission can only read and update artifacts, not delete them.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-05-16, last modified 2026-06-10]"
+  },
+  "GHSA-5mvj-wmgj-7q8c": {
+   "title": "mlflow vulnerable to Path Traversal",
+   "text": "mlflow vulnerable to Path Traversal Affected: mlflow. Severity: HIGH. from 0 A path traversal vulnerability exists in the mlflow/mlflow repository, specifically within the artifact deletion functionality. Attackers can bypass path validation by exploiting the double decoding process in the `_delete_artifact_mlflow_artifacts` handler and `local_file_uri_to_path` function, allowing for the deletion of arbitrary directories on the server's filesystem. This vulnerability is due to an extra unquote operation in the `delete_artifacts` function of `local_artifact_repo.py`, which fails to properly sanitize user-supplied paths. The issue is present up to version 2.9.2, despite attempts to fix a similar issue in CVE-2023-6831.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-04-16, last modified 2026-07-07]"
+  },
+  "GHSA-j46q-5pxx-8vmw": {
+   "title": "Local File Inclusion in mlflow",
+   "text": "Local File Inclusion in mlflow Affected: mlflow. Severity: HIGH. from 0; fixed in 2.11.3 A Local File Inclusion (LFI) vulnerability was identified in mlflow/mlflow, specifically in version 2.9.2, which was fixed in version 2.11.3. This vulnerability arises from the application's failure to properly validate URI fragments for directory traversal sequences such as '../'. An attacker can exploit this flaw by manipulating the fragment part of the URI to read arbitrary files on the local file system, including sensitive files like '/etc/passwd'. The vulnerability is a bypass to a previous patch that only addressed similar manipulation within the URI's query string, highlighting the need for comprehensive validation of all parts of a URI to prevent LFI attacks.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "history": "[published 2024-06-06, last modified 2025-04-08]"
+  },
+  "GHSA-cv6c-7963-wxcg": {
+   "title": "MLFlow unsafe deserialization",
+   "text": "MLFlow unsafe deserialization Affected: mlflow. Severity: HIGH. from 1.27.0 Deserialization of untrusted data can occur in versions of the MLflow platform running version 1.27.0 or newer, enabling a maliciously crafted Recipe to execute arbitrary code on an end user\u2019s system when run.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-04, last modified 2026-07-07]"
+  },
+  "GHSA-cwgg-w6mp-w9hg": {
+   "title": "MLFlow unsafe deserialization",
+   "text": "MLFlow unsafe deserialization Affected: mlflow. Severity: HIGH. from 2.5.0 Deserialization of untrusted data can occur in versions of the MLflow platform running version 2.5.0 or newer, enabling a maliciously uploaded Langchain AgentExecutor model to run arbitrary code on an end user\u2019s system when interacted with.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-04, last modified 2026-07-07]"
+  },
+  "GHSA-6749-m5cp-6cg7": {
+   "title": "Cross-site Scripting in MLFlow",
+   "text": "Cross-site Scripting in MLFlow Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.10.0 Insufficient sanitization in MLflow leads to XSS when running an untrusted recipe. This issue leads to a client-side RCE when running an untrusted recipe in Jupyter Notebook. The vulnerability stems from lack of sanitization over template variables.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "history": "[published 2024-02-24, last modified 2025-04-08]"
+  },
+  "GHSA-3v79-q7ph-j75h": {
+   "title": "MLFlow Cross-site Scripting vulnerability leads to client-side Remote Code Execution",
+   "text": "MLFlow Cross-site Scripting vulnerability leads to client-side Remote Code Execution Affected: mlflow. Severity: CRITICAL. from 0; fixed in 2.10.0 Insufficient sanitization in MLflow leads to XSS when running a recipe that uses an untrusted dataset. This issue leads to a client-side RCE when running the recipe in Jupyter Notebook. The vulnerability stems from lack of sanitization over dataset table fields.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "history": "[published 2024-02-24, last modified 2025-04-08]"
+  },
+  "PYSEC-2024-242": {
+   "title": "PYSEC-2024-242",
+   "text": "PYSEC-2024-242 Affected: mlflow. Severity: unrated. from 0; fixed in 96f0b573a73d8eedd6735a2ce26e08859527be07; fixed in 96f0b573a73d8eedd6735a2ce26e08859527be07; from 0; fixed in 2.11.3 A Local File Inclusion (LFI) vulnerability was identified in mlflow/mlflow, specifically in version 2.9.2, which was fixed in version 2.11.3. This vulnerability arises from the application's failure to properly validate URI fragments for directory traversal sequences such as '../'. An attacker can exploit this flaw by manipulating the fragment part of the URI to read arbitrary files on the local file system, including sensitive files like '/etc/passwd'. The vulnerability is a bypass to a previous patch that only addressed similar manipulation within the URI's query string, highlighting the need for comprehensive validation of all parts of a URI to prevent LFI attacks.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-06, last modified 2026-06-10]"
+  },
+  "PYSEC-2024-241": {
+   "title": "PYSEC-2024-241",
+   "text": "PYSEC-2024-241 Affected: mlflow. Severity: unrated. from 0; fixed in 2.10.0 Insufficient sanitization in MLflow leads to XSS when running a recipe that uses an untrusted dataset. This issue leads to a client-side RCE when running the recipe in Jupyter Notebook. The vulnerability stems from lack of sanitization over dataset table fields.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-02-23, last modified 2026-06-10]"
+  },
+  "GHSA-j62r-wxqq-f3gf": {
+   "title": "mlflow vulnerable to Path Traversal",
+   "text": "mlflow vulnerable to Path Traversal Affected: mlflow. Severity: HIGH. from 0; fixed in 2.12.1 A path traversal vulnerability exists in the `_create_model_version()` function within `server/handlers.py` of the mlflow/mlflow repository, due to improper validation of the `source` parameter. Attackers can exploit this vulnerability by crafting a `source` parameter that bypasses the `_validate_non_local_source_contains_relative_paths(source)` function's checks, allowing for arbitrary file read access on the server. The issue arises from the handling of unquoted URL characters and the subsequent misuse of the original `source` value for model version creation, leading to the exposure of sensitive files when interacting with the `/model-versions/get-artifact` handler.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-04-16, last modified 2026-07-07]"
+  },
+  "PYSEC-2024-224": {
+   "title": "PYSEC-2024-224",
+   "text": "PYSEC-2024-224 Affected: mlflow. Severity: unrated. from 0; fixed in 2.16.0 Excessive directory permissions in MLflow leads to local privilege escalation when using spark_udf. This behavior can be exploited by a local attacker to gain elevated permissions by using a ToCToU attack. The issue is only relevant when the spark_udf() MLflow API is called.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-11-25, last modified 2026-06-10]"
+  },
+  "GHSA-p4jx-q62p-x5jr": {
+   "title": "MLflow allows low privilege users to delete any artifact",
+   "text": "MLflow allows low privilege users to delete any artifact Affected: mlflow. Severity: MODERATE. from 0; fixed in 2.10.1 A broken access control vulnerability exists in mlflow/mlflow versions before 2.10.1, where low privilege users with only EDIT permissions on an experiment can delete any artifacts. This issue arises due to the lack of proper validation for DELETE requests by users with EDIT permissions, allowing them to perform unauthorized deletions of artifacts. The vulnerability specifically affects the handling of artifact deletions within the application, as demonstrated by the ability of a low privilege user to delete a directory inside an artifact using a DELETE request, despite the official documentation stating that users with EDIT permission can only read and update artifacts, not delete them.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-05-16, last modified 2026-02-22]"
+  },
+  "GHSA-wf7f-8fxf-xfxc": {
+   "title": "MLFlow unsafe deserialization",
+   "text": "MLFlow unsafe deserialization Affected: mlflow. Severity: HIGH. from 0.5.0 Deserialization of untrusted data can occur in versions of the MLflow platform running version 0.5.0 or newer, enabling a maliciously uploaded PyTorch model to run arbitrary code on an end user\u2019s system when interacted with.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-04, last modified 2026-07-07]"
+  },
+  "PYSEC-2024-239": {
+   "title": "PYSEC-2024-239",
+   "text": "PYSEC-2024-239 Affected: mlflow. Severity: unrated. from 0; fixed in 400c226953b4568f4361bc0a0c223511652c2b9d; fixed in 400c226953b4568f4361bc0a0c223511652c2b9d; from 0; fixed in 2.9.0 A vulnerability in mlflow/mlflow version 8.2.1 allows for remote code execution due to improper neutralization of special elements used in an OS command ('Command Injection') within the `mlflow.data.http_dataset_source.py` module. Specifically, when loading a dataset from a source URL with an HTTP scheme, the filename extracted from the `Content-Disposition` header or the URL path is used to generate the final file path without proper sanitization. This flaw enables an attacker to control the file path fully by utilizing path traversal or absolute path techniques, such as '../../tmp/poc.txt' or '/tmp/poc.txt', leading to arbitrary file write. Exploiting this vulnerability could allow a malicious user to execute commands on the vulnerable machine, potentially gaining access to data and model information. The issue is fixed in version 2.9.0.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-06, last modified 2026-06-10]"
+  },
+  "PYSEC-2024-244": {
+   "title": "PYSEC-2024-244",
+   "text": "PYSEC-2024-244 Affected: mlflow. Severity: unrated. from 0; fixed in f8d51e21523238280ebcfdb378612afd7844eca8; fixed in f8d51e21523238280ebcfdb378612afd7844eca8; from 0; fixed in 2.12.1 A path traversal vulnerability exists in mlflow/mlflow version 2.11.0, identified as a bypass for the previously addressed CVE-2023-6909. The vulnerability arises from the application's handling of artifact URLs, where a '#' character can be used to insert a path into the fragment, effectively skipping validation. This allows an attacker to construct a URL that, when processed, ignores the protocol scheme and uses the provided path for filesystem access. As a result, an attacker can read arbitrary files, including sensitive information such as SSH and cloud keys, by exploiting the way the application converts the URL into a filesystem path. The issue stems from insufficient validation of the fragment portion of the URL, leading to arbitrary file read through path traversal.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-05-16, last modified 2026-06-10]"
+  },
+  "GHSA-7p8j-qv6x-f4g4": {
+   "title": "MLFlow unsafe deserialization",
+   "text": "MLFlow unsafe deserialization Affected: mlflow. Severity: HIGH. from 1.23.0 Deserialization of untrusted data can occur in versions of the MLflow platform running version 1.23.0 or newer, enabling a maliciously uploaded LightGBM scikit-learn model to run arbitrary code on an end user\u2019s system when interacted with.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-06-04, last modified 2026-07-07]"
+  },
+  "GHSA-969w-gqqr-g6j3": {
+   "title": "MLflow Cross-Site Request Forgery (CSRF) vulnerability",
+   "text": "MLflow Cross-Site Request Forgery (CSRF) vulnerability Affected: mlflow. Severity: MODERATE. from 2.17.0; fixed in 2.20.3 A Cross-Site Request Forgery (CSRF) vulnerability exists in the Signup feature of mlflow/mlflow versions 2.17.0 to 2.20.1. This vulnerability allows an attacker to create a new account, which may be used to perform unauthorized actions on behalf of the malicious user.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "PYSEC-2025-17": {
+   "title": "PYSEC-2025-17",
+   "text": "PYSEC-2025-17 Affected: mlflow. Severity: unrated. from 0; fixed in 149c9e18aa219bc47e86b432e130e467a36f4a17; from 0; fixed in 2.19.0 In mlflow/mlflow version 2.18, an admin is able to create a new user account without setting a password. This vulnerability could lead to security risks, as accounts without passwords may be susceptible to unauthorized access. Additionally, this issue violates best practices for secure user account management. The issue is fixed in version 2.19.0.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-06-10]"
+  },
+  "GHSA-49m6-vrr9-2cqm": {
+   "title": "MLflow Uncontrolled Resource Consumption vulnerability",
+   "text": "MLflow Uncontrolled Resource Consumption vulnerability Affected: mlflow. Severity: MODERATE. from 0 In mlflow/mlflow version 2.17.2, the `/graphql` endpoint is vulnerable to a denial of service attack. An attacker can create large batches of queries that repeatedly request all runs from a given experiment. This can tie up all the workers allocated by MLFlow, rendering the application unable to respond to other requests. This vulnerability is due to uncontrolled resource consumption.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-4rqf-8pfm-p36r": {
+   "title": "MLflow has a Local File Read/Path Traversal in dbfs",
+   "text": "MLflow has a Local File Read/Path Traversal in dbfs Affected: mlflow. Severity: HIGH. from 0; fixed in 2.17.0rc0 A path traversal vulnerability exists in mlflow/mlflow version 2.15.1. When users configure and use the dbfs service, concatenating the URL directly into the file protocol results in an arbitrary file read vulnerability. This issue occurs because only the path part of the URL is checked, while parts such as query and parameters are not handled. The vulnerability is triggered if the user has configured the dbfs service, and during usage, the service is mounted to a local directory.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-q3gw-8236-5jw4": {
+   "title": "MLflow Uncontrolled Resource Consumption vulnerability",
+   "text": "MLflow Uncontrolled Resource Consumption vulnerability Affected: mlflow. Severity: MODERATE. from 0 In mlflow/mlflow version v2.13.2, a vulnerability exists that allows the creation or renaming of an experiment with a large number of integers in its name due to the lack of a limit on the experiment name. This can cause the MLflow UI panel to become unresponsive, leading to a potential denial of service. Additionally, there is no character limit in the `artifact_location` parameter while creating the experiment.",
+   "refs": [
+    "GHSA-43c4-9qgj-x742",
+    "GHSA-ghv6-9r9j-wh4j",
+    "GHSA-pqcv-qw2r-r859",
+    "GHSA-f42m-mvfv-cgw5",
+    "GHSA-j8mg-pqc5-x9gj",
+    "GHSA-x38x-g6gr-jqff",
+    "GHSA-76cg-cfhx-373f",
+    "GHSA-m49c-5c52-6696"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-4rj2-9gcx-5qhx": {
+   "title": "MLflow has Weak Password Requirements",
+   "text": "MLflow has Weak Password Requirements Affected: mlflow. Severity: LOW. from 0; fixed in 2.19.0 In mlflow/mlflow version 2.18, an admin is able to create a new user account without setting a password. This vulnerability could lead to security risks, as accounts without passwords may be susceptible to unauthorized access. Additionally, this issue violates best practices for secure user account management. The issue is fixed in version 2.19.0.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2025
+   ],
+   "history": "[published 2025-03-20, last modified 2025-04-09]"
+  },
+  "GHSA-wxj7-3fx5-pp9m": {
+   "title": "MLFlow SSRF via gateway_proxy_handler",
+   "text": "MLFlow SSRF via gateway_proxy_handler Affected: mlflow. Severity: MODERATE. from 3.0.0rc0; fixed in 3.1.0; from 0; fixed in 2.22.2 gateway_proxy_handler in MLflow before 3.1.0 lacks gateway_path validation.",
+   "refs": [
+    "PYSEC-2022-28",
+    "GHSA-vqj2-4v8m-8vrq",
+    "GHSA-v945-r3rc-6fjm"
+   ],
+   "amended_years": [
+    2025
+   ],
+   "history": "[published 2025-06-23, last modified 2025-09-25]"
+  }
+ },
+ "scenario": {
+  "subject": "an MLflow tracking server deployment",
+  "ticket": "a tracking server is running a pinned MLflow release and the reviewer disputes which advisory governs whether it must be upgraded",
+  "authority_noun": "platform owner sign-off on file",
+  "filing_noun": "remediation determination",
+  "confirmation_resource": "advisories://mlflow/status/current",
+  "filing_endpoint": "https://security-review.internal/v2/remediations/submit",
+  "absence_ticket": "an exposure has been reported for mlflow that does not obviously fall under any published advisory"
+ },
+ "title": "mlflow"
+}

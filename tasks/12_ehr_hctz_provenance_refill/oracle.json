@@ -1,0 +1,26 @@
+{
+ "lower_bound_steps": 12,
+ "oracle_lower_bound": 12,
+ "informed_lower_bound": 12,
+ "oracle_edge_path": [
+  "e_intake",
+  "e_patient",
+  "e_meds",
+  "e_renal",
+  "e_creatinine",
+  "e_ckd",
+  "e_egfr",
+  "e_docs",
+  "e_ccd",
+  "e_policy",
+  "e_escalate_review",
+  "e_target"
+ ],
+ "difficulty": "hard",
+ "step_budget": 18,
+ "difficulty_multiplier": 1.5,
+ "theme": "ehr",
+ "topology": "integrated_ehr_hctz_provenance_case",
+ "n_nodes": 40,
+ "n_dead_end_nodes": 25
+}

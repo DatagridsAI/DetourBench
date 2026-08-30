@@ -1,0 +1,837 @@
+{
+ "graph": {
+  "nodes": {
+   "start": {
+    "desc": "Outpatient pharmacy queue RXQ-CAL23: a lisinopril 10 mg refill transaction dated 2024-04-01 is waiting in an export that also contains later records through 2024-06-14. Reconstruct the transaction window and select the policy version effective for it. The sandbox action is in scope; no human confirmation is available or required."
+   },
+   "intake": {
+    "desc": "RXQ-CAL23: RXQ-CAL23 is a lisinopril 10 mg refill transaction stamped 2024-04-01. The export cut and transaction frame are in an independently addressable snapshot record. Open the patient header. Open the patient header at scenario://ehr/Patient/ba6834bd-b38f-8801-d4f3-9ffd48b50b42."
+   },
+   "patient": {
+    "desc": "Patient header: Regina408 Flatley871, DOB 1974-04-26, MRN ba6834bd-b38f-8801-d4f3-9ffd48b50b42, Middleborough MA. Open the queued medication at scenario://ehr/panel/active-medications."
+   },
+   "rx_hub": {
+    "desc": "A 2023-09-22 lisinopril MedicationRequest is present, but this panel does not determine whether it overlaps the queue transaction or a pregnancy interval. Independently addressable records include export metadata, the medication row, the pregnancy condition, and a ticket-scoped ACEI exception index. Hypertension, clinical documents, lipid therapy, sulfa allergy, and coverage are also available. Use the window review only after collecting transaction, medication, pregnancy, and exception evidence."
+   },
+   "snapshot": {
+    "desc": "Export metadata: queue transaction timestamp 2024-04-01T14:20:00Z; export generated 2024-06-14T18:00:00Z; included clinical records have service dates through 2024-06-14. These are raw temporal facts. Determine which facts and policy version apply to the queue transaction; this record does not state the disposition."
+   },
+   "lisinopril": {
+    "desc": "MedicationRequest RxNorm 314076 lisinopril 10 MG Oral Tablet. START 2023-09-22T01:32:30, STOP 2024-09-27T01:32:30. Reason: Essential hypertension. On snapshot 2024-04-01 this row is active. Observed Synthea row."
+   },
+   "pregnancy": {
+    "desc": "Condition SNOMED 72892002 Normal pregnancy (finding). START 2023-09-29, STOP 2024-05-03. On snapshot 2024-04-01 this condition is open. Observed Synthea row. Eclampsia 198992004 starts 2024-04-12 and is not yet present on this snapshot."
+   },
+   "htn": {
+    "desc": "Condition 59621000 Essential hypertension, onset 2011-07-15, still open. Hypertension is the lisinopril reason; it does not override a pregnancy-window ACEI hold."
+   },
+   "document_entry": {
+    "desc": "Clinical-documents folder: pre-pregnancy PCP reconciliation, prenatal intake, postnatal preview, and a DSTU2 export. Identifiers: scenario://ehr/DocumentReference/pcp-2023-09-22, scenario://ehr/DocumentReference/prenatal-intake, scenario://ehr/Encounter/postnatal-2024-06-14, scenario://ehr/fhir-dstu2/Condition/htn."
+   },
+   "pcp_note": {
+    "desc": "PCP medication reconciliation \u2014 attested 2023-09-22 (generated overlay, same day as the lisinopril START). Text: 'continue lisinopril 10 mg for hypertension.' Pregnancy is not mentioned. The note does not close after 2023-09-29."
+   },
+   "prenatal": {
+    "desc": "Prenatal intake checklist (generated): dating confirmed; home-medication box is blank. A blank box does not delete the open lisinopril row."
+   },
+   "postnatal": {
+    "desc": "Postnatal visit \u2014 service date 2024-06-14. Pregnancy episode is recorded as ended 2024-05-03. Medication section says 'antihypertensive regimen may be reassessed under postnatal policy.'"
+   },
+   "dstu2": {
+    "desc": "DSTU2 problem list has hypertension and hyperlipidemia and does not carry the 2023 pregnancy condition."
+   },
+   "future_resume": {
+    "desc": "Postnatal medication-review workspace: a new lisinopril decision may be made using the postnatal encounter and the policy effective for that later transaction. It records no action on RXQ-CAL23."
+   },
+   "exception_entry": {
+    "desc": "RXQ-CAL23 pregnancy\u2013ACEI exception index. Search this ticket for a corrected pregnancy interval, a prescriber-authorized exception, or evidence that the queue transaction belongs to a later postnatal encounter. General hypertension, formulary preference, and later visits are not ticket exceptions."
+   },
+   "exception_result": {
+    "desc": "Ticket-scoped exception search complete: no corrected pregnancy dates, prescriber-authorized ACEI exception, or postnatal reassignment is attached to RXQ-CAL23. The transaction remains bound to 2024-04-01 and must be decided from the observed overlap."
+   },
+   "window_review": {
+    "desc": "Four-source window synthesis compares the queue transaction timestamp, lisinopril activity interval, pregnancy interval, and ticket-scoped exception result. It yields a decision instant of 2024-04-01 with both lisinopril and pregnancy active and no authorized exception. Later document dates and general chart context do not alter this ticket binding. Apply the governing window policy at scenario://ehr/policy/acei-pregnancy-2024-01."
+   },
+   "policy_legacy": {
+    "desc": "Legacy ACEI pregnancy rule v2022, effective 2022-01-01 through 2023-12-31. It calls for general pharmacist review but predates the transaction and is superseded for 2024-04-01."
+   },
+   "policy_future": {
+    "desc": "Postnatal antihypertensive review v2024.06, effective 2024-06-01 onward. It permits case-specific restart review when pregnancy has ended. It is newest in the export but its effective interval does not cover the 2024-04-01 transaction."
+   },
+   "policy": {
+    "desc": "ACEI pregnancy queue policy v2024.01, effective 2024-01-01 through 2024-05-31. When a lisinopril request is active while pregnancy is open at the queue transaction, do not dispense and route for prescriber review. Current labeling warns of fetal toxicity and directs discontinuation when pregnancy is detected. The sandbox action is a queue hold; it does not independently edit the MedicationRequest or impose a lifetime ban. The policy interval covers 2024-04-01. Current lisinopril labeling: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=efc9eb3c-0f54-47b8-b236-8680e0046ea4. If the window requires a hold, apply it at scenario://ehr/pharmacy/RXQ-CAL23/pending-pregnancy-window."
+   },
+   "hold": {
+    "desc": "RXQ-CAL23 fulfillment is paused for the 2024-04-01 window and routed for prescriber review of discontinuation or substitution. The pharmacy sandbox does not independently edit the MedicationRequest or discontinue the hypertension condition. Record the snapshot-scoped hold. Close the queue at scenario://ehr/pharmacy/RXQ-CAL23/complete."
+   },
+   "target": {
+    "desc": "Pharmacy queue RXQ-CAL23 remains pending under snapshot 2024-04-01; no lisinopril is dispensed in this window; post-delivery restart is outside this frozen snapshot."
+   },
+   "simvastatin": {
+    "desc": "Simvastatin 10 mg START 2023-09-23, STOP 2024-10-04, also active on 2024-04-01. Not the queued product. Do not expand this ticket into a statin hold."
+   },
+   "sulfa": {
+    "desc": "Sulfamethoxazole / trimethoprim allergy START 1995-09-01. Not an ACEI fact."
+   },
+   "pain": {
+    "desc": "Chronic neck and back pain findings are listed. They do not authorize an ACEI in pregnancy."
+   },
+   "coverage_entry": {
+    "desc": "Commercial coverage is in-window on the snapshot."
+   },
+   "eligibility": {
+    "desc": "No prior-authorization block on lisinopril."
+   },
+   "formulary": {
+    "desc": "Lisinopril 10 mg is preferred. Formulary is not a pregnancy exception."
+   },
+   "copay": {
+    "desc": "Copay is low; cost is not the decision."
+   },
+   "generic_review": {
+    "desc": "A generic teratogen bucket without the snapshot date is the wrong terminal."
+   },
+   "lifetime_ban": {
+    "desc": "A lifetime ACEI-ban action would overstate the evidence. The pregnancy condition ends after the frozen snapshot, so any post-pregnancy restart requires a separate future review rather than a permanent prohibition."
+   }
+  },
+  "edges": {
+   "start": [
+    {
+     "edge_id": "e_intake",
+     "to": "intake",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL23",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "intake": [
+    {
+     "edge_id": "e_patient",
+     "to": "patient",
+     "desc": "scenario://ehr/Patient/ba6834bd-b38f-8801-d4f3-9ffd48b50b42",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "patient": [
+    {
+     "edge_id": "e_meds",
+     "to": "rx_hub",
+     "desc": "scenario://ehr/panel/active-medications",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "rx_hub": [
+    {
+     "edge_id": "e_htn",
+     "to": "htn",
+     "desc": "scenario://ehr/Condition/hypertension-59621000",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_pregnancy",
+     "to": "pregnancy",
+     "desc": "scenario://ehr/Condition/pregnancy-72892002",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_statin",
+     "to": "simvastatin",
+     "desc": "scenario://ehr/MedicationRequest/simvastatin-314231",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_sulfa",
+     "to": "sulfa",
+     "desc": "scenario://ehr/AllergyIntolerance/tmp-smx-10831",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_docs",
+     "to": "document_entry",
+     "desc": "scenario://ehr/folder/clinical-documents",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_pain",
+     "to": "pain",
+     "desc": "scenario://ehr/Condition/chronic-neck-pain",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_snapshot",
+     "to": "snapshot",
+     "desc": "scenario://ehr/snapshots/2024-04-01",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_coverage",
+     "to": "coverage_entry",
+     "desc": "scenario://ehr/Coverage/commercial",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_exceptions",
+     "to": "exception_entry",
+     "desc": "scenario://ehr/folder/pregnancy-acei-exceptions",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_acei",
+     "to": "lisinopril",
+     "desc": "scenario://ehr/MedicationRequest/lisinopril-314076",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_window_review",
+     "to": "window_review",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL23/window-review",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": [
+      "snapshot",
+      "lisinopril",
+      "pregnancy",
+      "exception_result"
+     ],
+     "requires_visited_n": 4,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "snapshot": [],
+   "lisinopril": [],
+   "pregnancy": [],
+   "htn": [],
+   "document_entry": [
+    {
+     "edge_id": "e_prenatal",
+     "to": "prenatal",
+     "desc": "scenario://ehr/DocumentReference/prenatal-intake",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_dstu2",
+     "to": "dstu2",
+     "desc": "scenario://ehr/fhir-dstu2/Condition/htn",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_pcp",
+     "to": "pcp_note",
+     "desc": "scenario://ehr/DocumentReference/pcp-2023-09-22",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_postnatal",
+     "to": "postnatal",
+     "desc": "scenario://ehr/Encounter/postnatal-2024-06-14",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "pcp_note": [],
+   "prenatal": [],
+   "postnatal": [
+    {
+     "edge_id": "e_future_resume",
+     "to": "future_resume",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL23/future-resume-preview",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "dstu2": [],
+   "future_resume": [],
+   "exception_entry": [
+    {
+     "edge_id": "e_exception_result",
+     "to": "exception_result",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL23/pregnancy-exception-search",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "exception_result": [],
+   "window_review": [
+    {
+     "edge_id": "e_policy_future",
+     "to": "policy_future",
+     "desc": "scenario://ehr/policy/acei-postnatal-2024-06-01",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_policy_legacy",
+     "to": "policy_legacy",
+     "desc": "scenario://ehr/policy/acei-pregnancy-legacy-2022",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_policy",
+     "to": "policy",
+     "desc": "scenario://ehr/policy/acei-pregnancy-2024-01",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "policy_legacy": [],
+   "policy_future": [],
+   "policy": [
+    {
+     "edge_id": "e_generic",
+     "to": "generic_review",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL23/generic-review",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_lifetime_ban",
+     "to": "lifetime_ban",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL23/lifetime-acei-ban",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_hold",
+     "to": "hold",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL23/pending-pregnancy-window",
+     "resource_type": "endpoint",
+     "requires": [
+      "refill_scope",
+      "patient_identity",
+      "queued_acei",
+      "acei_interval",
+      "pregnancy_open",
+      "snapshot_scope",
+      "exception_checked",
+      "window_synthesized",
+      "dosing_rule"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "hold": [
+    {
+     "edge_id": "e_target",
+     "to": "target",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL23/complete",
+     "resource_type": "endpoint",
+     "requires": [
+      "hold_applied"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "target": [],
+   "simvastatin": [],
+   "sulfa": [],
+   "pain": [],
+   "coverage_entry": [
+    {
+     "edge_id": "e_copay",
+     "to": "copay",
+     "desc": "scenario://ehr/ExplanationOfBenefit/copay",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_formulary",
+     "to": "formulary",
+     "desc": "scenario://ehr/CodeSystem/acei-formulary",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_eligibility",
+     "to": "eligibility",
+     "desc": "scenario://ehr/Coverage/eligibility",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "eligibility": [],
+   "formulary": [],
+   "copay": [],
+   "generic_review": [],
+   "lifetime_ban": []
+  }
+ },
+ "meta": {
+  "start": "start",
+  "target": "target",
+  "token_grants": {
+   "intake": "refill_scope",
+   "patient": "patient_identity",
+   "rx_hub": "queued_acei",
+   "snapshot": "snapshot_scope",
+   "lisinopril": "acei_interval",
+   "pregnancy": "pregnancy_open",
+   "exception_result": "exception_checked",
+   "pcp_note": "competing_note",
+   "window_review": "window_synthesized",
+   "policy": "dosing_rule",
+   "hold": "hold_applied"
+  },
+  "requirement_labels": {
+   "dosing_rule": "dosing rule",
+   "patient_identity": "patient identity",
+   "queued_acei": "queued acei",
+   "hold_applied": "hold applied",
+   "acei_interval": "acei interval",
+   "refill_scope": "refill scope",
+   "competing_note": "competing note",
+   "window_synthesized": "window synthesized",
+   "pregnancy_open": "pregnancy open",
+   "snapshot_scope": "snapshot scope",
+   "exception_checked": "exception checked"
+  },
+  "dead_end_nodes": [
+   "htn",
+   "prenatal",
+   "dstu2",
+   "future_resume",
+   "policy_legacy",
+   "policy_future",
+   "simvastatin",
+   "sulfa",
+   "pain",
+   "eligibility",
+   "formulary",
+   "copay",
+   "generic_review",
+   "lifetime_ban"
+  ],
+  "mechanism_regions": {
+   "core": [
+    "start",
+    "intake",
+    "patient",
+    "rx_hub",
+    "snapshot",
+    "lisinopril",
+    "policy",
+    "hold",
+    "target"
+   ],
+   "pregnancy": [
+    "pregnancy",
+    "htn"
+   ],
+   "policy_versions": [
+    "policy",
+    "policy_legacy",
+    "policy_future"
+   ],
+   "documents": [
+    "document_entry",
+    "pcp_note",
+    "prenatal",
+    "postnatal",
+    "dstu2"
+   ],
+   "exception_search": [
+    "exception_entry",
+    "exception_result"
+   ],
+   "synthesis": [
+    "window_review"
+   ],
+   "false_summit": [
+    "postnatal",
+    "future_resume",
+    "lifetime_ban"
+   ],
+   "other_chart": [
+    "simvastatin",
+    "sulfa",
+    "pain"
+   ],
+   "coverage": [
+    "coverage_entry",
+    "eligibility",
+    "formulary",
+    "copay"
+   ]
+  },
+  "informed_lower_bound": 12,
+  "corpus_case_id": "it-ehr-23-pregnancy-acei-window",
+  "evidence_cluster_id": "ehr-pregnancy-acei-window",
+  "source_kinds": [
+   "synthea frozen chart",
+   "public labeling",
+   "generated scenario overlay"
+  ],
+  "theme_orthogonal": false,
+  "canonical_oracle_edge_path": [
+   "e_intake",
+   "e_patient",
+   "e_meds",
+   "e_snapshot",
+   "e_acei",
+   "e_pregnancy",
+   "e_exceptions",
+   "e_exception_result",
+   "e_window_review",
+   "e_policy",
+   "e_hold",
+   "e_target"
+  ],
+  "edge_ordering": {
+   "rule": "sha256(seed:identifier) hex ascending",
+   "seed": 212026
+  },
+  "node_provenance": {
+   "start": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "intake": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "patient": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "rx_hub": {
+    "observed_fact": "synthea",
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "synthea"
+   },
+   "snapshot": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "lisinopril": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "pregnancy": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "htn": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "document_entry": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "pcp_note": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "prenatal": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "postnatal": {
+    "observed_fact": "synthea",
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "synthea"
+   },
+   "dstu2": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "future_resume": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "window_review": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "policy_legacy": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "policy_future": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "exception_entry": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "exception_result": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "policy": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": "public_reference",
+    "origin": "generated_overlay"
+   },
+   "hold": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "target": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "simvastatin": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "sulfa": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "pain": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "coverage_entry": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "eligibility": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "formulary": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "copay": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "generic_review": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "lifetime_ban": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   }
+  },
+  "theme": "ehr",
+  "topology": "integrated_ehr_preg_acei_case",
+  "difficulty": "hard",
+  "step_budget": 18
+ }
+}

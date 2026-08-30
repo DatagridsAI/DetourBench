@@ -1,0 +1,18 @@
+{
+ "schema_version": "detourbench.task-spec.v1",
+ "task_number": 17,
+ "directory": "17_ehr_pregnancy_acei_window",
+ "task_revision": null,
+ "topology": "integrated_ehr_preg_acei_case",
+ "primary_mechanism": null,
+ "corpus_file": null,
+ "start": "start",
+ "target": "target",
+ "terminal_fail_nodes": [],
+ "one_shot": false,
+ "lower_bound_steps": 12,
+ "informed_lower_bound": 12,
+ "step_budget": 18,
+ "metric_version": "detourbench-v3",
+ "derived": "regenerated from graph_full.json and oracle.json; the graph and oracle themselves are unchanged"
+}

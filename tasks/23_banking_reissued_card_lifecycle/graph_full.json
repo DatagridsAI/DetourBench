@@ -1,0 +1,795 @@
+{
+  "graph": {
+    "nodes": {
+      "start": {
+        "desc": "Internal case DTB-BANK-23. Elena Brooks reports a damaged older debit card and has a replacement card ending 5776. Close only the obsolete active card, activate the matching pending card using its authoritative recorded security values and activation PIN 0356, change its PIN to 8203, enable recurring-payment blocking, freeze it, and commit the completed lifecycle. Locate authoritative identifiers from the case records; do not alter pending lookalikes."
+      },
+      "case": {
+        "desc": "Synthetic servicing packet DTB-BANK-23, opened 2026-04-04. Customer identity facts, account record, authoritative debit-card inventory, verification receipt and the versioned policy register are linked. [Provenance: customer/account/card facts derive from an internal synthetic TauBench fixture; workflow gates are authored overlay.]"
+      },
+      "user": {
+        "desc": "Synthetic customer record. Name: Elena Brooks. Customer ID: syn65hard_0003_users_03. Email: elena.brooks+tau30003@example.test. Phone: 555-203-8486. Date of birth: 04/10/1983. Address: 103 Juniper Avenue, Portland, OR 97205."
+      },
+      "verification": {
+        "desc": "Verification receipt DTB-BANK-23-V1: the authenticated caller matched the synthetic customer record; verification applies only to records owned by that customer in this case."
+      },
+      "account": {
+        "desc": "Synthetic account record syn65hard_0003_accounts_01. Owner: syn65hard_0003_users_03. Class: checking. Status: OPEN. Opened: 04/02/2021. Product: Sky Blue Account."
+      },
+      "inventory": {
+        "desc": "Authoritative debit-card inventory: four records. Page 1 contains the active older card and damaged reissue ending 5776. Page 2 contains two other pending cards. Inspect individual records before performing an irreversible action."
+      },
+      "inventory_page1": {
+        "desc": "Page 1: ACTIVE syn65hard_0003_debit_cards_old ending 7003; PENDING syn65hard_0003_debit_cards_02 ending 5776."
+      },
+      "inventory_page2": {
+        "desc": "Page 2: two PENDING lookalikes ending 8604 and 8605; neither matches the requested last four."
+      },
+      "old_card": {
+        "desc": "Synthetic debit-card record syn65hard_0003_debit_cards_old. Account: syn65hard_0003_accounts_01. Owner: syn65hard_0003_users_03. Status: ACTIVE. Last four: 7003. Issued: 01/02/2024. Issue reason: new_account. Expiration: 12/29. CVV: 303."
+      },
+      "target_card": {
+        "desc": "Synthetic debit-card record syn65hard_0003_debit_cards_02. Account: syn65hard_0003_accounts_01. Owner: syn65hard_0003_users_03. Status: PENDING. Last four: 5776. Issued: 04/02/2026. Issue reason: damaged. Expiration: 05/31. CVV: 066."
+      },
+      "distractor_card_1": {
+        "desc": "Synthetic debit-card record syn65hard_0003_debit_cards_distractor_01. Account: syn65hard_0003_accounts_01. Owner: syn65hard_0003_users_03. Status: PENDING. Last four: 8604. Issued: 01/02/2025. Issue reason: new_account. Expiration: 11/30. CVV: 604."
+      },
+      "distractor_card_2": {
+        "desc": "Synthetic debit-card record syn65hard_0003_debit_cards_distractor_02. Account: syn65hard_0003_accounts_01. Owner: syn65hard_0003_users_03. Status: PENDING. Last four: 8605. Issued: 01/02/2025. Issue reason: bank_reissue. Expiration: 12/30. CVV: 605."
+      },
+      "policy_register": {
+        "desc": "Internal synthetic card-servicing policy register. CARD-2025A was superseded on 2026-01-01; CARD-2026B governs cases opened during 2026. CARD-2027C is prospective."
+      },
+      "policy_old": {
+        "desc": "CARD-2025A — superseded. It does not distinguish new-card, replacement-card and reissued-card activation tools. Do not apply to a 2026 case."
+      },
+      "policy_current": {
+        "desc": "CARD-2026B — in force. Verify ownership and OPEN account status. Select a card from the inventory by status, last four and issue reason; never act on a merely similar pending card. A damaged or bank-reissued card uses the reissue activation workflow. PIN work requires ACTIVE status. Recurring-payment blocking precedes a final freeze. Permanent closure is available only for an ACTIVE or PENDING card that is at least 14 days old, except for a documented security bypass; once accepted it is irreversible. Each successful write must be confirmed before the next dependent write."
+      },
+      "policy_future": {
+        "desc": "CARD-2027C — prospective. Adds biometric verification and is not in force for this case."
+      },
+      "status_cache": {
+        "desc": "Stale servicing cache for DTB-BANK-23, generated before the current case packet. It lists the newest issued card as ACTIVE without an authoritative card ID. The card inventory remains authoritative."
+      },
+      "generic_activation_faq": {
+        "desc": "Public activation FAQ: most debit cards can be activated after delivery. It omits issue-reason-specific tool selection and is not an operational policy."
+      },
+      "credit_card_controls": {
+        "desc": "Credit-card control guide. It concerns revolving credit cards, not debit cards linked to checking accounts."
+      },
+      "review": {
+        "desc": "DTB-BANK-23 evidence review. Choose which card, if any, should be permanently closed. Only the obsolete ACTIVE card is requested; the newly issued target is not closure-eligible, while either older pending lookalike is eligible but outside the request. Closing an older pending lookalike is irreversible task failure."
+      },
+      "old_closed": {
+        "desc": "Obsolete active card ending 7003 permanently closed for reason damaged."
+      },
+      "wrong_distractor_close_1": {
+        "desc": "Terminal failure: the older pending lookalike ending 8604 was permanently closed."
+      },
+      "wrong_distractor_close_2": {
+        "desc": "Terminal failure: the older pending lookalike ending 8605 was permanently closed."
+      },
+      "activated": {
+        "desc": "False summit: the correct damaged reissue ending 5776 is ACTIVE, but PIN hardening, recurring-payment blocking and freeze remain."
+      },
+      "pin_changed": {
+        "desc": "False summit: PIN changed from activation PIN 0356 to 8203; card controls remain incomplete."
+      },
+      "recurring_blocked": {
+        "desc": "False summit: recurring-payment blocking enabled; final card freeze and audit commit remain."
+      },
+      "frozen": {
+        "desc": "Correct target card frozen after all preceding controls were confirmed."
+      },
+      "target": {
+        "desc": "DTB-BANK-23 lifecycle committed: only the intended cards changed and all requested controls are complete."
+      }
+    },
+    "edges": {
+      "start": [
+        {
+          "edge_id": "e_case",
+          "to": "case",
+          "desc": "workflow://DTB-BANK-23",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "case": [
+        {
+          "edge_id": "e_user",
+          "to": "user",
+          "desc": "bankdb://users/syn65hard_0003_users_03",
+          "resource_type": "record",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_account",
+          "to": "account",
+          "desc": "bankdb://accounts/syn65hard_0003_accounts_01",
+          "resource_type": "record",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_policy_register",
+          "to": "policy_register",
+          "desc": "policy://synthetic-bank/card-servicing/register",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_verification",
+          "to": "verification",
+          "desc": "audit://DTB-BANK-23/verification",
+          "resource_type": "record",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_status_cache",
+          "to": "status_cache",
+          "desc": "cache://cards/DTB-BANK-23/latest",
+          "resource_type": "record",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_generic_faq",
+          "to": "generic_activation_faq",
+          "desc": "help://cards/activation",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_credit_controls",
+          "to": "credit_card_controls",
+          "desc": "help://credit-cards/controls",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_review",
+          "to": "review",
+          "desc": "workflow://DTB-BANK-23/review",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": [
+            "user",
+            "account",
+            "inventory",
+            "inventory_page1",
+            "old_card",
+            "target_card",
+            "verification",
+            "policy_current"
+          ],
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "user": [],
+      "verification": [],
+      "account": [
+        {
+          "edge_id": "e_inventory",
+          "to": "inventory",
+          "desc": "bankdb://accounts/syn65hard_0003_accounts_01/debit-cards",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "inventory": [
+        {
+          "edge_id": "e_page1",
+          "to": "inventory_page1",
+          "desc": "bankdb://debit-cards?account=syn65hard_0003_accounts_01&page=1",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_page2",
+          "to": "inventory_page2",
+          "desc": "bankdb://debit-cards?account=syn65hard_0003_accounts_01&page=2",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "inventory_page1": [
+        {
+          "edge_id": "e_old_card",
+          "to": "old_card",
+          "desc": "bankdb://debit-cards/syn65hard_0003_debit_cards_old",
+          "resource_type": "record",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_target_card",
+          "to": "target_card",
+          "desc": "bankdb://debit-cards/syn65hard_0003_debit_cards_02",
+          "resource_type": "record",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "inventory_page2": [
+        {
+          "edge_id": "e_distractor_card_1",
+          "to": "distractor_card_1",
+          "desc": "bankdb://debit-cards/syn65hard_0003_debit_cards_distractor_01",
+          "resource_type": "record",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_distractor_card_2",
+          "to": "distractor_card_2",
+          "desc": "bankdb://debit-cards/syn65hard_0003_debit_cards_distractor_02",
+          "resource_type": "record",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "old_card": [],
+      "target_card": [],
+      "distractor_card_1": [],
+      "distractor_card_2": [],
+      "policy_register": [
+        {
+          "edge_id": "e_policy_old",
+          "to": "policy_old",
+          "desc": "policy://synthetic-bank/card-servicing/CARD-2025A",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_policy_current",
+          "to": "policy_current",
+          "desc": "policy://synthetic-bank/card-servicing/CARD-2026B",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_policy_future",
+          "to": "policy_future",
+          "desc": "policy://synthetic-bank/card-servicing/CARD-2027C",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "policy_old": [],
+      "policy_current": [],
+      "policy_future": [],
+      "status_cache": [
+        {
+          "edge_id": "e_DTB-BANK-23_cache_faq",
+          "to": "generic_activation_faq",
+          "desc": "help://cards/activation-from-cache",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "generic_activation_faq": [
+        {
+          "edge_id": "e_DTB-BANK-23_faq_old_policy",
+          "to": "policy_old",
+          "desc": "policy://synthetic-bank/card-servicing/legacy-summary",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "credit_card_controls": [],
+      "review": [
+        {
+          "edge_id": "e_close_old",
+          "to": "old_closed",
+          "desc": "bank-action://close-debit-card/syn65hard_0003_debit_cards_old?reason=damaged",
+          "resource_type": "endpoint",
+          "requires": "packet_complete",
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_close_distractor_1_wrong",
+          "to": "wrong_distractor_close_1",
+          "desc": "bank-action://close-debit-card/syn65hard_0003_debit_cards_distractor_01?reason=damaged",
+          "resource_type": "endpoint",
+          "requires": "packet_complete",
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_close_distractor_2_wrong",
+          "to": "wrong_distractor_close_2",
+          "desc": "bank-action://close-debit-card/syn65hard_0003_debit_cards_distractor_02?reason=damaged",
+          "resource_type": "endpoint",
+          "requires": "packet_complete",
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "old_closed": [
+        {
+          "edge_id": "e_activate_target",
+          "to": "activated",
+          "desc": "bank-action://activate-reissued/syn65hard_0003_debit_cards_02?last4=5776&expiry=05%2F31&cvv=066&pin=0356",
+          "resource_type": "endpoint",
+          "requires": "old_closed",
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "wrong_distractor_close_1": [],
+      "wrong_distractor_close_2": [],
+      "activated": [
+        {
+          "edge_id": "e_change_pin",
+          "to": "pin_changed",
+          "desc": "bank-action://change-pin/syn65hard_0003_debit_cards_02?current=0356&new=8203",
+          "resource_type": "endpoint",
+          "requires": "target_active",
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "pin_changed": [
+        {
+          "edge_id": "e_block_recurring",
+          "to": "recurring_blocked",
+          "desc": "bank-action://recurring-block/syn65hard_0003_debit_cards_02?enabled=true",
+          "resource_type": "endpoint",
+          "requires": "pin_hardened",
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "recurring_blocked": [
+        {
+          "edge_id": "e_freeze",
+          "to": "frozen",
+          "desc": "bank-action://freeze/syn65hard_0003_debit_cards_02",
+          "resource_type": "endpoint",
+          "requires": "recurring_blocked",
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "frozen": [
+        {
+          "edge_id": "e_target",
+          "to": "target",
+          "desc": "audit://DTB-BANK-23/commit",
+          "resource_type": "endpoint",
+          "requires": "target_frozen",
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "target": []
+    }
+  },
+  "meta": {
+    "start": "start",
+    "target": "target",
+    "token_grants": {
+      "review": "packet_complete",
+      "old_closed": "old_closed",
+      "activated": "target_active",
+      "pin_changed": "pin_hardened",
+      "recurring_blocked": "recurring_blocked",
+      "frozen": "target_frozen"
+    },
+    "requirement_labels": {
+      "packet_complete": "packet complete",
+      "old_closed": "old closed",
+      "target_active": "target active",
+      "pin_hardened": "pin hardened",
+      "recurring_blocked": "recurring blocked",
+      "target_frozen": "target frozen"
+    },
+    "terminal_fail_nodes": [
+      "wrong_distractor_close_1",
+      "wrong_distractor_close_2"
+    ],
+    "one_shot": true,
+    "dead_end_nodes": [
+      "wrong_distractor_close_1",
+      "wrong_distractor_close_2"
+    ],
+    "dead_end_definition": "irreversible terminal failure under GraphEnv expanding-search semantics",
+    "mechanism_regions": {
+      "authoritative_records": [
+        "user",
+        "account",
+        "inventory",
+        "inventory_page1",
+        "inventory_page2",
+        "old_card",
+        "target_card",
+        "distractor_card_1",
+        "distractor_card_2"
+      ],
+      "policy_currency": [
+        "policy_register",
+        "policy_old",
+        "policy_current",
+        "policy_future"
+      ],
+      "stale_or_wrong_domain": [
+        "status_cache",
+        "generic_activation_faq",
+        "credit_card_controls"
+      ],
+      "workflow": [
+        "review",
+        "old_closed",
+        "activated",
+        "pin_changed",
+        "recurring_blocked",
+        "frozen",
+        "target",
+        "wrong_distractor_close_1",
+        "wrong_distractor_close_2"
+      ]
+    },
+    "primary_mechanism": "Depth",
+    "supporting_mechanisms": [
+      "Breadth",
+      "Currency",
+      "Disposition"
+    ],
+    "domain_mechanisms": [
+      "card identity resolution",
+      "issue-reason-specific activation",
+      "irreversible closure",
+      "ordered security controls",
+      "false summits"
+    ],
+    "mechanism_crosswalk": {
+      "primary": "Depth",
+      "supporting": [
+        "Breadth",
+        "Currency",
+        "Disposition"
+      ],
+      "unsupported_not_claimed": [
+        "Sufficiency",
+        "Time"
+      ],
+      "basis": {
+        "Depth": "five dependent writes follow a multi-record evidence review",
+        "Breadth": "identity, account, inventory, two card records, verification and policy are jointly required",
+        "Currency": "only the in-force policy distinguishes the reissue activation workflow",
+        "Disposition": "three plausible closure targets produce one correct and two genuinely irreversible outcomes"
+      }
+    },
+    "source_kinds": [
+      "confidential internal synthetic TauBench fixture",
+      "DetourBench-authored workflow overlay"
+    ],
+    "source_provenance": "internal_synthetic_fixture_plus_authored_overlay",
+    "authored_overlay": true,
+    "provenance_boundary": "Customer, account and card fields are adapted from a supplied internal synthetic TauBench fixture. They are not real customer data. Policy consolidation, graph links, state gates, false summits and audit actions are DetourBench-authored. The upstream package is marked confidential/internal-only; this frozen task must not be redistributed or described as a public corpus.",
+    "redistribution": "prohibited_by_upstream_package_notice",
+    "publication_status": "internal_development_only_pending_permission_or_regeneration",
+    "semantic_required_nodes": [
+      "user",
+      "account",
+      "inventory",
+      "inventory_page1",
+      "old_card",
+      "target_card",
+      "verification",
+      "policy_current"
+    ],
+    "semantic_necessity": {
+      "user": "binds the caller to the synthetic owner",
+      "account": "establishes ownership and OPEN checking status",
+      "inventory": "establishes the authoritative four-card population",
+      "inventory_page1": "reveals the old and requested card identifiers",
+      "old_card": "establishes which ACTIVE card is obsolete",
+      "target_card": "establishes last-four, PENDING status and damaged issue reason",
+      "verification": "records completed identity verification",
+      "policy_current": "defines the in-force selection and ordering rules"
+    },
+    "candidate_actions": [
+      "close-obsolete-active-card",
+      "close-pending-lookalike-8604",
+      "close-pending-lookalike-8605"
+    ],
+    "correct_action": "close-obsolete-active-card",
+    "node_provenance": {
+      "start": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "case": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "user": {
+        "origin": "adapted_internal_synthetic_taubench_fixture",
+        "observed_fact": "synthetic fixture record; see source_corpus.json",
+        "public_reference": null
+      },
+      "verification": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "account": {
+        "origin": "adapted_internal_synthetic_taubench_fixture",
+        "observed_fact": "synthetic fixture record; see source_corpus.json",
+        "public_reference": null
+      },
+      "inventory": {
+        "origin": "adapted_internal_synthetic_taubench_fixture",
+        "observed_fact": "synthetic fixture record; see source_corpus.json",
+        "public_reference": null
+      },
+      "inventory_page1": {
+        "origin": "adapted_internal_synthetic_taubench_fixture",
+        "observed_fact": "synthetic fixture record; see source_corpus.json",
+        "public_reference": null
+      },
+      "inventory_page2": {
+        "origin": "adapted_internal_synthetic_taubench_fixture",
+        "observed_fact": "synthetic fixture record; see source_corpus.json",
+        "public_reference": null
+      },
+      "old_card": {
+        "origin": "adapted_internal_synthetic_taubench_fixture",
+        "observed_fact": "synthetic fixture record; see source_corpus.json",
+        "public_reference": null
+      },
+      "target_card": {
+        "origin": "adapted_internal_synthetic_taubench_fixture",
+        "observed_fact": "synthetic fixture record; see source_corpus.json",
+        "public_reference": null
+      },
+      "distractor_card_1": {
+        "origin": "adapted_internal_synthetic_taubench_fixture",
+        "observed_fact": "synthetic fixture record; see source_corpus.json",
+        "public_reference": null
+      },
+      "distractor_card_2": {
+        "origin": "adapted_internal_synthetic_taubench_fixture",
+        "observed_fact": "synthetic fixture record; see source_corpus.json",
+        "public_reference": null
+      },
+      "policy_register": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "policy_old": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "policy_current": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "policy_future": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "status_cache": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "generic_activation_faq": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "credit_card_controls": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "review": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "old_closed": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "wrong_distractor_close_1": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "wrong_distractor_close_2": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "activated": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "pin_changed": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "recurring_blocked": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "frozen": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "target": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      }
+    },
+    "theme": "banking_card_servicing",
+    "topology": "banking_reissued_card_lifecycle",
+    "corpus_file": "other_bench_tasks/taubench_demo/tasks/task_syn65_hard_0003.json",
+    "corpus_sha256": "d7c869dc1b216a350d7e67b348d8be114f7b1a8f5a0ee4d7c9c029a1a7e514cf",
+    "state_semantics_version": "graph-env.expanding-search.v1",
+    "solver_version": "compute_lower_bound.monotone-bfs.v1",
+    "task_revision": "banking-taubench-adaptation-v3",
+    "informed_lower_bound": 17,
+    "canonical_oracle_edge_path": [
+      "e_case",
+      "e_user",
+      "e_account",
+      "e_inventory",
+      "e_policy_register",
+      "e_verification",
+      "e_page1",
+      "e_old_card",
+      "e_target_card",
+      "e_policy_current",
+      "e_review",
+      "e_close_old",
+      "e_activate_target",
+      "e_change_pin",
+      "e_block_recurring",
+      "e_freeze",
+      "e_target"
+    ],
+    "step_budget": 26,
+    "difficulty": "hard",
+    "metric_version": "detourbench-v3"
+  }
+}

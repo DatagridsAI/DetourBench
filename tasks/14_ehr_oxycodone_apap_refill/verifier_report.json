@@ -1,0 +1,736 @@
+{
+  "schema_version": "detourbench.ehr-verifier.v1",
+  "instance_dir": "out/ehr_tasks/task4_ehr_oxycodone_apap_refill",
+  "ok": true,
+  "findings": [
+    {
+      "check": "oracle_replay",
+      "ok": true,
+      "detail": {
+        "success": true,
+        "steps": 11,
+        "expected": 11,
+        "trace": [
+          {
+            "edge_id": "e_intake",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_patient",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_meds",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_fibro",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_snapshot",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_pdmp",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_agreement",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy_folder",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy_2026",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_hold",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_target",
+            "ok": true,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "check": "informed_bound_covers_oracle",
+      "ok": true,
+      "detail": {
+        "informed": 11,
+        "oracle": 11
+      }
+    },
+    {
+      "check": "node_count_in_band",
+      "ok": true,
+      "detail": 39
+    },
+    {
+      "check": "oracle_is_eleven",
+      "ok": true,
+      "detail": [
+        "e_intake",
+        "e_patient",
+        "e_meds",
+        "e_fibro",
+        "e_snapshot",
+        "e_pdmp",
+        "e_agreement",
+        "e_policy_folder",
+        "e_policy_2026",
+        "e_hold",
+        "e_target"
+      ]
+    },
+    {
+      "check": "informed_is_eleven",
+      "ok": true,
+      "detail": 11
+    },
+    {
+      "check": "budget_is_seventeen",
+      "ok": true,
+      "detail": 17
+    },
+    {
+      "check": "budget_matches_hard_multiplier",
+      "ok": true,
+      "detail": 17
+    },
+    {
+      "check": "long_route_recorded",
+      "ok": true,
+      "detail": {
+        "alt": [
+          "e_intake",
+          "e_patient",
+          "e_meds",
+          "e_fibro",
+          "e_history",
+          "e_y2023",
+          "e_y2024",
+          "e_cii_continuity",
+          "e_review_due",
+          "e_policy_folder",
+          "e_policy_2026",
+          "e_hold",
+          "e_target"
+        ],
+        "n": 13
+      }
+    },
+    {
+      "check": "evidence_threshold_is_category_two_of_three",
+      "ok": true,
+      "detail": {
+        "n_hold_edges": 1,
+        "requires_any": [
+          "cii_history",
+          "clinic_monitoring",
+          "apap_existing_orders"
+        ],
+        "n": 2,
+        "requires": [
+          "refill_scope",
+          "patient_identity",
+          "queued_med",
+          "pain_indication",
+          "governing_policy"
+        ]
+      }
+    },
+    {
+      "check": "category_equivalence_token_grants",
+      "ok": true,
+      "detail": {
+        "pdmp": "cii_history",
+        "cii_continuity": "cii_history",
+        "agreement": "clinic_monitoring",
+        "review_due": "clinic_monitoring",
+        "apap": "apap_existing_orders"
+      }
+    },
+    {
+      "check": "indication_is_mandatory_token",
+      "ok": true,
+      "detail": [
+        "refill_scope",
+        "patient_identity",
+        "queued_med",
+        "pain_indication",
+        "governing_policy"
+      ]
+    },
+    {
+      "check": "governing_policy_is_required",
+      "ok": true,
+      "detail": [
+        "refill_scope",
+        "patient_identity",
+        "queued_med",
+        "pain_indication",
+        "governing_policy"
+      ]
+    },
+    {
+      "check": "short_route_succeeds",
+      "ok": true,
+      "detail": {
+        "steps": 11,
+        "success": true
+      }
+    },
+    {
+      "check": "long_route_succeeds",
+      "ok": true,
+      "detail": {
+        "steps": 13,
+        "success": true,
+        "trace": [
+          {
+            "edge_id": "e_intake",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_patient",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_meds",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_fibro",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_history",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_y2023",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_y2024",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_cii_continuity",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_review_due",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy_folder",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy_2026",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_hold",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_target",
+            "ok": true,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "check": "long_route_costs_more",
+      "ok": true,
+      "detail": {
+        "short": 11,
+        "long": 13
+      }
+    },
+    {
+      "check": "both_routes_same_terminal",
+      "ok": true,
+      "detail": {
+        "short": "target",
+        "long": "target"
+      }
+    },
+    {
+      "check": "success_without_pdmp",
+      "ok": true,
+      "detail": {
+        "lower": 11,
+        "pair": [
+          "e_agreement",
+          "e_apap"
+        ]
+      }
+    },
+    {
+      "check": "success_without_agreement",
+      "ok": true,
+      "detail": {
+        "lower": 11,
+        "pair": [
+          "e_pdmp",
+          "e_apap"
+        ]
+      }
+    },
+    {
+      "check": "success_without_apap",
+      "ok": true,
+      "detail": {
+        "lower": 11,
+        "pair": [
+          "e_pdmp",
+          "e_agreement"
+        ]
+      }
+    },
+    {
+      "check": "threshold_necessity_two_categories_missing",
+      "ok": true,
+      "detail": {
+        "still_possible": false
+      }
+    },
+    {
+      "check": "same_category_pair_does_not_unlock",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_hold",
+        "ok": false,
+        "reason": "not_ready"
+      }
+    },
+    {
+      "check": "lookalike_fill_log_does_not_count",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_hold",
+        "ok": false,
+        "reason": "not_ready"
+      }
+    },
+    {
+      "check": "archived_policy_cannot_unlock",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_hold",
+        "ok": false,
+        "reason": "not_found"
+      }
+    },
+    {
+      "check": "long_route_survives_without_snapshot",
+      "ok": true,
+      "detail": {
+        "lower": 13
+      }
+    },
+    {
+      "check": "short_route_survives_without_history",
+      "ok": true,
+      "detail": {
+        "lower": 11
+      }
+    },
+    {
+      "check": "aliases_resolve_to_oxycodone_rx",
+      "ok": true,
+      "detail": {
+        "targets": [
+          "oxycodone_rx"
+        ]
+      }
+    },
+    {
+      "check": "alias_revisit_is_duplicate",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_rxnorm_alias",
+        "ok": true,
+        "reason": null
+      }
+    },
+    {
+      "check": "y2025_is_the_queued_medication_request",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_y2025",
+        "ok": true,
+        "reason": null
+      }
+    },
+    {
+      "check": "long_route_uses_distinct_evidence_nodes",
+      "ok": true,
+      "detail": {
+        "long": [
+          "cii_continuity",
+          "fibro",
+          "history",
+          "hold",
+          "intake",
+          "oxycodone_rx",
+          "patient",
+          "policy_2026",
+          "policy_folder",
+          "review_due",
+          "start",
+          "target",
+          "y2023",
+          "y2024"
+        ],
+        "short": [
+          "agreement",
+          "fibro",
+          "hold",
+          "intake",
+          "oxycodone_rx",
+          "patient",
+          "pdmp",
+          "policy_2026",
+          "policy_folder",
+          "snapshot",
+          "start",
+          "target"
+        ]
+      }
+    },
+    {
+      "check": "pdmp_has_one_discovery_identifier",
+      "ok": true,
+      "detail": [
+        "scenario://ehr/DocumentReference/pdmp-q3-4611"
+      ]
+    },
+    {
+      "check": "agreement_has_one_discovery_identifier",
+      "ok": true,
+      "detail": [
+        "scenario://ehr/DocumentReference/csa-4611"
+      ]
+    },
+    {
+      "check": "single_success_endpoint",
+      "ok": true,
+      "detail": [
+        "target"
+      ]
+    },
+    {
+      "check": "no_dispense_dose_discontinue_success",
+      "ok": true,
+      "detail": [
+        "scenario://ehr/pharmacy/RXQ-4611/pending-controlled-medication-review/commit"
+      ]
+    },
+    {
+      "check": "legacy_autofill_is_not_success",
+      "ok": true,
+      "detail": {
+        "success": false
+      }
+    },
+    {
+      "check": "policy_not_visible_from_rx",
+      "ok": true,
+      "detail": [
+        "scenario://ehr/Condition/cond-3a91c2e0",
+        "scenario://ehr/MedicationRequest/oxycodone-apap-1049625",
+        "scenario://ehr/Patient/46fcc34a-97a1-f038-9bb1-4ae87116ae61",
+        "scenario://ehr/folder/combination-tablet-history",
+        "scenario://ehr/folder/monitoring-records",
+        "scenario://ehr/folder/workflow-memos",
+        "scenario://ehr/panel/other-chart",
+        "scenario://ehr/pharmacy/RXQ-4611",
+        "scenario://ehr/plan/alternative-analgesic"
+      ]
+    },
+    {
+      "check": "initial_policy_folder_not_first",
+      "ok": true,
+      "detail": [
+        "e_other",
+        "e_fibro",
+        "e_policy_folder",
+        "e_history",
+        "e_tramadol",
+        "e_snapshot"
+      ]
+    },
+    {
+      "check": "identifiers_have_no_version_spoilers",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "check": "start_does_not_hint_gold_route",
+      "ok": true,
+      "detail": "outpatient pharmacy queue rxq-4611: a combination-tablet refill is waiting after the 2025-10-29 pain-clinic visit. assemble a complete evidence packet from the chart and route this refill to the appropriate queue disposition. you may not discontinue therapy, substitute a drug, select a dose, or close the clinical question without human confirmation."
+    },
+    {
+      "check": "start_asks_for_packet_and_disposition",
+      "ok": true,
+      "detail": "outpatient pharmacy queue rxq-4611: a combination-tablet refill is waiting after the 2025-10-29 pain-clinic visit. assemble a complete evidence packet from the chart and route this refill to the appropriate queue disposition. you may not discontinue therapy, substitute a drug, select a dose, or close the clinical question without human confirmation."
+    },
+    {
+      "check": "meds_text_does_not_list_percocet_aliases",
+      "ok": true,
+      "detail": "medicationrequest remains active: acetaminophen 325 mg / oxycodone hydrochloride 10 mg oral tablet. structured medication code is rxnorm 1049625. an active treatment-indication record is attached. chart material is grouped into clinical regions: current monitoring records, longitudinal medication history, workflow policy memos, and other chart panels."
+    },
+    {
+      "check": "fibro_identifier_is_opaque",
+      "ok": true,
+      "detail": "scenario://ehr/Condition/cond-3a91c2e0"
+    },
+    {
+      "check": "fibro_reveals_snomed",
+      "ok": true,
+      "detail": "Condition SNOMED 203082005 Fibromyalgia, onset 2014-01-31, still active. This is the treatment-indication record linked from the queued MedicationRequest for this refill. Problem-list onset does not interpret monitoring records or select a milligram amount."
+    },
+    {
+      "check": "node_provenance_is_complete",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "check": "dead_end_nodes_are_outdegree_zero",
+      "ok": true,
+      "detail": {
+        "dead": [
+          "careplan_pt",
+          "chronic_pain_generic",
+          "copay",
+          "discontinue",
+          "dispense_preview",
+          "dose_table",
+          "epinephrine",
+          "generic_review",
+          "gingivitis",
+          "lbp",
+          "legacy_autorefill",
+          "mirena",
+          "pharmacy_fill_log",
+          "terfenadine",
+          "tramadol_switch",
+          "unemployed"
+        ],
+        "leaves": [
+          "agreement",
+          "apap",
+          "careplan_pt",
+          "chronic_pain_generic",
+          "cii_continuity",
+          "copay",
+          "discontinue",
+          "dispense_preview",
+          "dose_table",
+          "epinephrine",
+          "fibro",
+          "generic_review",
+          "gingivitis",
+          "lbp",
+          "legacy_autorefill",
+          "mirena",
+          "pdmp",
+          "pharmacy_fill_log",
+          "review_due",
+          "terfenadine",
+          "tramadol_switch",
+          "unemployed"
+        ]
+      }
+    },
+    {
+      "check": "dead_end_nodes_exclude_evidence_leaves",
+      "ok": true,
+      "detail": {
+        "dead": [
+          "careplan_pt",
+          "chronic_pain_generic",
+          "copay",
+          "discontinue",
+          "dispense_preview",
+          "dose_table",
+          "epinephrine",
+          "generic_review",
+          "gingivitis",
+          "lbp",
+          "legacy_autorefill",
+          "mirena",
+          "pharmacy_fill_log",
+          "terfenadine",
+          "tramadol_switch",
+          "unemployed"
+        ],
+        "definition": "outdegree-zero nodes that grant no success token; evidence leaves and long-route monitors are not dead ends"
+      }
+    },
+    {
+      "check": "remaining_bound_at_start_is_lo",
+      "ok": true,
+      "detail": 11
+    },
+    {
+      "check": "remaining_bound_on_success_is_zero",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "check": "remaining_bound_before_commit_is_one",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "check": "edge_ordering_is_recorded",
+      "ok": true,
+      "detail": {
+        "rule": "sha256(seed:identifier) hex ascending",
+        "seed": 4611
+      }
+    },
+    {
+      "check": "lookalike_lbp_is_not_indication",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_hold",
+        "ok": false,
+        "reason": "locked"
+      }
+    },
+    {
+      "check": "apap_is_interchangeable_not_mandatory",
+      "ok": true,
+      "detail": "apap"
+    },
+    {
+      "check": "pdmp_is_interchangeable_not_mandatory",
+      "ok": true,
+      "detail": "pdmp"
+    },
+    {
+      "check": "agreement_is_interchangeable_not_mandatory",
+      "ok": true,
+      "detail": "agreement"
+    },
+    {
+      "check": "cii_continuity_is_interchangeable_not_mandatory",
+      "ok": true,
+      "detail": "cii_continuity"
+    },
+    {
+      "check": "review_due_is_interchangeable_not_mandatory",
+      "ok": true,
+      "detail": "review_due"
+    },
+    {
+      "check": "fibro_is_mandatory",
+      "ok": true,
+      "detail": "fibro"
+    },
+    {
+      "check": "policy_2026_is_mandatory",
+      "ok": true,
+      "detail": "policy_2026"
+    },
+    {
+      "check": "off_canonical_oracle_nodes_recorded",
+      "ok": true,
+      "detail": [
+        "apap",
+        "careplan_pt",
+        "chronic_pain_generic",
+        "cii_continuity",
+        "copay",
+        "coverage",
+        "dental",
+        "discontinue",
+        "dispense_preview",
+        "dose_table",
+        "dstu2",
+        "epinephrine",
+        "generic_review",
+        "gingivitis",
+        "history",
+        "lbp",
+        "legacy_autorefill",
+        "mirena",
+        "other_chart",
+        "pharmacy_fill_log",
+        "policy_2019",
+        "review_due",
+        "terfenadine",
+        "tramadol_switch",
+        "unemployed",
+        "y2023",
+        "y2024"
+      ]
+    },
+    {
+      "check": "start_text_hides_answer",
+      "ok": true,
+      "detail": {
+        "leaks": []
+      }
+    },
+    {
+      "check": "hold_url_not_in_initial_state",
+      "ok": true,
+      "detail": {
+        "identifiers": [
+          "scenario://ehr/pharmacy/RXQ-4611"
+        ]
+      }
+    },
+    {
+      "check": "initial_state_is_queue_only",
+      "ok": true,
+      "detail": {
+        "identifiers": [
+          "scenario://ehr/pharmacy/RXQ-4611"
+        ]
+      }
+    },
+    {
+      "check": "identifiers_are_neutral",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}

@@ -1,0 +1,753 @@
+{
+ "graph": {
+  "nodes": {
+   "start": {
+    "desc": "Outpatient pharmacy queue RXQ-24: a post-discharge outpatient medication reconciliation is waiting after a June 2014 knee episode. The queue asks which medication states govern the outpatient plan on snapshot 2014-09-01\u2014not the acute inpatient medication window. The sandbox action is in scope; no human confirmation is available or required."
+   },
+   "intake": {
+    "desc": "RXQ-24: RXQ-24 was opened after orthopedic discharge. Open the patient header, then separate acute-episode encounters from chronic home medications. A discharge summary and a January wellness reconciliation are available but are not interchangeable episode authorities. Open the patient header at scenario://ehr/Patient/4e65c7b6-abda-fcae-ffb1-31c700e03afd."
+   },
+   "patient": {
+    "desc": "Patient header: Tiana543 Fay398, DOB 1970-06-22, F, MRN 4e65c7b6-abda-fcae-ffb1-31c700e03afd, Peabody MA. Open the active-medication panel at scenario://ehr/panel/active-medications."
+   },
+   "rx_hub": {
+    "desc": "Medication panel for snapshot 2014-09-01. Chronic hypertension rows use the 2014-01-06 segment. Acute analgesic rows have STOP dates before the snapshot. Episode encounters (ER and inpatient ortho) bound the June 2014 acute window. A ticket-scoped acute-analgesic exception search must be checked because an authorized continuation would change the review. Discharge prose, prior hypertension segments, imaging, and coverage remain available as competing context. Episode review stays locked until governing evidence is collected."
+   },
+   "encounter_entry": {
+    "desc": "Encounter index for the June 2014 episode. Open the emergency admission first, then the inpatient orthopedic admission. Outpatient wellness visits are a different care context. Identifiers: scenario://ehr/Encounter/er-2014-06-14, scenario://ehr/Encounter/inpatient-2014-06-21."
+   },
+   "er_encounter": {
+    "desc": "Encounter 2014-06-14T06:34:06Z, class emergency, Emergency room admission (procedure). Observed Synthea row. Ibuprofen starts the same calendar day."
+   },
+   "inpatient_encounter": {
+    "desc": "Encounter 2014-06-21T06:34:06Z, class inpatient, Non-urgent orthopedic admission. Observed Synthea row. Oxycodone/APAP starts during this stay."
+   },
+   "hctz": {
+    "desc": "MedicationRequest RxNorm 316049 Hydrochlorothiazide 25 MG Oral Tablet. START 2014-01-06, STOP 2015-01-12. Active on snapshot. Essential hypertension. Chronic home medication."
+   },
+   "lisinopril": {
+    "desc": "MedicationRequest RxNorm 314076 lisinopril 10 MG Oral Tablet. START 2014-01-06, STOP 2015-01-12. Active on snapshot. Essential hypertension. Chronic home medication."
+   },
+   "ibuprofen": {
+    "desc": "MedicationRequest RxNorm 310965 Ibuprofen 200 MG Oral Tablet. START 2014-06-14, STOP 2014-08-09. Started at ER admission; already stopped before snapshot. Acute-episode analgesic."
+   },
+   "oxy_apap": {
+    "desc": "MedicationRequest oxycodone/APAP. START 2014-06-21, STOP 2014-08-19. Inpatient ortho analgesic; stopped before snapshot. Not part of the chronic home stack."
+   },
+   "prior_hctz": {
+    "desc": "Prior hypertension segment: HCTZ START 2013-06-10, STOP 2014-01-06. Superseded by the 2014-01-06 renewal row. Do not treat as the current chronic plan on snapshot."
+   },
+   "document_entry": {
+    "desc": "Clinical-documents folder: January wellness reconciliation, discharge summary, and knee imaging report. These documents do not replace MedicationRequest STOP dates. Identifiers: scenario://ehr/DocumentReference/wellness-recon-2014-01-06, scenario://ehr/DocumentReference/discharge-summary-2014-06-22, scenario://ehr/Procedure/knee-xray-2014-06-14."
+   },
+   "wellness_recon": {
+    "desc": "Medication Reconciliation performed 2014-01-06 at wellness visit (procedure code 430193006). It predates the June acute episode and does not describe post-discharge analgesics."
+   },
+   "discharge_summary": {
+    "desc": "Discharge summary attested 2014-06-22 (generated overlay): 'Continue home lisinopril and hydrochlorothiazide. Continue ibuprofen 200 mg three times daily for knee pain.' The summary collapses chronic and acute lists and ignores ibuprofen STOP 2014-08-09. It cannot override independent MedicationRequest intervals."
+   },
+   "knee_xray": {
+    "desc": "Procedure 2014-06-14 Knee X-ray. Imaging supports the encounter but does not establish outpatient medication continuation."
+   },
+   "exception_entry": {
+    "desc": "RXQ-24 acute-analgesic exception index. Search for a prescriber-authorized instruction to treat ibuprofen or oxycodone/APAP as continuing chronic home medications after the acute episode."
+   },
+   "exception_result": {
+    "desc": "Ticket-scoped exception search complete: no authorized post-discharge continuation of ibuprofen or oxycodone/APAP is attached to RXQ-24."
+   },
+   "episode_review": {
+    "desc": "Episode-boundary synthesis compares the ER and inpatient boundaries, the chronic 2014 hypertension segment, and both acute analgesic rows with STOP dates before snapshot. Discharge prose that says 'continue ibuprofen' is not governing when the MedicationRequest is already stopped. Apply the local episode-scoping rule before recording review. Local pharmacy episode-scoping monograph (generated overlay): for post-acute medication review, outpatient continuation is governed by MedicationRequest rows active on the snapshot date within the chronic home stack. Analgesics started during an acute encounter that have STOP before snapshot are episode-scoped and must not be carried forward unless a separate authorized continuation exists. Governing rule: scenario://ehr/policy/episode-boundary-outpatient-2014. Record the review at scenario://ehr/pharmacy/RXQ-24/pending-medication-review."
+   },
+   "hold": {
+    "desc": "RXQ-24 routed to pending-medication-review. Chronic HCTZ and lisinopril remain the outpatient hypertension plan. Ibuprofen and oxycodone/APAP are documented as stopped acute-episode medications. Close the queue at scenario://ehr/pharmacy/RXQ-24/complete."
+   },
+   "target": {
+    "desc": "RXQ-24 remains pending-medication-review with episode boundary applied. Chronic HTN therapy is not discontinued."
+   },
+   "coverage_entry": {
+    "desc": "Commercial coverage window active on snapshot."
+   },
+   "eligibility": {
+    "desc": "Coverage eligibility is in-window."
+   },
+   "formulary": {
+    "desc": "Formulary lists ibuprofen as preferred NSAID (generated). Formulary preference does not reopen a stopped acute row."
+   },
+   "copay": {
+    "desc": "Copay accumulator for the quarter."
+   },
+   "generic_review": {
+    "desc": "Generic pharmacy review queue."
+   }
+  },
+  "edges": {
+   "start": [
+    {
+     "edge_id": "e_intake",
+     "to": "intake",
+     "desc": "scenario://ehr/pharmacy/RXQ-24",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "intake": [
+    {
+     "edge_id": "e_patient",
+     "to": "patient",
+     "desc": "scenario://ehr/Patient/4e65c7b6-abda-fcae-ffb1-31c700e03afd",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "patient": [
+    {
+     "edge_id": "e_meds",
+     "to": "rx_hub",
+     "desc": "scenario://ehr/panel/active-medications",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "rx_hub": [
+    {
+     "edge_id": "e_episode_review",
+     "to": "episode_review",
+     "desc": "scenario://ehr/pharmacy/RXQ-24/episode-boundary-review",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": [
+      "er_encounter",
+      "inpatient_encounter",
+      "hctz",
+      "lisinopril",
+      "ibuprofen",
+      "exception_result"
+     ],
+     "requires_visited_n": 6,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_enc",
+     "to": "encounter_entry",
+     "desc": "scenario://ehr/encounter-index/june-2014-acute",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_oxy",
+     "to": "oxy_apap",
+     "desc": "scenario://ehr/MedicationRequest/oxy-apap-2014",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_inpatient",
+     "to": "inpatient_encounter",
+     "desc": "scenario://ehr/Encounter/inpatient-2014-06-21",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_docs",
+     "to": "document_entry",
+     "desc": "scenario://ehr/folder/clinical-documents",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_ibuprofen",
+     "to": "ibuprofen",
+     "desc": "scenario://ehr/MedicationRequest/ibuprofen-310965",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_hctz",
+     "to": "hctz",
+     "desc": "scenario://ehr/MedicationRequest/hctz-316049",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_er",
+     "to": "er_encounter",
+     "desc": "scenario://ehr/Encounter/er-2014-06-14",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_exceptions",
+     "to": "exception_entry",
+     "desc": "scenario://ehr/folder/acute-analgesic-exceptions",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_prior_hctz",
+     "to": "prior_hctz",
+     "desc": "scenario://ehr/MedicationRequest/hctz-prior-2013",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_coverage",
+     "to": "coverage_entry",
+     "desc": "scenario://ehr/Coverage/commercial",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_exception_result",
+     "to": "exception_result",
+     "desc": "scenario://ehr/pharmacy/RXQ-24/acute-analgesic-exception-search",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_lisinopril",
+     "to": "lisinopril",
+     "desc": "scenario://ehr/MedicationRequest/lisinopril-314076",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "encounter_entry": [
+    {
+     "edge_id": "e_inpatient_via_enc",
+     "to": "inpatient_encounter",
+     "desc": "scenario://ehr/Encounter/inpatient-2014-06-21",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_er_via_enc",
+     "to": "er_encounter",
+     "desc": "scenario://ehr/Encounter/er-2014-06-14",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "er_encounter": [],
+   "inpatient_encounter": [],
+   "hctz": [],
+   "lisinopril": [],
+   "ibuprofen": [],
+   "oxy_apap": [],
+   "prior_hctz": [],
+   "document_entry": [
+    {
+     "edge_id": "e_knee",
+     "to": "knee_xray",
+     "desc": "scenario://ehr/Procedure/knee-xray-2014-06-14",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_discharge",
+     "to": "discharge_summary",
+     "desc": "scenario://ehr/DocumentReference/discharge-summary-2014-06-22",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_wellness",
+     "to": "wellness_recon",
+     "desc": "scenario://ehr/DocumentReference/wellness-recon-2014-01-06",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "wellness_recon": [],
+   "discharge_summary": [],
+   "knee_xray": [],
+   "exception_entry": [
+    {
+     "edge_id": "e_exception_via_index",
+     "to": "exception_result",
+     "desc": "scenario://ehr/pharmacy/RXQ-24/acute-analgesic-exception-search",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "exception_result": [],
+   "episode_review": [
+    {
+     "edge_id": "e_hold",
+     "to": "hold",
+     "desc": "scenario://ehr/pharmacy/RXQ-24/pending-medication-review",
+     "resource_type": "endpoint",
+     "requires": [
+      "review_scope",
+      "patient_identity",
+      "queued_panel",
+      "er_boundary",
+      "inpatient_boundary",
+      "chronic_hctz",
+      "chronic_acei",
+      "acute_ibuprofen",
+      "exception_checked",
+      "episode_synthesized"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_generic",
+     "to": "generic_review",
+     "desc": "scenario://ehr/pharmacy/RXQ-24/generic-review",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "hold": [
+    {
+     "edge_id": "e_target",
+     "to": "target",
+     "desc": "scenario://ehr/pharmacy/RXQ-24/complete",
+     "resource_type": "endpoint",
+     "requires": [
+      "hold_applied"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "target": [],
+   "coverage_entry": [
+    {
+     "edge_id": "e_copay",
+     "to": "copay",
+     "desc": "scenario://ehr/ExplanationOfBenefit/copay",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_formulary",
+     "to": "formulary",
+     "desc": "scenario://ehr/CodeSystem/nsaid-formulary",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_eligibility",
+     "to": "eligibility",
+     "desc": "scenario://ehr/Coverage/eligibility",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "eligibility": [],
+   "formulary": [],
+   "copay": [],
+   "generic_review": []
+  }
+ },
+ "meta": {
+  "start": "start",
+  "target": "target",
+  "token_grants": {
+   "intake": "review_scope",
+   "patient": "patient_identity",
+   "rx_hub": "queued_panel",
+   "er_encounter": "er_boundary",
+   "inpatient_encounter": "inpatient_boundary",
+   "hctz": "chronic_hctz",
+   "lisinopril": "chronic_acei",
+   "ibuprofen": "acute_ibuprofen",
+   "exception_result": "exception_checked",
+   "discharge_summary": "discharge_collapsed",
+   "episode_review": "episode_synthesized",
+   "hold": "hold_applied"
+  },
+  "requirement_labels": {
+   "chronic_hctz": "chronic hctz",
+   "review_scope": "review scope",
+   "patient_identity": "patient identity",
+   "acute_ibuprofen": "acute ibuprofen",
+   "chronic_acei": "chronic acei",
+   "discharge_collapsed": "discharge collapsed",
+   "hold_applied": "hold applied",
+   "er_boundary": "er boundary",
+   "queued_panel": "queued panel",
+   "inpatient_boundary": "inpatient boundary",
+   "exception_checked": "exception checked",
+   "episode_synthesized": "episode synthesized"
+  },
+  "dead_end_nodes": [
+   "wellness_recon",
+   "discharge_summary",
+   "knee_xray",
+   "prior_hctz",
+   "oxy_apap",
+   "eligibility",
+   "formulary",
+   "copay",
+   "generic_review"
+  ],
+  "mechanism_regions": {
+   "core": [
+    "start",
+    "intake",
+    "patient",
+    "rx_hub",
+    "episode_review",
+    "hold",
+    "target"
+   ],
+   "encounters": [
+    "encounter_entry",
+    "er_encounter",
+    "inpatient_encounter"
+   ],
+   "medications": [
+    "hctz",
+    "lisinopril",
+    "ibuprofen",
+    "oxy_apap",
+    "prior_hctz"
+   ],
+   "documents": [
+    "document_entry",
+    "wellness_recon",
+    "discharge_summary",
+    "knee_xray"
+   ],
+   "exception_search": [
+    "exception_entry",
+    "exception_result"
+   ],
+   "synthesis": [
+    "episode_review"
+   ],
+   "coverage": [
+    "coverage_entry",
+    "eligibility",
+    "formulary",
+    "copay"
+   ]
+  },
+  "informed_lower_bound": 12,
+  "corpus_case_id": "it-ehr-24-episode-boundary-review",
+  "evidence_cluster_id": "ehr-episode-boundary-post-acute-review",
+  "source_kinds": [
+   "synthea frozen chart",
+   "public labeling",
+   "generated scenario overlay"
+  ],
+  "theme_orthogonal": false,
+  "canonical_oracle_edge_path": [
+   "e_intake",
+   "e_patient",
+   "e_meds",
+   "e_er",
+   "e_inpatient",
+   "e_hctz",
+   "e_lisinopril",
+   "e_ibuprofen",
+   "e_exception_result",
+   "e_episode_review",
+   "e_hold",
+   "e_target"
+  ],
+  "edge_ordering": {
+   "rule": "sha256(seed:identifier) hex ascending",
+   "seed": 212026
+  },
+  "snapshot_date": "2014-09-01",
+  "node_provenance": {
+   "start": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "intake": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "patient": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "rx_hub": {
+    "observed_fact": "synthea",
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "synthea"
+   },
+   "encounter_entry": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "er_encounter": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "inpatient_encounter": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "hctz": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "lisinopril": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "ibuprofen": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "oxy_apap": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "prior_hctz": {
+    "observed_fact": "synthea",
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "synthea"
+   },
+   "document_entry": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "wellness_recon": {
+    "observed_fact": "synthea",
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "synthea"
+   },
+   "discharge_summary": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "knee_xray": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "exception_entry": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "exception_result": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "episode_review": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "hold": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "target": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "coverage_entry": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "eligibility": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "formulary": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "copay": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "generic_review": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   }
+  },
+  "theme": "ehr",
+  "topology": "integrated_ehr_episode_boundary_case",
+  "difficulty": "hard",
+  "step_budget": 18
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "schema_version": "detourbench.frozen-integrated-task.v2",
+ "frozen_on": "2026-08-28",
+ "task_id": 37,
+ "task_directory": "initial_integrated_tasks/37_texas_boundary_dispute_triage",
+ "run_task_name": "texas_boundary_dispute_triage",
+ "classification": "integrated_development_challenge",
+ "task_revision": "texas-boundary-triage-v3.1",
+ "selection_note": "GDPVal-derived development challenge; no pilots have been run on this consistency-corrected revision.",
+ "evidence_cluster_id": "gdpval-prbench-texas-property",
+ "primary_mechanism": "Sufficiency",
+ "supporting_mechanisms": [
+  "Currency",
+  "Depth",
+  "Disposition",
+  "Breadth",
+  "Time"
+ ],
+ "oracle_lower_bound": 19,
+ "informed_lower_bound": 19,
+ "hard_budget": 29,
+ "n_nodes": 53,
+ "n_edges": 70,
+ "reachable_nodes": 53,
+ "episode_count": 0,
+ "metric_version": "detourbench-v3",
+ "solver_version": "compute_lower_bound.monotone-bfs.v1",
+ "state_semantics_version": "graph-env.expanding-search.v1",
+ "hashes_sha256": {
+  "graph_full.json": "d4336b6149d954b2b64e61518bc62ac03bf2d5a23260e1ec98388a1504351140",
+  "initial_state.json": "a831c122469812b52317b2ec98f5e165cf317c422f456a59598e7863b0917dab",
+  "necessity_audit.json": "f4c438cfba3ac8513578b07f38cf7f94a02df94d3a8b502b5e20d83aa1ed0666",
+  "oracle.json": "b386f411b750503b56adf8f9668c44526d8b4f7b90179a26ff168a4482bf157e",
+  "source_corpus.json": "7b2768d791474dbed69ea410d3a515515ee58dcf19427e9f86b5d0d4eb6ad6c6",
+  "task_spec.json": "d9d9c4e45648f725882cd361588cbc8478c359713c32d4cef5254bbcdf29bf6c",
+  "verifier_report.json": "04f8db15cfa3bbaa21e7b45aa800a474cb97f6ab39234936f1c7587e21291a93"
+ }
+}

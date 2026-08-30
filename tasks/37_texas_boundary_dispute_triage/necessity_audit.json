@@ -1,0 +1,151 @@
+{
+ "schema_version": "detourbench.semantic-necessity-audit.v1",
+ "method": "unique-required-token proof with node-removal reachability fallback, plus documented semantic counterfactual",
+ "all_required": true,
+ "items": [
+  {
+   "node": "intake",
+   "structurally_required": true,
+   "proof": {
+    "method": "unique-required-token",
+    "tokens": [
+     "case_scope"
+    ]
+   },
+   "semantic_role": "defines the timestamp, closed-world scope, and least-cost sufficient objective",
+   "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+  },
+  {
+   "node": "fact_register_page1",
+   "structurally_required": true,
+   "proof": {
+    "method": "unique-required-token",
+    "tokens": [
+     "facts_packet_page1"
+    ]
+   },
+   "semantic_role": "supplies the survey, duration, missing agreement that may evidence permission, and deed-scope facts",
+   "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+  },
+  {
+   "node": "fact_register_page2",
+   "structurally_required": true,
+   "proof": {
+    "method": "unique-required-token",
+    "tokens": [
+     "facts_packet_page2"
+    ]
+   },
+   "semantic_role": "supplies the party-identity and shared-private-utility predicates",
+   "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+  },
+  {
+   "node": "research_current",
+   "structurally_required": true,
+   "proof": {
+    "method": "unique-required-token",
+    "tokens": [
+     "current_research_packet"
+    ]
+   },
+   "semantic_role": "selects the controlled authority packet effective at the frozen timestamp",
+   "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+  },
+  {
+   "node": "adverse_limits",
+   "structurally_required": true,
+   "proof": {
+    "method": "unique-required-token",
+    "tokens": [
+     "merits_authority"
+    ]
+   },
+   "semantic_role": "combines hostile-use, ten-year, tacking, and three-year title rules without turning the threshold into merits",
+   "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+  },
+  {
+   "node": "recording_rules",
+   "structurally_required": true,
+   "proof": {
+    "method": "unique-required-token",
+    "tokens": [
+     "constraint_authority"
+    ]
+   },
+   "semantic_role": "makes recording consequences conditional, confines section 5.023, and records the missing-doctrine boundary",
+   "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+  },
+  {
+   "node": "estimate_register",
+   "structurally_required": true,
+   "proof": {
+    "method": "unique-required-token",
+    "tokens": [
+     "cost_packet_page1"
+    ]
+   },
+   "semantic_role": "supplies title, attorney, recording, court, and service figures",
+   "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+  },
+  {
+   "node": "estimate_register_page2",
+   "structurally_required": true,
+   "proof": {
+    "method": "unique-required-token",
+    "tokens": [
+     "cost_packet_page2"
+    ]
+   },
+   "semantic_role": "supplies survey and private-locator figures and both complete path totals",
+   "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+  },
+  {
+   "node": "policy_current",
+   "structurally_required": true,
+   "proof": {
+    "method": "unique-required-token",
+    "tokens": [
+     "current_triage_policy"
+    ]
+   },
+   "semantic_role": "establishes the global default and least-irreversible sufficient rule",
+   "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+  },
+  {
+   "node": "risk_current",
+   "structurally_required": true,
+   "proof": {
+    "method": "unique-required-token",
+    "tokens": [
+     "effective_risk_exception"
+    ]
+   },
+   "semantic_role": "defines the conjunctive exception that reverses the global default",
+   "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+  },
+  {
+   "node": "workflow_register",
+   "structurally_required": true,
+   "proof": {
+    "method": "unique-required-token",
+    "tokens": [
+     "workflow_matrix_reviewed"
+    ]
+   },
+   "semantic_role": "compares all three workflow alternatives, defects, and complete costs in one controlled matrix",
+   "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+  },
+  {
+   "node": "submission_schema",
+   "structurally_required": true,
+   "proof": {
+    "method": "unique-required-token",
+    "tokens": [
+     "submission_schema_reviewed"
+    ]
+   },
+   "semantic_role": "defines the allowed one-shot actions and final review requirement",
+   "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+  }
+ ]
+}

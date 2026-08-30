@@ -1,0 +1,49 @@
+{
+  "schema_version": "detourbench.semantic-necessity-audit.v1",
+  "method": "node-removal reachability plus documented semantic counterfactual",
+  "all_required": true,
+  "items": [
+    {
+      "node": "policy_2024b",
+      "structurally_required": true,
+      "semantic_role": "states the cure definition and the delinquency and referral rules in force on the snapshot",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    },
+    {
+      "node": "filing_index",
+      "structurally_required": true,
+      "semantic_role": "establishes which periodic reports exist and which do not as of the snapshot",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    },
+    {
+      "node": "f_000149315224022972",
+      "structurally_required": true,
+      "semantic_role": "names the periods on which reliance was withdrawn",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    },
+    {
+      "node": "f_000149315224029269",
+      "structurally_required": true,
+      "semantic_role": "is the filing that carries the restatement, and points at its explanatory note",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    },
+    {
+      "node": "explanatory_note",
+      "structurally_required": true,
+      "semantic_role": "states that this comprehensive report restates the affected periods and that no amendments will be filed",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    },
+    {
+      "node": "f_000149315224012853",
+      "structurally_required": true,
+      "semantic_role": "establishes the annual notification whose report was filed, the check that has to come back negative before any report can be called delinquent",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    },
+    {
+      "node": "f_000149315224020241",
+      "structurally_required": true,
+      "semantic_role": "establishes the outstanding first-quarter notification whose report is not on file at the snapshot",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    }
+  ]
+}

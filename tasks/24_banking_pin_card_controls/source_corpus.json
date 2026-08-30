@@ -1,0 +1,95 @@
+{
+  "schema_version": "detourbench.internal-synthetic-banking-overlay.v1",
+  "source_fixture_id": "tau3_syn65_hard_0018",
+  "source_file": "other_bench_tasks/taubench_demo/tasks/task_syn65_hard_0018.json",
+  "source_sha256": "c175f40b83dafce95aee23a1afcc7c346bf779c72767e754ce342c8aa2d31cfe",
+  "upstream_framework": "tau2 / banking_knowledge",
+  "source_data_nature": "fully synthetic",
+  "confidentiality": "internal evaluation only; no redistribution",
+  "publication_note": "Do not ship this extract with a public benchmark without source permission. Replace it with independently generated synthetic records before publication.",
+  "selected_synthetic_records": {
+    "users": {
+      "syn65hard_0018_users_03": {
+        "address": "118 Willow Street, Phoenix, AZ 85004",
+        "date_of_birth": "07/01/1998",
+        "email": "noah.patel+tau30018@example.test",
+        "name": "Noah Patel",
+        "phone_number": "555-218-7271",
+        "user_id": "syn65hard_0018_users_03"
+      }
+    },
+    "accounts": {
+      "syn65hard_0018_accounts_01": {
+        "account_id": "syn65hard_0018_accounts_01",
+        "class": "checking",
+        "current_holdings": "3325.00",
+        "date_opened": "07/02/2021",
+        "level": "Sky Blue Account",
+        "status": "OPEN",
+        "user_id": "syn65hard_0018_users_03"
+      }
+    },
+    "debit_cards": {
+      "syn65hard_0018_debit_cards_02": {
+        "account_id": "syn65hard_0018_accounts_01",
+        "card_id": "syn65hard_0018_debit_cards_02",
+        "cardholder_name": "NOAH PATEL",
+        "cvv": "851",
+        "expiration_date": "08/31",
+        "issue_date": "07/02/2026",
+        "issue_reason": "new_account",
+        "last_4_digits": "4561",
+        "status": "ACTIVE",
+        "user_id": "syn65hard_0018_users_03"
+      },
+      "syn65hard_0018_debit_cards_distractor_01": {
+        "account_id": "syn65hard_0018_accounts_01",
+        "card_id": "syn65hard_0018_debit_cards_distractor_01",
+        "cardholder_name": "NOAH PATEL",
+        "cvv": "619",
+        "expiration_date": "11/30",
+        "issue_date": "01/02/2025",
+        "issue_reason": "new_account",
+        "last_4_digits": "8619",
+        "status": "PENDING",
+        "user_id": "syn65hard_0018_users_03"
+      },
+      "syn65hard_0018_debit_cards_distractor_02": {
+        "account_id": "syn65hard_0018_accounts_01",
+        "card_id": "syn65hard_0018_debit_cards_distractor_02",
+        "cardholder_name": "NOAH PATEL",
+        "cvv": "620",
+        "expiration_date": "12/30",
+        "issue_date": "01/02/2025",
+        "issue_reason": "bank_reissue",
+        "last_4_digits": "8620",
+        "status": "PENDING",
+        "user_id": "syn65hard_0018_users_03"
+      }
+    }
+  },
+  "source_gold_write_actions": [
+    {
+      "tool": "reset_debit_card_pin_6284",
+      "arguments": {
+        "card_id": "syn65hard_0018_debit_cards_02",
+        "last_4_digits": "4561",
+        "new_pin": "7515"
+      }
+    },
+    {
+      "tool": "set_debit_card_recurring_block_7382",
+      "arguments": {
+        "block_recurring": true,
+        "card_id": "syn65hard_0018_debit_cards_02"
+      }
+    },
+    {
+      "tool": "freeze_debit_card_3892",
+      "arguments": {
+        "card_id": "syn65hard_0018_debit_cards_02"
+      }
+    }
+  ],
+  "adaptation_note": "DetourBench removes the simulated dialogue and discoverable-tool unlock bookkeeping, withholds internal card IDs from the start, and adds evidence discovery, policy currency, ordered state gates, false summits, explicit failure dispositions and audit commit. Source gold action count is not used as the lower bound."
+}

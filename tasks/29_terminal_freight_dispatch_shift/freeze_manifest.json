@@ -1,0 +1,49 @@
+{
+ "schema_version": "detourbench.frozen-integrated-task.v2",
+ "frozen_on": "2026-08-27",
+ "task_id": 29,
+ "task_directory": "initial_integrated_tasks/29_terminal_freight_dispatch_shift",
+ "run_task_name": "terminal_freight_dispatch_shift",
+ "classification": "integrated_task_independently_piloted",
+ "task_revision": "terminal-freight-dispatch-v1",
+ "selection_note": "Frozen before its independent pilot and cleared for comparison against other frozen tasks. Selection was not blind: see independent_pilot.does_not_establish.",
+ "evidence_cluster_id": "freight-dispatch-shift-v1-0900-review",
+ "metric_version": "detourbench-v3",
+ "solver_version": "compute_lower_bound.monotone-bfs.v1",
+ "state_semantics_version": "graph-env.expanding-search.v1",
+ "n_nodes": 35,
+ "n_edges": 45,
+ "oracle_lower_bound": 20,
+ "informed_lower_bound": 20,
+ "hard_budget": 30,
+ "primary_mechanism": "Disposition",
+ "supporting_mechanisms": [
+  "Currency",
+  "Breadth",
+  "Depth"
+ ],
+ "episode_count": 5,
+ "hashes_sha256": {
+  "graph_full.json": "5a7c1711984bfc1d60a2cb5173c911853c82adda93843a7d833de409fad16e20",
+  "oracle.json": "69fd4abc9768d029f37718dd7a0eec305a01d6fbd131fb1a7d6bce0365b8cfb7",
+  "verifier_report.json": "55f04bc27547c0c9c0f3e4cea5a54e8bbbebffb68dd8f9e142369ec10af199fe",
+  "source_corpus.json": "7efc6624318bfbc635053ec06e210c830182669316bf85debcd1052e88319e9d",
+  "necessity_audit.json": "8673699c6e44cbaf7347f26f2f0b845b8d20dad7cb635851bda82df1b1dc521b",
+  "task_spec.json": "e4dff6568c61d28a480b61fc09fa3dcedf471d79cbf6186d3a67c2ca7e020ba7",
+  "initial_state.json": "a033cdd5d0f3f46984034bfa0f5dbffb0050252d17ffd1629953ac5013b3e253"
+ },
+ "prior_classification": "integrated_development_challenge",
+ "independent_pilot": {
+  "model": "gpt-5.6",
+  "date": "2026-08-28",
+  "episodes": 2,
+  "successes": 2,
+  "attainment_values": [
+   0.7407407407407407,
+   0.7407407407407407
+  ],
+  "held_out_from": "gpt-5.6 ran no episode of this task on any revision before this date, and was not consulted while the task was authored or revised.",
+  "establishes": "The task's difficulty is not an artifact of the models that were observed during development; a model that did not influence the design meets it at comparable cost.",
+  "does_not_establish": "Blind selection. This task was authored and revised while observing model behaviour, so its existence and shape remain informed by that behaviour. An independent pilot cannot undo selection that already happened."
+ }
+}

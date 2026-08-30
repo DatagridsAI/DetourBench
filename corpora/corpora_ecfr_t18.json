@@ -1,0 +1,1134 @@
+{
+ "seed": "157.205",
+ "sections": {
+  "157.205": {
+   "title": "Notice procedure.",
+   "refs": [
+    "157.208",
+    "157.210",
+    "157.211",
+    "157.212",
+    "157.213",
+    "157.6",
+    "385.203",
+    "157.9"
+   ],
+   "history": "[Order 234, 47 FR 24266, June 4, 1982]",
+   "amended_years": [
+    1982
+   ],
+   "text": "Notice procedure. (a) Applicability. No activity described in \u00a7\u00a7 157.208(b), \u00a7 157.210, \u00a7 157.211(a)(2), \u00a7 157.212, \u00a7 157.213(b), 157.214 or 157.216(b), except for activity required to restore service in an emergency, is authorized by a blanket certificate granted under this subpart, unless, prior to undertaking such activity: (1) The notice requirements have been fulfilled in accordance with the provisions of this section; and (2) Either (i) no protest has been filed pursuant to paragraph (e) of this section or, (ii) if a protest has been filed, it has been withdrawn or dismissed pursuant to paragraph (g) of this section. (b) Contents. For any activity subject to the requirements of this section, the certificate holder must file with the Secretary of the Commission an original and seven c"
+  },
+  "157.208": {
+   "title": "Construction, acquisition, operation, replacement, and miscellaneous rearrangement of facilities.",
+   "refs": [
+    "157.205",
+    "380.12",
+    "157.215",
+    "375.308"
+   ],
+   "history": "[Order 234, 47 FR 24266, June 4, 1982]",
+   "amended_years": [
+    1982
+   ],
+   "text": "Construction, acquisition, operation, replacement, and miscellaneous rearrangement of facilities. (a) Automatic authorization. If the project cost does not exceed the cost limitations set forth in column 1 of table 1 to paragraph (d) of this section, or if the project is required to restore service in an emergency, the certificate holder is authorized to make miscellaneous rearrangements of any facility, or acquire, construct, replace, or operate any eligible facility. The certificate holder shall not segment projects in order to meet the cost limitations set forth in column 1 of table 1 to paragraph (d). (b) Prior notice. If the project cost is greater than the amount specified in column 1 of table 1 to paragraph (d) of this section, but less than the amount specified in column 2 of table"
+  },
+  "157.210": {
+   "title": "Mainline natural gas facilities.",
+   "refs": [
+    "157.205",
+    "157.202",
+    "157.208"
+   ],
+   "history": "[Order 686, 71 FR 63693, Oct. 31, 2006, as amended at 89 FR 16684, Mar. 8, 2024]",
+   "amended_years": [
+    2006,
+    2024
+   ],
+   "text": "Mainline natural gas facilities. Subject to the notice requirements of \u00a7\u00a7 157.205(b) and 157.208(c), the certificate holder is authorized to acquire, construct, modify, replace, and operate natural gas mainline facilities, including compression and looping, that are not eligible facilities under \u00a7 157.202(b)(2)(i). The cost of a project may not exceed the cost limitation provided in column 2 of table 1 to \u00a7 157.208(d). The certificate holder must not segment projects in order to meet this cost limitation. [Order 686, 71 FR 63693, Oct. 31, 2006, as amended at 89 FR 16684, Mar. 8, 2024]"
+  },
+  "157.211": {
+   "title": "Delivery points.",
+   "refs": [
+    "157.205",
+    "157.6",
+    "157.206"
+   ],
+   "history": "[Order 436, 50 FR 42491, Oct. 18, 1985, as amended by Order 493, 53 FR 15030, Apr. 27, 1988; Order 603, 64 FR 26608, May 14, 1999; Order 603-B, 65 FR 11464, Mar. 3, 2000]",
+   "amended_years": [
+    1985,
+    1988,
+    1999,
+    2000
+   ],
+   "text": "Delivery points. (a) Construction and operation \u2014(1) Automatic authorization. The certificate holder may acquire, construct, replace, modify, or operate any delivery point, excluding the construction of certain delivery points subject to the prior notice provisions in paragraph (a)(2) of this section if: (i) The natural gas is being delivered to, or for the account of, a shipper for whom the certificate holder is, or will be, authorized to transport gas; and (ii) The certificate holder's tariff does not prohibit the addition of new delivery points. (2) Prior notice. Subject to the notice procedure in \u00a7 157.205, the certificate holder may acquire, construct, replace, modify, or operate any delivery point if: (i) The natural gas is being delivered to, or for the account of, an end-user that "
+  },
+  "157.212": {
+   "title": "Synthetic and liquefied natural gas facilities.",
+   "refs": [
+    "157.205",
+    "153.2",
+    "157.208"
+   ],
+   "history": "[Order 686, 71 FR 63693, Oct. 31, 2006, as amended at 89 FR 16684, Mar. 8, 2024]",
+   "amended_years": [
+    2006,
+    2024
+   ],
+   "text": "Synthetic and liquefied natural gas facilities. Subject to the notice requirements of \u00a7\u00a7 157.205(b) and 157.208(c), the certificate holder is authorized to acquire, construct, modify, replace, and operate natural gas facilities that are used to transport either a mix of synthetic and natural gas or exclusively revaporized liquefied natural gas and that are not \u201crelated jurisdictional natural gas facilities\u201d as defined in \u00a7 153.2(e) of this chapter. The cost of a project may not exceed the cost limitation provided in column 2 of table 1 to \u00a7 157.208(d). The certificate holder must not segment projects in order to meet this cost limitation. [Order 686, 71 FR 63693, Oct. 31, 2006, as amended at 89 FR 16684, Mar. 8, 2024]"
+  },
+  "157.213": {
+   "title": "Underground storage field facilities.",
+   "refs": [
+    "157.208",
+    "157.205",
+    "157.206"
+   ],
+   "history": "[Order 686, 71 FR 63693, Oct. 31, 2006, as amended by Order 686-A, 72 FR 37436, July 10, 2007; 89 FR 16684, Mar. 8, 2024]",
+   "amended_years": [
+    2006,
+    2007,
+    2024
+   ],
+   "text": "Underground storage field facilities. (a) Automatic authorization. If the project cost does not exceed the cost limitations provided in column 1 of table 1 to \u00a7 157.208(d), the certificate holder may acquire, construct, modify, replace, and operate facilities for the remediation and maintenance of an existing underground storage facility, provided the storage facility's certificated physical parameters\u2014including total inventory, reservoir pressure, reservoir and buffer boundaries, and certificated capacity remain unchanged\u2014and provided compliance with environmental and safety provisions is not affected. The certificate holder must not alter the function of any well that is drilled into or is active in the management of the storage facility. The certificate holder must not segment projects "
+  },
+  "157.6": {
+   "title": "Applications; general requirements.",
+   "refs": [
+    "157.20",
+    "157.205",
+    "157.207",
+    "157.214",
+    "385.2101",
+    "157.5",
+    "385.215",
+    "157.15",
+    "157.18",
+    "157.14",
+    "385.203"
+   ],
+   "history": "[17 FR 7386, Aug. 14, 1952]",
+   "amended_years": [],
+   "text": "Applications; general requirements. (a) Applicable rules \u2014(1) Submission required to be furnished by applicant under this subpart. Applications, amendments thereto, and all exhibits and other submissions required to be furnished by an applicant to the Commission under this subpart must be submitted in an original and 7 conformed copies. To the extent that data required under this subpart has been provided to the Commission, this data need not be duplicated. The applicant must, however, include a statement identifying the forms and records containing the required information and when that form or record was submitted. (2) Maps and diagrams. An applicant required to submit a map or diagram under this subpart must submit one paper copy of the map or diagram. This paragraph (a)(2) shall cease "
+  },
+  "385.203": {
+   "title": "Content of pleadings and tariff or rate filings (Rule 203).",
+   "refs": [],
+   "history": "[Order 225, 47 FR 19022, May 3, 1982, as amended by Order 647, 69 FR 32439, June 10, 2004; Order 663, 70 FR 55725, Sept. 23, 2005; 71 FR 14642, Mar. 23, 2006; Order 714, 73 FR 57538, Oct. 3, 2008; Order 899, 88 FR 74032, Oct. 30, 2023; Order 914, 90 FR 48406, Oct. 21, 2025]",
+   "amended_years": [
+    1982,
+    2004,
+    2005,
+    2006,
+    2008,
+    2023,
+    2025
+   ],
+   "text": "Content of pleadings and tariff or rate filings (Rule 203). (a) Requirements for a pleading or a tariff or rate filing. Each pleading and each tariff or rate filing must include, as appropriate: (1) If known, the reference numbers, docket numbers, or other identifying symbols of any relevant tariff, rate, schedule, contract, application, rule, or similar matter or material; (2) The name of each participant for whom the filing is made or, if the filing is made for a group of participants, the name of the group, provided that the name of each member of the group is set forth in a previously filed document which is identified in the filing being made; (3) The specific authorization or relief sought; (4) The tariff or rate sheets or sections; (5) The name and address of each person against who"
+  },
+  "157.9": {
+   "title": "Notice of application and notice of schedule for environmental review.",
+   "refs": [
+    "157.8"
+   ],
+   "history": "[Order 653, 70 FR 8724, Feb. 23, 2005, as amended by Order 687, 71 FR 62920, Oct. 27, 2006]",
+   "amended_years": [
+    2005,
+    2006
+   ],
+   "text": "Notice of application and notice of schedule for environmental review. (a) Notice of each application filed, except when rejected in accordance with \u00a7 157.8, will be issued within 10 business days of filing, and subsequently will be published in the Federal Register and copies of such notice sent to States affected thereby, by electronic means if practical, otherwise by mail. Persons desiring to receive a copy of the notice of every application shall so advise the Secretary. (b) For each application that will require an environmental assessment or an environmental impact statement, notice of a schedule for the environmental review will be issued within 90 days of the notice of the application, and subsequently will be published in the Federal Register. [Order 653, 70 FR 8724, Feb. 23, 2005"
+  },
+  "380.12": {
+   "title": "Environmental reports for Natural Gas Act applications.",
+   "refs": [
+    "380.3"
+   ],
+   "history": "[Order 603, 64 FR 26611, May 14, 1999, as amended by Order 603-A, 64 FR 54537, Oct. 7, 1999; Order 609, 64 FR 57392, Oct. 25, 1999; Order 699, 72 FR 45328, Aug. 14, 2007; Order 756, 77 FR 4895, Feb. 1, 2012; Order 900, 88 FR 74042, Oct. 30, 2023]",
+   "amended_years": [
+    1999,
+    2007,
+    2012,
+    2023
+   ],
+   "text": "Environmental reports for Natural Gas Act applications. (a) Introduction. (1) The applicant must submit an environmental report with any application that proposes the construction, operation, or abandonment of any facility identified in \u00a7 380.3(c)(2)(i). The environmental report shall consist of the thirteen resource reports and related material described in this section. (2) The detail of each resource report must be commensurate with the complexity of the proposal and its potential for environmental impact. Each topic in each resource report shall be addressed or its omission justified, unless the resource report description indicates that the data is not required for that type of proposal. If material required for one resource report is provided in another resource report or in another "
+  },
+  "157.215": {
+   "title": "Underground storage testing and development.",
+   "refs": [
+    "157.208"
+   ],
+   "history": "[Order 234, 47 FR 24266, June 4, 1982]",
+   "amended_years": [
+    1982
+   ],
+   "text": "Underground storage testing and development. (a) Automatic authorization. The certificate holder is authorized to acquire, construct and operate natural gas pipeline and compression facilities, including injection, withdrawal, and observation wells for the testing or development of underground reservoirs for the possible storage of gas, if: (1) The testing and development of a particular storage project will be completed within a three-year-period; (2) The quantity of natural gas injected into the prospective storage fields pursuant to the blanket certificate does not exceed a total of 10,000,000 Mcf at any time in all fields with no more than 2,000,000 Mcf injected into any single field; (3) Gas will be injected for testing purposes only during off-peak periods; (4) The storage field deve"
+  },
+  "375.308": {
+   "title": "Delegations to the Director of the Office of Energy Projects.",
+   "refs": [
+    "385.2008",
+    "385.216",
+    "381.302",
+    "381.106",
+    "385.2001",
+    "4.303",
+    "4.93",
+    "4.105",
+    "4.94",
+    "4.106"
+   ],
+   "history": "[Order 492, 53 FR 16065, May 5, 1988]",
+   "amended_years": [
+    1988
+   ],
+   "text": "Delegations to the Director of the Office of Energy Projects. The Commission authorizes the Director or the Director's designee to: (a) Take appropriate action on uncontested applications and on applications for which the only motion or notice of intervention in opposition is filed by a competing preliminary permit or exemption applicant that does not propose and substantiate materially different plans to develop, conserve, and utilize the water resources of the region for the following: (1) Licenses (including original, new, and transmission line licenses) under part I of the Federal Power Act; (2) Exemptions from all or part of the licensing requirements of part I of the Federal Power Act; and (3) Preliminary permits for proposed projects. (b) Take appropriate action on uncontested appli"
+  },
+  "157.202": {
+   "title": "Definitions.",
+   "refs": [
+    "2.55",
+    "157.216",
+    "157.211",
+    "157.209"
+   ],
+   "history": "[Order 234, 47 FR 24266, June 4, 1982]",
+   "amended_years": [
+    1982
+   ],
+   "text": "Definitions. (a) General rule. Terms defined in the Natural Gas Policy Act of 1978 (NGPA) shall have the same meaning for the purposes of this subpart as they have under the Natural Gas Policy Act of 1978. (b) Subpart F definitions. For purposes of this subpart: (1) Certificate holder means any interstate pipeline with an effective blanket certificate issued pursuant to this subpart. (2)(i) Eligible facility means, except as provided in paragraph (b)(2)(ii) of this section, any facility subject to the Natural Gas Act jurisdiction of the Commission that is necessary to provide service within existing certificated levels. Eligible facility also includes any gas supply facility or any facility, including receipt points, needed by the certificate holder to receive gas into its system for furth"
+  },
+  "157.206": {
+   "title": "Standard conditions.",
+   "refs": [
+    "380.15"
+   ],
+   "history": "[Order 234, 47 FR 24266, June 4, 1982]",
+   "amended_years": [
+    1982
+   ],
+   "text": "Standard conditions. Any activity authorized under a blanket certificate issued under this subpart is subject to the following conditions: (a) Revisions. (1) The Commission reserves the right to amend the requirements of this subpart from time to time. (2) The blanket certificate is not transferable in any manner and shall be effective only so long as the certificate holder continues the activities authorized by the order issuing such certificate and does so in accordance with the provisions of the Natural Gas Act, as well as applicable rules, regulations, and orders of the Commission. (b) Environmental compliance. This paragraph only applies to activities that involve ground disturbance or changes to operational air and noise emissions. (1) The certificate holder shall adopt the requireme"
+  },
+  "153.2": {
+   "title": "Definitions.",
+   "refs": [
+    "157.21"
+   ],
+   "history": "[Order 595, 62 FR 30446, June 4, 1997, as amended by Order 665, 70 FR 60440, Oct. 18, 2005; Order 900, 88 FR 74041, Oct. 30, 2023]",
+   "amended_years": [
+    1997,
+    2005,
+    2023
+   ],
+   "text": "Definitions. (a) DOE/FE means the Department of Energy/Office of Fossil Energy or its successor office. (b) Person means an individual or entity as defined in 10 CFR 590.102(m). (c) LNG Terminal means all natural gas facilities located onshore or in state waters that are used to receive, unload, load, store, transport, gasify, liquefy, or process natural gas that is imported to the United States from a foreign country, exported to a foreign country from the United States, or transported in interstate commerce by a waterborne vessel, but does not include: (1) Waterborne vessels used to deliver natural gas to or from any such facility; or (2) Any pipeline or storage facility subject to the jurisdiction of the Commission under section 7 of the Natural Gas Act. (d) For purposes of this part an"
+  },
+  "157.20": {
+   "title": "General conditions applicable to certificates.",
+   "refs": [
+    "385.2011"
+   ],
+   "history": "[17 FR 7389, Aug. 14, 1952, as amended by Order 280, 29 FR 4879, Apr. 7, 1964; Order 317, 31 FR 432, Jan. 13, 1966; Order 324, 31 FR 9348, July 8, 1966; Order 493, 53 FR 15030, Apr. 27, 1988; Order 493-B, 53 FR 49653, Dec. 9, 1988; Order 603, 64 FR 26606, May 14, 1999]",
+   "amended_years": [
+    1964,
+    1966,
+    1988,
+    1999
+   ],
+   "text": "General conditions applicable to certificates. Such of the following terms and conditions, among others, as the Commission shall find is required by the public convenience and necessity, shall attach to the issuance of each certificate and to the exercise of the rights granted thereunder. (a) The certificate shall be void and without force or effect unless accepted in writing by applicant within 30 days from the issue date of the order issuing such certificate: Provided, however, That when an application for rehearing of such order is filed in accordance with section 19 of the Natural Gas Act, such acceptance shall be filed within 30 days from the issue date of the order of the Commission upon the application for rehearing or within 30 days from the date on which such application may be de"
+  },
+  "157.207": {
+   "title": "General reporting requirements.",
+   "refs": [
+    "157.6",
+    "157.208",
+    "157.211",
+    "157.209",
+    "157.215",
+    "157.216",
+    "157.217",
+    "157.218"
+   ],
+   "history": "[Order 436, 50 FR 42490, Oct. 18, 1985, as amended by Order 493, 53 FR 15030, Apr. 27, 1988; Order 603, 64 FR 26607, May 14, 1999; Order 603, 66 FR 15347, Mar. 19, 2001; Order 633, 68 FR 31605, May 28, 2003; Order 686, 71 FR 63693, Oct. 31, 2006; Order 686-A, 72 FR 37436, July 10, 2007]",
+   "amended_years": [
+    1985,
+    1988,
+    1999,
+    2001,
+    2003,
+    2006,
+    2007
+   ],
+   "text": "General reporting requirements. On or before May 1, or each year, or in the case of emergency reconstruction activity, prior to any activity, the certificate holder must file, in the manner prescribed in \u00a7\u00a7 157.6(a) and 385.2011 of this chapter, an annual report signed under oath by a senior official of the company, that lists for the previous calendar year: (a) For each new facility authorized by \u00a7\u00a7 157.208, 157.210, 157.212, or 157.213, the information specified in \u00a7 157.208(e); (b) For each delivery point authorized under \u00a7 157.211(a)(1), the information required by \u00a7 157.211(c); (c) for each temporary compressor facility under \u00a7 157.209, the information required by \u00a7 157.209(b); (d) For each storage project tested or developed under \u00a7 157.215, the information specified in \u00a7 157.215(b)("
+  },
+  "157.214": {
+   "title": "Increase in storage capacity.",
+   "refs": [
+    "157.205",
+    "385.2011"
+   ],
+   "history": "[Order 234, 47 FR 24266, June 4, 1982, as amended by Order 493, 53 FR 15030, Apr. 27, 1988]",
+   "amended_years": [
+    1982,
+    1988
+   ],
+   "text": "Increase in storage capacity. (a) Prior notice. Subject to the notice requirements of \u00a7 157.205, the certificate holder is authorized to increase the maximum volume of natural gas authorized to be stored in a storage field to the extent that geological data and operating experience have demonstrated that a volume of natural gas greater than that currently certificated may be safely stored without the construction of additional facilities. (b) Contents of request. In addition to the requirements of \u00a7 157.205(b), requests filed for activities described in paragraph (a) shall contain: (1) Current and requested maximum storage capacity; (2) Current and requested maximum storage pressure; (3) Average depth of the storage formation; (4) Copies of any geological or engineering studies that demons"
+  },
+  "385.2101": {
+   "title": "Appearances (Rule 2101).",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Appearances (Rule 2101). (a) A participant may appear in a proceeding in person or by an attorney or other qualified representative. An individual may appear in his or her own behalf, a member of a partnership may represent the partnership, a bona-fide officer of a corporation, trust, association or organized group may represent the corporation, trust, association or group, and an officer or employee of a State commission, of a department or political subdivision of a State or other governmental authority, may represent the State commission or the department or political subdivision of the State or other governmental authority, in any proceeding. (b) A person compelled to appear or voluntarily testifying or making a statement before the Commission or the presiding officer, may be accompani"
+  },
+  "157.5": {
+   "title": "Purpose and intent of rules.",
+   "refs": [
+    "157.7",
+    "157.18"
+   ],
+   "history": "[17 FR 7386, Aug. 14, 1952, as amended by Order 280, 29 FR 4876, Apr. 7, 1964]",
+   "amended_years": [
+    1964
+   ],
+   "text": "Purpose and intent of rules. (a) Applications under section 7 of the Natural Gas Act shall set forth all information necessary to advise the Commission fully concerning the operation, sales, service, construction, extension, or acquisition for which a certificate is requested or the abandonment for which permission and approval is requested. Some applications may be of such character that an abbreviated application may be justified under the provisions of \u00a7 157.7. Applications for permission and approval to abandon pursuant to section 7(b) of the Act shall conform to \u00a7 157.18 and to such other requirements of this part as may be pertinent. However, every applicant shall file all pertinent data and information necessary for a full and complete understanding of the proposed project, includin"
+  },
+  "385.215": {
+   "title": "Amendment of pleadings and tariff or rate filings (Rule 215).",
+   "refs": [],
+   "history": "[Order 225, 47 FR 19022, May 3, 1982, as amended by Order 714, 73 FR 57538, Oct. 3, 2008]",
+   "amended_years": [
+    1982,
+    2008
+   ],
+   "text": "Amendment of pleadings and tariff or rate filings (Rule 215). (a) General rules. (1) Any participant, or any person who has filed a timely motion to intervene which has not been denied, may seek to modify its pleading by filing an amendment which conforms to the requirements applicable to the pleading to be amended. (2) A tariff or rate filing may be amended or modified only as provided in the regulations under this chapter. A tariff or rate filing may not be amended, except as allowed by statute. The procedures provided in this section do not apply to amendment of tariff or rate filings. (3)(i) If a written amendment is filed in a proceeding, or part of a proceeding, that is not set for hearing under subpart E, the amendment becomes effective as an amendment on the date filed. (ii) If a w"
+  },
+  "157.15": {
+   "title": "Requirements for applications covering acquisitions.",
+   "refs": [
+    "157.5"
+   ],
+   "history": "[17 FR 7389, Aug. 14, 1952]",
+   "amended_years": [],
+   "text": "Requirements for applications covering acquisitions. An application for a certificate authorizing acquisition of facilities, in addition to complying with the applicable provisions of \u00a7\u00a7 157.5 through 157.14, shall include a statement showing: (a) The exact legal name of the vendor, lessor, or other party in interest (hereinafter referred to as \u201cvendor\u201d) the State or other laws under which vendor was organized, location of vendor's principal place of business, and a description of the business, operation or property of vendor covered by the application. (b) Any certificate from the Commission, held by vendor, relating directly to the facilities which applicant seeks to acquire, citing the order, date thereof, docket designation, and title of the proceeding; reference to and designation of "
+  },
+  "157.18": {
+   "title": "Applications to abandon facilities or service; exhibits.",
+   "refs": [
+    "385.2011",
+    "380.4",
+    "380.3",
+    "284.13"
+   ],
+   "history": "[Order 280, 29 FR 4879, Apr. 7, 1964, as amended by Order 295, 30 FR 4130, Mar. 30, 1965; Order 493, 53 FR 15029, Apr. 27, 1988; Order 603, 64 FR 26606, May 14, 1999; Order 587-W, 80 FR 67312, Nov. 2, 2015]",
+   "amended_years": [
+    1964,
+    1965,
+    1988,
+    1999,
+    2015
+   ],
+   "text": "Applications to abandon facilities or service; exhibits. Applications for an order authorizing abandonment of facilities or service pursuant to section 7(b) of the Natural Gas Act must contain a statement providing in detail the reasons for the abandonment and must contain the exhibits listed below, unless the applicant includes a statement identifying the schedule and rate containing the required information and data filed as prescribed in \u00a7 385.2011 of this chapter. Any application for an abandonment that is not excluded by \u00a7 380.4(a)(28) or (29), must include an environmental report as specified by \u00a7 380.3(c)(2). Sections 157.6(a) and 385.2011 of this chapter will govern the submission of applications and exhibits required to be furnished. Together with each exhibit, applicant must prov"
+  },
+  "157.14": {
+   "title": "Exhibits.",
+   "refs": [
+    "385.2011",
+    "284.13",
+    "388.113",
+    "157.10",
+    "380.3"
+   ],
+   "history": "[17 FR 7387, Aug. 14, 1952]",
+   "amended_years": [],
+   "text": "Exhibits. (a) To be attached to each application. All exhibits specified must accompany each application when tendered for filing. Together with each exhibit applicant must provide a full and complete explanation of the data submitted, the manner in which it was obtained, and the reasons for the conclusions derived from the exhibits. If the Commission determines that a formal hearing upon the application is required or that testimony and hearing exhibits should be filed, the Secretary will promptly notify the applicant that submittal of all exhibits and testimony of all witnesses to be sponsored by the applicant in support of his case-in-chief is required. Submittal of these exhibits and testimony must be within 20 days from the date of the Secretary's notice, or any other time as the Secr"
+  },
+  "157.8": {
+   "title": "Acceptance for filing or rejection of applications.",
+   "refs": [
+    "385.2001"
+   ],
+   "history": "[Order 603-A, 64 FR 54536, Oct. 7, 1999, as amended by Order 699, 72 FR 45325, Aug. 14, 2007; Order 701, 72 FR 61054, Oct. 29, 2007]",
+   "amended_years": [
+    1999,
+    2007
+   ],
+   "text": "Acceptance for filing or rejection of applications. Applications will be docketed when received and the applicant so advised. (a) If an application patently fails to comply with applicable statutory requirements or with applicable Commission rules, regulations, and orders for which a waiver has not been granted, the Director of the Office of Energy Projects or the Director of the Office of Energy Market Regulation may reject the application within 10 business days of filing as provided by \u00a7 385.2001(b) of this chapter. This rejection is without prejudice to an applicant's refiling a complete application. However, an application will not be rejected solely on the basis of: (1) Environmental reports that are incomplete because the company has not been granted access by the affected landowner"
+  },
+  "380.3": {
+   "title": "Environmental information to be supplied by an applicant.",
+   "refs": [
+    "380.5",
+    "4.38",
+    "16.8",
+    "157.208",
+    "380.12"
+   ],
+   "history": "[Order 486, 52 FR 47910, Dec. 17, 1987, as amended by Order 533, 56 FR 23155, May 20, 1991; Order 603, 64 FR 26611, May 14, 1999; Order 689, 71 FR 69470, Dec. 1, 2006; Order 756, 77 FR 4895, Feb. 1, 2012; Order 908, 90 FR 29425, July 3, 2025]",
+   "amended_years": [
+    1987,
+    1991,
+    1999,
+    2006,
+    2012,
+    2025
+   ],
+   "text": "Environmental information to be supplied by an applicant. (a) An applicant must submit information as follows: (1) For any proposed action identified in \u00a7\u00a7 380.5 and 380.6, an environmental report with the proposal as prescribed in paragraph (c) of this section. (2) For any proposal not identified in paragraph (a)(1) of this section, any environmental information that the Commission may determine is necessary for compliance with these regulations, NEPA, and other Federal laws such as the Endangered Species Act, the National Historic Preservation Act or the Coastal Zone Management Act. (b) An applicant must also: (1) Provide all necessary or relevant information to the Commission; (2) Conduct any studies that the Commission staff considers necessary or relevant to determine the impact of th"
+  },
+  "385.2008": {
+   "title": "Extensions of time (Rule 2008).",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Extensions of time (Rule 2008). (a) Except as otherwise provided by law, the time by which any person is required or allowed to act under any statute, rule, or order may be extended by the decisional authority for good cause, upon a motion made before the expiration of the period prescribed or previously extended. (b) If any motion for extension of time is made after the expiration of a specified time period, the decisional authority may permit performance of the act required or allowed, if the movant shows extraordinary circumstances sufficient to justify the failure to act in a timely manner."
+  },
+  "385.216": {
+   "title": "Withdrawal of pleadings (Rule 216).",
+   "refs": [],
+   "history": "[Order 225, 47 FR 19022, May 3, 1982, as amended by Order 714, 73 FR 57538, Oct. 3, 2008; Order 846, 83 FR 23808, May 23, 2018]",
+   "amended_years": [
+    1982,
+    2008,
+    2018
+   ],
+   "text": "Withdrawal of pleadings (Rule 216). (a) Filing. Any person that filed a pleading may seek to withdraw it by filing a notice of withdrawal. The procedures provided in this section do not apply to withdrawals of tariff or rate filings, which may be withdrawn only as provided in the regulations under this chapter. (b) Action on withdrawals. (1) The withdrawal of any pleading is effective at the end of 15 days from the date of filing of a notice of withdrawal, if no motion in opposition to the notice of withdrawal is filed within that period and the decisional authority does not issue an order disallowing the withdrawal within that period. The decisional authority may disallow, for a good cause, all or part of a withdrawal. (2) If a motion in opposition to a notice of withdrawal is filed withi"
+  },
+  "381.302": {
+   "title": "Petition for issuance of a declaratory order (except under Part I of the Federal Power Act).",
+   "refs": [
+    "385.207"
+   ],
+   "history": "[Order 395, 49 FR 35356, Sept. 7, 1984]",
+   "amended_years": [
+    1984
+   ],
+   "text": "Petition for issuance of a declaratory order (except under Part I of the Federal Power Act). (a) Except as provided in paragraph (b) of this section, the fee established for filing a petition for issuance of a declaratory order under \u00a7 385.207 of this chapter is $42,060. The fee must be submitted in accordance with subpart A of this part. (b) No fee is necessary to file a petition for issuance of a declaratory order that solely concerns the investigation, issuance, transfer, renewal, revocation, and enforcement of licenses and permits for the construction, operation, and maintenance of dams, water conduits, reservoirs, powerhouses, transmission lines, or other works for the development and improvement of navigation and for the development and utilization of power across, along, from, or in"
+  },
+  "381.106": {
+   "title": "Waivers.",
+   "refs": [],
+   "history": "[Order 360, 49 FR 5081, Feb. 10, 1984, as amended by Order 395, 49 FR 35356, Sept. 7, 1984]",
+   "amended_years": [
+    1984
+   ],
+   "text": "Waivers. (a) Filing of petition. If an applicant is suffering from severe economic hardship at the time of filing an application which makes the applicant economically unable to pay the appropriate fee for the application, rate change, tariff, petition, request or other filing requiring a fee, the applicant may submit an original and two copies of a petition for waiver with the application in lieu of the applicable fee. The petition for waiver must include evidence, such as a financial statement, clearly showing either that the applicant does not have the money to pay all or part of the fee, or that if the applicant does pay the fee, the applicant will be placed in financial distress or emergency. (b) Decision on petition. The Commission or its designee will analyze each petition to determ"
+  },
+  "385.2001": {
+   "title": "Filings and Other Submissions.",
+   "refs": [],
+   "history": "[Order 619, 65 FR 57091, Sept. 21, 2000, as amended by Order 2002, 68 FR 51143, Aug. 25, 2003; Order 647, 69 FR 32440, June 10, 2004; Order 703, 72 FR 65664, Nov. 23, 2007; 84 FR 46440, Sept. 4, 2019]",
+   "amended_years": [
+    2000,
+    2002,
+    2003,
+    2004,
+    2007,
+    2019
+   ],
+   "text": "Filings and Other Submissions. (a) Filings with the Commission. (1) Except as otherwise provided in this chapter, any document required to be filed with the Commission must comply with Rules 2001 to 2005 and must be submitted to the Secretary by: (i) Mailing the document through the United States Postal Service to the Secretary, Federal Energy Regulatory Commission, 888 First Street NE, Washington, DC 20426; (ii) Delivering the document by any source other than United States Postal Service to the Federal Energy Regulatory Commission, 12225 Wilkins Avenue, Rockville, Maryland 20852; or (iii) By filing via the Internet pursuant to Rule 2003 through the links provided at http://www.ferc.gov. Note to paragraph ( a )(1): Assistance for filing via the Internet is available by calling (202) 502-6"
+  },
+  "4.303": {
+   "title": "Post-filing procedures.",
+   "refs": [
+    "4.32",
+    "4.93",
+    "4.105",
+    "4.302"
+   ],
+   "history": "[Order 487, 52 FR 48404, Dec. 22, 1987, as amended by Order 647, 69 FR 32438, June 10, 2004]",
+   "amended_years": [
+    1987,
+    2004
+   ],
+   "text": "Post-filing procedures. (a) Submission of cost statement \u2014(1) Accepted applications. Within 60 days after the last date for filing mandatory terms and conditions pursuant to \u00a7 4.32(c)(4) for a new dam or diversion license application seeking PURPA benefits, \u00a7 4.93(b) for an application for exemption of a small conduit hydroelectric facility, or \u00a7 4.105(b)(1) for an application for case-specific exemption of a small hydroelectric power project, a fish and wildlife agency must file with the Commission a cost statement of the reasonable costs the agency incurred in setting mandatory terms and conditions for the proposed project. An agency may request, in writing, along with any supporting documentation an extension of this 60-day period. (2) Rejected, withdrawn or dismissed applications. The "
+  },
+  "4.93": {
+   "title": "Action on exemption applications.",
+   "refs": [
+    "4.30",
+    "4.92",
+    "4.94"
+   ],
+   "history": "[Order 76, 45 FR 28090, Apr. 28, 1980, as amended by Order 413, 50 FR 11687, Mar. 25, 1985; Order 533, 56 FR 23153, May 20, 1991; Order 2002, 68 FR 51121, Aug. 25, 2003; Order 800, 79 FR 59110, Oct. 1, 2014]",
+   "amended_years": [
+    1980,
+    1985,
+    1991,
+    2002,
+    2003,
+    2014
+   ],
+   "text": "Action on exemption applications. (a) An application for exemption that does not meet the eligibility requirements of \u00a7 4.30(b)(30)(iv) may be accepted, provided the application has been accompanied by a request for waiver under \u00a7 4.92(a)(1) and the waiver request has not been denied. Acceptance of an application that has been accompanied by a request for waiver under \u00a7 4.92(a)(1) does not constitute a ruling on the waiver request, unless expressly stated in the acceptance. (b) The Commission will circulate a notice of application for exemption to interested agencies and Indian tribes at the time the applicant is notified that the application is accepted for filing. (c) In granting an exemption the Commission may prescribe terms or conditions in addition to those set forth in \u00a7 4.94, in or"
+  },
+  "4.105": {
+   "title": "Action on exemption applications.",
+   "refs": [
+    "4.106"
+   ],
+   "history": "[Order 106, 45 FR 76123, Nov. 18, 1980, as amended by Order 202, 47 FR 4246, Jan. 29, 1982; Order 413, 50 FR 11688, Mar. 25, 1985; Order 533, 56 FR 23154, May 20, 1991]",
+   "amended_years": [
+    1980,
+    1982,
+    1985,
+    1991
+   ],
+   "text": "Action on exemption applications. (a) Exemption from provisions other than licensing. An application for exemption of a small hydroelectric power project from provisions of Part I of the Act other than the licensing requirement will be processed and considered as part of the related application for license or amendment of license. (b)(1) Consultation. The Commission will circulate a notice of application for exemption from licensing to interested agencies and Indian tribes at the time the applicant is notified that the application is accepted for filing. (2) Non-standard terms and conditions. In approving any application for exemption from licensing, the Commission may prescribe terms or conditions in addition to those set forth in \u00a7 4.106 in order to: (i) Protect the quality or quantity o"
+  },
+  "4.94": {
+   "title": "Standard terms and conditions of exemption.",
+   "refs": [
+    "4.93"
+   ],
+   "history": "[Order 76, 45 FR 28090, Apr. 28, 1980, as amended by Order 413, 50 FR 11687, Mar. 25, 1985; Order 413-A, 56 FR 31331, July 10, 1991; Order 800, 79 FR 59110, Oct. 1, 2014]",
+   "amended_years": [
+    1980,
+    1985,
+    1991,
+    2014
+   ],
+   "text": "Standard terms and conditions of exemption. Any exemption granted under \u00a7 4.93 for a small conduit hydroelectric facility is subject to the following standard terms and conditions: (a) Article 1. The Commission reserves the right to conduct investigations under sections 4(g), 306, 307, and 311 of the Federal Power Act with respect to any acts, complaints, facts, conditions, practices, or other matters related to the construction, operation, or maintenance of the exempt facility. If any term or condition of the exemption is violated, the Commission may revoke the exemption, issue a suitable order under section 4(g) of the Federal Power Act, or take appropriate action for enforcement, forfeiture, or penalties under Part III of the Federal Power Act. (b) Article 2. The construction, operation"
+  },
+  "4.106": {
+   "title": "Standard terms and conditions of case-specific exemption from licensing.",
+   "refs": [],
+   "history": "[Order 106, 45 FR 76123, Nov. 18, 1980; 45 FR 77420, Nov. 24, 1980, as amended by Order 202, 47 FR 4246, Jan. 29, 1982; Order 413, 50 FR 11688, Mar. 25, 1985; Order 482, 52 FR 39630, Oct. 23, 1987; Order 413-A, 56 FR 31331, July 10, 1991; Order 756, 77 FR 4894, Feb. 1, 2012; Order 800, 79 FR 59111, ",
+   "amended_years": [
+    1980,
+    1982,
+    1985,
+    1987,
+    1991,
+    2012
+   ],
+   "text": "Standard terms and conditions of case-specific exemption from licensing. Any case-specific exemption from licensing granted for a small hydroelectric power project is subject to the following standard terms and conditions: (a) Article 1. The Commission reserves the right to conduct investigations under sections 4(g), 306, 307, and 311 of the Federal Power Act with respect to any acts, complaints, facts, conditions, practices, or other matters related to the construction, operation, or maintenance of the exempt project. If any term or condition of the exemption is violated, the Commission may revoke the exemption, issue a suitable order under section 4(g) of the Federal Power Act, or take appropriate action for enforcement, forfeiture, or penalties under Part III of the Federal Power Act. ("
+  },
+  "2.55": {
+   "title": "Auxiliary installations and replacement facilities.",
+   "refs": [
+    "380.12",
+    "157.208"
+   ],
+   "history": "[Order 148, 14 FR 681, Feb. 16, 1949]",
+   "amended_years": [],
+   "text": "Auxiliary installations and replacement facilities. For the purposes of section 7(c) of the Natural Gas Act, as amended, the word facilities as used therein shall be interpreted to exclude: (a) Auxiliary installations. (1) Installations (excluding gas compressors) which are merely auxiliary or appurtenant to an authorized or proposed transmission pipeline system and which are installations only for the purpose of obtaining more efficient or more economical operation of the authorized or proposed transmission facilities, such as: Valves; drips; pig launchers/receivers; yard and station piping; cathodic protection equipment; gas cleaning, cooling and dehydration equipment; residual refining equipment; water pumping, treatment and cooling equipment; electrical and communication equipment; and"
+  },
+  "157.216": {
+   "title": "Abandonment.",
+   "refs": [
+    "2.55",
+    "157.208",
+    "157.203",
+    "157.205",
+    "380.12",
+    "157.206"
+   ],
+   "history": "[Order 234, 47 FR 24266, June 4, 1982, as amended by Order 234-A, 47 FR 38877, Sept. 3, 1982; Order 603, 64 FR 26609, May 14, 1999; Order 603-A, 64 FR 54536, Oct. 7, 1999; Order 686, 71 FR 63694, Oct. 31, 2006; 72 FR 54820, Sept. 27, 2007; Order 790-B, 80 FR 43949, July 24, 2015; 80 FR 50559, Aug. 2",
+   "amended_years": [
+    1982,
+    1999,
+    2006,
+    2007,
+    2015
+   ],
+   "text": "Abandonment. (a) Automatic authorization. The certificate holder is authorized pursuant to section 7(b) of the Natural Gas Act to abandon gas supply facilities, and: (1) A receipt or delivery point, or related supply or delivery lateral, provided the facility has not been used to provide: (i) Interruptible transportation service during the one year period prior to the effective date of the proposed abandonment, or (ii) Firm transportation service during the one year period prior to the effective date of the proposed abandonment, provided the point is no longer covered under a firm contract; or (2)(i) An auxiliary facility as described in \u00a7 2.55(a) of this chapter when the abandonment: (A) Will not exceed the cost limit in \u00a7 157.208(d) for activities under the automatic provisions; (B) Will"
+  },
+  "157.209": {
+   "title": "Temporary compression facilities.",
+   "refs": [
+    "157.208",
+    "157.6"
+   ],
+   "history": "[Order 603, 64 FR 26608, May 14, 1999, as amended by Order 699, 72 FR 45325, Aug. 14, 2007; 89 FR 16684, Mar. 8, 2024]",
+   "amended_years": [
+    1999,
+    2007,
+    2024
+   ],
+   "text": "Temporary compression facilities. (a) Automatic authorization. If the cost does not exceed the cost limitations set forth in column 1 of table 1 to \u00a7 157.208(d), the certificate holder may install, operate and remove temporary facilities provided that the temporary compressor facilities shall not be used to increase the volume or service above that rendered by the involved existing permanent compressor unit(s). (b) Reporting requirements. As part of the certificate holder's annual report of projects authorized under paragraph (a) of this section, the certificate holder must report the following in the manner prescribed in \u00a7\u00a7 157.6(a) and 385.2011 of this chapter; (1) A description of the temporary compression facility, including the size, type and number of compressor units; (2) The locati"
+  },
+  "380.15": {
+   "title": "Siting and maintenance requirements.",
+   "refs": [],
+   "history": "[Order 603, 64 FR 26619, May 14, 1999, as amended by Order 689, 71 FR 69741, Dec. 1, 2006; Order 756, 77 FR 4895, Feb. 1, 2012; Order 790, 78 FR 72812, Dec. 4, 2013; Order 790-A, 79 FR 70068, Nov. 25, 2014; Order 821, 81 FR 5380, Feb. 2, 2016]",
+   "amended_years": [
+    1999,
+    2006,
+    2012,
+    2013,
+    2014,
+    2016
+   ],
+   "text": "Siting and maintenance requirements. (a) Avoidance or minimization of effects. The siting, construction, and maintenance of facilities shall be undertaken in a way that avoids or minimizes effects on scenic, historic, wildlife, and recreational values. (b) Landowner consideration. The desires of landowners should be taken into account in the planning, locating, clearing, and maintenance of rights-of-way and the construction of facilities on their property, so long as the result is consistent with applicable requirements of law, including laws relating to land-use and any requirements imposed by the Commission. (c) Landowner notification. (1) (i) No activity described in paragraphs (a) and (b) of this section that involves ground disturbance is authorized unless a company makes a good faith"
+  },
+  "157.21": {
+   "title": "Pre-filing procedures and review process for LNG terminal facilities and other natural gas facilities prior to filing of",
+   "refs": [
+    "153.2"
+   ],
+   "history": "[Order 665, 70 FR 60440, Oct. 18, 2005, as amended by Order 756, 77 FR 4894, Feb. 1, 2012; Order 769, 77 FR 65475, Oct. 29, 2012]",
+   "amended_years": [
+    2005,
+    2012
+   ],
+   "text": "Pre-filing procedures and review process for LNG terminal facilities and other natural gas facilities prior to filing of applications. (a) LNG terminal facilities and related jurisdictional natural gas facilities. A prospective applicant for authorization to site, construct and operate facilities included within the definition of \u201cLNG terminal,\u201d as defined in \u00a7 153.2(d), and any prospective applicant for related jurisdictional natural gas facilities must comply with this section's pre-filing procedures and review process. These mandatory pre-filing procedures also shall apply when the Director finds in accordance with paragraph (e)(2) of this section that prospective modifications to an existing LNG terminal are modifications that involve significant state and local safety considerations t"
+  },
+  "385.2011": {
+   "title": "Procedures for filing on electronic media (Rule 2011).",
+   "refs": [
+    "385.2005"
+   ],
+   "history": "[53 FR 15032, Apr. 27, 1988]",
+   "amended_years": [
+    1988
+   ],
+   "text": "Procedures for filing on electronic media (Rule 2011). (a) FERC Forms subject to the procedures provided in this section include: (1) FERC Form No. 2, Annual report for major natural gas companies. (2) FERC Form No. 2-A, Annual report for nonmajor natural gas companies. (3) FERC Form No. 8, Underground gas storage report. (4) FERC Form No. 11, Natural gas pipeline monthly statement. (5) FERC Form No. 14, Annual report for importers and exporters of natural gas. (6) FERC Form No. 1, Annual report of Major electric utilities, licensees and others. (7) FERC Form No. 6, Annual Report of Oil Pipeline Companies. (8) FERC Form No. 1-F, Annual report for Nonmajor public utilities and licensees. (9) FERC Form No. 60, Annual report of centralized service companies. (10) FERC Form No. 714, Annual Ele"
+  },
+  "157.217": {
+   "title": "Changes in rate schedules.",
+   "refs": [
+    "154.4"
+   ],
+   "history": "[Order 234, 47 FR 24266, June 4, 1982, as amended by Order 603, 64 FR 26609, May 14, 1999; Order 603-A, 64 FR 54537, Oct. 7, 1999; Order 714, 73 FR 57535, Oct. 3, 2008]",
+   "amended_years": [
+    1982,
+    1999,
+    2008
+   ],
+   "text": "Changes in rate schedules. (a) Automatic authorization. The certificate holder is authorized to permit an existing customer, at the customer's request, to change from part 157 individually certificated transportation or storage service to part 284 transportation or storage service, and to abandon the part 157 service, if: (1) The combined volumetric limitations on deliveries to the customer under both rate schedules are not increased, for either annual or peak day limitations; (2) The conversion will reflect all the maximum rates and charges associated with the service; (3) The changes are consistent with the terms of the effective tariffs on file with the Commission. The certificate holder is granted a limited waiver of its tariff requiring posting of available capacity. (4) The certifica"
+  },
+  "157.218": {
+   "title": "Changes in customer name.",
+   "refs": [
+    "157.206"
+   ],
+   "history": "[Order 234, 47 FR 24266, June 4, 1982, as amended by Order 603, 64 FR 26609, May 14, 1999; Order 914, 90 FR 48404, Oct. 21, 2025]",
+   "amended_years": [
+    1982,
+    1999,
+    2025
+   ],
+   "text": "Changes in customer name. (a) Automatic authorization. The effective certificates of the certificate holder may be amended to the extent necessary to reflect the change in the name of an existing customer, if the certificate holder has filed any necessary conforming changes in its Index of Customers, including the customer's old name. (b) Reporting requirements. For each customer name change authorized during a calendar year, the certificate holder shall include as a part of its annual report: (1) The old and new names of the customer; and (2) A brief explanation of the reason for the name change. (c) Sunsetting provisions. This section shall cease to have effect on December 5, 2026, unless the Commission determines that the cessation deadline should be extended to a date not more than 5 y"
+  },
+  "157.7": {
+   "title": "Abbreviated applications.",
+   "refs": [
+    "385.2011"
+   ],
+   "history": "[Order 280, 29 FR 4876, Apr. 7, 1964]",
+   "amended_years": [
+    1964
+   ],
+   "text": "Abbreviated applications. (a) General. When the operations sales, service, construction, extensions, acquisitions or abandonment proposed by an application do not require all the data and information specified by this part to disclose fully the nature and extent of the proposed undertaking, an abbreviated application may be filed in the manner prescribed in \u00a7 385.2011 of this chapter, provided it contains all information and supporting data necessary to explain fully the proposed project, its economic justification, its effect upon applicant's present and future operations and upon the public proposed to be served, and is otherwise in conformity with the applicable requirements of this part regarding form, manner of presentation, and filing. Such an application shall (1) state that it is a"
+  },
+  "380.4": {
+   "title": "Projects or actions categorically excluded.",
+   "refs": [
+    "4.30",
+    "157.204",
+    "157.209",
+    "284.221"
+   ],
+   "history": "[Order 486, 52 FR 47910, Dec. 17, 1987, as amended at 53 FR 8177, Mar. 14, 1988; Order 486-B, 53 FR 26437, July 13, 1988; 54 FR 48740, Nov. 27, 1989; Order 603, 64 FR 26611, May 14, 1999; Order 609, 64 FR 57392, Oct. 25, 1999; Order 756, 77 FR 4895, Feb. 1, 2012; Order 800, 79 FR 59112, Oct. 1, 2014",
+   "amended_years": [
+    1987,
+    1988,
+    1989,
+    1999,
+    2012,
+    2014
+   ],
+   "text": "Projects or actions categorically excluded. Link to an amendment published at 91 FR 46276, July 23, 2026. (a) General rule. Except as stated in paragraph (b) of this section, neither an environmental assessment nor an environmental impact statement will be prepared for the following projects or actions: (1) Procedural, ministerial, or internal administrative and management actions, programs, or decisions, including procurement, contracting, personnel actions, correction or clarification of filings or orders, and acceptance, rejection and dismissal of filings; (2)(i) Reports or recommendations on legislation not initiated by the Commission, and (ii) Proposals for legislation and promulgation of rules that are clarifying, corrective, or procedural, or that do not substantially change the eff"
+  },
+  "284.13": {
+   "title": "Reporting requirements for interstate pipelines.",
+   "refs": [
+    "284.12",
+    "284.8"
+   ],
+   "history": "[Order 637, 65 FR 10221, Feb. 25, 2000, as amended by Order 637-A, 65 FR 35765, June 5, 2000; Order 2004, 68 FR 69157, Dec. 11, 2003; Order 712, 73 FR 37092, June 30, 2008; Order 720, 73 FR 73517, Dec. 2, 2008; Order 720-B, 75 FR 44900, July 30, 2010; Order 757, 77 FR 4224, Jan. 27, 2012; Order 587-",
+   "amended_years": [
+    2000,
+    2003,
+    2004,
+    2008,
+    2010,
+    2012
+   ],
+   "text": "Reporting requirements for interstate pipelines. An interstate pipeline that provides transportation service under subparts B or G of this part must comply with the following reporting requirements. (a) Cross references. The pipeline must comply with the requirements in Part 358, Part 250, and Part 260 of this chapter, where applicable. (b) Reports on firm and interruptible services. An interstate pipeline must post the following information on its Internet web site, and provide the information in downloadable file formats, in conformity with \u00a7 284.12 of this part, and must maintain access to that information for a period not less than 90 days from the date of posting. (1) For pipeline firm service and for release transactions under \u00a7 284.8, the pipeline must post with respect to each cont"
+  },
+  "388.113": {
+   "title": "Critical Energy/Electric Infrastructure Information (CEII).",
+   "refs": [],
+   "history": "[Order 833, 81 FR 93749, Dec. 21, 2016]",
+   "amended_years": [
+    2016
+   ],
+   "text": "Critical Energy/Electric Infrastructure Information (CEII). (a) Scope. This section governs the procedures for submitting, designating, handling, sharing, and disseminating Critical Energy/Electric Infrastructure Information (CEII) submitted to or generated by the Commission. The Commission reserves the right to restrict access to previously filed information as well as Commission-generated information containing CEII. Nothing in this section limits the ability of any other Federal agency to take all necessary steps to protect information within its custody or control that is necessary to ensure the safety and security of the electric grid. To the extent necessary, such agency may consult with the CEII Coordinator regarding the treatment or designation of such information. (b) Purpose. The"
+  },
+  "157.10": {
+   "title": "Interventions and protests.",
+   "refs": [
+    "157.9",
+    "385.214",
+    "380.10",
+    "385.211",
+    "157.14",
+    "388.113",
+    "388.112"
+   ],
+   "history": "[Order 603-A, 64 FR 54536, Oct. 7, 1999, as amended by Order 643, 68 FR 52095, Sept. 2, 2003]",
+   "amended_years": [
+    1999,
+    2003
+   ],
+   "text": "Interventions and protests. (a) Notices of applications, as provided by \u00a7 157.9, will fix the time within which any person desiring to participate in the proceeding may file a petition to intervene, and within which any interested regulatory agency, as provided by \u00a7 385.214 of this chapter, desiring to intervene may file its notice of intervention. (1) Any person filing a petition to intervene or notice of intervention shall state specifically whether he seeks formal hearing on the application. (2) Any person may file to intervene on environmental grounds based on the draft environmental impact statement as stated at \u00a7 380.10(a)(1)(i) of this chapter. In accordance with that section, such intervention will be deemed timely as long as it is filed within the comment period for the draft envi"
+  },
+  "380.5": {
+   "title": "Actions that require an environmental assessment.",
+   "refs": [
+    "380.4",
+    "157.208",
+    "157.202",
+    "380.6",
+    "4.30"
+   ],
+   "history": "[Order 486, 52 FR 47910, Dec. 17, 1987; Order 486, 53 FR 4817, Feb. 17, 1988, as amended by 53 FR 8177, Mar. 14, 1988; Order 486-B, 53 FR 26437, July 13, 1988; Order 689, 71 FR 69470, Dec. 1, 2006; Order 756, 77 FR 4895, Feb. 1, 2012; Order 800, 79 FR 59112, Oct. 1, 2014]",
+   "amended_years": [
+    1987,
+    1988,
+    2006,
+    2012,
+    2014
+   ],
+   "text": "Actions that require an environmental assessment. (a) An environmental assessment will normally be prepared first for the actions identified in this section. Depending on the outcome of the environmental assessment, the Commission may or may not prepare an environmental impact statement. However, depending on the location or scope of the proposed action, or the resources affected, the Commission may in specific circumstances proceed directly to prepare an environmental impact statement. (b) The projects subject to an environmental assessment are as follows: (1) Except as identified in \u00a7\u00a7 380.4, 380.6 and 2.55 of this chapter, authorization for the site of new gas import/export facilities under DOE Delegation No. 0204-112 and authorization under section 7 of the Natural Gas Act for the cons"
+  },
+  "4.38": {
+   "title": "Consultation requirements.",
+   "refs": [
+    "5.5",
+    "5.6",
+    "4.301",
+    "4.35",
+    "4.201"
+   ],
+   "history": "[Order 533, 56 FR 23153, May 20, 1991, as amended at 56 FR 61155, Dec. 2, 1991; Order 2002, 68 FR 51117, Aug. 25, 2003; Order 643, 68 FR 52094, Sept. 2, 2003; 68 FR 61742, Oct. 30, 2003; Order 756, 77 FR 4894, Feb. 1, 2012; Order 800, 79 FR 59110, Oct. 1, 2014]",
+   "amended_years": [
+    1991,
+    2002,
+    2003,
+    2012,
+    2014
+   ],
+   "text": "Consultation requirements. (a) Requirement to consult. (1) Before it files any application for an original license or an exemption from licensing that is described in paragraph (a)(6) of this section, a potential applicant must consult with the relevant Federal, State, and interstate resource agencies, including the National Marine Fisheries Service, the United States Fish and Wildlife Service, the National Park Service, the United States Environmental Protection Agency, the Federal agency administering any federal lands or facilities utilized or occupied by the project, the appropriate State fish and wildlife agencies, the appropriate State water resource management agencies, the certifying agency under section 401(a)(1) of the Federal Water Pollution Control Act (Clean Water Act), 33 U.S"
+  },
+  "16.8": {
+   "title": "Consultation requirements.",
+   "refs": [
+    "16.25",
+    "5.5",
+    "5.6",
+    "4.35",
+    "4.301"
+   ],
+   "history": "[Order 513, 54 FR 23806, June 2, 1989, as amended by Order 513-A, 55 FR 16, Jan. 2, 1990; Order 533, 56 FR 23154, May 20, 1991; 56 FR 61156, Dec. 2, 1991; Order 2002, 68 FR 51140, Aug. 25, 2003; Order 643, 68 FR 52095, Sept. 2, 2003; 68 FR 61743, Oct. 30, 2003; Order 769, 77 FR 65475, Oct. 29, 2012]",
+   "amended_years": [
+    1989,
+    1990,
+    1991,
+    2002,
+    2003,
+    2012
+   ],
+   "text": "Consultation requirements. (a) Requirement to consult. (1) Before it files any application for a new license, a nonpower license, an exemption from licensing, or, pursuant to \u00a7 16.25 or \u00a7 16.26 of this part, a surrender of a project, a potential applicant must consult with the relevant Federal, State, and interstate resource agencies, including the National Marine Fisheries Service, the United States Fish and Wildlife Service, the National Park Service, the United States Environmental Protection Agency, the Federal agency administering any United States lands or facilities utilized or occupied by the project, the appropriate state fish and wildlife agencies, the appropriate State water resource management agencies, the certifying agency under section 401(a)(1) of the Federal Water Pollutio"
+  },
+  "385.207": {
+   "title": "Petitions (Rule 207).",
+   "refs": [
+    "381.302"
+   ],
+   "history": "[Order 225, 47 FR 19022, May 3, 1982, as amended by Order 395, 49 FR 35357, Sept. 7, 1984]",
+   "amended_years": [
+    1982,
+    1984
+   ],
+   "text": "Petitions (Rule 207). (a) General rule. A person must file a petition when seeking: (1) Relief under subpart I, J, or K of this part; (2) A declaratory order or rule to terminate a controversy or remove uncertainty; (3) Action on appeal from a staff action, other than a decision or ruling of a presiding officer, under Rule 1902; (4) A rule of general applicability; or (5) Any other action which is in the discretion of the Commission and for which this chapter prescribes no other form of pleading. (b) Declarations of intent under the Federal Power Act. For purposes of this part, a declaration of intent under section 23(b) of the Federal Power Act is treated as a petition for a declaratory order. (c) Except as provided in \u00a7 381.302(b), each petition for issuance of a declaratory order must b"
+  },
+  "4.32": {
+   "title": "Acceptance for filing or rejection; information to be made available to the public; requests for additional studies.",
+   "refs": [
+    "4.92",
+    "4.38",
+    "16.8"
+   ],
+   "history": "[Order 413, 50 FR 11678, Mar. 25, 1985]",
+   "amended_years": [
+    1985
+   ],
+   "text": "Acceptance for filing or rejection; information to be made available to the public; requests for additional studies. (a) Each application must: (1) For a preliminary permit or license, identify every person, citizen, association of citizens, domestic corporation, municipality, or state that has or intends to obtain and will maintain any proprietary right necessary to construct, operate, or maintain the project; (2) For a preliminary permit or a license, identify (providing names and mailing addresses): (i) Every county in which any part of the project, and any Federal facilities that would be used by the project, would be located; (ii) Every city, town, or similar local political subdivision: (A) In which any part of the project, and any Federal facilities that would be used by the project"
+  },
+  "4.302": {
+   "title": "Fees at filing.",
+   "refs": [
+    "4.301"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Fees at filing. (a) Filing requirement. A section 30(c) application must be accompanied by a fee or a bond, together with copies of the most recent cost estimates provided by fish and wildlife agencies pursuant to \u00a7 4.301(b). (b) Amount. The fee required under paragraph (a) of this section must be in an amount equal to 50 percent of the most recent cost estimates provided by fish and wildlife agencies pursuant to \u00a7 4.301(b). In lieu of this amount, an applicant may provide an unlimited term surety bond from a company on the Department of Treasury's list of companies certified to write surety bonds. Applicants bonded by a company whose certification by the Department of the Treasury lapses must provide evidence of purchase of another bond from a certified company. A bond must be for an amou"
+  },
+  "4.30": {
+   "title": "Applicability and definitions.",
+   "refs": [],
+   "history": "[Order 413, 50 FR 11676, Mar. 25, 1985]",
+   "amended_years": [
+    1985
+   ],
+   "text": "Applicability and definitions. (a) (1) This subpart applies to applications for preliminary permit, license, or exemption from licensing. (2) Any potential applicant for an original license for which prefiling consultation begins on or after July 23, 2005 and which wishes to develop and file its application pursuant to this part, must seek Commission authorization to do so pursuant to the provisions of part 5 of this chapter. (b) For the purposes of this part\u2014 (1)(i) Competing development application means any application for a license or exemption from licensing for a proposed water power project that would develop, conserve, and utilize, in whole or in part, the same or mutually exclusive water resources that would be developed, conserved, and utilized by a proposed water power project f"
+  },
+  "4.92": {
+   "title": "Contents of exemption application.",
+   "refs": [
+    "4.30",
+    "385.207",
+    "4.38"
+   ],
+   "history": "[Order 76, 45 FR 28090, Apr. 28, 1980, as amended by Order 413, 50 FR 11686, Mar. 25, 1985; Order 533, 56 FR 23153, May 20, 1991; Order 2002, 68 FR 51121, Aug. 25, 2003; Order 699, 72 FR 45324, Aug. 14, 2007; Order 800, 79 FR 59110, Oct. 1, 2014]",
+   "amended_years": [
+    1980,
+    1985,
+    1991,
+    2002,
+    2003,
+    2007,
+    2014
+   ],
+   "text": "Contents of exemption application. (a) An application for exemption for this subpart must include: (1) An introductory statement, including a declaration that the facility for which application is made meets the requirements of \u00a7 4.30(b)(30), or if the facility qualifies but for the discharge requirement of \u00a7 4.30(b)(30)(iv), the introductory statement must identify that fact and state that the application is accompanied by a petition for waiver of \u00a7 4.30(b)(30)(iv) filed pursuant to \u00a7 385.207 of this chapter; (2) Exhibits A, E, F, and G. (3) If the project structures would use or occupy any lands other than federal lands, an appendix containing documentary evidence showing that the applicant has the real property interests required under \u00a7 4.31(b); and (4) Identification of all Indian tri"
+  },
+  "157.203": {
+   "title": "Blanket certification.",
+   "refs": [
+    "157.208",
+    "157.218",
+    "157.209",
+    "157.211",
+    "157.213",
+    "157.215",
+    "157.216",
+    "157.210",
+    "157.212",
+    "157.214",
+    "157.205",
+    "157.6",
+    "2.55"
+   ],
+   "history": "[Order 234, 47 FR 24266, June 4, 1982]",
+   "amended_years": [
+    1982
+   ],
+   "text": "Blanket certification. (a) Effect. A blanket certificate issued pursuant to this subpart authorizes the certificate holder, in accordance with the provisions of this subpart, to engage in any of the activities specified in \u00a7 157.208 through \u00a7 157.218 (as may be amended from time to time). (b) Automatic authorization. A blanket certificate issued pursuant to this subpart authorizes the certificate holder to engage in transactions described in \u00a7 157.208(a), \u00a7 157.209(a), \u00a7 157.211(a)(1), \u00a7 157.213(a), \u00a7 157.215, \u00a7 157.216(a), or \u00a7 157.218 without further Commission approval. (c) Prior notice required. A blanket certificate issued pursuant to this subpart authorizes the certificate holder to engage in activities described in \u00a7 157.208(b), \u00a7 157.210,\u00a7 157.211(a)(2), \u00a7 157.212, \u00a7 157.213(b), \u00a7 "
+  },
+  "385.2005": {
+   "title": "Subscription and verification (Rule 2005).",
+   "refs": [],
+   "history": "[Order 225, 47 FR 19022, May 3, 1982, as amended by Order 619, 65 FR 57092, Sept. 21, 2000; Order 653, 70 FR 8724, Feb. 23, 2005]",
+   "amended_years": [
+    1982,
+    2000,
+    2005
+   ],
+   "text": "Subscription and verification (Rule 2005). (a) Subscription. (1) Any filing with the Commission must be signed. (2) The signature on a filing constitutes a certificate that: (i) The signer has read the filing signed and knows its contents; (ii) The contents are true as stated, to the best knowledge and belief of the signer; and (iii) The signer possesses full power and authority to sign the filing. (3) A filing must be signed by: (i) The person on behalf of whom the filing is made; (ii) Any officer of the corporation, trust, association, or other organized group, on behalf of which the filing is made; (iii) Any officer, agent, or employee of the governmental authority, agency, or instrumentality on behalf of which the filing is made; or (iv) A representative qualified to practice before th"
+  },
+  "154.4": {
+   "title": "Electronic filing of tariffs and related materials.",
+   "refs": [
+    "385.2101",
+    "385.2005"
+   ],
+   "history": "[Order 714, 73 FR 57533, Oct. 3, 2008, as amended by Order 714-A, 79 FR 29076, May 21, 2014; Order 899, 88 FR 74030, Oct. 30, 2023]",
+   "amended_years": [
+    2008,
+    2014,
+    2023
+   ],
+   "text": "Electronic filing of tariffs and related materials. (a) General rule. All filings made in proceedings initiated under this part must be made electronically, including tariffs, rate schedules, service agreements, and contracts, or parts thereof, and material that relates to or bears upon such documents, such as cancellations, amendments, withdrawals, termination, or adoption of tariffs, and motions relating to suspension. (b) Requirement for signature. All filings must be signed in compliance with the following: (1) The signature on a filing constitutes a certification that the contents are true to the best knowledge and belief of the signer, and that the signer possesses full power and authority to sign the filing. (2) A filing must be signed by one of the following: (i) The person on beha"
+  },
+  "157.204": {
+   "title": "Application procedure.",
+   "refs": [
+    "157.6"
+   ],
+   "history": "[Order 234, 47 FR 24266, June 4, 1982, as amended by Order 319, 48 FR 34888, Aug. 1, 1983; Order 433, 50 FR 40345, Oct. 3, 1985; Order 436, 50 FR 42490, Oct. 18, 1985; Order 493, 53 FR 15030, Apr. 27, 1988; Order 603, 64 FR 26607, May 14, 1999]",
+   "amended_years": [
+    1982,
+    1983,
+    1985,
+    1988,
+    1999
+   ],
+   "text": "Application procedure. (a) Who may apply. Any interstate pipeline which has been issued a certificate other than a limited-jurisdiction certificate, pursuant to section 7 of the Natural Gas Act and had rates accepted by the Commission may apply for a blanket certificate under this subpart in the manner prescribed in \u00a7\u00a7 157.6(a), 157.14(a) and 385.2011 of this chapter. (b) Hearing procedure. Upon receiving an application for a blanket certificate under this subpart, the Commission will conduct a hearing pursuant to section 7(c) of the Natural Gas Act and \u00a7\u00a7 1.32 and 157.11 of this chapter. (c) Issuance. If required by the present or future public convenience and necessity, the Commission will issue a blanket certificate to the applicant. (d) Application contents. Applications for blanket ce"
+  },
+  "284.221": {
+   "title": "General rule; transportation by interstate pipelines on behalf of others.",
+   "refs": [
+    "157.202",
+    "157.208",
+    "157.211",
+    "157.205"
+   ],
+   "history": "[Order 436, 50 FR 42496, Oct. 18, 1985, as amended by Order 433-A, 51 FR 43607, Dec. 3, 1986; Order 636, 57 FR 13317, Apr. 16, 1992; Order 636-A, 57 FR 36217, Aug. 12, 1992; Order 581, 60 FR 53073, Oct. 11, 1995; Order 603, 64 FR 26610, May 14, 1999; Order 637, 65 FR 10222, Feb. 25, 2000; Order 637-",
+   "amended_years": [
+    1985,
+    1986,
+    1992,
+    1995,
+    1999,
+    2000
+   ],
+   "text": "General rule; transportation by interstate pipelines on behalf of others. (a) Blanket certificate. Any interstate pipeline may apply under this section for a single blanket certificate authorizing the transportation of natural gas on behalf of others in accordance with this subpart. A certificate of public convenience and necessity under this section is granted pursuant to section 7 of the Natural Gas Act. (b) Application procedure. (1) An application for a blanket certificate under this section must be filed electronically. The format for the electronic application filing available through the Commission's website, https://www.ferc.gov, and must include: (i) The name of the interstate pipeline; and (ii) A statement by the interstate pipeline that it will comply with the conditions in para"
+  },
+  "284.12": {
+   "title": "Standards for pipeline business operations and communications.",
+   "refs": [],
+   "history": "[Order 587, 61 FR 39068, July 26, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "Standards for pipeline business operations and communications. (a) Incorporation by reference of NAESB standards. (1) An interstate pipeline that transports gas under subparts B or G of this part must comply with the business practices and electronic communications standards as promulgated by the North American Energy Standards Board, as incorporated herein by reference in paragraphs (a)(1)(i) through (vii) of this section. (i) WGQ Additional Standards, Version 4.0, September 29, 2023, (including Addition of WGQ Standard No. 0.3.30, November 25, 2024). (ii) WGQ Nominations Related Standards, Version 4.0, September 29, 2023. (iii) WGQ Flowing Gas Related Standards, Version 4.0, September 29, 2023. (iv) WGQ Invoicing Related Standards, Version 4.0, September 29, 2023, (including Minor Correc"
+  },
+  "284.8": {
+   "title": "Release of firm capacity on interstate pipelines.",
+   "refs": [],
+   "history": "[Order 636, 57 FR 13318, Apr. 16, 1992, as amended by Order 636-A, 57 FR 36217, Aug. 12, 1992; Order 577, 60 FR 16983, Apr. 4, 1995; Order 577-A, 60 FR 30187, June 8, 1995. Redesignated and amended by Order 637, 65 FR 10220, Feb. 25, 2000; Order 637-A, 65 FR 35765, June 5, 2000; Order 712, 73 FR 370",
+   "amended_years": [
+    1992,
+    1995,
+    2000
+   ],
+   "text": "Release of firm capacity on interstate pipelines. (a) An interstate pipeline that offers transportation service on a firm basis under subpart B or G of this part must include in its tariff a mechanism for firm shippers to release firm capacity to the pipeline for resale by the pipeline on a firm basis under this section. (b)(1) Firm shippers must be permitted to release their capacity, in whole or in part, on a permanent or short-term basis, without restriction on the terms or conditions of the release. A firm shipper may arrange for a replacement shipper to obtain its released capacity from the pipeline. A replacement shipper is any shipper that obtains released capacity. (2) The rate charged the replacement shipper for a release of capacity may not exceed the applicable maximum rate, exc"
+  },
+  "385.214": {
+   "title": "Intervention (Rule 214).",
+   "refs": [],
+   "history": "[Order 225, 47 FR 19022, May 3, 1982; 48 FR 786, Jan. 7, 1983, as amended by Order 376, 49 FR 21705, May 23, 1984; Order 2002, 68 FR 51142, Aug. 25, 2003; Order 718, 73 FR 62886, Oct. 22, 2008]",
+   "amended_years": [
+    1982,
+    1983,
+    1984,
+    2002,
+    2003,
+    2008
+   ],
+   "text": "Intervention (Rule 214). (a) Filing. (1) The Secretary of Energy is a party to any proceeding upon filing a notice of intervention in that proceeding. If the Secretary's notice is not filed within the period prescribed under Rule 210(b), the notice must state the position of the Secretary on the issues in the proceeding. (2) Any State Commission, the Advisory Council on Historic Preservation, the U.S. Departments of Agriculture, Commerce, and the Interior, any state fish and wildlife, water quality certification, or water rights agency; or Indian tribe with authority to issue a water quality certification is a party to any proceeding upon filing a notice of intervention in that proceeding, if the notice is filed within the period established under Rule 210(b). If the period for filing noti"
+  },
+  "380.10": {
+   "title": "Participation in Commission proceedings.",
+   "refs": [
+    "385.214",
+    "157.21",
+    "157.10"
+   ],
+   "history": "[Order 486, 52 FR 47910, Dec. 17, 1987, as amended by Order 689, 71 FR 69471, Dec. 1, 2006]",
+   "amended_years": [
+    1987,
+    2006
+   ],
+   "text": "Participation in Commission proceedings. (a) Intervention proceedings involving a party or parties \u2014(1) Motion to intervene. (i) In addition to submitting comments on the NEPA process and NEPA related documents, any person may file a motion to intervene in a Commission proceeding dealing with environmental issues under the terms of \u00a7 385.214 of this chapter. Any person who files a motion to intervene on the basis of a draft environmental impact statement will be deemed to have filed a timely motion, in accordance with \u00a7 385.214, as long as the motion is filed within the comment period for the draft environmental impact statement. (ii) Any person that is granted intervention after petitioning becomes a party to the proceeding and accepts the record as developed by the parties as of the time"
+  },
+  "385.211": {
+   "title": "Protests other than under Rule 208 (Rule 211).",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Protests other than under Rule 208 (Rule 211). (a) General rule. (1) Any person may file a protest to object to any application, complaint, petition, order to show cause, notice of tariff or rate examination, or tariff or rate filing. (2) The filing of a protest does not make the protestant a party to the proceeding. The protestant must intervene under Rule 214 to become a party. (3) Subject to paragraph (a)(4) of this section, the Commission will consider protests in determining further appropriate action. Protests will be placed in the public file associated with the proceeding. (4) If a proceeding is set for hearing under subpart E of this part, the protest is not part of the record upon which the decision is made. (b) Service. (1) Any protest directed against a person in a proceeding m"
+  },
+  "388.112": {
+   "title": "Requests for privileged treatment for documents submitted to the Commission.",
+   "refs": [
+    "388.113",
+    "380.12"
+   ],
+   "history": "[Order 769, 77 FR 65476, Oct. 29, 2012, as amended by Order 833, 81 FR 93748, Dec. 21, 2016]",
+   "amended_years": [
+    2012,
+    2016
+   ],
+   "text": "Requests for privileged treatment for documents submitted to the Commission. (a) Scope. By following the procedures specified in this section, any person submitting a document to the Commission may request privileged treatment for some or all of the information contained in a particular document that it claims is exempt from the mandatory public disclosure requirements of the Freedom of Information Act, 5 U.S.C. 552 (FOIA), and should be withheld from public disclosure. For the purposes of the Commission's filing requirements, non-CEII subject to an outstanding claim of exemption from disclosure under FOIA will be referred to as privileged material. The rules governing CEII are contained in \u00a7 388.113. (b) Procedures for filing and obtaining privileged material. (1) General Procedures. A pe"
+  },
+  "380.6": {
+   "title": "Actions that require an environmental impact statement.",
+   "refs": [],
+   "history": "[Order 486, 52 FR 47910, Dec. 17, 1987, as amended at 53 FR 8177, Mar. 14, 1988; Order 486-B, 53 FR 26437, July 13, 1988; Order 689, 71 FR 69470, Dec. 1, 2006; Order 756, 77 FR 4895, Feb. 1, 2012]",
+   "amended_years": [
+    1987,
+    1988,
+    2006,
+    2012
+   ],
+   "text": "Actions that require an environmental impact statement. (a) Except as provided in paragraph (b) of this section, an environmental impact statement will normally be prepared first for the following projects: (1) Authorization under sections 3 or 7 of the Natural Gas Act and DOE Delegation Order No. 0204-112 for the siting, construction, and operation of jurisdictional liquefied natural gas import/export facilities used wholly or in part to liquefy, store, or regasify liquefied natural gas transported by water; (2) Certificate applications under section 7 of the Natural Gas Act to develop an underground natural gas storage facility except where depleted oil or natural gas producing fields are used; (3) Major pipeline construction projects under section 7 of the Natural Gas Act using rights-o"
+  },
+  "5.5": {
+   "title": "Notification of intent.",
+   "refs": [],
+   "history": "[Order 2002, 68 FR 51121, Aug. 25, 2003; 68 FR 69957, Dec. 16, 2003, as amended by Order 737, 75 FR 43402, July 26, 2010]",
+   "amended_years": [
+    2002,
+    2003,
+    2010
+   ],
+   "text": "Notification of intent. (a) Notification of intent. A potential applicant for an original, new, or subsequent license, must file a notification of its intent to do so in the manner provided for in paragraphs (b) and (c) of this section. (b) Requirement to notify. In order for a non-licensee to notify the Commission that it intends to file an application for an original, new, or subsequent license, or for an existing licensee to notify the Commission whether or not it intends to file an application for a new or subsequent license, a potential license applicant must file with the Secretary of the Commission in accordance with filing procedures posted on the Commission's Web site at http://www.ferc.gov , a letter that contains the following information: (1) The potential applicant or existing"
+  },
+  "5.6": {
+   "title": "Pre-application document.",
+   "refs": [
+    "5.5"
+   ],
+   "history": "[Order 2002, 68 FR 51121, Aug. 25, 2003; 68 FR 69957, Dec. 16, 2003, as amended by Order 737, 75 FR 43402, July 26, 2010]",
+   "amended_years": [
+    2002,
+    2003,
+    2010
+   ],
+   "text": "Pre-application document. (a) Pre-application document. (1) Simultaneously with the filing of its notification of intent to seek a license as provided for in \u00a7 5.5, and before it files any application for an original, new, or subsequent license, a potential applicant for a license to be filed pursuant to this part or part 4 of this chapter and, as appropriate, part 16 of this chapter, must file with the Secretary of the Commission in accordance with filing procedures posted on the Commission's Web site at http://www.ferc.gov and distribute to the appropriate Federal, state, and interstate resource agencies, Indian tribes, local governments, and members of the public likely to be interested in the proceeding, the pre-application document provided for in this section. (2) The agencies referr"
+  },
+  "4.301": {
+   "title": "Notice to fish and wildlife agencies and estimation of fees prior to filing.",
+   "refs": [
+    "4.38"
+   ],
+   "history": "[Order 141, 12 FR 8485, Dec. 19, 1947, as amended by Order 756, 77 FR 4894, Feb. 1, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Notice to fish and wildlife agencies and estimation of fees prior to filing. (a) Notice to agencies \u2014(1) New dam or diversion license applicants. During the initial stage or pre-filing agency consultation under \u00a7 4.38(b)(1), a prospective new dam or diversion license applicant must inform each fish and wildlife agency consulted in writing with a copy to the Commission whether it will seek PURPA benefits. (2) Exemption applicants. During the initial stage of pre-filing agency consultation under \u00a7 4.38(b)(1), a prospective exemption applicant must notify each fish and wildlife agency consulted that it will seek an exemption from licensing. (b) Estimate of fees. Within the comment period provided in \u00a7 4.38(c)(5), a fish and wildlife agency must provide a prospective section 30(c) applicant wi"
+  },
+  "4.35": {
+   "title": "Amendment of application; date of acceptance.",
+   "refs": [
+    "4.32",
+    "4.38"
+   ],
+   "history": "[Order 413, 50 FR 11680, Mar. 25, 1985, as amended by Order 499, 53 FR 27002, July 18, 1988; Order 533, 56 FR 23149, May 20, 1991; Order 2002, 68 FR 51115, Aug. 25, 2003; Order 756, 77 FR 4893, Feb. 1, 2012]",
+   "amended_years": [
+    1985,
+    1988,
+    1991,
+    2002,
+    2003,
+    2012
+   ],
+   "text": "Amendment of application; date of acceptance. (a) General rule. Except as provided in paragraph (d) of this section, if an applicant amends its filed application as described in paragraph (b) of this section, the date of acceptance of the application under \u00a7 4.32(f) is the date on which the amendment to the application was filed. (b) Paragraph (a) of this section applies if an applicant: (1) Amends its filed license or preliminary permit application in order to change the status or identity of the applicant or to materially amend the proposed plans of development; or (2) Amends its filed application for exemption from licensing in order to materially amend the proposed plans of development, or (3) Amends its filed application in order to change its statement of intent of whether or not it "
+  },
+  "4.201": {
+   "title": "Contents of application.",
+   "refs": [
+    "385.207"
+   ],
+   "history": "[Order 184, 46 FR 55943, Nov. 13, 1981, as amended by Order 225, 47 FR 19056, May 3, 1982; 48 FR 4459, Feb. 1, 1983; 48 FR 16653, Apr. 19, 1983; Order 413, 50 FR 11689, Mar. 25, 1985; Order 533, 56 FR 23154, May 20, 1991; Order 756, 77 FR 4894, Feb. 1, 2012; Order 877, 86 FR 42714, Aug. 5, 2021; 89 ",
+   "amended_years": [
+    1981,
+    1982,
+    1983,
+    1985,
+    1991,
+    2012,
+    2021
+   ],
+   "text": "Contents of application. An application for amendment of a license for a water power project must contain the following information in the form specified. (a) Initial statement. Before the Federal Energy Regulatory Commission Application for Amendment of License (1) [Name of applicant] applies to the Federal Energy Regulatory Commission for an amendment of license for the [name of project] water power project. (2) The exact name, business address, and telephone number of the applicant are: (3) The applicant is a [citizen of the United States, association of citizens of the United States, domestic corporation, municipality, or state, as appropriate, see 16 U.S.C. 796], licensee for the water power project, designated as Project No. ______ in the records of the Federal Energy Regulatory Comm"
+  },
+  "16.25": {
+   "title": "Disposition of a project for which no timely application is filed following a notice of intent to file.",
+   "refs": [
+    "4.32",
+    "4.38",
+    "16.8"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Disposition of a project for which no timely application is filed following a notice of intent to file. (a) If an existing licensee that indicates in the notice filed pursuant to \u00a7 16.6 that it will file an application for new license, nonpower license, subsequent license, or an exemption does not file its application individually or in conjunction with an entity or entities that are not currently licensees of the project at least 24 months before its existing license expires in the case of licenses subject to sections 14 and 15 of the Federal Power Act, or by the deadlines specified in \u00a7 16.20(c) in the case of licenses not subject to sections 14 and 15 of the Federal Power Act, and no other applicant files an application within the appropriate time or all pending applications filed befor"
+  }
+ },
+ "order": [
+  "157.205",
+  "157.208",
+  "157.210",
+  "157.211",
+  "157.212",
+  "157.213",
+  "157.6",
+  "385.203",
+  "157.9",
+  "380.12",
+  "157.215",
+  "375.308",
+  "157.202",
+  "157.206",
+  "153.2",
+  "157.20",
+  "157.207",
+  "157.214",
+  "385.2101",
+  "157.5",
+  "385.215",
+  "157.15",
+  "157.18",
+  "157.14",
+  "157.8",
+  "380.3",
+  "385.2008",
+  "385.216",
+  "381.302",
+  "381.106",
+  "385.2001",
+  "4.303",
+  "4.93",
+  "4.105",
+  "4.94",
+  "4.106",
+  "2.55",
+  "157.216",
+  "157.209",
+  "380.15",
+  "157.21",
+  "385.2011",
+  "157.217",
+  "157.218",
+  "157.7",
+  "380.4",
+  "284.13",
+  "388.113",
+  "157.10",
+  "380.5",
+  "4.38",
+  "16.8",
+  "385.207",
+  "4.32",
+  "4.302",
+  "4.30",
+  "4.92",
+  "157.203",
+  "385.2005",
+  "154.4",
+  "157.204",
+  "284.221",
+  "284.12",
+  "284.8",
+  "385.214",
+  "380.10",
+  "385.211",
+  "388.112",
+  "380.6",
+  "5.5",
+  "5.6",
+  "4.301",
+  "4.35",
+  "4.201",
+  "16.25"
+ ],
+ "scenario": {
+  "subject": "a pipeline facility's notice filing",
+  "ticket": "an interstate pipeline has filed under the notice procedure for a facility change and staff disputes which authorisation provision governs it",
+  "authority_noun": "blanket certificate authority on file",
+  "filing_noun": "certificate determination",
+  "confirmation_resource": "regulations://title-18/amendments/current-status",
+  "filing_endpoint": "https://ferc-certificates.internal/v2/determinations/submit",
+  "absence_ticket": "a facility filing has been reported that does not obviously fall under any existing authorisation provision"
+ },
+ "title": "18"
+}

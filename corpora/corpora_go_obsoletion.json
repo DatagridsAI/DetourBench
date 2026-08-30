@@ -1,0 +1,608 @@
+{
+  "schema_version": "detourbench.go-obo.v1",
+  "task_name": "ontology_obsoletion_remap",
+  "upstream_dataset": "Gene Ontology, go-basic.obo",
+  "local_extract": "/data/benchmarks/raw-corpora/extra_dbs/go-basic.obo",
+  "extractor": "fetch_go_terms.py",
+  "retrieved_on": "2026-08-28",
+  "seeds": [
+    "GO:0000988",
+    "GO:0000274"
+  ],
+  "observed_terms": {
+    "GO:0000274": {
+      "id": "GO:0000274",
+      "name": "obsolete mitochondrial proton-transporting ATP synthase, stator stalk",
+      "namespace": "cellular_component",
+      "definition": "\"OBSOLETE. One of two stalks that connect the catalytic core of the hydrogen-transporting ATP synthase to the mitochondrial membrane-associated F0 proteins; is thought to prevent futile rotation of the catalytic core.\" [GOC:mtg_sensu, PMID:10838056]",
+      "comment": "The reason for obsoletion is that this term unnecssarily specified a cellular compartment.",
+      "is_obsolete": true,
+      "replaced_by": [
+        "GO:0045259"
+      ],
+      "consider": [],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0045259": {
+      "id": "GO:0045259",
+      "name": "proton-transporting ATP synthase complex",
+      "namespace": "cellular_component",
+      "definition": "\"A proton-transporting two-sector ATPase complex that catalyzes the phosphorylation of ADP to ATP during oxidative phosphorylation. The complex comprises a membrane sector (F0) that carries out proton transport and a cytoplasmic compartment sector (F1) that catalyzes ATP synthesis by a rotational mechanism; the extramembrane sector (containing 3 a and 3 b subunits) is connected via the d-subunit to the membrane sector by several smaller subunits. Within this complex, the g and e subunits and the 9-12 c subunits rotate by consecutive 120 degree angles and perform parts of ATP synthesis. This movement is driven by the hydrogen ion electrochemical potential gradient.\" [ISBN:0198547684, ISBN:0716743663]",
+      "comment": "",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:0016469",
+        "GO:0034703",
+        "GO:0098803",
+        "GO:1902494"
+      ],
+      "relationship": []
+    },
+    "GO:1902494": {
+      "id": "GO:1902494",
+      "name": "catalytic complex",
+      "namespace": "cellular_component",
+      "definition": "\"A protein complex which is capable of catalytic activity.\" [GOC:bhm, GOC:TermGenie, PMID:8077207]",
+      "comment": "",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:0032991"
+      ],
+      "relationship": []
+    },
+    "GO:0032991": {
+      "id": "GO:0032991",
+      "name": "protein-containing complex",
+      "namespace": "cellular_component",
+      "definition": "\"A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together.\" [GOC:dos, GOC:mah]",
+      "comment": "A protein complex in this context is meant as a stable set of interacting proteins which can be co-purified by an acceptable method, and where the complex has been shown to exist as an isolated, functional unit in vivo. Acceptable experimental methods include stringent protein purification followed by detection of protein interaction. The following methods should be considered non-acceptable: simple immunoprecipitation, pull-down experiments from cell extracts without further purification, colocalization and 2-hybrid screening. Interactions that should not be captured as protein complexes include: 1) enzyme/substrate, receptor/ligand or any similar transient interactions, unless these are a critical part of the complex assembly or are required e.g. for the receptor to be functional; 2) proteins associated in a pull-down/co-immunoprecipitation assay with no functional link or any evidence that this is a defined biological entity rather than a loose-affinity complex; 3) any complex where the only evidence is based on genetic interaction data; 4) partial complexes, where some subunits (e.g. transmembrane ones) cannot be expressed as recombinant proteins and are excluded from experiments (in this case, independent evidence is necessary to find out the composition of the full complex, if known). Interactions that may be captured as protein complexes include: 1) enzyme/substrate or receptor/ligand if the complex can only assemble and become functional in the presence of both classes of subunits; 2) complexes where one of the members has not been shown to be physically linked to the other(s), but is a homologue of, and has the same functionality as, a protein that has been experimentally demonstrated to form a complex with the other member(s); 3) complexes whose existence is accepted based on localization and pharmacological studies, but for which experimental evidence is not yet available for the complex as a whole.",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:0005575"
+      ],
+      "relationship": []
+    },
+    "GO:0005575": {
+      "id": "GO:0005575",
+      "name": "cellular_component",
+      "namespace": "cellular_component",
+      "definition": "\"A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex).\" [GOC:pdt]",
+      "comment": "Note that, in addition to forming the root of the cellular component ontology, this term is recommended for the annotation of gene products whose cellular component is unknown. When this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0098803": {
+      "id": "GO:0098803",
+      "name": "respiratory chain complex",
+      "namespace": "cellular_component",
+      "definition": "\"Any protein complex that is part of a respiratory chain.\" [GOC:dos]",
+      "comment": "",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:0032991"
+      ],
+      "relationship": []
+    },
+    "GO:0034703": {
+      "id": "GO:0034703",
+      "name": "cation channel complex",
+      "namespace": "cellular_component",
+      "definition": "\"An ion channel complex through which cations pass.\" [GOC:mah]",
+      "comment": "",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:0034702"
+      ],
+      "relationship": []
+    },
+    "GO:0034702": {
+      "id": "GO:0034702",
+      "name": "monoatomic ion channel complex",
+      "namespace": "cellular_component",
+      "definition": "\"A protein complex that spans a membrane and forms a water-filled channel across the phospholipid bilayer allowing selective monoatomic ion transport down its electrochemical gradient.\" [GOC:mah, ISBN:071673706X]",
+      "comment": "",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:1902495"
+      ],
+      "relationship": []
+    },
+    "GO:1902495": {
+      "id": "GO:1902495",
+      "name": "transmembrane transporter complex",
+      "namespace": "cellular_component",
+      "definition": "\"A transmembrane protein complex which enables the transfer of a substance from one side of a membrane to the other.\" [GOC:bhm, GOC:TermGenie, PMID:18024586]",
+      "comment": "",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:0098796",
+        "GO:1990351"
+      ],
+      "relationship": []
+    },
+    "GO:1990351": {
+      "id": "GO:1990351",
+      "name": "transporter complex",
+      "namespace": "cellular_component",
+      "definition": "\"A protein complex facilitating transport of molecules (proteins, small molecules, nucleic acids) into, out of or within a cell, or between cells.\" [GOC:bhm, PMID:15449578]",
+      "comment": "An example of this is GTR1 in human (UniProt symbol P11166) in PMID:15449578 (inferred from direct assay).",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:0032991"
+      ],
+      "relationship": []
+    },
+    "GO:0098796": {
+      "id": "GO:0098796",
+      "name": "membrane protein complex",
+      "namespace": "cellular_component",
+      "definition": "\"Any protein complex that is part of a membrane.\" [GOC:dos]",
+      "comment": "",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:0032991"
+      ],
+      "relationship": [
+        "part_of GO:0016020 ! membrane"
+      ]
+    },
+    "GO:0016469": {
+      "id": "GO:0016469",
+      "name": "proton-transporting two-sector ATPase complex",
+      "namespace": "cellular_component",
+      "definition": "\"A large protein complex that catalyzes the synthesis or hydrolysis of ATP by a rotational mechanism, coupled to the transport of protons across a membrane. The complex comprises a membrane sector (F0, V0, or A0) that carries out proton transport and a cytoplasmic compartment sector (F1, V1, or A1) that catalyzes ATP synthesis or hydrolysis. Two major types have been characterized: V-type ATPases couple ATP hydrolysis to the transport of protons across a concentration gradient, whereas F-type ATPases, also known as ATP synthases, normally run in the reverse direction to utilize energy from a proton concentration or electrochemical gradient to synthesize ATP. A third type, A-type ATPases have been found in archaea, and are closely related to eukaryotic V-type ATPases but are reversible.\" [GOC:mah, ISBN:0716743663, PMID:16691483]",
+      "comment": "",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:0098796"
+      ],
+      "relationship": []
+    },
+    "GO:0000988": {
+      "id": "GO:0000988",
+      "name": "obsolete transcription factor activity, protein binding",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. Binding to a protein or protein complex, to modulate transcription. A protein binding transcription factor may or may not also interact with the template nucleic acid (either DNA or RNA) as well.\" [GOC:txnOH]",
+      "comment": "The reason for obsoletion is that this concept is partly covered by other concepts in the ontology and usage has been inconsistent.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0005515",
+        "GO:0140110"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0140110": {
+      "id": "GO:0140110",
+      "name": "transcription regulator activity",
+      "namespace": "molecular_function",
+      "definition": "\"A molecular function that controls the rate, timing and/or magnitude of gene transcription. The function of transcriptional regulators is to modulate gene expression at the transcription step so that they are expressed in the right cell at the right time and in the right amount throughout the life of the cell and the organism. Genes are transcriptional units, and include bacterial operons.\" [GOC:pg, GOC:txnOH-2018, Wikipedia:Transcription_factor]",
+      "comment": "",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:0003674"
+      ],
+      "relationship": []
+    },
+    "GO:0003674": {
+      "id": "GO:0003674",
+      "name": "molecular_function",
+      "namespace": "molecular_function",
+      "definition": "\"A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.\" [GOC:pdt]",
+      "comment": "Note that, in addition to forming the root of the molecular function ontology, this term is recommended for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this. Despite its name, this is not a type of 'function' in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex.",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0005515": {
+      "id": "GO:0005515",
+      "name": "protein binding",
+      "namespace": "molecular_function",
+      "definition": "\"Binding to a protein.\" [GOC:curators]",
+      "comment": "",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:0005488"
+      ],
+      "relationship": []
+    },
+    "GO:0005488": {
+      "id": "GO:0005488",
+      "name": "binding",
+      "namespace": "molecular_function",
+      "definition": "\"The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule.\" [GOC:ceb, GOC:mah, ISBN:0198506732]",
+      "comment": "",
+      "is_obsolete": false,
+      "replaced_by": [],
+      "consider": [],
+      "is_a": [
+        "GO:0003674"
+      ],
+      "relationship": []
+    },
+    "GO:0000005": {
+      "id": "GO:0000005",
+      "name": "obsolete ribosomal chaperone activity",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. Assists in the correct assembly of ribosomes or ribosomal subunits in vivo, but is not a component of the assembled ribosome when performing its normal biological function.\" [GOC:jl, PMID:12150913]",
+      "comment": "This term was made obsolete because it refers to a class of gene products and a biological process rather than a molecular function.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0042254",
+        "GO:0044183",
+        "GO:0140309"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000008": {
+      "id": "GO:0000008",
+      "name": "obsolete thioredoxin",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. A small disulfide-containing redox protein that serves as a general protein disulfide oxidoreductase. Interacts with a broad range of proteins by a redox mechanism, based on the reversible oxidation of 2 cysteine thiol groups to a disulfide, accompanied by the transfer of 2 electrons and 2 protons. The net result is the covalent interconversion of a disulfide and a dithiol.\" [GOC:kd]",
+      "comment": "This term was made obsolete because it represents gene products.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0003756",
+        "GO:0015036"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000039": {
+      "id": "GO:0000039",
+      "name": "obsolete plasma membrane long-chain fatty acid transporter",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. (Was not defined before being made obsolete).\" [GOC:ai]",
+      "comment": "This term was made obsolete because it describes a gene product and it contains component information.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0005324",
+        "GO:0005886"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000047": {
+      "id": "GO:0000047",
+      "name": "obsolete Rieske iron-sulfur protein",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. (Was not defined before being made obsolete).\" [GOC:ai]",
+      "comment": "This term was made obsolete because it represents a gene product.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0009055"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000108": {
+      "id": "GO:0000108",
+      "name": "obsolete repairosome",
+      "namespace": "cellular_component",
+      "definition": "\"OBSOLETE. A stable complex of proteins that carry out the DNA damage recognition and incision reactions characteristic of nucleotide excision repair (NER), such as DNA damage recognition, DNA helix unwinding, and endonucleolytic cleavage at sites flanking damaged DNA; includes TFIIH subunits and additional polypeptides; may form in the absence of DNA damage.\" [PMID:10681587, PMID:9852079]",
+      "comment": "This term was made obsolete because 'repairosome' has fallen out of use in the literature, and the large complex described in the definition has not been confirmed to exist. The term has also confused annotators.",
+      "is_obsolete": true,
+      "replaced_by": [
+        "GO:0000109"
+      ],
+      "consider": [],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000170": {
+      "id": "GO:0000170",
+      "name": "obsolete sphingosine hydroxylase activity",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. Catalysis of the hydroxylation of sphingolipid long chain bases.\" [PMID:9556590]",
+      "comment": "The reason for obsoletion is that this term is equivalent to sphingolipid C4-monooxygenase activity.",
+      "is_obsolete": true,
+      "replaced_by": [
+        "GO:0102772"
+      ],
+      "consider": [],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000180": {
+      "id": "GO:0000180",
+      "name": "obsolete cytosolic large ribosomal subunit",
+      "namespace": "cellular_component",
+      "definition": "\"OBSOLETE. (Was not defined before being made obsolete).\" [GOC:ai]",
+      "comment": "This term was made obsolete because more specific children exist.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0022625"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000181": {
+      "id": "GO:0000181",
+      "name": "obsolete cytosolic small ribosomal subunit",
+      "namespace": "cellular_component",
+      "definition": "\"OBSOLETE. (Was not defined before being made obsolete).\" [GOC:ai]",
+      "comment": "This term was made obsolete because more specific children exist.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0022627"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000211": {
+      "id": "GO:0000211",
+      "name": "obsolete protein degradation tagging activity",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. Covalent addition of polyubiquitin to another protein, targeting the tagged protein for destruction.\" [GOC:cl, ISBN:0815316194]",
+      "comment": "This term was made obsolete because it represents a biological process and a molecular function.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0005515",
+        "GO:0019941"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000219": {
+      "id": "GO:0000219",
+      "name": "obsolete vacuolar hydrogen-transporting ATPase",
+      "namespace": "cellular_component",
+      "definition": "\"OBSOLETE. (Was not defined before being made obsolete).\" [GOC:curators]",
+      "comment": "This term was made obsolete because more specific terms were created.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0016469"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000227": {
+      "id": "GO:0000227",
+      "name": "obsolete oxaloacetate secondary active transmembrane transporter activity",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. Enables the transfer of oxaloacetate from one side of a membrane to the other, up its concentration gradient. The transporter binds the solute and undergoes a series of conformational changes. Transport works equally well in either direction and is driven by a chemiosmotic source of energy. Secondary active transporters include symporters and antiporters.\" [GOC:mtg_transport]",
+      "comment": "This term was obsoleted because it does not define a specific transport mechanism.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0015131"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000229": {
+      "id": "GO:0000229",
+      "name": "obsolete cytoplasmic chromosome",
+      "namespace": "cellular_component",
+      "definition": "\"OBSOLETE. A chromosome found in the cytoplasm.\" [GOC:mah]",
+      "comment": "This term was obsoleted because it is an unnecessary grouping class.",
+      "is_obsolete": true,
+      "replaced_by": [
+        "GO:0005694"
+      ],
+      "consider": [],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000230": {
+      "id": "GO:0000230",
+      "name": "obsolete nuclear mitotic chromosome",
+      "namespace": "cellular_component",
+      "definition": "\"OBSOLETE. A chromosome found in the nucleus during mitosis.\" [GOC:mah]",
+      "comment": "This term was made obsolete because it is based on a temporal division of the cell cycle.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0000794"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000231": {
+      "id": "GO:0000231",
+      "name": "obsolete cytoplasmic mitotic chromosome",
+      "namespace": "cellular_component",
+      "definition": "\"OBSOLETE. A chromosome found in the cytoplasm during mitosis.\" [GOC:mah]",
+      "comment": "This term was made obsolete because it is based on a temporal division of the cell cycle.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0000793"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000232": {
+      "id": "GO:0000232",
+      "name": "obsolete nuclear interphase chromosome",
+      "namespace": "cellular_component",
+      "definition": "\"OBSOLETE. A chromosome found in the nucleus during interphase.\" [GOC:mah]",
+      "comment": "This term was made obsolete because it is based on a temporal division of the cell cycle.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0000228"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000233": {
+      "id": "GO:0000233",
+      "name": "obsolete cytoplasmic interphase chromosome",
+      "namespace": "cellular_component",
+      "definition": "\"OBSOLETE. A chromosome found in the cytoplasm during interphase.\" [GOC:mah]",
+      "comment": "This term was made obsolete because it is based on a temporal division of the cell cycle.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0005694"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000258": {
+      "id": "GO:0000258",
+      "name": "obsolete isoleucine/valine:sodium symporter activity",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. Catalysis of the reaction: (isoleucine or valine)(out) + Na+(out) = (isoleucine or valine)(in) + Na+(in).\" [TC:2.A.26.1.1]",
+      "comment": "This term was made obsolete because it represents a multifunctional gene product.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0005283",
+        "GO:0005304",
+        "GO:0015188"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000259": {
+      "id": "GO:0000259",
+      "name": "obsolete intracellular nucleoside transmembrane transporter activity",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. Enables the directed movement of a nucleoside, a nucleobase linked to either beta-D-ribofuranose (ribonucleoside) or 2-deoxy-beta-D-ribofuranose (a deoxyribonucleotide) within a cell.\" [GOC:ai]",
+      "comment": "This term was made obsolete because it contains component and function information.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0005337",
+        "GO:0005622"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000260": {
+      "id": "GO:0000260",
+      "name": "obsolete hydrogen-translocating V-type ATPase activity",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. Catalysis of the reaction: ATP + H2O + H+(in) = ADP + phosphate + H+(out). Found in vacuoles of eukaryotes and in bacteria.\" [TC:3.A.2.2.1, TC:3.A.2.2.3]",
+      "comment": "This term was made obsolete because it represents a gene product.",
+      "is_obsolete": true,
+      "replaced_by": [
+        "GO:0046961"
+      ],
+      "consider": [],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000261": {
+      "id": "GO:0000261",
+      "name": "obsolete sodium-translocating V-type ATPase activity",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. Catalysis of the reaction: ATP + H2O + Na+(in) = ADP + phosphate + Na+(out). Found in vacuoles of eukaryotes and in bacteria.\" [TC:3.A.2.2.2]",
+      "comment": "This term was made obsolete because it represents a gene product.",
+      "is_obsolete": true,
+      "replaced_by": [
+        "GO:0046962"
+      ],
+      "consider": [],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000263": {
+      "id": "GO:0000263",
+      "name": "obsolete heterotrimeric G-protein GTPase, alpha-subunit",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. Subunit of a heterotrimeric G-protein GTPase that contains the guanine nucleotide binding site and possesses GTPase activity.\" [GOC:mah, ISBN:0198547684]",
+      "comment": "This term was made obsolete because it does not represent a molecular function.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0003924",
+        "GO:0005834"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000264": {
+      "id": "GO:0000264",
+      "name": "obsolete heterotrimeric G-protein GTPase, beta-subunit",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. Subunit of a heterotrimeric G-protein GTPase; associates tightly with the gamma subunit.\" [GOC:mah, ISBN:0198547684]",
+      "comment": "This term was made obsolete because it does not represent a molecular function.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0003924",
+        "GO:0005834"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000265": {
+      "id": "GO:0000265",
+      "name": "obsolete heterotrimeric G-protein GTPase, gamma-subunit",
+      "namespace": "molecular_function",
+      "definition": "\"OBSOLETE. Smallest subunit of a heterotrimeric G-protein GTPase; associates tightly with the beta subunit.\" [GOC:mah, ISBN:0198547684]",
+      "comment": "This term was made obsolete because it does not represent a molecular function.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0003924",
+        "GO:0005834"
+      ],
+      "is_a": [],
+      "relationship": []
+    },
+    "GO:0000267": {
+      "id": "GO:0000267",
+      "name": "obsolete cell fraction",
+      "namespace": "cellular_component",
+      "definition": "\"OBSOLETE. A generic term for parts of cells prepared by disruptive biochemical techniques.\" [GOC:ma]",
+      "comment": "This term was made obsolete because it refers to a cell fractionation experimental result and not a bona fide cellular component.",
+      "is_obsolete": true,
+      "replaced_by": [],
+      "consider": [
+        "GO:0005575"
+      ],
+      "is_a": [],
+      "relationship": []
+    }
+  },
+  "counts": {
+    "terms_in_source": 48340,
+    "obsolete_in_source": 10248,
+    "with_replaced_by": 2232,
+    "with_consider_only": 2191
+  }
+}

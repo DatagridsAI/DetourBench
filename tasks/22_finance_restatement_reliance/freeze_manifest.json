@@ -1,0 +1,35 @@
+{
+  "schema_version": "detourbench.frozen-integrated-task.v2",
+  "frozen_on": "2026-08-27",
+  "task_id": 22,
+  "task_directory": "initial_integrated_tasks/22_finance_restatement_reliance",
+  "run_task_name": "finance_restatement_reliance",
+  "classification": "integrated_development_challenge",
+  "task_revision": "finance-edgar-v1",
+  "selection_note": "SEC-EDGAR-grounded domain-expansion prototype; exclude from confirmatory ranking until prospectively frozen.",
+  "evidence_cluster_id": "edgar-ppsi-2024-restatement",
+  "metric_version": "detourbench-v3",
+  "solver_version": "compute_lower_bound.monotone-bfs.v1",
+  "state_semantics_version": "graph-env.expanding-search.v1",
+  "n_nodes": 56,
+  "n_edges": 95,
+  "oracle_lower_bound": 12,
+  "informed_lower_bound": 12,
+  "hard_budget": 18,
+  "primary_mechanism": "Disposition",
+  "supporting_mechanisms": [
+    "Currency",
+    "Depth",
+    "Breadth"
+  ],
+  "episode_count": 8,
+  "hashes_sha256": {
+    "graph_full.json": "26a965b196d3e3143f7deccbd586880cf6b10dcbc392e94b766e73eb4c7db820",
+    "oracle.json": "0969d49f2a824ef7b90117084b606808b29186f438c994d3b87f2d3b4fd4c991",
+    "verifier_report.json": "e038ba6788e162650b5eb3f706626e41ac03b14f75ef1fb75e0c6b8f0a34697d",
+    "source_corpus.json": "9135e9016345d841ba8b8dd98eadbc93d303ebc9a6ca3a7300de96c0e97190c9",
+    "necessity_audit.json": "fa8c9db02e140fadc62ced174750425ce017682af8e098dfca312335581d1462",
+    "task_spec.json": "654a8e631524dc45365e50cff0b6c0c9c23dc21ce3d9e54d36d08ecb69a3c059",
+    "initial_state.json": "9400db42f157ba552c34e3abcab07b0a9f515265769743f77de89daaac366028"
+  }
+}

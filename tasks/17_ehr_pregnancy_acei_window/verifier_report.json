@@ -1,0 +1,249 @@
+{
+  "ok": true,
+  "failed": [],
+  "findings": [
+    {
+      "check": "evidence_merge_is_explicit",
+      "ok": true,
+      "detail": {
+        "edge": "e_window_review",
+        "requires_visited": [
+          "snapshot",
+          "lisinopril",
+          "pregnancy",
+          "exception_result"
+        ],
+        "n": 4
+      }
+    },
+    {
+      "check": "merge_blocks_incomplete_evidence",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_window_review",
+        "ok": false,
+        "reason": "not_ready"
+      }
+    },
+    {
+      "check": "lo_matches_expected",
+      "ok": true,
+      "detail": 12
+    },
+    {
+      "check": "solver_matches",
+      "ok": true,
+      "detail": {
+        "solver": 12,
+        "oracle": 12
+      }
+    },
+    {
+      "check": "oracle_replay",
+      "ok": true,
+      "detail": {
+        "success": true,
+        "steps": 12,
+        "trace": [
+          {
+            "edge_id": "e_intake",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_patient",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_meds",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_snapshot",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_acei",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_pregnancy",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_exceptions",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_exception_result",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_window_review",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_hold",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_target",
+            "ok": true,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "check": "budget",
+      "ok": true,
+      "detail": 18
+    },
+    {
+      "check": "node_band",
+      "ok": true,
+      "detail": 31
+    },
+    {
+      "check": "not_frozen_patient",
+      "ok": true,
+      "detail": "ba6834bd-b38f-8801-d4f3-9ffd48b50b42"
+    },
+    {
+      "check": "theme_ehr",
+      "ok": true,
+      "detail": "ehr"
+    },
+    {
+      "check": "main_interaction_depth",
+      "ok": true,
+      "detail": 12
+    },
+    {
+      "check": "main_real_acquisitions",
+      "ok": true,
+      "detail": [
+        "e_intake",
+        "e_patient",
+        "e_meds",
+        "e_snapshot",
+        "e_acei",
+        "e_pregnancy",
+        "e_exception_result",
+        "e_policy"
+      ]
+    },
+    {
+      "check": "main_benchmark_actions",
+      "ok": true,
+      "detail": [
+        "e_window_review",
+        "e_hold",
+        "e_target"
+      ]
+    },
+    {
+      "check": "main_decision_depth",
+      "ok": true,
+      "detail": [
+        "bind evidence to the frozen snapshot",
+        "evaluate the medication activity interval",
+        "evaluate the pregnancy activity interval",
+        "rule out a ticket-authorized pregnancy-window exception",
+        "select a window-scoped rather than lifetime disposition"
+      ]
+    },
+    {
+      "check": "ablated_evidence_is_optional",
+      "ok": true,
+      "detail": [
+        "e_docs",
+        "e_pcp"
+      ]
+    },
+    {
+      "check": "necessity_audit_covers_oracle",
+      "ok": true,
+      "detail": {
+        "e_intake": "establishes the refill and frozen-date question",
+        "e_patient": "binds the queue item to the correct patient chart",
+        "e_meds": "discovers the active-medication panel",
+        "e_snapshot": "fixes the temporal frame used by every later decision",
+        "e_acei": "establishes that lisinopril is active in that frame",
+        "e_pregnancy": "establishes that pregnancy is open in that frame",
+        "e_exceptions": "discovers the ticket-scoped pregnancy-window exception search",
+        "e_exception_result": "rules out corrected dates or an authorized ACEI exception",
+        "e_window_review": "computes the medication/pregnancy overlap",
+        "e_policy": "supplies the window-scoped ACEI disposition rule",
+        "e_hold": "applies the snapshot-scoped hold",
+        "e_target": "verifies the hold without creating a lifetime ban"
+      }
+    },
+    {
+      "check": "snapshot_scope_is_mandatory",
+      "ok": true,
+      "detail": [
+        "acei_interval",
+        "dosing_rule",
+        "exception_checked",
+        "patient_identity",
+        "pregnancy_open",
+        "queued_acei",
+        "refill_scope",
+        "snapshot_scope",
+        "window_synthesized"
+      ]
+    },
+    {
+      "check": "policy_candidates_remain_optional",
+      "ok": true,
+      "detail": [
+        "e_policy",
+        "e_policy_future",
+        "e_policy_legacy"
+      ]
+    },
+    {
+      "check": "lisinopril_source_and_action_scope",
+      "ok": true,
+      "detail": {
+        "policy": "ACEI pregnancy queue policy v2024.01, effective 2024-01-01 through 2024-05-31. When a lisinopril request is active while pregnancy is open at the queue transaction, do not dispense and route for prescriber review. Current labeling warns of fetal toxicity and directs discontinuation when pregnancy is detected. The sandbox action is a queue hold; it does not independently edit the MedicationRequest or impose a lifetime ban. The policy interval covers 2024-04-01. Current lisinopril labeling: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=efc9eb3c-0f54-47b8-b236-8680e0046ea4. If the window requires a hold, apply it at scenario://ehr/pharmacy/RXQ-CAL23/pending-pregnancy-window.",
+        "hold": "RXQ-CAL23 fulfillment is paused for the 2024-04-01 window and routed for prescriber review of discontinuation or substitution. The pharmacy sandbox does not independently edit the MedicationRequest or discontinue the hypertension condition. Record the snapshot-scoped hold. Close the queue at scenario://ehr/pharmacy/RXQ-CAL23/complete."
+      }
+    },
+    {
+      "check": "future_false_summit_is_recoverable",
+      "ok": true,
+      "detail": {
+        "steps": 16,
+        "success": true
+      }
+    },
+    {
+      "check": "reasonable_chart_detour_recovers",
+      "ok": true,
+      "detail": {
+        "steps": 15,
+        "last": {
+          "edge_id": "e_target",
+          "ok": true,
+          "reason": null
+        }
+      }
+    }
+  ]
+}

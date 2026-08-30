@@ -1,0 +1,8 @@
+{
+ "schema_version": "detourbench.verifier-report.v1",
+ "ok": false,
+ "witness_replayed": true,
+ "witness_length": 0,
+ "lower_bound_steps": 10,
+ "checked": "oracle witness replayed under the model-facing evaluator and reached success in exactly L_o steps"
+}

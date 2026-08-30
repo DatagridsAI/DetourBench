@@ -1,0 +1,18 @@
+{
+ "schema_version": "detourbench.task-spec.v1",
+ "task_number": 4,
+ "directory": "04_pypi_flask_jinja2",
+ "task_revision": null,
+ "topology": "integrated_software_case",
+ "primary_mechanism": null,
+ "corpus_file": null,
+ "start": "start",
+ "target": "target",
+ "terminal_fail_nodes": [],
+ "one_shot": false,
+ "lower_bound_steps": 10,
+ "informed_lower_bound": 10,
+ "step_budget": 15,
+ "metric_version": "attainment-v2-success-weighted-oracle",
+ "derived": "regenerated from graph_full.json and oracle.json; the graph and oracle themselves are unchanged"
+}

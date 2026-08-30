@@ -1,0 +1,55 @@
+{
+ "schema_version": "detourbench.semantic-necessity-audit.v1",
+ "method": "node-removal reachability plus documented semantic counterfactual",
+ "all_required": true,
+ "items": [
+  {
+   "node": "referral",
+   "structurally_required": true,
+   "semantic_role": "defines the audit concept and named starting code",
+   "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+  },
+  {
+   "node": "policy_current",
+   "structurally_required": true,
+   "semantic_role": "requires crosswalk-confirmed variants and review of every unordered hit",
+   "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+  },
+  {
+   "node": "enc_3904bbefd6",
+   "structurally_required": true,
+   "semantic_role": "supplies one named-code date and the clue that reveals the alternate terminology route",
+   "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+  },
+  {
+   "node": "enc_1fdcf6f73e",
+   "structurally_required": true,
+   "semantic_role": "supplies the other named-code date needed to find that code's earliest hit",
+   "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+  },
+  {
+   "node": "terminology_current",
+   "structurally_required": true,
+   "semantic_role": "establishes that Gingivitis belongs to the same concept at the audit timestamp",
+   "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+  },
+  {
+   "node": "enc_d456e7256b",
+   "structurally_required": true,
+   "semantic_role": "supplies the globally earliest in-scope documentation date",
+   "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+  },
+  {
+   "node": "enc_81bebab7bd",
+   "structurally_required": true,
+   "semantic_role": "supplies the other alternate-code date needed to establish which alternate hit is earliest",
+   "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+  },
+  {
+   "node": "filing_schema",
+   "structurally_required": true,
+   "semantic_role": "defines the allowed one-shot date actions",
+   "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+  }
+ ]
+}

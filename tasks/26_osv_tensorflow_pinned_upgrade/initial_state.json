@@ -1,0 +1,36 @@
+{
+  "schema_version": "detourbench.initial-state.v1",
+  "visibility": "local",
+  "node": "start",
+  "context": "[Case annotation: Dependency-review case DTB-OSV-26. Choose one prebuilt remediation bundle for a pinned TensorFlow-family service. The deployment identity, range policy, approved release inventory, and a catalog of normalized GHSA query packets are available. Determine which published release intervals contain the installed pin, then file the lowest compliant in-place release outside all of them. Raw advisories are available for selective verification. One filing is allowed; no real package or service is changed.]",
+  "known_resources": [
+    {
+      "identifier": "https://security-review.internal/v3/deployments/current",
+      "resource_type": "endpoint"
+    },
+    {
+      "identifier": "https://security-review.internal/v3/policies/range-evaluation",
+      "resource_type": "endpoint"
+    },
+    {
+      "identifier": "https://security-review.internal/v3/releases/approved-bundles",
+      "resource_type": "endpoint"
+    },
+    {
+      "identifier": "https://security-review.internal/v3/advisories/ghsa-catalog",
+      "resource_type": "endpoint"
+    },
+    {
+      "identifier": "https://security-review.internal/v3/remediations/bundles",
+      "resource_type": "endpoint"
+    }
+  ],
+  "actions_remaining": 15,
+  "identifiers": [
+    "https://security-review.internal/v3/deployments/current",
+    "https://security-review.internal/v3/policies/range-evaluation",
+    "https://security-review.internal/v3/releases/approved-bundles",
+    "https://security-review.internal/v3/advisories/ghsa-catalog",
+    "https://security-review.internal/v3/remediations/bundles"
+  ]
+}

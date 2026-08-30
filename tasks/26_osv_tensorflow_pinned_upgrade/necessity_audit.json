@@ -1,0 +1,61 @@
+{
+  "schema_version": "detourbench.semantic-necessity-audit.v1",
+  "method": "node-removal reachability plus documented semantic counterfactual",
+  "all_required": true,
+  "items": [
+    {
+      "node": "manifest",
+      "structurally_required": true,
+      "semantic_role": "supplies the installed distribution and pin",
+      "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+    },
+    {
+      "node": "scope_policy",
+      "structurally_required": true,
+      "semantic_role": "defines GHSA scope and half-open release interval semantics",
+      "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+    },
+    {
+      "node": "release_inventory",
+      "structurally_required": true,
+      "semantic_role": "distinguishes lowest in-place remediation from replacement or overshoot",
+      "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+    },
+    {
+      "node": "catalog_index",
+      "structurally_required": true,
+      "semantic_role": "reveals all three parallel normalized query packets",
+      "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+    },
+    {
+      "node": "query_release_a",
+      "structurally_required": true,
+      "semantic_role": "mixes a pin-boundary range, a future range, a wide range, and an expired range",
+      "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+    },
+    {
+      "node": "query_release_c",
+      "structurally_required": true,
+      "semantic_role": "contains two additional pin-boundary ranges beside expired and future ranges",
+      "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+    },
+    {
+      "node": "query_release_e",
+      "structurally_required": true,
+      "semantic_role": "contains the second wide range and near-miss release families",
+      "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+    },
+    {
+      "node": "candidate_matrix",
+      "structurally_required": true,
+      "semantic_role": "maps opaque bundle codes to distribution, release, and migration mode",
+      "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+    },
+    {
+      "node": "final_review",
+      "structurally_required": true,
+      "semantic_role": "exposes the symmetric one-shot filing actions",
+      "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+    }
+  ]
+}

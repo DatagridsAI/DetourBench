@@ -1,0 +1,309 @@
+{
+  "schema_version": "detourbench.verifier-report.v1",
+  "ok": true,
+  "failed": [],
+  "findings": [
+    {
+      "check": "exact_lower_bound",
+      "ok": true,
+      "detail": {
+        "lower_bound": 20,
+        "path_length": 20
+      }
+    },
+    {
+      "check": "oracle_replay",
+      "ok": true,
+      "detail": {
+        "success": true,
+        "steps": 20,
+        "trace": [
+          {
+            "edge_id": "e_case",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_event_index",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_fleet_index",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_fleet_0900",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_orders_0900",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_plan_register",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_plan_a",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_plan_b",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_plan_c",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy_register",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_adr_policy",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_driving_policy",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_operational_policy",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_route_index",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_route_manifest",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_routes_0900",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_submission_schema",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_review",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_commit_a",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_target",
+            "ok": true,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "check": "runtime_candidate_discrimination",
+      "ok": true,
+      "detail": {
+        "plan_a": {
+          "exit_code": 0,
+          "ok": true,
+          "errors": []
+        },
+        "plan_b": {
+          "exit_code": 2,
+          "ok": false,
+          "errors": [
+            "ORD-003: 45-minute break required before exceeding continuous driving limit",
+            "ORD-005: 45-minute break required before exceeding continuous driving limit"
+          ]
+        },
+        "plan_c": {
+          "exit_code": 2,
+          "ok": false,
+          "errors": [
+            "ORD-003: vehicle and driver must both carry ADR eligibility ADR25-UN1203-PGII"
+          ]
+        },
+        "commit_a": {
+          "exit_code": 0,
+          "ok": true,
+          "errors": null
+        }
+      }
+    },
+    {
+      "check": "premature_review_blocked",
+      "ok": true,
+      "detail": {
+        "ok": false,
+        "reason": "not_ready"
+      }
+    },
+    {
+      "check": "wrong_actions_terminal",
+      "ok": true,
+      "detail": {
+        "e_commit_b": {
+          "access_ok": true,
+          "episode_done": true,
+          "success": false,
+          "fail_reason": "terminal_state"
+        },
+        "e_commit_c": {
+          "access_ok": true,
+          "episode_done": true,
+          "success": false,
+          "fail_reason": "terminal_state"
+        }
+      }
+    },
+    {
+      "check": "semantic_necessity",
+      "ok": true,
+      "detail": {
+        "all_required": true,
+        "items": [
+          {
+            "node": "orders_0900",
+            "structurally_required": true,
+            "semantic_role": "establishes the complete cutoff-scoped six-order work requirement",
+            "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+          },
+          {
+            "node": "routes_0900",
+            "structurally_required": true,
+            "semantic_role": "establishes the frozen directed lanes, drive minutes and handling buffers",
+            "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+          },
+          {
+            "node": "fleet_0900",
+            "structurally_required": true,
+            "semantic_role": "establishes vehicle and driver capabilities, including ADR eligibility and initial driving totals",
+            "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+          },
+          {
+            "node": "driving_policy",
+            "structurally_required": true,
+            "semantic_role": "defines the continuous-driving limit and mandatory 45-minute break rule",
+            "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+          },
+          {
+            "node": "adr_policy",
+            "structurally_required": true,
+            "semantic_role": "defines the controlled ADR profile requirement on both vehicle and driver",
+            "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+          },
+          {
+            "node": "operational_policy",
+            "structurally_required": true,
+            "semantic_role": "defines the in-force route-operational profile semantics",
+            "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+          },
+          {
+            "node": "submission_schema",
+            "structurally_required": true,
+            "semantic_role": "defines the required assignment fields for a valid plan bundle",
+            "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+          },
+          {
+            "node": "plan_a",
+            "structurally_required": true,
+            "semantic_role": "provides the only runtime-accepted candidate disposition",
+            "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+          },
+          {
+            "node": "plan_b",
+            "structurally_required": true,
+            "semantic_role": "provides the break-rule counterfactual that must be distinguished",
+            "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+          },
+          {
+            "node": "plan_c",
+            "structurally_required": true,
+            "semantic_role": "provides the ADR-eligibility counterfactual that must be distinguished",
+            "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+          }
+        ]
+      }
+    },
+    {
+      "check": "detours_exceed_budget_slack",
+      "ok": true,
+      "detail": {
+        "harmless_detour_nodes": 12,
+        "budget_slack": 10
+      }
+    },
+    {
+      "check": "honest_mechanism_crosswalk",
+      "ok": true,
+      "detail": {
+        "primary": "Disposition",
+        "supporting": [
+          "Currency",
+          "Breadth",
+          "Depth"
+        ],
+        "unsupported_not_claimed": [
+          "Sufficiency",
+          "Time"
+        ],
+        "basis": {
+          "Disposition": "Three complete candidate plan commits have one runtime-accepted disposition and two terminal failure outcomes.",
+          "Currency": "The frozen v1 operational policy, not the draft, governs selected-lane handling.",
+          "Breadth": "Visible requests, routes, fleet, policy, schema and all three plan bundles are jointly required before review.",
+          "Depth": "The selected route rows are reached through the route manifest before the review and audit chain."
+        }
+      }
+    },
+    {
+      "check": "source_runtime_commit",
+      "ok": true,
+      "detail": {
+        "exit_code": 0,
+        "ok": true
+      }
+    },
+    {
+      "check": "initial_state",
+      "ok": true,
+      "detail": {
+        "schema_version": "detourbench.initial-state.v1",
+        "visibility": "local",
+        "node": "start",
+        "context": "Freight dispatch review case DTB-TERMINAL-FREIGHT-25, cutoff 09:00. Inspect the frozen request snapshot, selected route and fleet records, current controlled policies, submission schema, and all three plan bundles. Commit exactly one plan. Online routing, PBF access, random travel-time assumptions, and facts visible only after 09:00 are outside this decision.",
+        "known_resources": [
+          {
+            "identifier": "workflow://DTB-TERMINAL-FREIGHT-25",
+            "resource_type": "endpoint"
+          }
+        ],
+        "actions_remaining": 30,
+        "identifiers": [
+          "workflow://DTB-TERMINAL-FREIGHT-25"
+        ]
+      }
+    }
+  ]
+}

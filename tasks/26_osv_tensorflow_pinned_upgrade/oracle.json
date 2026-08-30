@@ -1,0 +1,39 @@
+{
+  "lower_bound_steps": 10,
+  "oracle_lower_bound": 10,
+  "informed_lower_bound": 10,
+  "oracle_edge_path": [
+    "e_manifest",
+    "e_scope_policy",
+    "e_release_inventory",
+    "e_catalog_index",
+    "e_query_release_a",
+    "e_query_release_c",
+    "e_query_release_e",
+    "e_candidate_matrix",
+    "e_final_review",
+    "e_commit_m7"
+  ],
+  "shortest_successful_route": [
+    "e_manifest",
+    "e_scope_policy",
+    "e_release_inventory",
+    "e_catalog_index",
+    "e_query_release_a",
+    "e_query_release_c",
+    "e_query_release_e",
+    "e_candidate_matrix",
+    "e_final_review",
+    "e_commit_m7"
+  ],
+  "difficulty": "hard",
+  "step_budget": 15,
+  "difficulty_multiplier": 1.5,
+  "metric_version": "detourbench-v3",
+  "solver_version": "compute_lower_bound.monotone-bfs.v1",
+  "state_semantics_version": "graph-env.expanding-search.v1",
+  "theme": "software_supply_chain",
+  "topology": "parallel_osv_interval_synthesis_and_bundle_disposition",
+  "n_nodes": 54,
+  "n_dead_end_nodes": 43
+}

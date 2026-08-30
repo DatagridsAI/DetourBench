@@ -1,0 +1,790 @@
+{
+ "seed": "GHSA-99vc-2jx2-688p",
+ "sections": {
+  "GHSA-grv6-m753-3w2g": {
+   "title": "NocoDB vulnerable to Denial of Service",
+   "text": "NocoDB vulnerable to Denial of Service Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.92.0 NocoDB prior to 0.92.0 allows actors to insert large characters into the input field `New Project` on the create field, which can cause a Denial of Service (DoS) via a crafted HTTP request. Version 0.92.0 fixes this issue.",
+   "refs": [
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897",
+    "GHSA-6293-2vg2-pmp5"
+   ],
+   "amended_years": [
+    2022,
+    2023
+   ],
+   "history": "[published 2022-10-07, last modified 2023-11-08]"
+  },
+  "GHSA-fq4h-m3c8-8m2v": {
+   "title": "Improper Privilege Management in NocoDB",
+   "text": "Improper Privilege Management in NocoDB Affected: nocodb. Severity: HIGH. from 0; fixed in 0.91.8 Improper Privilege Management in GitHub repository nocodb/nocodb prior to 0.91.8.",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-hv6q-5g4f-8897",
+    "GHSA-6293-2vg2-pmp5"
+   ],
+   "amended_years": [
+    2022,
+    2023
+   ],
+   "history": "[published 2022-06-14, last modified 2023-11-08]"
+  },
+  "GHSA-hv6q-5g4f-8897": {
+   "title": "Cross-site Scripting in NocoDB",
+   "text": "Cross-site Scripting in NocoDB Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.91.9 Cross-site Scripting (XSS) - Stored in GitHub repository nocodb/nocodb prior to 0.91.9.",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-6293-2vg2-pmp5"
+   ],
+   "amended_years": [
+    2022,
+    2023
+   ],
+   "history": "[published 2022-06-15, last modified 2023-11-08]"
+  },
+  "GHSA-6293-2vg2-pmp5": {
+   "title": "Insufficient Session Expiration in NocoDB",
+   "text": "Insufficient Session Expiration in NocoDB Affected: nocodb. Severity: HIGH. from 0; fixed in 0.91.9 Insufficient Session Expiration in GitHub repository nocodb/nocodb prior to 0.91.9.",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2022,
+    2023
+   ],
+   "history": "[published 2022-06-14, last modified 2023-11-08]"
+  },
+  "GHSA-mx8q-jqwm-85mv": {
+   "title": "NocoDB information disclosure vulnerability",
+   "text": "NocoDB information disclosure vulnerability Affected: nocodb. Severity: HIGH. from 0; fixed in 0.91.7 In NocoDB prior to 0.91.7, the SMTP plugin doesn't have verification or validation. This allows attackers to make requests to internal servers and read the contents.",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2022,
+    2023
+   ],
+   "history": "[published 2022-06-14, last modified 2023-11-08]"
+  },
+  "GHSA-xrpm-hccg-28x7": {
+   "title": "Improper Input Validation in nocodb",
+   "text": "Improper Input Validation in nocodb Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.96.0 Improper Input Validation in GitHub repository nocodb/nocodb prior to 0.96.0.",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2023
+   ],
+   "history": "[published 2023-09-21, last modified 2023-11-08]"
+  },
+  "GHSA-3m5q-q39v-xf8f": {
+   "title": "nocodb SQL Injection vulnerability",
+   "text": "nocodb SQL Injection vulnerability Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.111.0 ## Summary Nocodb contains SQL injection vulnerability, that allows an authenticated attacker with creator access to query the underlying database. ## Product nocodb/nocodb ## Tested Version [0.109.2](https://github.com/nocodb/nocodb/releases/tag/0.109.2) ## Details ### SQL injection in `SqliteClient.ts` (`GHSL-2023-141`) By supplying a specially crafted payload to the given below parameter and endpoint, an attacker can inject arbitrary SQL queries to be executed. Since this is a blind SQL injections, an attacker may need to use time-based payloads which would include a function to delay execution for a given number of seconds. The response time indicates, whether the result of the query execution was true or false. Depending on the result, the HTTP response will be returned after a given number of seconds, indicating TRUE, or immediately, indicating FALSE. In that way, an attacker can r",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2023
+   ],
+   "history": "[published 2023-10-17, last modified 2023-11-08]"
+  },
+  "GHSA-qg73-g3cf-vhhh": {
+   "title": "NocoDB Allows Preview of Files with Dangerous Content",
+   "text": "NocoDB Allows Preview of Files with Dangerous Content Affected: nocodb. Severity: MODERATE. from 0.202.6; fixed in 0.202.10 ### Summary --- Attacker can upload a html file with malicious content. If user tries to open that file in browser malicious scripts can be executed leading Stored XSS(Cross-Site Script) attack. ### PoC --- NocoDB was configured using the Release Binary `Noco-macos-arm64`, and nocodb version 0.202.9 (currently the latest version) was used. binary hash infos: md5(164b727f287af56168bc16fba622d0b4) / sha256(43e8e97f4c5f5330613abe071a359f84e4514b7186f92954b678087c37b7832e) <img width=\"665\" alt=\"image\" src=\"https://user-images.githubusercontent.com/86613161/287472673-aeb60a02-2080-429f-8583-9f130ab62779.png\"> ### 1. Run the binary to start the server and access the arbitrary table dashboard. <img width=\"830\" alt=\"image\" src=\"https://user-images.githubusercontent.com/86613161/287472852-98b2286e-ad66-45bf-b503-63780619d775.png\"> Here, used the default `Features` table. ### 2. Click `+` in the t",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "history": "[published 2024-05-13, last modified 2025-08-21]"
+  },
+  "GHSA-8fxg-mr34-jqr8": {
+   "title": "NocoDB SQL Injection vulnerability",
+   "text": "NocoDB SQL Injection vulnerability Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.202.10 ### Summary --- An authenticated attacker with create access could conduct a SQL Injection attack on MySQL DB using unescaped table_name. ### Details --- ### SQL Injection vulnerability occurs in **VitessClient.ts**. ```javascript async columnList(args: any = {}) { const func = this.columnList.name; const result = new Result(); log.api(`${func}:args:`, args); try { args.databaseName = this.connectionConfig.connection.database; const response = await this.sqlClient.raw( `select *, table_name as tn from information_schema.columns where table_name = '${args.tn}' ORDER by ordinal_position`, ); ``` The variable **${args.tn}** refers to the table name entered by the user. A malicious attacker can escape the existing query by including a special character (') in the table name and insert and execute a new arbitrary SQL query. ### Impact --- This vulnerability may result in leakage of sensitive ",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "history": "[published 2024-05-13, last modified 2025-08-21]"
+  },
+  "GHSA-h6r4-xvw6-jc5h": {
+   "title": "NocoDB Vulnerable to Stored Cross-Site Scripting in Formula.vue",
+   "text": "NocoDB Vulnerable to Stored Cross-Site Scripting in Formula.vue Affected: nocodb. Severity: HIGH. from 0; fixed in 0.202.9 ### Summary A stored cross-site scripting vulnerability exists within the Formula virtual cell comments functionality. ### Details The nc-gui/components/virtual-cell/Formula.vue displays a v-html tag with the value of \"urls\" whose contents are processed by the function replaceUrlsWithLink(). This function recognizes the pattern URI::(XXX) and creates a hyperlink tag <a> with href=XXX. However, it leaves all the other contents outside of the pattern URI::(XXX) unchanged, which makes the evil users can create a malicious table with a formula field whose payload is <img src=1 onerror=\"malicious javascripts\"URI::(XXX). The evil users then can share this table with others by enabling public viewing and the victims who open the shared link can be attacked. ### PoC Step 1: Attacker login the nocodb and creates a table with two fields, \"T\" and \"F\". The type of field \"T\" is \"SingleLineText\", and ",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "history": "[published 2024-05-13, last modified 2025-08-21]"
+  },
+  "GHSA-wf6c-hrhf-86cw": {
+   "title": "NocoDB Vulnerable to Reflected Cross-Site Scripting on Reset Password Page",
+   "text": "NocoDB Vulnerable to Reflected Cross-Site Scripting on Reset Password Page Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.258.0 ### Summary The API endpoint related to the password reset function is vulnerable to Reflected Cross-Site-Scripting. ### Details Throughout the source-code analysis, it has been found that the endpoint /api/v1/db/auth/password/reset/:tokenId is vulnerable to Reflected Cross-Site-Scripting. The flaw occurs due to implementation of the client-side template engine ejs, specifically on file resetPassword.ts where the template is using the insecure function \u201c<%-\u201c https://github.com/nocodb/nocodb/blob/ba5a191b33259d984fc92df225f7d82ede2ddb56/packages/nocodb/src/modules/auth/ui/auth/resetPassword.ts#L71 which is rendered by the function renderPasswordReset: https://github.com/nocodb/nocodb/blob/ba5a191b33259d984fc92df225f7d82ede2ddb56/packages/nocodb/src/modules/auth/auth.controller.ts#L251 ### PoC Send the request below to a vulnerable instance: `/api/v1/db/auth/password/reset/asdsad%3C%2F%73%",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2025
+   ],
+   "history": "[published 2025-03-06, last modified 2025-08-26]"
+  },
+  "GHSA-99vc-2jx2-688p": {
+   "title": "NocoDB: Missing File Size Enforcement in Upload-by-URL Allows Denial of Service via Disk Exhaustion",
+   "text": "NocoDB: Missing File Size Enforcement in Upload-by-URL Allows Denial of Service via Disk Exhaustion Affected: nocodb. Severity: MODERATE. from 0 ### Summary The `uploadViaURL` path in the v1/v2 attachment API did not enforce `NC_ATTACHMENT_FIELD_SIZE` against the remote `content-length` or against the response stream. An authenticated user (Editor+) could direct the server to download arbitrarily large files, exhausting disk space and causing denial of service. ### Details In `packages/nocodb/src/services/attachments.service.ts`, the HEAD probe read `content-length` but never compared it to `NC_ATTACHMENT_FIELD_SIZE`; the subsequent `storageAdapter.fileCreateByUrl()` performed the download without `maxContentLength`. The v3 service (`v3/data-attachment-v3.service.ts`) already enforced the limit, but the v1/v2 endpoints (`POST /api/v1/db/storage/upload-by-url`, `POST /api/v2/storage/upload-by-url`) did not. This is distinct from GHSA-xr7v-j379-34v9 (blind SSRF via HEAD) \u2014 same code area, different class. ### Impact - Authenticated",
+   "refs": [
+    "GHSA-chqv-vrj7-qffp",
+    "GHSA-6mhr-74x2-98v9",
+    "GHSA-m5qg-rvjq-727p",
+    "GHSA-8rwr-f68v-cvw6",
+    "GHSA-f74w-272x-mqcv",
+    "GHSA-gprh-27j3-g5h4",
+    "GHSA-9qgr-6vpg-9gh9",
+    "GHSA-2c5x-4jgf-88mj"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-21, last modified 2026-05-21]"
+  },
+  "GHSA-387m-j3p9-3php": {
+   "title": "NocoDB Vulnerable to User Enumeration via Password Reset Endpoint",
+   "text": "NocoDB Vulnerable to User Enumeration via Password Reset Endpoint Affected: nocodb. Severity: LOW. from 0; fixed in 0.301.3 ### Summary The password forgot endpoint returned different responses for registered and unregistered emails, allowing user enumeration. ### Details `POST /api/v2/auth/password/forgot` returned a success message for registered emails but `'Your email has not been registered.'` for unknown emails. The fix returns a uniform response regardless of whether the email exists. ### Impact An unauthenticated attacker can determine whether an email is registered. No credentials or data are exposed. ### Credit This issue was reported by [@Tulgaaaaaaaa](https://github.com/Tulgaaaaaaaa).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-02, last modified 2026-03-04]"
+  },
+  "GHSA-rvp5-9p55-f5rp": {
+   "title": "NocoDB: Open Redirect via Hash Fragment in hashRedirect Plugin",
+   "text": "NocoDB: Open Redirect via Hash Fragment in hashRedirect Plugin Affected: nocodb. Severity: MODERATE. from 0; fixed in 2026.04.1 ### Summary The client-side `hashRedirect` plugin called `window.location.replace()` on a path extracted from the URL hash fragment after only checking `hashPath.startsWith('/')`. Protocol-relative URLs (`//attacker.com/\u2026`) also satisfy that check, so a crafted link such as `https://nocodb.example/#//attacker.com/phishing` silently redirected visitors to an attacker-controlled origin. ### Details In `packages/nc-gui/plugins/hashRedirect.client.ts`, the plugin extracted the hash content and normalised it into `cleanUrl`: ```ts let cleanUrl = hashPath.startsWith('/') ? hashPath : `/${hashPath}` if (hashQuery) cleanUrl += `?${hashQuery}` window.location.replace(cleanUrl) ``` `startsWith('/')` returns true for `//attacker.com/...`, which browsers interpret as a protocol-relative absolute URL. No hostname check was performed before the redirect. The fix adds an early `if (/^\\/[/\\\\]/.test(hash",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-chqv-vrj7-qffp": {
+   "title": "NocoDB: Shared-base link access can invite arbitrary users as persistent base members",
+   "text": "NocoDB: Shared-base link access can invite arbitrary users as persistent base members Affected: nocodb. Severity: MODERATE. from 0 ### Summary Shared-base sessions were granted the same base-member capabilities as authenticated viewers. Using only the shared-base UUID (`xc-shared-base-id`), an attacker could enumerate base members and invite an arbitrary email into the base as a real member. The invited user could then redeem the invite via the normal signup flow and retain authenticated access even after the owner revoked the shared link. ### Details Shared-base sessions were mapped to `ProjectRoles.VIEWER` in `packages/nocodb/src/strategies/base-view.strategy/base-view.strategy.ts`, and `packages/nocodb/src/utils/acl.ts` granted `baseUserList` and `userInvite` to that role. The shared frontend (`packages/nc-gui/composables/useApi/interceptors.ts`) deliberately removed auth headers in favour of the shared-base header, but the ACL middleware did not distinguish shared sessions from genuine viewers. The end-to-end ch",
+   "refs": [
+    "GHSA-99vc-2jx2-688p",
+    "GHSA-6mhr-74x2-98v9",
+    "GHSA-m5qg-rvjq-727p",
+    "GHSA-8rwr-f68v-cvw6",
+    "GHSA-f74w-272x-mqcv",
+    "GHSA-gprh-27j3-g5h4",
+    "GHSA-9qgr-6vpg-9gh9",
+    "GHSA-2c5x-4jgf-88mj"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-21, last modified 2026-05-21]"
+  },
+  "GHSA-qxwq-q265-hc44": {
+   "title": "NocoDB Vulnerable to Stored Cross-site Scripting via Rich Text Field",
+   "text": "NocoDB Vulnerable to Stored Cross-site Scripting via Rich Text Field Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.301.3 ### Summary An authenticated user with Editor role can inject arbitrary HTML into Rich Text cells by bypassing the TipTap editor and sending raw HTML via the API. ### Details The TipTap editor sanitizes HTML client-side, but the backend stores raw HTML without server-side sanitization. The stored content is rendered via `v-html` in `TextArea.vue` through `NcMarkdownParser.parse()` which performs no sanitization. ### Impact Stored XSS \u2014 malicious scripts execute for any user viewing the cell. ### Credit This issue was reported by [@Akokonunes](https://github.com/Akokonunes).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-02, last modified 2026-03-04]"
+  },
+  "GHSA-cxv7-gmmp-228p": {
+   "title": "NocoDB: Postgres SQL Injection in Formula `ARRAYSORT`",
+   "text": "NocoDB: Postgres SQL Injection in Formula `ARRAYSORT` Affected: nocodb. Severity: MODERATE. from 0; fixed in 2026.04.1 ### Summary An authenticated user with `columnAdd` permission on a Postgres-backed base can inject arbitrary SQL into the formula engine via the optional `direction` argument of `ARRAYSORT(...)`. The value is unrestricted by formula validation and embedded into a `knex.raw` `ORDER BY` clause, executing during column creation and on every subsequent record read of the formula column. ### Details The vulnerability is specific to the Postgres mapping for `ARRAYSORT` in `packages/nocodb/src/db/functionMappings/pg.ts`. Two factors combine: 1. `ARRAYSORT` declares only argument count, not `validation.args.type`, so `validate-extract-tree.ts` does not enforce an allowlist on the second argument. 2. The Postgres mapping then passes the attacker-controlled value through `sanitize(knex.raw(...))` into a raw SQL fragment: ```ts const direction = pt.arguments[1] ? sanitize( knex.raw(pt.arguments[1]?",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-wwp2-x4rj-j8rm": {
+   "title": "NocoDB Vulnerable to Stored Cross-Site Scripting via Rich Text Cells",
+   "text": "NocoDB Vulnerable to Stored Cross-Site Scripting via Rich Text Cells Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.301.3 ### Summary Rich text cell content rendered via `v-html` without sanitization, enabling stored XSS. ### Details Rich text in `TextArea.vue` was parsed by markdown-it with `html: true` and injected via `v-html` without DOMPurify. A user with Editor role can inject arbitrary HTML that executes for all viewers. ### Impact Stored XSS \u2014 malicious scripts execute for any user viewing the cell. ### Credit This issue was discovered by an AI agent developed by the GitHub Security Lab and reviewed by GHSL team members [@p-](https://github.com/p-) (Peter Stockli) and [@m-y-mo](https://github.com/m-y-mo) (Man Yue Mo).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-03, last modified 2026-03-04]"
+  },
+  "GHSA-rcph-x7mj-54mm": {
+   "title": "NocoDB Vulnerable to Stored Cross-site Scripting via Comments",
+   "text": "NocoDB Vulnerable to Stored Cross-site Scripting via Comments Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.301.3 ### Summary Comments rendered via `v-html` without sanitization, enabling stored XSS. ### Details Comments in `Comments.vue` were parsed by markdown-it with `html: true` and injected via `v-html` without DOMPurify. A user with Commenter role can inject arbitrary HTML that executes for all viewers. ### Impact Stored XSS \u2014 malicious scripts execute for any user viewing the comment. ### Credit This issue was discovered by an AI agent developed by the GitHub Security Lab and reviewed by GHSL team members [@p-](https://github.com/p-) (Peter Stockli) and [@m-y-mo](https://github.com/m-y-mo) (Man Yue Mo).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-03, last modified 2026-03-04]"
+  },
+  "GHSA-jr54-jwhj-55gp": {
+   "title": "NocoDB: User Enumeration via Sign-In Timing",
+   "text": "NocoDB: User Enumeration via Sign-In Timing Affected: nocodb. Severity: LOW. from 0; fixed in 2026.04.1 ### Summary Sign-in response timing differed between known and unknown email addresses because the unknown-user branch returned without performing a password hash comparison. ### Details The unknown-user branch in `auth.service.ts` now performs a `bcrypt.compare` against a fixed dummy hash so the response time of failed sign-ins is approximately independent of whether the address exists. Rate limiting on the sign-in endpoint is implemented in the Enterprise build only and is not affected by this advisory. ### Impact A network-positioned attacker could enumerate registered email addresses by timing sign-in responses. Exploitation requires only the ability to send unauthenticated sign-in requests. ### Credit This issue was reported by [@AndyAnh174](https://github.com/AndyAnh174).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-9wgh-m22w-9xj8": {
+   "title": "NocoDB: Hidden LTAR Column Exposure in Public Shared-View Relation Endpoints",
+   "text": "NocoDB: Hidden LTAR Column Exposure in Public Shared-View Relation Endpoints Affected: nocodb. Severity: MODERATE. from 0; fixed in 2026.05.1 ### Summary The public shared-view relation endpoints accepted a caller-supplied column ID without verifying that the column was visible in the shared view, so anyone holding a share UUID could read links from any LTAR column on the view's table \u2014 including columns the view owner had hidden. ### Details `publicMmList`, `publicHmList`, and `relDataList` already ensured that the requested column belonged to the view's model, but did not check the view-column entry's `show` flag. All three handlers now also fetch the shared view's column entries and reject the request unless the matching entry has `show=true`. The four public relation routes covered by the fix are: - `GET /api/v2/public/shared-view/:uuid/rows/:rowId/mm/:columnId` (many-to-many) - `GET /api/v2/public/shared-view/:uuid/rows/:rowId/hm/:columnId` (has-many) - `GET /api/v2/public/shared-view/:uuid/rows/:rowId/{ln,om}/:columnId` ",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-wvqj-9wv4-7ff5": {
+   "title": "NocoDB: Path Traversal via SQLite Source Filename",
+   "text": "NocoDB: Path Traversal via SQLite Source Filename Affected: nocodb. Severity: MODERATE. from 0; fixed in 2026.05.1 ### Summary An authenticated user with base-create permission can attach a SQLite source pointing at an arbitrary file on the NocoDB host, including NocoDB's own internal databases. ### Details The SQLite client and the base/integration create services accepted a caller-supplied filename and passed it to `fs.exists` and `fs.open('w')` without restricting the location. A user could point a source at `noco.db`, at a tenant database under `nc_minimal_dbs/`, or at any writable path the NocoDB process can reach, and then read or overwrite its contents through the regular table APIs. ### Impact Disclosure and modification of NocoDB internal state, of other tenants' databases, and of any file the NocoDB process can read or write. Authentication and base-create permission are required. ### Credit This issue was reported by [@Mouhebbenelwafi](https://github.com/Mouhebbenelwafi).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-6mhr-74x2-98v9": {
+   "title": "NocoDB: Stored Cross-Site Scripting via Secure Attachment",
+   "text": "NocoDB: Stored Cross-Site Scripting via Secure Attachment Affected: nocodb. Severity: MODERATE. from 0 ### Summary With `NC_SECURE_ATTACHMENTS=true`, an authenticated uploader could deliver `.html` or `.svg` attachments that the browser rendered inline from the NocoDB origin instead of forcing a download. ### Details The signed attachment handler stored response-header overrides under PascalCase keys (`ResponseContentDisposition`, `ResponseContentType`) while the controller that served the file read them under lowercase-hyphen names (`response-content-disposition`). The mismatch dropped the `Content-Disposition: attachment` header, leaving Express to auto-render `.html`, `.svg`, and similar inline. The fix corrects the key case and additionally forces `Content-Disposition: attachment` and `Content-Type: application/octet-stream` for any MIME type not on the preview allowlist. ### Impact Stored Cross-Site Scripting in the NocoDB origin from inline-rendered uploads. Script executing in the ",
+   "refs": [
+    "GHSA-99vc-2jx2-688p",
+    "GHSA-chqv-vrj7-qffp",
+    "GHSA-m5qg-rvjq-727p",
+    "GHSA-8rwr-f68v-cvw6",
+    "GHSA-f74w-272x-mqcv",
+    "GHSA-gprh-27j3-g5h4",
+    "GHSA-9qgr-6vpg-9gh9",
+    "GHSA-2c5x-4jgf-88mj"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "GHSA-q5c6-h22r-qpwr": {
+   "title": "NocoDB Vulnerable to Stored Cross-Site Scripting via SVG upload",
+   "text": "NocoDB Vulnerable to Stored Cross-Site Scripting via SVG upload Affected: nocodb. Severity: HIGH. from 0; fixed in 0.301.0 ## Summary A **stored Cross-site Scripting (XSS)** vulnerability exists in NocoDB\u2019s attachment handling mechanism. Authenticated users can upload malicious SVG files containing embedded JavaScript, which are later rendered inline and executed in the browsers of other users who view the attachment. Because the malicious payload is stored server-side and executed under the application\u2019s origin, successful exploitation can lead to account compromise, data exfiltration and unauthorized actions performed on behalf of affected users. --- ## Vulnerability Details NocoDB allows file attachments to be previewed inline based on their MIME type. Due to overly permissive MIME type checks and a lack of content sanitization, SVG files containing executable JavaScript are incorrectly treated as safe image content and rendered directly in the browser. ### Root Cause The vulnerability results from a comb",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-01-28, last modified 2026-02-03]"
+  },
+  "GHSA-m5qg-rvjq-727p": {
+   "title": "NocoDB: OAuth Token Scope Not Enforced at ACL Layer Allows Scope Escalation",
+   "text": "NocoDB: OAuth Token Scope Not Enforced at ACL Layer Allows Scope Escalation Affected: nocodb. Severity: LOW. from 0 ### Summary The OAuth token strategy attached `oauth_scope` and `oauth_granted_resources` to the request user, but the ACL middleware never consulted either. An OAuth token issued with a restricted scope (e.g. MCP-only) therefore inherited the full permissions of the underlying user across all routes; the `granted_resources.base_id` restriction was bypassed on org-level endpoints that don't populate `req.context.base_id`. ### Details In `packages/nocodb/src/strategies/oauth-token.strategy.ts`, the strategy set `is_oauth_token`, `oauth_client_id`, `oauth_granted_resources`, and `oauth_scope` on the user object, then mapped through to the user's existing `roles` / `base_roles`. The ACL middleware in `extract-ids.middleware.ts` honoured `is_api_token` via `blockApiTokenAccess` but had no equivalent gate for `is_oauth_token` or scope-string enforcement. The base/workspace restriction logic s",
+   "refs": [
+    "GHSA-99vc-2jx2-688p",
+    "GHSA-chqv-vrj7-qffp",
+    "GHSA-6mhr-74x2-98v9",
+    "GHSA-8rwr-f68v-cvw6",
+    "GHSA-f74w-272x-mqcv",
+    "GHSA-gprh-27j3-g5h4",
+    "GHSA-9qgr-6vpg-9gh9",
+    "GHSA-2c5x-4jgf-88mj"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-21, last modified 2026-05-21]"
+  },
+  "GHSA-w43h-r5m5-p832": {
+   "title": "NocoDB: Server-Side Request Forgery via Database Connection Host",
+   "text": "NocoDB: Server-Side Request Forgery via Database Connection Host Affected: nocodb. Severity: MODERATE. from 0; fixed in 2026.05.1 ### Summary The connection-test endpoint opened a raw TCP socket to the user-supplied database host without resolving and range-checking the destination, so private and link-local addresses (including IPv4-mapped IPv6 forms and `localhost`) reached the driver. ### Details A new `validateDbConnectionHost` helper resolves hostnames through DNS, parses each address with `ipaddr.js`, normalises IPv4-mapped IPv6, and rejects addresses in the private, loopback, link-local, unique-local, reserved, unspecified, broadcast, and carrier-grade-NAT ranges. `0.0.0.0`, `::`, and the literal `localhost` are special-cased. The check runs before the existing SSL block in the connection-test controller and gates the driver invocation. ### Impact Authenticated users with connection-test permission could probe internal services (Redis, the cloud metadata endpoint, internal databases) reachable from the NocoD",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-95ff-46g6-6gw9": {
+   "title": "NocoDB has Prototype Pollution in Connection Test Endpoint, Leading to DoS",
+   "text": "NocoDB has Prototype Pollution in Connection Test Endpoint, Leading to DoS Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.301.0 ### Summary An authenticated user with org-level-creator permissions can exploit prototype pollution in the `/api/v2/meta/connection/test` endpoint, causing all database write operations to fail application-wide until server restart. While the pollution technically bypasses SUPER_ADMIN authorization checks, no practical privileged actions can be performed because database operations fail immediately after pollution. ### Details The `deepMerge()` function in `packages/nocodb/src/utils/dataUtils.ts` does not sanitize the following keys: (`__proto__`, `constructor`, `prototype`): ```typescript export const deepMerge = (target: any, ...sources: any[]) => { // ... Object.keys(source).forEach((key) => { if (isMergeableObject(source[key])) { if (!target[key]) target[key] = Array.isArray(source[key]) ? [] : {}; deepMerge(target[key], source[key]); // Recursively merges __proto__ } else { target[",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-01-28, last modified 2026-02-03]"
+  },
+  "GHSA-xxpj-q764-9r6q": {
+   "title": "NocoDB: Missing Ownership Check in MCP Attachment Read",
+   "text": "NocoDB: Missing Ownership Check in MCP Attachment Read Affected: nocodb. Severity: LOW. from 0; fixed in 2026.05.1 ### Summary A low-privilege MCP token holder with knowledge of an attachment path could read any file in shared storage, including attachments belonging to other bases and workspaces, because the MCP `readAttachment` tool did not verify the file's ownership. ### Details The MCP `readAttachment` tool accepts caller-supplied `path`/`url` values and streams the file via the storage adapter. The handler now looks up the path in `nc_file_references` and requires a non-deleted row whose `base_id` matches the caller's MCP context before streaming; otherwise it returns `Attachment is not accessible from this MCP context`. The lookup tolerates both `download/uploads/...` and `uploads/...` styles. ### Impact Arbitrary read against shared storage scoped to attachments the caller's MCP context should not see. Exploitation requires an MCP token and a known attachment path. ### Credit This issue was r",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-8m7c-hf24-5g47": {
+   "title": "NocoDB: OAuth Authorization Code Race Condition",
+   "text": "NocoDB: OAuth Authorization Code Race Condition Affected: nocodb. Severity: MODERATE. from 0; fixed in 2026.05.1 ### Summary Two concurrent token-exchange requests using the same OAuth authorization code could each mint a distinct valid `(access_token, refresh_token)` pair, breaking the single-use guarantee that PKCE relies on. ### Details The token-exchange flow read `is_used` and called `markAsUsed` as an unconditional update at the end of the path. A new `OAuthAuthorizationCode.claimByCode` method now performs an atomic compare-and-swap (`WHERE code = ? AND is_used = false`) and is called immediately before `OAuthToken.insert`, after redirect-URI, PKCE, and client authentication have all succeeded. Only the first concurrent caller's `UPDATE` wins; the rest see `invalid_grant: Authorization code has already been used`. ### Impact An attacker who has observed an authorization code and the corresponding PKCE verifier (for example through a malicious OAuth-aware client or by racing a real exchange) ",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-8rwr-f68v-cvw6": {
+   "title": "NocoDB: Attachment Size Limit Bypass via Upload-by-URL",
+   "text": "NocoDB: Attachment Size Limit Bypass via Upload-by-URL Affected: nocodb. Severity: LOW. from 0 ### Summary The upload-by-URL path did not enforce `NC_ATTACHMENT_FIELD_SIZE` against either the remote file's advertised `Content-Length` or the decoded length of a `data:` URI, allowing an authenticated user to bypass the configured per-file size limit. ### Details The attachments service now checks `NC_ATTACHMENT_FIELD_SIZE` against both the HEAD response's `content-length` and the decoded length of a `data:` URI body before fetching. The local storage plugin additionally sets `maxContentLength` on the axios download so a malicious server cannot stream past the limit. ### Impact Authenticated users with upload permission could attach files larger than the operator-configured limit, defeating storage and bandwidth caps. ### Credit This issue was reported by [@bugbunny-research](https://github.com/bugbunny-research).",
+   "refs": [
+    "GHSA-99vc-2jx2-688p",
+    "GHSA-chqv-vrj7-qffp",
+    "GHSA-6mhr-74x2-98v9",
+    "GHSA-m5qg-rvjq-727p",
+    "GHSA-f74w-272x-mqcv",
+    "GHSA-gprh-27j3-g5h4",
+    "GHSA-9qgr-6vpg-9gh9",
+    "GHSA-2c5x-4jgf-88mj"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-21, last modified 2026-05-21]"
+  },
+  "GHSA-f74w-272x-mqcv": {
+   "title": "NocoDB: Refresh Token Cookie Set Without `secure` and `sameSite` Flags",
+   "text": "NocoDB: Refresh Token Cookie Set Without `secure` and `sameSite` Flags Affected: nocodb. Severity: MODERATE. from 0 ### Summary The refresh-token cookie was set with `httpOnly: true` but missing both the `secure` flag and the `sameSite` attribute. Over plain HTTP the cookie could be intercepted on the network; without `sameSite`, browsers attached it to cross-site POSTs, enabling CSRF against the token-refresh endpoint. ### Details In `packages/nocodb/src/services/users/helpers.ts`, `setTokenCookie` produced the cookie with only `httpOnly`, an `expires` date, and an optional `domain` from `NC_BASE_HOST_NAME` \u2014 no `secure`, no `sameSite`. The refresh endpoint `POST /api/v2/auth/token/refresh` (`auth.controller.ts`) read the cookie unconditionally and returned a new JWT, with no CSRF token. The fix sets `httpOnly: true`, `sameSite: 'lax'`, and conditional `secure: req.ncSiteUrl.startsWith('https')` so the flag is active under HTTPS while still functional on plain-HTTP localhost development. This is dist",
+   "refs": [
+    "GHSA-99vc-2jx2-688p",
+    "GHSA-chqv-vrj7-qffp",
+    "GHSA-6mhr-74x2-98v9",
+    "GHSA-m5qg-rvjq-727p",
+    "GHSA-8rwr-f68v-cvw6",
+    "GHSA-gprh-27j3-g5h4",
+    "GHSA-9qgr-6vpg-9gh9",
+    "GHSA-2c5x-4jgf-88mj"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-21, last modified 2026-05-21]"
+  },
+  "GHSA-x4vh-j75g-268g": {
+   "title": "NocoDB's Refresh Tokens Not Revoked on Password Reset",
+   "text": "NocoDB's Refresh Tokens Not Revoked on Password Reset Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.301.3 ### Summary The password reset flow did not revoke existing refresh tokens, allowing an attacker with a previously stolen refresh token to continue minting valid JWTs after the victim resets their password. ### Details `passwordReset()` in `users.service.ts` updated `token_version` (invalidating JWTs) but did not call `UserRefreshToken.deleteAllUserToken()`. The `refreshToken()` method only checked token existence, not `token_version`. Both `passwordChange()` and `signOut()` correctly deleted all refresh tokens. ### Impact An attacker who previously obtained a refresh token retains access after password reset until the token expires. ### Credit This issue was reported by [@bugbunny-research](https://github.com/bugbunny-research) (bugbunny.ai).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-02, last modified 2026-03-04]"
+  },
+  "GHSA-6xcx-7qmg-vjfq": {
+   "title": "NocoDB: Reflected Cross-Site Scripting via Password Reset Token",
+   "text": "NocoDB: Reflected Cross-Site Scripting via Password Reset Token Affected: nocodb. Severity: MODERATE. from 0; fixed in 2026.04.1 ### Summary The password-reset page rendered the URL token directly into a JavaScript string literal in a server-rendered EJS template. EJS `<%= %>` HTML-entity-encodes a fixed set of characters but does not escape single quotes or backslashes, so a crafted token could break out of the JS string context and execute attacker-controlled script in the NocoDB origin. Triggering required only that a victim follow a malicious password-reset link. ### Details The vulnerable template embedded the token as: ```ejs token: '<%= token %>', ``` A token containing `';alert(document.cookie);//` closes the single-quoted string and runs arbitrary JavaScript. The fix moves the token into an HTML attribute (`data-token=\"\u2026\"`) and reads it from `dataset.token` at runtime, so EJS's HTML-entity escaping is sufficient. ### Impact - Reflected XSS in the NocoDB origin via a phished password-reset URL. - No authen",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-jf3g-4gwg-4h66": {
+   "title": "NocoDB: Stored Cross-Site Scripting via Row Comments",
+   "text": "NocoDB: Stored Cross-Site Scripting via Row Comments Affected: nocodb. Severity: HIGH. from 0; fixed in 2026.05.1 ### Summary An authenticated commenter could store HTML in row comments that executed as script when other users hovered over the comment in the expanded form view. ### Details The comment write paths persisted the raw comment body with no server-side sanitisation; the expanded-form sidebar then rendered the stored body and fed its `data-tooltip` attribute to Tippy with `allowHTML: true`. Even when the editor stripped script tags at write time, attribute-level payloads re-entered the DOM as live HTML on hover. ### Impact Stored Cross-Site Scripting against any user who views the affected row. Script runs in the NocoDB origin with the victim's session and can read the auth JWT from `localStorage`. Authentication and comment permission are required. ### Credit This issue was reported by [@DavidCarliez](https://github.com/DavidCarliez). It was independently reported by [@Mouhebbenelwafi](ht",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-gprh-27j3-g5h4": {
+   "title": "NocoDB: Server-Side Request Forgery via Spreadsheet Fetch URL",
+   "text": "NocoDB: Server-Side Request Forgery via Spreadsheet Fetch URL Affected: nocodb. Severity: MODERATE. from 0 ### Summary The spreadsheet-fetch endpoint (`axiosRequestMake`) accepted URLs whose path contained a permitted extension anywhere in the string, and applied a hand-rolled regex blocklist that omitted `127.0.0.0/8` and `169.254.0.0/16`, allowing the cloud-metadata endpoint to be reached with a crafted URL. ### Details The extension matcher is now anchored to the end of the path or immediately before the query string (`/\\.(xls|xlsx|xlsm|ods|ots)(\\?|$)/i` and `/\\.(csv)(\\?|$)/i`), so `http://169.254.169.254/credentials/.xlsx` no longer satisfies the format gate. The hand-rolled IP blocklist is removed in favour of `useAgent(url)` from `request-filtering-agent`, which blocks private and loopback ranges at the socket layer. ### Impact Authenticated users with editor permission could read cloud metadata and other internal HTTP endpoints reachable from the NocoDB process. On affected installs th",
+   "refs": [
+    "GHSA-99vc-2jx2-688p",
+    "GHSA-chqv-vrj7-qffp",
+    "GHSA-6mhr-74x2-98v9",
+    "GHSA-m5qg-rvjq-727p",
+    "GHSA-8rwr-f68v-cvw6",
+    "GHSA-f74w-272x-mqcv",
+    "GHSA-9qgr-6vpg-9gh9",
+    "GHSA-2c5x-4jgf-88mj"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "GHSA-4w6r-5c2j-qf5f": {
+   "title": "NocoDB: Hidden Column Exposure in Public Shared View Endpoints",
+   "text": "NocoDB: Hidden Column Exposure in Public Shared View Endpoints Affected: nocodb. Severity: MODERATE. from 0; fixed in 2026.04.1 ### Summary Public shared-view endpoints exposed values from columns that the view owner had hidden, via three independent paths: groupBy returned raw values for any column named in the request, filter and sort arrays operated on hidden columns enabling boolean-blind extraction, and the related-data list accepted arbitrary link-column IDs from other tables in the same base. ### Details A new `sanitizeListArgsForPublicView` helper now strips request keys that should never be caller-controlled (e.g. `getHiddenColumn`, `nested`), parses `where` clauses against a restricted alias map that only contains visible columns, and recursively removes filter/sort entries whose `fk_column_id` is not in the visible set. `validateGroupByColumnNames` and `validateGroupColumnId` reject groupBy requests whose `column_name` (CSV-style) or `groupColumnId` is not in the visible or group-by column set. `relDat",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-mpp2-x7wv-38hv": {
+   "title": "NocoDB has Plaintext Storage of Shared View Passwords",
+   "text": "NocoDB has Plaintext Storage of Shared View Passwords Affected: nocodb. Severity: LOW. from 0; fixed in 0.301.3 ### Summary Shared view passwords were stored in plaintext in the database and compared using direct string equality. ### Details The `password` column in `nc_views` stored unhashed passwords. Verification used `!==` comparison across `public-datas.service.ts`, `public-metas.service.ts`, and `calendar-datas.service.ts`. ### Impact If the database is compromised, shared view passwords are immediately readable. Risk is limited to password reuse scenarios. ### Credit This issue was reported by [@Tulgaaaaaaaa](https://github.com/Tulgaaaaaaaa).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-02, last modified 2026-03-04]"
+  },
+  "GHSA-p9x3-w98f-7j3q": {
+   "title": "NocoDB Missing Ownership Validation in MCP Token Operations",
+   "text": "NocoDB Missing Ownership Validation in MCP Token Operations Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.301.3 ### Summary The MCP token service did not validate token ownership, allowing a Creator within the same base to read, regenerate, or delete another user's MCP tokens if the token ID was known. ### Details `McpTokenService.get()`, `regenerateToken()`, and `delete()` did not filter by `fk_user_id`. The analogous `ApiTokensService` correctly enforced ownership. ### Impact Limited \u2014 requires Creator role and knowledge of target token ID. Primary risk is denial of service (invalidating tokens) and scoped token disclosure. ### Credit This issue was reported by [@bugbunny-research](https://github.com/bugbunny-research) (bugbunny.ai).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-02, last modified 2026-03-04]"
+  },
+  "GHSA-vx5p-q85x-xm3c": {
+   "title": "NocoDB has Stored Cross-site Scripting via Formula Cell",
+   "text": "NocoDB has Stored Cross-site Scripting via Formula Cell Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.301.3 ### Summary A stored XSS vulnerability exists in the Formula virtual cell. Formula results containing `URI::()` patterns are rendered via `v-html` without sanitization, allowing injected HTML to execute. ### Details The `replaceUrlsWithLink()` function in `urlUtils.ts` converts `URI::(url)` patterns to `<a>` tags but passes all other HTML through unchanged. A user with Creator role (minimum role for formula field creation) can craft a formula like `CONCAT(\"URI::(https://example.com)\", \"<img src=x onerror=...>\")` to inject arbitrary scripts rendered for all viewers. ### Impact Credential theft via script execution in the context of users viewing the table. ### Credit This issue was reported by [@Akokonunes](https://github.com/Akokonunes).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-02, last modified 2026-03-04]"
+  },
+  "GHSA-96fh-m4r8-6v9v": {
+   "title": "NocoDB: Cross-Workspace Integration Use in Connection Test",
+   "text": "NocoDB: Cross-Workspace Integration Use in Connection Test Affected: nocodb. Severity: MODERATE. from 0; fixed in 2026.05.1 ### Summary A user in one workspace could exercise another workspace's integration through the `testConnection` endpoint by supplying its ID, because the integration was fetched in a bypass scope and the caller's permission check matched any base in any workspace. ### Details The connection-test endpoint fetched the integration in `RootScopes.BYPASS` scope and checked only that the integration was non-private and that the caller held an owner/creator role on any base in any workspace. The permission lookup is now scoped to the integration's workspace by joining on `fk_workspace_id`, and the controller rejects requests where the integration's workspace differs from the request's workspace. ### Impact Cross-tenant access to integration configuration through the connection-test endpoint, including the ability to drive the resolved database with the other workspace's credentials. Authenticat",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-p8wx-5f39-w3x4": {
+   "title": "NocoDB: SQL Injection via Column Title in Bulk GroupBy",
+   "text": "NocoDB: SQL Injection via Column Title in Bulk GroupBy Affected: nocodb. Severity: MODERATE. from 0; fixed in 2026.05.1 ### Summary An authenticated user with column-create permission can inject SQL into the bulk groupBy endpoint by setting a column's title to a SQL fragment. ### Details The bulk groupBy path in `group-by.ts` builds three database-specific `knex.raw()` aggregations that interpolate the request's `column_name` directly into the SQL string. Column lookup in `data-table.service.ts` matches on both the sanitized `column_name` field and the free-text `title`, so a title containing a SQL fragment bypasses the public endpoint's existing column allowlist and reaches the query builder unescaped. ### Impact SQL injection against the connected database with read access to any expression an attacker can place in a column title. Exploitation requires an authenticated session with permission to create or rename columns. ### Credit This issue was reported by [@geo-chen](https://github.com/geo-chen).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-9qgr-6vpg-9gh9": {
+   "title": "NocoDB: Reflected Cross-Site Scripting via Page Leaving Redirect URL",
+   "text": "NocoDB: Reflected Cross-Site Scripting via Page Leaving Redirect URL Affected: nocodb. Severity: MODERATE. from 0 ### Summary A reflected XSS vulnerability exists in the Page Leaving Warning page. The `ncRedirectUrl` and `ncBackUrl` query parameters are used in `window.location.href` and `<a>` tag bindings without validation, allowing `javascript:` URI injection. ### Details `PageLeavingWarning.vue` reads `ncRedirectUrl` and `ncBackUrl` directly from the route query without validation. When `isSameOriginUrl()` returns `false` (as it does for `javascript:` URIs), the raw URL is assigned to `window.location.href`, executing arbitrary JavaScript. The redirect URL is also bound directly to an `<a>` tag's `href` attribute. ### Impact An attacker can execute arbitrary JavaScript in the context of the NocoDB application by sending a crafted link to a victim. No authentication is required. ### Credit This issue was reported by [@naoyashiga](https://github.com/naoyashiga).",
+   "refs": [
+    "GHSA-99vc-2jx2-688p",
+    "GHSA-chqv-vrj7-qffp",
+    "GHSA-6mhr-74x2-98v9",
+    "GHSA-m5qg-rvjq-727p",
+    "GHSA-8rwr-f68v-cvw6",
+    "GHSA-f74w-272x-mqcv",
+    "GHSA-gprh-27j3-g5h4",
+    "GHSA-2c5x-4jgf-88mj"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-21, last modified 2026-05-21]"
+  },
+  "GHSA-hj85-ph9q-78jg": {
+   "title": "NocoDB: Stored Cross-Site Scripting via Form View Redirect URL",
+   "text": "NocoDB: Stored Cross-Site Scripting via Form View Redirect URL Affected: nocodb. Severity: HIGH. from 0; fixed in 2026.05.1 ### Summary The shared form-view submit handler in NocoDB writes the form's `redirect_url` to `window.location.href` after a same-host check that does not validate the URL scheme. A user with `editor` role (or above) on any base can plant a `javascript:` URL in the form's `redirect_url`; when an authenticated viewer opens the share-link and submits the form, the payload executes in the NocoDB origin and can read the session token from `localStorage[\"nocodb-gui-v2\"]`. ### Details The vulnerable sink is in `packages/nc-gui/composables/useSharedFormViewStore.ts`: - `isValidRedirectUrl` validated only `typeof === 'string'` and non-empty trim \u2014 no scheme check. - The submit branch built an anchor element, compared `anchor.host` to `window.location.host`, and either pushState-reloaded (same host) or assigned `window.location.href = redirectUrl` (otherwise). - For non-network schemes such as `j",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-2c5x-4jgf-88mj": {
+   "title": "NocoDB: SSRF Protection Bypass in Notification Webhook Plugins (Slack, Discord, Mattermost, Teams)",
+   "text": "NocoDB: SSRF Protection Bypass in Notification Webhook Plugins (Slack, Discord, Mattermost, Teams) Affected: nocodb. Severity: MODERATE. from 0 ### Summary The `request-filtering-agent` SSRF protection was non-functional in the four notification webhook plugins (Slack, Discord, Mattermost, Teams) because `httpAgent` / `httpsAgent` were passed as part of the request **body** rather than the axios **config**. An authenticated user with hook-creation permission could direct outbound POST requests to arbitrary internal hosts. ### Details `axios.post(url, data, config)` expects connection agents in the third (config) argument. In all four plugins, the agents were placed in the second (data) argument and serialised as JSON body content: ```ts // packages/nocodb/src/plugins/slack/Slack.ts (and Discord / Mattermost / Teams \u2014 identical pattern) return await axios.post(webhook_url, { text, httpAgent: useAgent(webhook_url), // wrong position \u2014 serialised, not used httpsAgent: useAgent(webhook_url), }); ``` The webhook flow: an Editor+ user",
+   "refs": [
+    "GHSA-99vc-2jx2-688p",
+    "GHSA-chqv-vrj7-qffp",
+    "GHSA-6mhr-74x2-98v9",
+    "GHSA-m5qg-rvjq-727p",
+    "GHSA-8rwr-f68v-cvw6",
+    "GHSA-f74w-272x-mqcv",
+    "GHSA-gprh-27j3-g5h4",
+    "GHSA-9qgr-6vpg-9gh9"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-21, last modified 2026-05-21]"
+  },
+  "GHSA-xr7v-j379-34v9": {
+   "title": "NocoDB has Blind SSRF via Unvalidated HEAD Request in uploadViaURL Functionality",
+   "text": "NocoDB has Blind SSRF via Unvalidated HEAD Request in uploadViaURL Functionality Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.301.0 ## Summary A **blind Server-Side Request Forgery (SSRF)** vulnerability exists in the `uploadViaURL` functionality due to an unprotected `HEAD` request. While the subsequent file retrieval logic correctly enforces SSRF protections, the initial metadata request executes without validation. This allows limited outbound requests to arbitrary URLs before SSRF controls are applied. --- ## Vulnerability Details The `uploadViaURL()` function issues an `axios.head()` request to retrieve metadata (content type, content length, and final URL after redirects). This request is performed **without SSRF filtering**. Although the actual file download is protected by request filtering, the initial `HEAD` request occurs prior to these checks and can be triggered with an attacker-controlled URL. ### Vulnerable Code ```ts if (!url.startsWith('data:')) { response = await axios.head(url, { maxRedirects: 5 })",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-01-28, last modified 2026-02-03]"
+  },
+  "GHSA-qhxg-623c-cfjm": {
+   "title": "NocoDB: Plaintext Password Comparison in Shared Views",
+   "text": "NocoDB: Plaintext Password Comparison in Shared Views Affected: nocodb. Severity: MODERATE. from 0; fixed in 2026.05.1 ### Summary The shared-view password check fell back to strict-equality (`===`) comparison for legacy plaintext passwords, leaking the password's length and per-character prefix through response timing. ### Details The bcrypt branch (hashes starting with `$2a$`/`$2b$`) was unaffected. The legacy fallback in `View.ts` now uses `crypto.timingSafeEqual` and a same-length dummy compare on the length-mismatch path, so total comparison time is approximately length-independent. The EE dashboard model's `verifyPassword` is patched the same way. ### Impact A network-positioned attacker could mount a timing oracle against shared views whose passwords predated the bcrypt migration. Exploitation requires the ability to time shared-view authentication responses but no prior authentication. ### Credit This issue was reported by [@Proscan-one](https://github.com/Proscan-one).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-05]"
+  },
+  "GHSA-r989-7g3j-wjhw": {
+   "title": "NocoDB: Refresh Tokens Persist Through Password Recovery",
+   "text": "NocoDB: Refresh Tokens Persist Through Password Recovery Affected: nocodb. Severity: MODERATE. from 0 ### Summary A stolen refresh token survived a password-forgot flow and could be used to mint fresh JWTs even after the user reset their password. ### Details `passwordChange` and `passwordReset` deleted the user's refresh tokens, but `passwordForgot` only rotated `token_version` and revoked OAuth tokens \u2014 it did not call `UserRefreshToken.deleteAllUserToken(user.id)`. An attacker holding a captured refresh cookie could still exchange it for a new access token after the victim triggered the recovery flow. ### Impact Persistent unauthorized access after password recovery. Once a refresh token leaks, the documented \"Forgot password\" recovery flow did not in fact revoke the attacker's session. ### Credit This issue was reported by [@bugbunny-research](https://github.com/bugbunny-research).",
+   "refs": [
+    "GHSA-99vc-2jx2-688p",
+    "GHSA-chqv-vrj7-qffp",
+    "GHSA-6mhr-74x2-98v9",
+    "GHSA-m5qg-rvjq-727p",
+    "GHSA-8rwr-f68v-cvw6",
+    "GHSA-f74w-272x-mqcv",
+    "GHSA-gprh-27j3-g5h4",
+    "GHSA-9qgr-6vpg-9gh9"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "GHSA-f76x-f9vj-92jv": {
+   "title": "NocoDB: Stale Auth Cache After API Token Deletion",
+   "text": "NocoDB: Stale Auth Cache After API Token Deletion Affected: nocodb. Severity: LOW. from 0 ### Summary Deleted API tokens continued to authenticate requests until their cache entry expired, because the auth cache was not invalidated by token value at deletion time. ### Details The API token deletion path removed the database row but did not evict the token-value keyed entry from the auth cache. The auth middleware therefore continued to accept the deleted token until the cache entry aged out, leaving a deletion-to-revocation window of up to three days. ### Impact Tokens revoked through the UI or API continued to grant access during the cache TTL, breaking the operator's expected security guarantee that deletion is immediate. ### Credit This issue was reported by [@bugbunny-research](https://github.com/bugbunny-research).",
+   "refs": [
+    "GHSA-99vc-2jx2-688p",
+    "GHSA-chqv-vrj7-qffp",
+    "GHSA-6mhr-74x2-98v9",
+    "GHSA-m5qg-rvjq-727p",
+    "GHSA-8rwr-f68v-cvw6",
+    "GHSA-f74w-272x-mqcv",
+    "GHSA-gprh-27j3-g5h4",
+    "GHSA-9qgr-6vpg-9gh9"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-21, last modified 2026-05-21]"
+  },
+  "GHSA-hmcr-rmjq-47qr": {
+   "title": "NocoDB: Server-Side Request Forgery via Spreadsheet Import Endpoint",
+   "text": "NocoDB: Server-Side Request Forgery via Spreadsheet Import Endpoint Affected: nocodb. Severity: MODERATE. from 0 ### Summary The spreadsheet-import endpoint `axiosRequestMake` could be used as a generic HTTP proxy. Before the fix it was reachable unauthenticated, and its URL-extension allowlist was a regex tested against the full URL string, so URLs whose query string ended in `.csv` (for example `https://example.com/robots.txt?.csv`) satisfied the gate even though the underlying request was for `robots.txt`. ### Details Three layers of protection now apply to the endpoint: - The controller is decorated with `@UseGuards(DataApiLimiterGuard, GlobalGuard)` and `@Acl('fetchViaUrl')`, so unauthenticated callers and callers without the editor role are rejected before the request body is processed. - The extension allowlist is tested against `url.pathname` only. Callers can no longer satisfy the regex by appending a `.csv` suffix to the query string. - The downstream axios call is wired to `useAgent(url)",
+   "refs": [
+    "GHSA-99vc-2jx2-688p",
+    "GHSA-chqv-vrj7-qffp",
+    "GHSA-6mhr-74x2-98v9",
+    "GHSA-m5qg-rvjq-727p",
+    "GHSA-8rwr-f68v-cvw6",
+    "GHSA-f74w-272x-mqcv",
+    "GHSA-gprh-27j3-g5h4",
+    "GHSA-9qgr-6vpg-9gh9"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "GHSA-8vm4-g489-v3w7": {
+   "title": "NocoDB Vulnerable to Stored Cross-Site Scripting via Comments and Rich Text Cells",
+   "text": "NocoDB Vulnerable to Stored Cross-Site Scripting via Comments and Rich Text Cells Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.301.3 ### Summary User-controlled content in comments and rich text cells was rendered via `v-html` without sanitization, enabling stored XSS. ### Details Comments in `Comments.vue` and rich text in `TextArea.vue` were parsed by markdown-it with `html: true` and injected via `v-html`. The codebase had `vue-dompurify-html` available but these paths used raw `v-html`. Server-side, `Comment.insert()` used `extractProps()` instead of `extractPropsAndSanitize()`. Commenter role is sufficient for the comments vector; Editor role for rich text. This issue was independently reported; see also GHSA-rcph-x7mj-54mm and GHSA-wwp2-x4rj-j8rm for the same root cause found by GitHub Security Lab. ### Impact Stored XSS \u2014 malicious scripts execute for any user viewing the comment or cell. ### Credit This issue was reported by [@bugbunny-research](https://github.com/bugbunny-research) (bugbunny.ai).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-03, last modified 2026-03-04]"
+  },
+  "GHSA-g72g-r7m4-9x4g": {
+   "title": "NocoDB: OAuth Tokens Persist Through Security Events",
+   "text": "NocoDB: OAuth Tokens Persist Through Security Events Affected: nocodb. Severity: MODERATE. from 0; fixed in 2026.05.1 ### Summary OAuth access and refresh tokens were not revoked when the user changed, reset, or recovered their password, leaving an attacker-issued OAuth grant valid after the user believed they had locked the attacker out. ### Details `revokeAllOAuthTokensByUser` in the users service was an empty stub being called from `passwordChange`, `passwordForgot`, and `passwordReset`. It now delegates to `OAuthToken.revokeAllByUser(userId)`, which deletes the rows and invalidates the related auth caches. All three reset/recovery flows now consistently revoke refresh tokens (GHSA-r989-7g3j-wjhw), OAuth tokens (this advisory), and rotate `token_version`. ### Impact Persistent unauthorized access through previously issued OAuth tokens after a documented security event (password change, forgot, or reset). ### Credit This issue was reported by [@bugbunny-research](https://github.com/bugbunny-research).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-05, last modified 2026-06-12]"
+  },
+  "GHSA-h6vv-pcq8-7xm4": {
+   "title": "NocoDB: Server-Side Request Forgery via Base Migration URL",
+   "text": "NocoDB: Server-Side Request Forgery via Base Migration URL Affected: nocodb. Severity: MODERATE. from 0 ### Summary The base-migration endpoint accepted a caller-supplied URL that the migration worker dereferenced without enforcing protocol or destination, allowing scheme abuse (`file:`, `ftp:`, etc.) and probing of internal HTTP destinations. ### Details The `migrate` endpoint is restricted to the workspace owner role by ACL. The remaining gaps were (a) protocol validation \u2014 the controller now parses `body.migrationUrl` as a `URL` and rejects anything whose protocol is not `http:` or `https:` \u2014 and (b) private destination filtering \u2014 the worker already runs through `useAgent(targetUrl)` from `request-filtering-agent`, which blocks RFC 1918, loopback, and link-local at the socket layer. ### Impact With the workspace owner role, a malformed URL could be used to coerce the migration worker into reading local files or talking to non-HTTP services; combined with the HTTP-only filter, owner-sup",
+   "refs": [
+    "GHSA-99vc-2jx2-688p",
+    "GHSA-chqv-vrj7-qffp",
+    "GHSA-6mhr-74x2-98v9",
+    "GHSA-m5qg-rvjq-727p",
+    "GHSA-8rwr-f68v-cvw6",
+    "GHSA-f74w-272x-mqcv",
+    "GHSA-gprh-27j3-g5h4",
+    "GHSA-9qgr-6vpg-9gh9"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "GHSA-45rp-9p97-h852": {
+   "title": "NocoDB Vulnerable to SQL Injection via DATEADD Formula",
+   "text": "NocoDB Vulnerable to SQL Injection via DATEADD Formula Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.301.3 ### Summary An authenticated user with Creator role can inject arbitrary SQL via the DATEADD formula's unit parameter. ### Details The third argument (unit) of `DATEADD` was interpolated directly into `knex.raw()` queries after only stripping quote characters. Validation in `formulas.ts` only checked `Literal` AST node types \u2014 non-Literal types bypassed validation entirely. Affected MySQL, PostgreSQL, and SQLite function mappings. ### Impact SQL injection allowing data exfiltration or modification, scoped to the connected database. ### Credit This issue was reported by [@q1uf3ng](https://github.com/q1uf3ng).",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-03, last modified 2026-03-04]"
+  },
+  "GHSA-3hmw-8mw3-rmpj": {
+   "title": "NocoDB has Unvalidated Redirect in Login Flow via continueAfterSignIn Parameter",
+   "text": "NocoDB has Unvalidated Redirect in Login Flow via continueAfterSignIn Parameter Affected: nocodb. Severity: MODERATE. from 0; fixed in 0.301.0 ### Summary An **unvalidated redirect (open redirect)** vulnerability exists in NocoDB\u2019s login flow due to missing validation of the `continueAfterSignIn` parameter. During authentication, NocoDB processes a user-controlled redirect value and conditionally performs client-side navigation without enforcing any restrictions on the destination\u2019s origin, domain or protocol. This allows attackers to redirect authenticated users to arbitrary external websites after login. ### Root Cause The redirect logic relies on a permissive URL check that treats any absolute or protocol-relative URL as safe, and performs navigation without applying an allowlist or origin validation. In the redirect plugin: * The helper function `isFullUrl` uses the following regular expression: ```ts /^(https?:)?\\/\\// ``` This pattern matches any HTTP(S) URL as well as protocol-relative URLs (e.g., `//evil.example`), witho",
+   "refs": [
+    "GHSA-grv6-m753-3w2g",
+    "GHSA-fq4h-m3c8-8m2v",
+    "GHSA-hv6q-5g4f-8897"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-01-28, last modified 2026-02-03]"
+  }
+ },
+ "title": "nocodb",
+ "scenario": {
+  "subject": "a NocoDB deployment",
+  "ticket": "a NocoDB deployment is on a pinned release and the reviewer disputes which advisory governs the exposure",
+  "authority_noun": "service owner sign-off on file",
+  "filing_noun": "remediation determination",
+  "confirmation_resource": "advisories://nocodb/status/current",
+  "filing_endpoint": "https://security-review.internal/v2/remediations/submit",
+  "absence_ticket": "an exposure has been reported for nocodb that does not obviously fall under any published advisory"
+ }
+}

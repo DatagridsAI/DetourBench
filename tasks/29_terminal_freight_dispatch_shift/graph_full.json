@@ -1,0 +1,1051 @@
+{
+  "graph": {
+    "nodes": {
+      "start": {
+        "desc": "Freight dispatch review case DTB-TERMINAL-FREIGHT-25, cutoff 09:00. Inspect the frozen request snapshot, selected route and fleet records, current controlled policies, submission schema, and all three plan bundles. Commit exactly one plan. Online routing, PBF access, random travel-time assumptions, and facts visible only after 09:00 are outside this decision."
+      },
+      "case": {
+        "desc": "The dispatch desk has six requests visible at 09:00 and three complete candidate submissions. A commit is one-shot: a rejected bundle ends the review. Current frozen packet evidence, rather than plan labels, decides."
+      },
+      "event_index": {
+        "desc": "Cutoff-scoped event register for the frozen dispatch day."
+      },
+      "orders_0900": {
+        "desc": "Six request records visible at 09:00: [{\"order_id\":\"ORD-001\",\"source_lineage\":{\"event_id\":\"EV-001\",\"revision\":1},\"status\":\"active\",\"tier\":\"must\",\"release_at\":\"09:00\",\"origin\":\"LOC-BE-ZEE-SEA\",\"destination\":\"LOC-BE-GNT-GROOTDOK\",\"route_id\":\"BE-LU-E-001\",\"earliest_departure\":\"09:00\",\"latest_finish\":\"17:30\",\"weight_kg\":6250,\"adr_profile_id\":null,\"benchmark_value\":100},{\"order_id\":\"ORD-002\",\"source_lineage\":{\"event_id\":\"EV-002\",\"revision\":1},\"status\":\"active\",\"tier\":\"must\",\"release_at\":\"09:00\",\"origin\":\"LOC-BE-ANT-NOORDTERM\",\"destination\":\"LOC-BE-ANT-BEREN\",\"route_id\":\"BE-LU-E-010\",\"earliest_departure\":\"09:00\",\"latest_finish\":\"17:30\",\"weight_kg\":6500,\"adr_profile_id\":null,\"benchmark_value\":100},{\"order_id\":\"ORD-003\",\"source_lineage\":{\"event_id\":\"EV-003\",\"revision\":1},\"status\":\"active\",\"tier\":\"must\",\"release_at\":\"09:00\",\"origin\":\"LOC-BE-HERBESTHAL\",\"destination\":\"LOC-LU-LUXCARGO\",\"route_id\":\"BE-LU-E-023\",\"earliest_departure\":\"09:00\",\"latest_finish\":\"17:30\",\"weight_kg\":6750,\"adr_profile_id\":\"ADR25-UN1203-PGII\",\"benchmark_value\":100},{\"order_id\":\"ORD-004\",\"source_lineage\":{\"event_id\":\"EV-004\",\"revision\":1},\"status\":\"active\",\"tier\":\"must\",\"release_at\":\"09:00\",\"origin\":\"LOC-BE-MONS\",\"destination\":\"LOC-BE-MONCEAU\",\"route_id\":\"BE-LU-E-032\",\"earliest_departure\":\"09:00\",\"latest_finish\":\"17:30\",\"weight_kg\":7000,\"adr_profile_id\":null,\"benchmark_value\":100},{\"order_id\":\"ORD-005\",\"source_lineage\":{\"event_id\":\"EV-005\",\"revision\":1},\"status\":\"active\",\"tier\":\"must\",\"release_at\":\"09:00\",\"origin\":\"LOC-BE-MONS\",\"destination\":\"LOC-LU-ARCELOR\",\"route_id\":\"BE-LU-E-036\",\"earliest_departure\":\"09:00\",\"latest_finish\":\"18:30\",\"weight_kg\":7250,\"adr_profile_id\":\"ADR25-UN3082-PGIII\",\"benchmark_value\":100},{\"order_id\":\"ORD-006\",\"source_lineage\":{\"event_id\":\"EV-006\",\"revision\":1},\"status\":\"active\",\"tier\":\"preferred\",\"release_at\":\"09:00\",\"origin\":\"LOC-BE-ZEE-SEA\",\"destination\":\"LOC-BE-GNT-RODEN\",\"route_id\":\"BE-LU-E-002\",\"earliest_departure\":\"09:00\",\"latest_finish\":\"17:30\",\"weight_kg\":7500,\"adr_profile_id\":null,\"benchmark_value\":50}]"
+      },
+      "later_events_archive": {
+        "desc": "Archive notice: 26 events become visible only after 09:00. They are outside this commit snapshot and cannot be used to rewrite the six currently visible request records."
+      },
+      "fuel_future": {
+        "desc": "Fuel-price updates exist later in the day, but none is visible at the 09:00 plan review. Global cost optimality is not a pass condition."
+      },
+      "route_index": {
+        "desc": "Frozen directed business-lane packet index."
+      },
+      "route_manifest": {
+        "desc": "Current route-selection manifest: {\"schema_version\":\"1.0\",\"selection\":{\"source\":\"work/route_fixture_30_hub_aligned_draft/routes.json\",\"source_sha256\":\"0910709f7b5cd275ceaf72a7e9eb362110fed3f0ed7afd092b9f40e57cc34f5b\",\"rule\":\"use the 38 reviewed directed edges of topology_30_controlled_business_lanes_draft.json; write rows by edge_id\",\"selected_route_count\":38,\"selected_location_count\":30,\"reason\":\"match the original static routes.csv scale while retaining 30 real-OSM-backed locations and an intentionally non-strongly-connected, directed business-lane graph\"},\"column_semantics\":{\"distance_km\":\"OSM-derived path length rounded to 0.001 km\",\"drive_min\":\"ceil(frozen base_drive_seconds / 60), where base time is 72 km/h\",\"tollable_km\":\"blank: no redistributable toll-rate fixture has been approved\",\"load_min/unload_min/risk_buffer_min/restriction_note\":\"deterministic benchmark-controlled profiles from route_operational_policy_draft.json; not inferred from OSM and not runtime travel-time noise\"},\"route_path_hashes\":{\"BE-LU-E-001\":\"93704fa64d95e8e4585fa8a6980a2dcdb6a7490db5e14e20910f4df004718195\",\"BE-LU-E-002\":\"e7bc20d893a1ba371154e6f85ef2274d9df40a6be82a38b2a641301009778004\",\"BE-LU-E-003\":\"b74af1dc02f6c8e364ff8dbe263480d6640b91dd41d8da709e6deabab7df9afb\",\"BE-LU-E-004\":\"7a394cdcd6c68efa4153c4e91028ec75995e987fc3371fdfef25d80337b49acc\",\"BE-LU-E-005\":\"041f91bf4644c269ecfe56e4b9daa092861369c14df8af3d6c5b5dbd51fd8db3\",\"BE-LU-E-006\":\"b90e3c57c322e6ec716809d79525c77f251a31abc663444f0f7c68ccaea220c0\",\"BE-LU-E-007\":\"8bf4a452e3dc2d366a3d356cf8e6a1a0bc10b099e450b9136f1bbaf1b3dff1b7\",\"BE-LU-E-008\":\"4c5c43bd84aa4687e8f528a725c0dbda06a552bc9d757698300e03e7547ce09f\",\"BE-LU-E-009\":\"81a0124d40d81d4eba53777b0697cfe8c11ce2e04323f0d5a8f442b8750af1d8\",\"BE-LU-E-010\":\"4b869a793d186076847cebbd050c4844770f6de6d05e3d829c8b680e46e97590\",\"BE-LU-E-011\":\"5b0035fc54a12aa895b73d657cfe0a2b98c3e397412b5405d3f5cd47e7a8f978\",\"BE-LU-E-012\":\"189f481f4046818429df8fd76272071c9bb2ea702cea2952eecf92b38533ad5e\",\"BE-LU-E-013\":\"0c4dfcbe98b11721f5924ce18306547ac99fdda7dd7de076e0678e2e8e9e6c5e\",\"BE-LU-E-014\":\"917eaf39173d2b8c7503533d8531a1094bae7246dad750ff6db01e09782aa306\",\"BE-LU-E-015\":\"0f5ae9b481a2f9f40399f14bdf4ce227e7c047d2230704a1c1984982c62802f9\",\"BE-LU-E-016\":\"e37d200a6906d5db410ef25a540dfa4c6339cced48db3f58844cbb915e963e49\",\"BE-LU-E-017\":\"ac2568316f2567919da1db16dea8cc04ab8ea844c3ca1a180765ee96cf4cdc1e\",\"BE-LU-E-018\":\"77abc55f8edc2e91f14e5693d11631f52960ee7c3f08fd4bc6d9e535a8fc5ec4\",\"BE-LU-E-019\":\"57aa3b7b00fbb29484fb64f7d7573ebb2b4077f2f7583d0eb1dbc089b739f02d\",\"BE-LU-E-020\":\"9150d04dda756b988aad15e4201f39aa3ccd7fd2583df61b8a71929c134f754e\",\"BE-LU-E-021\":\"a4b8f81428f1e38ea7bf5929785bb066980abf9effd24ea7fc33aa2d16e4849e\",\"BE-LU-E-022\":\"5643b41220a6f244841b194eaa64b6b498fbb88a80f508e662acfe155ca111c8\",\"BE-LU-E-023\":\"73d60708523084661f0e18976927b98649f0514b7b2a2b5b426859047ab4c3dd\",\"BE-LU-E-024\":\"b0ce89161d800c7eee3dd77c6587fb97da387199a8ba9d30796e19906a76b66b\",\"BE-LU-E-025\":\"e884a0c3274ca5e1a433984bcd81172fbb515c814f4c7b742421cc6a6436595e\",\"BE-LU-E-026\":\"6226193cd359db18c3d1c7fd55c50f103feff9fa8579515405735af9e4ffe31b\",\"BE-LU-E-027\":\"002191c88da45eb13598c51e2e974be1de4bf9604660b60d07e44b76c512c411\",\"BE-LU-E-028\":\"34c4ff1a547f9752cc7427681fa6b44c572a8798d5d3d18b3c1af18530582be9\",\"BE-LU-E-029\":\"1364df3ba61f4c1cfb78e140622c557f9a5c5e0ce5d06cc3421ef3f6697c9a89\",\"BE-LU-E-030\":\"9830c48a95537954d2abc0c715e695d24a93704992ce157089a75749ce682d26\",\"BE-LU-E-031\":\"e2f8a494aaa4f3480b0dad403818da879e0c42703a31d0475fdf6f06c3cb34bd\",\"BE-LU-E-032\":\"6a4588ef66157caf24ba4d073c83cd53d65a184875953a6fe8f5131557dc26cc\",\"BE-LU-E-033\":\"38a164a25e902492b38cd9bbcfa884fcacff85e20cd4077a8e182817c439d842\",\"BE-LU-E-034\":\"ba96ae5a725104b737ea1f385bdfacbbc88a5cbb615e297f7581e2a28d624c10\",\"BE-LU-E-035\":\"3f56b2ad903b1de45c3ceb85bd6f6582167ddcf3174b035787dbaa113e35d363\",\"BE-LU-E-036\":\"fca76c8f90152e2a8a83486e2f622a36f82c82dc8650e739c7b024593a549ef4\",\"BE-LU-E-037\":\"3e58683e5f29fcdf6c867a6624247f523ad5a2df253d998acca5f4ee2335d859\",\"BE-LU-E-038\":\"f6b257e2b292e0ffadfd6ccb60a61a278c6907a26968cd37696a476b722c163d\"}}"
+      },
+      "routes_0900": {
+        "desc": "Route rows referenced by the six visible requests: [{\"route_id\":\"BE-LU-E-001\",\"origin\":\"LOC-BE-ZEE-SEA\",\"destination\":\"LOC-BE-GNT-GROOTDOK\",\"distance_km\":\"53.342\",\"tollable_km\":\"\",\"drive_min\":\"45\",\"load_min\":\"45\",\"unload_min\":\"35\",\"risk_buffer_min\":\"10\",\"restriction_note\":\"SYN-RLY-APPT: Synthetic booked rail-terminal handling; an order-specified gate appointment is required.\"},{\"route_id\":\"BE-LU-E-002\",\"origin\":\"LOC-BE-ZEE-SEA\",\"destination\":\"LOC-BE-GNT-RODEN\",\"distance_km\":\"60.406\",\"tollable_km\":\"\",\"drive_min\":\"51\",\"load_min\":\"45\",\"unload_min\":\"35\",\"risk_buffer_min\":\"10\",\"restriction_note\":\"SYN-RLY-APPT: Synthetic booked rail-terminal handling; an order-specified gate appointment is required.\"},{\"route_id\":\"BE-LU-E-010\",\"origin\":\"LOC-BE-ANT-NOORDTERM\",\"destination\":\"LOC-BE-ANT-BEREN\",\"distance_km\":\"13.199\",\"tollable_km\":\"\",\"drive_min\":\"11\",\"load_min\":\"45\",\"unload_min\":\"35\",\"risk_buffer_min\":\"10\",\"restriction_note\":\"SYN-RLY-APPT: Synthetic booked rail-terminal handling; an order-specified gate appointment is required.\"},{\"route_id\":\"BE-LU-E-023\",\"origin\":\"LOC-BE-HERBESTHAL\",\"destination\":\"LOC-LU-LUXCARGO\",\"distance_km\":\"140.423\",\"tollable_km\":\"\",\"drive_min\":\"118\",\"load_min\":\"35\",\"unload_min\":\"40\",\"risk_buffer_min\":\"30\",\"restriction_note\":\"SYN-LONG-CORRIDOR: Synthetic long-corridor control; a fixed checkpoint contingency is required.\"},{\"route_id\":\"BE-LU-E-032\",\"origin\":\"LOC-BE-MONS\",\"destination\":\"LOC-BE-MONCEAU\",\"distance_km\":\"36.340\",\"tollable_km\":\"\",\"drive_min\":\"31\",\"load_min\":\"45\",\"unload_min\":\"35\",\"risk_buffer_min\":\"10\",\"restriction_note\":\"SYN-RLY-APPT: Synthetic booked rail-terminal handling; an order-specified gate appointment is required.\"},{\"route_id\":\"BE-LU-E-036\",\"origin\":\"LOC-BE-MONS\",\"destination\":\"LOC-LU-ARCELOR\",\"distance_km\":\"205.587\",\"tollable_km\":\"\",\"drive_min\":\"172\",\"load_min\":\"35\",\"unload_min\":\"40\",\"risk_buffer_min\":\"30\",\"restriction_note\":\"SYN-LONG-CORRIDOR: Synthetic long-corridor control; a fixed checkpoint contingency is required.\"}]"
+      },
+      "route_draft": {
+        "desc": "Development-only controlled topology draft. It is not the frozen route packet selected by the current manifest."
+      },
+      "pbf_source": {
+        "desc": "Offline PBF foundation note. PBF data is generator-only and unavailable to the agent for this frozen review."
+      },
+      "online_router": {
+        "desc": "External live-routing endpoint is prohibited. Runtime travel times come only from the frozen routes.csv rows."
+      },
+      "locations_reference": {
+        "desc": "Location names and identifiers for the static packet. This reference does not add an unlisted lane or alter a route's frozen drive time."
+      },
+      "fleet_index": {
+        "desc": "Frozen vehicle and driver roster index."
+      },
+      "fleet_0900": {
+        "desc": "Vehicles and drivers used by the candidate bundles: {\"vehicles\":[{\"vehicle_id\":\"VEH-001\",\"start_location_id\":\"LOC-BE-ZEE-SEA\",\"adr_profile_ids\":[],\"cost_per_km_cents\":62,\"status\":\"available\"},{\"vehicle_id\":\"VEH-002\",\"start_location_id\":\"LOC-BE-ANT-NOORDTERM\",\"adr_profile_ids\":[],\"cost_per_km_cents\":62,\"status\":\"available\"},{\"vehicle_id\":\"VEH-003\",\"start_location_id\":\"LOC-BE-HERBESTHAL\",\"adr_profile_ids\":[\"ADR25-UN1203-PGII\",\"ADR25-UN3082-PGIII\"],\"cost_per_km_cents\":62,\"status\":\"available\"},{\"vehicle_id\":\"VEH-004\",\"start_location_id\":\"LOC-BE-MONS\",\"adr_profile_ids\":[],\"cost_per_km_cents\":62,\"status\":\"available\"},{\"vehicle_id\":\"VEH-005\",\"start_location_id\":\"LOC-BE-MONS\",\"adr_profile_ids\":[\"ADR25-UN1203-PGII\",\"ADR25-UN3082-PGIII\"],\"cost_per_km_cents\":62,\"status\":\"available\"},{\"vehicle_id\":\"VEH-006\",\"start_location_id\":\"LOC-BE-ZEE-SEA\",\"adr_profile_ids\":[],\"cost_per_km_cents\":62,\"status\":\"available\"}],\"drivers\":[{\"driver_id\":\"DRV-001\",\"initial_daily_drive_min\":120,\"initial_continuous_drive_min\":120,\"adr_profile_ids\":[],\"status\":\"available\"},{\"driver_id\":\"DRV-002\",\"initial_daily_drive_min\":120,\"initial_continuous_drive_min\":120,\"adr_profile_ids\":[],\"status\":\"available\"},{\"driver_id\":\"DRV-003\",\"initial_daily_drive_min\":220,\"initial_continuous_drive_min\":220,\"adr_profile_ids\":[\"ADR25-UN1203-PGII\",\"ADR25-UN3082-PGIII\"],\"status\":\"available\"},{\"driver_id\":\"DRV-004\",\"initial_daily_drive_min\":120,\"initial_continuous_drive_min\":120,\"adr_profile_ids\":[],\"status\":\"available\"},{\"driver_id\":\"DRV-005\",\"initial_daily_drive_min\":220,\"initial_continuous_drive_min\":220,\"adr_profile_ids\":[\"ADR25-UN1203-PGII\",\"ADR25-UN3082-PGIII\"],\"status\":\"available\"},{\"driver_id\":\"DRV-006\",\"initial_daily_drive_min\":120,\"initial_continuous_drive_min\":120,\"adr_profile_ids\":[],\"status\":\"available\"}]}"
+      },
+      "fleet_costs": {
+        "desc": "All selected vehicles have the same frozen cost-per-kilometre field. Economics is audited but global VRP optimality is not required."
+      },
+      "unused_fleet": {
+        "desc": "Roster entries VEH-007 through VEH-014 are available for later cutoffs. They are not needed to distinguish the three 09:00 plan bundles."
+      },
+      "policy_register": {
+        "desc": "Frozen controlled-policy register for this instance."
+      },
+      "driving_policy": {
+        "desc": "Current driving/rest subset: {\"schema_version\":\"1.0\",\"scope\":\"Deterministic subset used by this benchmark only; this is not a full working-time compliance assessment.\",\"source\":{\"document\":\"Regulation (EC) No 561/2006\",\"url\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02006R0561-20240522\",\"articles\":{\"daily_driving\":\"Article 6\",\"break\":\"Article 7\"}},\"modelled_rules\":{\"daily_driving_limit_min\":540,\"continuous_driving_limit_min\":270,\"required_break_min\":45},\"omitted_rules\":[\"weekly limits\",\"reduced or split breaks\",\"daily/weekly rest\",\"national derogations\"],\"verifier_rule\":\"The assignment must state break_before_min. A 45-minute break is required before a driving leg that would otherwise exceed the continuous-driving limit.\"}"
+      },
+      "adr_policy": {
+        "desc": "Current ADR eligibility subset: {\"schema_version\":\"1.0\",\"scope\":\"Controlled benchmark dispatch eligibility only; not a complete ADR compliance engine or legal advice.\",\"source\":{\"document\":\"UNECE ADR 2025, ECE/TRANS/352, Chapter 3.2 Table A\",\"url\":\"https://unece.org/info/Transport/Dangerous-Goods/pub/395786\",\"release_note\":\"Values are a deliberately small, visible subset. Public-release primary-page review remains required.\"},\"profiles\":[{\"profile_id\":\"ADR25-UN1203-PGII\",\"un_number\":\"1203\",\"class\":\"3\",\"packing_group\":\"II\",\"tunnel_restriction_code\":\"D/E\",\"benchmark_vehicle_capability\":\"ADR_FL_1203\"},{\"profile_id\":\"ADR25-UN3082-PGIII\",\"un_number\":\"3082\",\"class\":\"9\",\"packing_group\":\"III\",\"tunnel_restriction_code\":\"-\",\"benchmark_vehicle_capability\":\"ADR_AT_3082\"}],\"verifier_rule\":\"An ADR order requires its profile_id to be listed on both the selected vehicle and driver. No unmodelled ADR constraint is hidden.\"}"
+      },
+      "operational_policy": {
+        "desc": "Current route-operational policy: {\"schema_version\":\"1.0\",\"status\":\"frozen_for_v1_instance\",\"scope\":\"Only the frozen benchmark. These rules make no assertion about the real operating hours, access rights, or commercial terms of any OSM-mapped facility.\",\"semantics\":{\"route_leg\":\"A routes.csv row is a published directed business lane. Agents may not infer an unlisted direct lane or concatenate listed lanes as an implicit repositioning move.\",\"risk_buffer_min\":\"A deterministic, mandatory operational allowance; it is not travel-time noise or a stochastic delay model.\",\"restriction_note\":\"The visible note is a complete reference to a profile below. No hidden route restriction applies.\"},\"profiles\":{\"SYN-RLY-APPT\":{\"load_min\":45,\"unload_min\":35,\"risk_buffer_min\":10,\"note\":\"Synthetic booked rail-terminal handling; an order-specified gate appointment is required.\"},\"SYN-SEC-GATE\":{\"load_min\":40,\"unload_min\":30,\"risk_buffer_min\":15,\"note\":\"Synthetic secured freight gate; vehicle identity and document check are required.\"},\"SYN-WH-BOOK\":{\"load_min\":30,\"unload_min\":45,\"risk_buffer_min\":5,\"note\":\"Synthetic warehouse booking; receiving must occur in the order-specified time window.\"},\"SYN-LONG-CORRIDOR\":{\"load_min\":35,\"unload_min\":40,\"risk_buffer_min\":30,\"note\":\"Synthetic long-corridor control; a fixed checkpoint contingency is required.\"}},\"assignment_rule\":{\"long_corridor_threshold_km\":130,\"otherwise_by_origin_source_category\":{\"rail_freight_terminal\":\"SYN-RLY-APPT\",\"named_freight_related\":\"SYN-SEC-GATE\",\"industrial_facility\":\"SYN-WH-BOOK\"}}}"
+      },
+      "operational_policy_draft": {
+        "desc": "Superseded/draft route-operational policy: {\"schema_version\":\"1.0\",\"status\":\"draft_benchmark_controlled_rules\",\"scope\":\"Only the frozen benchmark. These rules make no assertion about the real operating hours, access rights, or commercial terms of any OSM-mapped facility.\",\"semantics\":{\"route_leg\":\"A routes.csv row is a published directed business lane. Agents may not infer an unlisted direct lane or concatenate listed lanes as an implicit repositioning move.\",\"risk_buffer_min\":\"A deterministic, mandatory operational allowance; it is not travel-time noise or a stochastic delay model.\",\"restriction_note\":\"The visible note is a complete reference to a profile below. No hidden route restriction applies.\"},\"profiles\":{\"SYN-RLY-APPT\":{\"load_min\":45,\"unload_min\":35,\"risk_buffer_min\":10,\"note\":\"Synthetic booked rail-terminal handling; an order-specified gate appointment is required.\"},\"SYN-SEC-GATE\":{\"load_min\":40,\"unload_min\":30,\"risk_buffer_min\":15,\"note\":\"Synthetic secured freight gate; vehicle identity and document check are required.\"},\"SYN-WH-BOOK\":{\"load_min\":30,\"unload_min\":45,\"risk_buffer_min\":5,\"note\":\"Synthetic warehouse booking; receiving must occur in the order-specified time window.\"},\"SYN-LONG-CORRIDOR\":{\"load_min\":35,\"unload_min\":40,\"risk_buffer_min\":30,\"note\":\"Synthetic long-corridor control; a fixed checkpoint contingency is required.\"}},\"assignment_rule\":{\"long_corridor_threshold_km\":130,\"otherwise_by_origin_source_category\":{\"rail_freight_terminal\":\"SYN-RLY-APPT\",\"named_freight_related\":\"SYN-SEC-GATE\",\"industrial_facility\":\"SYN-WH-BOOK\"}}}"
+      },
+      "toll_policy": {
+        "desc": "Toll policy record: {\"schema_version\":\"1.0\",\"status\":\"rate_card_frozen; route_regional_km_derivation_pending\",\"effective_from\":\"2026-07-01\",\"purpose\":\"Published benchmark approximation. It is not a commercial toll invoice.\",\"vehicle_profile_fields_required\":[\"gross_combination_weight_band\",\"euro_class\",\"co2_emission_class\"],\"belgium_kilometre_charge\":{\"applies_to\":\"goods vehicles over 3.5 t; route amount requires tollable kilometres classified by charged region and road type\",\"currency\":\"EUR\",\"rate_basis\":\"EUR per kilometre, published rate card, CO2 emission class 1\",\"rates\":{\"euro_6\":{\"3_5_to_under_12_t\":{\"wallonia\":0.061,\"flanders\":0.101,\"brussels_highway\":0.099,\"brussels_urban\":0.132},\"12_to_32_t\":{\"wallonia\":0.172,\"flanders\":0.233,\"brussels_highway\":0.166,\"brussels_urban\":0.233},\"over_32_t\":{\"wallonia\":0.205,\"flanders\":0.285,\"brussels_highway\":0.171,\"brussels_urban\":0.271}}},\"source_url\":\"https://www.viapass.be/nl/tarieven/\",\"source_notes\":[\"The official schedule depends on gross vehicle weight including trailer, Euro norm, charged-road type and region.\",\"Flanders applies a CO2 surcharge from 2026-07-01; this card freezes CO2 class 1 only.\",\"Do not charge a route until its tollable kilometres have been classified against a reviewed official toll-network map.\"]},\"luxembourg_eurovignette\":{\"applies_to\":\"goods vehicles at least 12 t on designated Luxembourg motorways or equivalent roads\",\"billing_unit\":\"vehicle_calendar_day\",\"trigger\":\"charge once when an eligible vehicle first uses a designated Luxembourg road that day; never once per route edge\",\"price_status\":\"must be copied from the official Eurovignette registration portal for the selected Euro class and axle count before instance freeze\",\"source_url\":\"https://guichet.public.lu/fr/entreprises/import-export/transit/transit-ue/e-vignette-poids-lourds.html\"},\"prohibited_shortcuts\":[\"Do not use OSM toll tags alone as a legal or billing assertion.\",\"Do not set all routes to a uniform percentage of distance.\",\"Do not amortise a Luxembourg day charge separately into every route.\"]}"
+      },
+      "full_legal_commentary": {
+        "desc": "A full real-world ADR and working-time legal opinion is outside the controlled benchmark. Only the visible frozen subsets govern this case."
+      },
+      "submission_schema": {
+        "desc": "Assignment submission schema: {\"assignment_schema\":{\"required_for_accept\":[\"order_id\",\"outcome\",\"route_id\",\"vehicle_id\",\"driver_id\",\"depart_at\",\"break_before_min\"],\"outcome_values\":[\"accept\",\"reject\"]}}"
+      },
+      "plan_register": {
+        "desc": "Three complete one-shot plan bundles: A, B, and C."
+      },
+      "plan_a": {
+        "desc": "Plan bundle A: {\"assignments\":[{\"order_id\":\"ORD-001\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-001\",\"vehicle_id\":\"VEH-001\",\"driver_id\":\"DRV-001\",\"depart_at\":\"09:00\",\"break_before_min\":0},{\"order_id\":\"ORD-002\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-010\",\"vehicle_id\":\"VEH-002\",\"driver_id\":\"DRV-002\",\"depart_at\":\"09:00\",\"break_before_min\":0},{\"order_id\":\"ORD-003\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-023\",\"vehicle_id\":\"VEH-003\",\"driver_id\":\"DRV-003\",\"depart_at\":\"09:00\",\"break_before_min\":45},{\"order_id\":\"ORD-004\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-032\",\"vehicle_id\":\"VEH-004\",\"driver_id\":\"DRV-004\",\"depart_at\":\"09:00\",\"break_before_min\":0},{\"order_id\":\"ORD-005\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-036\",\"vehicle_id\":\"VEH-005\",\"driver_id\":\"DRV-005\",\"depart_at\":\"09:00\",\"break_before_min\":45},{\"order_id\":\"ORD-006\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-002\",\"vehicle_id\":\"VEH-006\",\"driver_id\":\"DRV-006\",\"depart_at\":\"09:00\",\"break_before_min\":0}]}"
+      },
+      "plan_b": {
+        "desc": "Plan bundle B: {\"assignments\":[{\"order_id\":\"ORD-001\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-001\",\"vehicle_id\":\"VEH-001\",\"driver_id\":\"DRV-001\",\"depart_at\":\"09:00\",\"break_before_min\":0},{\"order_id\":\"ORD-002\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-010\",\"vehicle_id\":\"VEH-002\",\"driver_id\":\"DRV-002\",\"depart_at\":\"09:00\",\"break_before_min\":0},{\"order_id\":\"ORD-003\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-023\",\"vehicle_id\":\"VEH-003\",\"driver_id\":\"DRV-003\",\"depart_at\":\"09:00\",\"break_before_min\":0},{\"order_id\":\"ORD-004\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-032\",\"vehicle_id\":\"VEH-004\",\"driver_id\":\"DRV-004\",\"depart_at\":\"09:00\",\"break_before_min\":0},{\"order_id\":\"ORD-005\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-036\",\"vehicle_id\":\"VEH-005\",\"driver_id\":\"DRV-005\",\"depart_at\":\"09:00\",\"break_before_min\":0},{\"order_id\":\"ORD-006\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-002\",\"vehicle_id\":\"VEH-006\",\"driver_id\":\"DRV-006\",\"depart_at\":\"09:00\",\"break_before_min\":0}]}"
+      },
+      "plan_c": {
+        "desc": "Plan bundle C: {\"assignments\":[{\"order_id\":\"ORD-001\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-001\",\"vehicle_id\":\"VEH-001\",\"driver_id\":\"DRV-003\",\"depart_at\":\"09:00\",\"break_before_min\":0},{\"order_id\":\"ORD-002\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-010\",\"vehicle_id\":\"VEH-002\",\"driver_id\":\"DRV-002\",\"depart_at\":\"09:00\",\"break_before_min\":0},{\"order_id\":\"ORD-003\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-023\",\"vehicle_id\":\"VEH-003\",\"driver_id\":\"DRV-001\",\"depart_at\":\"09:00\",\"break_before_min\":45},{\"order_id\":\"ORD-004\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-032\",\"vehicle_id\":\"VEH-004\",\"driver_id\":\"DRV-004\",\"depart_at\":\"09:00\",\"break_before_min\":0},{\"order_id\":\"ORD-005\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-036\",\"vehicle_id\":\"VEH-005\",\"driver_id\":\"DRV-005\",\"depart_at\":\"09:00\",\"break_before_min\":45},{\"order_id\":\"ORD-006\",\"outcome\":\"accept\",\"route_id\":\"BE-LU-E-002\",\"vehicle_id\":\"VEH-006\",\"driver_id\":\"DRV-006\",\"depart_at\":\"09:00\",\"break_before_min\":0}]}"
+      },
+      "preliminary_preview": {
+        "desc": "Preliminary preview generated before the current policies and complete plan bundles were compared. It is not a commit decision."
+      },
+      "review": {
+        "desc": "The evidence packet is complete. Commit exactly one of Plan A, Plan B, or Plan C. The action is final for this review."
+      },
+      "committed_a": {
+        "desc": "Plan A was accepted by the frozen 09:00 dispatch validator and committed."
+      },
+      "target": {
+        "desc": "Audit accepted the 09:00 plan-review disposition."
+      },
+      "rejected_b": {
+        "desc": "Terminal failure: Plan B omits required 45-minute breaks for drivers whose initial continuous-driving totals plus the selected legs exceed the frozen 270-minute limit."
+      },
+      "rejected_c": {
+        "desc": "Terminal failure: Plan C assigns ORD-003, an ADR25-UN1203-PGII order, to a driver who does not list that profile."
+      }
+    },
+    "edges": {
+      "start": [
+        {
+          "edge_id": "e_case",
+          "to": "case",
+          "desc": "workflow://DTB-TERMINAL-FREIGHT-25",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "case": [
+        {
+          "edge_id": "e_event_index",
+          "to": "event_index",
+          "desc": "dispatch://events/index",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_route_index",
+          "to": "route_index",
+          "desc": "file://packet/static/routes",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_fleet_index",
+          "to": "fleet_index",
+          "desc": "file://packet/static/fleet",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_policy_register",
+          "to": "policy_register",
+          "desc": "policy://dispatch/register",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_submission_schema",
+          "to": "submission_schema",
+          "desc": "schema://dispatch/assignments/v1",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_plan_register",
+          "to": "plan_register",
+          "desc": "workflow://DTB-TERMINAL-FREIGHT-25/plans",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_review",
+          "to": "review",
+          "desc": "workflow://DTB-TERMINAL-FREIGHT-25/review",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": [
+            "orders_0900",
+            "routes_0900",
+            "fleet_0900",
+            "driving_policy",
+            "adr_policy",
+            "operational_policy",
+            "submission_schema",
+            "plan_a",
+            "plan_b",
+            "plan_c"
+          ],
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_preliminary",
+          "to": "preliminary_preview",
+          "desc": "workflow://DTB-TERMINAL-FREIGHT-25/preview",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_locations",
+          "to": "locations_reference",
+          "desc": "file://packet/static/locations.csv",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "event_index": [
+        {
+          "edge_id": "e_orders_0900",
+          "to": "orders_0900",
+          "desc": "dispatch://events?cutoff=09:00",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_later_archive",
+          "to": "later_events_archive",
+          "desc": "archive://events/after-09:00",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "orders_0900": [],
+      "later_events_archive": [
+        {
+          "edge_id": "e_future_fuel",
+          "to": "fuel_future",
+          "desc": "archive://events/fuel-updates",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "fuel_future": [
+        {
+          "edge_id": "e_future_events_back",
+          "to": "later_events_archive",
+          "desc": "archive://events/index",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "route_index": [
+        {
+          "edge_id": "e_route_manifest",
+          "to": "route_manifest",
+          "desc": "file://packet/static/routes_selection_manifest.json",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_route_draft",
+          "to": "route_draft",
+          "desc": "file://work/static_controlled_draft/routes.csv",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_pbf_note",
+          "to": "pbf_source",
+          "desc": "generator://offline-pbf-foundation",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_online_router",
+          "to": "online_router",
+          "desc": "https://router.invalid/live",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "route_manifest": [
+        {
+          "edge_id": "e_routes_0900",
+          "to": "routes_0900",
+          "desc": "file://packet/static/routes.csv?selected=09:00",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "routes_0900": [],
+      "route_draft": [
+        {
+          "edge_id": "e_draft_locations",
+          "to": "locations_reference",
+          "desc": "file://work/static_controlled_draft/locations.csv",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "pbf_source": [
+        {
+          "edge_id": "e_pbf_draft",
+          "to": "route_draft",
+          "desc": "generator://controlled-route-draft",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "online_router": [
+        {
+          "edge_id": "e_online_pbf",
+          "to": "pbf_source",
+          "desc": "generator://routing-source-note",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "locations_reference": [],
+      "fleet_index": [
+        {
+          "edge_id": "e_fleet_0900",
+          "to": "fleet_0900",
+          "desc": "file://packet/static/fleet.json?used-by=plans",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_fleet_costs",
+          "to": "fleet_costs",
+          "desc": "file://packet/static/fleet.json#costs",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_unused_fleet",
+          "to": "unused_fleet",
+          "desc": "file://packet/static/fleet.json#later-roster",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "fleet_0900": [],
+      "fleet_costs": [
+        {
+          "edge_id": "e_cost_toll",
+          "to": "toll_policy",
+          "desc": "policy://dispatch/toll/current",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "unused_fleet": [
+        {
+          "edge_id": "e_unused_locations",
+          "to": "locations_reference",
+          "desc": "file://packet/static/locations.csv#roster-origins",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "policy_register": [
+        {
+          "edge_id": "e_driving_policy",
+          "to": "driving_policy",
+          "desc": "policy://driving-rest/v1",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_adr_policy",
+          "to": "adr_policy",
+          "desc": "policy://adr/controlled-v1",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_operational_policy",
+          "to": "operational_policy",
+          "desc": "policy://route-operational/v1",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_operational_draft",
+          "to": "operational_policy_draft",
+          "desc": "policy://route-operational/draft",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_toll_policy",
+          "to": "toll_policy",
+          "desc": "policy://toll/2026-07",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_legal_commentary",
+          "to": "full_legal_commentary",
+          "desc": "reference://full-legal-scope",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "driving_policy": [],
+      "adr_policy": [],
+      "operational_policy": [],
+      "operational_policy_draft": [
+        {
+          "edge_id": "e_draft_route",
+          "to": "route_draft",
+          "desc": "file://work/static_controlled_draft/routes.csv#policy",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "toll_policy": [
+        {
+          "edge_id": "e_toll_costs",
+          "to": "fleet_costs",
+          "desc": "file://packet/static/fleet.json#cost-per-km",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "full_legal_commentary": [
+        {
+          "edge_id": "e_legal_pbf",
+          "to": "pbf_source",
+          "desc": "reference://source-boundary",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "submission_schema": [],
+      "plan_register": [
+        {
+          "edge_id": "e_plan_a",
+          "to": "plan_a",
+          "desc": "submission://DTB-TERMINAL-FREIGHT-25/A",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_plan_b",
+          "to": "plan_b",
+          "desc": "submission://DTB-TERMINAL-FREIGHT-25/B",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_plan_c",
+          "to": "plan_c",
+          "desc": "submission://DTB-TERMINAL-FREIGHT-25/C",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "plan_a": [],
+      "plan_b": [],
+      "plan_c": [],
+      "preliminary_preview": [
+        {
+          "edge_id": "e_preview_costs",
+          "to": "fleet_costs",
+          "desc": "workflow://DTB-TERMINAL-FREIGHT-25/preview/costs",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_preview_draft",
+          "to": "operational_policy_draft",
+          "desc": "workflow://DTB-TERMINAL-FREIGHT-25/preview/policy",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "review": [
+        {
+          "edge_id": "e_commit_a",
+          "to": "committed_a",
+          "desc": "action://DTB-TERMINAL-FREIGHT-25/commit-plan-a",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_commit_b",
+          "to": "rejected_b",
+          "desc": "action://DTB-TERMINAL-FREIGHT-25/commit-plan-b",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_commit_c",
+          "to": "rejected_c",
+          "desc": "action://DTB-TERMINAL-FREIGHT-25/commit-plan-c",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "committed_a": [
+        {
+          "edge_id": "e_target",
+          "to": "target",
+          "desc": "audit://DTB-TERMINAL-FREIGHT-25/accepted",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "target": [],
+      "rejected_b": [],
+      "rejected_c": []
+    }
+  },
+  "meta": {
+    "start": "start",
+    "target": "target",
+    "token_grants": {},
+    "requirement_labels": {},
+    "terminal_fail_nodes": [
+      "rejected_b",
+      "rejected_c"
+    ],
+    "one_shot": true,
+    "dead_end_nodes": [
+      "rejected_b",
+      "rejected_c"
+    ],
+    "dead_end_definition": "irreversible terminal failure under GraphEnv expanding-search semantics",
+    "off_path_nodes": [
+      "later_events_archive",
+      "fuel_future",
+      "route_draft",
+      "pbf_source",
+      "online_router",
+      "locations_reference",
+      "fleet_costs",
+      "unused_fleet",
+      "operational_policy_draft",
+      "toll_policy",
+      "full_legal_commentary",
+      "preliminary_preview"
+    ],
+    "mechanism_regions": {
+      "Disposition": [
+        "plan_register",
+        "plan_a",
+        "plan_b",
+        "plan_c",
+        "review",
+        "committed_a",
+        "rejected_b",
+        "rejected_c"
+      ],
+      "Currency": [
+        "policy_register",
+        "operational_policy",
+        "operational_policy_draft"
+      ],
+      "Breadth": [
+        "event_index",
+        "route_index",
+        "fleet_index",
+        "policy_register",
+        "plan_register"
+      ],
+      "Depth": [
+        "route_index",
+        "route_manifest",
+        "routes_0900",
+        "review",
+        "committed_a",
+        "target"
+      ]
+    },
+    "primary_mechanism": "Disposition",
+    "supporting_mechanisms": [
+      "Currency",
+      "Breadth",
+      "Depth"
+    ],
+    "domain_mechanisms": [
+      "cutoff-scoped request visibility",
+      "ADR eligibility on both vehicle and driver",
+      "continuous-driving break calculation",
+      "frozen directed-lane matching",
+      "one-shot plan commit"
+    ],
+    "mechanism_crosswalk": {
+      "primary": "Disposition",
+      "supporting": [
+        "Currency",
+        "Breadth",
+        "Depth"
+      ],
+      "unsupported_not_claimed": [
+        "Sufficiency",
+        "Time"
+      ],
+      "basis": {
+        "Disposition": "Three complete candidate plan commits have one runtime-accepted disposition and two terminal failure outcomes.",
+        "Currency": "The frozen v1 operational policy, not the draft, governs selected-lane handling.",
+        "Breadth": "Visible requests, routes, fleet, policy, schema and all three plan bundles are jointly required before review.",
+        "Depth": "The selected route rows are reached through the route manifest before the review and audit chain."
+      }
+    },
+    "source_kinds": [
+      "frozen dispatch event stream",
+      "offline-derived route packet",
+      "frozen fleet roster",
+      "controlled benchmark policies",
+      "runtime-validated plan proposals"
+    ],
+    "source_provenance": "All case facts are read from the copied Freight Dispatch Shift V1 package. Plan A is the existing smoke-test witness. Plans B and C are authored counterfactuals and are validated as failures by the same runtime before graph generation.",
+    "authored_overlay": "The graph navigation, plan labels, counterfactual proposals, and one-shot review action are DetourBench-format overlays. They do not alter the source dispatch runtime.",
+    "provenance_boundary": "OSM-derived frozen lane fields, source dispatch events, fleet fields and controlled policy files are copied from Freight Dispatch Shift V1. Plan labels, the two counterfactual plans, graph links, evidence gates and one-shot terminal actions are DetourBench-authored overlays. The controlled ADR and driving/rest subsets are not full legal compliance advice.",
+    "semantic_required_nodes": [
+      "orders_0900",
+      "routes_0900",
+      "fleet_0900",
+      "driving_policy",
+      "adr_policy",
+      "operational_policy",
+      "submission_schema",
+      "plan_a",
+      "plan_b",
+      "plan_c"
+    ],
+    "candidate_actions": [
+      "commit-plan-a",
+      "commit-plan-b",
+      "commit-plan-c"
+    ],
+    "correct_action": "commit-plan-a",
+    "node_provenance": {
+      "start": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "case": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "event_index": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "orders_0900": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (environment/private/events.jsonl).",
+        "public_reference": null
+      },
+      "later_events_archive": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "fuel_future": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "route_index": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "route_manifest": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (environment/packet/static/routes_selection_manifest.json).",
+        "public_reference": null
+      },
+      "routes_0900": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (environment/packet/static/routes.csv).",
+        "public_reference": null
+      },
+      "route_draft": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "pbf_source": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "online_router": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "locations_reference": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "fleet_index": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "fleet_0900": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (environment/packet/static/fleet.json).",
+        "public_reference": null
+      },
+      "fleet_costs": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "unused_fleet": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "policy_register": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "driving_policy": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (environment/packet/policy/driving_rest_subset_v1.json).",
+        "public_reference": null
+      },
+      "adr_policy": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (environment/packet/policy/adr_controlled_subset_v1.json).",
+        "public_reference": null
+      },
+      "operational_policy": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (environment/packet/policy/route_operational_policy_v1.json).",
+        "public_reference": null
+      },
+      "operational_policy_draft": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (environment/packet/policy/route_operational_policy_draft.json).",
+        "public_reference": null
+      },
+      "toll_policy": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (environment/packet/policy/toll_policy_2026_07.json).",
+        "public_reference": null
+      },
+      "full_legal_commentary": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "submission_schema": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (environment/packet/static/orders_schema.json).",
+        "public_reference": null
+      },
+      "plan_register": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "plan_a": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (design/graph_candidates/plan_a.json).",
+        "public_reference": null
+      },
+      "plan_b": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (design/graph_candidates/plan_b.json).",
+        "public_reference": null
+      },
+      "plan_c": {
+        "origin": "freight_dispatch_v1_frozen_source",
+        "observed_fact": "Frozen local source record; see source_corpus.json (design/graph_candidates/plan_c.json).",
+        "public_reference": null
+      },
+      "preliminary_preview": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "review": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "committed_a": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "target": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "rejected_b": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      },
+      "rejected_c": {
+        "origin": "detourbench_authored_overlay",
+        "observed_fact": null,
+        "public_reference": null
+      }
+    },
+    "theme": "terminal_freight_dispatch",
+    "topology": "terminal_freight_dispatch_shift",
+    "corpus_file": "source_corpus.json",
+    "corpus_sha256": "7efc6624318bfbc635053ec06e210c830182669316bf85debcd1052e88319e9d",
+    "state_semantics_version": "graph-env.expanding-search.v1",
+    "solver_version": "compute_lower_bound.monotone-bfs.v1",
+    "task_revision": "terminal-freight-dispatch-v1",
+    "metric_version": "detourbench-v3",
+    "informed_lower_bound": 20,
+    "canonical_oracle_edge_path": [
+      "e_case",
+      "e_event_index",
+      "e_fleet_index",
+      "e_fleet_0900",
+      "e_orders_0900",
+      "e_plan_register",
+      "e_plan_a",
+      "e_plan_b",
+      "e_plan_c",
+      "e_policy_register",
+      "e_adr_policy",
+      "e_driving_policy",
+      "e_operational_policy",
+      "e_route_index",
+      "e_route_manifest",
+      "e_routes_0900",
+      "e_submission_schema",
+      "e_review",
+      "e_commit_a",
+      "e_target"
+    ],
+    "step_budget": 30,
+    "difficulty": "hard"
+  }
+}

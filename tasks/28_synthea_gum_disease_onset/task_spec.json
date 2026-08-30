@@ -1,0 +1,41 @@
+{
+ "schema_version": "detourbench.task-spec.v1",
+ "task_id": 28,
+ "run_task_name": "synthea_gum_disease_onset",
+ "classification": "integrated_task_independently_piloted",
+ "task_revision": "synthea-onset-v5",
+ "objective": "Periodontal audit DTB-EHR-28. Establish the earliest documented gum-disease onset across current-policy terminology variants in one frozen synthetic record, then make one determination.",
+ "primary_mechanism": "Depth",
+ "supporting_mechanisms": [
+  "Currency",
+  "Breadth",
+  "Disposition"
+ ],
+ "domain_mechanisms": [
+  "terminology release discovered from a referring-code encounter",
+  "complete pagination of unordered code-scoped hit sets",
+  "effective-at-audit terminology selection",
+  "current-versus-archived onset policy",
+  "one-shot date determination with plausible false summits"
+ ],
+ "candidate_actions": [
+  "onset=2012-12-23",
+  "onset=2013-01-06",
+  "onset=2013-11-17"
+ ],
+ "provenance_boundary": "Encounter contents and dates are synthetic Synthea output. The audit packet, policy versions, terminology crosswalk, search behavior, indexes, and filing actions are DetourBench-authored. No real patient record or clinical advice is involved.",
+ "selection_note": "Frozen before its independent pilot and cleared for comparison against other frozen tasks. Selection was not blind: see independent_pilot.does_not_establish.",
+ "independent_pilot": {
+  "model": "gpt-5.6",
+  "date": "2026-08-28",
+  "episodes": 2,
+  "successes": 2,
+  "attainment_values": [
+   0.9411764705882353,
+   0.9411764705882353
+  ],
+  "held_out_from": "gpt-5.6 ran no episode of this task on any revision before this date, and was not consulted while the task was authored or revised.",
+  "establishes": "The task's difficulty is not an artifact of the models that were observed during development; a model that did not influence the design meets it at comparable cost.",
+  "does_not_establish": "Blind selection. This task was authored and revised while observing model behaviour, so its existence and shape remain informed by that behaviour. An independent pilot cannot undo selection that already happened."
+ }
+}

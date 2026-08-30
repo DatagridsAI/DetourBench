@@ -1,0 +1,17 @@
+{
+  "schema_version": "detourbench.frozen-integrated-task.v2",
+  "task_id": 7,
+  "task_directory": "initial_integrated_tasks/07_npm_minimist_multiparent",
+  "metric_version": "attainment-v2-success-weighted-oracle",
+  "oracle_lower_bound": 15,
+  "hard_budget": 23,
+  "hashes_sha256": {
+    "graph_full.json": "073f763bb55dfb64d08939d94cbd7bc9090bad8188530edf737ebf332c364893",
+    "initial_state.json": "4c86eee1115f3a89a6b77d5e41702c09fc8879bf9d83e9d4950a19ad521d8b15",
+    "oracle.json": "460b4eeb26ecbfc0a058465fe947e4d33e4447fdcc4a3c736b83393edca14605",
+    "pilot_trajectories.json": "eb4b1eb885c6c0c9c1fc528ca1f12e533fcbce34997817953487473422187cec",
+    "task_spec.json": "a669186fe922ed45c62f25b77ca50ed76b3dc84693fdf0e44ddb80daa1ae50f5",
+    "verifier_report.json": "dda457eb6d119270bc7ea3a3df1872e121e19084738e16ed9840e22cbc5717f2"
+  },
+  "note": "Public-release manifest; withheld model-output entries are omitted."
+}

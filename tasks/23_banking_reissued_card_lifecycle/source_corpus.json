@@ -1,0 +1,124 @@
+{
+  "schema_version": "detourbench.internal-synthetic-banking-overlay.v1",
+  "source_fixture_id": "tau3_syn65_hard_0003",
+  "source_file": "other_bench_tasks/taubench_demo/tasks/task_syn65_hard_0003.json",
+  "source_sha256": "d7c869dc1b216a350d7e67b348d8be114f7b1a8f5a0ee4d7c9c029a1a7e514cf",
+  "upstream_framework": "tau2 / banking_knowledge",
+  "source_data_nature": "fully synthetic",
+  "confidentiality": "internal evaluation only; no redistribution",
+  "publication_note": "Do not ship this extract with a public benchmark without source permission. Replace it with independently generated synthetic records before publication.",
+  "selected_synthetic_records": {
+    "users": {
+      "syn65hard_0003_users_03": {
+        "address": "103 Juniper Avenue, Portland, OR 97205",
+        "date_of_birth": "04/10/1983",
+        "email": "elena.brooks+tau30003@example.test",
+        "name": "Elena Brooks",
+        "phone_number": "555-203-8486",
+        "user_id": "syn65hard_0003_users_03"
+      }
+    },
+    "accounts": {
+      "syn65hard_0003_accounts_01": {
+        "account_id": "syn65hard_0003_accounts_01",
+        "class": "checking",
+        "current_holdings": "2230.00",
+        "date_opened": "04/02/2021",
+        "level": "Sky Blue Account",
+        "status": "OPEN",
+        "user_id": "syn65hard_0003_users_03"
+      }
+    },
+    "debit_cards": {
+      "syn65hard_0003_debit_cards_02": {
+        "account_id": "syn65hard_0003_accounts_01",
+        "card_id": "syn65hard_0003_debit_cards_02",
+        "cardholder_name": "ELENA BROOKS",
+        "cvv": "066",
+        "expiration_date": "05/31",
+        "issue_date": "04/02/2026",
+        "issue_reason": "damaged",
+        "last_4_digits": "5776",
+        "status": "PENDING",
+        "user_id": "syn65hard_0003_users_03"
+      },
+      "syn65hard_0003_debit_cards_old": {
+        "account_id": "syn65hard_0003_accounts_01",
+        "card_id": "syn65hard_0003_debit_cards_old",
+        "cardholder_name": "ELENA BROOKS",
+        "cvv": "303",
+        "expiration_date": "12/29",
+        "issue_date": "01/02/2024",
+        "issue_reason": "new_account",
+        "last_4_digits": "7003",
+        "status": "ACTIVE",
+        "user_id": "syn65hard_0003_users_03"
+      },
+      "syn65hard_0003_debit_cards_distractor_01": {
+        "account_id": "syn65hard_0003_accounts_01",
+        "card_id": "syn65hard_0003_debit_cards_distractor_01",
+        "cardholder_name": "ELENA BROOKS",
+        "cvv": "604",
+        "expiration_date": "11/30",
+        "issue_date": "01/02/2025",
+        "issue_reason": "new_account",
+        "last_4_digits": "8604",
+        "status": "PENDING",
+        "user_id": "syn65hard_0003_users_03"
+      },
+      "syn65hard_0003_debit_cards_distractor_02": {
+        "account_id": "syn65hard_0003_accounts_01",
+        "card_id": "syn65hard_0003_debit_cards_distractor_02",
+        "cardholder_name": "ELENA BROOKS",
+        "cvv": "605",
+        "expiration_date": "12/30",
+        "issue_date": "01/02/2025",
+        "issue_reason": "bank_reissue",
+        "last_4_digits": "8605",
+        "status": "PENDING",
+        "user_id": "syn65hard_0003_users_03"
+      }
+    }
+  },
+  "source_gold_write_actions": [
+    {
+      "tool": "close_debit_card_4721",
+      "arguments": {
+        "card_id": "syn65hard_0003_debit_cards_old",
+        "reason": "damaged"
+      }
+    },
+    {
+      "tool": "activate_debit_card_8293",
+      "arguments": {
+        "card_id": "syn65hard_0003_debit_cards_02",
+        "cvv": "066",
+        "expiration_date": "05/31",
+        "last_4_digits": "5776",
+        "pin": "0356"
+      }
+    },
+    {
+      "tool": "change_debit_card_pin_6285",
+      "arguments": {
+        "card_id": "syn65hard_0003_debit_cards_02",
+        "current_pin": "0356",
+        "new_pin": "8203"
+      }
+    },
+    {
+      "tool": "set_debit_card_recurring_block_7382",
+      "arguments": {
+        "block_recurring": true,
+        "card_id": "syn65hard_0003_debit_cards_02"
+      }
+    },
+    {
+      "tool": "freeze_debit_card_3892",
+      "arguments": {
+        "card_id": "syn65hard_0003_debit_cards_02"
+      }
+    }
+  ],
+  "adaptation_note": "DetourBench removes the simulated dialogue and discoverable-tool unlock bookkeeping, withholds internal card IDs from the start, and adds evidence discovery, policy currency, ordered state gates, false summits, explicit failure dispositions and audit commit. Source gold action count is not used as the lower bound."
+}

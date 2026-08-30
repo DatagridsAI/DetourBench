@@ -1,0 +1,890 @@
+{
+ "seed": "250.411",
+ "sections": {
+  "250.411": {
+   "title": "What information must I submit with my application?",
+   "refs": [
+    "250.412",
+    "250.413",
+    "250.414",
+    "250.415",
+    "250.416",
+    "250.731",
+    "250.713",
+    "250.418"
+   ],
+   "history": "[81 FR 26017, Apr. 29, 2016]",
+   "amended_years": [
+    2016
+   ],
+   "text": "What information must I submit with my application? In addition to forms BSEE-0123 and BSEE-0123S, you must include the information required in this subpart and subpart G of this part, including the following: Information that you must include with an APD Where to find a description (a) Plat that shows locations of the proposed well, \u00a7 250.412. (b) Design criteria used for the proposed well, \u00a7 250.413. (c) Drilling prognosis, \u00a7 250.414. (d) Casing and cementing programs, \u00a7 250.415. (e) Diverter systems descriptions, \u00a7 250.416. (f) BOP system descriptions, \u00a7 250.731. (g) Requirements for using a MODU, and \u00a7 250.713. (h) Additional information. \u00a7 250.418. [81 FR 26017, Apr. 29, 2016]"
+  },
+  "250.412": {
+   "title": "What requirements must the location plat meet?",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "What requirements must the location plat meet? The location plat must: (a) Have a scale of 1:24,000 (1 inch = 2,000 feet); (b) Show the surface and subsurface locations of the proposed well and all the wells in the vicinity; (c) Show the surface and subsurface locations of the proposed well in feet or meters from the block line; (d) Contain the longitude and latitude coordinates, and either Universal Transverse Mercator grid-system coordinates or state plane coordinates in the Lambert or Transverse Mercator Projection system for the surface and subsurface locations of the proposed well; and (e) State the units and geodetic datum (including whether the datum is North American Datum 27 or 83) for these coordinates. If the datum was converted, you must state the method used for this conversio"
+  },
+  "250.413": {
+   "title": "What must my description of well drilling design criteria address?",
+   "refs": [],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 81 FR 26017, Apr. 29, 2016; 84 FR 21973, May 15, 2019]",
+   "amended_years": [
+    2011,
+    2016,
+    2019
+   ],
+   "text": "What must my description of well drilling design criteria address? Your description of well drilling design criteria must address: (a) Pore pressures; (b) Formation fracture gradients, adjusted for water depth; (c) Potential lost circulation zones; (d) Drilling fluid weights; (e) Casing setting depths; (f) Maximum anticipated surface pressures. For this section, maximum anticipated surface pressures are the pressures that you reasonably expect to be exerted upon a casing string and its related wellhead equipment. In calculating maximum anticipated surface pressures, you must consider: drilling, completion, and producing conditions; drilling fluid densities to be used below various casing strings; fracture gradients of the exposed formations; casing setting depths; total well depth; formati"
+  },
+  "250.414": {
+   "title": "What must my drilling prognosis include?",
+   "refs": [
+    "250.460"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 81 FR 26017, Apr. 29, 2016; 84 FR 21973, May 15, 2019]",
+   "amended_years": [
+    2011,
+    2016,
+    2019
+   ],
+   "text": "What must my drilling prognosis include? Your drilling prognosis must include a brief description of the procedures you will follow in drilling the well. This prognosis includes but is not limited to the following: (a) Projected plans for coring at specified depths; (b) Projected plans for logging; (c) Planned safe drilling margin that is between the estimated pore pressure and the lesser of estimated fracture gradients or casing shoe pressure integrity test and that is based on a risk assessment consistent with expected well conditions and operations. (1) Your safe drilling margin must also include use of equivalent downhole mud weight that is: (i) Greater than the estimated pore pressure; and (ii) Except as provided in paragraph (c)(2) of this section, a minimum of 0.5 pound per gallon b"
+  },
+  "250.415": {
+   "title": "What must my casing and cementing programs include?",
+   "refs": [
+    "250.198"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 77 FR 50891, Aug. 22, 2012; 81 FR 26018, Apr. 29, 2016; 91 FR 35351, June 10, 2026]",
+   "amended_years": [
+    2011,
+    2012,
+    2016,
+    2026
+   ],
+   "text": "What must my casing and cementing programs include? Your casing and cementing programs must include: (a) The following well design information: (1) Hole sizes; (2) Bit depths (including measured and true vertical depth (TVD)); (3) Casing information, including sizes, weights, grades, collapse and burst values, types of connection, and setting depths (measured and TVD) for all sections of each casing interval; and (4) Locations of any installed rupture disks (indicate if burst or collapse and rating); (b) Casing design safety factors for tension, collapse, and burst with the assumptions made to arrive at these values; (c) Type and amount of cement (in cubic feet) planned for each casing string; (d) In areas containing permafrost, setting depths for conductor and surface casing based on the "
+  },
+  "250.416": {
+   "title": "What must I include in the diverter description?",
+   "refs": [],
+   "history": "[81 FR 26018, Apr. 29, 2016]",
+   "amended_years": [
+    2016
+   ],
+   "text": "What must I include in the diverter description? You must include in the diverter description: (a) A description of the diverter system and its operating procedures; (b) A schematic drawing of the diverter system (plan and elevation views) that shows: (1) The size of the element installed in the diverter housing; (2) Spool outlet internal diameter(s); (3) Diverter-line lengths and diameters; burst strengths and radius of curvature at each turn; and (4) Valve type, size, working pressure rating, and location. [81 FR 26018, Apr. 29, 2016]"
+  },
+  "250.731": {
+   "title": "What information must I submit for BOP systems and system components?",
+   "refs": [
+    "250.732",
+    "250.105"
+   ],
+   "history": "[81 FR 26022, Apr. 29, 2016, as amended at 84 FR 21978, May 15, 2019; 89 FR 71121, Aug. 30, 2024]",
+   "amended_years": [
+    2016,
+    2019,
+    2024
+   ],
+   "text": "What information must I submit for BOP systems and system components? For any operation that requires the use of a BOP, you must include the information listed in this section with your applicable APD, APM, or other submittal. You are required to submit this information only once for each well, unless the information changes from what you provided in an earlier approved submission or you have moved off location from the well. After you have submitted this information for a particular well, subsequent APMs or other submittals for the well should reference the approved submittal containing the information required by this section and confirm that the information remains accurate and that you have not moved off location from that well. If the information changes or you have moved off location"
+  },
+  "250.713": {
+   "title": "What must I provide if I plan to use a mobile offshore drilling unit (MODU) for well operations?",
+   "refs": [
+    "250.915"
+   ],
+   "history": "[81 FR 26022, Apr. 29, 2016, as amended at 81 FR 36150, June 6, 2016]",
+   "amended_years": [
+    2016
+   ],
+   "text": "What must I provide if I plan to use a mobile offshore drilling unit (MODU) for well operations? If you plan to use a MODU for well operations, you must provide: (a) Fitness requirements. Information and data to demonstrate the MODU's capability to perform at the proposed location. This information must include the maximum environmental and operational conditions that the MODU is designed to withstand, including the minimum air gap necessary for both hurricane and non-hurricane seasons. If sufficient environmental information and data are not available at the time you submit your APD or APM, the District Manager may approve your APD or APM, but require you to collect and report this information during operations. Under this circumstance, the District Manager may revoke the approval of the "
+  },
+  "250.418": {
+   "title": "What additional information must I submit with my APD?",
+   "refs": [
+    "250.490",
+    "250.109",
+    "250.420",
+    "250.470"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 77 FR 50892, Aug. 22, 2012; 81 FR 26018, Apr. 29, 2016; 81 FR 46561, July 15, 2016]",
+   "amended_years": [
+    2011,
+    2012,
+    2016
+   ],
+   "text": "What additional information must I submit with my APD? You must include the following with the APD: (a) Rated capacities of the drilling rig and major drilling equipment, if not already on file with the appropriate District office; (b) A drilling fluids program that includes the minimum quantities of drilling fluids and drilling fluid materials, including weight materials, to be kept at the site; (c) A proposed directional plot if the well is to be directionally drilled; (d) A Hydrogen Sulfide Contingency Plan (see \u00a7 250.490), if applicable, and not previously submitted; (e) A welding plan (see \u00a7\u00a7 250.109 to 250.113) if not previously submitted; (f) In areas subject to subfreezing conditions, evidence that the drilling equipment, BOP systems and components, diverter systems, and other asso"
+  },
+  "250.460": {
+   "title": "What are the requirements for conducting a well test?",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "What are the requirements for conducting a well test? (a) If you intend to conduct a well test, you must include your projected plans for the test with your APD (form BSEE-0123) or in an Application for Permit to Modify (APM) (form BSEE-0124). Your plans must include at least the following information: (1) Estimated flowing and shut-in tubing pressures; (2) Estimated flow rates and cumulative volumes; (3) Time duration of flow, buildup, and drawdown periods; (4) Description and rating of surface and subsurface test equipment; (5) Schematic drawing, showing the layout of test equipment; (6) Description of safety equipment, including gas detectors and fire-fighting equipment; (7) Proposed methods to handle or transport produced fluids; and (8) Description of the test procedures. (b) You must"
+  },
+  "250.198": {
+   "title": "Documents incorporated by reference.",
+   "refs": [
+    "250.901",
+    "250.1203",
+    "250.1002",
+    "250.490",
+    "250.1201",
+    "250.1202"
+   ],
+   "history": "[84 FR 21969, May 15, 2019, as amended at 85 FR 84236, Dec. 30, 2020; 89 FR 71111, Aug. 30, 2024; 91 FR 35347, June 10, 2026]",
+   "amended_years": [
+    2019,
+    2020,
+    2024,
+    2026
+   ],
+   "text": "Documents incorporated by reference. Certain material is incorporated by reference into this part with the approval of the Director of the Federal Register in accordance with 5 U.S.C. 552(a) and 1 CFR part 51. All approved incorporation by reference (IBR) material is available for inspection at BSEE and at the National Archives and Records Administration (NARA). Contact BSEE at: the Houston BSEE office at 1919 Smith Street Suite 14042, Houston, Texas 77002; 1-844-259-4779; or at regs@bsee.gov. For information on the availability of this material at NARA, visit www.archives.gov/federal-register/cfr/ibr-locations or email: fr.inspection@nara.gov. The material may be obtained from the following sources: (a) American Concrete Institute (ACI), ACI Standards, 38800 Country Club Drive, Farmington"
+  },
+  "250.732": {
+   "title": "What are the independent third party requirements for BOP systems and system components?",
+   "refs": [
+    "250.105",
+    "250.731",
+    "250.232",
+    "250.230"
+   ],
+   "history": "[84 FR 21978, May 15, 2019, as amended at 88 FR 57347, Aug. 23, 2023; 89 FR 71121, Aug. 30, 2024]",
+   "amended_years": [
+    2019,
+    2023,
+    2024
+   ],
+   "text": "What are the independent third party requirements for BOP systems and system components? (a) Prior to beginning any operation requiring the use of any BOP, you must submit verification by an independent third party and supporting documentation as required by this paragraph to the appropriate District Manager and Regional Supervisor. You must submit verification and documentation related to: That: (1) Shear testing, (i) Demonstrates that the BOP will shear the tubular body of any drill pipe (excluding tool joints, bottom-hole tools, and bottom hole assemblies such as heavy-weight pipe or collars), workstring, tubing and associated exterior control lines and any electric-, wire-, and slick-line to be used in the well; (ii) Demonstrates the use of test protocols and analysis that represent re"
+  },
+  "250.105": {
+   "title": "Definitions.",
+   "refs": [],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 78 FR 20439, Apr. 5, 2013; 81 FR 46560, July 15, 2016; 88 FR 23579, Apr. 18, 2023; 89 FR 71111, Aug. 30, 2024; 90 FR 44326, Sept. 15, 2025]",
+   "amended_years": [
+    2011,
+    2013,
+    2016,
+    2023,
+    2024,
+    2025
+   ],
+   "text": "Definitions. Terms used in this part will have the meanings given in the Act and as defined in this section: Act means the OCS Lands Act, as amended (43 U.S.C. 1331 et seq. ). Affected State means with respect to any program, plan, lease sale, or other activity proposed, conducted, or approved under the provisions of the Act, any State: (1) The laws of which are declared, under section 4(a)(2) of the Act, to be the law of the United States for the portion of the OCS on which such activity is, or is proposed to be, conducted; (2) Which is, or is proposed to be, directly connected by transportation facilities to any artificial island or installation or other device permanently or temporarily attached to the seabed; (3) Which is receiving, or according to the proposed activity, will receive o"
+  },
+  "250.915": {
+   "title": "What are the CVA's primary responsibilities?",
+   "refs": [
+    "250.916",
+    "250.901"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "What are the CVA's primary responsibilities? (a) The CVA must conduct specified reviews according to \u00a7\u00a7 250.916, 250.917, and 250.918 of this subpart. (b) Individuals or organizations acting as CVAs must not function in any capacity that would create a conflict of interest, or the appearance of a conflict of interest. (c) The CVA must consider the applicable provisions of the documents listed in \u00a7 250.901(a); the alternative codes, rules, and standards approved under \u00a7 250.901(b); and the requirements of this subpart. (d) The CVA is the primary contact with the Regional Supervisor and is directly responsible for providing immediate reports of all incidents that affect the design, fabrication and installation of the platform."
+  },
+  "250.490": {
+   "title": "Hydrogen sulfide.",
+   "refs": [],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 89 FR 71120, Aug. 30, 2024]",
+   "amended_years": [
+    2011,
+    2024
+   ],
+   "text": "Hydrogen sulfide. (a) What precautions must I take when operating in an H 2 S area? You must: (1) Take all necessary and feasible precautions and measures to protect personnel from the toxic effects of H 2 S and to mitigate damage to property and the environment caused by H 2 S. You must follow the requirements of this section when conducting drilling, well-completion/well-workover, and production operations in zones with H 2 S present and when conducting operations in zones where the presence of H 2 S is unknown. You do not need to follow these requirements when operating in zones where the absence of H 2 S has been confirmed; and (2) Follow your approved contingency plan. (b) Definitions. Terms used in this section have the following meanings: Facility means a vessel, a structure, or an "
+  },
+  "250.109": {
+   "title": "What documents must I prepare and maintain related to welding?",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "What documents must I prepare and maintain related to welding? (a) You must submit a Welding Plan to the District Manager before you begin drilling or production activities on a lease. You may not begin welding until the District Manager has approved your plan. (b) You must keep the following at the site where welding occurs: (1) A copy of the plan and its approval letter; and (2) Drawings showing the designated safe-welding areas."
+  },
+  "250.420": {
+   "title": "What well casing and cementing requirements must I meet?",
+   "refs": [
+    "250.198",
+    "250.423",
+    "250.141",
+    "250.421"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 77 FR 50892, Aug. 22, 2012; 81 FR 26018, Apr. 29, 2016; 84 FR 21973, May 15, 2019; 91 FR 35351, June 10, 2026]",
+   "amended_years": [
+    2011,
+    2012,
+    2016,
+    2019,
+    2026
+   ],
+   "text": "What well casing and cementing requirements must I meet? You must case and cement all wells. Your casing and cementing programs must meet the applicable requirements of this subpart and of subpart G of this part. (a) Casing and cementing program requirements. Your casing and cementing programs must: (1) Properly control formation pressures and fluids; (2) Prevent the direct or indirect release of fluids from any stratum through the wellbore into offshore waters; (3) Prevent communication between separate hydrocarbon-bearing strata; (4) Protect freshwater aquifers from contamination; (5) Support unconsolidated sediments; (6) Provide adequate centralization consistent with the guidelines of API Standard 65\u2014Part 2 (incorporated by reference, see \u00a7 250.198); and (7)(i) Include a certification "
+  },
+  "250.470": {
+   "title": "What additional information must I submit with my APD for Arctic OCS exploratory drilling operations?",
+   "refs": [
+    "250.713",
+    "250.720",
+    "250.472",
+    "250.471",
+    "250.198"
+   ],
+   "history": "[81 FR 46561, July 15, 2016, as amended at 91 FR 35351, June 10, 2026]",
+   "amended_years": [
+    2016,
+    2026
+   ],
+   "text": "What additional information must I submit with my APD for Arctic OCS exploratory drilling operations? In addition to complying with all other applicable requirements included in this part, you must provide with your APD all of the following information pertaining to your proposed Arctic OCS exploratory drilling: (a) A detailed description of: (1) The environmental, meteorological, and oceanic conditions you expect to encounter at the well site(s); (2) How you will prepare your equipment, materials, and drilling unit for service in the conditions identified in paragraph (a)(1) of this section, and how your drilling unit will be in compliance with the requirements of \u00a7 250.713. (b) A detailed description of all operations necessary in Arctic OCS conditions to transition the rig from being un"
+  },
+  "250.901": {
+   "title": "What industry standards must your platform meet?",
+   "refs": [
+    "250.198",
+    "250.141"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 81 FR 36150, June 6, 2016; 91 FR 35358, June 10, 2026]",
+   "amended_years": [
+    2011,
+    2016,
+    2026
+   ],
+   "text": "What industry standards must your platform meet? (a) In addition to the other requirements of this subpart, your plans for platform design, analysis, fabrication, installation, use, maintenance, inspection and assessment must, as appropriate, conform to: (1) ACI Standard 318-95, Building Code Requirements for Reinforced Concrete (ACI 318-95) and Commentary (ACI 318R-95) (incorporated by reference, see \u00a7 250.198); (2) ACI 357R-84, Guide for the Design and Construction of Fixed Offshore Concrete Structures, 1984; reapproved 1997 (incorporated by reference, see \u00a7 250.198); (3) ANSI/AISC 360-05, Specification for Structural Steel Buildings, (incorporated by reference, see \u00a7 250.198); (4) API Recommended Practice 2A-WSD (incorporated by reference, see \u00a7 250.198); (5) API Recommended Practice 2F"
+  },
+  "250.1203": {
+   "title": "Gas measurement.",
+   "refs": [
+    "250.125",
+    "250.1202",
+    "250.198"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 77 FR 18922, Mar. 29, 2012; 85 FR 84237, Dec. 28, 2020; 91 FR 35361, June 10, 2026]",
+   "amended_years": [
+    2011,
+    2012,
+    2020,
+    2026
+   ],
+   "text": "Gas measurement. (a) To which meters do BSEE requirements for gas measurement apply? BSEE requirements for gas measurements apply to all OCS gas royalty and allocation meters. (b) What are the requirements for measuring gas? You must: (1) Submit a written application to, and obtain approval from, the Regional Supervisor before commencing gas production, or making any changes to the previously-approved measurement and/or allocation procedures. Your application (which may also include any relevant liquid hydrocarbon measurement and surface commingling requests) must be accompanied by payment of the service fee listed in \u00a7 250.125. The service fees are divided into two levels based on complexity, see table in \u00a7 250.1202(a)(1). (2) Design, install, use, maintain, and test measurement equipment"
+  },
+  "250.1002": {
+   "title": "Design requirements for DOI pipelines.",
+   "refs": [
+    "250.198"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 83 FR 49263, Sept. 28, 2018; 91 FR 35359, June 10, 2026]",
+   "amended_years": [
+    2011,
+    2018,
+    2026
+   ],
+   "text": "Design requirements for DOI pipelines. (a) The internal design pressure for steel pipe shall be determined in accordance with the following formula: Formula 1 to Paragraph ( a ) For limitations see section 841.121 of ANSI B31.8 (incorporated by reference, see \u00a7 250.198) where\u2014 P = Internal design pressure in pounds per square inch (psi). S = Specified minimum yield strength, in psi, stipulated in the specification under which the pipe was purchased from the manufacturer or determined in accordance with section 811.253(h) of ANSI B31.8. D = Nominal outside diameter of pipe, in inches. t = Nominal wall thickness, in inches. F = Construction design factor of 0.72 for the submerged component and 0.60 for the riser component. E = Longitudinal joint factor obtained from Table 841.1B of ANSI B31."
+  },
+  "250.1201": {
+   "title": "Definitions.",
+   "refs": [
+    "250.198"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 91 FR 35360, June 10, 2026]",
+   "amended_years": [
+    2011,
+    2026
+   ],
+   "text": "Definitions. Terms not defined in this section have the meanings given in the applicable chapter of the API MPMS, which is incorporated by reference in \u00a7 250.198. Terms used in Subpart L have the following meaning: Allocation meter \u2014a meter used to determine the portion of hydrocarbons attributable to one or more platforms, leases, units, or wells, in relation to the total production from a royalty or allocation measurement point. British Thermal Unit (Btu) \u2014the amount of heat needed to raise the temperature of one pound of water from 59.5 degrees Fahrenheit (59.5 \u00b0F) to 60.5 degrees Fahrenheit (60.5 \u00b0F) at standard pressure base (14.73 pounds per square inch absolute (psia)). Compositional Analysis \u2014separating mixtures into identifiable components expressed in mole percent. Force majeure "
+  },
+  "250.1202": {
+   "title": "Liquid hydrocarbon measurement.",
+   "refs": [
+    "250.125",
+    "250.198"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 77 FR 18921, Mar. 29, 2012; 91 FR 35360, June 10, 2026]",
+   "amended_years": [
+    2011,
+    2012,
+    2026
+   ],
+   "text": "Liquid hydrocarbon measurement. (a) What are the requirements for measuring liquid hydrocarbons? You must: (1) Submit a written application to, and obtain approval from, the Regional Supervisor before commencing liquid hydrocarbon production, or making any changes to the previously-approved measurement and/or allocation procedures. Your application (which may also include any relevant gas measurement and surface commingling requests) must be accompanied by payment of the service fee listed in \u00a7 250.125. The service fees are divided into two levels based on complexity as shown in the following table. Application type Actions (i) Simple applications, Applications to temporarily reroute production (for a duration not to exceed six months); Production tests prior to pipeline construction; Depa"
+  },
+  "250.232": {
+   "title": "What are the I3P review requirements for Conceptual Plan reviews?",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "What are the I3P review requirements for Conceptual Plan reviews? In accordance with each applicable Conceptual Plan, the I3P must: (a) Review the following information regarding the applicable equipment and/or system: (1) Basis of Design, technical specification of the equipment (if known at this point in the design process) and functional requirements of the specific project ( e.g., environmental and physical loads (magnitude and frequency)); (2) Risk assessment and failure mode analysis; (3) Material specification, selection, qualification, and testing; (4) Design verification analysis, including: (i) Structural/strength analysis, and (ii) Fatigue assessment and/or analysis. (5) If fatigue is identified as a potential failure mode, as identified in the fatigue assessment and/or analysis"
+  },
+  "250.230": {
+   "title": "When are you required to submit an I3P Report?",
+   "refs": [
+    "250.232"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "When are you required to submit an I3P Report? You must submit to BSEE any I3P reports required in \u00a7 250.232 for any equipment identified in your New or Unusual Technology Barrier Equipment Conceptual Plan and when required by the Regional Supervisor. BSEE will not approve your associated Conceptual Plan until BSEE reviews the required I3P Reports."
+  },
+  "250.916": {
+   "title": "What are the CVA's primary duties during the design phase?",
+   "refs": [
+    "250.911"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "What are the CVA's primary duties during the design phase? (a) The CVA must use good engineering judgment and practices in conducting an independent assessment of the design of the platform, major modification, or repair. The CVA must ensure that the platform, major modification, or repair is designed to withstand the environmental and functional load conditions appropriate for the intended service life at the proposed location. (b) Primary duties of the CVA during the design phase include the following: Type of facility . . . The CVA must . . . (1) For fixed platforms and non-ship-shaped floating facilities, Conduct an independent assessment of all proposed: (i) Planning criteria; (ii) Operational requirements; (iii) Environmental loading data; (iv) Load determinations; (v) Stress analyse"
+  },
+  "250.423": {
+   "title": "What are the requirements for casing and liner installation?",
+   "refs": [],
+   "history": "[81 FR 26019, Apr. 29, 2016, as amended at 84 FR 21974, May 15, 2019]",
+   "amended_years": [
+    2016,
+    2019
+   ],
+   "text": "What are the requirements for casing and liner installation? You must ensure proper installation of casing in the subsea wellhead or liner in the liner hanger. (a) You must ensure that the latching mechanisms or lock down mechanisms are engaged upon successfully installing the casing string. (b) If you run a liner that has a latching mechanism or lock down mechanism, you must ensure that the latching mechanisms or lock down mechanisms are engaged upon successfully installing the liner. (c) You must perform a pressure test on the casing seal assembly to ensure proper installation of casing or liner. You must perform this test for the intermediate and production casing strings or liners. (1) You must submit for approval with your APD, test procedures and criteria for a successful test. (2) Y"
+  },
+  "250.141": {
+   "title": "May I ever use alternate procedures or equipment?",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "May I ever use alternate procedures or equipment? You may use alternate procedures or equipment after receiving approval as described in this section. (a) Any alternate procedures or equipment that you propose to use must provide a level of safety and environmental protection that equals or surpasses current BSEE requirements. (b) You must receive the District Manager's or Regional Supervisor's written approval before you can use alternate procedures or equipment. (c) To receive approval, you must either submit information or give an oral presentation to the appropriate Regional Supervisor. Your presentation must describe the site-specific application(s), performance characteristics, and safety features of the proposed procedure or equipment."
+  },
+  "250.421": {
+   "title": "What are the casing and cementing requirements by type of casing string?",
+   "refs": [],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 81 FR 26018, Apr. 29, 2016; 84 FR 21974, May 15, 2019]",
+   "amended_years": [
+    2011,
+    2016,
+    2019
+   ],
+   "text": "What are the casing and cementing requirements by type of casing string? The table in this section identifies specific design, setting, and cementing requirements for casing strings and liners. For the purposes of subpart D, the casing strings in order of normal installation are as follows: drive or structural, conductor, surface, intermediate, and production casings (including liners). The District Manager may approve or prescribe other casing and cementing requirements where appropriate. Casing type Casing requirements Cementing requirements (a) Drive or Structural Set by driving, jetting, or drilling to the minimum depth as approved or prescribed by the District Manager If you drilled a portion of this hole, you must use enough cement to fill the annular space back to the mudline. (b) C"
+  },
+  "250.720": {
+   "title": "When and how must I secure a well?",
+   "refs": [
+    "250.721",
+    "250.141",
+    "250.734",
+    "250.731",
+    "250.420"
+   ],
+   "history": "[81 FR 26022, Apr. 29, 2016, as amended at 81 FR 46563, July 15, 2016; 84 FR 21976, May 15, 2019]",
+   "amended_years": [
+    2016,
+    2019
+   ],
+   "text": "When and how must I secure a well? (a) Whenever you interrupt operations, you must notify the District Manager. Before moving off the well, you must have two independent barriers installed, at least one of which must be a mechanical barrier, as approved by the District Manager. You must install the barriers at appropriate depths within a properly cemented casing string or liner. Before removing a subsea BOP stack or surface BOP stack on a mudline suspension well, you must conduct a negative pressure test in accordance with \u00a7 250.721. (1) The events that would cause you to interrupt operations and notify the District Manager include, but are not limited to, the following: (i) Evacuation of the rig crew; (ii) Inability to keep the rig on location; (iii) Repair to major rig or well-control eq"
+  },
+  "250.472": {
+   "title": "What are the relief rig requirements for the Arctic OCS?",
+   "refs": [
+    "250.141"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "What are the relief rig requirements for the Arctic OCS? (a) In the event of a loss of well control, the Regional Supervisor may direct you to drill a relief well using the relief rig able to kill and permanently plug an out-of-control well as described in your APD. Your relief rig must comply with all other requirements of this part pertaining to drill rig characteristics and capabilities, and it must be able to drill a relief well under anticipated Arctic OCS conditions. (b) When you are drilling below or working below the surface casing during Arctic OCS exploratory drilling operations, you must have access to a relief rig, different from your primary drilling rig, staged in a location such that it can arrive on site, drill a relief well, kill and abandon the original well, and abandon "
+  },
+  "250.471": {
+   "title": "What are the requirements for Arctic OCS source control and containment?",
+   "refs": [
+    "250.465",
+    "250.470",
+    "250.141"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "What are the requirements for Arctic OCS source control and containment? You must meet the following requirements for all exploration wells drilled on the Arctic OCS: (a) If you use a MODU when drilling below or working below the surface casing, you must have access to the following SCCE capable of stopping or capturing the flow of an out-of-control well: (1) A capping stack, positioned to ensure that it will arrive at the well location within 24 hours after a loss of well control and can be deployed as directed by the Regional Supervisor pursuant to paragraph (h) of this section; (2) A cap and flow system, positioned to ensure that it will arrive at the well location within 7 days after a loss of well control and can be deployed as directed by the Regional Supervisor pursuant to paragraph"
+  },
+  "250.125": {
+   "title": "Service fees.",
+   "refs": [
+    "250.171",
+    "250.410",
+    "250.513",
+    "250.613",
+    "250.1704",
+    "250.198",
+    "250.842",
+    "250.905"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 77 FR 50891, Aug. 22, 2012; 78 FR 60213, Oct. 1, 2013; 81 FR 26014, Apr. 29, 2016; 81 FR 61916, Sept. 7, 2016; 87 FR 19803, Apr. 6, 2022; 89 FR 71111, Aug. 30, 2024; 91 FR 35346, June 10, 2026]",
+   "amended_years": [
+    2011,
+    2012,
+    2013,
+    2016,
+    2022,
+    2024,
+    2026
+   ],
+   "text": "Service fees. (a) The table in this paragraph (a) shows the fees that you must pay to BSEE for the services listed. The fees will be adjusted periodically according to the Implicit Price Deflator for Gross Domestic Product by publication of a document in the Federal Register. If a significant adjustment is needed to arrive at the new actual cost for any reason other than inflation, then a proposed rule containing the new fees will be published in the Federal Register for comment. Service\u2014processing of the following: Fee amount 30 CFR citation (1) Suspension of Operations/Suspension of Production (SOO/SOP) Request $2,469 \u00a7 250.171(e). (2) Deepwater Operations Plan (DWOP) Process: (i) Project Conceptual Plan $2,697 250.226. (ii) New or Unusual Technology Conceptual Plan 7,964 250.226. (iii) "
+  },
+  "250.911": {
+   "title": "If my platform is subject to the Platform Verification Program, what must I do?",
+   "refs": [
+    "250.910",
+    "250.901",
+    "250.904",
+    "250.912",
+    "250.916",
+    "250.913"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "If my platform is subject to the Platform Verification Program, what must I do? If your platform, conversion, or major modification or repair meets the criteria in \u00a7 250.910, you must: (a) Design, fabricate, install, use, maintain and inspect your platform, conversion, or major modification or repair to your platform according to the requirements of this subpart, and the applicable documents listed in \u00a7 250.901(a) of this subpart; (b) Comply with all the requirements of the Platform Approval Program found in \u00a7\u00a7 250.904 through 250.908 of this subpart. (c) Submit for the Regional Supervisor's approval three copies each of the design verification, fabrication verification, and installation verification plans required by \u00a7 250.912; (d) Submit a complete schedule of all phases of design, fabri"
+  },
+  "250.721": {
+   "title": "What are the requirements for pressure testing casing and liners?",
+   "refs": [
+    "250.420"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "What are the requirements for pressure testing casing and liners? (a) You must test each casing string that extends to the wellhead according to the following table: Casing type Minimum test pressure (1) Drive or Structural, Not required. (2) Conductor, excluding subsea wellheads, 250 psi. (3) Surface, Intermediate, and Production, 70 percent of its minimum internal yield. (b) You must test each drilling liner and liner-top to a pressure at least equal to the anticipated leak-off pressure of the formation below that liner shoe, or subsequent liner shoes if set. You must conduct this test before you continue operations in the well. (c) You must test each production liner and liner-top to a minimum of 500 psi above the formation fracture pressure at the casing shoe into which the liner is la"
+  },
+  "250.734": {
+   "title": "What are the requirements for a subsea BOP system?",
+   "refs": [
+    "250.198"
+   ],
+   "history": "[81 FR 26022, Apr. 29, 2016, as amended at 84 FR 21980, May 15, 2019; 88 FR 57408, Aug. 23, 2023; 91 FR 35352, June 10, 2026]",
+   "amended_years": [
+    2016,
+    2019,
+    2023,
+    2026
+   ],
+   "text": "What are the requirements for a subsea BOP system? (a) When you drill or conduct operations with a subsea BOP system, you must install the BOP system before drilling to deepen the well below the surface casing or before conducting operations if the well is already deepened beyond the surface casing point. The District Manager may require you to install a subsea BOP system before drilling or conducting operations below the conductor casing if proposed casing setting depths or local geology indicate the need. The following table outlines your requirements. When operating with a subsea BOP system, you must: Additional requirements: (1) Have at least five remote-controlled, hydraulically operated BOPs; You must have at least one annular BOP, two BOPs equipped with pipe rams, and two BOPs equip"
+  },
+  "250.465": {
+   "title": "When must I submit an Application for Permit to Modify (APM) or an End of Operations Report to BSEE?",
+   "refs": [
+    "250.412",
+    "250.125",
+    "250.744"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 81 FR 26021, Apr. 29, 2016]",
+   "amended_years": [
+    2011,
+    2016
+   ],
+   "text": "When must I submit an Application for Permit to Modify (APM) or an End of Operations Report to BSEE? (a) You must submit an APM (form BSEE-0124) or an End of Operations Report (form BSEE-0125) and other materials to the Regional Supervisor as shown in the following table. You must also submit a public information copy of each form. When you . . . Then you must . . . And . . . (1) Intend to revise your drilling plan, change major drilling equipment, or plugback, Submit form BSEE-0124 or request oral approval, Receive written or oral approval from the District Manager before you begin the intended operation. If you get an approval, you must submit form BSEE-0124 no later than the end of the 3rd business day following the oral approval. In all cases, or you must meet the additional requiremen"
+  },
+  "250.171": {
+   "title": "How do I request a suspension?",
+   "refs": [
+    "250.125"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 82 FR 26744, June 9, 2017; 91 FR 35346, June 10, 2026]",
+   "amended_years": [
+    2011,
+    2017,
+    2026
+   ],
+   "text": "How do I request a suspension? You must submit your request for a suspension to the Regional Supervisor, and BSEE must receive the request before the end of the lease term ( i.e., end of primary term, end of the 1-year period following the last leaseholding operation, and end of a current suspension). Your request must include: (a) The justification for the suspension including the length of suspension requested; (b) A reasonable schedule of work leading to the commencement or restoration of the suspended activity; (c) A statement that a well has been drilled on the lease and determined to be producible according to 30 CFR 550.115 or 30 CFR 550.116; (d) A commitment to production (SOP only); and (e) The service fee listed in \u00a7 250.125 of this subpart. [76 FR 64462, Oct. 18, 2011, as amende"
+  },
+  "250.410": {
+   "title": "How do I obtain approval to drill a well?",
+   "refs": [
+    "250.411",
+    "250.186",
+    "250.125"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "How do I obtain approval to drill a well? You must obtain written approval from the District Manager before you begin drilling any well or before you sidetrack, bypass, or deepen a well. To obtain approval, you must: (a) Submit the information required by \u00a7\u00a7 250.411 through 250.418; (b) Include the well in your approved Exploration Plan (EP), Development and Production Plan (DPP), or Development Operations Coordination Document (DOCD); (c) Meet the oil spill financial responsibility requirements for offshore facilities as required by 30 CFR part 553; and (d) Submit the following to the District Manager: (1) An original and two complete copies of Form BSEE-0123, Application for Permit to Drill (APD), and Form BSEE-0123S, Supplemental APD Information Sheet; (2) A separate public information "
+  },
+  "250.513": {
+   "title": "Approval and reporting of well-completion operations.",
+   "refs": [
+    "250.410",
+    "250.731",
+    "250.490",
+    "250.125",
+    "250.186"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 77 FR 50894, Aug. 22, 2012; 81 FR 26021, Apr. 29, 2016]",
+   "amended_years": [
+    2011,
+    2012,
+    2016
+   ],
+   "text": "Approval and reporting of well-completion operations. (a) No well-completion operation may begin until the lessee receives written approval from the District Manager. If completion is planned and the data are available at the time you submit the Application for Permit to Drill and Supplemental APD Information Sheet (Forms BSEE-0123 and BSEE-0123S), you may request approval for a well-completion on those forms (see \u00a7\u00a7 250.410 through 250.418 of this part). If the District Manager has not approved the completion or if the completion objective or plans have significantly changed, you must submit an Application for Permit to Modify (Form BSEE-0124) for approval of such operations. (b) You must submit the following with Form BSEE-0124 (or with Form BSEE-0123; Form BSEE-0123S): (1) A brief descr"
+  },
+  "250.613": {
+   "title": "Approval and reporting for well-workover operations.",
+   "refs": [
+    "250.601",
+    "250.731",
+    "250.490",
+    "250.125"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 77 FR 50895, Aug. 22, 2012; 81 FR 26021, Apr. 29, 2016]",
+   "amended_years": [
+    2011,
+    2012,
+    2016
+   ],
+   "text": "Approval and reporting for well-workover operations. (a) No well-workover operation except routine ones, as defined in \u00a7 250.601 of this part, shall begin until the lessee receives written approval from the District Manager. Approval for these operations must be requested on Form BSEE-0124, Application for Permit to Modify. (b) You must submit the following with Form BSEE-0124: (1) A brief description of the well-workover procedures to be followed, a statement of the expected surface pressure, and type and weight of workover fluids; (2) When changes in existing subsurface equipment are proposed, a schematic drawing of the well showing the zone proposed for workover and the workover equipment to be used; (3) All information required in \u00a7 250.731. (4) Where the well-workover is in a zone kno"
+  },
+  "250.1704": {
+   "title": "What decommissioning applications and reports must I submit and when must I submit them?",
+   "refs": [
+    "250.1726",
+    "250.1708",
+    "250.1727",
+    "250.1729",
+    "250.1751",
+    "250.1752",
+    "250.1753",
+    "250.1743",
+    "250.125",
+    "250.1712",
+    "250.731",
+    "250.1722",
+    "250.1723"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 77 FR 50896, Aug. 22, 2012; 80 FR 75810, Dec. 4, 2015; 81 FR 26037, Apr. 29, 2016; 81 FR 80591, Nov. 16, 2016; 84 FR 21984, May 15, 2019; 88 FR 23580, Apr. 18, 2023; 90 FR 44327, Sept. 15, 2025]",
+   "amended_years": [
+    2011,
+    2012,
+    2015,
+    2016,
+    2019,
+    2023,
+    2025
+   ],
+   "text": "What decommissioning applications and reports must I submit and when must I submit them? You must submit decommissioning applications, receive approval of those applications, and submit subsequent reports according to the requirements and deadlines in the following table. Decommissioning Applications and Reports Table Decommissioning applications and reports When to submit Instructions (a) Initial platform removal application [not required in the Gulf of America OCS Region] In the Pacific OCS Region or Alaska OCS Region, submit the application to the Regional Supervisor at least 2 years before production is projected to cease Include information required under \u00a7 250.1726. (b) Submit decommissioning plan per \u00a7 250.1708(a)(3) that addresses all wells, platforms and other facilities, pipeline"
+  },
+  "250.842": {
+   "title": "Approval of safety systems design and installation features.",
+   "refs": [
+    "250.198",
+    "250.125"
+   ],
+   "history": "[84 FR 24705, May 29, 2019, as amended at 91 FR 35353, June 10, 2026]",
+   "amended_years": [
+    2019,
+    2026
+   ],
+   "text": "Approval of safety systems design and installation features. (a) Before you install or modify a production safety system, you must submit a production safety system application to the District Manager. The District Manager must approve your production safety system application before you commence production through or otherwise use the new or modified system. The application must include the design documentation prescribed as follows: You must submit: Details and/or additional requirements: (1) Safety analysis flow diagram (API Recommended Practice 14C, Annex B) and Safety Analysis Function Evaluation (SAFE) chart (API Recommended Practice 14C, section 6.3.3) (incorporated by reference, see \u00a7 250.198); Your safety analysis flow diagram must show the following: (i) Well shut-in tubing press"
+  },
+  "250.905": {
+   "title": "How do I get approval for the installation, modification, or repair of my platform?",
+   "refs": [
+    "250.901",
+    "250.198",
+    "250.906"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "How do I get approval for the installation, modification, or repair of my platform? The Platform Approval Program requires that you submit the information, documents, and fee listed in the following table for your proposed project. In lieu of submitting the paper copies specified in the table, you may submit your application electronically in accordance with 30 CFR 250.186(a)(3). Required submittal Required contents Other requirements (a) Application cover letter Proposed structure designation, lease number, area, name, and block number, and the type of facility your facility (e.g., drilling, production, quarters). The structure designation must be unique for the field (some fields are made up of several blocks); i.e. once a platform \u201cA\u201d has been used in the field there should never be ano"
+  },
+  "250.910": {
+   "title": "Which of my facilities are subject to the Platform Verification Program?",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Which of my facilities are subject to the Platform Verification Program? (a) All new fixed or bottom-founded platforms that meet any of the following five conditions are subject to the Platform Verification Program: (1) Platforms installed in water depths exceeding 400 feet (122 meters); (2) Platforms having natural periods in excess of 3 seconds; (3) Platforms installed in areas of unstable bottom conditions; (4) Platforms having configurations and designs which have not previously been used or proven for use in the area; or (5) Platforms installed in seismically active areas. (b) All new floating platforms are subject to the Platform Verification Program to the extent indicated in the following table: If . . . Then . . . (1) Your new floating platform is a buoyant offshore facility that "
+  },
+  "250.904": {
+   "title": "What is the Platform Approval Program?",
+   "refs": [
+    "250.909"
+   ],
+   "history": "[81 FR 26022, Apr. 29, 2016, as amended at 90 FR 44327, Sept. 15, 2025]",
+   "amended_years": [
+    2016,
+    2025
+   ],
+   "text": "What is the Platform Approval Program? (a) The Platform Approval Program is the BSEE basic approval process for platforms on the OCS. The requirements of the Platform Approval Program are described in \u00a7\u00a7 250.904 through 250.908 of this subpart. Completing these requirements will satisfy BSEE criteria for approval of fixed platforms of a proven design that will be placed in the shallow water areas (\u2264400 ft.) of the Gulf of America OCS. (b) The requirements of the Platform Approval Program must be met by all platforms on the OCS. Additionally, if you want approval for a floating platform; a platform of unique design; or a platform being installed in deepwater (&gt; 400 ft.) or a frontier area, you must also meet the requirements of the Platform Verification Program. The requirements of the P"
+  },
+  "250.912": {
+   "title": "What plans must I submit under the Platform Verification Program?",
+   "refs": [
+    "250.910",
+    "250.905"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "What plans must I submit under the Platform Verification Program? If your platform, associated structure, or major modification meets the criteria in \u00a7 250.910, you must submit the following plans to the Regional Supervisor for approval: (a) Design verification plan. You may submit your design verification plan to BSEE with or subsequent to the submittal of your Development and Production Plan (DPP) or Development Operations Coordination Document (DOCD) to BOEM. Your design verification must be conducted by, or be under the direct supervision of, a registered professional civil or structural engineer or equivalent, or a naval architect or marine engineer or equivalent, with previous experience in directing the design of similar facilities, systems, structures, or equipment. For floating pl"
+  },
+  "250.913": {
+   "title": "When must I resubmit Platform Verification Program plans?",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "When must I resubmit Platform Verification Program plans? (a) You must resubmit any design verification, fabrication verification, or installation verification plan to the Regional Supervisor for approval if: (1) The CVA changes; (2) The CVA's or assigned personnel's qualifications change; or (3) The level of work to be performed changes. (b) If only part of a verification plan is affected by one of the changes described in paragraph (a) of this section, you can resubmit only the affected part. You do not have to resubmit the summary of technical details unless you make changes in the technical details."
+  },
+  "250.744": {
+   "title": "What are the end of operation reporting requirements?",
+   "refs": [
+    "250.601",
+    "250.186"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "What are the end of operation reporting requirements? (a) Within 30 days after completing operations, except routine operations as defined in \u00a7 250.601, you must submit Form BSEE-0125, End of Operations Report (EOR), to the District Manager. The EOR must include: a listing, with top and bottom depths, of all hydrocarbon zones and other zones of porosity encountered with any cored intervals; details on any drill-stem and formation tests conducted; documentation of successful negative pressure testing on wells that use a subsea BOP stack or wells with mudline suspension systems; and an updated schematic of the full wellbore configuration. The schematic must be clearly labeled and show all applicable top and bottom depths, locations and sizes of all casings, cut casing or stubs, casing perfor"
+  },
+  "250.186": {
+   "title": "What reporting information and report forms must I submit?",
+   "refs": [
+    "250.197"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "What reporting information and report forms must I submit? (a) You must submit information and reports as BSEE requires. (1) You may obtain copies of forms from, and submit completed forms to, the District Manager or Regional Supervisor. (2) Instead of paper copies of forms available from the District Manager or Regional Supervisor, you may use your own computer-generated forms that are equal in size to BSEE's forms. You must arrange the data on your form identical to the BSEE form. If you generate your own form and it omits terms and conditions contained on the official BSEE form, we will consider it to contain the omitted terms and conditions. (3) You may submit digital data when the Region/District is equipped to accept it. (b) When BSEE specifies, you must include, for public informati"
+  },
+  "250.601": {
+   "title": "Definitions.",
+   "refs": [],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 84 FR 21976, May 15, 2019]",
+   "amended_years": [
+    2011,
+    2019
+   ],
+   "text": "Definitions. When used in this subpart, the following terms shall have the meanings given below: Expected surface pressure means the highest pressure predicted to be exerted upon the surface of a well. In calculating expected surface pressure, you must consider reservoir pressure as well as applied surface pressure. Routine operations mean any of the following operations conducted on a well with the tree installed: (a) Cutting paraffin; (b) Removing and setting pump-through-type tubing plugs, gas-lift valves, and subsurface safety valves which can be removed by wireline operations; (c) Bailing sand; (d) Pressure surveys; (e) Swabbing; (f) Scale or corrosion treatment; (g) Caliper and gauge surveys; (h) Corrosion inhibitor treatment; (i) Removing or replacing subsurface pumps; (j) Through-t"
+  },
+  "250.1726": {
+   "title": "When must I submit an initial platform removal application and what must it include?",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "When must I submit an initial platform removal application and what must it include? An initial platform removal application is required only for leases and pipeline rights-of-way in the Pacific OCS Region or the Alaska OCS Region. It must include the following information: (a) Platform or other facility removal procedures, including the types of vessels and equipment you will use; (b) Facilities (including pipelines) you plan to remove or leave in place; (c) Platform or other facility transportation and disposal plans; (d) Plans to protect marine life and the environment during decommissioning operations, including a brief assessment of the environmental impacts of the operations, and procedures and mitigation measures that you will take to minimize the impacts; and (e) A projected decomm"
+  },
+  "250.1708": {
+   "title": "How will BSEE enforce accrued decommissioning obligations against predecessors?",
+   "refs": [],
+   "history": "[88 FR 23580, Apr. 18, 2023]",
+   "amended_years": [
+    2023
+   ],
+   "text": "How will BSEE enforce accrued decommissioning obligations against predecessors? (a) When BSEE issues an order to predecessors to perform accrued decommissioning obligations, the order recipients must, unless otherwise specified in the order: (1) Within 30 days of receiving the order, begin maintaining and monitoring, through a single entity identified to BSEE, any facility, including wells and pipelines, as identified by BSEE in the order and in accordance with applicable requirements under this part (including, but not limited to, testing safety valves and sensors, draining vessels, and performing pollution inspections); (2) Within 90 days of receiving the order, designate a single entity to serve as operator or agent for the decommissioning operations; (3) Within 150 days of receiving th"
+  },
+  "250.1727": {
+   "title": "What information must I include in my final application to remove a platform or other facility?",
+   "refs": [
+    "250.125"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "What information must I include in my final application to remove a platform or other facility? You must submit to the Regional Supervisor, a final application for approval to remove a platform or other facility. Your application must be accompanied by payment of the service fee listed in \u00a7 250.125. If you are proposing to use explosives, provide three copies of the application. If you are not proposing to use explosives, provide two copies of the application. Include the following information in the final removal application, as applicable: (a) Identification of the applicant including: (1) Lease operator/pipeline right-of-way holder; (2) Address; (3) Contact person and telephone number; and (4) Shore base. (b) Identification of the structure you are removing including: (1) Platform Name/"
+  },
+  "250.1729": {
+   "title": "After I remove a platform or other facility, what information must I submit?",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "After I remove a platform or other facility, what information must I submit? Within 30 days after you remove a platform or other facility, you must submit a written report to the Regional Supervisor that includes the following: (a) A summary of the removal operation including the date it was completed; (b) A description of any mitigation measures you took; and (c) A statement signed by your authorized representative that certifies that the types and amount of explosives you used in removing the platform or other facility were consistent with those set forth in the approved removal application."
+  },
+  "250.1751": {
+   "title": "How do I decommission a pipeline in place?",
+   "refs": [
+    "250.125"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "How do I decommission a pipeline in place? You must do the following to decommission a pipeline in place: (a) Submit a pipeline decommissioning application in triplicate to the Regional Supervisor for approval. Your application must be accompanied by payment of the service fee listed in \u00a7 250.125. Your application must include the following information: (1) Reason for the operation; (2) Proposed decommissioning procedures; (3) Length (feet) of segment to be decommissioned; and (4) Length (feet) of segment remaining. (b) Pig the pipeline, unless the Regional Supervisor determines that pigging is not practical; (c) Flush the pipeline; (d) Fill the pipeline with seawater; (e) Cut and plug each end of the pipeline; (f) Bury each end of the pipeline at least 3 feet below the seafloor or cover e"
+  },
+  "250.1752": {
+   "title": "How do I remove a pipeline?",
+   "refs": [
+    "250.125"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "How do I remove a pipeline? Before removing a pipeline, you must: (a) Submit a pipeline removal application in triplicate to the Regional Supervisor for approval. Your application must be accompanied by payment of the service fee listed in \u00a7 250.125. Your application must include the following information: (1) Proposed removal procedures; (2) If the Regional Supervisor requires it, a description, including anchor pattern(s), of the vessel(s) you will use to remove the pipeline; (3) Length (feet) to be removed; (4) Length (feet) of the segment that will remain in place; (5) Plans for transportation of the removed pipe for disposal or salvage; (6) Plans to protect archaeological and sensitive biological features during removal operations, including a brief assessment of the environmental imp"
+  },
+  "250.1753": {
+   "title": "After I decommission a pipeline, what information must I submit?",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "After I decommission a pipeline, what information must I submit? Within 30 days after you decommission a pipeline, you must submit a written report to the Regional Supervisor that includes the following: (a) A summary of the decommissioning operation including the date it was completed; (b) A description of any mitigation measures you took; and (c) A statement signed by your authorized representative that certifies that the pipeline was decommissioned according to the approved application."
+  },
+  "250.1743": {
+   "title": "How do I certify that a site is clear of obstructions?",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "How do I certify that a site is clear of obstructions? (a) For a well site, you must submit to the appropriate District Manager within 30 days after you complete the verification activities a form BSEE-0124, Application for Permit to Modify, to include the following information: (1) A signed certification that the well site area is cleared of all obstructions; (2) The date the verification work was performed and the vessel used; (3) The extent of the area surveyed; (4) The survey method used; (5) The results of the survey, including a list of any debris removed or a statement from the trawling contractor that no objects were recovered; and (6) A post-trawling job plot or map showing the trawled area. (b) For a platform or other facility site, you must submit the following information to th"
+  },
+  "250.1712": {
+   "title": "What information must I submit before I permanently plug a well or zone?",
+   "refs": [
+    "250.1715",
+    "250.420"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 77 FR 50900, Aug. 22, 2012]",
+   "amended_years": [
+    2011,
+    2012
+   ],
+   "text": "What information must I submit before I permanently plug a well or zone? Before you permanently plug a well or zone, you must submit form BSEE-0124, Application for Permit to Modify, to the appropriate District Manager and receive approval. A request for approval must contain the following information: (a) The reason you are plugging the well (or zone), for completions with production amounts specified by the Regional Supervisor, along with substantiating information demonstrating its lack of capacity for further profitable production of oil, gas, or sulfur; (b) Recent well test data and pressure data, if available; (c) Maximum possible surface pressure, and how it was determined; (d) Type and weight of well-control fluid you will use; (e) A description of the work; (f) A current and propo"
+  },
+  "250.1722": {
+   "title": "If I install a subsea protective device, what requirements must I meet?",
+   "refs": [
+    "250.1721",
+    "250.1741"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 84 FR 21985, May 15, 2019]",
+   "amended_years": [
+    2011,
+    2019
+   ],
+   "text": "If I install a subsea protective device, what requirements must I meet? If you install a subsea protective device under \u00a7 250.1721(f)(3), you must install it in a manner that allows fishing gear to pass over the obstruction without damage to the obstruction, the protective device, or the fishing gear. (a) Use form BSEE-0124, Application for Permit to Modify to request approval from the appropriate District Manager to install a subsea protective device. (b) The protective device may not extend more than 10 feet above the seafloor (unless BSEE approves otherwise). (c) You must trawl over the protective device when you install it (adhere to the requirements at \u00a7 250.1741(d) through (h)). If the trawl does not pass over the protective device or causes damage to it, you must notify the appropri"
+  },
+  "250.1723": {
+   "title": "What must I do when it is no longer necessary to maintain a well in temporary abandoned status?",
+   "refs": [
+    "250.1715",
+    "250.1740"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "What must I do when it is no longer necessary to maintain a well in temporary abandoned status? If you or BSEE determines that continued maintenance of a well in a temporary abandoned status is not necessary for the proper development or production of a lease, you must: (a) Promptly and permanently plug the well according to \u00a7 250.1715; (b) Remove any casing stub or mud line suspension equipment and any subsea protective covering. You must submit a request for approval to perform such work to the appropriate District Manager using form BSEE-0124, Application for Permit to Modify; and (c) Clear the well site according to \u00a7\u00a7 250.1740 through 250.1742. Removing Platforms and Other Facilities"
+  },
+  "250.906": {
+   "title": "What must I do to obtain approval for the proposed site of my platform?",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "What must I do to obtain approval for the proposed site of my platform? (a) Shallow hazards surveys. You must perform a high-resolution or acoustic-profiling survey to obtain information on the conditions existing at and near the surface of the seafloor. You must collect information through this survey sufficient to determine the presence of the following features and their likely effects on your proposed platform: (1) Shallow faults; (2) Gas seeps or shallow gas; (3) Slump blocks or slump sediments; (4) Shallow water flows; (5) Hydrates; or (6) Ice scour of seafloor sediments. (b) Geologic surveys. You must perform a geological survey relevant to the design and siting of your platform. Your geological survey must assess: (1) Seismic activity at your proposed site; (2) Fault zones, the ext"
+  },
+  "250.909": {
+   "title": "What is the Platform Verification Program?",
+   "refs": [
+    "250.904"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "What is the Platform Verification Program? The Platform Verification Program is the BSEE approval process for ensuring that floating platforms; platforms of a new or unique design; platforms in seismic areas; or platforms located in deepwater or frontier areas meet stringent requirements for design and construction. The program is applied during construction of new platforms and major modifications of, or repairs to, existing platforms. These requirements are in addition to the requirements of the Platform Approval Program described in \u00a7\u00a7 250.904 through 250.908 of this subpart."
+  },
+  "250.197": {
+   "title": "Data and information to be made available to the public or for limited inspection.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Data and information to be made available to the public or for limited inspection. BSEE will protect data and information that you submit under this part, and 30 CFR part 203, as described in this section. Paragraphs (a) and (b) of this section describe what data and information will be made available to the public without the consent of the lessee, under what circumstances, and in what time period. Paragraph (c) of this section describes what data and information will be made available for limited inspection without the consent of the lessee, and under what circumstances. (a) All data and information you submit on BSEE forms will be made available to the public upon submission, except as specified in the following table: On form . . . Data and information not immediately available are . ."
+  },
+  "250.1715": {
+   "title": "How must I permanently plug a well?",
+   "refs": [],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 77 FR 50900, Aug. 22, 2012; 81 FR 26038, Apr. 29, 2016]",
+   "amended_years": [
+    2011,
+    2012,
+    2016
+   ],
+   "text": "How must I permanently plug a well? (a) You must permanently plug wells according to the table in this section. The District Manager may require additional well plugs as necessary. Permanent Well Plugging Requirements If you have . . . Then you must use . . . (1) Zones in open hole, Cement plug(s) set from at least 100 feet below the bottom to 100 feet above the top of oil, gas, and fresh-water zones to isolate fluids in the strata (2) Open hole below casing, (i) A cement plug, set by the displacement method, at least 100 feet above and below deepest casing shoe; (ii) A cement retainer with effective back-pressure control set 50 to 100 feet above the casing shoe, and a cement plug that extends at least 100 feet below the casing shoe and at least 50 feet above the retainer; or (iii) A bridg"
+  },
+  "250.1721": {
+   "title": "If I temporarily abandon a well that I plan to re-enter, what must I do?",
+   "refs": [
+    "250.1712",
+    "250.1715",
+    "250.1722",
+    "250.420"
+   ],
+   "history": "[76 FR 64462, Oct. 18, 2011, as amended at 77 FR 50900, Aug. 22, 2012; 81 FR 26038, Apr. 29, 2016]",
+   "amended_years": [
+    2011,
+    2012,
+    2016
+   ],
+   "text": "If I temporarily abandon a well that I plan to re-enter, what must I do? You may temporarily abandon a well when it is necessary for proper development and production of a lease. To temporarily abandon a well, you must do all of the following: (a) Submit form BSEE-0124, Application for Permit to Modify, and the applicable information required by \u00a7 250.1712 to the appropriate District Manager and receive approval; (b) Adhere to the plugging and testing requirements for permanently plugged wells listed in the table in \u00a7 250.1715, except for \u00a7 250.1715(a)(8). You do not need to sever the casings, remove the wellhead, or clear the site; (c) Set a bridge plug or a cement plug at least 100-feet long at the base of the deepest casing string, unless the casing string has been cemented and has not "
+  },
+  "250.1741": {
+   "title": "If I drag a trawl across a site, what requirements must I meet?",
+   "refs": [
+    "250.1740"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "If I drag a trawl across a site, what requirements must I meet? If you drag a trawl across the site in accordance with \u00a7 250.1740, you must meet all of the requirements of this section. (a) You must drag the trawl in a grid-like pattern as shown in the following table: For a . . . You must drag the trawl across a . . . (1) Well site, 300-foot-radius circle centered on the well location. (2) Subsea well site, 600-foot-radius circle centered on the well location. (3) Platform site, 1,320-foot-radius circle centered on the location of the platform. (4) Single-well caisson, well protector jacket, template, or manifold, 600-foot-radius circle centered on the structure location. (b) You must trawl 100 percent of the limits described in paragraph (a) of this section in two directions. (c) You mus"
+  },
+  "250.1740": {
+   "title": "How must I verify that the site of a permanently plugged well, removed platform, or other removed facility is clear of o",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "How must I verify that the site of a permanently plugged well, removed platform, or other removed facility is clear of obstructions? Within 60 days after you permanently plug a well or remove a platform or other facility, you must verify that the site is clear of obstructions by using one of the following methods: (a) For a well site, you must either: (1) Drag a trawl over the site; (2) Scan across the location using sonar equipment; (3) Inspect the site using a diver; (4) Videotape the site using a camera on a remotely operated vehicle (ROV); or (5) Use another method approved by the District Manager if the particular site conditions warrant. (b) For a platform or other facility site in water depths less than 300 feet, you must drag a trawl over the site. (c) For a platform or other facil"
+  }
+ },
+ "order": [
+  "250.411",
+  "250.412",
+  "250.413",
+  "250.414",
+  "250.415",
+  "250.416",
+  "250.731",
+  "250.713",
+  "250.418",
+  "250.460",
+  "250.198",
+  "250.732",
+  "250.105",
+  "250.915",
+  "250.490",
+  "250.109",
+  "250.420",
+  "250.470",
+  "250.901",
+  "250.1203",
+  "250.1002",
+  "250.1201",
+  "250.1202",
+  "250.232",
+  "250.230",
+  "250.916",
+  "250.423",
+  "250.141",
+  "250.421",
+  "250.720",
+  "250.472",
+  "250.471",
+  "250.125",
+  "250.911",
+  "250.721",
+  "250.734",
+  "250.465",
+  "250.171",
+  "250.410",
+  "250.513",
+  "250.613",
+  "250.1704",
+  "250.842",
+  "250.905",
+  "250.910",
+  "250.904",
+  "250.912",
+  "250.913",
+  "250.744",
+  "250.186",
+  "250.601",
+  "250.1726",
+  "250.1708",
+  "250.1727",
+  "250.1729",
+  "250.1751",
+  "250.1752",
+  "250.1753",
+  "250.1743",
+  "250.1712",
+  "250.1722",
+  "250.1723",
+  "250.906",
+  "250.909",
+  "250.197",
+  "250.1715",
+  "250.1721",
+  "250.1741",
+  "250.1740"
+ ],
+ "scenario": {
+  "subject": "an offshore well's drilling permit application",
+  "ticket": "a drilling permit application has been returned as incomplete and the operator disputes which submission requirement was not met",
+  "authority_noun": "designated operator authorisation on file",
+  "filing_noun": "application-completeness determination",
+  "confirmation_resource": "regulations://title-30/amendments/current-status",
+  "filing_endpoint": "https://bsee-permit-filings.internal/v2/completeness-determinations/submit",
+  "absence_ticket": "a well configuration has been reported that does not obviously fall under any existing submission requirement"
+ },
+ "title": "30"
+}

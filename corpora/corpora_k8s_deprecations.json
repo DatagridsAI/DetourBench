@@ -1,0 +1,327 @@
+{
+  "schema_version": "detourbench.k8s-deprecation.v1",
+  "task_name": "cluster_api_removal_triage",
+  "upstream_dataset": "Kubernetes website documentation",
+  "local_extract": "/data/benchmarks/raw-corpora/extra_dbs/manuals/k8s_website_docs.zip",
+  "extractor": "fetch_k8s_deprecations.py",
+  "retrieved_on": "2026-08-28",
+  "guide_path": "website-main/content/en/docs/reference/using-api/deprecation-guide.md",
+  "observed_releases": {
+    "v1.32": {
+      "flowcontrol-resources-v132": {
+        "resource": "Flow control resources",
+        "anchor": "flowcontrol-resources-v132",
+        "removed_in": "v1.32",
+        "removed_api_version": "flowcontrol.apiserver.k8s.io/v1beta3",
+        "replacement_api_version": "flowcontrol.apiserver.k8s.io/v1",
+        "replacement_available_since": "v1.29",
+        "text": "The **flowcontrol.apiserver.k8s.io/v1beta3** API version of FlowSchema and PriorityLevelConfiguration is no longer served as of v1.32. * Migrate manifests and API clients to use the **flowcontrol.apiserver.k8s.io/v1** API version, available since v1.29. * All existing persisted objects are accessible via the new API * Notable changes in **flowcontrol.apiserver.k8s.io/v1**: * The PriorityLevelConfiguration `spec.limited.nominalConcurrencyShares` field only defaults to 30 when unspecified, and an explicit value of 0 is not changed to 30."
+      }
+    },
+    "v1.29": {
+      "flowcontrol-resources-v129": {
+        "resource": "Flow control resources",
+        "anchor": "flowcontrol-resources-v129",
+        "removed_in": "v1.29",
+        "removed_api_version": "flowcontrol.apiserver.k8s.io/v1beta2",
+        "replacement_api_version": "flowcontrol.apiserver.k8s.io/v1",
+        "replacement_available_since": "v1.29",
+        "text": "The **flowcontrol.apiserver.k8s.io/v1beta2** API version of FlowSchema and PriorityLevelConfiguration is no longer served as of v1.29. * Migrate manifests and API clients to use the **flowcontrol.apiserver.k8s.io/v1** API version, available since v1.29, or the **flowcontrol.apiserver.k8s.io/v1beta3** API version, available since v1.26. * All existing persisted objects are accessible via the new API * Notable changes in **flowcontrol.apiserver.k8s.io/v1**: * The PriorityLevelConfiguration `spec.limited.assuredConcurrencyShares` field is renamed to `spec.limited.nominalConcurrencyShares` and only defaults to 30 when unspecified, and an explicit value of 0 is not changed to 30. * Notable changes in **flowcontrol.apiserver.k8s.io/v1beta3**: * The PriorityLevelConfiguration `spec.limited.assuredConcurrencyShares` field is renamed to `spec.limited.nominalConcurrencyShares`"
+      }
+    },
+    "v1.27": {
+      "csistoragecapacity-v127": {
+        "resource": "CSIStorageCapacity",
+        "anchor": "csistoragecapacity-v127",
+        "removed_in": "v1.27",
+        "removed_api_version": "storage.k8s.io/v1beta1",
+        "replacement_api_version": "storage.k8s.io/v1",
+        "replacement_available_since": "v1.24",
+        "text": "The **storage.k8s.io/v1beta1** API version of CSIStorageCapacity is no longer served as of v1.27. * Migrate manifests and API clients to use the **storage.k8s.io/v1** API version, available since v1.24. * All existing persisted objects are accessible via the new API * No notable changes"
+      }
+    },
+    "v1.26": {
+      "flowcontrol-resources-v126": {
+        "resource": "Flow control resources",
+        "anchor": "flowcontrol-resources-v126",
+        "removed_in": "v1.26",
+        "removed_api_version": "flowcontrol.apiserver.k8s.io/v1beta1",
+        "replacement_api_version": null,
+        "replacement_available_since": null,
+        "text": "The **flowcontrol.apiserver.k8s.io/v1beta1** API version of FlowSchema and PriorityLevelConfiguration is no longer served as of v1.26. * Migrate manifests and API clients to use the **flowcontrol.apiserver.k8s.io/v1beta2** API version. * All existing persisted objects are accessible via the new API * No notable changes"
+      },
+      "horizontalpodautoscaler-v126": {
+        "resource": "HorizontalPodAutoscaler",
+        "anchor": "horizontalpodautoscaler-v126",
+        "removed_in": "v1.26",
+        "removed_api_version": "autoscaling/v2beta2",
+        "replacement_api_version": "autoscaling/v2",
+        "replacement_available_since": "v1.23",
+        "text": "The **autoscaling/v2beta2** API version of HorizontalPodAutoscaler is no longer served as of v1.26. * Migrate manifests and API clients to use the **autoscaling/v2** API version, available since v1.23. * All existing persisted objects are accessible via the new API * Notable changes: * `targetAverageUtilization` is replaced with `target.averageUtilization` and `target.type: Utilization`. See [Autoscaling on multiple metrics and custom metrics](/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/#autoscaling-on-multiple-metrics-and-custom-metrics)."
+      }
+    },
+    "v1.25": {
+      "cronjob-v125": {
+        "resource": "CronJob",
+        "anchor": "cronjob-v125",
+        "removed_in": "v1.25",
+        "removed_api_version": "batch/v1beta1",
+        "replacement_api_version": "batch/v1",
+        "replacement_available_since": "v1.21",
+        "text": "The **batch/v1beta1** API version of CronJob is no longer served as of v1.25. * Migrate manifests and API clients to use the **batch/v1** API version, available since v1.21. * All existing persisted objects are accessible via the new API * No notable changes"
+      },
+      "endpointslice-v125": {
+        "resource": "EndpointSlice",
+        "anchor": "endpointslice-v125",
+        "removed_in": "v1.25",
+        "removed_api_version": "discovery.k8s.io/v1beta1",
+        "replacement_api_version": "discovery.k8s.io/v1",
+        "replacement_available_since": "v1.21",
+        "text": "The **discovery.k8s.io/v1beta1** API version of EndpointSlice is no longer served as of v1.25. * Migrate manifests and API clients to use the **discovery.k8s.io/v1** API version, available since v1.21. * All existing persisted objects are accessible via the new API * Notable changes in **discovery.k8s.io/v1**: * use per Endpoint `nodeName` field instead of deprecated `topology[\"kubernetes.io/hostname\"]` field * use per Endpoint `zone` field instead of deprecated `topology[\"topology.kubernetes.io/zone\"]` field * `topology` is replaced with the `deprecatedTopology` field which is not writable in v1"
+      },
+      "event-v125": {
+        "resource": "Event",
+        "anchor": "event-v125",
+        "removed_in": "v1.25",
+        "removed_api_version": "events.k8s.io/v1beta1",
+        "replacement_api_version": "events.k8s.io/v1",
+        "replacement_available_since": "v1.19",
+        "text": "The **events.k8s.io/v1beta1** API version of Event is no longer served as of v1.25. * Migrate manifests and API clients to use the **events.k8s.io/v1** API version, available since v1.19. * All existing persisted objects are accessible via the new API * Notable changes in **events.k8s.io/v1**: * `type` is limited to `Normal` and `Warning` * `involvedObject` is renamed to `regarding` * `action`, `reason`, `reportingController`, and `reportingInstance` are required when creating new **events.k8s.io/v1** Events * use `eventTime` instead of the deprecated `firstTimestamp` field (which is renamed to `deprecatedFirstTimestamp` and not permitted in new **events.k8s.io/v1** Events) * use `series.lastObservedTime` instead of the deprecated `lastTimestamp` field (which is renamed to `deprecatedLastTimestamp` and not permitted in new **events.k8s.io/v1** Events) * use `series.count` instead of the deprecated `count` field (which is renamed to `deprecatedCount` and not permitted in new **events.k8s.io/v1** Events) * use `reportingController` instead of the deprecated `source.component` field (which is renamed to `deprecatedSource.component` and not permitted in new **events.k8s.io/v1** Events)"
+      },
+      "horizontalpodautoscaler-v125": {
+        "resource": "HorizontalPodAutoscaler",
+        "anchor": "horizontalpodautoscaler-v125",
+        "removed_in": "v1.25",
+        "removed_api_version": "autoscaling/v2beta1",
+        "replacement_api_version": "autoscaling/v2",
+        "replacement_available_since": "v1.23",
+        "text": "The **autoscaling/v2beta1** API version of HorizontalPodAutoscaler is no longer served as of v1.25. * Migrate manifests and API clients to use the **autoscaling/v2** API version, available since v1.23. * All existing persisted objects are accessible via the new API * Notable changes: * `targetAverageUtilization` is replaced with `target.averageUtilization` and `target.type: Utilization`. See [Autoscaling on multiple metrics and custom metrics](/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/#autoscaling-on-multiple-metrics-and-custom-metrics)."
+      },
+      "poddisruptionbudget-v125": {
+        "resource": "PodDisruptionBudget",
+        "anchor": "poddisruptionbudget-v125",
+        "removed_in": "v1.25",
+        "removed_api_version": "policy/v1beta1",
+        "replacement_api_version": "policy/v1",
+        "replacement_available_since": "v1.21",
+        "text": "The **policy/v1beta1** API version of PodDisruptionBudget is no longer served as of v1.25. * Migrate manifests and API clients to use the **policy/v1** API version, available since v1.21. * All existing persisted objects are accessible via the new API * Notable changes in **policy/v1**: * an empty `spec.selector` (`{}`) written to a `policy/v1` PodDisruptionBudget selects all pods in the namespace (in `policy/v1beta1` an empty `spec.selector` selected no pods). An unset `spec.selector` selects no pods in either API version."
+      },
+      "psp-v125": {
+        "resource": "PodSecurityPolicy",
+        "anchor": "psp-v125",
+        "removed_in": "v1.25",
+        "removed_api_version": "policy/v1beta1",
+        "replacement_api_version": null,
+        "replacement_available_since": null,
+        "text": "PodSecurityPolicy in the **policy/v1beta1** API version is no longer served as of v1.25, and the PodSecurityPolicy admission controller will be removed. Migrate to [Pod Security Admission](/docs/concepts/security/pod-security-admission/) or a [3rd party admission webhook](/docs/reference/access-authn-authz/extensible-admission-controllers/). For a migration guide, see [Migrate from PodSecurityPolicy to the Built-In PodSecurity Admission Controller](/docs/tasks/configure-pod-container/migrate-from-psp/). For more information on the deprecation, see [PodSecurityPolicy Deprecation: Past, Present, and Future](/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/)."
+      },
+      "runtimeclass-v125": {
+        "resource": "RuntimeClass",
+        "anchor": "runtimeclass-v125",
+        "removed_in": "v1.25",
+        "removed_api_version": "node.k8s.io/v1beta1",
+        "replacement_api_version": "node.k8s.io/v1",
+        "replacement_available_since": "v1.20",
+        "text": "RuntimeClass in the **node.k8s.io/v1beta1** API version is no longer served as of v1.25. * Migrate manifests and API clients to use the **node.k8s.io/v1** API version, available since v1.20. * All existing persisted objects are accessible via the new API * No notable changes"
+      }
+    },
+    "v1.22": {
+      "webhook-resources-v122": {
+        "resource": "Webhook resources",
+        "anchor": "webhook-resources-v122",
+        "removed_in": "v1.22",
+        "removed_api_version": "admissionregistration.k8s.io/v1beta1",
+        "replacement_api_version": "admissionregistration.k8s.io/v1",
+        "replacement_available_since": "v1.16",
+        "text": "The **admissionregistration.k8s.io/v1beta1** API version of MutatingWebhookConfiguration and ValidatingWebhookConfiguration is no longer served as of v1.22. * Migrate manifests and API clients to use the **admissionregistration.k8s.io/v1** API version, available since v1.16. * All existing persisted objects are accessible via the new APIs * Notable changes: * `webhooks[*].failurePolicy` default changed from `Ignore` to `Fail` for v1 * `webhooks[*].matchPolicy` default changed from `Exact` to `Equivalent` for v1 * `webhooks[*].timeoutSeconds` default changed from `30s` to `10s` for v1 * `webhooks[*].sideEffects` default value is removed, and the field made required, and only `None` and `NoneOnDryRun` are permitted for v1 * `webhooks[*].admissionReviewVersions` default value is removed and the field made required for v1 (supported versions for AdmissionReview are `v1` and `v1beta1`) * `webhooks[*].name` must be unique in the list for objects created via `admissionregistration.k8s.io/v1`"
+      },
+      "customresourcedefinition-v122": {
+        "resource": "CustomResourceDefinition",
+        "anchor": "customresourcedefinition-v122",
+        "removed_in": "v1.22",
+        "removed_api_version": "apiextensions.k8s.io/v1beta1",
+        "replacement_api_version": "apiextensions.k8s.io/v1",
+        "replacement_available_since": "v1.16",
+        "text": "The **apiextensions.k8s.io/v1beta1** API version of CustomResourceDefinition is no longer served as of v1.22. * Migrate manifests and API clients to use the **apiextensions.k8s.io/v1** API version, available since v1.16. * All existing persisted objects are accessible via the new API * Notable changes: * `spec.scope` is no longer defaulted to `Namespaced` and must be explicitly specified * `spec.version` is removed in v1; use `spec.versions` instead * `spec.validation` is removed in v1; use `spec.versions[*].schema` instead * `spec.subresources` is removed in v1; use `spec.versions[*].subresources` instead * `spec.additionalPrinterColumns` is removed in v1; use `spec.versions[*].additionalPrinterColumns` instead * `spec.conversion.webhookClientConfig` is moved to `spec.conversion.webhook.clientConfig` in v1 * `spec.conversion.conversionReviewVersions` is moved to `spec.conversion.webhook.conversionReviewVersions` in v1 * `spec.versions[*].schema.openAPIV3Schema` is now required when creating v1 CustomResourceDefinition objects, and must be a [structural schema](/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#specifying-a-structural-schema) * `spec.preser"
+      },
+      "apiservice-v122": {
+        "resource": "APIService",
+        "anchor": "apiservice-v122",
+        "removed_in": "v1.22",
+        "removed_api_version": "apiregistration.k8s.io/v1beta1",
+        "replacement_api_version": "apiregistration.k8s.io/v1",
+        "replacement_available_since": "v1.10",
+        "text": "The **apiregistration.k8s.io/v1beta1** API version of APIService is no longer served as of v1.22. * Migrate manifests and API clients to use the **apiregistration.k8s.io/v1** API version, available since v1.10. * All existing persisted objects are accessible via the new API * No notable changes"
+      },
+      "tokenreview-v122": {
+        "resource": "TokenReview",
+        "anchor": "tokenreview-v122",
+        "removed_in": "v1.22",
+        "removed_api_version": "authentication.k8s.io/v1beta1",
+        "replacement_api_version": "authentication.k8s.io/v1",
+        "replacement_available_since": "v1.6",
+        "text": "The **authentication.k8s.io/v1beta1** API version of TokenReview is no longer served as of v1.22. * Migrate manifests and API clients to use the **authentication.k8s.io/v1** API version, available since v1.6. * No notable changes"
+      },
+      "subjectaccessreview-resources-v122": {
+        "resource": "SubjectAccessReview resources",
+        "anchor": "subjectaccessreview-resources-v122",
+        "removed_in": "v1.22",
+        "removed_api_version": "authorization.k8s.io/v1beta1",
+        "replacement_api_version": "authorization.k8s.io/v1",
+        "replacement_available_since": "v1.6",
+        "text": "The **authorization.k8s.io/v1beta1** API version of LocalSubjectAccessReview, SelfSubjectAccessReview, SubjectAccessReview, and SelfSubjectRulesReview is no longer served as of v1.22. * Migrate manifests and API clients to use the **authorization.k8s.io/v1** API version, available since v1.6. * Notable changes: * `spec.group` was renamed to `spec.groups` in v1 (fixes [#32709](https://github.com/kubernetes/kubernetes/issues/32709))"
+      },
+      "certificatesigningrequest-v122": {
+        "resource": "CertificateSigningRequest",
+        "anchor": "certificatesigningrequest-v122",
+        "removed_in": "v1.22",
+        "removed_api_version": "certificates.k8s.io/v1beta1",
+        "replacement_api_version": "certificates.k8s.io/v1",
+        "replacement_available_since": "v1.19",
+        "text": "The **certificates.k8s.io/v1beta1** API version of CertificateSigningRequest is no longer served as of v1.22. * Migrate manifests and API clients to use the **certificates.k8s.io/v1** API version, available since v1.19. * All existing persisted objects are accessible via the new API * Notable changes in `certificates.k8s.io/v1`: * For API clients requesting certificates: * `spec.signerName` is now required (see [known Kubernetes signers](/docs/reference/access-authn-authz/certificate-signing-requests/#kubernetes-signers)), and requests for `kubernetes.io/legacy-unknown` are not allowed to be created via the `certificates.k8s.io/v1` API * `spec.usages` is now required, may not contain duplicate values, and must only contain known usages * For API clients approving or signing certificates: * `status.conditions` may not contain duplicate types * `status.conditions[*].status` is now required * `status.certificate` must be PEM-encoded, and contain only `CERTIFICATE` blocks"
+      },
+      "lease-v122": {
+        "resource": "Lease",
+        "anchor": "lease-v122",
+        "removed_in": "v1.22",
+        "removed_api_version": "coordination.k8s.io/v1beta1",
+        "replacement_api_version": "coordination.k8s.io/v1",
+        "replacement_available_since": "v1.14",
+        "text": "The **coordination.k8s.io/v1beta1** API version of Lease is no longer served as of v1.22. * Migrate manifests and API clients to use the **coordination.k8s.io/v1** API version, available since v1.14. * All existing persisted objects are accessible via the new API * No notable changes"
+      },
+      "ingress-v122": {
+        "resource": "Ingress",
+        "anchor": "ingress-v122",
+        "removed_in": "v1.22",
+        "removed_api_version": "extensions/v1beta1** and **networking.k8s.io/v1beta1",
+        "replacement_api_version": "networking.k8s.io/v1",
+        "replacement_available_since": "v1.19",
+        "text": "The **extensions/v1beta1** and **networking.k8s.io/v1beta1** API versions of Ingress is no longer served as of v1.22. * Migrate manifests and API clients to use the **networking.k8s.io/v1** API version, available since v1.19. * All existing persisted objects are accessible via the new API * Notable changes: * `spec.backend` is renamed to `spec.defaultBackend` * The backend `serviceName` field is renamed to `service.name` * Numeric backend `servicePort` fields are renamed to `service.port.number` * String backend `servicePort` fields are renamed to `service.port.name` * `pathType` is now required for each specified path. Options are `Prefix`, `Exact`, and `ImplementationSpecific`. To match the undefined `v1beta1` behavior, use `ImplementationSpecific`."
+      },
+      "ingressclass-v122": {
+        "resource": "IngressClass",
+        "anchor": "ingressclass-v122",
+        "removed_in": "v1.22",
+        "removed_api_version": "networking.k8s.io/v1beta1",
+        "replacement_api_version": "networking.k8s.io/v1",
+        "replacement_available_since": "v1.19",
+        "text": "The **networking.k8s.io/v1beta1** API version of IngressClass is no longer served as of v1.22. * Migrate manifests and API clients to use the **networking.k8s.io/v1** API version, available since v1.19. * All existing persisted objects are accessible via the new API * No notable changes"
+      },
+      "rbac-resources-v122": {
+        "resource": "RBAC resources",
+        "anchor": "rbac-resources-v122",
+        "removed_in": "v1.22",
+        "removed_api_version": "rbac.authorization.k8s.io/v1beta1",
+        "replacement_api_version": "rbac.authorization.k8s.io/v1",
+        "replacement_available_since": "v1.8",
+        "text": "The **rbac.authorization.k8s.io/v1beta1** API version of ClusterRole, ClusterRoleBinding, Role, and RoleBinding is no longer served as of v1.22. * Migrate manifests and API clients to use the **rbac.authorization.k8s.io/v1** API version, available since v1.8. * All existing persisted objects are accessible via the new APIs * No notable changes"
+      },
+      "priorityclass-v122": {
+        "resource": "PriorityClass",
+        "anchor": "priorityclass-v122",
+        "removed_in": "v1.22",
+        "removed_api_version": "scheduling.k8s.io/v1beta1",
+        "replacement_api_version": "scheduling.k8s.io/v1",
+        "replacement_available_since": "v1.14",
+        "text": "The **scheduling.k8s.io/v1beta1** API version of PriorityClass is no longer served as of v1.22. * Migrate manifests and API clients to use the **scheduling.k8s.io/v1** API version, available since v1.14. * All existing persisted objects are accessible via the new API * No notable changes"
+      },
+      "storage-resources-v122": {
+        "resource": "Storage resources",
+        "anchor": "storage-resources-v122",
+        "removed_in": "v1.22",
+        "removed_api_version": "storage.k8s.io/v1beta1",
+        "replacement_api_version": null,
+        "replacement_available_since": null,
+        "text": "The **storage.k8s.io/v1beta1** API version of CSIDriver, CSINode, StorageClass, and VolumeAttachment is no longer served as of v1.22. * Migrate manifests and API clients to use the **storage.k8s.io/v1** API version * CSIDriver is available in **storage.k8s.io/v1** since v1.19. * CSINode is available in **storage.k8s.io/v1** since v1.17 * StorageClass is available in **storage.k8s.io/v1** since v1.6 * VolumeAttachment is available in **storage.k8s.io/v1** v1.13 * All existing persisted objects are accessible via the new APIs * No notable changes"
+      }
+    },
+    "v1.16": {
+      "networkpolicy-v116": {
+        "resource": "NetworkPolicy",
+        "anchor": "networkpolicy-v116",
+        "removed_in": "v1.16",
+        "removed_api_version": "extensions/v1beta1",
+        "replacement_api_version": "networking.k8s.io/v1",
+        "replacement_available_since": "v1.8",
+        "text": "The **extensions/v1beta1** API version of NetworkPolicy is no longer served as of v1.16. * Migrate manifests and API clients to use the **networking.k8s.io/v1** API version, available since v1.8. * All existing persisted objects are accessible via the new API"
+      },
+      "daemonset-v116": {
+        "resource": "DaemonSet",
+        "anchor": "daemonset-v116",
+        "removed_in": "v1.16",
+        "removed_api_version": "extensions/v1beta1** and **apps/v1beta2",
+        "replacement_api_version": "apps/v1",
+        "replacement_available_since": "v1.9",
+        "text": "The **extensions/v1beta1** and **apps/v1beta2** API versions of DaemonSet are no longer served as of v1.16. * Migrate manifests and API clients to use the **apps/v1** API version, available since v1.9. * All existing persisted objects are accessible via the new API * Notable changes: * `spec.templateGeneration` is removed * `spec.selector` is now required and immutable after creation; use the existing template labels as the selector for seamless upgrades * `spec.updateStrategy.type` now defaults to `RollingUpdate` (the default in `extensions/v1beta1` was `OnDelete`)"
+      },
+      "deployment-v116": {
+        "resource": "Deployment",
+        "anchor": "deployment-v116",
+        "removed_in": "v1.16",
+        "removed_api_version": "extensions/v1beta1**, **apps/v1beta1**, and **apps/v1beta2",
+        "replacement_api_version": "apps/v1",
+        "replacement_available_since": "v1.9",
+        "text": "The **extensions/v1beta1**, **apps/v1beta1**, and **apps/v1beta2** API versions of Deployment are no longer served as of v1.16. * Migrate manifests and API clients to use the **apps/v1** API version, available since v1.9. * All existing persisted objects are accessible via the new API * Notable changes: * `spec.rollbackTo` is removed * `spec.selector` is now required and immutable after creation; use the existing template labels as the selector for seamless upgrades * `spec.progressDeadlineSeconds` now defaults to `600` seconds (the default in `extensions/v1beta1` was no deadline) * `spec.revisionHistoryLimit` now defaults to `10` (the default in `apps/v1beta1` was `2`, the default in `extensions/v1beta1` was to retain all) * `maxSurge` and `maxUnavailable` now default to `25%` (the default in `extensions/v1beta1` was `1`)"
+      },
+      "statefulset-v116": {
+        "resource": "StatefulSet",
+        "anchor": "statefulset-v116",
+        "removed_in": "v1.16",
+        "removed_api_version": "apps/v1beta1** and **apps/v1beta2",
+        "replacement_api_version": "apps/v1",
+        "replacement_available_since": "v1.9",
+        "text": "The **apps/v1beta1** and **apps/v1beta2** API versions of StatefulSet are no longer served as of v1.16. * Migrate manifests and API clients to use the **apps/v1** API version, available since v1.9. * All existing persisted objects are accessible via the new API * Notable changes: * `spec.selector` is now required and immutable after creation; use the existing template labels as the selector for seamless upgrades * `spec.updateStrategy.type` now defaults to `RollingUpdate` (the default in `apps/v1beta1` was `OnDelete`)"
+      },
+      "replicaset-v116": {
+        "resource": "ReplicaSet",
+        "anchor": "replicaset-v116",
+        "removed_in": "v1.16",
+        "removed_api_version": "extensions/v1beta1**, **apps/v1beta1**, and **apps/v1beta2",
+        "replacement_api_version": "apps/v1",
+        "replacement_available_since": "v1.9",
+        "text": "The **extensions/v1beta1**, **apps/v1beta1**, and **apps/v1beta2** API versions of ReplicaSet are no longer served as of v1.16. * Migrate manifests and API clients to use the **apps/v1** API version, available since v1.9. * All existing persisted objects are accessible via the new API * Notable changes: * `spec.selector` is now required and immutable after creation; use the existing template labels as the selector for seamless upgrades"
+      },
+      "psp-v116": {
+        "resource": "PodSecurityPolicy",
+        "anchor": "psp-v116",
+        "removed_in": "v1.16",
+        "removed_api_version": "extensions/v1beta1",
+        "replacement_api_version": null,
+        "replacement_available_since": null,
+        "text": "The **extensions/v1beta1** API version of PodSecurityPolicy is no longer served as of v1.16. * Migrate manifests and API client to use the **policy/v1beta1** API version, available since v1.10. * Note that the **policy/v1beta1** API version of PodSecurityPolicy will be removed in v1.25. ## What to do ### Test with deprecated APIs disabled You can test your clusters by starting an API server with specific API versions disabled to simulate upcoming removals. Add the following flag to the API server startup arguments: `--runtime-config=<group>/<version>=false` For example: `--runtime-config=admissionregistration.k8s.io/v1beta1=false,apiextensions.k8s.io/v1beta1,...` ### Locate use of deprecated APIs Use [client warnings, metrics, and audit information available in 1.19+](/blog/2020/09/03/warnings/#deprecation-warnings) to locate use of deprecated APIs. ### Migrate to non-deprecated APIs * Update custom integrations and controllers to call the non-deprecated APIs * Change YAML files to reference the non-deprecated APIs You can use the `kubectl convert` command to automatically convert an existing object: `kubectl convert -f <file> --output-version <group>/<version>`. For example, to co"
+      }
+    }
+  },
+  "observed_release_notes": {
+    "kubernetes-1-24-removals-and-deprecations.md": {
+      "file": "website-main/content/en/blog/_posts/2022/kubernetes-1-24-removals-and-deprecations.md",
+      "title": "Kubernetes Removals and Deprecations In 1.24",
+      "text": "--- layout: blog title: \"Kubernetes Removals and Deprecations In 1.24\" date: 2022-04-07 slug: upcoming-changes-in-kubernetes-1-24 author: > Mickey Boxell (Oracle) --- As Kubernetes evolves, features and APIs are regularly revisited and removed. New features may offer an alternative or improved approach to solving existing problems, motivating the team to remove the old approach. We want to make sure you are aware of the changes coming in the Kubernetes 1.24 release. The release will **deprecate** several (beta) APIs in favor of stable versions of the same APIs. The major change coming in the Kubernetes 1.24 release is the [removal of Dockershim](https://github.com/kubernetes/enhancements/tree/master/keps/sig-node/2221-remove-dockershim). This is discussed below and will be explored in more depth at release time. For an early look at the changes coming in Kubernetes 1.24, take a look at the in-progress [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.24.md). ## A note about Dockershim It's safe to say that the removal receiving the most attention with the release of Kubernetes 1.24 is Dockershim. Dockershim was deprecated in v1.20. As noted in the [Kubernetes 1.20 changelog](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.20.md#deprecation): \"Docker support in the kubelet is now deprecated and will be removed in a future release. The kubelet uses a module called \"dockershim\" which implements CRI support for Docke"
+    },
+    "kubernetes-1.25-deprecations-and-removals.md": {
+      "file": "website-main/content/en/blog/_posts/2022/kubernetes-1.25-deprecations-and-removals.md",
+      "title": "Kubernetes Removals and Major Changes In 1.25",
+      "text": "--- layout: blog title: \"Kubernetes Removals and Major Changes In 1.25\" date: 2022-08-04 slug: upcoming-changes-in-kubernetes-1-25 author: > Kat Cosgrove, Frederico Muñoz, Debabrata Panigrahi --- As Kubernetes grows and matures, features may be deprecated, removed, or replaced with improvements for the health of the project. Kubernetes v1.25 includes several major changes and one major removal. ## The Kubernetes API Removal and Deprecation process The Kubernetes project has a well-documented [deprecation policy](/docs/reference/using-api/deprecation-policy/) for features. This policy states that stable APIs may only be deprecated when a newer, stable version of that same API is available and that APIs have a minimum lifetime for each stability level. A deprecated API is one that has been marked for removal in a future Kubernetes release; it will continue to function until removal (at least one year from the deprecation), but usage will result in a warning being displayed. Removed APIs are no longer available in the current version, at which point you must migrate to using the replacement. * Generally available (GA) or stable API versions may be marked as deprecated but must not be removed within a major version of Kubernetes. * Beta or pre-release API versions must be supported for 3 releases after deprecation. * Alpha or experimental API versions may be removed in any release without prior deprecation notice. Whether an API is removed as a result of a feature graduating from"
+    },
+    "kubernetes-1.26-deprecations-and-removals.md": {
+      "file": "website-main/content/en/blog/_posts/2022/kubernetes-1.26-deprecations-and-removals.md",
+      "title": "Kubernetes Removals, Deprecations, and Major Changes in 1.26",
+      "text": "--- layout: blog title: \"Kubernetes Removals, Deprecations, and Major Changes in 1.26\" date: 2022-11-18 slug: upcoming-changes-in-kubernetes-1-26 author: > Frederico Muñoz (SAS) --- Change is an integral part of the Kubernetes life-cycle: as Kubernetes grows and matures, features may be deprecated, removed, or replaced with improvements for the health of the project. For Kubernetes v1.26 there are several planned: this article identifies and describes some of them, based on the information available at this mid-cycle point in the v1.26 release process, which is still ongoing and can introduce additional changes. ## The Kubernetes API Removal and Deprecation process {#k8s-api-deprecation-process} The Kubernetes project has a [well-documented deprecation policy](/docs/reference/using-api/deprecation-policy/) for features. This policy states that stable APIs may only be deprecated when a newer, stable version of that same API is available and that APIs have a minimum lifetime for each stability level. A deprecated API is one that has been marked for removal in a future Kubernetes release; it will continue to function until removal (at least one year from the deprecation), but usage will result in a warning being displayed. Removed APIs are no longer available in the current version, at which point you must migrate to using the replacement. * Generally available (GA) or stable API versions may be marked as deprecated but must not be removed within a major version of Kubernetes. *"
+    },
+    "kubernetes-1.27-deprecations-and-removals.md": {
+      "file": "website-main/content/en/blog/_posts/2023/kubernetes-1.27-deprecations-and-removals.md",
+      "title": "Kubernetes Removals and Major Changes In v1.27",
+      "text": "--- layout: blog title: \"Kubernetes Removals and Major Changes In v1.27\" date: 2023-03-17T14:00:00+0000 slug: upcoming-changes-in-kubernetes-v1-27 author: > Harshita Sao --- As Kubernetes develops and matures, features may be deprecated, removed, or replaced with better ones for the project's overall health. Based on the information available at this point in the v1.27 release process, which is still ongoing and can introduce additional changes, this article identifies and describes some of the planned changes for the Kubernetes v1.27 release. ## A note about the k8s.gcr.io redirect to registry.k8s.io To host its container images, the Kubernetes project uses a community-owned image registry called registry.k8s.io. **On March 20th, all traffic from the out-of-date [k8s.gcr.io](https://cloud.google.com/container-registry/) registry will be redirected to [registry.k8s.io](https://github.com/kubernetes/registry.k8s.io)**. The deprecated k8s.gcr.io registry will eventually be phased out. ### What does this change mean? - If you are a subproject maintainer, you must update your manifests and Helm charts to use the new registry. - The v1.27 Kubernetes release will not be published to the old registry. - From April, patch releases for v1.24, v1.25, and v1.26 will no longer be published to the old registry. We have a [blog post](/blog/2023/03/10/image-registry-redirect/) with all the information about this change and what to do if it impacts you. ## The Kubernetes API Removal and Depr"
+    },
+    "kubernetes-1-31-deprecations-and-removals.md": {
+      "file": "website-main/content/en/blog/_posts/2024/kubernetes-1-31-deprecations-and-removals.md",
+      "title": "Kubernetes Removals and Major Changes In v1.31",
+      "text": "--- layout: blog title: 'Kubernetes Removals and Major Changes In v1.31' date: 2024-07-19 slug: kubernetes-1-31-upcoming-changes author: > Abigail McCarthy, Edith Puclla, Matteo Bianchi, Rashan Smith, Yigit Demirbas --- As Kubernetes develops and matures, features may be deprecated, removed, or replaced with better ones for the project's overall health. This article outlines some planned changes for the Kubernetes v1.31 release that the release team feels you should be aware of for the continued maintenance of your Kubernetes environment. The information listed below is based on the current status of the v1.31 release. It may change before the actual release date. ## The Kubernetes API removal and deprecation process The Kubernetes project has a well-documented [deprecation policy](/docs/reference/using-api/deprecation-policy/) for features. This policy states that stable APIs may only be deprecated when a newer, stable version of that API is available and that APIs have a minimum lifetime for each stability level. A deprecated API has been marked for removal in a future Kubernetes release. It will continue to function until removal (at least one year from the deprecation), but usage will display a warning. Removed APIs are no longer available in the current version, so you must migrate to using the replacement. * Generally available (GA) or stable API versions may be marked as deprecated but must not be removed within a major version of Kubernetes. * Beta or pre-release API "
+    }
+  },
+  "counts": {
+    "releases": 7,
+    "entries": 30,
+    "release_notes": 5
+  }
+}

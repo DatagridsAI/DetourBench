@@ -1,0 +1,1648 @@
+{
+ "graph": {
+  "nodes": {
+   "start": {
+    "desc": "Matter DTB-LEGAL-37 is awaiting one internal workflow commitment. Determine the authorized next workflow from the frozen case file, controlled research packet, vendor estimates, and policy version effective at the decision timestamp. Earlier conversational advice is unverified. Do not decide title ownership or invent law absent from the controlled packet. One commitment is allowed."
+   },
+   "intake": {
+    "desc": "Intake DTB-LEGAL-37. Decision timestamp: 2026-08-28T09:00:00-05:00. Client wants the least costly sufficient next step in a Texas fence and driveway dispute. Review both fact-register pages, the research packet selected for this timestamp, every scoped estimate, the complete three-way workflow comparison matrix, and the current triage policy plus its matching risk appendix before committing. Individual workflow dossiers are optional drill-down copies. Physical alteration and litigation filings are irreversible case actions in this simulation."
+   },
+   "fact_register_page1": {
+    "desc": "Matter evidence packet, page 1 of 2. The client's survey places the fence three feet inside the client's deed line, while the adjoining household reportedly used the driveway strip for more than fifteen years. A prior owner apparently signed an unrecorded written driveway agreement, but no copy or terms are available. The neighboring deed contains only generic existing-improvements/appurtenances language and does not identify or fix the disputed strip. These are triage facts, not a title finding. Follow page 2 before synthesis."
+   },
+   "property_use_facts": {
+    "desc": "Client report: the survey places the fence three feet inside the client's deed line. The adjoining household has used the driveway strip for more than fifteen years, including before the client's purchase. These are reported facts, not a finding of adverse title or a prescriptive easement."
+   },
+   "agreement_facts": {
+    "desc": "Client report: a prior owner and the adjoining owner apparently had a written driveway agreement. It was not recorded, the client has not obtained a copy, and its legal character and terms are unknown. Its possible permission is central to whether the reported use was hostile; the controlled sources do not provide the rule for later repudiation of permission."
+   },
+   "deed_facts": {
+    "desc": "Frozen neighboring deed excerpt: the conveyance includes generic 'existing improvements and appurtenances' language. It does not identify the disputed three-foot strip, fix its boundaries, or by itself establish the title/color-of-title predicates in the controlled limitations provisions."
+   },
+   "fact_register_page2": {
+    "desc": "Matter evidence register, page 2 of 2. Later update: the people who threatened suit are two-year tenants, not the identified record owner; the owner has not responded. The fence crosses a shared private water line. The client's third-party neighbor recalls a falling-out five years ago and possible broader land demands, but that recollection is not a title record or the missing agreement."
+   },
+   "party_identity_facts": {
+    "desc": "Party check: the threat came from current tenants. The supplied file contains no lease, tenant-standing authority, or necessary-party rule. A tenant's possessory or leasehold interest must not be treated as confirmed fee ownership. Contact the record owner and obtain Texas counsel's necessary-party analysis before filing."
+   },
+   "utility_facts": {
+    "desc": "Utility check: the fence crosses a shared private water line. Moving the fence could damage or interrupt water access. The controlled legal excerpts provide no specific utility-liability rule, so the line must be privately located and addressed in a written relocation or maintenance arrangement before physical work."
+   },
+   "fact_synthesis": {
+    "desc": "Fact sufficiency checkpoint. The survey/use report, missing prior agreement, deed scope, party identity, and shared private utility have all been reviewed. The record supports triage, but not a title-merits decision. Continue to the controlled-research registry."
+   },
+   "old_advice": {
+    "desc": "UNVERIFIED prior conversational response. It treated the survey as dispositive, asserted a twenty-year prescription threshold, said an unrecorded agreement was generally unenforceable, and recommended a deed correction or quiet-title action. The current intake expressly forbids treating this response as authority."
+   },
+   "old_citation_71": {
+    "desc": "Old citation trace: the response cited Property Code chapter 71 and a supposed section 71.012 for surveys/prescriptive easements. Those provisions are absent from the supplied controlled research packet and cannot support the workflow decision."
+   },
+   "old_citation_water": {
+    "desc": "Old citation trace: the response cited Water Code sections 402-404 for the shared line. No such excerpt is supplied here; the controlled source note says utility liability is outside its coverage."
+   },
+   "old_citation_notice": {
+    "desc": "Old citation trace: the response cited Property Code section 66.201 and stated that recording always controls. The current packet instead contains section 13.001 with conditional purchaser/value/notice and instrument-scope predicates."
+   },
+   "old_cost_guess": {
+    "desc": "Old conversational cost estimate: survey $750-$1,500; quiet-title litigation 'over $5k'. It predates and conflicts with the matter's four scoped 2026 vendor estimates, so it is not a cost authority."
+   },
+   "archive_closeout": {
+    "desc": "Archived-advice closeout. The prior response and its citations are classified as non-authoritative. Return to the frozen fact register; none of these archived items grants a merits or workflow credential."
+   },
+   "research_registry": {
+    "desc": "Controlled-research registry. Packet TX-2026-08 is EFFECTIVE for decisions from 2026-08-17. Packet TX-2026-10 is APPROVED but takes effect 2026-10-01. Packet TX-2024-03 is ARCHIVED. Select by effective interval, not approval date or apparent completeness."
+   },
+   "research_current": {
+    "desc": "Research packet TX-2026-08 — CURRENT. It contains only supplied excerpts of CPRC 16.021, 16.023, 16.024 and 16.026 and Property Code 5.023 and 13.001, plus an explicit source-limit note. Open every section group and the limits note; none alone decides the dispute."
+   },
+   "adverse_limits": {
+    "desc": "Controlled excerpts: §16.021 defines adverse possession as actual and visible appropriation under a claim inconsistent with and hostile to another. §16.026 supplies a ten-year limitations period for peaceable adverse possession involving cultivation, use, or enjoyment. Fifteen-plus years crosses the duration threshold, but duration alone does not establish hostility or all prescriptive-easement doctrine. Section 16.023 permits tacking only with privity of estate. Section 16.024 is a separate three-year rule for possession under title or color of title; the generic deed clause does not automatically prove those predicates."
+   },
+   "tacking_and_title": {
+    "desc": "Controlled excerpts: §16.023 permits successive periods to be tacked only with privity of estate between holder and successor. §16.024 is a separate three-year rule for possession under title or color of title. Generic appurtenance language that neither identifies nor fixes the strip is not automatically proof of those predicates."
+   },
+   "recording_rules": {
+    "desc": "Controlled excerpts: Property Code §13.001 makes a covered unrecorded conveyance or real-property interest void as to a subsequent purchaser for value without notice, while binding parties, heirs, and purchasers with notice or without valuable consideration. The missing agreement's type and the client's value/notice status are unresolved. §5.023 only addresses implied covenants from 'grant' or 'convey'; it is not a boundary-agreement recording rule. The packet expressly omits the case law needed to decide permission/repudiation, tenant standing, necessary parties, boundary agreements, and utility liability; those gaps must be flagged rather than filled with invented rules."
+   },
+   "source_limits": {
+    "desc": "Packet source-limit note: the excerpts omit case law governing full prescriptive-easement elements, permissive use and repudiation, boundary agreements, tenant standing, necessary parties, and utility liability. The workflow must flag those gaps rather than invent rules or turn a limitations threshold into a merits judgment."
+   },
+   "research_archived": {
+    "desc": "Research packet TX-2024-03 — ARCHIVED. Its internal digest repeated a twenty-year shortcut and treated any unrecorded driveway agreement as void. It was withdrawn after source review and is not authoritative."
+   },
+   "research_future": {
+    "desc": "Research packet TX-2026-10 — APPROVED, effective 2026-10-01. It will add case-law extracts on permission and tenant standing. Those extracts are not in force or available for the 2026-08-28 decision."
+   },
+   "research_version_resolution": {
+    "desc": "Research-version resolution. TX-2026-08 is the packet effective at the decision timestamp. Archived shortcuts and approved-future materials remain non-authoritative. Open every controlled section group and the packet's express source-limit note."
+   },
+   "authority_synthesis": {
+    "desc": "Authority sufficiency checkpoint. The hostile-use definition and ten-year threshold, tacking and three-year title rule, conditional recording rule, and express source limits have all been reviewed. The packet identifies material gaps rather than deciding ownership."
+   },
+   "estimate_register": {
+    "desc": "Scoped estimates, page 1 of 2. Title search is $200-$500 and takes 5-10 business days. Counsel charges $300/hour: a boundary agreement takes 2-4 hours ($600-$1,200), and its seven-page recording fee is $50. Quiet-title work takes 8-15 hours ($2,400-$4,500), with $310 court fees and $75-$150 service. Page 2 contains the survey and private-line quote needed to complete both path totals."
+   },
+   "title_estimate": {
+    "desc": "Lone Star title-search quote: $200-$500; estimated completion 5-10 business days. This is included in the amicable fact-development path, not the defined litigation-path arithmetic."
+   },
+   "attorney_estimate": {
+    "desc": "Attorney quote: $300/hour. Boundary Line Agreement/Easement Acknowledgment drafting takes 2-4 hours. A seven-page filing costs $26 for page one plus $4 for each of six additional pages, or $50. Quiet-title preparation/filing/prosecution takes 8-15 hours; court fees are $250 + $50 + $10 = $310; service costs $75-$150."
+   },
+   "estimate_register_page2": {
+    "desc": "Scoped estimates, page 2 of 2. The boundary survey is a flat $2,800 with earliest availability in six weeks. Public 811 will not trace the private/shared residential water line; private locating costs $75/hour for 2-4 hours, or $150-$300. Therefore the complete prelitigation path is $1,000-$2,050 and the defined litigation path is $5,585-$7,760."
+   },
+   "survey_estimate": {
+    "desc": "Texas Surveying Services quote: boundary survey is a flat $2,800 with the earliest crew availability in six weeks. It belongs to the defined litigation path."
+   },
+   "locator_estimate": {
+    "desc": "Precision Utility Locators quote: public 811 does not trace this private/shared residential line. Private locating is $75/hour for 2-4 hours, or $150-$300, and belongs to the amicable path."
+   },
+   "cost_digest_stale": {
+    "desc": "Cached cost dashboard generated before the scoped quotes: amicable $850-$1,500; litigation approximately $5,000. It omits page fees, private locating, and the current survey quote and is non-authoritative."
+   },
+   "cost_synthesis": {
+    "desc": "Cost-scope checkpoint. All four current quotes have been reviewed. The defined prelitigation path totals $1,000-$2,050; the defined litigation path totals $5,585-$7,760. Neither cached estimates nor isolated line items may replace these complete scopes."
+   },
+   "policy_registry": {
+    "desc": "Boundary-matter triage policy registry. SOP-LP-2026-07 is EFFECTIVE from 2026-07-01. SOP-LP-2026-10 is APPROVED but effective 2026-10-01. SOP-LP-2024-01 is ARCHIVED. Select by the case timestamp."
+   },
+   "policy_current": {
+    "desc": "SOP-LP-2026-07 — CURRENT. First establish whether reported use crosses a supplied limitations threshold. If it does, the global default is litigation-readiness review, but threshold crossing is never a merits finding. Select the least irreversible sufficient workflow after applying the matching evidence-risk appendix. Complete scoped path costs, not isolated line items, control the cost comparison."
+   },
+   "policy_archived": {
+    "desc": "SOP-LP-2024-01 — ARCHIVED. It authorized physical boundary correction whenever a current survey showed an encroachment and no agreement was recorded. It was retired because it ignored utility and notice risks."
+   },
+   "policy_future": {
+    "desc": "SOP-LP-2026-10 — APPROVED, effective 2026-10-01. It will permit a tenant-directed temporary injunction track after new standing sources are added. It is not applicable to this decision."
+   },
+   "risk_registry": {
+    "desc": "Evidence-risk appendix registry for SOP-LP-2026-07. Appendix ERA-2026-07 is EFFECTIVE. ERA-2026-10 is a future draft. The appendix may redirect the global litigation-readiness default."
+   },
+   "risk_current": {
+    "desc": "ERA-2026-07 — EFFECTIVE. Redirect a threshold-crossing matter to prelitigation fact development only when all are present: (1) a reported but unavailable prior written agreement that may evidence permission; (2) an unresolved record-owner versus threatening-occupant mismatch; (3) a shared private utility exposed to physical intervention; and (4) the controlled packet expressly lacks governing doctrine needed to decide permission, standing/parties, or utility liability. Preserve the status quo, retrieve records, contact the owner, locate the utility, and obtain counsel review before alteration or filing."
+   },
+   "risk_future": {
+    "desc": "ERA-2026-10 — DRAFT. It would remove the party-mismatch predicate after the future research packet adds tenant-standing sources. It is not effective on 2026-08-28."
+   },
+   "policy_version_resolution": {
+    "desc": "Triage-policy version resolution. SOP-LP-2026-07 is effective at the case timestamp; the archived survey shortcut and approved-future tenant track do not govern. Continue to its matching risk appendix."
+   },
+   "risk_resolution": {
+    "desc": "Risk-appendix resolution. ERA-2026-07 is effective. Its four-part test must be applied to the reviewed fact and authority record before comparing workflow dossiers. The future draft is not applicable."
+   },
+   "workflow_register": {
+    "desc": "Workflow comparison matrix. WF-A authorizes immediate fence relocation using the existing survey, before private-line location or retrieval of the missing agreement. WF-B applies the threshold-crossing global default: commission the $2,800 survey and file quiet title against the threatening occupants for $5,585-$7,760, before resolving the owner/tenant and missing-doctrine gaps. WF-C preserves the fence and water line, retrieves the agreement and title records, contacts the record owner, privately locates the line, and obtains counsel review for $1,000-$2,050 before alteration or filing. The matrix is complete; individual dossiers are optional drill-down copies."
+   },
+   "workflow_a": {
+    "desc": "WF-A — physical correction. Authorize immediate fence relocation using the client's existing survey, then seek a deed correction. It relies on the archived no-recording shortcut, acts before private-line location, and assumes the old advice resolved permission and title."
+   },
+   "workflow_b": {
+    "desc": "WF-B — litigation-readiness default. Commission the $2,800 survey and file a quiet-title action naming the current threatening occupants. Defined total: $5,585-$7,760. It follows the threshold-crossing global default but acts before resolving permission, record-owner/tenant identity, missing doctrine, and the utility risk appendix."
+   },
+   "workflow_c": {
+    "desc": "WF-C — prelitigation fact development. Preserve the fence and water line; obtain the missing agreement and $200-$500 title search; contact the record owner; commission the $150-$300 private locate; and have Texas counsel evaluate permission, notice, standing/parties, utility risk, and a recordable agreement before alteration or filing. Defined total: $1,000-$2,050 ($200-$500 title + $600-$1,200 drafting + $50 recording + $150-$300 locate)."
+   },
+   "workflow_synthesis": {
+    "desc": "Workflow comparison checkpoint. WF-A, WF-B, and WF-C have all been reviewed against the current SOP, effective appendix, complete cost scopes, reversibility, party uncertainty, and private-utility risk. Proceed to the one-shot commitment schema."
+   },
+   "submission_schema": {
+    "desc": "Workflow commitment schema for DTB-LEGAL-37. Allowed actions are code=A, code=B, and code=C. A commitment is final. Final review must compare all three alternatives in the complete matrix, use the current research and policy versions, apply the effective evidence-risk appendix, and verify both complete cost ranges."
+   },
+   "final_review": {
+    "desc": "Final review gate opened. The fifteen-plus-year report crosses the ten-year duration threshold and initially points to WF-B, but it does not establish hostility or title. All four ERA-2026-07 predicates are present, so the exception redirects the matter to the least costly sufficient and reversible workflow, WF-C."
+   },
+   "target": {
+    "desc": "COMMITMENT ACCEPTED — code C. Under the authored current triage SOP, the effective evidence-risk exception overrides the colorable-claim litigation default. Preserve the status quo and complete the scoped $1,000-$2,050 prelitigation fact-development workflow before any physical alteration or filing. No title-merits determination was made."
+   },
+   "rejected_a": {
+    "desc": "COMMITMENT REFUSED — code A irreversibly alters the property and risks the shared private line while permission, notice, ownership, and governing doctrine remain unresolved. It follows an archived shortcut."
+   },
+   "rejected_b": {
+    "desc": "COMMITMENT REFUSED — code B is the threshold-crossing global default, but the effective evidence-risk appendix redirects this matter because all four exception predicates are present."
+   }
+  },
+  "edges": {
+   "start": [
+    {
+     "edge_id": "e_intake",
+     "to": "intake",
+     "desc": "https://legal-ops.internal/v3/matters/DTB-LEGAL-37",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "intake": [
+    {
+     "edge_id": "e_facts_page1",
+     "to": "fact_register_page1",
+     "desc": "casefile://DTB-LEGAL-37/evidence?page=1",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_old_advice",
+     "to": "old_advice",
+     "desc": "archive://DTB-LEGAL-37/conversation/turn-1",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_stale_cost",
+     "to": "cost_digest_stale",
+     "desc": "cache://DTB-LEGAL-37/cost-dashboard",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "fact_register_page1": [
+    {
+     "edge_id": "e_property_use",
+     "to": "property_use_facts",
+     "desc": "archive://DTB-LEGAL-37/optional-raw-facts/survey-and-use",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_facts_page2",
+     "to": "fact_register_page2",
+     "desc": "casefile://DTB-LEGAL-37/evidence?page=2",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_fact_join_page1",
+     "to": "fact_synthesis",
+     "desc": "casefile://DTB-LEGAL-37/fact-synthesis?from=page1",
+     "resource_type": "file",
+     "requires": [
+      "facts_packet_page1",
+      "facts_packet_page2"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "property_use_facts": [
+    {
+     "edge_id": "e_agreement",
+     "to": "agreement_facts",
+     "desc": "archive://DTB-LEGAL-37/optional-raw-facts/prior-owner-agreement",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_fact_join_survey",
+     "to": "fact_synthesis",
+     "desc": "casefile://DTB-LEGAL-37/fact-synthesis?from=survey",
+     "resource_type": "file",
+     "requires": [
+      "facts_packet_page1",
+      "facts_packet_page2"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "agreement_facts": [
+    {
+     "edge_id": "e_deed",
+     "to": "deed_facts",
+     "desc": "archive://DTB-LEGAL-37/optional-raw-facts/neighbor-deed",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_fact_join_agreement",
+     "to": "fact_synthesis",
+     "desc": "casefile://DTB-LEGAL-37/fact-synthesis?from=agreement",
+     "resource_type": "file",
+     "requires": [
+      "facts_packet_page1",
+      "facts_packet_page2"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "deed_facts": [
+    {
+     "edge_id": "e_party_identity",
+     "to": "party_identity_facts",
+     "desc": "archive://DTB-LEGAL-37/optional-raw-facts/party-check",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_fact_join_deed",
+     "to": "fact_synthesis",
+     "desc": "casefile://DTB-LEGAL-37/fact-synthesis?from=deed",
+     "resource_type": "file",
+     "requires": [
+      "facts_packet_page1",
+      "facts_packet_page2"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "fact_register_page2": [
+    {
+     "edge_id": "e_fact_join_page2",
+     "to": "fact_synthesis",
+     "desc": "casefile://DTB-LEGAL-37/fact-synthesis?from=page2",
+     "resource_type": "file",
+     "requires": [
+      "facts_packet_page1",
+      "facts_packet_page2"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "party_identity_facts": [
+    {
+     "edge_id": "e_utility",
+     "to": "utility_facts",
+     "desc": "archive://DTB-LEGAL-37/optional-raw-facts/shared-water-line",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_fact_join_party",
+     "to": "fact_synthesis",
+     "desc": "casefile://DTB-LEGAL-37/fact-synthesis?from=party",
+     "resource_type": "file",
+     "requires": [
+      "facts_packet_page1",
+      "facts_packet_page2"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "utility_facts": [
+    {
+     "edge_id": "e_fact_join_utility",
+     "to": "fact_synthesis",
+     "desc": "casefile://DTB-LEGAL-37/fact-synthesis?from=utility",
+     "resource_type": "file",
+     "requires": [
+      "facts_packet_page1",
+      "facts_packet_page2"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "fact_synthesis": [
+    {
+     "edge_id": "e_research_registry",
+     "to": "research_registry",
+     "desc": "https://legal-research.internal/v2/texas/property/packets",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "old_advice": [
+    {
+     "edge_id": "e_old_71",
+     "to": "old_citation_71",
+     "desc": "archive://DTB-LEGAL-37/citation/71.012",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "old_citation_71": [
+    {
+     "edge_id": "e_old_water",
+     "to": "old_citation_water",
+     "desc": "archive://DTB-LEGAL-37/citation/water-402-404",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "old_citation_water": [
+    {
+     "edge_id": "e_old_notice",
+     "to": "old_citation_notice",
+     "desc": "archive://DTB-LEGAL-37/citation/66.201",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "old_citation_notice": [
+    {
+     "edge_id": "e_old_cost",
+     "to": "old_cost_guess",
+     "desc": "archive://DTB-LEGAL-37/cost-summary",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "old_cost_guess": [
+    {
+     "edge_id": "e_archive_closeout_cost",
+     "to": "archive_closeout",
+     "desc": "archive://DTB-LEGAL-37/closeout?from=citation-audit",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "archive_closeout": [
+    {
+     "edge_id": "e_archive_return",
+     "to": "fact_register_page1",
+     "desc": "casefile://DTB-LEGAL-37/evidence?return=archive-closeout",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "research_registry": [
+    {
+     "edge_id": "e_research_current",
+     "to": "research_current",
+     "desc": "https://legal-research.internal/v2/texas/property/TX-2026-08",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_research_archived",
+     "to": "research_archived",
+     "desc": "https://legal-research.internal/v2/texas/property/TX-2024-03",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_research_future",
+     "to": "research_future",
+     "desc": "https://legal-research.internal/v2/texas/property/TX-2026-10",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "research_current": [
+    {
+     "edge_id": "e_adverse_limits_direct",
+     "to": "adverse_limits",
+     "desc": "authority://texas/CPRC/limitations-and-title?via=current",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_recording_direct",
+     "to": "recording_rules",
+     "desc": "authority://texas/PropertyCode/recording-and-source-limits?via=current",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "adverse_limits": [
+    {
+     "edge_id": "e_authority_join_limitations",
+     "to": "authority_synthesis",
+     "desc": "authority://texas/property/synthesis?from=limitations",
+     "resource_type": "file",
+     "requires": [
+      "merits_authority",
+      "constraint_authority"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "tacking_and_title": [
+    {
+     "edge_id": "e_source_limits",
+     "to": "source_limits",
+     "desc": "archive://texas/optional-raw-authority/source-limit-note",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_authority_join_title",
+     "to": "authority_synthesis",
+     "desc": "authority://texas/property/synthesis?from=title",
+     "resource_type": "file",
+     "requires": [
+      "merits_authority",
+      "constraint_authority"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "recording_rules": [
+    {
+     "edge_id": "e_authority_join_recording",
+     "to": "authority_synthesis",
+     "desc": "authority://texas/property/synthesis?from=recording",
+     "resource_type": "file",
+     "requires": [
+      "merits_authority",
+      "constraint_authority"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "source_limits": [
+    {
+     "edge_id": "e_authority_join_limits",
+     "to": "authority_synthesis",
+     "desc": "authority://texas/property/synthesis?from=limits",
+     "resource_type": "file",
+     "requires": [
+      "merits_authority",
+      "constraint_authority"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "research_archived": [
+    {
+     "edge_id": "e_research_resolve_archived",
+     "to": "research_version_resolution",
+     "desc": "https://legal-research.internal/v2/texas/property/resolve?from=archived",
+     "resource_type": "endpoint",
+     "requires": "current_research_packet",
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "research_future": [
+    {
+     "edge_id": "e_research_resolve_future",
+     "to": "research_version_resolution",
+     "desc": "https://legal-research.internal/v2/texas/property/resolve?from=future",
+     "resource_type": "endpoint",
+     "requires": "current_research_packet",
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "research_version_resolution": [
+    {
+     "edge_id": "e_tacking_title",
+     "to": "tacking_and_title",
+     "desc": "archive://texas/optional-raw-authority/CPRC-16.023+16.024",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "authority_synthesis": [
+    {
+     "edge_id": "e_estimate_register",
+     "to": "estimate_register",
+     "desc": "costs://DTB-LEGAL-37/estimates?page=1",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "estimate_register": [
+    {
+     "edge_id": "e_estimates_page2",
+     "to": "estimate_register_page2",
+     "desc": "costs://DTB-LEGAL-37/estimates?page=2",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_cost_join_page1",
+     "to": "cost_synthesis",
+     "desc": "costs://DTB-LEGAL-37/synthesis?from=page1",
+     "resource_type": "file",
+     "requires": [
+      "cost_packet_page1",
+      "cost_packet_page2"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "title_estimate": [
+    {
+     "edge_id": "e_attorney_estimate",
+     "to": "attorney_estimate",
+     "desc": "archive://DTB-LEGAL-37/optional-raw-costs/attorney",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "attorney_estimate": [
+    {
+     "edge_id": "e_survey_estimate",
+     "to": "survey_estimate",
+     "desc": "archive://DTB-LEGAL-37/optional-raw-costs/survey",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "estimate_register_page2": [
+    {
+     "edge_id": "e_cost_join_page2",
+     "to": "cost_synthesis",
+     "desc": "costs://DTB-LEGAL-37/synthesis?from=page2",
+     "resource_type": "file",
+     "requires": [
+      "cost_packet_page1",
+      "cost_packet_page2"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "survey_estimate": [
+    {
+     "edge_id": "e_locator_estimate",
+     "to": "locator_estimate",
+     "desc": "archive://DTB-LEGAL-37/optional-raw-costs/private-utility-locate",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "locator_estimate": [
+    {
+     "edge_id": "e_cost_detail_return",
+     "to": "policy_registry",
+     "desc": "https://legal-ops.internal/v3/policies/boundary-triage?return=raw-cost-audit",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "cost_digest_stale": [
+    {
+     "edge_id": "e_stale_cost_return",
+     "to": "archive_closeout",
+     "desc": "archive://DTB-LEGAL-37/closeout?from=stale-dashboard",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "cost_synthesis": [
+    {
+     "edge_id": "e_title_estimate",
+     "to": "title_estimate",
+     "desc": "archive://DTB-LEGAL-37/optional-raw-costs/title-search",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_policy_registry",
+     "to": "policy_registry",
+     "desc": "https://legal-ops.internal/v3/policies/boundary-triage",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "policy_registry": [
+    {
+     "edge_id": "e_policy_current",
+     "to": "policy_current",
+     "desc": "https://legal-ops.internal/v3/policies/boundary-triage/2026-07",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_policy_archived",
+     "to": "policy_archived",
+     "desc": "https://legal-ops.internal/v3/policies/boundary-triage/2024-01",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_policy_future",
+     "to": "policy_future",
+     "desc": "https://legal-ops.internal/v3/policies/boundary-triage/2026-10",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "policy_current": [
+    {
+     "edge_id": "e_risk_current_direct",
+     "to": "risk_current",
+     "desc": "https://legal-ops.internal/v3/policies/boundary-triage/evidence-risk/2026-07?via=current-policy",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "policy_archived": [
+    {
+     "edge_id": "e_policy_resolve_archived",
+     "to": "policy_version_resolution",
+     "desc": "https://legal-ops.internal/v3/policies/boundary-triage/resolve?from=archived",
+     "resource_type": "endpoint",
+     "requires": "current_triage_policy",
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "policy_future": [
+    {
+     "edge_id": "e_policy_resolve_future",
+     "to": "policy_version_resolution",
+     "desc": "https://legal-ops.internal/v3/policies/boundary-triage/resolve?from=future",
+     "resource_type": "endpoint",
+     "requires": "current_triage_policy",
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "risk_registry": [
+    {
+     "edge_id": "e_risk_current",
+     "to": "risk_current",
+     "desc": "https://legal-ops.internal/v3/policies/boundary-triage/evidence-risk/2026-07",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_risk_future",
+     "to": "risk_future",
+     "desc": "https://legal-ops.internal/v3/policies/boundary-triage/evidence-risk/2026-10",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "risk_current": [
+    {
+     "edge_id": "e_workflow_register_direct",
+     "to": "workflow_register",
+     "desc": "https://legal-ops.internal/v3/matters/DTB-LEGAL-37/workflows?via=current-risk",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "risk_future": [
+    {
+     "edge_id": "e_risk_resolve_future",
+     "to": "risk_resolution",
+     "desc": "https://legal-ops.internal/v3/policies/boundary-triage/evidence-risk/resolve?from=future",
+     "resource_type": "endpoint",
+     "requires": "effective_risk_exception",
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "policy_version_resolution": [
+    {
+     "edge_id": "e_risk_registry",
+     "to": "risk_registry",
+     "desc": "https://legal-ops.internal/v3/policies/boundary-triage/evidence-risk",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "risk_resolution": [
+    {
+     "edge_id": "e_workflow_register",
+     "to": "workflow_register",
+     "desc": "https://legal-ops.internal/v3/matters/DTB-LEGAL-37/workflows",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "workflow_register": [
+    {
+     "edge_id": "e_workflow_a",
+     "to": "workflow_a",
+     "desc": "archive://DTB-LEGAL-37/optional-workflow-dossiers/WF-A",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_submission_schema_direct",
+     "to": "submission_schema",
+     "desc": "https://legal-ops.internal/v3/matters/DTB-LEGAL-37/commit/schema?via=matrix",
+     "resource_type": "endpoint",
+     "requires": "workflow_matrix_reviewed",
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "workflow_a": [
+    {
+     "edge_id": "e_workflow_b",
+     "to": "workflow_b",
+     "desc": "archive://DTB-LEGAL-37/optional-workflow-dossiers/WF-B",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "workflow_b": [
+    {
+     "edge_id": "e_workflow_c",
+     "to": "workflow_c",
+     "desc": "archive://DTB-LEGAL-37/optional-workflow-dossiers/WF-C",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "workflow_c": [
+    {
+     "edge_id": "e_workflow_join_c",
+     "to": "workflow_synthesis",
+     "desc": "workflow://DTB-LEGAL-37/synthesis?from=optional-dossier-audit",
+     "resource_type": "file",
+     "requires": [
+      "workflow_matrix_reviewed"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "workflow_synthesis": [
+    {
+     "edge_id": "e_submission_schema",
+     "to": "submission_schema",
+     "desc": "https://legal-ops.internal/v3/matters/DTB-LEGAL-37/commit/schema",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "submission_schema": [
+    {
+     "edge_id": "e_final_review",
+     "to": "final_review",
+     "desc": "https://legal-ops.internal/v3/matters/DTB-LEGAL-37/commit/review",
+     "resource_type": "endpoint",
+     "requires": [
+      "case_scope",
+      "facts_packet_page1",
+      "facts_packet_page2",
+      "current_research_packet",
+      "merits_authority",
+      "constraint_authority",
+      "cost_packet_page1",
+      "cost_packet_page2",
+      "current_triage_policy",
+      "effective_risk_exception",
+      "workflow_matrix_reviewed",
+      "submission_schema_reviewed"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_commit_a",
+     "to": "rejected_a",
+     "desc": "https://legal-ops.internal/v3/matters/DTB-LEGAL-37/commit?code=A",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_commit_b",
+     "to": "rejected_b",
+     "desc": "https://legal-ops.internal/v3/matters/DTB-LEGAL-37/commit?code=B",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "final_review": [
+    {
+     "edge_id": "e_commit_c",
+     "to": "target",
+     "desc": "https://legal-ops.internal/v3/matters/DTB-LEGAL-37/commit?code=C",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "target": [],
+   "rejected_a": [],
+   "rejected_b": []
+  }
+ },
+ "meta": {
+  "start": "start",
+  "target": "target",
+  "token_grants": {
+   "intake": "case_scope",
+   "fact_register_page1": "facts_packet_page1",
+   "fact_register_page2": "facts_packet_page2",
+   "research_current": "current_research_packet",
+   "adverse_limits": "merits_authority",
+   "recording_rules": "constraint_authority",
+   "estimate_register": "cost_packet_page1",
+   "estimate_register_page2": "cost_packet_page2",
+   "policy_current": "current_triage_policy",
+   "risk_current": "effective_risk_exception",
+   "workflow_register": "workflow_matrix_reviewed",
+   "submission_schema": "submission_schema_reviewed"
+  },
+  "loop_nodes": [],
+  "terminal_fail_nodes": [
+   "rejected_a",
+   "rejected_b"
+  ],
+  "one_shot": true,
+  "theme": "legal_operations",
+  "topology": "boundary_dispute_evidence_risk_redirect",
+  "task_revision": "texas-boundary-triage-v3.1",
+  "primary_mechanism": "Sufficiency",
+  "supporting_mechanisms": [
+   "Currency",
+   "Depth",
+   "Disposition",
+   "Breadth",
+   "Time"
+  ],
+  "domain_mechanisms": [
+   "unverified prior-answer false summit",
+   "current-versus-archived research packet",
+   "duration threshold versus merits sufficiency",
+   "conditional recording-statute application",
+   "record-owner versus threatening-tenant mismatch",
+   "shared-private-utility intervention risk",
+   "complete scoped-path cost comparison",
+   "conjunctive evidence-risk exception",
+   "three-way irreversible workflow commitment"
+  ],
+  "mechanism_crosswalk": {
+   "primary": "Sufficiency",
+   "supporting": [
+    "Currency",
+    "Depth",
+    "Disposition",
+    "Breadth",
+    "Time"
+   ],
+   "basis": {
+    "Sufficiency": "a crossed limitation threshold remains insufficient for merits action because permission, party, utility, and doctrine predicates are unresolved",
+    "Currency": "current research and SOP versions override archived shortcuts while approved future materials are inapplicable",
+    "Depth": "the global litigation-readiness default exposes a nested evidence-risk appendix that reverses it",
+    "Disposition": "one correct and two irreversible wrong workflow commitments are available",
+    "Breadth": "both fact pages, four authority groups, four estimates, and three workflows must be reviewed",
+    "Time": "the fixed decision timestamp selects effective rather than approved-future packets and policies"
+   }
+  },
+  "candidate_actions": [
+   "code=A",
+   "code=B",
+   "code=C"
+  ],
+  "correct_action": "code=C",
+  "semantic_required_nodes": [
+   "intake",
+   "fact_register_page1",
+   "fact_register_page2",
+   "research_current",
+   "adverse_limits",
+   "recording_rules",
+   "estimate_register",
+   "estimate_register_page2",
+   "policy_current",
+   "risk_current",
+   "workflow_register",
+   "submission_schema"
+  ],
+  "semantic_necessity": {
+   "intake": "defines the timestamp, closed-world scope, and least-cost sufficient objective",
+   "fact_register_page1": "supplies the survey, duration, missing agreement that may evidence permission, and deed-scope facts",
+   "fact_register_page2": "supplies the party-identity and shared-private-utility predicates",
+   "research_current": "selects the controlled authority packet effective at the frozen timestamp",
+   "adverse_limits": "combines hostile-use, ten-year, tacking, and three-year title rules without turning the threshold into merits",
+   "recording_rules": "makes recording consequences conditional, confines section 5.023, and records the missing-doctrine boundary",
+   "estimate_register": "supplies title, attorney, recording, court, and service figures",
+   "estimate_register_page2": "supplies survey and private-locator figures and both complete path totals",
+   "policy_current": "establishes the global default and least-irreversible sufficient rule",
+   "risk_current": "defines the conjunctive exception that reverses the global default",
+   "workflow_register": "compares all three workflow alternatives, defects, and complete costs in one controlled matrix",
+   "submission_schema": "defines the allowed one-shot actions and final review requirement"
+  },
+  "requirement_labels": {
+   "case_scope": "case scope",
+   "facts_packet_page1": "facts packet page1",
+   "facts_packet_page2": "facts packet page2",
+   "current_research_packet": "current research packet",
+   "merits_authority": "merits authority",
+   "constraint_authority": "constraint authority",
+   "cost_packet_page1": "cost packet page1",
+   "cost_packet_page2": "cost packet page2",
+   "current_triage_policy": "current triage policy",
+   "effective_risk_exception": "effective risk exception",
+   "workflow_matrix_reviewed": "workflow matrix reviewed",
+   "submission_schema_reviewed": "submission schema reviewed"
+  },
+  "source_kinds": [
+   "frozen GDPVal case and reference material",
+   "DetourBench-authored legal-operations overlay"
+  ],
+  "source_provenance": "frozen_source_package_plus_authored_overlay",
+  "provenance_boundary": "The consultation facts, deed excerpt, statutory excerpts, source-limit note, and vendor estimates are copied or faithfully summarized from the frozen GDPVal/PRBench package. Research version labels, internal SOPs, exception predicates, workflow codes, graph links, and filing outcomes are DetourBench-authored. The task selects an internal workflow and does not establish Texas title, tenant standing, utility liability, or legal advice.",
+  "node_provenance": {
+   "start": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "intake": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "fact_register_page1": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "property_use_facts": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "property_use_facts",
+    "public_reference": null
+   },
+   "agreement_facts": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "agreement_facts",
+    "public_reference": null
+   },
+   "deed_facts": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "deed_facts",
+    "public_reference": null
+   },
+   "fact_register_page2": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "fact_register_page2",
+    "public_reference": null
+   },
+   "party_identity_facts": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "party_identity_facts",
+    "public_reference": null
+   },
+   "utility_facts": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "utility_facts",
+    "public_reference": null
+   },
+   "fact_synthesis": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "old_advice": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "old_advice",
+    "public_reference": null
+   },
+   "old_citation_71": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "old_citation_71",
+    "public_reference": null
+   },
+   "old_citation_water": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "old_citation_water",
+    "public_reference": null
+   },
+   "old_citation_notice": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "old_citation_notice",
+    "public_reference": null
+   },
+   "old_cost_guess": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "old_cost_guess",
+    "public_reference": null
+   },
+   "archive_closeout": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "research_registry": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "research_current": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "adverse_limits": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "adverse_limits",
+    "public_reference": null
+   },
+   "tacking_and_title": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "tacking_and_title",
+    "public_reference": null
+   },
+   "recording_rules": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "recording_rules",
+    "public_reference": null
+   },
+   "source_limits": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "source_limits",
+    "public_reference": null
+   },
+   "research_archived": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "research_future": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "research_version_resolution": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "authority_synthesis": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "estimate_register": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "title_estimate": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "title_estimate",
+    "public_reference": null
+   },
+   "attorney_estimate": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "attorney_estimate",
+    "public_reference": null
+   },
+   "estimate_register_page2": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "survey_estimate": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "survey_estimate",
+    "public_reference": null
+   },
+   "locator_estimate": {
+    "origin": "frozen_gdpval_prbench_material",
+    "observed_fact": "locator_estimate",
+    "public_reference": null
+   },
+   "cost_digest_stale": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "cost_synthesis": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "policy_registry": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "policy_current": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "policy_archived": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "policy_future": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "risk_registry": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "risk_current": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "risk_future": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "policy_version_resolution": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "risk_resolution": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "workflow_register": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "workflow_a": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "workflow_b": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "workflow_c": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "workflow_synthesis": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "submission_schema": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "final_review": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "target": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "rejected_a": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   },
+   "rejected_b": {
+    "origin": "detourbench_authored_overlay",
+    "observed_fact": null,
+    "public_reference": null
+   }
+  },
+  "mechanism_regions": {
+   "facts": [
+    "fact_register_page1",
+    "property_use_facts",
+    "agreement_facts",
+    "deed_facts",
+    "fact_register_page2",
+    "party_identity_facts",
+    "utility_facts",
+    "fact_synthesis"
+   ],
+   "stale_advice": [
+    "old_advice",
+    "old_citation_71",
+    "old_citation_water",
+    "old_citation_notice",
+    "old_cost_guess",
+    "archive_closeout"
+   ],
+   "authority": [
+    "research_registry",
+    "research_current",
+    "adverse_limits",
+    "tacking_and_title",
+    "recording_rules",
+    "source_limits",
+    "research_archived",
+    "research_future",
+    "research_version_resolution",
+    "authority_synthesis"
+   ],
+   "costs": [
+    "estimate_register",
+    "title_estimate",
+    "attorney_estimate",
+    "estimate_register_page2",
+    "survey_estimate",
+    "locator_estimate",
+    "cost_digest_stale",
+    "cost_synthesis"
+   ],
+   "policy": [
+    "policy_registry",
+    "policy_current",
+    "policy_archived",
+    "policy_future",
+    "policy_version_resolution",
+    "risk_registry",
+    "risk_current",
+    "risk_future",
+    "risk_resolution"
+   ],
+   "workflows": [
+    "workflow_register",
+    "workflow_a",
+    "workflow_b",
+    "workflow_c",
+    "workflow_synthesis"
+   ],
+   "disposition": [
+    "submission_schema",
+    "final_review",
+    "target",
+    "rejected_a",
+    "rejected_b"
+   ]
+  },
+  "state_semantics_version": "graph-env.expanding-search.v1",
+  "solver_version": "compute_lower_bound.monotone-bfs.v1",
+  "dead_end_nodes": [
+   "rejected_a",
+   "rejected_b"
+  ],
+  "dead_end_definition": "nodes that can reach neither the target nor a credential under the declared expanding-search semantics",
+  "informed_lower_bound": 19,
+  "canonical_oracle_edge_path": [
+   "e_intake",
+   "e_facts_page1",
+   "e_facts_page2",
+   "e_fact_join_page1",
+   "e_research_registry",
+   "e_research_current",
+   "e_adverse_limits_direct",
+   "e_recording_direct",
+   "e_authority_join_limitations",
+   "e_estimate_register",
+   "e_estimates_page2",
+   "e_cost_join_page1",
+   "e_policy_registry",
+   "e_policy_current",
+   "e_risk_current_direct",
+   "e_workflow_register_direct",
+   "e_submission_schema_direct",
+   "e_final_review",
+   "e_commit_c"
+  ],
+  "step_budget": 29,
+  "difficulty": "hard",
+  "metric_version": "detourbench-v3"
+ }
+}

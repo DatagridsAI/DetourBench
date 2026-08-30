@@ -1,0 +1,353 @@
+{
+ "graph": {
+  "nodes": {
+   "start": {
+    "desc": "On-call queue for legacy-build-orchestrator. Resolve SEC-2401 and submit the smallest policy-compliant remediation with auditable dependency, advisory, implementation, and test evidence."
+   },
+   "ticket": {
+    "desc": "SEC-2401: The scanner reports one vulnerable transitive minimist resolution, but the lockfile records more than one incoming parent edge. Inspect the failed workflow logs before changing the lockfile."
+   },
+   "ci_failure": {
+    "desc": "Dependency-policy logs identify minimist 1.2.5 in package-lock.json. The scanner summary does not establish the full justification; inspect the frozen lockfile and source records."
+   },
+   "lockfile": {
+    "desc": "package-lock.json freezes gulp-util 3.0.8 and subarg 1.0.0 as direct development dependencies and deduplicates their compatible minimist requirements to minimist 1.2.5. Reconstruct every incoming path before selecting an override."
+   },
+   "dependency_graph": {
+    "desc": "The frozen dependency index exposes separate records for gulp-util 3.0.8 and subarg 1.0.0. Open https://api.deps.dev/v3/systems/NPM/packages/gulp-util/versions/3.0.8:dependencies and https://api.deps.dev/v3/systems/NPM/packages/subarg/versions/1.0.0:dependencies because a single deduplicated lockfile node may have multiple parents."
+   },
+   "parent_0_0": {
+    "desc": "Observed dependency edge: gulp-util 3.0.8 requires minimist ^1.1.0, which permits locked 1.2.5."
+   },
+   "parent_1_0": {
+    "desc": "Observed dependency edge: subarg 1.0.0 requires minimist ^1.1.0, which also permits locked 1.2.5."
+   },
+   "vulnerable": {
+    "desc": "Resolved shared transitive package minimist 1.2.5. The same locked resolution is reached by every recorded parent path; inspect the reviewed advisory GHSA-xvch-5gv4-984h and release evidence."
+   },
+   "advisory": {
+    "desc": "GHSA-xvch-5gv4-984h: Prototype pollution in setKey through constructor and __proto__ paths. Affected range 1.x before 1.2.6; first fixed release 1.2.6."
+   },
+   "release": {
+    "desc": "Release v1.2.6 resolves to 7efb22a518b53b06f5b02a1038a88bd6290c2846. Inspect the implementation and regression-test history links https://api.github.com/repos/minimistjs/minimist/commits/34e20b8461118608703d6485326abbb8e35e1703 and https://api.github.com/repos/minimistjs/minimist/commits/3dbebff0f4436cf946cb6c1e6db606f4b9bded4f before treating the release as verified."
+   },
+   "implementation_commit": {
+    "desc": "Commit 34e20b8461118608703d6485326abbb8e35e1703: Rework isConstructorOrProto and reject dangerous trailing key paths. Review index.js."
+   },
+   "implementation": {
+    "desc": "index.js: Rework isConstructorOrProto and reject dangerous trailing key paths."
+   },
+   "test_commit": {
+    "desc": "Commit 3dbebff0f4436cf946cb6c1e6db606f4b9bded4f: regression evidence in test/proto.js. Inspect the test itself."
+   },
+   "regression_test": {
+    "desc": "test/proto.js: Cover trailing __proto__ and constructor keys in dotted options."
+   },
+   "safe_candidate": {
+    "desc": "Registry candidate minimist 1.2.6: It is the first non-downgrade release outside the advisory and satisfies both observed ^1.1.0 parent requirements. Submit https://ci.internal/legacy-build-orchestrator/security/verify only after every parent path and code/test evidence has been checked."
+   },
+   "target": {
+    "desc": "CI accepted minimist 1.2.6; every parent path and the advisory, code, and test evidence agree."
+   },
+   "unrelated_0": {
+    "desc": "vinyl 0.5.3 is present through gulp-util but does not introduce minimist."
+   },
+   "unrelated_1": {
+    "desc": "dash-ast 1.0.0 is present through subarg but does not introduce minimist."
+   }
+  },
+  "edges": {
+   "start": [
+    {
+     "edge_id": "e_ticket",
+     "to": "ticket",
+     "desc": "scenario://legacy-build-orchestrator/issues/SEC-2401",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "ticket": [
+    {
+     "edge_id": "e_ci",
+     "to": "ci_failure",
+     "desc": "scenario://legacy-build-orchestrator/actions/jobs/SEC-2401/logs",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "ci_failure": [
+    {
+     "edge_id": "e_lock",
+     "to": "lockfile",
+     "desc": "repo://legacy-build-orchestrator/package-lock.json",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "lockfile": [
+    {
+     "edge_id": "e_graph",
+     "to": "dependency_graph",
+     "desc": "https://api.deps.dev/v3/systems/NPM/packages/gulp-util",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "dependency_graph": [
+    {
+     "edge_id": "e_parent_0",
+     "to": "parent_0_0",
+     "desc": "https://api.deps.dev/v3/systems/NPM/packages/gulp-util/versions/3.0.8:dependencies",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_parent_1",
+     "to": "parent_1_0",
+     "desc": "https://api.deps.dev/v3/systems/NPM/packages/subarg/versions/1.0.0:dependencies",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_unrelated_0",
+     "to": "unrelated_0",
+     "desc": "https://deps.dev/npm/vinyl/0.5.3",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_unrelated_1",
+     "to": "unrelated_1",
+     "desc": "https://deps.dev/npm/dash-ast/1.0.0",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "parent_0_0": [
+    {
+     "edge_id": "e_vulnerable_0",
+     "to": "vulnerable",
+     "desc": "https://deps.dev/npm/minimist/1.2.5",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "parent_1_0": [
+    {
+     "edge_id": "e_vulnerable_1",
+     "to": "vulnerable",
+     "desc": "https://deps.dev/npm/minimist/1.2.5",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "vulnerable": [
+    {
+     "edge_id": "e_advisory",
+     "to": "advisory",
+     "desc": "https://api.osv.dev/v1/vulns/GHSA-xvch-5gv4-984h",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_safe",
+     "to": "safe_candidate",
+     "desc": "https://registry.npmjs.org/minimist/1.2.6",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "advisory": [
+    {
+     "edge_id": "e_release",
+     "to": "release",
+     "desc": "https://api.github.com/repos/minimistjs/minimist/git/ref/tags/v1.2.6",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "release": [
+    {
+     "edge_id": "e_impl_commit",
+     "to": "implementation_commit",
+     "desc": "https://api.github.com/repos/minimistjs/minimist/commits/34e20b8461118608703d6485326abbb8e35e1703",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_test_commit",
+     "to": "test_commit",
+     "desc": "https://api.github.com/repos/minimistjs/minimist/commits/3dbebff0f4436cf946cb6c1e6db606f4b9bded4f",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "implementation_commit": [
+    {
+     "edge_id": "e_impl",
+     "to": "implementation",
+     "desc": "repo://minimistjs/minimist/34e20b8461118608703d6485326abbb8e35e1703/index.js",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "implementation": [],
+   "test_commit": [
+    {
+     "edge_id": "e_test",
+     "to": "regression_test",
+     "desc": "repo://minimistjs/minimist/3dbebff0f4436cf946cb6c1e6db606f4b9bded4f/test/proto.js",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "regression_test": [],
+   "safe_candidate": [
+    {
+     "edge_id": "e_verify",
+     "to": "target",
+     "desc": "https://ci.internal/legacy-build-orchestrator/security/verify",
+     "resource_type": "endpoint",
+     "requires": [
+      "parent_path_0",
+      "parent_path_1",
+      "affected_range",
+      "release_evidence",
+      "implementation_evidence",
+      "test_evidence",
+      "selected_version"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "target": [],
+   "unrelated_0": [],
+   "unrelated_1": []
+  }
+ },
+ "meta": {
+  "start": "start",
+  "target": "target",
+  "token_grants": {
+   "ticket": "ticket_scope",
+   "ci_failure": "failed_check",
+   "parent_0_0": "parent_path_0",
+   "parent_1_0": "parent_path_1",
+   "advisory": "affected_range",
+   "release": "release_evidence",
+   "implementation": "implementation_evidence",
+   "regression_test": "test_evidence",
+   "safe_candidate": "selected_version"
+  },
+  "loop_nodes": [],
+  "dead_end_nodes": [
+   "unrelated_0",
+   "unrelated_1"
+  ],
+  "mechanism_regions": {
+   "scenario": [
+    "ticket",
+    "ci_failure",
+    "lockfile"
+   ],
+   "multi_parent_resolution": [
+    "parent_0_0",
+    "parent_1_0",
+    "vulnerable"
+   ],
+   "vulnerability": [
+    "advisory"
+   ],
+   "code_evidence": [
+    "release",
+    "implementation",
+    "regression_test"
+   ],
+   "candidate_selection": [
+    "safe_candidate"
+   ],
+   "distractor": [
+    "unrelated_0",
+    "unrelated_1"
+   ]
+  },
+  "corpus_case_id": "npm-gulp-util-subarg-minimist-multiparent",
+  "evidence_cluster_id": "npm-minimist-ghsa-xvch",
+  "source_kinds": [
+   "scenario overlay",
+   "deps.dev",
+   "OSV",
+   "GitHub",
+   "npm registry"
+  ],
+  "theme_orthogonal": false,
+  "theme": "software_dependency",
+  "topology": "integrated_multi_parent_case",
+  "honeypot_depth": 5,
+  "loop_size": 3,
+  "loop_base_url": "https://deps.dev/_/advisory/pages",
+  "loop_host_vocab": [
+   "resolver-01",
+   "resolver-04",
+   "resolver-07",
+   "resolver-11"
+  ],
+  "loop_desc_template": "Resolution page from {host}: [{level}] {n} candidate versions returned. Response includes a `next_token` for continued paging.",
+  "difficulty": "hard",
+  "step_budget": 23,
+  "informed_lower_bound": 15
+ }
+}

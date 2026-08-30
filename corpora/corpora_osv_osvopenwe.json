@@ -1,0 +1,1171 @@
+{
+ "seed": "GHSA-w466-2wfc-8g58",
+ "sections": {
+  "GHSA-54f4-v6v9-9q82": {
+   "title": "open-webui allows writing and deleting arbitrary files",
+   "text": "open-webui allows writing and deleting arbitrary files Affected: open-webui. Severity: MODERATE. from 0 In version v0.3.8 of open-webui/open-webui, the endpoint /api/pipelines/upload is vulnerable to arbitrary file write and delete due to unsanitized file.filename concatenation with CACHE_DIR. This vulnerability allows attackers to overwrite and delete system files, potentially leading to remote code execution.",
+   "refs": [
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc",
+    "GHSA-frv8-gffc-37px"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-10-09, last modified 2026-07-07]"
+  },
+  "GHSA-xcvc-5hgv-phqg": {
+   "title": "open-webui Insecure Direct Object Reference (IDOR) vulnerability",
+   "text": "open-webui Insecure Direct Object Reference (IDOR) vulnerability Affected: open-webui. Severity: MODERATE. from 0 An Insecure Direct Object Reference (IDOR) vulnerability exists in open-webui/open-webui version v0.3.8. The vulnerability occurs in the API endpoint `http://0.0.0.0:3000/api/v1/memories/{id}/update`, where the decentralization design is flawed, allowing attackers to edit other users' memories without proper authorization.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc",
+    "GHSA-frv8-gffc-37px"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-10-09, last modified 2026-07-07]"
+  },
+  "GHSA-5jp3-wp5v-5363": {
+   "title": "Open WebUI Stored Cross-Site Scripting Vulnerability",
+   "text": "Open WebUI Stored Cross-Site Scripting Vulnerability Affected: open-webui. Severity: MODERATE. from 0 Attackers can craft a malicious prompt that coerces the language model into executing arbitrary JavaScript in the context of the web page.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc",
+    "GHSA-frv8-gffc-37px"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-08-08, last modified 2026-07-07]"
+  },
+  "GHSA-mq92-jr35-ffpc": {
+   "title": "open-webui allows enumeration of file names and traversal of directories by observing the error messages",
+   "text": "open-webui allows enumeration of file names and traversal of directories by observing the error messages Affected: open-webui. Severity: LOW. from 0 An information disclosure vulnerability exists in open-webui version 0.3.8. The vulnerability is related to the embedding model update feature under admin settings. When a user updates the model path, the system checks if the file exists and provides different error messages based on the existence and configuration of the file. This behavior allows an attacker to enumerate file names and traverse directories by observing the error messages, leading to potential exposure of sensitive information.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc",
+    "GHSA-frv8-gffc-37px"
+   ],
+   "amended_years": [
+    2024,
+    2026
+   ],
+   "history": "[published 2024-10-09, last modified 2026-07-07]"
+  },
+  "GHSA-85jc-8h5p-8vw8": {
+   "title": "Open WebUI Cross-Site Request Forgery (CSRF) Vulnerability",
+   "text": "Open WebUI Cross-Site Request Forgery (CSRF) Vulnerability Affected: open-webui. Severity: HIGH. from 0; fixed in 0.3.33 A vulnerability in open-webui/open-webui versions <= 0.3.8 allows remote code execution by non-admin users via Cross-Site Request Forgery (CSRF). The application uses cookies with the SameSite attribute set to lax for authentication and lacks CSRF tokens. This allows an attacker to craft a malicious HTML that, when accessed by a victim, can modify the Python code of an existing pipeline and execute arbitrary code with the victim's privileges.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-w466-2wfc-8g58": {
+   "title": "Open WebUI has vulnerable dependency on starlette via fastapi",
+   "text": "Open WebUI has vulnerable dependency on starlette via fastapi Affected: open-webui. Severity: HIGH. from 0 In version 0.3.32 of open-webui, the application uses a vulnerable version of the starlette package through its dependency on fastapi. The starlette package versions <=0.49 are susceptible to uncontrolled resource consumption, which can be exploited to cause a denial of service through memory exhaustion. This issue is addressed in fastapi version 0.115.3.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc",
+    "GHSA-frv8-gffc-37px"
+   ],
+   "amended_years": [
+    2025
+   ],
+   "history": "[published 2025-03-20, last modified 2025-04-15]"
+  },
+  "GHSA-43g4-487m-5q6m": {
+   "title": "Open WebUI Vulnerable to a Session Fixation Attack",
+   "text": "Open WebUI Vulnerable to a Session Fixation Attack Affected: open-webui. Severity: HIGH. from 0 A vulnerability in open-webui/open-webui version 0.3.8 allows an attacker with a user-level account to perform a session fixation attack. The session cookie for all users is set with the default `SameSite=Lax` and does not have the `Secure` flag enabled, allowing the session cookie to be sent over HTTP to a cross-origin domain. An attacker can exploit this by embedding a malicious markdown image in a chat, which, when viewed by an administrator, sends the admin's session cookie to the attacker's server. This can lead to a stealthy administrator account takeover, potentially resulting in remote code execution (RCE) due to the elevated privileges of administrator accounts.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc",
+    "GHSA-frv8-gffc-37px"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-9vf8-xgwm-97r8": {
+   "title": "Open WebUI lacks authentication for the `api/v1/utils/pdf` endpoint",
+   "text": "Open WebUI lacks authentication for the `api/v1/utils/pdf` endpoint Affected: open-webui. Severity: HIGH. from 0 In version v0.3.10 of open-webui/open-webui, the `api/v1/utils/pdf` endpoint lacks authentication mechanisms, allowing unauthenticated attackers to access the PDF generation service. This vulnerability can be exploited by sending a POST request with an excessively large payload, potentially leading to server resource exhaustion and denial of service (DoS). Additionally, unauthorized users can misuse the endpoint to generate PDFs without verification, resulting in service misuse and potential operational and financial impacts.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-g3mx-83mp-3rwc",
+    "GHSA-frv8-gffc-37px"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-c6xv-rcvw-v685": {
+   "title": "Open WebUI vulnerable to Server-Side Request Forgery (SSRF) via Arbitrary URL Processing in /api/v1/retrieval/process/web",
+   "text": "Open WebUI vulnerable to Server-Side Request Forgery (SSRF) via Arbitrary URL Processing in /api/v1/retrieval/process/web Affected: open-webui. Severity: HIGH. from 0; fixed in 0.6.37 ### Summary A Server-Side Request Forgery (SSRF) vulnerability in Open WebUI allows any authenticated user to force the server to make HTTP requests to arbitrary URLs. This can be exploited to access cloud metadata endpoints (AWS/GCP/Azure), scan internal networks, access internal services behind firewalls, and exfiltrate sensitive information. No special permissions beyond basic authentication are required. ### Details The vulnerability exists in the /api/v1/retrieval/process/web endpoint located in backend/open_webui/routers/retrieval.py at lines 1758-1767. Vulnerable code: @router.post(\"/process/web\") def process_web( request: Request, form_data: ProcessUrlForm, user=Depends(get_verified_user) ): try: collection_name = form_data.collection_name if not collection_name: collection_name = calculate_sha256_string(form_data.url)[:63] content, docs = get_content_from_url(request, form_data.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-12-04, last modified 2026-07-07]"
+  },
+  "GHSA-g3mx-83mp-3rwc": {
+   "title": "Open WebUI Uncontrolled Resource Consumption vulnerability",
+   "text": "Open WebUI Uncontrolled Resource Consumption vulnerability Affected: open-webui. Severity: HIGH. from 0; from 0 In version v0.3.32 of open-webui/open-webui, the application allows users to submit large payloads in the email and password fields during the sign-in process due to the lack of character length validation on these inputs. This vulnerability can lead to a Denial of Service (DoS) condition when a user submits excessively large strings, exhausting server resources such as CPU, memory, and disk space, and rendering the service unavailable for legitimate users. This makes the server susceptible to resource exhaustion attacks without requiring authentication.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-frv8-gffc-37px"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-frv8-gffc-37px": {
+   "title": "open-webui is Vulnerable to Incorrect Access Control",
+   "text": "open-webui is Vulnerable to Incorrect Access Control Affected: open-webui. Severity: LOW. from 0 open-webui v0.6.33 is vulnerable to Incorrect Access Control. The API /api/tasks/stop/ directly accesses and cancels tasks without verifying user ownership, enabling attackers (a normal user) to stop arbitrary LLM response tasks.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-12-04, last modified 2026-07-07]"
+  },
+  "GHSA-w7xj-8fx7-wfch": {
+   "title": "Open WebUI vulnerable to Stored DOM XSS via prompts when 'Insert Prompt as Rich Text' is enabled resulting in ATO/RCE",
+   "text": "Open WebUI vulnerable to Stored DOM XSS via prompts when 'Insert Prompt as Rich Text' is enabled resulting in ATO/RCE Affected: open-webui. Severity: HIGH. from 0; fixed in 0.6.35; from 0; fixed in 0.6.35 ### Summary The functionality that inserts custom prompts into the chat window is vulnerable to DOM XSS when 'Insert Prompt as Rich Text' is enabled, since the prompt body is assigned to the DOM sink `.innerHtml` without sanitisation. Any user with permissions to create prompts can abuse this to plant a payload that could be triggered by other users if they run the corresponding `/` command to insert the prompt. ### Details The affected line is https://github.com/open-webui/open-webui/blob/7a83e7dfa367d19f762ec17cac5e4a94ea2bd97d/src/lib/components/common/RichTextInput.svelte#L348 ```js export const replaceCommandWithText = async (text) => { const { state, dispatch } = editor.view; const { selection } = state; const pos = selection.from; // Get the plain text of this document // const docText = state.doc.textBetween(0, state.doc.content.size, '\\n', '\\n'); // Find the word boundaries at c",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-11-07, last modified 2026-07-07]"
+  },
+  "GHSA-jrhc-9qg9-4qfq": {
+   "title": "Open WebUI Allows Arbitrary File Reading and Deletion",
+   "text": "Open WebUI Allows Arbitrary File Reading and Deletion Affected: open-webui. Severity: HIGH. from 0 An improper access control vulnerability in open-webui/open-webui v0.3.8 allows attackers to view and delete any files. The application does not verify whether the attacker is an administrator, allowing the attacker to directly call the GET /api/v1/files/ interface to retrieve information on all files uploaded by users, which includes the ID values. The attacker can then use the GET /api/v1/files/{file_id} interface to obtain information on any file and the DELETE /api/v1/files/{file_id} interface to delete any file.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-chf7-q7m5-fq92": {
+   "title": "Open WebUI Uncontrolled Resource Consumption vulnerability",
+   "text": "Open WebUI Uncontrolled Resource Consumption vulnerability Affected: open-webui. Severity: HIGH. from 0; from 0 In version 0.3.32 of open-webui/open-webui, the absence of authentication mechanisms allows any unauthenticated attacker to access the `api/v1/utils/code/format` endpoint. If a malicious actor sends a POST request with an excessively high volume of content, the server could become completely unresponsive. This could lead to severe performance issues, causing the server to become unresponsive or experience significant degradation, ultimately resulting in service interruptions for legitimate users.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-c7fq-p62p-wvpc": {
+   "title": "Open WebUI Has Improper Access Control Leading to Arbitrary Prompt Read",
+   "text": "Open WebUI Has Improper Access Control Leading to Arbitrary Prompt Read Affected: open-webui. Severity: MODERATE. from 0 In version v0.3.8 of open-webui/open-webui, improper access control vulnerabilities allow an attacker to view any prompts. The application does not verify whether the attacker is an administrator, allowing the attacker to directly call the /api/v1/prompts/ interface to retrieve all prompt information created by the admin, which includes the ID values. Subsequently, the attacker can exploit the /api/v1/prompts/command/{command_id} interface to obtain arbitrary prompt information.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-6wj5-5pgr-jwq8": {
+   "title": "Open WebUI Unauthenticated Multipart Boundary Denial of Service (DoS) Vulnerability in api/chat/file",
+   "text": "Open WebUI Unauthenticated Multipart Boundary Denial of Service (DoS) Vulnerability in api/chat/file Affected: open-webui. Severity: HIGH. from 0; fixed in 0.4.7 A vulnerability in open-webui/open-webui version 79778fa allows an attacker to cause a Denial of Service (DoS) by uploading a file with a malformed multipart boundary. By appending a large number of characters to the end of the multipart boundary, the server continuously processes each character, rendering the application inaccessible. This issue can prevent all users from accessing the application until the server recovers.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2025
+   ],
+   "history": "[published 2025-03-20, last modified 2025-04-15]"
+  },
+  "GHSA-wcwp-9rcp-jvfg": {
+   "title": "Open WebUI Uncontrolled Resource Consumption vulnerability",
+   "text": "Open WebUI Uncontrolled Resource Consumption vulnerability Affected: open-webui. Severity: HIGH. from 0 A vulnerability in open-webui/open-webui v0.3.8 allows an unauthenticated attacker to sign up with excessively large text in the 'name' field, causing the Admin panel to become unresponsive. This prevents administrators from performing essential user management actions such as deleting, editing, or adding users. The vulnerability can also be exploited by authenticated users with low privileges, leading to the same unresponsive state in the Admin panel.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-gj27-76gq-5v3p": {
+   "title": "Open WebUI stored cross-site scripting (XSS) vulnerability",
+   "text": "Open WebUI stored cross-site scripting (XSS) vulnerability Affected: open-webui. Severity: HIGH. from 0 A stored cross-site scripting (XSS) vulnerability exists in open-webui/open-webui version 0.3.8. The vulnerability is present in the `/api/v1/models/add` endpoint, where the model description field is improperly sanitized before being rendered in chat. This allows an attacker to inject malicious scripts that can be executed by any user, including administrators, potentially leading to arbitrary code execution.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-x757-hv69-jr45": {
+   "title": "Open WebUI has SSRF in /openai/models",
+   "text": "Open WebUI has SSRF in /openai/models Affected: open-webui. Severity: HIGH. from 0 The `/openai/models` endpoint in open-webui/open-webui version 0.3.8 is vulnerable to Server-Side Request Forgery (SSRF). An attacker can change the OpenAI URL to any URL without checks, causing the endpoint to send a request to the specified URL and return the output. This vulnerability allows the attacker to access internal services and potentially gain command execution by accessing instance secrets.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-ff5c-56m7-vc75": {
+   "title": "Open WebUI allows Remote Code Execution via Arbitrary File Upload to /audio/api/v1/transcriptions",
+   "text": "Open WebUI allows Remote Code Execution via Arbitrary File Upload to /audio/api/v1/transcriptions Affected: open-webui. Severity: HIGH. from 0; fixed in 0.5.17 OpenWebUI version 0.3.0 contains a vulnerability in the audio API endpoint `/audio/api/v1/transcriptions` that allows for arbitrary file upload. The application performs insufficient validation on the `file.content_type` and allows user-controlled filenames, leading to a path traversal vulnerability. This can be exploited by an authenticated user to overwrite critical files within the Docker container, potentially leading to remote code execution as the root user.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-3p9q-7w63-3f8q": {
+   "title": "Open WebUI Allows Arbitrary File Write via the `download_model` Endpoint",
+   "text": "Open WebUI Allows Arbitrary File Write via the `download_model` Endpoint Affected: open-webui. Severity: MODERATE. from 0 In version 0.3.8 of open-webui/open-webui, an arbitrary file write vulnerability exists in the download_model endpoint. When deployed on Windows, the application improperly handles file paths, allowing an attacker to manipulate the file path to write files to arbitrary locations on the server's filesystem. This can result in overwriting critical system or application files, causing denial of service, or potentially achieving remote code execution (RCE). RCE can allow an attacker to execute malicious code with the privileges of the user running the application, leading to a full system compromise.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-gv26-qw3h-8qvp": {
+   "title": "Open WebUI Allows Viewing of Admin Details",
+   "text": "Open WebUI Allows Viewing of Admin Details Affected: open-webui. Severity: MODERATE. from 0 An improper access control vulnerability in open-webui/open-webui v0.3.8 allows an attacker to view admin details. The application does not verify whether the attacker is an administrator, allowing the attacker to directly call the /api/v1/auths/admin/details interface to retrieve the first admin (owner) details.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-j274-m559-cj4j": {
+   "title": "Open WebUI Vulnerable to Cross-Site Scripting (XSS) via Chat File Upload",
+   "text": "Open WebUI Vulnerable to Cross-Site Scripting (XSS) via Chat File Upload Affected: open-webui. Severity: MODERATE. from 0 A Stored Cross-Site Scripting (XSS) vulnerability exists in the chat file upload functionality of open-webui/open-webui version 0.3.8. An attacker can inject malicious content into a file, which, when accessed by a victim through a URL or shared chat, executes JavaScript in the victim's browser. This can lead to user data theft, session hijacking, malware distribution, and phishing attacks.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-p5vx-9hj8-cf4h": {
+   "title": "Open WebUI Vulnerable to Cross-Site Request Forgery (CSRF)",
+   "text": "Open WebUI Vulnerable to Cross-Site Request Forgery (CSRF) Affected: open-webui. Severity: MODERATE. from 0 In version v0.3.8 of open-webui/open-webui, sensitive actions such as deleting and resetting are performed using the GET method. This vulnerability allows an attacker to perform Cross-Site Request Forgery (CSRF) attacks, where an unaware user can unintentionally perform sensitive actions by simply visiting a malicious site or through top-level navigation. The affected endpoints include /rag/api/v1/reset, /rag/api/v1/reset/db, /api/v1/memories/reset, and /rag/api/v1/reset/uploads. This impacts both the availability and integrity of the application.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-pqwr-phvv-v49f": {
+   "title": "Open WebUI Allows Admin Deletion via API Endpoint",
+   "text": "Open WebUI Allows Admin Deletion via API Endpoint Affected: open-webui. Severity: HIGH. from 0 In open-webui/open-webui version v0.3.8, there is an improper privilege management vulnerability. The application allows an attacker, acting as an admin, to delete other administrators via the API endpoint `http://0.0.0.0:8080/api/v1/users/{uuid_administrator}`. This action is restricted by the user interface but can be performed through direct API calls.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-cm35-v4vp-5xvx": {
+   "title": "Open WebUI Affected by an External Model Server (Direct Connections) Code Injection via SSE Events",
+   "text": "Open WebUI Affected by an External Model Server (Direct Connections) Code Injection via SSE Events Affected: open-webui. Severity: HIGH. from 0; fixed in 0.6.35; from 0; fixed in 0.6.35 ### Summary Open WebUI v0.6.33 and below contains a code injection vulnerability in the Direct Connections feature that allows malicious external model servers to execute arbitrary JavaScript in victim browsers via Server-Sent Event (SSE) `execute` events. This leads to authentication token theft, complete account takeover, and when chained with the Functions API, enables remote code execution on the backend server. The attack requires the victim to enable Direct Connections (disabled by default) and add the attacker's malicious model URL, achievable through social engineering of the admin and subsequent users. ### Details ROOT CAUSE ANALYSIS: Open WebUI's Direct Connections feature allows users to add external OpenAI-compatible model servers without proper validation of the Server-Sent Events (SSE) these servers emit. VULNERABLE COMPONENT: Frontend SSE Event Handler The frontend JavaScr",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-11-07, last modified 2026-07-07]"
+  },
+  "GHSA-crh6-pj8c-xrhc": {
+   "title": "Open WebUI Allows Arbitrary File Write via the `/models/upload` Endpoint",
+   "text": "Open WebUI Allows Arbitrary File Write via the `/models/upload` Endpoint Affected: open-webui. Severity: MODERATE. from 0 In open-webui version 0.3.8, the endpoint `/models/upload` is vulnerable to arbitrary file write due to improper handling of user-supplied filenames. The vulnerability arises from the usage of `file_path = f\"{UPLOAD_DIR}/{file.filename}\"` without proper input validation or sanitization. An attacker can exploit this by manipulating the `file.filename` parameter to include directory traversal sequences, causing the resulting `file_path` to escape the intended `UPLOAD_DIR` and potentially overwrite arbitrary files on the system. This can lead to unauthorized modifications of system binaries, configuration files, or sensitive data, potentially enabling remote command execution.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-5ccf-884p-4jjq": {
+   "title": "Open WebUI Unauthenticated Multipart Boundary Denial of Service (DoS) Vulnerability",
+   "text": "Open WebUI Unauthenticated Multipart Boundary Denial of Service (DoS) Vulnerability Affected: open-webui. Severity: HIGH. from 0; from 0 A Denial of Service (DoS) vulnerability exists in open-webui/open-webui version 0.3.21. This vulnerability affects multiple endpoints, including `/ollama/models/upload`, `/audio/api/v1/transcriptions`, and `/rag/api/v1/doc`. The application processes multipart boundaries without authentication, leading to resource exhaustion. By appending additional characters to the multipart boundary, an attacker can cause the server to parse each byte of the boundary, ultimately leading to service unavailability. This vulnerability can be exploited remotely, resulting in high CPU and memory usage, and rendering the service inaccessible to legitimate users.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025
+   ],
+   "history": "[published 2025-03-20, last modified 2025-04-15]"
+  },
+  "GHSA-5v9m-57mq-qc75": {
+   "title": "Open WebUI denial of service through endpoint for converting markdown",
+   "text": "Open WebUI denial of service through endpoint for converting markdown Affected: open-webui. Severity: HIGH. from 0 In version 0.3.8 of open-webui, an endpoint for converting markdown to HTML is exposed without authentication. A maliciously crafted markdown payload can cause the server to spend excessive time converting it, leading to a denial of service. The server becomes unresponsive to other requests until the conversion is complete.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[published 2025-03-20, last modified 2026-07-07]"
+  },
+  "GHSA-v6qf-75pr-p96m": {
+   "title": "Open WebUI: Authenticated users can bypass model access control via exposed query parameter [AI-ASSISTED]",
+   "text": "Open WebUI: Authenticated users can bypass model access control via exposed query parameter [AI-ASSISTED] Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.8.11 ### Summary An internal-only bypass_filter parameter is exposed on the /openai/chat/completions and /ollama/api/chat HTTP endpoints via FastAPI query string binding, allowing any authenticated user to append ?bypass_filter=true and bypass model access control checks to invoke admin-restricted models. ### Details The `generate_chat_completion` route handlers in both `routers/openai.py` and `routers/ollama.py` declare `bypass_filter` as a function parameter: **`routers/openai.py`, line 937\u2013941:** ```python @router.post(\"/chat/completions\") async def generate_chat_completion( request: Request, form_data: dict, user=Depends(get_verified_user), bypass_filter: Optional[bool] = False, ... ): ``` **`routers/ollama.py`, line 1283\u20131288:** ```python @router.post(\"/api/chat\") async def generate_chat_completion( ... bypass_filter: Optional[bool] = False, ... ): ``` Because FastAPI automatically binds",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-19]"
+  },
+  "GHSA-f3g7-59qc-pqg6": {
+   "title": "Open WebUI IDOR: Calendar event re-parenting allows writing events into another user's calendar",
+   "text": "Open WebUI IDOR: Calendar event re-parenting allows writing events into another user's calendar Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.9.6 ### Summary `POST /api/v1/calendars/events/{event_id}/update` validates that the caller has **write** access to the calendar the event *currently* belongs to, but does not validate the **destination** `calendar_id` supplied in the request body. The model layer then persists the new `calendar_id` unconditionally. A regular `user`-role account can therefore create an event in their own calendar and immediately move it into any other user's calendar whose ID they know \u2014 bypassing the authorization check that `create_event` correctly performs. This is reachable on **default configuration**: `ENABLE_CALENDAR` and `USER_PERMISSIONS_FEATURES_CALENDAR` both default to `True`. ### Details ### Sink \u2014 missing destination check `backend/open_webui/routers/calendar.py:283-297` ```python @router.post('/events/{event_id}/update', response_model=CalendarEventModel) async def update_event( request: Reque",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "GHSA-cx9v-4qj2-jrw6": {
+   "title": "Open WebUI BOLA: `search_knowledge_files` Allows Unauthorized Knowledge Base File Enumeration",
+   "text": "Open WebUI BOLA: `search_knowledge_files` Allows Unauthorized Knowledge Base File Enumeration Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.9.6 ## Summary Open WebUI has a Broken Object Level Authorization (BOLA) vulnerability in the builtin `search_knowledge_files` tool. When native function calling is enabled and the selected model has no attached knowledge bases, an authenticated user can call `search_knowledge_files` with an arbitrary `knowledge_id`. The function then returns file metadata from that knowledge base without checking whether the user has read access. This allows unauthorized enumeration of private or restricted knowledge base files. ## Details The vulnerable code is in: `backend/open_webui/tools/builtin.py` Affected function: ```python async def search_knowledge_files( query: str, knowledge_id: Optional[str] = None, count: int = 5, skip: int = 0, __request__: Request = None, __user__: dict = None, __model_knowledge__: Optional[list[dict]] = None, ) -> str: ``` In the \"No attached knowledge\" branch, when `knowle",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "GHSA-4pcg-253r-rf9w": {
+   "title": "Open WebUI's chat completion API allows tool restrictions to be bypassed",
+   "text": "Open WebUI's chat completion API allows tool restrictions to be bypassed Affected: open-webui. Severity: HIGH. from 0; fixed in 0.8.6 ### Summary Open WebUI v0.6.43 contains a vulnerability in its chat completion API, which allows attackers to bypass tool restrictions, potentially enabling unauthorized actions or access. ### Details In the [chat_completion](https://github.com/open-webui/open-webui/blob/a7271532f8a38da46785afcaa7e65f9a45e7d753/backend/open_webui/main.py#L1529) API, the parameters [tool_ids and tool_servers](https://github.com/open-webui/open-webui/blob/a7271532f8a38da46785afcaa7e65f9a45e7d753/backend/open_webui/main.py#L1613-L1614) are supplied by the user. These parameters are used to [create a tools_dict by the middleware](https://github.com/open-webui/open-webui/blob/a7271532f8a38da46785afcaa7e65f9a45e7d753/backend/open_webui/utils/middleware.py#L1394). This is then used by [get_tool_by_id](https://github.com/open-webui/open-webui/blob/a7271532f8a38da46785afcaa7e65f9a45e7d753/backend/open_webui/model",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-19]"
+  },
+  "PYSEC-2026-1719": {
+   "title": "Open WebUI Allows Arbitrary File Write via the `download_model` Endpoint",
+   "text": "Open WebUI Allows Arbitrary File Write via the `download_model` Endpoint Affected: open-webui. Severity: unrated. from 0 In version 0.3.8 of open-webui/open-webui, an arbitrary file write vulnerability exists in the download_model endpoint. When deployed on Windows, the application improperly handles file paths, allowing an attacker to manipulate the file path to write files to arbitrary locations on the server's filesystem. This can result in overwriting critical system or application files, causing denial of service, or potentially achieving remote code execution (RCE). RCE can allow an attacker to execute malicious code with the privileges of the user running the application, leading to a full system compromise.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-07, last modified 2026-07-07]"
+  },
+  "GHSA-7429-hxcv-268m": {
+   "title": "Open WebUI has Broken Access Control in Tool Valves",
+   "text": "Open WebUI has Broken Access Control in Tool Valves Affected: open-webui. Severity: HIGH. from 0; fixed in 0.8.11 # Summary ## Broken Access Control in Tool Valves Open WebUI supports function calling through \"Tools\". Function calling allows an LLM to reliably connect to external tools and interact with external APIs. Exemplary use-cases include connecting to an internal knowledge base, retrieving emails from an exchange server, or retrieving order data from a shop backend. These interactions often require the LLM to authenticate against backend services using API keys specifically created for a technical (Open WebUI) user. To simplify configuration and secret handling, Open WebUI implements \"Valves\" and \"UserValves\" that allow users and administrators to input dynamic details like API keys or configuration options. Valves have the following distinction: - **Valves:** Configurable by admins only. - **UserValves:** Configurable by any user. The Tool Valves endpoint does not properly restrict read acc",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-01, last modified 2026-04-06]"
+  },
+  "PYSEC-2026-435": {
+   "title": "Open WebUI has an LDAP Empty Password Authentication Bypass",
+   "text": "Open WebUI has an LDAP Empty Password Authentication Bypass Affected: open-webui. Severity: unrated. from 0; fixed in 0.9.0 # LDAP Empty Password Authentication Bypass ## Affected Component LDAP authentication endpoint: - `backend/open_webui/routers/auths.py` (lines 468-477, user bind with empty password) - `backend/open_webui/models/auths.py` (lines 58-60, `LdapForm` model) ## Affected Versions Current main branch (commit `6fdd19bf1`) and likely all versions with LDAP authentication support. ## Description The LDAP authentication endpoint does not validate that the submitted password is non-empty before performing a Simple Bind against the LDAP server. Per RFC 4513 Section 5.1.2, a Simple Bind with a valid DN and an empty password constitutes an \"unauthenticated simple authentication\" \u2014 many LDAP servers (including OpenLDAP in default configuration and some Active Directory setups) return success (resultCode 0) for this operation. The `LdapForm` Pydantic model accepts `password: str` with no minimum length c",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-29, last modified 2026-07-01]"
+  },
+  "GHSA-4g37-7p2c-38r9": {
+   "title": "Open WebUI Vulnerable to IDOR: Retrieval API Bypasses Knowledge Base Access Controls",
+   "text": "Open WebUI Vulnerable to IDOR: Retrieval API Bypasses Knowledge Base Access Controls Affected: open-webui. Severity: HIGH. from 0; fixed in 0.9.5 # IDOR: Retrieval API Bypasses Knowledge Base Access Controls **Author:** Andrew Orr <aorr@tenable.com> ## Summary `_validate_collection_access()` ([PR #22109](https://github.com/open-webui/open-webui/pull/22109)) checks the `user-memory-*` and `file-*` collection name prefixes but does not check knowledge base collections, which use raw UUIDs as collection names. Any authenticated user who knows a private knowledge base UUID can read its content through the retrieval query endpoints, even though the knowledge API correctly denies that user access. The same gap affects the retrieval write endpoints (`/process/text`, `/process/file`, `/process/files/batch`, `/process/web`, `/process/youtube`), allowing an attacker to inject content into or overwrite another user's knowledge base. Reproduced on `main` at commit `4d058a125` (v0.8.11) on March 26, 2026. ## Severity - CWE-639: Authorization B",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-16]"
+  },
+  "PYSEC-2026-1721": {
+   "title": "open-webui allows writing and deleting arbitrary files",
+   "text": "open-webui allows writing and deleting arbitrary files Affected: open-webui. Severity: unrated. from 0 In version v0.3.8 of open-webui/open-webui, the endpoint /api/pipelines/upload is vulnerable to arbitrary file write and delete due to unsanitized file.filename concatenation with CACHE_DIR. This vulnerability allows attackers to overwrite and delete system files, potentially leading to remote code execution.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-07, last modified 2026-07-07]"
+  },
+  "GHSA-vrfh-rj4q-rmhr": {
+   "title": "Read-Only Open WebUI Users Can Modify Collaborative Documents via Socket.IO",
+   "text": "Read-Only Open WebUI Users Can Modify Collaborative Documents via Socket.IO Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.9.0 # Read-Only Users Can Modify Collaborative Documents via Socket.IO ## Affected Component Socket.IO collaborative document editing handler: - `backend/open_webui/socket/main.py` (lines 667-721, `ydoc:document:update` handler) ## Affected Versions Current main branch and likely all versions with collaborative note editing. ## Description The `ydoc:document:update` Socket.IO event handler checks whether the sender is a member of the document's Socket.IO room (line 678) but does not verify that the sender has **write** permission. Users with read-only access join the document room via `ydoc:document:join`, which only requires `read` permission (line 520). Once in the room, the user can emit `ydoc:document:update` events that modify the in-memory Yjs document state and are broadcast to all other collaborators in real time. The `document_save_handler` (line 600) correctly checks `write` permis",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-08, last modified 2026-06-09]"
+  },
+  "GHSA-vrhc-3fr6-pc3c": {
+   "title": "Open WebUI: Forged chat-file link allows cross-user file read and deletion",
+   "text": "Open WebUI: Forged chat-file link allows cross-user file read and deletion Affected: open-webui. Severity: HIGH. from 0; fixed in 0.9.6 ## Summary Open WebUI `v0.9.5` lets an authenticated user attach arbitrary `file_id` values to their own chat message without checking whether they own or can read those files. If the attacker then shares that chat and grants themselves read access, `has_access_to_file()` treats the victim file as accessible through the shared chat, and the file endpoints read or delete the victim file. ## Impact Security boundary crossed: file confidentiality and integrity. An authenticated attacker who knows or obtains a victim `file_id` can make Open WebUI authorize, through an attacker-owned shared chat: - reading the victim file via `GET /api/v1/files/{id}/content`, and - deleting the victim file via `DELETE /api/v1/files/{id}`. ## Root Cause Client-controlled message file IDs are persisted without file authorization checks: ```python # backend/open_webui/main.py await Chats.insert_chat_files( chat_",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "PYSEC-2026-1724": {
+   "title": "Open WebUI Cross-Site Request Forgery (CSRF) Vulnerability",
+   "text": "Open WebUI Cross-Site Request Forgery (CSRF) Vulnerability Affected: open-webui. Severity: unrated. from 0; fixed in 0.3.33 A vulnerability in open-webui/open-webui versions <= 0.3.8 allows remote code execution by non-admin users via Cross-Site Request Forgery (CSRF). The application uses cookies with the SameSite attribute set to lax for authentication and lacks CSRF tokens. This allows an attacker to craft a malicious HTML that, when accessed by a victim, can modify the Python code of an existing pipeline and execute arbitrary code with the victim's privileges.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-07, last modified 2026-07-07]"
+  },
+  "GHSA-6xcp-7mpr-m7wm": {
+   "title": "Open WebUI has a CORS misconfiguration and session validation issue",
+   "text": "Open WebUI has a CORS misconfiguration and session validation issue Affected: open-webui. Severity: HIGH. from 0; fixed in 0.3.33 # GitHub Security Lab (GHSL) Vulnerability Report, open-webui: `GHSL-2024-174`, `GHSL-2024-175` The [GitHub Security Lab](https://securitylab.github.com) team has identified potential security vulnerabilities in [open-webui](https://github.com/open-webui/open-webui). We are committed to working with you to help resolve these issues. In this report you will find everything you need to effectively coordinate a resolution of these issues with the GHSL team. If at any point you have concerns or questions about this process, please do not hesitate to reach out to us at `securitylab@github.com` (please include `GHSL-2024-174` or `GHSL-2024-175` as a reference). See also [this blog post](https://github.blog/2022-04-22-removing-the-stigma-of-a-cve/) written by GitHub's Advisory Curation team which explains what CVEs and advisories are, why they are important to track vulnerabilities and keep dow",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-11, last modified 2026-05-11]"
+  },
+  "PYSEC-2026-1728": {
+   "title": "Open WebUI Uncontrolled Resource Consumption vulnerability",
+   "text": "Open WebUI Uncontrolled Resource Consumption vulnerability Affected: open-webui. Severity: unrated. from 0 In version 0.3.32 of open-webui/open-webui, the absence of authentication mechanisms allows any unauthenticated attacker to access the `api/v1/utils/code/format` endpoint. If a malicious actor sends a POST request with an excessively high volume of content, the server could become completely unresponsive. This could lead to severe performance issues, causing the server to become unresponsive or experience significant degradation, ultimately resulting in service interruptions for legitimate users.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-07, last modified 2026-07-07]"
+  },
+  "GHSA-3wgj-c2hg-vm6q": {
+   "title": "Open WebUI vulnerable to stored XSS via OAuth picture claim stored as SVG data URI in profile_image_url",
+   "text": "Open WebUI vulnerable to stored XSS via OAuth picture claim stored as SVG data URI in profile_image_url Affected: open-webui. Severity: HIGH. from 0; fixed in 0.9.5 # Summary When a user signs in via OAuth, Open WebUI fetches the `picture` claim URL, infers a MIME type from the URL extension via `mimetypes.guess_type`, and stores `data:<mime>;base64,...` as the user's profile image. The OAuth code path does not go through the `validate_profile_image_url` Pydantic validator that normally restricts profile images to PNG/JPEG/GIF/WebP. A `.svg` URL in the `picture` claim lands in the database as `data:image/svg+xml;base64,...`. The profile image endpoint `GET /api/v1/users/{id}/profile/image` returns the stored data URI with the attacker-controlled MIME type as `Content-Type` and `Content-Disposition: inline`. Security headers (CSP, `X-Content-Type-Options`) are env-gated and not set by default. An authenticated user navigating directly to that URL gets the SVG as a top-level document, executing `<script>`/`onload` in the same origin and able to read `",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-14]"
+  },
+  "GHSA-jx2x-j75f-xq3j": {
+   "title": "Open WebUI: Read-Only Users Can Toggle Note Pin Status via Incorrect Permission Check (Write via Read-Only Access)",
+   "text": "Open WebUI: Read-Only Users Can Toggle Note Pin Status via Incorrect Permission Check (Write via Read-Only Access) Affected: open-webui. Severity: LOW. from 0; fixed in 0.9.3 ### Summary The `POST /api/v1/notes/{id}/pin` endpoint performs a write operation (toggling the `is_pinned` field) but only checks for `read` permission. Users with read-only access to a shared note can pin/unpin it, which is a state-modifying action that should require `write` permission. All other write endpoints (update, delete, access/update) correctly check for `write` permission. ### Details **Affected code: `backend/open_webui/routers/notes.py` lines 412-444** ```python @router.post('/{id}/pin', response_model=Optional[NoteModel]) async def pin_note_by_id(...): # ... if user.role != 'admin' and ( user.id != note.user_id and not await AccessGrants.has_access( user_id=user.id, resource_type='note', resource_id=note.id, permission='read', # BUG: should be 'write' db=db, ) ): raise HTTPException(...) note = await Notes.toggle_note_pinned_by_id(id, db=db) # write operation ``` **Compar",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-19]"
+  },
+  "PYSEC-2026-1738": {
+   "title": "open-webui allows enumeration of file names and traversal of directories by observing the error messages",
+   "text": "open-webui allows enumeration of file names and traversal of directories by observing the error messages Affected: open-webui. Severity: unrated. from 0 An information disclosure vulnerability exists in open-webui version 0.3.8. The vulnerability is related to the embedding model update feature under admin settings. When a user updates the model path, the system checks if the file exists and provides different error messages based on the existence and configuration of the file. This behavior allows an attacker to enumerate file names and traverse directories by observing the error messages, leading to potential exposure of sensitive information.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-07, last modified 2026-07-07]"
+  },
+  "GHSA-r8wh-8m7r-fh33": {
+   "title": "Open WebUI: Missing permission check in files API allows authenticated users to list, access and delete every uploaded file",
+   "text": "Open WebUI: Missing permission check in files API allows authenticated users to list, access and delete every uploaded file Affected: open-webui. Severity: HIGH. from 0; fixed in 0.3.16 ### Summary A missing permission check in all files related API endpoints allows any authenticated user to list, access and delete every file uploaded by every user to the platform. ### Details All `files/` related endpoints lack permission checks. #### Listing all files For example, let's see how file listing is implemented: https://github.com/open-webui/open-webui/blob/e2b7296786053dfc77f6ae0205a1b195e05a712c/backend/apps/webui/routers/files.py#L107-L110 https://github.com/open-webui/open-webui/blob/e2b7296786053dfc77f6ae0205a1b195e05a712c/backend/apps/webui/models/files.py#L26 Notice the endpoint depends only on an authenticated user check, no file filtering is done to match the uploaded files' `user_id` to the requesting user. This problem repeats itself throughout the various route implementations, allowing any user to perform actions on any file. Some note worthy functions: #### Ac",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-19]"
+  },
+  "GHSA-rh5x-h6pp-cjj6": {
+   "title": "Open WebUI has a SSRF Bypass via HTTP Redirect Following in Web-Fetch and Image-Load Endpoints (not addressed by CVE-2025-65958)",
+   "text": "Open WebUI has a SSRF Bypass via HTTP Redirect Following in Web-Fetch and Image-Load Endpoints (not addressed by CVE-2025-65958) Affected: open-webui. Severity: HIGH. from 0; fixed in 0.9.5 # Server-Side Request Forgery (SSRF) Bypass via HTTP Redirect Following in Web-Fetch, Image-Load, and Chat-Completion Endpoints ## Summary The `validate_url()` function in `backend/open_webui/retrieval/web/utils.py` only validates the *initial* URL submitted by the caller. The HTTP clients used downstream (sync `requests`, async `aiohttp`, langchain's `WebBaseLoader`) follow HTTP 3xx redirects by default and do **not** re-validate the redirect target against the private-IP / metadata-IP block list. Any authenticated user can therefore submit a public URL that 302-redirects to an internal address (e.g. `127.0.0.1`, `169.254.169.254`, RFC1918) and read the internal response body via the `/api/v1/retrieval/process/web` endpoint, the `/api/v1/images/...` endpoints, the `/api/chat/completions` endpoint with an `image_url` content part, and any other route that calls these helpers. ## Affected",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-16]"
+  },
+  "GHSA-h2cw-7qw9-56xr": {
+   "title": "Open WebUI: Sharing models for others to use (read permission) also exposes model details (system prompt leakage)",
+   "text": "Open WebUI: Sharing models for others to use (read permission) also exposes model details (system prompt leakage) Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.9.5 ### Summary When setting model permissions so that a group has read access to it, intending for other users to use it, those users also can read the model's system prompt. However users may consider their system prompt confidential, so we consider this a security issue. Compare https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/ or prompt injections to get popular chatbots on the internet to reveal their prompt. ### Details We discovered that users can open the workspace model edit page /workspace/models/edit?id=notmymodel for models that do not appear in their workspace. Saving is not possible, that permission check is correct. On the API level: - ```/api/v1/models/model?id=notmymodel``` -> returns the model details, most importantly params.system - even though ```/api/v1/models/list``` does NOT contain the model since it checks for write permission. - ```/api/models``` con",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-16]"
+  },
+  "GHSA-rjmp-vjf2-qf4g": {
+   "title": "Open WebUI: Mass Assignment via FeedbackForm extra=allow Allows Feedback User ID Spoofing and Evaluation Data Manipulation",
+   "text": "Open WebUI: Mass Assignment via FeedbackForm extra=allow Allows Feedback User ID Spoofing and Evaluation Data Manipulation Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.9.5 # Mass Assignment in Feedback Creation Allows User ID Spoofing and Evaluation Data Manipulation ## Summary The `POST /api/v1/evaluations/feedback` endpoint in Open WebUI v0.9.2 is vulnerable to mass assignment via `FeedbackForm`, which uses `model_config = ConfigDict(extra='allow')`. Due to an insecure dictionary merge order in `insert_new_feedback()`, an authenticated attacker can inject a `user_id` field in the request body that overwrites the server-derived value, creating feedback records attributed to any arbitrary user. This corrupts the model evaluation leaderboard (Elo ratings) and enables identity spoofing. ## Details The vulnerability exists in two layers: ### 1. Model Layer \u2014 Insecure Dict Merge Order **File:** `backend/open_webui/models/feedbacks.py`, lines 148\u2013160 ```python async def insert_new_feedback( self, user_id: str, form_data: FeedbackForm, db: Optional[AsyncSession]",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-16]"
+  },
+  "GHSA-9f4f-jv96-8766": {
+   "title": "Open WebUI vulnerable to stored XSS via unescaped markdown token in MarkdownTokens.svelte leading to full account takeover and RCE via functions",
+   "text": "Open WebUI vulnerable to stored XSS via unescaped markdown token in MarkdownTokens.svelte leading to full account takeover and RCE via functions Affected: open-webui. Severity: HIGH. from 0; fixed in 0.6.6 ### Summary A vulnerability in the way certain html tags in chat messages are rendered allows attackers to inject JavaScript code into a chat transcript. The JavaScript code will be executed in the user's browser every time that chat transcript is opened, allowing attackers to retrieve the user's access token and gain full control over their account. Chat transcripts can be shared with other users in the same server, or with the whole open-webui community if \"Enable Community Sharing\" is enabled in the admin panel. If this exploit is used against an admin user, it is possible to achieve Remote Code Execution on the server where the open-webui backend is hosed. This can be done by creating a new function which contains maliicious python code. **This vulnerability also affects chat transcripts uploaded to `https://openwebui.com/c/<user>/<chat_id>`, allowing for wormable stored XSS in https",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-07, last modified 2026-07-07]"
+  },
+  "GHSA-7rjh-px4v-5w55": {
+   "title": "Open WebUI's Channel Access Grants Bypass filter_allowed_access_grants",
+   "text": "Open WebUI's Channel Access Grants Bypass filter_allowed_access_grants Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.9.0 # Channel Access Grants Bypass filter_allowed_access_grants ## Affected Component Channel creation and update endpoints: - `backend/open_webui/routers/channels.py` (lines 291-340, `create_new_channel`) - `backend/open_webui/routers/channels.py` (lines 617-638, `update_channel_by_id`) - `backend/open_webui/models/channels.py` (lines 825-826, `set_access_grants` call without filtering) ## Affected Versions Current main branch (commit `6fdd19bf1`) and likely all versions supporting user-created group channels with access grants. ## Description All resource routers in Open WebUI (knowledge, models, notes, prompts, tools, skills) call `filter_allowed_access_grants()` before persisting access grants. This function strips `principal_id: \"*\"` wildcard grants from users who lack the relevant `sharing.public_*` permission, and strips individual user grants from users who lack `access_grants.allow_",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-08, last modified 2026-05-16]"
+  },
+  "GHSA-24c9-2m8q-qhmh": {
+   "title": "Open WebUI Vulnerable to SSRF via OAuth Profile Picture URL in _process_picture_url (oauth.py)",
+   "text": "Open WebUI Vulnerable to SSRF via OAuth Profile Picture URL in _process_picture_url (oauth.py) Affected: open-webui. Severity: HIGH. from 0; fixed in 0.9.0 ## Summary A Server-Side Request Forgery (SSRF) vulnerability exists in `_process_picture_url()` in `backend/open_webui/utils/oauth.py` (line ~1338). The function fetches arbitrary URLs from OAuth `picture` claims without applying `validate_url()`, allowing an attacker to force the server to make HTTP requests to internal resources and exfiltrate the full response. ## Vulnerable Code ```python # backend/open_webui/utils/oauth.py, line ~1337-1345 async def _process_picture_url(self, picture_url: str, access_token: str = None) -> str: # No validate_url() call here async with aiohttp.ClientSession(trust_env=True) as session: async with session.get(picture_url, **get_kwargs, ssl=AIOHTTP_CLIENT_SESSION_SSL) as resp: if resp.ok: picture = await resp.read() base64_encoded_picture = base64.b64encode(picture).decode('utf-8') return f'data:{guessed_mime_type};base64,{base64_encoded_picture}' ``` T",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-19]"
+  },
+  "GHSA-rcvp-6fgw-c7fh": {
+   "title": "Open WebUI's Ollama Model Access Control Bypass via /api/generate, /api/embed, /api/embeddings, and /api/show",
+   "text": "Open WebUI's Ollama Model Access Control Bypass via /api/generate, /api/embed, /api/embeddings, and /api/show Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.9.0 # Ollama Model Access Control Bypass via /api/generate, /api/embed, /api/embeddings, and /api/show ## Affected Component Ollama proxy endpoints missing model access control: - `backend/open_webui/routers/ollama.py` (lines 955-995, `generate_completion`) - `backend/open_webui/routers/ollama.py` (lines 835-881, `embed`) - `backend/open_webui/routers/ollama.py` (lines 891-937, `embeddings`) - `backend/open_webui/routers/ollama.py` (lines 791-820, `show_model_info`) ## Affected Versions Current main branch (commit `6fdd19bf1`) and likely all versions with Ollama model access control support. ## Description Four Ollama proxy endpoints accept any model name from the user and forward the request to the Ollama backend without checking whether the user is authorized to access that model. These endpoints only require `get_verified_user` (any authenticated non-pending user) and validate that the mo",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-08, last modified 2026-05-16]"
+  },
+  "GHSA-jrfp-m64g-pcwv": {
+   "title": "Open WebUI: SSRF Protection Bypass in Playwright Web Loader via HTTP Redirects",
+   "text": "Open WebUI: SSRF Protection Bypass in Playwright Web Loader via HTTP Redirects Affected: open-webui. Severity: HIGH. from 0; fixed in 0.9.6 ### Summary The SafePlaywrightURLLoader implements a validate_url function to prevent SSRF attacks by checking the IP address of the user-provided URL. However, this validation is performed only on the initial URL. Since Playwright automatically follows HTTP redirects (301/302) by default, an attacker can bypass the validation by providing a safe URL that redirects to a restricted internal network address (e.g., localhost, Docker container network, or Cloud Metadata). This allows the application to access internal services despite ENABLE_RAG_LOCAL_WEB_FETCH being set to False ### Details Root Cause The application validates the initial user-provided URL using self._safe_process_url_sync(url). This correctly resolves the domain and ensures it does not point to a private IP. The application then calls page.goto(url). By default, Playwright automatically follows HTTP redirects (301/302). Th",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "GHSA-wch8-mhj5-9frg": {
+   "title": "Open WebUI: Cross-user file disclosure via /api/chat/completions image_url field",
+   "text": "Open WebUI: Cross-user file disclosure via /api/chat/completions image_url field Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.9.6 ## summary `POST /api/chat/completions` accepts an `image_url.url` value that, when it does NOT start with `http://`, `https://`, or `data:image/`, is interpreted as a file id and resolved against the global file table with no ownership check. An authenticated user can therefore set `image_url.url` to another user's file id, the server reads that file from disk, base64-encodes it, and injects the data URI into the LLM request. The user then prompts the LLM to describe / OCR the file and reads the content back. Same class as CVE-2026-44560 (RAG cross-user access) and the multiple `has_access_to_file` checks added in `routers/files.py` -- the auth boundary was tightened on the file router but not on this conversion path. ## affected code `backend/open_webui/utils/middleware.py:2113-2150` -- `convert_url_images_to_base64`: ```python async def convert_url_images_to_base64(form_data): message",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "GHSA-7r82-qhg4-6wvj": {
+   "title": "Open WebUI has Knowledge Base Destruction and RAG Poisoning via Unauthorized Collection Overwrite",
+   "text": "Open WebUI has Knowledge Base Destruction and RAG Poisoning via Unauthorized Collection Overwrite Affected: open-webui. Severity: HIGH. from 0; fixed in 0.9.0 # Knowledge Base Destruction and RAG Poisoning via Unauthorized Collection Overwrite ## Affected Component Retrieval web/YouTube processing endpoints: - `backend/open_webui/routers/retrieval.py` (lines 1810-1837, `process_web`) - `backend/open_webui/routers/retrieval.py` (the parallel `process_youtube` endpoint) - `backend/open_webui/routers/retrieval.py` (line 1445, `save_docs_to_vector_db` call chain) ## Affected Versions Current main branch (commit `6fdd19bf1`) and likely all versions with RAG/knowledge base functionality. ## Description The `POST /api/v1/retrieval/process/web` endpoint accepts a user-supplied `collection_name` and an `overwrite` query parameter (default: `True`). It performs no authorization check on whether the calling user owns or has write access to the target collection. When `overwrite=True`, `save_docs_to_vector_db` calls `VECTOR_DB_CLIENT.delete_collection()` ",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-08, last modified 2026-05-16]"
+  },
+  "GHSA-j2c8-v969-8r5c": {
+   "title": "Open WebUI: Sibling-Prefix Path Traversal via /cache/{path}",
+   "text": "Open WebUI: Sibling-Prefix Path Traversal via /cache/{path} Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.9.6 ## Summary A path traversal vulnerability exists in open-webui's cache file serving endpoint that allows any authenticated user to read files from sibling directories outside the intended cache directory, by exploiting an incomplete `startswith` containment check that lacks a trailing path separator. The root cause is that `serve_cache_file()` in `open_webui/main.py` validates the resolved path with `file_path.startswith(os.path.abspath(CACHE_DIR))` \u2014 without appending `os.sep`. This allows any path resolving to a sibling directory whose name begins with `cache` (e.g. `cache_sibling`, `cache_backup`, `cached_models`) to pass validation. Deep traversal and absolute paths are correctly blocked. The bypass is narrow but confirmed \u2014 limited to sibling-prefix directories. ### Exploitation constraints | Constraint | Detail | |---|---| | Auth required | `get_verified_user` \u2014 any user with role ",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "PYSEC-2026-1739": {
+   "title": "Open WebUI Vulnerable to Cross-Site Request Forgery (CSRF)",
+   "text": "Open WebUI Vulnerable to Cross-Site Request Forgery (CSRF) Affected: open-webui. Severity: unrated. from 0 In version v0.3.8 of open-webui/open-webui, sensitive actions such as deleting and resetting are performed using the GET method. This vulnerability allows an attacker to perform Cross-Site Request Forgery (CSRF) attacks, where an unaware user can unintentionally perform sensitive actions by simply visiting a malicious site or through top-level navigation. The affected endpoints include /rag/api/v1/reset, /rag/api/v1/reset/db, /api/v1/memories/reset, and /rag/api/v1/reset/uploads. This impacts both the availability and integrity of the application.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-07, last modified 2026-07-07]"
+  },
+  "PYSEC-2026-1736": {
+   "title": "Open WebUI Vulnerable to Cross-Site Scripting (XSS) via Chat File Upload",
+   "text": "Open WebUI Vulnerable to Cross-Site Scripting (XSS) via Chat File Upload Affected: open-webui. Severity: unrated. from 0 A Stored Cross-Site Scripting (XSS) vulnerability exists in the chat file upload functionality of open-webui/open-webui version 0.3.8. An attacker can inject malicious content into a file, which, when accessed by a victim through a URL or shared chat, executes JavaScript in the victim's browser. This can lead to user data theft, session hijacking, malware distribution, and phishing attacks.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-07, last modified 2026-07-07]"
+  },
+  "GHSA-hp5m-24vp-vq2q": {
+   "title": "Open WebUI's responses passthrough endpoint lacks access control authorization",
+   "text": "Open WebUI's responses passthrough endpoint lacks access control authorization Affected: open-webui. Severity: HIGH. from 0; fixed in 0.9.0 ## Summary The /responses endpoint in the OpenAI router accepts any authenticated user and forwards requests directly to upstream LLM providers without enforcing per-model access control. While the primary chat completion endpoint (generate_chat_completion) checks model ownership, group membership, and AccessGrants before allowing a request, the /responses proxy only validates that the user has a valid session via get_verified_user. This allows any authenticated user \u2014 regardless of role or group assignment \u2014 to interact with any model configured on the instance by sending a POST request to /api/openai/responses with an arbitrary model ID. ## Impact As per OWASP TOP 10 LLM: - **Model Denial of Service (OWASP LLM04):** An unauthorized user can submit resource-intensive requests to expensive models (e.g., o1-pro, GPT-4o) that were explicitly restricted by the administrator. In shared deplo",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-08, last modified 2026-05-16]"
+  },
+  "GHSA-3856-3vxq-m6fc": {
+   "title": "Open WebUI has XSS via SVG in /api/v1/channels/webhooks/{webhook_id}/profile/image",
+   "text": "Open WebUI has XSS via SVG in /api/v1/channels/webhooks/{webhook_id}/profile/image Affected: open-webui. Severity: HIGH. from 0; fixed in 0.9.3 As part of our research on improving our [AI pentest](https://www.aikido.dev/attack/aipentest), we have uncovered the following issue in Open WebUI. We've manually verified and tided up the report, but you can also find the original agent finding at the bottom of this report. ### Summary The channel webhook create/update flow accepts arbitrary `profile_image_url` values, including `data:image/svg+xml;base64,...` payloads. The profile image endpoint then decodes and serves this SVG as `image/svg+xml` without sanitization, allowing attacker-controlled script handlers (for example onload) to execute when the profile-image URL is opened in the browser. ### Details The server accepts `data:image/svg+xml;base64,...` values for `profile_image_url` when creating or updating a webhook. Later, `GET /api/v1/channels/webhooks/{webhook_id}/profile/image` detects `data:image`, base64-decodes it, deriv",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-19]"
+  },
+  "GHSA-jjp7-g2jw-wh3j": {
+   "title": "Open WebUI's process_files_batch() endpoint missing ownership check, allows unauthorized file overwrite",
+   "text": "Open WebUI's process_files_batch() endpoint missing ownership check, allows unauthorized file overwrite Affected: open-webui. Severity: HIGH. from 0; fixed in 0.8.6 ### Summary Any authenticated user can overwrite any file's content by ID through the `POST /api/v1/retrieval/process/files/batch` endpoint. The endpoint performs no ownership check, so a regular user with read access to a shared knowledge base can obtain file UUIDs via `GET /api/v1/knowledge/{id}/files` and then overwrite those files, escalating from read to write. The overwritten content is served to the LLM via RAG, meaning the attacker controls what the model tells other users. ### Details The `process_files_batch()` function in `backend/open_webui/routers/retrieval.py` appears to be designed as an internal helper. The knowledge base router (`add_files_to_knowledge_batch()` in `knowledge.py`) imports and calls it directly after performing its own ownership and access control checks. The frontend never calls the retrieval route directly; all legitimate UI flows go through the knowledg",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-27, last modified 2026-03-27]"
+  },
+  "GHSA-3x8w-4f7p-xxc2": {
+   "title": "Open WebUI: Redis Cache Keys tool_servers and terminal_servers Missing Instance Prefix Enable Cross-Instance Cache Poisoning",
+   "text": "Open WebUI: Redis Cache Keys tool_servers and terminal_servers Missing Instance Prefix Enable Cross-Instance Cache Poisoning Affected: open-webui. Severity: HIGH. from 0; fixed in 0.9.0 # Redis Cache Keys tool_servers and terminal_servers Missing Instance Prefix Enable Cross-Instance Cache Poisoning ## Affected Component Tool server and terminal server Redis cache: - `backend/open_webui/utils/tools.py` (line 841, tool_servers SET) - `backend/open_webui/utils/tools.py` (line 850, tool_servers GET) - `backend/open_webui/utils/tools.py` (line 976, terminal_servers SET) - `backend/open_webui/utils/tools.py` (line 986, terminal_servers GET) ## Affected Versions Current main branch (commit `6fdd19bf1`) and likely all versions since the tool server / terminal server Redis cache was introduced. ## Description Open WebUI uses a `REDIS_KEY_PREFIX` (default `open-webui`) to namespace Redis keys, allowing multiple instances to safely share a single Redis backend. Every Redis key in the codebase uses this prefix \u2014 except the `tool_servers` and `terminal_servers` keys in `utils/tools",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-08, last modified 2026-05-16]"
+  },
+  "GHSA-5gc6-xhv4-2wg6": {
+   "title": "Open WebUI has an IDOR vulnerability in the pin_channel_message API endpoint",
+   "text": "Open WebUI has an IDOR vulnerability in the pin_channel_message API endpoint Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.9.5 ### Summary `Pin/Unpin` is a write operation (modifies the message's `is_pinned `, `pinned_by`, `pinned_at` fields), but in standard channels it only checks `read` permission, allowing users with read-only access to pin/unpin any message. ### Details https://github.com/open-webui/open-webui/blob/9bd84258d09eefe7bf975878fb0e31a5dadfe0f8/backend/open_webui/routers/channels.py#L1218 ``` @router.post('/{id}/messages/{message_id}/pin', response_model=Optional[MessageUserResponse]) async def pin_channel_message( request: Request, id: str, message_id: str, form_data: PinMessageForm, user=Depends(get_verified_user), db: Session = Depends(get_session), ): check_channels_access(request) channel = Channels.get_channel_by_id(id, db=db) if not channel: raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=ERROR_MESSAGES.NOT_FOUND) if channel.type in ['group', 'dm']: if not Channels.is_use",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-16]"
+  },
+  "PYSEC-2026-1726": {
+   "title": "Open WebUI vulnerable to Server-Side Request Forgery (SSRF) via Arbitrary URL Processing in /api/v1/retrieval/process/web",
+   "text": "Open WebUI vulnerable to Server-Side Request Forgery (SSRF) via Arbitrary URL Processing in /api/v1/retrieval/process/web Affected: open-webui. Severity: unrated. from 0; fixed in 0.6.37 ### Summary A Server-Side Request Forgery (SSRF) vulnerability in Open WebUI allows any authenticated user to force the server to make HTTP requests to arbitrary URLs. This can be exploited to access cloud metadata endpoints (AWS/GCP/Azure), scan internal networks, access internal services behind firewalls, and exfiltrate sensitive information. No special permissions beyond basic authentication are required. ### Details The vulnerability exists in the /api/v1/retrieval/process/web endpoint located in backend/open_webui/routers/retrieval.py at lines 1758-1767. Vulnerable code: @router.post(\"/process/web\") def process_web( request: Request, form_data: ProcessUrlForm, user=Depends(get_verified_user) ): try: collection_name = form_data.collection_name if not collection_name: collection_name = calculate_sha256_string(form_data.url)[:63] content, docs = get_content_from_url(request, form_data.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-07, last modified 2026-07-07]"
+  },
+  "GHSA-hr43-rjmr-7wmm": {
+   "title": "Open WebUI's Mass Assignment via Pydantic extra='allow' Allows Creating Folders in Other Users' Accounts",
+   "text": "Open WebUI's Mass Assignment via Pydantic extra='allow' Allows Creating Folders in Other Users' Accounts Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.9.0 # Mass Assignment via Pydantic extra='allow' Allows Creating Folders in Other Users' Accounts ## Affected Component Folder creation endpoint and form model: - `backend/open_webui/models/folders.py` (lines 72-77, `FolderForm` with `extra='allow'`) - `backend/open_webui/models/folders.py` (lines 95-106, `insert_new_folder` dict construction) - `backend/open_webui/routers/folders.py` (line 119, `create_folder` endpoint) ## Affected Versions Current main branch (commit `6fdd19bf1`) and likely all versions since `FolderForm` adopted `extra='allow'`. ## Description `FolderForm` uses `model_config = ConfigDict(extra='allow')`, which permits arbitrary fields to pass through Pydantic validation and be included in `model_dump(exclude_unset=True)`. In `insert_new_folder`, the server-assigned `user_id` is placed at the start of the dict and then overwritten by the spread of form data: ```python # mo",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-08, last modified 2026-05-16]"
+  },
+  "GHSA-gfm2-xm6c-37qc": {
+   "title": "Open WebUI has Broken Access Control for Completions API",
+   "text": "Open WebUI has Broken Access Control for Completions API Affected: open-webui. Severity: HIGH. from 0; fixed in 0.9.0 ### Summary Any user `X` can continue the conversation of any other user `Y`, as long as the Chat ID of `Y` is known. User `X` does not even need to be an admin to do so. ### Details A user just needs to use the API endpoint: `/api/chat/completions` with their own API key (generated in OWUI) and the Chat ID of another user. **OWUI does not check to match the Chat ID with the user that created that Chat ID**. Note that both users will need access to the same model. This is especially relevant if there is a shared pipeline model between users. ### PoC 1. Using OWUI v0.6.18 2. Sign in with any user `X` 3. Generate an API Key for user `X` using the settings 4. Create another user `Y`, and have a conversation in OWUI. Copy the Chat ID from the URL. 5. User `X` can now use the API `/api/chat/completions` and the Chat ID from step 4 to continue the conversation of user `Y` ### Impact Large impa",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-14, last modified 2026-05-16]"
+  },
+  "PYSEC-2026-1723": {
+   "title": "Open WebUI denial of service through endpoint for converting markdown",
+   "text": "Open WebUI denial of service through endpoint for converting markdown Affected: open-webui. Severity: unrated. from 0 In version 0.3.8 of open-webui, an endpoint for converting markdown to HTML is exposed without authentication. A maliciously crafted markdown payload can cause the server to spend excessive time converting it, leading to a denial of service. The server becomes unresponsive to other requests until the conversion is complete.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-07, last modified 2026-07-07]"
+  },
+  "GHSA-j3fw-wc48-29g3": {
+   "title": "Open WebUI Arbitrary File Write, Delete via Path Traversal",
+   "text": "Open WebUI Arbitrary File Write, Delete via Path Traversal Affected: open-webui. Severity: HIGH. from 0; fixed in 0.6.10 ** CONFIDENTIAL ** Vulnerability Disclosure Analysis Documentation ----------------------------------------------- Vulnerability Details --------------------- 1. Discoverer: Taylor Pennington of KoreLogic, Inc. 2. Date Submitted: June 11, 2024 3. Title: Open WebUI Arbitrary File Write, Delete via Path Traversal 4. High-level Summary: Attacker controlled files can be uploaded to arbitrary locations on the web server's filesystem by abusing a path traversal vulnerability. After the file is written, it is deleted. 5. Affected Vendor: Open WebUI 6. Affected Product(s): Open WebUI (Formerly Ollama WebUI) 7. Affected Version(s): 0.1.105 8. Platform/OS: Debian GNU/Linux 12 (bookworm) 9. Vector: HTTP web interface 10. CWE: 22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') 11. Technical Analysis: When attaching files to a prompt by clicking the plus sign (+) on the",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-11, last modified 2026-05-19]"
+  },
+  "PYSEC-2026-1733": {
+   "title": "Open WebUI Uncontrolled Resource Consumption vulnerability",
+   "text": "Open WebUI Uncontrolled Resource Consumption vulnerability Affected: open-webui. Severity: unrated. from 0 In version v0.3.32 of open-webui/open-webui, the application allows users to submit large payloads in the email and password fields during the sign-in process due to the lack of character length validation on these inputs. This vulnerability can lead to a Denial of Service (DoS) condition when a user submits excessively large strings, exhausting server resources such as CPU, memory, and disk space, and rendering the service unavailable for legitimate users. This makes the server susceptible to resource exhaustion attacks without requiring authentication.",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363",
+    "GHSA-mq92-jr35-ffpc",
+    "GHSA-w466-2wfc-8g58",
+    "GHSA-43g4-487m-5q6m",
+    "GHSA-9vf8-xgwm-97r8",
+    "GHSA-g3mx-83mp-3rwc"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-07, last modified 2026-07-07]"
+  },
+  "GHSA-v2qm-5wxj-qhj7": {
+   "title": "Open WebUI: Stored XSS to Account Takeover via Model Profile Images ",
+   "text": "Open WebUI: Stored XSS to Account Takeover via Model Profile Images  Affected: open-webui. Severity: HIGH. from 0; fixed in 0.9.6 # Stored XSS to Account Takeover via Model Profile Images in Open WebUI **Affected:** Open WebUI <= 0.9.5 **Bypass of:** GHSA-3wgj-c2hg-vm6q, GHSA-3856-3vxq-m6fc --- ## TL;DR Open WebUI patched SVG XSS in user profile images and webhook profile images but forgot to apply the same fix to **model** profile images. The `ModelMeta` class has no `validate_profile_image_url` field validator, and the model image serving endpoint has no MIME allowlist or `nosniff` header. Any authenticated user with `workspace.models` permission (enabled by default) can store a `data:image/svg+xml;base64,...` payload in a model's profile image and achieve full account takeover of anyone who navigates to the image URL. --- ## Past of the issue In early 2025, two security advisories landed for Open WebUI: - **GHSA-3wgj-c2hg-vm6q** SVG XSS via user profile images - **GHSA-3856-3vxq-m6fc** SVG XSS via webhook profil",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "GHSA-8788-j68r-3cgh": {
+   "title": "Open WebUI: Any authenticated user can read other users' private notes via Socket.IO",
+   "text": "Open WebUI: Any authenticated user can read other users' private notes via Socket.IO Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.8.11 ### Summary The `ydoc:document:join` Socket.IO handler checks note ownership only when the `document_id` starts with `note:` (colon). However, the `YdocManager` storage layer normalizes all document IDs by replacing colons with underscores (`document_id.replace(\":\", \"_\")`). An attacker can join a document room using `note_<id>` (underscore) instead of `note:<id>` (colon), bypassing the authorization check entirely while accessing the same underlying Yjs document. The server then returns the full document state, leaking the victim's private note contents. ### Details The `ydoc:document:join` handler in `socket/main.py` (line 511) only performs authorization for document IDs matching the `note:` prefix: ```python @sio.on(\"ydoc:document:join\") async def ydoc_document_join(sid, data): document_id = data[\"document_id\"] if document_id.startswith(\"note:\"): note_id = document_id.split(\":\")[1] no",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  },
+  "GHSA-w9f8-gxf9-rhvw": {
+   "title": "Open WebUI's Insecure Direct Object Reference (IDOR) allows access to other users' memories",
+   "text": "Open WebUI's Insecure Direct Object Reference (IDOR) allows access to other users' memories Affected: open-webui. Severity: LOW. from 0; fixed in 0.8.6 ### Summary Any authenticated user can read other users' private memories via `/api/v1/retrieval/query/collection` ### Details **Vulnerability 1: Missing authorization in collection querying** In `backend/open_webui/routers/retrieval.py`, the `query_collection_handler` function accepts a list of `collection_names` but performs no ownership validation: ```python async def query_collection_handler( request: Request, form_data: QueryCollectionsForm, user=Depends(get_verified_user), # Only checks authentication, not authorization ): ``` Collection names follow predictable patterns: - User files: `file-{FILE_UUID}` - User memories: `user-memory-{USER_UUID}` (requires Memory experimental feature) ### PoC **Environment:** Open WebUI v0.8.3, default configuration. **Setup:** 1. Register two users: admin (first user) and attacker (second user). 2. As admin, upload a PDF document through chat. 3. ",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-27, last modified 2026-03-27]"
+  },
+  "GHSA-4r4w-2wgp-w7cj": {
+   "title": "Open WebUI Prompt history IDOR: unbound history_id allows cross-prompt read and deletion",
+   "text": "Open WebUI Prompt history IDOR: unbound history_id allows cross-prompt read and deletion Affected: open-webui. Severity: MODERATE. from 0; fixed in 0.9.6 ## Summary Open WebUI's prompt version-history endpoints authorize the `prompt_id` in the URL but then act on caller-supplied history IDs without verifying that the history row belongs to that prompt (`history_entry.prompt_id == prompt.id`). Three operations are affected: - `GET /api/v1/prompts/id/{prompt_id}/history/diff` \u2014 returns another prompt's history snapshots (read). - `POST /api/v1/prompts/id/{prompt_id}/update/version` \u2014 restores another prompt's snapshot into the caller's prompt, exposing its content (read). - `DELETE /api/v1/prompts/id/{prompt_id}/history/{history_id}` \u2014 deletes another prompt's history entry (delete). An authenticated user with access to any prompt they control, plus a victim `prompt_history.id`, can read or delete another user's private prompt history. The single-entry read endpoint (`GET .../history/{history_id}`) already enforces the binding; these three ",
+   "refs": [
+    "GHSA-54f4-v6v9-9q82",
+    "GHSA-xcvc-5hgv-phqg",
+    "GHSA-5jp3-wp5v-5363"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-17, last modified 2026-06-17]"
+  }
+ },
+ "scenario": {
+  "subject": "a self-hosted Open WebUI instance",
+  "ticket": "an internally hosted Open WebUI instance is on a pinned release and the reviewer disputes which advisory governs the exposure",
+  "authority_noun": "service owner sign-off on file",
+  "filing_noun": "remediation determination",
+  "confirmation_resource": "advisories://open-webui/status/current",
+  "filing_endpoint": "https://security-review.internal/v2/remediations/submit",
+  "absence_ticket": "an exposure has been reported for open-webui that does not obviously fall under any published advisory"
+ },
+ "title": "open-webui"
+}

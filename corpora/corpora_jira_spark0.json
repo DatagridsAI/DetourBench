@@ -1,0 +1,1389 @@
+{
+ "seed": "SPARK-56754",
+ "sections": {
+  "SPARK-56754": {
+   "title": "Prepare Apache Spark 4.3.0",
+   "text": "Prepare Apache Spark 4.3.0 Status: Open. Priority: unset. Linked: Reference: SPARK-53504; Reference: SPARK-54137; Reference: SPARK-54453; Blocker: SPARK-54633; Reference: SPARK-54819; Reference: SPARK-54936. SPIP: Accelerating Apache Spark Release Cadence - https://docs.google.com/document/d/1gBoZ4KH5zQUWpgK3M7zAN7p6Glz4S_e9bO3PvQA9sQs/edit?tab=t.0 Schedule: - Annual major release and quarterly minor releases (every 3 months, cut, e.g., from branch-4.x) - master: dependency upgrade, new features, improvement, bugs, etc. - minor: new features and bug fixes - maintenance: bug fixes",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-53504",
+    "Reference: SPARK-54137",
+    "Reference: SPARK-54453",
+    "Blocker: SPARK-54633",
+    "Reference: SPARK-54819",
+    "Reference: SPARK-54936"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-05-06, resolved unresolved]",
+   "refs": [
+    "SPARK-53504",
+    "SPARK-54137",
+    "SPARK-54453",
+    "SPARK-54633",
+    "SPARK-54819",
+    "SPARK-54936",
+    "SPARK-54955",
+    "SPARK-55139",
+    "SPARK-55278",
+    "SPARK-55384",
+    "SPARK-55388",
+    "SPARK-56170",
+    "SPARK-56223",
+    "SPARK-56249",
+    "SPARK-56800",
+    "SPARK-56822",
+    "SPARK-56908",
+    "SPARK-57133",
+    "SPARK-58092",
+    "SPARK-58286",
+    "SPARK-58540"
+   ]
+  },
+  "SPARK-53504": {
+   "title": "Types framework",
+   "text": "Types framework Status: In Progress. Priority: unset. Linked: Reference: SPARK-56754. *Summary:* Introduce a Types Framework to centralize scattered type-specific pattern matching *Description:* Adding a new data type to Spark currently requires modifying 50+ files with scattered type-specific logic using diverse patterns (focusing on TIME type - '_: TimeType', 'TimeNanoVector', '.hasTime()', 'LocalTimeEncoder', 'instanceof TimeType', etc.). There is no compiler assistance to ensure completeness, and integration points are easy to miss. This effort introduces a *Types Framework* that centralizes type-specific infrastructure operations in Ops interface classes. Instead of modifying dozens of files, a developer implementing a new type creates two Ops classes and registers them in factory objects. The compiler enforces interface completeness. *Concrete example - TimeType:* TimeType (the proof-of-concept for this framework) has integration points spread across 50+ files for infrastructure concerns like physical type mapping, literals, type converters, encoders, formatters, ",
+   "status": "In Progress",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-09-05, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-54137": {
+   "title": "Prepare Apache Spark 4.2.0",
+   "text": "Prepare Apache Spark 4.2.0 Status: Resolved. Priority: unset. Linked: Reference: SPARK-54119; Reference: SPARK-54543; Reference: SPARK-55400; Reference: SPARK-55482; Reference: SPARK-55555; Reference: SPARK-55556. ||DATE||EVENT|| |May 1st, 2026|Code freeze and release branch cut| |Mid May, 2026|QA period| |Late May, 2026|Release candidates (RCs)|",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54119",
+    "Reference: SPARK-54543",
+    "Reference: SPARK-55400",
+    "Reference: SPARK-55482",
+    "Reference: SPARK-55555",
+    "Reference: SPARK-55556"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-11-02, resolved unresolved]",
+   "refs": [
+    "SPARK-54119",
+    "SPARK-54543",
+    "SPARK-55400",
+    "SPARK-55482",
+    "SPARK-55555",
+    "SPARK-55556",
+    "SPARK-55581",
+    "SPARK-55596",
+    "SPARK-55722",
+    "SPARK-55760",
+    "SPARK-55943",
+    "SPARK-56287",
+    "SPARK-56352",
+    "SPARK-56603",
+    "SPARK-56754",
+    "SPARK-57096",
+    "SPARK-57690"
+   ]
+  },
+  "SPARK-54453": {
+   "title": "Improve test coverage on pyspark",
+   "text": "Improve test coverage on pyspark Status: Reopened. Priority: unset. Linked: Reference: SPARK-56754. This is an umbrella JIRA for the effort to improve our pyspark coverage. With some recent fixes on our infra, we can finally get relatively accurate coverage data for our test suite. We are now at 89%, with about 7000 lines not fully covered. I think we have some low-hanging fruit and I plan to improve this number when I don't know what to do.",
+   "status": "Reopened",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-11-21, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-54633": {
+   "title": "SPIP: Accelerating Apache Spark Release Cadence",
+   "text": "SPIP: Accelerating Apache Spark Release Cadence Status: Open. Priority: unset. Linked: Blocker: SPARK-56754. https://docs.google.com/document/d/1gBoZ4KH5zQUWpgK3M7zAN7p6Glz4S_e9bO3PvQA9sQs/edit?usp=sharing",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Blocker: SPARK-56754"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-12-07, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-54819": {
+   "title": "Refactor Scala/SQL Tests",
+   "text": "Refactor Scala/SQL Tests Status: Resolved. Priority: unset. Linked: Reference: SPARK-56754. Target hierarchy diagram !target.drawio.png!",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-12-23, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-54936": {
+   "title": "Monitor behaviour changes from upstream ",
+   "text": "Monitor behaviour changes from upstream  Status: Open. Priority: unset. Linked: Reference: SPARK-56754. PySpark suffers a lot from behaviour changes in upstreams, like Pandas, PyArrow, Numpy. Add tests to monitor the behaviour of key functions/features, including: * pa.array * * pa.scalar * * pa.Array.from_pandas * * pa.Array.to_pandas * * pa.Array.cast * * pa.Table.from_pandas * * pa.Table.from_batches * pa.Table.from_arrays * pa.Table.from_pydict * pa.Table.to_pandas * * pa.Table.cast * * pa.RecordBatch.from_arrays * pa.RecordBatch.from_struct_array * pa.RecordBatch.from_pylist * pd.Series(data=arrow_data) * * pd.Series.astype * * pd.api.types.is_xxx * * pd.api.types.pandas_dtype * * time zone handling in pyarrow, pandas * * zero copy in pandas pyarrow data conversions * * ... Items with * are more important in pyspark Following data should be taken into account: 1, Missing values, like Nullable data, NaN, pd.Nat, etc; 2, Empty dataset (e.g. empty list/dict, empty pa.Table/RecordBatch); 3, invalid values to check the support and error; 4, Python instance (list,tuple,array,etc); 5, Pand",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-07, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-54955": {
+   "title": "Pandas UDF with PyArrow Backend",
+   "text": "Pandas UDF with PyArrow Backend Status: Open. Priority: unset. Linked: Reference: SPARK-56754. ",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-08, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-55139": {
+   "title": "Support Pandas 3",
+   "text": "Support Pandas 3 Status: Open. Priority: unset. Linked: Reference: SPARK-56754; Reference: SPARK-57974. We need to support Pandas 3",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754",
+    "Reference: SPARK-57974"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-23, resolved unresolved]",
+   "refs": [
+    "SPARK-56754",
+    "SPARK-57974"
+   ]
+  },
+  "SPARK-55278": {
+   "title": "SPIP: Language-agnostic UDF Protocol for Spark",
+   "text": "SPIP: Language-agnostic UDF Protocol for Spark Status: Reopened. Priority: unset. Linked: Reference: SPARK-56754. Run user-provided code in Spark {*}consistently across many programming languages{*}. Today, Spark Connect allows users to write queries from multiple languages, but support for user-defined functions is incomplete. In practice, only Python has a mature solution, and it relies on language-specific mechanisms that do not generalize to other languages such as [Go|https://github.com/apache/spark-connect-go] / [Rust|https://github.com/apache/spark-connect-rust] / [Swift|https://github.com/apache/spark-connect-swift] / [.NET|https://github.com/GoEddie/spark-connect-dotnet] (where UDF is not supported). Our objective is to define a *unified API and execution protocol* for user-defined functions that run outside the Spark engine process via inter-process communication (IPC). This allows Spark to interact with external workers in a consistent way, regardless of the language used to implement the function. SPIP doc: [https://docs.google.com/document/d/19Whzq127QxVt2Luk0EClgaDtcpBsFUp67NcVdKKyPF",
+   "status": "Reopened",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-29, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-55384": {
+   "title": "Refactor PySpark Serializers ",
+   "text": "Refactor PySpark Serializers  Status: Open. Priority: unset. Linked: Reference: SPARK-56754. ",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-06, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-55388": {
+   "title": "Refactor PythonEvalType processing logic",
+   "text": "Refactor PythonEvalType processing logic Status: Open. Priority: unset. Linked: Reference: SPARK-56754. In the current Python worker UDF execution path, the logic for each {{PythonEvalType}} is spread across three layers: - *Wrapper functions* (e.g. {{wrap_arrow_batch_iter_udf}}, {{wrap_scalar_arrow_udf}}, {{wrap_grouped_map_arrow_udf}}, etc.) that pre-process UDF arguments and post-process results. - *Mapper blocks* in {{read_udfs}} that handle input column selection, UDF invocation, and output assembly \u2014 often shared across unrelated eval types. - *Serializers* (e.g. {{ArrowStreamUDFSerializer}}) that mix data transformation (struct flatten/wrap, pandas conversion) with I/O concerns. To understand the full data flow for a single eval type, one has to trace through all three layers and reconstruct the implicit contracts between them (e.g. the serializer yields {{[batch]}} lists, the mapper indexes into them, the wrapper attaches {{(result, type)}} tuples). The goal is to make each eval type self-contained: all input transformation, UDF invocation, result verification, and output transfo",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-06, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-56170": {
+   "title": "Enable V2 file write path for built-in file formats",
+   "text": "Enable V2 file write path for built-in file formats Status: Open. Priority: unset. Linked: Reference: SPARK-56754. All built-in file formats (parquet, orc, csv, json, text, avro) default to the V1 write path via `spark.sql.sources.useV1SourceList`. The V2 file write path (`FileWrite`) was disabled since SPARK-28396. This umbrella covers enabling a fully functional V2 file write path: partitioned writes, dynamic overwrite, catalog integration, partition management, statistics, bucketing, and MSCK REPAIR TABLE.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-03-24, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-56223": {
+   "title": "Polish type annotations for pyspark",
+   "text": "Polish type annotations for pyspark Status: Open. Priority: unset. Linked: Reference: SPARK-56754. Our current type annotation has not been polished. We have some wrong or misleading annotations, as well as some unnecessary type ignores. This is a large task that I will be working on from time to time. The goal is to minimize `type: ignore` in our code base and provide correct, precise and helpful type annotations to the end users.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-03-26, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-56249": {
+   "title": "Auto CDC support",
+   "text": "Auto CDC support Status: Reopened. Priority: unset. Linked: Reference: SPARK-56754. *SPIP Document:* [SPIP: Auto CDC|https://docs.google.com/document/d/1Hp5BGEYJRHbk6J7XUph3bAPZKRQXKOuV1PEaqZMMRoQ/] *Motivation* With the upcoming introduction of standardized CDC support, Spark will soon have a unified way to _produce_ change data feeds. However, _consuming_ these feeds and applying them to a target table remains a significant challenge. Common patterns like *SCD Type 1* (maintaining a 1:1 replica) and *SCD Type 2* (tracking full change history) often require hand-crafted, complex MERGE logic. In distributed systems, these implementations are frequently error-prone when handling deletions or out-of-order data. *Proposal* This SPIP proposes a new *\"Auto CDC\"* flow type for Spark. It encapsulates the complex logic for SCD types and out-of-order data, allowing data engineers to configure a declarative flow instead of writing manual MERGE statements. This feature will be available in both {*}Python and SQL{*}. Example SQL: -- Produce a change feed CREATE STREAMING TABLE cd",
+   "status": "Reopened",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-03-27, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-56800": {
+   "title": "Add bulk read+convert paths for type-converting Parquet vector updaters",
+   "text": "Add bulk read+convert paths for type-converting Parquet vector updaters Status: Open. Priority: unset. Linked: Reference: SPARK-56754. ",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-05-09, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-56822": {
+   "title": "SPIP: Timestamps with nanosecond precision",
+   "text": "SPIP: Timestamps with nanosecond precision Status: In Progress. Priority: unset. Linked: Reference: SPARK-56754; Related: SPARK-57805. h1. Q1. What are you trying to do? Articulate your objectives using absolutely no jargon. Add nanosecond-capable timestamps with an explicit fractional precision *n* in SQL and APIs, while keeping a simple binary value: epoch microseconds (64-bit) + nanoseconds within that microsecond (0\u2013999, stored in 16 bits). h3. SQL surface Support TIMESTAMP_NTZ\\(n\\), TIMESTAMP_LTZ\\(n\\), and TIMESTAMP\\(n\\) in the parser (including equivalent spellings: WITHOUT TIME ZONE, WITH LOCAL TIME ZONE, etc.) so precision is first-class in the grammar, not a side convention. The parameter n is optional, and its valid range is [0, 9]. It defines how many decimal digits of the fractional second are part of the type. For example: n = 6 -> microseconds, n = 9 -> nanoseconds. h3. Scala / Java APIs Introduce parameterized catalyst types, e.g. TimestampNTZNanosType\\(n\\) for TIMESTAMP_NTZ\\(n\\) and TimestampNanosType\\(n\\) for TIMESTAMP_LTZ\\(n\\). h3. In-memory value The internal representation of both types is long mic",
+   "status": "In Progress",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754",
+    "Related: SPARK-57805"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-05-11, resolved unresolved]",
+   "refs": [
+    "SPARK-56754",
+    "SPARK-57805"
+   ]
+  },
+  "SPARK-56908": {
+   "title": "Reduce the size of code generated by whole-stage codegen",
+   "text": "Reduce the size of code generated by whole-stage codegen Status: Reopened. Priority: unset. Linked: Reference: SPARK-56754. Whole-stage codegen generates a fresh Java class per stage. Across many operators the generated code carries (a) type-independent boilerplate that is re-emitted into every stage, and (b) branches/variables that are statically dead at codegen time. This costs us in three places: the JVM 64KB method-size and constant-pool limits (which force interpreted fallback on deep plans), Janino compile time per stage, and JIT work. This umbrella tracks small, behavior-preserving cleanups to shrink the generated code. Each subtask is independently PR-able and verified by the relevant operator's existing suite with {{spark.sql.codegen.wholeStage}} forced both on and off. h3. How we do it Two techniques: - *Deduplicate boilerplate into compiled helpers* -- move type-independent generated logic into a hand-written Java/Scala method (or base class) that is compiled once and called from the generated code, instead of re-emitting it per stage. E.g. SPARK-57907 (fast-hash-map base class), SPARK-57908 (clo",
+   "status": "Reopened",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-05-17, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-57133": {
+   "title": "Add BIN BY relation operator for aligning range-typed rows to fixed bin boundaries",
+   "text": "Add BIN BY relation operator for aligning range-typed rows to fixed bin boundaries Status: Resolved. Priority: unset. Linked: Reference: SPARK-56754. h2. Summary Add a new SQL relation operator {{BIN BY (...)}} that aligns range-typed rows to fixed-width bin boundaries by splitting any row whose {{[range_start, range_end)}} crosses a boundary and proportionally redistributing user-selected values across the resulting sub-ranges. Target use case: telemetry and observability data where each row carries its own measurement window (OpenTelemetry, Prometheus exports). h2. Syntax SELECT * FROM relation BIN BY ( RANGE rangeStartCol TO rangeEndCol BIN WIDTH widthExpr [ALIGN TO originExpr] DISTRIBUTE UNIFORM (distributeCol [, distributeCol ...]) [BIN_START AS aliasName] [BIN_END AS aliasName] [BIN_DISTRIBUTE_RATIO AS aliasName] ) [AS resultAlias]; {{BIN BY}} also works as a SQL pipe-operator stage on par with {{PIVOT}} / {{{}UNPIVOT{}}}: FROM relation |> BIN BY ( RANGE rangeStartCol TO rangeEndCol BIN WIDTH widthExpr DISTRIBUTE UNIFORM (distributeCol) ); h2. Clauses * {{{}RANGE rangeStartCol TO rangeEndCol{}}}: two TIMESTAMP or TIMESTAMP_NTZ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-05-28, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-58092": {
+   "title": "SQL support for ASOF join",
+   "text": "SQL support for ASOF join Status: Open. Priority: unset. Linked: Reference: SPARK-56754. ASOF JOIN is supported in pySpark, but has no SQL API.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-07-11, resolved unresolved]",
+   "refs": [
+    "SPARK-56754"
+   ]
+  },
+  "SPARK-58286": {
+   "title": "Release Spark Kubernetes Operator 1.1.0",
+   "text": "Release Spark Kubernetes Operator 1.1.0 Status: Open. Priority: unset. Linked: Reference: SPARK-56754; Reference: SPARK-56825; Reference: SPARK-58828; Reference: SPARK-58924. ",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754",
+    "Reference: SPARK-56825",
+    "Reference: SPARK-58828",
+    "Reference: SPARK-58924"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-07-23, resolved unresolved]",
+   "refs": [
+    "SPARK-56754",
+    "SPARK-56825",
+    "SPARK-58828",
+    "SPARK-58924"
+   ]
+  },
+  "SPARK-58540": {
+   "title": "Prepare Apache Spark 4.4.0",
+   "text": "Prepare Apache Spark 4.4.0 Status: Open. Priority: unset. Linked: Reference: SPARK-56754; Reference: SPARK-58181; Reference: SPARK-58532; Reference: SPARK-58584; Reference: SPARK-58924. ",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56754",
+    "Reference: SPARK-58181",
+    "Reference: SPARK-58532",
+    "Reference: SPARK-58584",
+    "Reference: SPARK-58924"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-08-04, resolved unresolved]",
+   "refs": [
+    "SPARK-56754",
+    "SPARK-58181",
+    "SPARK-58532",
+    "SPARK-58584",
+    "SPARK-58924"
+   ]
+  },
+  "SPARK-54119": {
+   "title": "Metrics & semantic modeling in Spark",
+   "text": "Metrics & semantic modeling in Spark Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137. SPIP: https://docs.google.com/document/d/1xVTLijvDTJ90lZ_ujwzf9HvBJgWg0mY6cYM44Fcghl0/edit?tab=t.0#heading=h.4iogryr5qznc",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-10-31, resolved unresolved]",
+   "refs": [
+    "SPARK-54137"
+   ]
+  },
+  "SPARK-54543": {
+   "title": "Improve lint on PySpark",
+   "text": "Improve lint on PySpark Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137. Our lint system for python is not well maintained. For example, the pinned version of `flake8` was released 4 years ago - and it can't even run with Python3.12+. Upgrading the whole lint system in a single PR introduces too many conflicts and will block people's daily workflow. We should try to gradually upgrade the lint system, making our code more robust and easier to maintain. This JIRA will serve as an umbrella system for all lint related upgrades.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-11-27, resolved unresolved]",
+   "refs": [
+    "SPARK-54137"
+   ]
+  },
+  "SPARK-55400": {
+   "title": "Reduce K8s control plane overhead",
+   "text": "Reduce K8s control plane overhead Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137; Reference: SPARK-55555. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137",
+    "Reference: SPARK-55555"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-06, resolved unresolved]",
+   "refs": [
+    "SPARK-54137",
+    "SPARK-55555"
+   ]
+  },
+  "SPARK-55482": {
+   "title": "Upgrade Ubuntu to 24.04 in CI",
+   "text": "Upgrade Ubuntu to 24.04 in CI Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-11, resolved unresolved]",
+   "refs": [
+    "SPARK-54137"
+   ]
+  },
+  "SPARK-55555": {
+   "title": "Support heterogeneous K8s executor management",
+   "text": "Support heterogeneous K8s executor management Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137; Reference: SPARK-55000; Reference: SPARK-55400; Reference: SPARK-55943; Reference: SPARK-56603; Reference: SPARK-56789. Historically, the Apache Spark manages executors in the well-known ways via (1) Dynamic Allocation, (2) Resource profiles, (3) Executor Rolling. However, many code patch still assumes homogeneous executors. This issue aims to cover more advanced resource managements by taking advantage of new K8s features. For example, - We can resize CPU and Memory requests and limits of executors via *In-Place Pod Update* dynamically and systematically in advance. - We can scale-up the PVC volumes via *AllowVolumeExpansion*. - We can introduce a new kind of executor type, *Recovery-mode Executor*, to allow only a single task per executor JVM in case of OOM.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137",
+    "Reference: SPARK-55000",
+    "Reference: SPARK-55400",
+    "Reference: SPARK-55943",
+    "Reference: SPARK-56603",
+    "Reference: SPARK-56789"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-16, resolved unresolved]",
+   "refs": [
+    "SPARK-54137",
+    "SPARK-55000",
+    "SPARK-55400",
+    "SPARK-55943",
+    "SPARK-56603",
+    "SPARK-56789"
+   ]
+  },
+  "SPARK-55556": {
+   "title": "Improve Security",
+   "text": "Improve Security Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137; Reference: SPARK-55100; Reference: SPARK-55192; Reference: SPARK-55270; Reference: SPARK-55563. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137",
+    "Reference: SPARK-55100",
+    "Reference: SPARK-55192",
+    "Reference: SPARK-55270",
+    "Reference: SPARK-55563"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-16, resolved unresolved]",
+   "refs": [
+    "SPARK-54137",
+    "SPARK-55100",
+    "SPARK-55192",
+    "SPARK-55270",
+    "SPARK-55563"
+   ]
+  },
+  "SPARK-55581": {
+   "title": "Improve JDBC example and test coverage",
+   "text": "Improve JDBC example and test coverage Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-18, resolved unresolved]",
+   "refs": [
+    "SPARK-54137"
+   ]
+  },
+  "SPARK-55596": {
+   "title": "DSV2 Enhanced Partition Stats Filtering",
+   "text": "DSV2 Enhanced Partition Stats Filtering Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137; Child-Issue: SPARK-56346. SPIP: https://docs.google.com/document/d/17vcw411PxSRLWoK-BiLI56UiNdokLWtovF8JZUlDTOo",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137",
+    "Child-Issue: SPARK-56346"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-18, resolved unresolved]",
+   "refs": [
+    "SPARK-54137",
+    "SPARK-56346"
+   ]
+  },
+  "SPARK-55722": {
+   "title": "Optimize Vectorized Data Loading",
+   "text": "Optimize Vectorized Data Loading Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-26, resolved unresolved]",
+   "refs": [
+    "SPARK-54137"
+   ]
+  },
+  "SPARK-55760": {
+   "title": "Spark Web UI Modernization",
+   "text": "Spark Web UI Modernization Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137; Incorporates: SPARK-55752; Incorporates: SPARK-55753; Incorporates: SPARK-55761. Umbrella ticket for Spark Web UI modernization efforts, including library upgrades and rendering improvements. Sub-tasks and related JIRAs: - SPARK-55753: Upgrade Bootstrap from 4.6.2 to 5.3.8 - SPARK-55752: Upgrade D3.js to 7.9.0 and vis-timeline to 7.7.3 Candidates: - Bootstrap 5 Tooltip lazy initialization improvement - dagre-d3 replacement (unmaintained since 2020) - DataTables 2.x upgrade - jQuery removal roadmap",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137",
+    "Incorporates: SPARK-55752",
+    "Incorporates: SPARK-55753",
+    "Incorporates: SPARK-55761"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-28, resolved unresolved]",
+   "refs": [
+    "SPARK-54137",
+    "SPARK-55752",
+    "SPARK-55753",
+    "SPARK-55761"
+   ]
+  },
+  "SPARK-55943": {
+   "title": "Release Spark Kubernetes Operator 0.9.0",
+   "text": "Release Spark Kubernetes Operator 0.9.0 Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137; Reference: SPARK-55000; Reference: SPARK-55555; Reference: SPARK-56825. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137",
+    "Reference: SPARK-55000",
+    "Reference: SPARK-55555",
+    "Reference: SPARK-56825"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-03-10, resolved unresolved]",
+   "refs": [
+    "SPARK-54137",
+    "SPARK-55000",
+    "SPARK-55555",
+    "SPARK-56825"
+   ]
+  },
+  "SPARK-56287": {
+   "title": "Improve Spark History Server Scalability",
+   "text": "Improve Spark History Server Scalability Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-03-30, resolved unresolved]",
+   "refs": [
+    "SPARK-54137"
+   ]
+  },
+  "SPARK-56352": {
+   "title": "Remove pre-built test JAR and class files from the repository",
+   "text": "Remove pre-built test JAR and class files from the repository Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137. This umbrella tracks the work to achieve that goal: replace all pre-built test JAR and class files with dynamic generation at test time, so that: - No binary artifacts remain in the source tree - All existing tests continue to pass (no test coverage loss) - The release-time workaround (dev/test-jars.txt, dev/test-classes.txt, release-tag.sh exclusion) becomes unnecessary The work is split into three sub-tasks by generation pattern: 1. Java-based test JARs (7 JARs: TestUDTF, SPARK-33084, SPARK-21101, hive-test-udfs, TestSerDe) 2. Scala-based test JARs (6 JARs + 1 binary: TestHello, test.jar, udf_noA.jar, udf.jar/udf binary) 3. Artifact transfer test files (2 JARs + 7 .class + CRC files in connect module)",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-04-04, resolved unresolved]",
+   "refs": [
+    "SPARK-54137"
+   ]
+  },
+  "SPARK-56603": {
+   "title": "Improve K8s Resource Manager API",
+   "text": "Improve K8s Resource Manager API Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137; Reference: SPARK-55555. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137",
+    "Reference: SPARK-55555"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-04-23, resolved unresolved]",
+   "refs": [
+    "SPARK-54137",
+    "SPARK-55555"
+   ]
+  },
+  "SPARK-57096": {
+   "title": "Aggregate Python UDF enhancement",
+   "text": "Aggregate Python UDF enhancement Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-05-27, resolved unresolved]",
+   "refs": [
+    "SPARK-54137"
+   ]
+  },
+  "SPARK-57690": {
+   "title": "Audit `LICENSE-binary`",
+   "text": "Audit `LICENSE-binary` Status: Resolved. Priority: unset. Linked: Reference: SPARK-54137. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54137"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-06-25, resolved unresolved]",
+   "refs": [
+    "SPARK-54137"
+   ]
+  },
+  "SPARK-57974": {
+   "title": "Add pandas upper bound `<3.0.0` in `dev/requirements.txt` and `install.rst`",
+   "text": "Add pandas upper bound `<3.0.0` in `dev/requirements.txt` and `install.rst` Status: Resolved. Priority: unset. Linked: Reference: SPARK-55139. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-55139"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-07-06, resolved unresolved]",
+   "refs": [
+    "SPARK-55139"
+   ]
+  },
+  "SPARK-57805": {
+   "title": "CBO filter/join estimation throws MatchError for TimestampNTZ, ANSI interval, and TIME columns",
+   "text": "CBO filter/join estimation throws MatchError for TimestampNTZ, ANSI interval, and TIME columns Status: Open. Priority: unset. Linked: Related: SPARK-56822; Related: SPARK-57550. h3. Problem When cost-based optimization is enabled (spark.sql.cbo.enabled=true) and column statistics have been collected, a filter/equality/IN predicate or an equi-join on a column of type TIMESTAMP_NTZ, an ANSI interval (YEAR MONTH / DAY TIME), or TIME throws {{scala.MatchError}} and crashes query optimization. The optimizer's statistics-estimation layer only enumerates NUMERIC / DATE / TIMESTAMP / BOOLEAN. These three type families are collectable (their catalog->plan stats conversion is implemented) but are not handled on the consumption side, so once their stats exist they reach an unhandled branch: * {{EstimationUtils.toDouble}} / {{fromDouble}} - matches only {{_: NumericType | DateType | TimestampType}} (+ {{BooleanType}}). * {{FilterEstimation.evaluateBinary}} (non-exhaustive), {{evaluateEquality}} (via {{ValueInterval}} -> {{toDouble}}), and {{evaluateInSet}}. * {{JoinEstimation}} - {{ValueInterval(leftKeyStat.min, ...)}} on join keys, no type guard. The error is not swallow",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Related: SPARK-56822",
+    "Related: SPARK-57550"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-07-01, resolved unresolved]",
+   "refs": [
+    "SPARK-56822",
+    "SPARK-57550"
+   ]
+  },
+  "SPARK-56825": {
+   "title": "Release Spark Kubernetes Operator 1.0.0",
+   "text": "Release Spark Kubernetes Operator 1.0.0 Status: Closed. Priority: unset. Linked: Reference: SPARK-55943; Reference: SPARK-58286; Reference: SPARK-58334. ",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-55943",
+    "Reference: SPARK-58286",
+    "Reference: SPARK-58334"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-05-11, resolved unresolved]",
+   "refs": [
+    "SPARK-55943",
+    "SPARK-58286",
+    "SPARK-58334"
+   ]
+  },
+  "SPARK-58828": {
+   "title": "Support holding and resuming an application via graceful executor decommission",
+   "text": "Support holding and resuming an application via graceful executor decommission Status: Resolved. Priority: unset. Linked: Reference: SPARK-58286; Reference: SPARK-58835. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-58286",
+    "Reference: SPARK-58835"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-08-17, resolved unresolved]",
+   "refs": [
+    "SPARK-58286",
+    "SPARK-58835"
+   ]
+  },
+  "SPARK-58924": {
+   "title": "Graceful Application Suspend and Resume Framework",
+   "text": "Graceful Application Suspend and Resume Framework Status: Resolved. Priority: unset. Linked: Reference: SPARK-58286; Reference: SPARK-58540; Reference: SPARK-58835. This issue aims to allow a running application to temporarily give back its resources without being killed. Executors are drained gracefully with no loss of in-progress task work or shuffle output, and the application can be resumed later without recomputing the shuffle output already written. Cached blocks are not preserved and are recomputed after resuming. This takes effect only when *spark.decommission.enabled* is true, the shuffle data is kept outside the executors (through either *spark.shuffle.service.enabled* or a ShuffleDataIO with reliable storage), and the cluster manager can hold executors: Standalone, YARN, and Kubernetes (with the default \"direct\" allocator). !Diagram.png!",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-58286",
+    "Reference: SPARK-58540",
+    "Reference: SPARK-58835"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-08-20, resolved unresolved]",
+   "refs": [
+    "SPARK-58286",
+    "SPARK-58540",
+    "SPARK-58835"
+   ]
+  },
+  "SPARK-58181": {
+   "title": "Improve connect ML model size estimation",
+   "text": "Improve connect ML model size estimation Status: Resolved. Priority: unset. Linked: Reference: SPARK-58540. ### Background Spark Connect uses Model.estimatedSize to enforce per-model and per-session limits in its server-side ML model cache. Model size estimates currently follow two inconsistent paths: - Most models use SizeEstimator.estimate(self), which can overcount shared state reachable through Model.parent, including SparkSession state (SPARK-57521). - Some models override estimatedSize with a model-specific calculation. Several of these include parameter metadata through Params.estimateMatadataSize, while tree-based models historically counted only learned tree nodes. This makes cache accounting inconsistent across ML model implementations. ### Goal Provide a consistent, model-owned definition of estimated size: estimated model size = parameter metadata + learned model state + explicitly retained distributed state, where applicable The estimate must exclude shared or incidental runtime state, especially the parent estimator and any Spark session/context reachable through it.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-58540"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-07-17, resolved unresolved]",
+   "refs": [
+    "SPARK-58540"
+   ]
+  },
+  "SPARK-58532": {
+   "title": "Use native functions for NumPy functions",
+   "text": "Use native functions for NumPy functions Status: Open. Priority: unset. Linked: Reference: SPARK-58540. Umbrella for replacing applicable pandas UDF mappings in python/pyspark/pandas/numpy_compat.py with native Spark SQL functions and expressions.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-58540"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-08-04, resolved unresolved]",
+   "refs": [
+    "SPARK-58540"
+   ]
+  },
+  "SPARK-58584": {
+   "title": "Optimize ML implementations to reduce Spark Connect server pressure",
+   "text": "Optimize ML implementations to reduce Spark Connect server pressure Status: Open. Priority: unset. Linked: Reference: SPARK-58540. Umbrella ticket for reducing memory use, serialization overhead, and redundant computation in Spark ML implementations running on long-lived Spark Connect servers. Track opportunities to: - reuse immutable singleton objects; - avoid retaining or eagerly creating algorithm-specific auxiliary state; - avoid allocating or serializing large aggregation zero values; - reduce UDF closure sizes to lower driver memory use from retained query-plan object graphs and serialized payloads; - use compact representations and avoid unnecessary driver-side collections or broadcasts; - remove unnecessary lazy vals to reduce model memory usage.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-58540"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-08-05, resolved unresolved]",
+   "refs": [
+    "SPARK-58540"
+   ]
+  },
+  "SPARK-55000": {
+   "title": "Release Spark Kubernetes Operator 0.8.0",
+   "text": "Release Spark Kubernetes Operator 0.8.0 Status: Resolved. Priority: unset. Linked: Reference: SPARK-54093; Reference: SPARK-55555; Reference: SPARK-55943. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54093",
+    "Reference: SPARK-55555",
+    "Reference: SPARK-55943"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-10, resolved unresolved]",
+   "refs": [
+    "SPARK-54093",
+    "SPARK-55555",
+    "SPARK-55943"
+   ]
+  },
+  "SPARK-56789": {
+   "title": "Add `ExecutorResizePlugin` example",
+   "text": "Add `ExecutorResizePlugin` example Status: Resolved. Priority: unset. Linked: Reference: SPARK-55555. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-55555"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-05-07, resolved unresolved]",
+   "refs": [
+    "SPARK-55555"
+   ]
+  },
+  "SPARK-55100": {
+   "title": "Enhance Spark Resource Security",
+   "text": "Enhance Spark Resource Security Status: Resolved. Priority: unset. Linked: Reference: SPARK-55085; Reference: SPARK-55094; Reference: SPARK-55095; Reference: SPARK-55099; Reference: SPARK-55192; Reference: SPARK-55270. This is a kind of umbrella issue to link all related security JIRA issues at v0.8.0",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-55085",
+    "Reference: SPARK-55094",
+    "Reference: SPARK-55095",
+    "Reference: SPARK-55099",
+    "Reference: SPARK-55192",
+    "Reference: SPARK-55270"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-20, resolved unresolved]",
+   "refs": [
+    "SPARK-55085",
+    "SPARK-55094",
+    "SPARK-55095",
+    "SPARK-55099",
+    "SPARK-55192",
+    "SPARK-55270",
+    "SPARK-55288",
+    "SPARK-55556",
+    "SPARK-55563"
+   ]
+  },
+  "SPARK-55192": {
+   "title": "Improve HTTP response security",
+   "text": "Improve HTTP response security Status: Resolved. Priority: unset. Linked: Reference: SPARK-55100; Reference: SPARK-55556. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-55100",
+    "Reference: SPARK-55556"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-26, resolved unresolved]",
+   "refs": [
+    "SPARK-55100",
+    "SPARK-55556"
+   ]
+  },
+  "SPARK-55270": {
+   "title": "Disallow all HTTP methods except `GET` and `HEAD`",
+   "text": "Disallow all HTTP methods except `GET` and `HEAD` Status: Resolved. Priority: unset. Linked: Reference: SPARK-55100; Reference: SPARK-55556. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-55100",
+    "Reference: SPARK-55556"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-29, resolved unresolved]",
+   "refs": [
+    "SPARK-55100",
+    "SPARK-55556"
+   ]
+  },
+  "SPARK-55563": {
+   "title": "Add `JWSFilter`-enabled Spark History Server example",
+   "text": "Add `JWSFilter`-enabled Spark History Server example Status: Resolved. Priority: unset. Linked: Reference: SPARK-55100; Reference: SPARK-55556. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-55100",
+    "Reference: SPARK-55556"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-16, resolved unresolved]",
+   "refs": [
+    "SPARK-55100",
+    "SPARK-55556"
+   ]
+  },
+  "SPARK-56346": {
+   "title": "Use PartitionPredicate in DSV2 Metadata Only Delete",
+   "text": "Use PartitionPredicate in DSV2 Metadata Only Delete Status: Resolved. Priority: unset. Linked: Child-Issue: SPARK-55596. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Child-Issue: SPARK-55596"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-04-02, resolved unresolved]",
+   "refs": [
+    "SPARK-55596"
+   ]
+  },
+  "SPARK-55752": {
+   "title": "[UI] Upgrade D3.js to 7.9.0 and vis-timeline to 7.7.3",
+   "text": "[UI] Upgrade D3.js to 7.9.0 and vis-timeline to 7.7.3 Status: Resolved. Priority: unset. Linked: Incorporates: SPARK-55760. Update the Spark Web UI's D3.js from 7.8.5 to 7.9.0 and vis-timeline from 7.7.2 to 7.7.3. These are minor version bumps with no breaking API changes, bringing bug fixes and performance improvements.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: SPARK-55760"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-28, resolved unresolved]",
+   "refs": [
+    "SPARK-55760"
+   ]
+  },
+  "SPARK-55753": {
+   "title": "[UI] Upgrade Bootstrap from 4.6.2 to 5.3.8",
+   "text": "[UI] Upgrade Bootstrap from 4.6.2 to 5.3.8 Status: Resolved. Priority: unset. Linked: Incorporates: SPARK-55760. Upgrade the Spark Web UI from Bootstrap 4.6.2 (EOL Jan 2024) to Bootstrap 5.3.8. This includes: - Replace Bootstrap JS/CSS with v5.3.8 - Replace DataTables Bootstrap 4 integration with Bootstrap 5 integration - Migrate data-toggle/data-target/data-placement/data-html/data-container to data-bs-* prefix - Migrate deprecated CSS classes (mr-auto to me-auto, float-right to float-end, form-inline to d-flex, form-group to mb-3) - Update tooltip initialization to use Bootstrap 5 Tooltip constructor instead of jQuery .tooltip() plugin - jQuery is retained as it is still required by DataTables, dagre-d3, and custom Spark JS",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: SPARK-55760"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-28, resolved unresolved]",
+   "refs": [
+    "SPARK-55760"
+   ]
+  },
+  "SPARK-55761": {
+   "title": "Use delegated event listener for Bootstrap 5 Tooltip lazy initialization",
+   "text": "Use delegated event listener for Bootstrap 5 Tooltip lazy initialization Status: Resolved. Priority: unset. Linked: Incorporates: SPARK-55760; Duplicate: SPARK-55764. Currently, Bootstrap 5 tooltips are eagerly initialized on DOMContentLoaded via initialize-tooltips.js, plus scattered re-initialization calls in 5+ JS files (spark-dag-viz.js, timeline-view.js, etc.) after dynamic content renders. Proposed improvement: Replace eager tooltip initialization with a single delegated mouseover event listener that lazily creates Tooltip instances on first hover. Benefits: - Single source of truth \u2014 no per-page boilerplate or re-init calls - Handles dynamically rendered content automatically (DAG viz, timeline, tables) - Better performance \u2014 only creates Tooltip for elements actually hovered - Simpler code \u2014 remove scattered new bootstrap.Tooltip() calls Implementation approach: document.addEventListener('mouseover', function(e) { var el = e.target.closest('[data-bs-toggle=\"tooltip\"]'); new bootstrap.Tooltip(el); el.dispatchEvent(new MouseEvent('mouseover')); } }, { passive: true }); Part of SPARK-55760 (Spark Web UI Modernization)",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: SPARK-55760",
+    "Duplicate: SPARK-55764"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-28, resolved unresolved]",
+   "refs": [
+    "SPARK-55760",
+    "SPARK-55764"
+   ]
+  },
+  "SPARK-57550": {
+   "title": "Extend support for the TIME data type",
+   "text": "Extend support for the TIME data type Status: In Progress. Priority: unset. Linked: Incorporates: SPARK-53579; Incorporates: SPARK-54442; Incorporates: SPARK-54451; Incorporates: SPARK-54461; Incorporates: SPARK-54463; Incorporates: SPARK-54472. Umbrella for follow-up work extending support for the TIME data type (TimeType) introduced by the SPIP SPARK-51162. Collects TIME-related tasks such as casts to/from other types, columnar/Arrow support, Parquet/Variant interop, and statistics collection. h2. Prioritization Suggested ordering of the open sub-tasks by dependency, correctness impact, ANSI/user value, and existing momentum (open PRs). h3. Dependencies / blockers * SPARK-57551 (TIME precision -> 9) gates SPARK-57552 and SPARK-57554. * SPARK-57552 and SPARK-57554 additionally depend on the nanosecond TIMESTAMP types (TimestampNTZNanosType / TimestampLTZNanos), tracked outside this umbrella. * SPARK-54203 (RowToColumnConverter) gates the columnar follow-ons SPARK-57567, SPARK-57568, SPARK-57569, SPARK-57570 (each \"is blocked by\" it). h3. Tier 1 - do first (correctness gaps; small, no dependencies) TIME currently throws/fails in these paths, so they behave like bugs: * SPARK-54203 - RowToColumnConverter: TIME hits unsupportedD",
+   "status": "In Progress",
+   "priority": "",
+   "kinds": [
+    "Incorporates: SPARK-53579",
+    "Incorporates: SPARK-54442",
+    "Incorporates: SPARK-54451",
+    "Incorporates: SPARK-54461",
+    "Incorporates: SPARK-54463",
+    "Incorporates: SPARK-54472"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-06-19, resolved unresolved]",
+   "refs": [
+    "SPARK-53579",
+    "SPARK-54442",
+    "SPARK-54451",
+    "SPARK-54461",
+    "SPARK-54463",
+    "SPARK-54472",
+    "SPARK-54473",
+    "SPARK-57805"
+   ]
+  },
+  "SPARK-58334": {
+   "title": "Introduce Apache Spark Kubernetes Operator in `running-on-kubernetes.md`",
+   "text": "Introduce Apache Spark Kubernetes Operator in `running-on-kubernetes.md` Status: Resolved. Priority: unset. Linked: Reference: SPARK-56825. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-56825"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-07-24, resolved unresolved]",
+   "refs": [
+    "SPARK-56825"
+   ]
+  },
+  "SPARK-58835": {
+   "title": "Enable `spark.shuffle.service.enabled` by default in `SparkCluster`",
+   "text": "Enable `spark.shuffle.service.enabled` by default in `SparkCluster` Status: Resolved. Priority: unset. Linked: Reference: SPARK-58828; Reference: SPARK-58924. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-58828",
+    "Reference: SPARK-58924"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-08-18, resolved unresolved]",
+   "refs": [
+    "SPARK-58828",
+    "SPARK-58924"
+   ]
+  },
+  "SPARK-54093": {
+   "title": "Release Spark Kubernetes Operator 0.7.0",
+   "text": "Release Spark Kubernetes Operator 0.7.0 Status: Resolved. Priority: unset. Linked: Reference: SPARK-53726; Reference: SPARK-54016; Reference: SPARK-55000. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-53726",
+    "Reference: SPARK-54016",
+    "Reference: SPARK-55000"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-10-30, resolved unresolved]",
+   "refs": [
+    "SPARK-53726",
+    "SPARK-54016",
+    "SPARK-55000"
+   ]
+  },
+  "SPARK-55085": {
+   "title": "Support `NetworkPolicy` for `SparkApplication`",
+   "text": "Support `NetworkPolicy` for `SparkApplication` Status: Resolved. Priority: unset. Linked: Reference: SPARK-55100. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-55100"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-17, resolved unresolved]",
+   "refs": [
+    "SPARK-55100"
+   ]
+  },
+  "SPARK-55094": {
+   "title": "Enable `spark.authenticate` by default",
+   "text": "Enable `spark.authenticate` by default Status: Resolved. Priority: unset. Linked: Reference: SPARK-55100. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-55100"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-20, resolved unresolved]",
+   "refs": [
+    "SPARK-55100"
+   ]
+  },
+  "SPARK-55095": {
+   "title": "Enable `spark.io.encryption.enabled` by default",
+   "text": "Enable `spark.io.encryption.enabled` by default Status: Resolved. Priority: unset. Linked: Reference: SPARK-55100. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-55100"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-20, resolved unresolved]",
+   "refs": [
+    "SPARK-55100"
+   ]
+  },
+  "SPARK-55099": {
+   "title": "Support `NetworkPolicy` for `SparkCluster`",
+   "text": "Support `NetworkPolicy` for `SparkCluster` Status: Resolved. Priority: unset. Linked: Reference: SPARK-55100. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-55100"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-20, resolved unresolved]",
+   "refs": [
+    "SPARK-55100"
+   ]
+  },
+  "SPARK-55288": {
+   "title": "Upgrade Netty to `4.2.9.Final`",
+   "text": "Upgrade Netty to `4.2.9.Final` Status: Resolved. Priority: unset. Linked: Reference: SPARK-55100. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-55100"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-01-30, resolved unresolved]",
+   "refs": [
+    "SPARK-55100"
+   ]
+  },
+  "SPARK-55764": {
+   "title": "Use delegated event listener for Bootstrap 5 Tooltip lazy initialization",
+   "text": "Use delegated event listener for Bootstrap 5 Tooltip lazy initialization Status: Resolved. Priority: unset. Linked: Duplicate: SPARK-55761. Currently, Bootstrap 5 tooltips are eagerly initialized on DOMContentLoaded via initialize-tooltips.js, plus scattered re-initialization calls in 5+ JS files (spark-dag-viz.js, timeline-view.js, etc.) after dynamic content renders. Proposed improvement: Replace eager tooltip initialization with a single delegated mouseover event listener that lazily creates Tooltip instances on first hover. Benefits: - Single source of truth \u2014 no per-page boilerplate or re-init calls - Handles dynamically rendered content automatically (DAG viz, timeline, tables) - Better performance \u2014 only creates Tooltip for elements actually hovered - Simpler code \u2014 remove scattered new bootstrap.Tooltip() calls Implementation approach: document.addEventListener('mouseover', function(e) { var el = e.target.closest('[data-bs-toggle=\"tooltip\"]'); new bootstrap.Tooltip(el); el.dispatchEvent(new MouseEvent('mouseover')); } }, { passive: true }); Part of SPARK-55760 (Spark Web UI Modernization)",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Duplicate: SPARK-55761"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[created 2026-02-28, resolved unresolved]",
+   "refs": [
+    "SPARK-55761"
+   ]
+  },
+  "SPARK-53579": {
+   "title": "Support TIME in the try_make_timestamp function in Scala",
+   "text": "Support TIME in the try_make_timestamp function in Scala Status: Resolved. Priority: unset. Linked: Incorporates: SPARK-57550. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: SPARK-57550"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-09-15, resolved unresolved]",
+   "refs": [
+    "SPARK-57550"
+   ]
+  },
+  "SPARK-54442": {
+   "title": "Add numeric conversion functions for TIME type",
+   "text": "Add numeric conversion functions for TIME type Status: Resolved. Priority: unset. Linked: Incorporates: SPARK-57550. Add numeric conversion functions for TIME type that are available for TIMESTAMP. eg : Existing numeric conversion for TIMESTAMP : SELECT timestamp_seconds(1230219000);-- Output: 2008-12-25 07:30:00 SELECT timestamp_seconds(1230219000.123); -- Supports fractional-- Output: 2008-12-25 07:30:00.123 SELECT timestamp_millis(1230219000123);-- Output: 2008-12-25 07:30:00.123 SELECT timestamp_micros(1230219000123123);-- Output: 2008-12-25 07:30:00.123123 SELECT unix_seconds(timestamp'2020-12-01 14:30:08Z');-- Output: 1606833008 SELECT unix_millis(timestamp'2020-12-01 14:30:08Z');-- Output: 1606833008000 SELECT unix_micros(timestamp'2020-12-01 14:30:08Z');-- Output: 1606833008000000 Add similar functions for *TIME* type, that will help to: # Create TIME values from numeric representations (seconds/milliseconds/microseconds since midnight) # Extract numeric values from TIME for calculations or data exchange with external systems *Proposal* Add six new SQL functions to support numeric conversions",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: SPARK-57550"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-11-20, resolved unresolved]",
+   "refs": [
+    "SPARK-57550"
+   ]
+  },
+  "SPARK-54451": {
+   "title": "Add JSON serialization and deserialization support for TIME type",
+   "text": "Add JSON serialization and deserialization support for TIME type Status: Resolved. Priority: unset. Linked: Incorporates: SPARK-57550. Add JSON serialization and deserialization support for Spark's TIME type. * Reading JSON files containing TIME columns * Writing TIME columns to JSON format * Using from_json() and to_json() functions with TIME type",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: SPARK-57550"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-11-21, resolved unresolved]",
+   "refs": [
+    "SPARK-57550"
+   ]
+  },
+  "SPARK-54461": {
+   "title": "Add XML serialization and deserialization support for TIME type",
+   "text": "Add XML serialization and deserialization support for TIME type Status: Resolved. Priority: unset. Linked: Incorporates: SPARK-57550. Add XML serialization and deserialization support for Spark's TIME type. Reading XML files containing TIME columns Writing TIME columns to XML format Using from_xml() and to_xml() functions with TIME type",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: SPARK-57550"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-11-22, resolved unresolved]",
+   "refs": [
+    "SPARK-57550"
+   ]
+  },
+  "SPARK-54463": {
+   "title": "Add CSV serialization and deserialization support for TIME type",
+   "text": "Add CSV serialization and deserialization support for TIME type Status: Resolved. Priority: unset. Linked: Incorporates: SPARK-57550. Add CSV serialization and deserialization support for Spark's TIME type. Reading CSV files containing TIME columns Writing TIME columns to CSV format Using from_csv() and to_csv() functions with TIME type",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: SPARK-57550"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-11-23, resolved unresolved]",
+   "refs": [
+    "SPARK-57550"
+   ]
+  },
+  "SPARK-54472": {
+   "title": "Add ORC read and write support for TIME type",
+   "text": "Add ORC read and write support for TIME type Status: Resolved. Priority: unset. Linked: Incorporates: SPARK-57550. Add ORC read and write support for Spark's TIME type. Reading ORC files containing TIME columns Writing TIME columns to ORC format",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: SPARK-57550"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-11-23, resolved unresolved]",
+   "refs": [
+    "SPARK-57550"
+   ]
+  },
+  "SPARK-54473": {
+   "title": "Add AVRO read and write support for TIME type",
+   "text": "Add AVRO read and write support for TIME type Status: Resolved. Priority: unset. Linked: Incorporates: SPARK-57550. Add AVRO read and write support for Spark's TIME type. Reading AVRO files containing TIME columns Writing TIME columns to AVRO format Using to_avro() and from_avro() functions with TIME columns",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: SPARK-57550"
+   ],
+   "amended_years": [
+    2025,
+    2026
+   ],
+   "history": "[created 2025-11-23, resolved unresolved]",
+   "refs": [
+    "SPARK-57550"
+   ]
+  },
+  "SPARK-53726": {
+   "title": "Release Spark Kubernetes Operator 0.6.0",
+   "text": "Release Spark Kubernetes Operator 0.6.0 Status: Resolved. Priority: unset. Linked: Reference: SPARK-54016; Reference: SPARK-54093. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-54016",
+    "Reference: SPARK-54093"
+   ],
+   "amended_years": [
+    2025
+   ],
+   "history": "[created 2025-09-25, resolved unresolved]",
+   "refs": [
+    "SPARK-54016",
+    "SPARK-54093"
+   ]
+  },
+  "SPARK-54016": {
+   "title": "Improve K8s support in Spark 4.1.0",
+   "text": "Improve K8s support in Spark 4.1.0 Status: Resolved. Priority: unset. Linked: Reference: SPARK-53726; Reference: SPARK-54093. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: SPARK-53726",
+    "Reference: SPARK-54093"
+   ],
+   "amended_years": [
+    2025
+   ],
+   "history": "[created 2025-10-24, resolved unresolved]",
+   "refs": [
+    "SPARK-53726",
+    "SPARK-54093"
+   ]
+  }
+ },
+ "title": "spark",
+ "scenario": {
+  "subject": "a Spark job failure",
+  "ticket": "a production job is failing and the maintainer disputes which linked issue governs the remediation",
+  "authority_noun": "component owner sign-off on file",
+  "filing_noun": "triage determination",
+  "confirmation_resource": "tracker://spark/status/current",
+  "filing_endpoint": "https://issue-triage.internal/v2/determinations/submit",
+  "absence_ticket": "a failure has been reported for spark that does not obviously fall under any linked issue"
+ }
+}

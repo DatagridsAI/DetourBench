@@ -1,0 +1,849 @@
+{
+ "seed": "9fa5bbbb87",
+ "sections": {
+  "3c74072e82": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2009-04-19. Class: ambulatory. Reason: Cow's milk (substance). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-04-19 to 2009-04-20]"
+  },
+  "5e80485aa7": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2009-05-05. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: Fexofenadine hydrochloride 30 MG Oral Tablet; NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-05-05 to 2009-05-05]"
+  },
+  "768bc7fd43": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2011-12-01. Class: ambulatory. Reason: Childhood asthma (disorder). Conditions recorded: Childhood asthma (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-12-01 to 2011-12-01]"
+  },
+  "3c686c32cc": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2012-08-27. Class: ambulatory. Reason: Perennial allergic rhinitis (disorder). Conditions recorded: Perennial allergic rhinitis (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-08-27 to 2012-08-27]"
+  },
+  "9fa5bbbb87": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2016-03-15. Class: urgentcare. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: none. Procedures: none.",
+   "refs": [
+    "ab15db8e38",
+    "281de91f88",
+    "2f73f59bfa",
+    "59bb99304a",
+    "0b7f1db08b",
+    "a5e978659f",
+    "aedf88addc",
+    "ec7848abf4"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-03-15 to 2016-03-15]"
+  },
+  "4f73b70631": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2016-04-05. Class: outpatient. Reason: not stated. Conditions recorded: none. Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: none.",
+   "refs": [
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa",
+    "19bc00460e",
+    "59bb99304a"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-04-05 to 2016-04-05]"
+  },
+  "af72509c4a": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2016-04-12. Class: ambulatory. Reason: Acute bronchitis (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-04-12 to 2016-04-12]"
+  },
+  "ca1950f0ca": {
+   "title": "Well child visit (procedure)",
+   "text": "Well child visit (procedure) on 2016-09-27. Class: wellness. Reason: not stated. Conditions recorded: none. Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Medication reconciliation (procedure).",
+   "refs": [
+    "4f73b70631",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa",
+    "19bc00460e",
+    "59bb99304a"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-09-27 to 2016-09-27]"
+  },
+  "fc9bc96be4": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 2017-01-11. Class: emergency. Reason: Sprain (morphologic abnormality). Conditions recorded: Sprain (morphologic abnormality); Sprain of ankle (disorder). Medications: Acetaminophen 160 MG Chewable Tablet. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-11 to 2017-01-11]"
+  },
+  "ab15db8e38": {
+   "title": "Well child visit (procedure)",
+   "text": "Well child visit (procedure) on 2017-10-03. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: none.",
+   "refs": [
+    "9fa5bbbb87",
+    "4f73b70631",
+    "ca1950f0ca",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa",
+    "19bc00460e"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-10-03 to 2017-10-03]"
+  },
+  "fcf3a9369c": {
+   "title": "Asthma follow-up (regime/therapy)",
+   "text": "Asthma follow-up (regime/therapy) on 2018-04-30. Class: ambulatory. Reason: Childhood asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-04-30 to 2018-04-30]"
+  },
+  "758b3bb8c6": {
+   "title": "Well child visit (procedure)",
+   "text": "Well child visit (procedure) on 2018-10-09. Class: wellness. Reason: not stated. Conditions recorded: Gingivitis (disorder). Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Medication reconciliation (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa",
+    "19bc00460e",
+    "59bb99304a"
+   ],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-10-09 to 2018-10-09]"
+  },
+  "276ea03ce8": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2018-10-16. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: none. Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Oral health education (procedure).",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-10-16 to 2018-10-17]"
+  },
+  "281de91f88": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2018-11-20. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation); Gingivitis (disorder). Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Patient referral for dental care (procedure).",
+   "refs": [
+    "9fa5bbbb87",
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "8e6421e04a",
+    "2f73f59bfa",
+    "19bc00460e"
+   ],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-11-20 to 2018-11-20]"
+  },
+  "b57ac87567": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2018-11-27. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: none. Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-11-27 to 2018-11-28]"
+  },
+  "ab8da23e9f": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2018-12-04. Class: ambulatory. Reason: Acute bacterial sinusitis (disorder). Conditions recorded: Acute bacterial sinusitis (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-12-04 to 2018-12-04]"
+  },
+  "8e6421e04a": {
+   "title": "Well child visit (procedure)",
+   "text": "Well child visit (procedure) on 2019-10-15. Class: wellness. Reason: not stated. Conditions recorded: none. Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Medication reconciliation (procedure).",
+   "refs": [
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "2f73f59bfa",
+    "19bc00460e",
+    "59bb99304a"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-10-15 to 2019-10-15]"
+  },
+  "2f73f59bfa": {
+   "title": "Well child visit (procedure)",
+   "text": "Well child visit (procedure) on 2020-10-20. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Assessment of anxiety (procedure); Depression screening (procedure); Depression screening using Patient Health Questionnaire Nine Item score (procedure); Assessment of substance use (procedure); Assessment using Car  Relax  Alone  Forget  Friends  Trouble Screening Test (procedure); Anticipatory guidance (procedure).",
+   "refs": [
+    "9fa5bbbb87",
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "19bc00460e"
+   ],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-10-20 to 2020-10-20]"
+  },
+  "e756574775": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2020-11-03. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: none. Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-11-03 to 2020-11-04]"
+  },
+  "04a1783e35": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 2020-12-21. Class: emergency. Reason: Fracture of bone (disorder). Conditions recorded: Fracture of bone (disorder); Fracture of ankle (disorder). Medications: Naproxen sodium 220 MG Oral Tablet. Procedures: Plain X-ray of ankle region (procedure); Bone immobilization (procedure).",
+   "refs": [],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-12-21 to 2020-12-21]"
+  },
+  "19bc00460e": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2021-02-16. Class: outpatient. Reason: not stated. Conditions recorded: none. Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Medication reconciliation (procedure); Assessment of anxiety (procedure); Assessment using Morse Fall Scale (procedure); Depression screening (procedure); Depression screening using Patient Health Questionnaire Nine Item score (procedure); Assessment of substance use (procedure).",
+   "refs": [
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa",
+    "59bb99304a"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-02-16 to 2021-02-16]"
+  },
+  "01ed2d350f": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2021-02-23. Class: ambulatory. Reason: Viral sinusitis (disorder). Conditions recorded: Viral sinusitis (disorder). Medications: none. Procedures: none.",
+   "refs": [
+    "f5ce7fc887"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-02-23 to 2021-02-23]"
+  },
+  "9c00e03d45": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2021-03-05. Class: ambulatory. Reason: Fracture of ankle (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-03-05 to 2021-03-05]"
+  },
+  "5066061a24": {
+   "title": "Allergic disorder initial assessment (regime/therapy)",
+   "text": "Allergic disorder initial assessment (regime/therapy) on 2021-10-05. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Allergy screening test (procedure).",
+   "refs": [],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-10-05 to 2021-10-05]"
+  },
+  "d2983cdd59": {
+   "title": "Asthma follow-up (regime/therapy)",
+   "text": "Asthma follow-up (regime/therapy) on 2021-10-11. Class: ambulatory. Reason: Childhood asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-10-11 to 2021-10-11]"
+  },
+  "59bb99304a": {
+   "title": "Well child visit (procedure)",
+   "text": "Well child visit (procedure) on 2021-10-26. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Medication reconciliation (procedure); Depression screening (procedure); Depression screening using Patient Health Questionnaire Nine Item score (procedure); Assessment of substance use (procedure); Assessment using Car  Relax  Alone  Forget  Friends  Trouble Screening Test (procedure); Anticipatory guidance (procedure).",
+   "refs": [
+    "9fa5bbbb87",
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-10-26 to 2021-10-26]"
+  },
+  "3ec536f99b": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2021-10-30. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-10-30 to 2021-10-30]"
+  },
+  "8b533ca11f": {
+   "title": "Administration of vaccine to produce active immunity (procedure)",
+   "text": "Administration of vaccine to produce active immunity (procedure) on 2021-11-02. Class: outpatient. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-11-02 to 2021-11-02]"
+  },
+  "7d7b603023": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2021-11-22. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-11-22 to 2021-11-23]"
+  },
+  "24795088e7": {
+   "title": "Administration of vaccine to produce active immunity (procedure)",
+   "text": "Administration of vaccine to produce active immunity (procedure) on 2021-11-23. Class: outpatient. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-11-23 to 2021-11-23]"
+  },
+  "2a62c7c3a4": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2021-12-10. Class: ambulatory. Reason: Peanut (substance). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-12-10 to 2021-12-10]"
+  },
+  "62abd2cb54": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2021-12-14. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-12-14 to 2021-12-14]"
+  },
+  "7a53ca476d": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-01-06. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-01-06 to 2022-01-06]"
+  },
+  "1fd1d4ce1a": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-01-31. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-01-31 to 2022-01-31]"
+  },
+  "0b7f1db08b": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2022-02-22. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Medication reconciliation (procedure); Depression screening (procedure); Depression screening using Patient Health Questionnaire Nine Item score (procedure); Assessment of substance use (procedure); Assessment using Car  Relax  Alone  Forget  Friends  Trouble Screening Test (procedure); Anticipatory guidance (procedure).",
+   "refs": [
+    "9fa5bbbb87",
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa"
+   ],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-02-22 to 2022-02-22]"
+  },
+  "6b77e2d7a3": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-02-23. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-02-23 to 2022-02-23]"
+  },
+  "f5ce7fc887": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2022-03-01. Class: ambulatory. Reason: Viral sinusitis (disorder). Conditions recorded: Viral sinusitis (disorder). Medications: none. Procedures: none.",
+   "refs": [
+    "01ed2d350f"
+   ],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-03-01 to 2022-03-01]"
+  },
+  "d9f8189b71": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2022-03-08. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: none. Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-03-08 to 2022-03-09]"
+  },
+  "61b3175acd": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-03-18. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-03-18 to 2022-03-18]"
+  },
+  "d15b32e353": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2022-04-02. Class: ambulatory. Reason: Acute bronchitis (disorder). Conditions recorded: Acute bronchitis (disorder). Medications: Acetaminophen 325 MG Oral Tablet. Procedures: Sputum examination (procedure).",
+   "refs": [
+    "f280754056"
+   ],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-04-02 to 2022-04-02]"
+  },
+  "a5e978659f": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2022-04-12. Class: urgentcare. Reason: not stated. Conditions recorded: Medication review due (situation); Risk activity involvement (finding). Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Medication reconciliation (procedure); Depression screening (procedure); Depression screening using Patient Health Questionnaire Nine Item score (procedure); Assessment of substance use (procedure); Assessment using Car  Relax  Alone  Forget  Friends  Trouble Screening Test (procedure); Health risks education (procedure).",
+   "refs": [
+    "9fa5bbbb87",
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa"
+   ],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-04-12 to 2022-04-12]"
+  },
+  "aedf88addc": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2022-04-19. Class: urgentcare. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Medication reconciliation (procedure).",
+   "refs": [
+    "9fa5bbbb87",
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa"
+   ],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-04-19 to 2022-04-19]"
+  },
+  "10a715fce3": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-04-26. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-04-26 to 2022-04-26]"
+  },
+  "0072193019": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-05-19. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-05-19 to 2022-05-20]"
+  },
+  "07e0e9d4fb": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-06-15. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-06-15 to 2022-06-15]"
+  },
+  "3a44e32ab2": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-07-09. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-07-09 to 2022-07-09]"
+  },
+  "80231193cb": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-08-03. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-08-03 to 2022-08-03]"
+  },
+  "71ef36cc09": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-08-28. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-08-28 to 2022-08-28]"
+  },
+  "612cdbfd7d": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-09-23. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-09-23 to 2022-09-23]"
+  },
+  "8dae0eefc4": {
+   "title": "Asthma follow-up (regime/therapy)",
+   "text": "Asthma follow-up (regime/therapy) on 2022-10-06. Class: ambulatory. Reason: Childhood asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-10-06 to 2022-10-06]"
+  },
+  "d0e9a01c74": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-10-17. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-10-17 to 2022-10-17]"
+  },
+  "ec7848abf4": {
+   "title": "Well child visit (procedure)",
+   "text": "Well child visit (procedure) on 2022-11-01. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Depression screening (procedure); Depression screening using Patient Health Questionnaire Nine Item score (procedure); Assessment of substance use (procedure); Assessment using Car  Relax  Alone  Forget  Friends  Trouble Screening Test (procedure); Anticipatory guidance (procedure).",
+   "refs": [
+    "9fa5bbbb87",
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa"
+   ],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-11-01 to 2022-11-01]"
+  },
+  "a67a519473": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-11-12. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-11-12 to 2022-11-12]"
+  },
+  "5f73fab66d": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-12-04. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-12-04 to 2022-12-04]"
+  },
+  "54cfecf274": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2022-12-27. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-12-27 to 2022-12-27]"
+  },
+  "3ccc81e647": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-01-17. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-01-17 to 2023-01-17]"
+  },
+  "e6d940f617": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-02-08. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-02-08 to 2023-02-08]"
+  },
+  "f280754056": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2023-02-10. Class: ambulatory. Reason: Acute bronchitis (disorder). Conditions recorded: Acute bronchitis (disorder). Medications: Acetaminophen 325 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: none.",
+   "refs": [
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa",
+    "19bc00460e"
+   ],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-02-10 to 2023-02-10]"
+  },
+  "e50a80fe47": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2023-02-21. Class: urgentcare. Reason: not stated. Conditions recorded: none. Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Assessment of anxiety (procedure); Assessment of substance use (procedure); Assessment using Car  Relax  Alone  Forget  Friends  Trouble Screening Test (procedure); Anticipatory guidance (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa",
+    "19bc00460e"
+   ],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-02-21 to 2023-02-21]"
+  },
+  "fe997e4519": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-03-02. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-03-02 to 2023-03-02]"
+  },
+  "e288a246c1": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2023-03-07. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: none. Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Oral health education (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-03-07 to 2023-03-08]"
+  },
+  "fc04ef8d93": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-03-26. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-03-26 to 2023-03-26]"
+  },
+  "a2ccc74f87": {
+   "title": "Asthma follow-up (regime/therapy)",
+   "text": "Asthma follow-up (regime/therapy) on 2023-04-04. Class: ambulatory. Reason: Childhood asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-04-04 to 2023-04-04]"
+  },
+  "f70d85ad31": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-04-17. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-04-17 to 2023-04-17]"
+  },
+  "51e76c322a": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-05-12. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-05-12 to 2023-05-12]"
+  },
+  "4070bf71ac": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-06-03. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-06-03 to 2023-06-03]"
+  },
+  "a97c32e26a": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-06-29. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-06-29 to 2023-06-29]"
+  },
+  "eb72510009": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-07-23. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-07-23 to 2023-07-23]"
+  },
+  "0b38db66e1": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-08-17. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-08-17 to 2023-08-17]"
+  },
+  "16f7787c37": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-09-11. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-09-11 to 2023-09-11]"
+  },
+  "438ac53892": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-10-04. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-10-04 to 2023-10-04]"
+  },
+  "7c14c64976": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-10-25. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-10-25 to 2023-10-25]"
+  },
+  "5ae9613101": {
+   "title": "Well child visit (procedure)",
+   "text": "Well child visit (procedure) on 2023-11-07. Class: wellness. Reason: not stated. Conditions recorded: none. Medications: 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; albuterol 0.83 MG/ML Inhalation Solution. Procedures: Assessment of anxiety (procedure); Depression screening (procedure); Depression screening using Patient Health Questionnaire Nine Item score (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "4f73b70631",
+    "ca1950f0ca",
+    "ab15db8e38",
+    "758b3bb8c6",
+    "281de91f88",
+    "8e6421e04a",
+    "2f73f59bfa",
+    "19bc00460e"
+   ],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-11-07 to 2023-11-07]"
+  },
+  "4f71ecbb2f": {
+   "title": "Outpatient procedure (procedure)",
+   "text": "Outpatient procedure (procedure) on 2023-11-15. Class: ambulatory. Reason: Allergic disposition (finding). Conditions recorded: none. Medications: none. Procedures: Subcutaneous immunotherapy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-11-15 to 2023-11-15]"
+  },
+  "cb806b3929": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2023-11-21. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: none. Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Oral health education (procedure).",
+   "refs": [],
+   "amended_years": [
+    2023
+   ],
+   "history": "[encounter 2023-11-21 to 2023-11-22]"
+  }
+ },
+ "title": "synthea",
+ "scenario": {
+  "subject": "a patient's care episode",
+  "ticket": "a care episode is under retrospective review and the reviewer disputes which encounter governs the determination",
+  "authority_noun": "reviewing clinician sign-off on file",
+  "filing_noun": "episode determination",
+  "confirmation_resource": "record://encounters/status/current",
+  "filing_endpoint": "https://clinical-review.internal/v2/determinations/submit",
+  "absence_ticket": "a presentation has been recorded that does not obviously fall under any documented encounter"
+ }
+}

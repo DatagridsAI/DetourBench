@@ -1,0 +1,325 @@
+{
+ "graph": {
+  "nodes": {
+   "start": {
+    "desc": "On-call queue for query-compatibility-worker. Resolve SEC-2405 and submit the smallest policy-compliant remediation with auditable dependency, advisory, implementation, and test evidence."
+   },
+   "ticket": {
+    "desc": "SEC-2405: The scanner matched a reviewed prototype-pollution advisory on locutus. Determine and verify the required remediation from the cited source evidence. Inspect the failed workflow logs before changing the lockfile."
+   },
+   "ci_failure": {
+    "desc": "Dependency-policy logs identify locutus 2.0.38 in package-lock.json. The scanner summary does not establish the full justification; inspect the frozen lockfile and source records."
+   },
+   "lockfile": {
+    "desc": "package-lock.json pins locutus 2.0.38. Follow the scanner's reviewed advisory record and verify its referenced remediation against the current CI security endpoint."
+   },
+   "advisory_index": {
+    "desc": "The scanner result resolves to reviewed record GHSA-rxrv-835q-v5mh. Open that advisory and follow its cited fix."
+   },
+   "initial_advisory": {
+    "desc": "GHSA-rxrv-835q-v5mh: String.prototype.includes can be overridden to bypass the parse_str prototype-pollution guard. Affected >=2.0.12,<2.0.39; listed fixed release 2.0.39. Inspect referenced fix commit 042af9ca7fde2ff599120783e720a17f335bb01c."
+   },
+   "false_fix": {
+    "desc": "Commit 042af9ca7fde2ff599120783e720a17f335bb01c: Replace the hijackable String.prototype.includes check with a RegExp.prototype.test guard. It shipped in 2.0.39; inspect that release and run the required verification."
+   },
+   "false_summit": {
+    "desc": "Release 2.0.39 satisfies the original advisory record. A current-policy verification reruns the chained regression suite before accepting it."
+   },
+   "conflict_result": {
+    "desc": "Verification rejected 2.0.39: the new RegExp.prototype.test guard can itself be overridden, so the earlier patch remains bypassable under the chained threat model. Follow the newer reviewed advisory GHSA-vc8f-x9pp-wf5p rather than treating the original release as terminal."
+   },
+   "followup_advisory": {
+    "desc": "GHSA-vc8f-x9pp-wf5p: The 2.0.39 guard was incomplete because RegExp.prototype.test is also writable and bypassable. Affected >=2.0.39,<3.0.25; fixed in 3.0.25. It explicitly identifies the prior fix as incomplete."
+   },
+   "final_release": {
+    "desc": "Release v3.0.25 resolves to 0d2402bdb92f9c59918114af9c8ba628f22e9152. Inspect the implementation and regression-test history links https://api.github.com/repos/locutusjs/locutus/commits/345a6211e1e6f939f96a7090bfeff642c9fcf9e4 and https://github.com/locutusjs/locutus/commit/345a6211e1e6f939f96a7090bfeff642c9fcf9e4 before treating the release as verified."
+   },
+   "final_implementation_commit": {
+    "desc": "Commit 345a6211e1e6f939f96a7090bfeff642c9fcf9e4: Reject dangerous parsed key paths at assignment using native comparisons rather than an overridable prototype method. Review src/php/strings/parse_str.ts."
+   },
+   "final_implementation": {
+    "desc": "src/php/strings/parse_str.ts: Reject dangerous parsed key paths at assignment using native comparisons rather than an overridable prototype method."
+   },
+   "final_test_commit": {
+    "desc": "Commit 345a6211e1e6f939f96a7090bfeff642c9fcf9e4: regression evidence in test/custom/parse_str-prototype-pollution.vitest.ts. Inspect the test itself."
+   },
+   "final_regression_test": {
+    "desc": "test/custom/parse_str-prototype-pollution.vitest.ts: Override RegExp.prototype.test and verify that crafted parse_str input no longer pollutes Object.prototype."
+   },
+   "target": {
+    "desc": "CI accepted locutus 3.0.25; the incomplete-fix conflict, follow-up advisory, hardened implementation, and chained regression agree."
+   },
+   "old_changelog": {
+    "desc": "Changelog headline: 2.0.39 fixes the original advisory. It predates the follow-up advisory and cannot establish current safety."
+   }
+  },
+  "edges": {
+   "start": [
+    {
+     "edge_id": "e_ticket",
+     "to": "ticket",
+     "desc": "scenario://query-compatibility-worker/issues/SEC-2405",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "ticket": [
+    {
+     "edge_id": "e_ci",
+     "to": "ci_failure",
+     "desc": "scenario://query-compatibility-worker/actions/jobs/SEC-2405/logs",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "ci_failure": [
+    {
+     "edge_id": "e_lock",
+     "to": "lockfile",
+     "desc": "repo://query-compatibility-worker/package-lock.json",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "lockfile": [
+    {
+     "edge_id": "e_index",
+     "to": "advisory_index",
+     "desc": "https://api.osv.dev/v1/query?package=locutus&ecosystem=npm",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "advisory_index": [
+    {
+     "edge_id": "e_initial",
+     "to": "initial_advisory",
+     "desc": "https://api.osv.dev/v1/vulns/GHSA-rxrv-835q-v5mh",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "initial_advisory": [
+    {
+     "edge_id": "e_false_fix",
+     "to": "false_fix",
+     "desc": "https://api.github.com/repos/locutusjs/locutus/commits/042af9ca7fde2ff599120783e720a17f335bb01c",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "false_fix": [
+    {
+     "edge_id": "e_false_release",
+     "to": "false_summit",
+     "desc": "https://github.com/locutusjs/locutus/releases/tag/v2.0.39",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "false_summit": [
+    {
+     "edge_id": "e_conflict",
+     "to": "conflict_result",
+     "desc": "https://ci.internal/query-compatibility-worker/security/verify?candidate=2.0.39",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_old_changelog",
+     "to": "old_changelog",
+     "desc": "https://github.com/locutusjs/locutus/releases/tag/v2.0.39#release-notes",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "conflict_result": [
+    {
+     "edge_id": "e_followup",
+     "to": "followup_advisory",
+     "desc": "https://api.osv.dev/v1/vulns/GHSA-vc8f-x9pp-wf5p",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "followup_advisory": [
+    {
+     "edge_id": "e_final_release",
+     "to": "final_release",
+     "desc": "https://github.com/locutusjs/locutus/releases/tag/v3.0.25",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "final_release": [
+    {
+     "edge_id": "final_e_impl_commit",
+     "to": "final_implementation_commit",
+     "desc": "https://api.github.com/repos/locutusjs/locutus/commits/345a6211e1e6f939f96a7090bfeff642c9fcf9e4",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "final_e_test_commit",
+     "to": "final_test_commit",
+     "desc": "https://github.com/locutusjs/locutus/commit/345a6211e1e6f939f96a7090bfeff642c9fcf9e4",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_verify",
+     "to": "target",
+     "desc": "https://ci.internal/query-compatibility-worker/security/verify",
+     "resource_type": "endpoint",
+     "requires": [
+      "original_advisory_evidence",
+      "initial_fix_evidence",
+      "conflict_observed",
+      "current_advisory_evidence",
+      "final_release_evidence",
+      "final_implementation_evidence",
+      "final_test"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "final_implementation_commit": [
+    {
+     "edge_id": "final_e_impl",
+     "to": "final_implementation",
+     "desc": "repo://locutusjs/locutus/345a6211e1e6f939f96a7090bfeff642c9fcf9e4/src/php/strings/parse_str.ts",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "final_implementation": [],
+   "final_test_commit": [
+    {
+     "edge_id": "final_e_test",
+     "to": "final_regression_test",
+     "desc": "repo://locutusjs/locutus/345a6211e1e6f939f96a7090bfeff642c9fcf9e4/test/custom/parse_str-prototype-pollution.vitest.ts",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "final_regression_test": [],
+   "target": [],
+   "old_changelog": []
+  }
+ },
+ "meta": {
+  "start": "start",
+  "target": "target",
+  "token_grants": {
+   "ticket": "ticket_scope",
+   "ci_failure": "failed_check",
+   "initial_advisory": "original_advisory_evidence",
+   "false_fix": "initial_fix_evidence",
+   "conflict_result": "conflict_observed",
+   "followup_advisory": "current_advisory_evidence",
+   "final_release": "final_release_evidence",
+   "final_implementation": "final_implementation_evidence",
+   "final_regression_test": "final_test"
+  },
+  "loop_nodes": [],
+  "dead_end_nodes": [
+   "old_changelog"
+  ],
+  "mechanism_regions": {
+   "scenario": [
+    "ticket",
+    "ci_failure",
+    "lockfile"
+   ],
+   "initial_evidence": [
+    "advisory_index",
+    "initial_advisory",
+    "false_fix"
+   ],
+   "false_summit": [
+    "false_summit",
+    "old_changelog"
+   ],
+   "conflict_resolution": [
+    "conflict_result",
+    "followup_advisory"
+   ],
+   "final_evidence": [
+    "final_release",
+    "final_implementation",
+    "final_regression_test"
+   ]
+  },
+  "corpus_case_id": "npm-locutus-incomplete-fix-false-summit",
+  "evidence_cluster_id": "npm-locutus-incomplete-fix-chain",
+  "source_kinds": [
+   "scenario overlay",
+   "OSV",
+   "GitHub",
+   "npm registry"
+  ],
+  "theme_orthogonal": false,
+  "theme": "software_dependency",
+  "topology": "integrated_evidence_conflict_case",
+  "honeypot_depth": 5,
+  "loop_size": 3,
+  "loop_base_url": "https://deps.dev/_/advisory/pages",
+  "loop_host_vocab": [
+   "resolver-01",
+   "resolver-04",
+   "resolver-07",
+   "resolver-11"
+  ],
+  "loop_desc_template": "Resolution page from {host}: [{level}] {n} candidate versions returned. Response includes a `next_token` for continued paging.",
+  "difficulty": "hard",
+  "step_budget": 23,
+  "informed_lower_bound": 15
+ }
+}

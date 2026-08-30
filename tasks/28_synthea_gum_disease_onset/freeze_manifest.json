@@ -1,0 +1,50 @@
+{
+ "schema_version": "detourbench.frozen-integrated-task.v2",
+ "frozen_on": "2026-08-27",
+ "task_id": 28,
+ "task_directory": "initial_integrated_tasks/28_synthea_gum_disease_onset",
+ "run_task_name": "synthea_gum_disease_onset",
+ "classification": "integrated_task_independently_piloted",
+ "task_revision": "synthea-onset-v5",
+ "selection_note": "Frozen before its independent pilot and cleared for comparison against other frozen tasks. Selection was not blind: see independent_pilot.does_not_establish.",
+ "evidence_cluster_id": "synthea-syn5",
+ "primary_mechanism": "Depth",
+ "supporting_mechanisms": [
+  "Currency",
+  "Breadth",
+  "Disposition"
+ ],
+ "oracle_lower_bound": 16,
+ "informed_lower_bound": 16,
+ "hard_budget": 24,
+ "n_nodes": 53,
+ "n_edges": 54,
+ "reachable_nodes": 53,
+ "episode_count": 4,
+ "metric_version": "detourbench-v3",
+ "solver_version": "compute_lower_bound.monotone-bfs.v1",
+ "state_semantics_version": "graph-env.expanding-search.v1",
+ "hashes_sha256": {
+  "graph_full.json": "339cb022b22a7cfb6827d7f1fcd53053094a63ec260a818304b99561413ca1de",
+  "initial_state.json": "c7ae8bd79e04e4e97c9051475c68ec041530070f0518079b0b4c6c64f2e18ef1",
+  "necessity_audit.json": "be6ae59aa1410d832299021a76cbad1d744ed4d0662c8c192d72f08988b8e7d1",
+  "oracle.json": "5647c9f93c50e340df2bd9a8c07cfd86b6e9069f01dc9dc1b1e85171261b3bdd",
+  "source_corpus.json": "f1cd5259504e05f54e0ae41f1fd61caa60de9bc62fc7ad4390eee52018d54107",
+  "task_spec.json": "945145cab0a5e7901dc8ed4a77b9faae16c987050e1f03107a4ce9bbfc549ce0",
+  "verifier_report.json": "c4f8fd5cefb3b5d3a359899dfc03abf491f5030f81da5e78575f2e4b28805394"
+ },
+ "prior_classification": "integrated_development_challenge",
+ "independent_pilot": {
+  "model": "gpt-5.6",
+  "date": "2026-08-28",
+  "episodes": 2,
+  "successes": 2,
+  "attainment_values": [
+   0.9411764705882353,
+   0.9411764705882353
+  ],
+  "held_out_from": "gpt-5.6 ran no episode of this task on any revision before this date, and was not consulted while the task was authored or revised.",
+  "establishes": "The task's difficulty is not an artifact of the models that were observed during development; a model that did not influence the design meets it at comparable cost.",
+  "does_not_establish": "Blind selection. This task was authored and revised while observing model behaviour, so its existence and shape remain informed by that behaviour. An independent pilot cannot undo selection that already happened."
+ }
+}

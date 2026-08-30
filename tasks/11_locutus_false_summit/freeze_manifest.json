@@ -1,0 +1,17 @@
+{
+  "schema_version": "detourbench.frozen-integrated-task.v2",
+  "task_id": 11,
+  "task_directory": "initial_integrated_tasks/11_locutus_false_summit",
+  "metric_version": "attainment-v2-success-weighted-oracle",
+  "oracle_lower_bound": 15,
+  "hard_budget": 23,
+  "hashes_sha256": {
+    "graph_full.json": "a82ca8847ed34edbe09ee4fe4fe93dfd9e824b21e6580cb5e085cec6f34d0328",
+    "initial_state.json": "4c86eee1115f3a89a6b77d5e41702c09fc8879bf9d83e9d4950a19ad521d8b15",
+    "oracle.json": "8962ccad3877681236608b335deec30d8c43387a0bfbafa2113ed42fe5001f78",
+    "pilot_trajectories.json": "450e50cdbd1ab05e31b4a11aa3c95c68d9329db2221b610eea0e91b5c7b7bba6",
+    "task_spec.json": "32cae1bac36f3aeb08865a8889c37abc1a3dfb4799b4c14909adbddf0ace9f2d",
+    "verifier_report.json": "dda457eb6d119270bc7ea3a3df1872e121e19084738e16ed9840e22cbc5717f2"
+  },
+  "note": "Public-release manifest; withheld model-output entries are omitted."
+}

@@ -1,0 +1,370 @@
+{
+  "schema_version": "detourbench.edgar-overlay.v1",
+  "task_name": "finance_listing_cure_period",
+  "upstream_dataset": "SEC EDGAR",
+  "upstream_endpoints": [
+    "https://data.sec.gov/submissions/CIK0000840715.json",
+    "https://www.sec.gov/Archives/edgar/data/840715/"
+  ],
+  "extractor": "fetch_edgar_clro.py",
+  "retrieved_on": "2026-08-28",
+  "snapshot_date": "2025-02-14",
+  "index_window_start": "2023-02-14",
+  "index_scope": "registrant periodic and current reports, proxy materials and staff correspondence; third-party ownership filings are a different register",
+  "issuer": {
+    "name": "CLEARONE INC",
+    "cik": "0000840715",
+    "tickers": [
+      "CLRO"
+    ],
+    "exchanges": [
+      "Nasdaq"
+    ],
+    "sic_description": "Telephone & Telegraph Apparatus",
+    "fiscal_year_end": "1231"
+  },
+  "observed_filing_index": [
+    {
+      "accessionNumber": "0001753926-23-000346",
+      "filingDate": "2023-03-31",
+      "reportDate": "2022-12-31",
+      "form": "10-K",
+      "items": "",
+      "primaryDocument": "clro-20221231.htm",
+      "primaryDocDescription": "10-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-000391",
+      "filingDate": "2023-04-06",
+      "reportDate": "2023-04-06",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "clro-20230406.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-000620",
+      "filingDate": "2023-05-10",
+      "reportDate": "2023-05-10",
+      "form": "8-K",
+      "items": "8.01,9.01",
+      "primaryDocument": "clro-20230510.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-000642",
+      "filingDate": "2023-05-12",
+      "reportDate": "2023-05-11",
+      "form": "8-K",
+      "items": "8.01,9.01",
+      "primaryDocument": "clro-20230511.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-000676",
+      "filingDate": "2023-05-15",
+      "reportDate": "2023-03-31",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "clro-20230331.htm",
+      "primaryDocDescription": "FORM 10-Q",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-000716",
+      "filingDate": "2023-05-22",
+      "reportDate": "2023-05-22",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "clro-20230522.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-000801",
+      "filingDate": "2023-06-15",
+      "reportDate": "2023-06-14",
+      "form": "8-K",
+      "items": "7.01,9.01",
+      "primaryDocument": "clro-20230614.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-000995",
+      "filingDate": "2023-08-03",
+      "reportDate": "2023-08-03",
+      "form": "8-K",
+      "items": "3.01,9.01",
+      "primaryDocument": "clro-20230803.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-001034",
+      "filingDate": "2023-08-10",
+      "reportDate": "2023-06-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "clro-20230630.htm",
+      "primaryDocDescription": "FORM 10-Q",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-001036",
+      "filingDate": "2023-08-10",
+      "reportDate": "2023-08-10",
+      "form": "8-K",
+      "items": "2.02,7.01,9.01",
+      "primaryDocument": "clro-20230810.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-001453",
+      "filingDate": "2023-11-08",
+      "reportDate": "2023-09-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "clro-20230930.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-001481",
+      "filingDate": "2023-11-14",
+      "reportDate": "2023-11-14",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "clro-20231114.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-001521",
+      "filingDate": "2023-11-21",
+      "reportDate": "2023-11-21",
+      "form": "DEF 14A",
+      "items": "",
+      "primaryDocument": "MainDocument.htm",
+      "primaryDocDescription": "FORM DEF 14A",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-001643",
+      "filingDate": "2023-12-27",
+      "reportDate": "2023-12-27",
+      "form": "8-K",
+      "items": "1.01,9.01",
+      "primaryDocument": "clro-20231227.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-23-001656",
+      "filingDate": "2023-12-29",
+      "reportDate": "2023-12-29",
+      "form": "8-K",
+      "items": "5.07,7.01,9.01",
+      "primaryDocument": "clro-20231229.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-000359",
+      "filingDate": "2024-02-22",
+      "reportDate": "2024-02-22",
+      "form": "8-K",
+      "items": "5.02,7.01,9.01",
+      "primaryDocument": "clro-20240222.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-000453",
+      "filingDate": "2024-03-04",
+      "reportDate": "2024-03-01",
+      "form": "8-K",
+      "items": "5.02,9.01",
+      "primaryDocument": "clro-20240301.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-000510",
+      "filingDate": "2024-03-11",
+      "reportDate": "2024-03-11",
+      "form": "8-K",
+      "items": "8.01,9.01",
+      "primaryDocument": "clro-20240311.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-000656",
+      "filingDate": "2024-04-01",
+      "reportDate": "2023-12-31",
+      "form": "10-K",
+      "items": "",
+      "primaryDocument": "clro-20231231.htm",
+      "primaryDocDescription": "10-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-000664",
+      "filingDate": "2024-04-03",
+      "reportDate": "2024-04-02",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "clro-20240402.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-000737",
+      "filingDate": "2024-04-16",
+      "reportDate": "2024-04-16",
+      "form": "8-K",
+      "items": "5.02,9.01",
+      "primaryDocument": "clro-20240416.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-000990",
+      "filingDate": "2024-05-16",
+      "reportDate": "2024-05-16",
+      "form": "NT 10-Q",
+      "items": "",
+      "primaryDocument": "MainDocument.htm",
+      "primaryDocDescription": "FORM NT 10-Q",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-000998",
+      "filingDate": "2024-05-17",
+      "reportDate": "2024-03-31",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "clro-20240331.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-001007",
+      "filingDate": "2024-05-21",
+      "reportDate": "2024-05-20",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "clro-20240520.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-001145",
+      "filingDate": "2024-06-24",
+      "reportDate": "2024-06-24",
+      "form": "8-K",
+      "items": "3.01,9.01",
+      "primaryDocument": "clro-20240624.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-001441",
+      "filingDate": "2024-08-14",
+      "reportDate": "2024-06-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "clro-20240630.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-001443",
+      "filingDate": "2024-08-15",
+      "reportDate": "2024-08-14",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "clro-20240814.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-001912",
+      "filingDate": "2024-11-14",
+      "reportDate": "2024-09-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "clro-20240930.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-001938",
+      "filingDate": "2024-11-15",
+      "reportDate": "2024-11-15",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "clro-20241115.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-001999",
+      "filingDate": "2024-11-25",
+      "reportDate": "2024-11-25",
+      "form": "8-K",
+      "items": "1.01,5.02,9.01",
+      "primaryDocument": "clro-20241125.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-002023",
+      "filingDate": "2024-12-03",
+      "reportDate": "2024-12-03",
+      "form": "8-K",
+      "items": "5.02,9.01",
+      "primaryDocument": "clro-20241203.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-24-002137",
+      "filingDate": "2024-12-23",
+      "reportDate": "2024-12-23",
+      "form": "8-K",
+      "items": "3.01,9.01",
+      "primaryDocument": "clro-20241223.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    },
+    {
+      "accessionNumber": "0001753926-25-000093",
+      "filingDate": "2025-01-15",
+      "reportDate": "2025-01-15",
+      "form": "8-K",
+      "items": "3.01,9.01",
+      "primaryDocument": "clro-20250115.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-33660"
+    }
+  ],
+  "observed_excerpts": {
+    "superseded_deadline": "As previously reported, on June 20, 2024, ClearOne, Inc., a Delaware corporation (the “Company”), received a letter from the Listing Qualifications staff of The Nasdaq Stock Market (“Nasdaq”) notifying the Company that, because the closing bid price for its common stock had been below $1.00 per share for 30 consecutive business days, it is no longer in compliance with the minimum bid price requirement for continued listing on the Nasdaq Capital Market. Nasdaq Listing Rule 5550(a)(2) requires listed companies to maintain a minimum bid price of $1.00 per share (the “Minimum Bid Requirement”). In accordance with Nasdaq Listing Rule 5810(c)(3)(A), the Company was provided 180 days, or until December 17, 2024, to regain compliance with the Minimum Bid Requirement. On December 18, 2024, the Company received a letter from Nasdaq advising that the Company has been granted a 180-day extension to June 16, 2025 to regain compliance with the Minimum Bid Price Requirement, in accordance with Nasdaq Listing Rule 5810(c)(3)(A).",
+    "extension_granted": "On December 18, 2024, the Company received a letter from Nasdaq advising that the Company has been granted a 180-day extension to June 16, 2025 to regain compliance with the Minimum Bid Price Requirement, in accordance with Nasdaq Listing Rule 5810(c)(3)(A). The Company will continue to monitor the closing bid price of its common stock and consider implementing available options to regain compliance with the Minimum Bid Price",
+    "meeting_deficiency": "24 Annual Meeting, on January 10, 2025, the Company received a letter (the “Notice”) from the Listing Qualifications Department (the “Staff”) of the Nasdaq Stock Market (“Nasdaq”) informing the Company that because the Company did not hold an annual meeting of stockholders in 2024, the Company is not in compliance with the requirement to conduct an annual meeting of stockholders no later than one year after the end of its fiscal year, as set forth in Nasdaq Marketplace Rule 5620(a) (the “Annual Meeting Requirement”). In accordance with Nasdaq Marketplace Rule 5810(c)(2)(G), the Company has a period of 45 calendar days from January 10, 2025, or until February 24, 2025, to submit to Nasdaq a plan to regain compliance with the Annual Meeting Requirement (the “Compliance Plan”). If Nasdaq in its discretion accepts the Company’s Compliance Plan, Nasdaq can grant an exception of up to 180 calendar days from the fiscal year end, or until June 30, 2025, for the Company to regain compliance with the Annual Meeting Requirement.",
+    "discretionary_exception": "If Nasdaq in its discretion accepts the Company’s Compliance Plan, Nasdaq can grant an exception of up to 180 calendar days from the fiscal year end, or until June 30, 2025, for the Company to regain compliance with the Annual Meeting Requirement. The Company intends to submit its Compliance Plan to Nasdaq prior to February 24, 2025."
+  },
+  "accessions": {
+    "bid_notice": "0001753926-24-001145",
+    "bid_extension": "0001753926-24-002137",
+    "meeting_notice": "0001753926-25-000093",
+    "earlier_deficiency": "0001753926-23-000995"
+  }
+}

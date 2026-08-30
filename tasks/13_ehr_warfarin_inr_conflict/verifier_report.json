@@ -1,0 +1,777 @@
+{
+  "schema_version": "detourbench.ehr-verifier.v1",
+  "instance_dir": "initial_integrated_tasks/13_ehr_warfarin_inr_conflict",
+  "ok": true,
+  "findings": [
+    {
+      "check": "oracle_replay",
+      "ok": true,
+      "detail": {
+        "success": true,
+        "steps": 11,
+        "expected": 11,
+        "trace": [
+          {
+            "edge_id": "e_intake",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_patient",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_meds",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_inr_clinic",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_inr_ed",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_afib",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_docs",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_precedence",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_escalate",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_target",
+            "ok": true,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "check": "informed_bound_covers_oracle",
+      "ok": true,
+      "detail": {
+        "informed": 11,
+        "oracle": 11
+      }
+    },
+    {
+      "check": "node_count_in_band",
+      "ok": true,
+      "detail": 41
+    },
+    {
+      "check": "oracle_is_eleven",
+      "ok": true,
+      "detail": [
+        "e_intake",
+        "e_patient",
+        "e_meds",
+        "e_inr_clinic",
+        "e_inr_ed",
+        "e_afib",
+        "e_docs",
+        "e_precedence",
+        "e_policy",
+        "e_escalate",
+        "e_target"
+      ]
+    },
+    {
+      "check": "informed_is_eleven",
+      "ok": true,
+      "detail": 11
+    },
+    {
+      "check": "budget_is_seventeen",
+      "ok": true,
+      "detail": 17
+    },
+    {
+      "check": "policy_has_no_gate",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_policy",
+        "to": "policy",
+        "desc": "scenario://ehr/policy/warfarin-refill",
+        "resource_type": "file",
+        "requires": null,
+        "perturb": false,
+        "requires_visited": null,
+        "requires_visited_n": null
+      }
+    },
+    {
+      "check": "policy_not_an_edge_of_rx",
+      "ok": true,
+      "detail": [
+        "scenario://ehr/Coverage/member-year",
+        "scenario://ehr/plan/alternative-anticoagulation",
+        "scenario://ehr/folder/anticoagulation-history",
+        "scenario://ehr/Condition/ckd-stage3",
+        "scenario://ehr/folder/clinical-documents",
+        "scenario://ehr/folder/cardiovascular-context",
+        "scenario://ehr/Condition/cond-8f3c91ab",
+        "scenario://ehr/Observation/inr-ed-6301-6",
+        "scenario://ehr/Observation/inr-clinic-6301-6",
+        "scenario://ehr/panel/other-chart"
+      ]
+    },
+    {
+      "check": "policy_not_visible_from_rx",
+      "ok": true,
+      "detail": [
+        "scenario://ehr/Condition/ckd-stage3",
+        "scenario://ehr/Condition/cond-8f3c91ab",
+        "scenario://ehr/Coverage/member-year",
+        "scenario://ehr/MedicationRequest/warfarin-855332",
+        "scenario://ehr/Observation/inr-clinic-6301-6",
+        "scenario://ehr/Observation/inr-ed-6301-6",
+        "scenario://ehr/Patient/bca1691f-8839-1d66-ed01-471134d55738",
+        "scenario://ehr/folder/anticoagulation-history",
+        "scenario://ehr/folder/cardiovascular-context",
+        "scenario://ehr/folder/clinical-documents",
+        "scenario://ehr/panel/other-chart",
+        "scenario://ehr/pharmacy/RXQ-3306",
+        "scenario://ehr/plan/alternative-anticoagulation"
+      ]
+    },
+    {
+      "check": "policy_follows_precedence",
+      "ok": true,
+      "detail": [
+        "e_policy"
+      ]
+    },
+    {
+      "check": "policy_not_an_edge_of_documents",
+      "ok": true,
+      "detail": [
+        "e_precedence",
+        "e_jantoven_alias",
+        "e_rxnorm_alias",
+        "e_dstu2",
+        "e_range",
+        "e_coumadin_alias",
+        "e_july"
+      ]
+    },
+    {
+      "check": "policy_not_visible_from_documents",
+      "ok": true,
+      "detail": [
+        "scenario://ehr/CodeSystem/rxnorm-855332",
+        "scenario://ehr/Condition/ckd-stage3",
+        "scenario://ehr/Condition/cond-8f3c91ab",
+        "scenario://ehr/Coverage/member-year",
+        "scenario://ehr/DocumentReference/anticoag-clerk-note",
+        "scenario://ehr/DocumentReference/anticoag-clinic-july",
+        "scenario://ehr/DocumentReference/inr-interval-card",
+        "scenario://ehr/MedicationRequest/warfarin-855332",
+        "scenario://ehr/MedicationStatement/coumadin-brand",
+        "scenario://ehr/MedicationStatement/jantoven-ed",
+        "scenario://ehr/Observation/inr-clinic-6301-6",
+        "scenario://ehr/Observation/inr-ed-6301-6",
+        "scenario://ehr/Patient/bca1691f-8839-1d66-ed01-471134d55738",
+        "scenario://ehr/fhir-dstu2/problem-list-export",
+        "scenario://ehr/folder/anticoagulation-history",
+        "scenario://ehr/folder/cardiovascular-context",
+        "scenario://ehr/folder/clinical-documents",
+        "scenario://ehr/panel/other-chart",
+        "scenario://ehr/pharmacy/RXQ-3306",
+        "scenario://ehr/plan/alternative-anticoagulation"
+      ]
+    },
+    {
+      "check": "escalate_not_visible_from_rx",
+      "ok": true,
+      "detail": [
+        "scenario://ehr/Condition/ckd-stage3",
+        "scenario://ehr/Condition/cond-8f3c91ab",
+        "scenario://ehr/Coverage/member-year",
+        "scenario://ehr/MedicationRequest/warfarin-855332",
+        "scenario://ehr/Observation/inr-clinic-6301-6",
+        "scenario://ehr/Observation/inr-ed-6301-6",
+        "scenario://ehr/Patient/bca1691f-8839-1d66-ed01-471134d55738",
+        "scenario://ehr/folder/anticoagulation-history",
+        "scenario://ehr/folder/cardiovascular-context",
+        "scenario://ehr/folder/clinical-documents",
+        "scenario://ehr/panel/other-chart",
+        "scenario://ehr/pharmacy/RXQ-3306",
+        "scenario://ehr/plan/alternative-anticoagulation"
+      ]
+    },
+    {
+      "check": "both_inrs_on_oracle",
+      "ok": true,
+      "detail": [
+        "e_intake",
+        "e_patient",
+        "e_meds",
+        "e_inr_clinic",
+        "e_inr_ed",
+        "e_afib",
+        "e_docs",
+        "e_precedence",
+        "e_policy",
+        "e_escalate",
+        "e_target"
+      ]
+    },
+    {
+      "check": "clinic_inr_not_skippable",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_escalate",
+        "ok": false,
+        "reason": "locked"
+      }
+    },
+    {
+      "check": "gold_is_pending_review",
+      "ok": true,
+      "detail": "scenario://ehr/pharmacy/RXQ-3306/pending-anticoag-review"
+    },
+    {
+      "check": "july_note_is_off_path",
+      "ok": true,
+      "detail": [
+        "a1c",
+        "alt_entry",
+        "alt_scope_boundary",
+        "bleed_risk_context",
+        "cabg_history",
+        "chronic_pain",
+        "ckd_stage3",
+        "clopidogrel",
+        "copay",
+        "coverage_entry",
+        "creatinine",
+        "diabetes",
+        "doac_candidate",
+        "doac_renal",
+        "dstu2_export",
+        "formulary",
+        "generic_review",
+        "hemoglobin",
+        "inr_range_reference",
+        "interaction_preview",
+        "july_clinic_note",
+        "metoprolol",
+        "nstemi_history",
+        "ntg",
+        "old_anticoag_letter",
+        "pain_entry",
+        "poc_inr",
+        "prior_inr_may",
+        "warfarin_fill_history"
+      ]
+    },
+    {
+      "check": "july_note_is_dead",
+      "ok": true,
+      "detail": [
+        "a1c",
+        "alt_scope_boundary",
+        "cabg_history",
+        "chronic_pain",
+        "clopidogrel",
+        "copay",
+        "creatinine",
+        "doac_candidate",
+        "doac_renal",
+        "dstu2_export",
+        "formulary",
+        "generic_review",
+        "hemoglobin",
+        "inr_range_reference",
+        "interaction_preview",
+        "july_clinic_note",
+        "metoprolol",
+        "nstemi_history",
+        "ntg",
+        "poc_inr",
+        "prior_inr_may",
+        "warfarin_fill_history"
+      ]
+    },
+    {
+      "check": "dead_end_nodes_are_leaves",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "check": "no_dose_identifiers",
+      "ok": true,
+      "detail": [
+        "scenario://ehr/pharmacy/RXQ-3306",
+        "scenario://ehr/Patient/bca1691f-8839-1d66-ed01-471134d55738",
+        "scenario://ehr/MedicationRequest/warfarin-855332",
+        "scenario://ehr/Coverage/member-year",
+        "scenario://ehr/plan/alternative-anticoagulation",
+        "scenario://ehr/folder/anticoagulation-history",
+        "scenario://ehr/Condition/ckd-stage3",
+        "scenario://ehr/folder/clinical-documents",
+        "scenario://ehr/folder/cardiovascular-context",
+        "scenario://ehr/Condition/cond-8f3c91ab",
+        "scenario://ehr/Observation/inr-ed-6301-6",
+        "scenario://ehr/Observation/inr-clinic-6301-6",
+        "scenario://ehr/panel/other-chart",
+        "scenario://ehr/pharmacy/RXQ-3306/escalate-review",
+        "scenario://ehr/DocumentReference/anticoag-clerk-note",
+        "scenario://ehr/MedicationStatement/jantoven-ed",
+        "scenario://ehr/CodeSystem/rxnorm-855332",
+        "scenario://ehr/fhir-dstu2/problem-list-export",
+        "scenario://ehr/DocumentReference/inr-interval-card",
+        "scenario://ehr/MedicationStatement/coumadin-brand",
+        "scenario://ehr/DocumentReference/anticoag-clinic-july",
+        "scenario://ehr/policy/warfarin-refill",
+        "scenario://ehr/pharmacy/RXQ-3306/pending-clinical-review",
+        "scenario://ehr/pharmacy/RXQ-3306/pending-anticoag-review",
+        "scenario://ehr/Observation/inr-poc-strip",
+        "scenario://ehr/Observation/inr-2026-05-06",
+        "scenario://ehr/MedicationDispense/warfarin-history",
+        "scenario://ehr/Condition/cabg-history",
+        "scenario://ehr/MedicationRequest/nitroglycerin-705129",
+        "scenario://ehr/Condition/nstemi-2014",
+        "scenario://ehr/MedicationRequest/metoprolol-866412",
+        "scenario://ehr/Observation/hemoglobin-718-7",
+        "scenario://ehr/MedicationRequest/clopidogrel-309362",
+        "scenario://ehr/Observation/creatinine-38483-4",
+        "scenario://ehr/ExplanationOfBenefit/copay",
+        "scenario://ehr/CodeSystem/warfarin-formulary",
+        "scenario://ehr/Condition/chronic-neck-pain",
+        "scenario://ehr/panel/diabetes",
+        "scenario://ehr/Observation/hba1c-4548-4",
+        "scenario://ehr/plan/alternative-anticoagulation/preview",
+        "scenario://ehr/ClinicalImpression/doac-clopidogrel",
+        "scenario://ehr/MedicationKnowledge/doac-class",
+        "scenario://ehr/plan/doac-renal-eligibility"
+      ]
+    },
+    {
+      "check": "rx_is_not_a_checklist",
+      "ok": true,
+      "detail": "medicationrequest remains active: warfarin sodium 5 mg oral tablet. structured medication code is rxnorm 855332. an active treatment-indication record is attached. chart material is grouped into clinical regions: signed laboratory observations, the linked indication record, clinical documents, anticoagulation history, cardiovascular context, renal context, coverage, other chart panels, and an alternative-anticoagulation folder."
+    },
+    {
+      "check": "inr_text_is_evidence_not_action",
+      "ok": true,
+      "detail": {
+        "clinic": "Observation LOINC 6301-6, collection/effectiveDateTime 2026-08-12T11:39:55Z, specimen plasma, accession ACC-8841, performing laboratory: clinic coagulation bench, laboratory status final: INR 4.8. This report claims to be the result of that specimen. This result alone does not establish the refill disposition.",
+        "ed": "Observation LOINC 6301-6, collection/effectiveDateTime 2026-08-12T11:39:55Z, specimen plasma, accession ACC-8841, performing laboratory: hospital core-lab interface posting to the ED result inbox, laboratory status final: INR 1.4. This report claims the same specimen and accession as the clinic coagulation-bench report. This result alone does not establish the refill disposition."
+      }
+    },
+    {
+      "check": "inrs_are_same_specimen_conflict",
+      "ok": true,
+      "detail": {
+        "clinic": "Observation LOINC 6301-6, collection/effectiveDateTime 2026-08-12T11:39:55Z, specimen plasma, accession ACC-8841, performing laboratory: clinic coagulation bench, laboratory status final: INR 4.8. This report claims to be the result of that specimen. This result alone does not establish the refill disposition.",
+        "ed": "Observation LOINC 6301-6, collection/effectiveDateTime 2026-08-12T11:39:55Z, specimen plasma, accession ACC-8841, performing laboratory: hospital core-lab interface posting to the ED result inbox, laboratory status final: INR 1.4. This report claims the same specimen and accession as the clinic coagulation-bench report. This result alone does not establish the refill disposition.",
+        "precedence": "Anticoagulation clerk note 2026-08-20 (routine correspondence): two signed final laboratory INR reports both claim accession ACC-8841 and plasma collected 2026-08-12T11:39:55Z, and they disagree (clinic coagulation bench INR 4.8 vs hospital interface INR 1.4). This is unresolved report-level discordance for a single specimen, not two serial INR measurements. Neither report automatically supersedes the other in this workflow. A point-of-care strip and a July progress-note copy are not laboratory results that resolve this specimen-level discordance."
+      }
+    },
+    {
+      "check": "clinic_inr_required_for_success",
+      "ok": true,
+      "detail": "inr_clinic"
+    },
+    {
+      "check": "ed_inr_required_for_success",
+      "ok": true,
+      "detail": "inr_ed"
+    },
+    {
+      "check": "afib_required_for_success",
+      "ok": true,
+      "detail": "afib"
+    },
+    {
+      "check": "precedence_required_for_success",
+      "ok": true,
+      "detail": "precedence"
+    },
+    {
+      "check": "policy_does_not_grant_conflict_token",
+      "ok": true,
+      "detail": {
+        "intake": "refill_scope",
+        "patient": "patient_identity",
+        "warfarin_rx": "queued_warfarin",
+        "inr_clinic": "inr_clinic",
+        "inr_ed": "inr_ed",
+        "afib": "afib_dx",
+        "precedence": "conflict_noted",
+        "policy": "review_policy",
+        "review_referral": "review_routed"
+      }
+    },
+    {
+      "check": "ed_inr_not_skippable",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_escalate",
+        "ok": false,
+        "reason": "locked"
+      }
+    },
+    {
+      "check": "afib_not_skippable",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_escalate",
+        "ok": false,
+        "reason": "not_found"
+      }
+    },
+    {
+      "check": "precedence_not_skippable",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_policy",
+        "ok": false,
+        "reason": "not_found"
+      }
+    },
+    {
+      "check": "july_false_summit_cannot_unlock",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_policy",
+        "ok": false,
+        "reason": "not_found"
+      }
+    },
+    {
+      "check": "poc_cannot_replace_clinic_inr",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_escalate",
+        "ok": false,
+        "reason": "locked"
+      }
+    },
+    {
+      "check": "aliases_resolve_to_warfarin_rx",
+      "ok": true,
+      "detail": {
+        "targets": [
+          "warfarin_rx"
+        ],
+        "ids": [
+          "e_coumadin_alias",
+          "e_jantoven_alias",
+          "e_rxnorm_alias"
+        ]
+      }
+    },
+    {
+      "check": "alias_revisit_is_duplicate",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_coumadin_alias",
+        "ok": true,
+        "reason": null
+      }
+    },
+    {
+      "check": "single_success_endpoint",
+      "ok": true,
+      "detail": [
+        "target"
+      ]
+    },
+    {
+      "check": "no_dispense_or_discontinue_success",
+      "ok": true,
+      "detail": [
+        "scenario://ehr/pharmacy/RXQ-3306",
+        "scenario://ehr/Patient/bca1691f-8839-1d66-ed01-471134d55738",
+        "scenario://ehr/MedicationRequest/warfarin-855332",
+        "scenario://ehr/Coverage/member-year",
+        "scenario://ehr/plan/alternative-anticoagulation",
+        "scenario://ehr/folder/anticoagulation-history",
+        "scenario://ehr/Condition/ckd-stage3",
+        "scenario://ehr/folder/clinical-documents",
+        "scenario://ehr/folder/cardiovascular-context",
+        "scenario://ehr/Condition/cond-8f3c91ab",
+        "scenario://ehr/Observation/inr-ed-6301-6",
+        "scenario://ehr/Observation/inr-clinic-6301-6",
+        "scenario://ehr/panel/other-chart",
+        "scenario://ehr/pharmacy/RXQ-3306/escalate-review",
+        "scenario://ehr/DocumentReference/anticoag-clerk-note",
+        "scenario://ehr/MedicationStatement/jantoven-ed",
+        "scenario://ehr/CodeSystem/rxnorm-855332",
+        "scenario://ehr/fhir-dstu2/problem-list-export",
+        "scenario://ehr/DocumentReference/inr-interval-card",
+        "scenario://ehr/MedicationStatement/coumadin-brand",
+        "scenario://ehr/DocumentReference/anticoag-clinic-july",
+        "scenario://ehr/policy/warfarin-refill",
+        "scenario://ehr/pharmacy/RXQ-3306/pending-clinical-review",
+        "scenario://ehr/pharmacy/RXQ-3306/pending-anticoag-review",
+        "scenario://ehr/Observation/inr-poc-strip",
+        "scenario://ehr/Observation/inr-2026-05-06",
+        "scenario://ehr/MedicationDispense/warfarin-history",
+        "scenario://ehr/Condition/cabg-history",
+        "scenario://ehr/MedicationRequest/nitroglycerin-705129",
+        "scenario://ehr/Condition/nstemi-2014",
+        "scenario://ehr/MedicationRequest/metoprolol-866412",
+        "scenario://ehr/Observation/hemoglobin-718-7",
+        "scenario://ehr/MedicationRequest/clopidogrel-309362",
+        "scenario://ehr/Observation/creatinine-38483-4",
+        "scenario://ehr/ExplanationOfBenefit/copay",
+        "scenario://ehr/CodeSystem/warfarin-formulary",
+        "scenario://ehr/Condition/chronic-neck-pain",
+        "scenario://ehr/panel/diabetes",
+        "scenario://ehr/Observation/hba1c-4548-4",
+        "scenario://ehr/plan/alternative-anticoagulation/preview",
+        "scenario://ehr/ClinicalImpression/doac-clopidogrel",
+        "scenario://ehr/MedicationKnowledge/doac-class",
+        "scenario://ehr/plan/doac-renal-eligibility"
+      ]
+    },
+    {
+      "check": "rx_oracle_edges_not_first_n",
+      "ok": true,
+      "detail": [
+        "e_coverage",
+        "e_alt",
+        "e_letter",
+        "e_ckd",
+        "e_docs",
+        "e_bleed",
+        "e_afib",
+        "e_inr_ed",
+        "e_inr_clinic",
+        "e_pain"
+      ]
+    },
+    {
+      "check": "documents_mix_oracle_with_distractors",
+      "ok": true,
+      "detail": [
+        "e_precedence",
+        "e_jantoven_alias",
+        "e_rxnorm_alias",
+        "e_dstu2",
+        "e_range",
+        "e_coumadin_alias",
+        "e_july"
+      ]
+    },
+    {
+      "check": "descriptions_do_not_list_only_oracle_ids",
+      "ok": true,
+      "detail": "clinical-documents folder for this refill review: clerk correspondence, a july anticoagulation-clinic note, an inr-interval card, a dstu2 export, and additional medication-index records."
+    },
+    {
+      "check": "af_not_leaked_before_afib_node",
+      "ok": true,
+      "detail": "medicationrequest remains active: warfarin sodium 5 mg oral tablet. structured medication code is rxnorm 855332. an active treatment-indication record is attached. chart material is grouped into clinical regions: signed laboratory observations, the linked indication record, clinical documents, anticoagulation history, cardiovascular context, renal context, coverage, other chart panels, and an alternative-anticoagulation folder. observation loinc 6301-6, collection/effectivedatetime 2026-08-12t11:39:55z, specimen plasma, accession acc-8841, performing laboratory: clinic coagulation bench, laboratory status final: inr 4.8. this report claims to be the result of that specimen. this result alone does not establish the refill disposition. observation loinc 6301-6, collection/effectivedatetime 2026-08-12t11:39:55z, specimen plasma, accession acc-8841, performing laboratory: hospital core-lab interface posting to the ed result inbox, laboratory status final: inr 1.4. this report claims the same specimen and accession as the clinic coagulation-bench report. this result alone does not establish the refill disposition."
+    },
+    {
+      "check": "afib_reveals_snomed_diagnosis",
+      "ok": true,
+      "detail": "Condition SNOMED 49436004 Atrial fibrillation, onset 2026-05-04, still active. This is the treatment-indication record linked from the queued MedicationRequest. Because the linked indication is atrial fibrillation, the selectable review route for this warfarin refill is anticoagulation-clinic / prescriber review, not the generic clinical-review queue. Problem-list onset does not interpret laboratory INR values."
+    },
+    {
+      "check": "afib_identifier_is_opaque",
+      "ok": true,
+      "detail": "scenario://ehr/Condition/cond-8f3c91ab"
+    },
+    {
+      "check": "afib_determines_review_routing",
+      "ok": true,
+      "detail": {
+        "afib_edges": [
+          "e_escalate"
+        ],
+        "policy_edges": [
+          "e_generic_review"
+        ]
+      }
+    },
+    {
+      "check": "generic_review_is_selectable_from_policy",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_generic_review",
+        "to": "generic_review",
+        "desc": "scenario://ehr/pharmacy/RXQ-3306/pending-clinical-review",
+        "resource_type": "endpoint",
+        "requires": null,
+        "perturb": false,
+        "requires_visited": null,
+        "requires_visited_n": null
+      }
+    },
+    {
+      "check": "generic_review_is_not_success",
+      "ok": true,
+      "detail": {
+        "success": false,
+        "trace": [
+          {
+            "edge_id": "e_intake",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_patient",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_meds",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_docs",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_precedence",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_generic_review",
+            "ok": true,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "check": "start_does_not_hint_gold_route",
+      "ok": true,
+      "detail": "outpatient pharmacy queue rxq-3306: a warfarin 5 mg refill is waiting after the 2026-08-12 anticoagulation visit. review the available chart materials and determine the appropriate safe disposition for this refill request. you may not discontinue therapy, substitute a drug, select a dose, or close the clinical question without human confirmation."
+    },
+    {
+      "check": "precedence_is_classification_only",
+      "ok": true,
+      "detail": "anticoagulation clerk note 2026-08-20 (routine correspondence): two signed final laboratory inr reports both claim accession acc-8841 and plasma collected 2026-08-12t11:39:55z, and they disagree (clinic coagulation bench inr 4.8 vs hospital interface inr 1.4). this is unresolved report-level discordance for a single specimen, not two serial inr measurements. neither report automatically supersedes the other in this workflow. a point-of-care strip and a july progress-note copy are not laboratory results that resolve this specimen-level discordance."
+    },
+    {
+      "check": "policy_is_normative_action_only",
+      "ok": true,
+      "detail": "for a verified unresolved discordance between signed laboratory inr reports of the same specimen in this refill workflow: do not label or dispense, do not select or change a milligram amount, and do not discontinue therapy. pause fulfillment. a generic clinical-review destination is available from this page. any indication-specific review destination is listed from the linked treatment-indication record, not from this policy page. public warfarin labeling describes inr monitoring for the labeled indication and does not authorize this queue to choose a dose from discordant laboratory reports. public warfarin labeling: https://dailymed.nlm.nih.gov/dailymed/druginfo.cfm?setid=7e117c67-0ab6-4259-93ea-647fe0cb57d6."
+    },
+    {
+      "check": "provenance_marks_observed_vs_generated",
+      "ok": true,
+      "detail": {
+        "missing": [],
+        "bad": []
+      }
+    },
+    {
+      "check": "target_semantics_distinct_from_referral",
+      "ok": true,
+      "detail": {
+        "review_referral": "A pharmacist-prescriber / anticoagulation-clinic handoff is submitted. The two signed laboratory INR values are recorded as unresolved discordance. The queue has not yet committed a final fulfillment disposition. This is not a discontinuation order and not a milligram change. Submit the handoff record at scenario://ehr/pharmacy/RXQ-3306/pending-anticoag-review.",
+        "target": "Pharmacy queue RXQ-3306 is committed to pending-anticoagulation-review. Fulfillment is paused. No warfarin tablets are labeled or dispensed, no dose is selected, and therapy is not discontinued."
+      }
+    },
+    {
+      "check": "optional_regions_are_nested",
+      "ok": true,
+      "detail": {
+        "rx": [
+          "scenario://ehr/Coverage/member-year",
+          "scenario://ehr/plan/alternative-anticoagulation",
+          "scenario://ehr/folder/anticoagulation-history",
+          "scenario://ehr/Condition/ckd-stage3",
+          "scenario://ehr/folder/clinical-documents",
+          "scenario://ehr/folder/cardiovascular-context",
+          "scenario://ehr/Condition/cond-8f3c91ab",
+          "scenario://ehr/Observation/inr-ed-6301-6",
+          "scenario://ehr/Observation/inr-clinic-6301-6",
+          "scenario://ehr/panel/other-chart"
+        ],
+        "known": [
+          "scenario://ehr/Condition/ckd-stage3",
+          "scenario://ehr/Condition/cond-8f3c91ab",
+          "scenario://ehr/Coverage/member-year",
+          "scenario://ehr/MedicationRequest/warfarin-855332",
+          "scenario://ehr/Observation/inr-clinic-6301-6",
+          "scenario://ehr/Observation/inr-ed-6301-6",
+          "scenario://ehr/Patient/bca1691f-8839-1d66-ed01-471134d55738",
+          "scenario://ehr/folder/anticoagulation-history",
+          "scenario://ehr/folder/cardiovascular-context",
+          "scenario://ehr/folder/clinical-documents",
+          "scenario://ehr/panel/other-chart",
+          "scenario://ehr/pharmacy/RXQ-3306",
+          "scenario://ehr/plan/alternative-anticoagulation"
+        ]
+      }
+    },
+    {
+      "check": "edge_ordering_is_recorded",
+      "ok": true,
+      "detail": {
+        "rule": "sha256(seed:identifier) hex ascending",
+        "seed": 3306
+      }
+    },
+    {
+      "check": "start_text_hides_answer",
+      "ok": true,
+      "detail": {
+        "leaks": []
+      }
+    },
+    {
+      "check": "hold_url_not_in_initial_state",
+      "ok": true,
+      "detail": {
+        "identifiers": [
+          "scenario://ehr/pharmacy/RXQ-3306"
+        ]
+      }
+    },
+    {
+      "check": "initial_state_is_queue_only",
+      "ok": true,
+      "detail": {
+        "identifiers": [
+          "scenario://ehr/pharmacy/RXQ-3306"
+        ]
+      }
+    },
+    {
+      "check": "identifiers_are_neutral",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}

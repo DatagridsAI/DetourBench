@@ -1,0 +1,215 @@
+{
+  "ok": true,
+  "failed": [],
+  "findings": [
+    {
+      "check": "exact_lower_bound",
+      "ok": true,
+      "detail": {
+        "lower_bound": 12,
+        "path_length": 12
+      }
+    },
+    {
+      "check": "oracle_replay",
+      "ok": true,
+      "detail": {
+        "success": true,
+        "steps": 12,
+        "trace": [
+          {
+            "edge_id": "e_case",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy_register",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_filings",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_f_000095017023010660",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_f_000000000023009245",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_up1_to_cor1",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_f_000089457923000272",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_cor3_to_close",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy_2023b",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_review",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_staff-comment-governs",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_target",
+            "ok": true,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "check": "dead_ends_exclude_oracle",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "check": "three_complete_actions",
+      "ok": true,
+      "detail": [
+        "derive-independent-determination",
+        "staff-comment-governs",
+        "treat-review-as-clearance"
+      ]
+    },
+    {
+      "check": "real_corpus_provenance",
+      "ok": true,
+      "detail": {
+        "observed_filing_nodes": 47
+      }
+    },
+    {
+      "check": "semantic_necessity",
+      "ok": true,
+      "detail": {
+        "schema_version": "detourbench.semantic-necessity-audit.v1",
+        "method": "node-removal reachability plus documented semantic counterfactual",
+        "all_required": true,
+        "items": [
+          {
+            "node": "policy_2023b",
+            "structurally_required": true,
+            "semantic_role": "states that a staff comment plus an issuer undertaking disposes of the question, and that a closed review is not clearance",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          },
+          {
+            "node": "filing_index",
+            "structurally_required": true,
+            "semantic_role": "establishes that a staff review of this disclosure exists and how many rounds it ran",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          },
+          {
+            "node": "f_000095017023010660",
+            "structurally_required": true,
+            "semantic_role": "is the filing the review was of",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          },
+          {
+            "node": "f_000000000023009245",
+            "structurally_required": true,
+            "semantic_role": "carries the staff comment and the rule it names",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          },
+          {
+            "node": "f_000094366323000121",
+            "structurally_required": true,
+            "semantic_role": "carries the issuer's undertaking on the prominence comment",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          },
+          {
+            "node": "f_000089457923000272",
+            "structurally_required": true,
+            "semantic_role": "carries the second comment and its undertaking, without which the review is not fully resolved",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          },
+          {
+            "node": "f_000000000023013810",
+            "structurally_required": true,
+            "semantic_role": "states that the review is complete and that completing it does not transfer responsibility for the disclosure",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          }
+        ]
+      }
+    },
+    {
+      "check": "cannot_exhaust_all_harmless_detours",
+      "ok": true,
+      "detail": {
+        "harmless_detours": 99,
+        "budget_slack": 6
+      }
+    },
+    {
+      "check": "readings_reach_different_actions",
+      "ok": true,
+      "detail": {
+        "derive-independent-determination": "derived",
+        "staff-comment-governs": "governs",
+        "treat-review-as-clearance": "cleared"
+      }
+    },
+    {
+      "check": "honest_mechanism_crosswalk",
+      "ok": true,
+      "detail": {
+        "primary": "Sufficiency",
+        "supporting": [
+          "Currency",
+          "Depth",
+          "Breadth"
+        ],
+        "unsupported_not_claimed": [
+          "Disposition",
+          "Time"
+        ],
+        "basis": {
+          "Sufficiency": "an authoritative resolution of the same disclosure already exists, so deriving one is correct on its own terms and refused",
+          "Currency": "the superseded version tells the desk to make its own determination, which records a different disposition than the version in force",
+          "Depth": "the undertaking is reached through the comment that prompted it, and the closing letter through the round that preceded it",
+          "Breadth": "two separate comments were raised and both had to be resolved before the review closed"
+        }
+      }
+    },
+    {
+      "check": "graph_density",
+      "ok": true,
+      "detail": {
+        "nodes": 62,
+        "edges": 113,
+        "ratio": 1.823,
+        "required": 1.5
+      }
+    },
+    {
+      "check": "bound_over_nodes",
+      "ok": true,
+      "detail": {
+        "ratio": 0.194,
+        "required_max": 0.25
+      }
+    }
+  ]
+}

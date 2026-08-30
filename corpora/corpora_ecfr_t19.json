@@ -1,0 +1,576 @@
+{
+ "seed": "4.81",
+ "sections": {
+  "4.81": {
+   "title": "Reports of arrivals and departures in coastwise trade.",
+   "refs": [
+    "4.84",
+    "4.2",
+    "4.85",
+    "4.93",
+    "4.82",
+    "4.87",
+    "4.89",
+    "4.91"
+   ],
+   "history": "[28 FR 14596, Dec. 31, 1963]",
+   "amended_years": [
+    1963
+   ],
+   "text": "Reports of arrivals and departures in coastwise trade. (a) No vessel which is documented with a coastwise license or registry endorsement or is owned by a citizen and exempt from documentation, and which is in ballast or laden only with domestic products or passengers being carried only between points in the United States shall be required to report arrival or to enter when coming into one port of the United States from any other such port, except as provided for in sections 4.83 and 4.84, nor to obtain a clearance, permit to proceed, or permission to depart when going from one port in the United States to any other such port except when transporting merchandise to a port in noncontinguous territory. 111 111 See \u00a7 4.84. 112-114 [Reserved] (b) When the facts are as above stated except that "
+  },
+  "4.84": {
+   "title": "Trade with noncontiguous territory.",
+   "refs": [
+    "4.61",
+    "4.90",
+    "4.63",
+    "4.2",
+    "4.7",
+    "4.85",
+    "4.30"
+   ],
+   "history": "[28 FR 14596, Dec. 31, 1963, as amended by T.D. 69-266, 34 FR 20423, Dec. 31, 1969: T.D. 71-169, 36 FR 12604, July 2, 1971; T.D. 77-255, 42 FR 56323, Oct. 25, 1977; T.D. 79-276, 44 FR 61956, Oct. 29, 1979; T.D. 93-61, 58 FR 41425, Aug. 4, 1993; T.D. 93-96, 58 FR 67317, Dec. 21, 1993; T.D. 00-22, 65 ",
+   "amended_years": [
+    1963,
+    1969,
+    1971,
+    1977,
+    1979,
+    1993
+   ],
+   "text": "Trade with noncontiguous territory. (a) No foreign vessel will depart from a port in noncontiguous territory of the United States for any other port in noncontiguous territory or for any port in any State or the District of Columbia, nor from any port in any State or the District of Columbia for any port in noncontiguous territory, until a clearance for the vessel has been granted. Such a clearance will be granted in accordance with the applicable provisions of \u00a7 4.61 of the regulations of this part, including clearance of a vessel simultaneously engaged in one or more of the transactions listed in \u00a7 4.90(a)(4), (5), or (6) of this part. When merchandise is laden on a foreign vessel in noncontiguous territory other than Puerto Rico, for transportation on that vessel to a port in any State,"
+  },
+  "4.2": {
+   "title": "Reports of arrival of vessels.",
+   "refs": [],
+   "history": "[T.D. 93-96, 58 FR 67315, Dec. 21, 1993, as amended by T.D. 94-44, 59 FR 23795, May 9, 1994; CBP Dec. 10-33, 75 FR 69585, Nov. 15, 2010]",
+   "amended_years": [
+    1993,
+    1994,
+    2010
+   ],
+   "text": "Reports of arrival of vessels. (a) Upon arrival in any port or place within the U.S., including, for purposes of this section, the U.S. Virgin Islands, of any vessel from a foreign port or place, any foreign vessel from a port or place within the U.S., or any vessel of the U.S. carrying foreign merchandise for which entry has not been made, the master of the vessel must immediately report that arrival to the nearest CBP facility or other location designated by the port director. The report of arrival, except as supplemented in local instructions issued by the port director and made available to interested parties by posting in CBP offices, publication in a newspaper of general circulation, and other appropriate means, may be made by any means of communication to the port director or to a C"
+  },
+  "4.85": {
+   "title": "Vessels with residue cargo for domestic ports.",
+   "refs": [
+    "113.64",
+    "4.86",
+    "4.89"
+   ],
+   "history": "[T.D. 71-169, 36 FR 12604, July 2, 1971]",
+   "amended_years": [
+    1971
+   ],
+   "text": "Vessels with residue cargo for domestic ports. (a) Any foreign vessel or documented vessel with a registry endorsement, arriving from a foreign port with cargo or passengers manifested for ports in the United States other than the port of first arrival, may proceed with such cargo or passengers from port to port, provided a bond on Customs Form 301, containing the bond conditions set forth in \u00a7 113.64 of this chapter relating to international carriers in a suitable amount is on file with the director of the port of first entry. 115 No additional bond shall be required at subsequent ports of entry. Before the vessel departs from the port of first arrival, the master shall obtain from the port director a certified copy of the complete inward foreign manifest (hereinafter referred to as the t"
+  },
+  "4.93": {
+   "title": "Coastwise transportation by certain vessels of empty vans, tanks, and barges, equipment for use with vans and tanks; emp",
+   "refs": [],
+   "history": "[T.D. 68-302, 33 FR 18436, Dec. 12, 1968]",
+   "amended_years": [
+    1968
+   ],
+   "text": "Coastwise transportation by certain vessels of empty vans, tanks, and barges, equipment for use with vans and tanks; empty instruments of international traffic; stevedoring equipment and material; procedures. (a) Vessels of the United States prohibited from engaging in the coastwise trade and vessels of nations found to grant reciprocal privileges to vessels of the United States may transport the following articles between points embraced within the coastwise laws of the United States: (1) Empty cargo vans, empty lift vans, and empty shipping tanks; equipment for use with cargo vans, lift vans, or shipping tanks; empty barges specifically designed for carriage aboard a vessel and equipment, excluding propulsion equipment, for use with such barges; and empty instruments of international tra"
+  },
+  "4.82": {
+   "title": "Touching at foreign port while in coastwise trade.",
+   "refs": [
+    "4.63",
+    "4.61",
+    "4.7"
+   ],
+   "history": "[T.D. 77-255, 42 FR 56322, Oct. 25, 1977, as amended by T.D. 83-214, 48 FR 46513, Oct. 13, 1983; T.D. 84-193, 49 FR 35485, Sept. 10, 1984; T.D. 99-64, 64 FR 43265, Aug. 10, 1999; CBP Dec. 08-25, 73 FR 40725, July 16, 2008; CBP Dec. 17-13, 82 FR 45393, Sept. 28, 2017]",
+   "amended_years": [
+    1977,
+    1983,
+    1984,
+    1999,
+    2008,
+    2017
+   ],
+   "text": "Touching at foreign port while in coastwise trade. (a) A United States documented vessel with a registry or, coastwise endorsement, or both which, during a voyage between ports in the United States, touches at one or more foreign ports and there discharges or takes on merchandise, passengers, baggages, or mail shall obtain a permit to proceed or clearance at each port of lading in the United States for the foreign port or ports at which it is intended to touch. The Cargo Declaration Outward With Commercial Forms, Customs Form 1302-A (see \u00a7 4.63), shall show only the cargo for foreign destination. (See \u00a7\u00a7 4.61 and 4.87.) (b) The master must also present to the port director a coastwise Cargo Declaration in triplicate of the merchandise to be transported via the foreign port or ports to the "
+  },
+  "4.87": {
+   "title": "Vessels proceeding foreign via domestic ports.",
+   "refs": [
+    "4.63",
+    "4.61",
+    "4.85",
+    "4.75"
+   ],
+   "history": "[T.D. 77-255, 42 FR 56324, Oct. 25, 1977, as amended by T.D. 83-214, 48 FR 46513, Oct. 13, 1983; T.D. 84-193, 49 FR 35485, Sept. 10, 1984; T.D. 92-74, 57 FR 35752, Aug. 11, 1992; T.D. 93-96, 58 FR 67317, Dec. 21, 1993; T.D. 00-22, 65 FR 16517, Mar. 29, 2000; CBP Dec. 08-25, 73 FR 40725, July 16, 200",
+   "amended_years": [
+    1977,
+    1983,
+    1984,
+    1992,
+    1993,
+    2000
+   ],
+   "text": "Vessels proceeding foreign via domestic ports. (a) Any foreign vessel or documented vessel with a registry may proceed from port to port in the United States to lade cargo or passengers for foreign ports. (b) When applying for a clearance from the first and each succeeding port of lading, the master must present to the port director a Vessel Entrance or Clearance Statement, CBP Form 1300, in duplicate and a Cargo Declaration Outward With Commercial Forms, CBP Form 1302A, in accordance with \u00a7 4.63(a), of all the cargo laden for export at that port. The Vessel Entrance or Clearance Statement must clearly indicate all previous ports of lading. (c) Upon compliance with the applicable provisions of \u00a7 4.61, the port director will grant the permit to proceed by making the endorsement prescribed b"
+  },
+  "4.89": {
+   "title": "Vessels in foreign trade proceeding via domestic ports and touching at intermediate foreign ports.",
+   "refs": [
+    "4.85",
+    "4.86",
+    "4.87",
+    "4.63",
+    "4.88"
+   ],
+   "history": "[T.D. 77-255, 42 FR 56324, Oct. 25, 1977, as amended by T.D. 84-193, 49 FR 35485, Sept. 10, 1984; T.D. 00-22, 65 FR 16517, Mar. 29, 2000]",
+   "amended_years": [
+    1977,
+    1984,
+    2000
+   ],
+   "text": "Vessels in foreign trade proceeding via domestic ports and touching at intermediate foreign ports. (a) A vessel proceeding from port to port in the United States in accordance with \u00a7 4.85, \u00a7 4.86, or \u00a7 4.87 may touch at an intermediate foreign port or ports to lade or discharge cargo or passengers. In such a case the vessel shall obtain clearance from the last port of departure in the United States before proceeding to the intermediate foreign port or ports at which it is intended to touch. The Cargo Declaration Outward With Commercial Forms, Customs Form 1302-A (see \u00a7 4.63), shall show the cargo for such foreign destination in the manner provided in \u00a7 4.88(c). (b) The master shall also present to the port director the Cargo Declaration or Cargo Declarations required by \u00a7 4.85, \u00a7 4.86, or "
+  },
+  "4.91": {
+   "title": "Diversion of vessel; transshipment of cargo.",
+   "refs": [
+    "4.81",
+    "4.85",
+    "4.87",
+    "4.88",
+    "4.33",
+    "4.60",
+    "4.31"
+   ],
+   "history": "[T.D. 71-169, 36 FR 12605, July 2, 1971, as amended by T.D. 77-255, 42 FR 56324, Oct. 25, 1977; T.D. 93-96, 58 FR 67317, Dec. 21, 1993; T.D. 00-22, 65 FR 16517, Mar. 29, 2000; CBP Dec. No. 21-19, 86 FR 73631, Dec. 28, 2021]",
+   "amended_years": [
+    1971,
+    1977,
+    1993,
+    2000,
+    2021
+   ],
+   "text": "Diversion of vessel; transshipment of cargo. (a) If any vessel granted a permit to proceed from one port in the United States for another such port as provided for in\u00a7 4.81(e), \u00a7 4.85, \u00a7 4.87, or \u00a7 4.88, is, while en route, diverted to a port in the United States other than the one specified in the permit to proceed (Customs Form 1300), 122 the owner or agent of the vessel immediately shall give notice of the diversion to the port director who granted the permit, informing him of the new destination of the vessel and requesting him to notify the director of the latter port. Such notification by the port director shall constitute an amendment of the permit previously granted, shall authorize the vessel to proceed to the new destination, and shall be filed by the director of the latter port "
+  },
+  "4.61": {
+   "title": "Requirements for clearance.",
+   "refs": [
+    "4.60",
+    "4.62",
+    "4.63",
+    "4.0",
+    "4.65",
+    "4.66",
+    "4.67",
+    "4.68",
+    "4.69",
+    "4.65a",
+    "4.70",
+    "4.71",
+    "4.72",
+    "4.73",
+    "4.74",
+    "4.14",
+    "4.66a",
+    "192.14"
+   ],
+   "history": "[T.D. 00-4, 65 FR 2874, Jan. 19, 2000; T.D. 00-22, 65 FR 16515, Mar. 29, 2000; CBP Dec. 03-32, 68 FR 68169, Dec. 5, 2003; CBP Dec. 17-06, 82 FR 32236, July 13, 2017]",
+   "amended_years": [
+    2000,
+    2003,
+    2017
+   ],
+   "text": "Requirements for clearance. (a) Application for clearance. A clearance application for a vessel intending to depart for a foreign port must be made by filing CBP Form 1300 (Vessel Entrance or Clearance Statement) executed by the vessel master or other proper officer. The master, licensed deck officer, or purser may appear in person to clear the vessel, or the properly executed CBP Form 1300 may be delivered to the customhouse by the vessel agent or other personal representative of the master. Necessary information may also be transmitted electronically pursuant to a system authorized by CBP. Clearance will be granted by CBP either on the CBP Form 1300 or by approved electronic means. CBP port directors may permit the clearance of vessels at locations other than the customhouse, and at time"
+  },
+  "4.90": {
+   "title": "Simultaneous vessel transactions.",
+   "refs": [
+    "4.80",
+    "4.82",
+    "4.84",
+    "4.85",
+    "4.87",
+    "4.88",
+    "113.64"
+   ],
+   "history": "[28 FR 14596, Dec. 31, 1963, as amended by T.D. 71-169, 36 FR 12605, July 2, 1971; T.D. 83-214, 48 FR 46513, Oct. 13, 1983; T.D. 84-213, 49 FR 41164, Oct. 19, 1984; T.D. 00-22, 65 FR 16517, Mar. 29, 2000; CBP Dec. 08-25, 73 FR 40725, July 16, 2008]",
+   "amended_years": [
+    1963,
+    1971,
+    1983,
+    1984,
+    2000,
+    2008
+   ],
+   "text": "Simultaneous vessel transactions. (a) A vessel may proceed from port to port in the United States for the purpose of engaging in two or more of the following transactions simultaneously, 121 subject to the limitations hereafter mentioned in this section and the conditions stated in the sections indicated in the list: 121 For the purposes of this part, an inward foreign voyage is completed at the port of final discharge of inbound passengers or cargo, and an outward foreign voyage begins at the port where cargo or passengers are first laden for carriage to a foreign destination. (1) Coastwise trade (\u00a7 4.80). (2) Touching at a foreign port while in coastwise trade (\u00a7 4.82). (3) Trade with noncontiguous territory of the United States (\u00a7 4.84). (4) Carriage of residue cargo or passengers from "
+  },
+  "4.63": {
+   "title": "Outward cargo declaration; Electronic Export Information (EEI).",
+   "refs": [
+    "4.87",
+    "4.75",
+    "4.7a"
+   ],
+   "history": "[T.D. 84-193, 49 FR 35484, Sept. 10, 1984; T.D. 00-22, 65 FR 16515, Mar. 29, 2000, as amended by CBP Dec. 17-06, 82 FR 32236, July 13, 2017]",
+   "amended_years": [
+    1984,
+    2000,
+    2017
+   ],
+   "text": "Outward cargo declaration; Electronic Export Information (EEI). (a) No vessel will be cleared directly for a foreign port, or for a foreign port by way of another domestic port or other domestic ports (see \u00a7 4.87(b)), unless there has been filed with the appropriate CBP officer at the port from which clearance is being sought: (1) A Cargo Declaration Outward With Commercial Forms, CBP Form 1302A. Copies of bills of lading or equivalent commercial documents relating to all cargo encompassed by the manifest must be attached in such manner as to constitute one document, together with a Vessel Entrance or Clearance Statement, CBP Form 1300, and EEI as are required by pertinent regulations of the Bureau of the Census, Department of Commerce; or (2) An incomplete Cargo Declaration as provided fo"
+  },
+  "4.7": {
+   "title": "Inward foreign manifest; production on demand; contents and form; advance filing of cargo declaration.",
+   "refs": [
+    "4.85",
+    "4.7c",
+    "4.30",
+    "113.64",
+    "4.7a"
+   ],
+   "history": "[T.D. 71-169, 36 FR 12602, July 2, 1971]",
+   "amended_years": [
+    1971
+   ],
+   "text": "Inward foreign manifest; production on demand; contents and form; advance filing of cargo declaration. (a) The master of every vessel arriving in the United States and required to make entry must have on board the vessel a manifest, as required by section 431, Tariff Act of 1930 (19 U.S.C. 1431), and by this section. The manifest must be legible and complete. If it is in a foreign language, an English translation must be furnished with the original and with any required copies. The required manifest consists of a Vessel Entrance or Clearance Statement, CBP Form 1300, and the following documents: (1) Cargo Declaration, CBP Form 1302, (2) Ship's Stores Declaration, CBP Form 1303, and (3) Crew's Effects Declaration, CBP Form 1304, to which are attached crewmembers' declarations on CBP Form 51"
+  },
+  "4.30": {
+   "title": "Permits and special licenses for unlading and lading.",
+   "refs": [
+    "113.64"
+   ],
+   "history": "[28 FR 14596, Dec. 31, 1963]",
+   "amended_years": [
+    1963
+   ],
+   "text": "Permits and special licenses for unlading and lading. (a) Except as prescribed in paragraph (f), (g), or (k) of this section or in \u00a7 123.8 of this chapter, and except in the case of a vessel exempt from entry or clearance fees under 19 U.S.C. 288, no passengers, cargo, baggage, or other article shall be unladen from a vessel which arrives directly or indirectly from any port or place outside the Customs territory of the U.S., including the adjacent waters (see \u00a7 4.6 of this part), or from a vessel which transits the Panama Canal and no cargo, baggage, or other article shall be laden on a vessel destined to a port or place outside the Customs territory of the U.S., including the adjacent waters (see \u00a7 4.6 of this part) if Customs supervision of such lading is required, until the port direct"
+  },
+  "113.64": {
+   "title": "International carrier bond conditions.",
+   "refs": [
+    "4.7"
+   ],
+   "history": "[T.D. 84-213, 49 FR 41171, Oct. 19, 1984]",
+   "amended_years": [
+    1984
+   ],
+   "text": "International carrier bond conditions. A bond for international carriers must contain the conditions listed in this section and may be either a single transaction or continuous bond. International Carrier Bond Conditions (a) Agreement to Pay Penalties, Duties, Taxes, and Other Charges. If any vessel, vehicle, or aircraft, or any master, owner, or person in charge of a vessel, vehicle or aircraft, slot charterer, or any non-vessel operating common carrier as defined in \u00a7 4.7(b)(3)(ii) of this chapter or other party as specified in \u00a7 122.48a(c)(1)(ii)-(c)(1)(iv) or \u00a7 122.48b(c)(2) of this chapter, incurs a penalty, duty, tax or other charge provided by law or regulation, the obligors (principal and surety, jointly and severally) agree to pay the sum upon demand by CBP. If the principal (carr"
+  },
+  "4.86": {
+   "title": "Intercoastal residue\u2014cargo procedure; optional ports.",
+   "refs": [
+    "4.7"
+   ],
+   "history": "[T.D. 77-255, 42 FR 56323, Oct. 25, 1977]",
+   "amended_years": [
+    1977
+   ],
+   "text": "Intercoastal residue\u2014cargo procedure; optional ports. (a) When a vessel arrives at an Atlantic or Pacific coast port from a foreign port or ports with residue cargo for delivery at a port or ports on the opposite coast or on the Great Lakes, or where such arrival is at a port on the Great Lakes, with residue cargo for delivery at a port or ports on the Atlantic or Pacific coasts, or both, and the master, owner, or agent is unable at that time to designate the specific port or ports of discharge of that residue cargo, the Cargo Declaration, Customs Form 1302, filed on entry in accordance with \u00a7 4.7(b) shall show such cargo as destined for \u201coptional ports, Atlantic coast,\u201d or \u201coptional ports, Pacific coast,\u201d or \u201coptional ports, Great Lakes coast,\u201d as the case may be. The traveling manifest s"
+  },
+  "4.75": {
+   "title": "Incomplete manifest; incomplete or missing Electronic Export Information (EEI); bond.",
+   "refs": [
+    "4.63",
+    "113.64"
+   ],
+   "history": "[T.D. 87-1, 52 FR 255, Jan. 5, 1987, as amended by T.D. 91-60, 56 FR 32085, July 15, 1991; T.D. 00-22, 65 FR 16515, Mar. 29, 2000; CBP Dec. 17-06, 82 FR 32237, July 13, 2017]",
+   "amended_years": [
+    1987,
+    1991,
+    2000,
+    2017
+   ],
+   "text": "Incomplete manifest; incomplete or missing Electronic Export Information (EEI); bond. (a) Pro forma manifest. Except as provided for in \u00a7 4.75(c), if a master desiring to clear his vessel for a foreign port does not have available for filing with the CBP port director a complete Cargo Declaration Outward with Commercial Forms, CBP Form 1302A (see \u00a7 4.63) in accordance with 46 U.S.C. 60105, or all required EEI filing citations, exclusions, and/or exemption legends (see 15 CFR 30.47), the CBP port director may accept in lieu thereof an incomplete manifest (referred to as a pro forma manifest) on the Vessel Entrance or Clearance Statement, CBP Form 1300, if there is on file in his office a bond on CBP Form 301, containing the bond conditions set forth in \u00a7 113.64 of this chapter relating to i"
+  },
+  "4.88": {
+   "title": "Vessels with residue cargo for foreign ports.",
+   "refs": [
+    "113.64",
+    "4.63",
+    "4.85"
+   ],
+   "history": "[28 FR 14596, Dec. 31, 1963, as amended by T.D. 77-255, 42 FR 56324, Oct. 25, 1977; T.D. 83-214, 48 FR 46513, Oct. 13, 1983; T.D. 84-193, 49 FR 35485, Sept. 10, 1984; 49 FR 41164, Oct. 19, 1984; CBP Dec. 08-25, 73 FR 40725, July 16, 2008]",
+   "amended_years": [
+    1963,
+    1977,
+    1983,
+    1984,
+    2008
+   ],
+   "text": "Vessels with residue cargo for foreign ports. (a) Any foreign vessel or documented vessel with a registry endorsement which arrives at a port in the United States from a foreign port shall not be required to unlade any merchandise manifested for a foreign destination provided a bond on Customs Form 301, containing the bond conditions set forth in \u00a7 113.64 of this chapter relating to international carriers in a suitable amount is on file with the director of the port of first entry. 119 119 \u201cAny vessel having on board merchandise shown by the manifest to be destined to a foreign port or place may, after the report and entry of such vessel under the provisions of this Act, proceed to such foreign port of destination with the cargo so destined therefor, without unlading the same and without t"
+  },
+  "4.33": {
+   "title": "Diversion of cargo.",
+   "refs": [],
+   "history": "[T.D. 77-255, 42 FR 56320, Oct. 25, 1977]",
+   "amended_years": [
+    1977
+   ],
+   "text": "Diversion of cargo. (a) Unlading at other than original port of destination. A vessel may unlade cargo or baggage at an alternative port of entry to the port of original destination if: (1) It is compelled by any cause to put into the alternative port and the director of that port issues a permit for the unlading of cargo or baggage; or (2) As a result of an emergency existing at the port of destination, the port director authorizes the vessel to proceed in accordance with the residue cargo bond procedure to the alternative port. The owner or agent of the vessel shall apply for such authorization in writing, stating the reasons and agreeing to hold the port director and the Government harmless for the diversion. (b) Disposition of cargo or baggage at emergency port. Cargo and baggage unlad"
+  },
+  "4.60": {
+   "title": "Vessels required to clear.",
+   "refs": [],
+   "history": "[28 FR 14596, Dec. 31, 1963, as amended by T.D. 79-276, 44 FR 61956, Oct. 29, 1979; T.D. 83-214, 48 FR 46512, Oct. 13, 1983; T.D. 85-91, 50 FR 21429, May 24, 1985; T.D. 94-24, 59 FR 13200, Mar. 21, 1994; T.D. 95-77, 60 FR 50010, Sept. 27, 1995; T.D. 00-4, 65 FR 2873, Jan. 19, 2000; CBP Dec. 08-25, 7",
+   "amended_years": [
+    1963,
+    1979,
+    1983,
+    1985,
+    1994,
+    1995,
+    2000
+   ],
+   "text": "Vessels required to clear. (a) Unless specifically excepted by law, the following vessels must obtain clearance from CBP before departing from a port or place in the United States: (1) All vessels departing for a foreign port or place; (2) All foreign vessels departing for another port or place in the United States; (3) All American vessels departing for another port or place in the United States that have foreign merchandise for which entry has not been made; and (4) All vessels departing for points outside the territorial sea to visit a hovering vessel or to receive merchandise or passengers while outside the territorial sea, as well as foreign vessels delivering merchandise or passengers while outside the territorial sea. (b) The following vessels are not required to clear: (1) A docume"
+  },
+  "4.31": {
+   "title": "Unlading or transshipment due to casualty.",
+   "refs": [],
+   "history": "[28 FR 14596, Dec. 31, 1963, as amended by T.D. 95-77, 60 FR 50010, Sept. 27, 1995]",
+   "amended_years": [
+    1963,
+    1995
+   ],
+   "text": "Unlading or transshipment due to casualty. (a) When any cargo or stores of a vessel have been unladen or transshipped at any place in the United States or its Customs waters other than a port of entry because of accident, stress of weather, or other necessity, no penalty shall be imposed under section 453 or 586(a), Tariff Act of 1930, if due notice is given to the director of the port at which the vessel thereafter first arrives and satisfactory proof is submitted to him as provided for in section 586(f), Tariff Act of 1930, as amended, regarding such accident, stress of weather, or other necessity. The port director may accept the certificates of the master and two or more officers or members of the crew of the vessel, of whom the person next to the master in command shall be one, as pro"
+  },
+  "4.62": {
+   "title": "Accounting for inward cargo.",
+   "refs": [],
+   "history": "[T.D. 77-255, 42 FR 56322, Oct. 25, 1977, as amended by T.D. 84-193, 49 FR 35485, Sept. 10, 1984]",
+   "amended_years": [
+    1977,
+    1984
+   ],
+   "text": "Accounting for inward cargo. Inward cargo discrepancies shall be accounted for and adjusted by correction of the Cargo Declaration Outward With Commercial Forms, Customs Form 1302-A, but the vessel may be cleared and the adjustment deferred if the discharging officer's report has not been received. (See \u00a7 4.12.) [T.D. 77-255, 42 FR 56322, Oct. 25, 1977, as amended by T.D. 84-193, 49 FR 35485, Sept. 10, 1984]"
+  },
+  "4.0": {
+   "title": "General definitions.",
+   "refs": [],
+   "history": "[T.D. 69-266, 34 FR 20422, Dec. 31, 1969, as amended by T.D. 83-214, 48 FR 46511, Oct. 13, 1983; T.D. 93-78, 58 FR 50256, Sept. 27, 1993; T.D. 93-96, 58 FR 67315, Dec. 21, 1993; CBP Dec. 08-25, 73 FR 40725, July 16, 2008]",
+   "amended_years": [
+    1969,
+    1983,
+    1993,
+    2008
+   ],
+   "text": "General definitions. For the purposes of this part: (a) Vessel. The word vessel includes every description of water craft or other contrivance used or capable of being used as a means of transportation on water, but does not include aircraft. (19 U.S.C. 1401.) (b) Vessel of the United States. The term vessel of the United States means any vessel documented under the laws of the United States. (c) Documented. The term documented vessel means a vessel for which a valid Certificate of Documentation, form CG 1270, issued by the U.S. Coast Guard is outstanding. Upon qualification and proper application to the appropriate Coast Guard office, the Certificate of Documentation may be endorsed with a: (1) Registry endorsement (generally, available to a vessel to be employed in foreign trade, trade w"
+  },
+  "4.65": {
+   "title": "Verification of nationality and tonnage.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Verification of nationality and tonnage. The nationality and tonnage of a vessel shall be verified by examination of its marine document. If such examination discloses that insufficient tonnage tax was collected on entry of the vessel, no clearance shall be granted until the deficiency is paid."
+  },
+  "4.66": {
+   "title": "Verification of inspection.",
+   "refs": [],
+   "history": "[T.D. 56173, 29 FR 6681, May 22, 1964, as amended by T.D. 69-266, 34 FR 20422, Dec. 31, 1969]",
+   "amended_years": [
+    1964,
+    1969
+   ],
+   "text": "Verification of inspection. (a) No clearance shall be granted unless the port director is satisfied that a proper certificate of inspection is in force and the vessel is in compliance with such certificate, if the vessel is: (1) A vessel of the United States required to be inspected as specified in Title 46, Code of Federal Regulations. (2) A foreign vessel carrying passengers from the United States. (b) In the case of vessels of foreign nations which are signatories of the International Convention for the Safety of Life at Sea, 1948, carrying passengers from the United States, an unexpired Certificate of Examination for Foreign Passenger Vessel, Form CG-989, or an unexpired Certificate for Foreign Vessel to Carry Persons in Addition to Crew, Form CG-3463, issued by the United States Coast"
+  },
+  "4.67": {
+   "title": "Closed ports or places.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Closed ports or places. No foreign vessel shall be granted a clearance or permit to proceed to any port or place from which such vessels are excluded by orders or regulations of the United States Navy Department except with the prior approval of that Department."
+  },
+  "4.68": {
+   "title": "Federal Maritime Commission certificates for certain passenger vessels.",
+   "refs": [],
+   "history": "[T.D. 00-4, 65 FR 2874, Jan. 19, 2000]",
+   "amended_years": [
+    2000
+   ],
+   "text": "Federal Maritime Commission certificates for certain passenger vessels. No vessel having berth or stateroom accommodations for 50 or more passengers and embarking passengers at U.S. ports will be granted a clearance at the port or place of departure from the United States unless it is established that the vessel has valid certificates issued by the Federal Maritime Commission. [T.D. 00-4, 65 FR 2874, Jan. 19, 2000]"
+  },
+  "4.69": {
+   "title": "Shipping articles.",
+   "refs": [],
+   "history": "[T.D. 92-52, 57 FR 23945, June 5, 1992]",
+   "amended_years": [
+    1992
+   ],
+   "text": "Shipping articles. No vessel of the U.S. on a voyage between a U.S. port and a foreign port (except a port in Canada, Mexico, or the West Indies), or if of at least 75 gross tons, on a voyage between a U.S. port on the Atlantic Ocean and a U.S. port on the Pacific Ocean, shall be granted clearance before presentation, to the appropriate Customs officer, of the shipping articles agreements, including any seaman's allotment agreement, required by 46 U.S.C. chapter 103, in the form provided for in 46 CFR 14.05-1. [T.D. 92-52, 57 FR 23945, June 5, 1992]"
+  },
+  "4.65a": {
+   "title": "Load lines.",
+   "refs": [],
+   "history": "[T.D. 75-133, 40 FR 24518, June 9, 1975]",
+   "amended_years": [
+    1975
+   ],
+   "text": "Load lines. (a) If a port director is notified by an officer of the United States Coast Guard that a detention order has been issued against a vessel engaged in the foreign trade under the International Voyage Load Line Act of 1973, clearance shall not be granted until the order is withdrawn. (b) If a port director issues a detention order under the Coastwise Load Line Act, 1935, as amended, or is notified by an officer of the United States Coast Guard that a detention order has been issued against a vessel under the aforesaid Act, clearance shall not be granted until the order is withdrawn. [T.D. 75-133, 40 FR 24518, June 9, 1975]"
+  },
+  "4.70": {
+   "title": "Public Health Service requirements.",
+   "refs": [],
+   "history": "[T.D. 00-4, 65 FR 2874, Jan. 19, 2000]",
+   "amended_years": [
+    2000
+   ],
+   "text": "Public Health Service requirements. No clearance will be granted to a vessel subject to the foreign quarantine regulations of the Public Health Service. [T.D. 00-4, 65 FR 2874, Jan. 19, 2000]"
+  },
+  "4.71": {
+   "title": "Inspection of livestock.",
+   "refs": [],
+   "history": "[T.D. 79-32, 44 FR 5650, Jan. 29, 1979]",
+   "amended_years": [
+    1979
+   ],
+   "text": "Inspection of livestock. A proper export inspection certificate issued by the Veterinary Services, Animal and Plant Health Inspection Service, Department of Agriculture, shall be filed before the clearance of a vessel carrying horses, mules, asses, cattle, sheep, swine, or goats (9 CFR part 91) [T.D. 79-32, 44 FR 5650, Jan. 29, 1979]"
+  },
+  "4.72": {
+   "title": "Inspection of meat, meat-food products, and inedible fats.",
+   "refs": [
+    "4.75"
+   ],
+   "history": "[28 FR 14596, Dec. 31, 1963, as amended by T.D. 78-99, 43 FR 13059, Mar. 29, 1978; T.D. 91-77, 56 FR 46114, Sept. 10, 1991;T.D. 95-54, 60 FR 35838, July 12, 1995]",
+   "amended_years": [
+    1963,
+    1978,
+    1991,
+    1995
+   ],
+   "text": "Inspection of meat, meat-food products, and inedible fats. (a) No clearance shall be granted to any vessel carrying meat or meat-food products, as defined and classified by the U.S. Department of Agriculture, Food Safety and Inspection Service, Meat and Poultry Inspection until there have been filed with the port director such copies of export certificates concerning such meat or meat-food products as are required by the pertinent regulations of the U.S. Department of Agriculture, Food Safety and Inspection Service, Meat and Poultry Inspection (9 CFR part 322). If such certificate has been obtained but is unavailable at the scheduled time of a vessel's departure, the vessel may be cleared on the basis of the receipt of a statement, under the shipper's or shipper's agent's letterhead, certi"
+  },
+  "4.73": {
+   "title": "Neutrality; exportation of arms and munitions.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Neutrality; exportation of arms and munitions. (a) Clearance shall not be granted to any vessel if the port director has reason to believe that her departure or intended voyage would be in violation of any provision of the Neutrality Act of 1939 or other neutrality law of the United States, 104 or of any regulation or instruction issued pursuant to any such law. 104 See 18 U.S.C. 961 through 967 and 22 U.S.C. 441 through 457. (b) The port director shall refuse clearance for and detain any vessel manifestly built for warlike purposes and about to depart from the United States with a cargo consisting principally of arms and munitions of war 105 when the number of men intending to sail or other circumstances render it probable that the vessel is intended to commit hostilities against the subj"
+  },
+  "4.74": {
+   "title": "Transportation orders.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Transportation orders. Clearance shall not be granted to any vessel if the port director has reason to believe that her departure or intended voyage would be in violation of any provision of any transportation order, regulation, or restriction issued under authority of the Defense Production Act of 1950 (50 U.S.C. App. 2061-2066)."
+  },
+  "4.14": {
+   "title": "Equipment purchases for, and repairs to, American vessels.",
+   "refs": [],
+   "history": "[66 FR 16397, Mar. 26, 2001, as amended at 74 FR 53651, Oct. 20, 2009; 77 FR 17332, Mar. 26, 2012; 83 FR 61320, Nov. 29, 2018; CBP Dec. 22-14, 87 FR 45648, July 29, 2022; CBP Dec. 22-19, 87 FR 50935, Aug. 19, 2022]",
+   "amended_years": [
+    2001,
+    2009,
+    2012,
+    2018,
+    2022
+   ],
+   "text": "Equipment purchases for, and repairs to, American vessels. (a) General provisions and applicability \u2014(1) General. Under section 466, Tariff Act of 1930, as amended (19 U.S.C. 1466), purchases for or repairs made to certain vessels while they are outside the United States are subject to declaration, entry, and payment of ad valorem duty. These requirements are effective upon the first arrival of affected vessels in the United States or Puerto Rico. The vessels subject to these requirements include those documented under the U.S. law for the foreign or coastwise trades, as well as those which were previously documented under the laws of some foreign nation or are undocumented at the time that foreign shipyard repairs are performed, but which exhibit an intent to engage in those trades under "
+  },
+  "4.66a": {
+   "title": "Illegal discharge of oil and hazardous substances.",
+   "refs": [],
+   "history": "[T.D. 82-28, 47 FR 5226, Feb. 4, 1982]",
+   "amended_years": [
+    1982
+   ],
+   "text": "Illegal discharge of oil and hazardous substances. If a port director receives a request from an officer of the U.S. Coast Guard to withhold clearance of a vessel whose owner or operator is subject to a civil penalty for discharging oil or a hazardous substance into or upon the navigable waters of the United States, adjoining shorelines, or into or upon the waters of the contiguous zone in quantities determined to be harmful by appropriate authorities, such clearance shall not be granted until the port director is informed that a bond or other surety satisfactory to the Coast Guard has been filed. [T.D. 82-28, 47 FR 5226, Feb. 4, 1982]"
+  },
+  "192.14": {
+   "title": "Electronic information for outward cargo required in advance of departure.",
+   "refs": [],
+   "history": "[CBP Dec. 17-06, 82 FR 32240, July 13, 2017, as amended by CBP Dec. 18-05, 83 FR 27407, June 12, 2018]",
+   "amended_years": [
+    2017,
+    2018
+   ],
+   "text": "Electronic information for outward cargo required in advance of departure. (a) General requirement. Pursuant to section 343(a), Trade Act of 2002, as amended (19 U.S.C. 2071 note), for any commercial cargo that is to be exported from the United States by vessel, aircraft, rail, or truck, unless exempted under paragraph (d) of this section, the U.S. Principal Party in Interest (USPPI), the USPPI's authorized agent, or the authorized filing agent of the Foreign Principal Party in Interest (FPPI) must electronically transmit for receipt by CBP, no later than the time period specified in paragraph (b) of this section, certain Electronic Export Information (EEI), as enumerated in paragraph (c) of this section. Specifically, to effect the advance electronic transmission of the required cargo inf"
+  },
+  "4.80": {
+   "title": "Vessels entitled to engage in coastwise trade.",
+   "refs": [
+    "4.93"
+   ],
+   "history": "[T.D. 69-266, 34 FR 20422, Dec. 31, 1969, as amended by T.D. 79-160, 44 FR 31956, June 4, 1979; T.D. 83-214, 48 FR 46512, Oct. 13, 1983; T.D. 93-78, 58 FR 50257, Sept. 27, 1993; T.D. 97-82, 62 FR 51769, Oct. 3, 1997; T.D. 03-11, 68 FR 13820, Mar. 21, 2003; CBP Dec. 08-25, 73 FR 40725, July 16, 2008;",
+   "amended_years": [
+    1969,
+    1979,
+    1983,
+    1993,
+    1997,
+    2003,
+    2008
+   ],
+   "text": "Vessels entitled to engage in coastwise trade. (a) No vessel shall transport, either directly or by way of a foreign port, any passenger or merchandise between points in the United States embraced within the coastwise laws, including points within a harbor, or merchandise for any part of the transportation between such points, unless it is: (1) Owned by a citizen and is so documented under the laws of the United States as to permit it to engage in the coastwise trade; (2) Owned by a citizen, is exempt from documentation, and is entitled to or, except for its tonnage, would be entitled to be documented with a coastwise endorsement. (3) Owned by a partnership or association in which at least a 75 percent interest is owned by such a citizen, is exempt from documentation and is entitled to or,"
+  },
+  "4.7a": {
+   "title": "Inward manifest; information required; alternative forms.",
+   "refs": [
+    "4.7"
+   ],
+   "history": "[T.D. 71-169, 36 FR 12602, July 2, 1971]",
+   "amended_years": [
+    1971
+   ],
+   "text": "Inward manifest; information required; alternative forms. The forms designated by \u00a7 4.7(a) as comprising the inward manifest shall be completed as follows: (a) Ship's Stores Declaration. Articles to be retained aboard as sea or ship's stores shall be listed on the Ship's Stores Declaration, CBP Form 1303. Less than whole packages of sea or ship's stores may be described as \u201csundry small and broken stores.\u201d (b) Crew's Effects Declaration. (CBP Form 1304). (1) The declaration number of the Crew Member's Declaration, CBP Form 5129, prepared and signed by any officer or crewmember who intends to land articles in the United States, or the word \u201cNone,\u201d shall be shown in item No. 7 on the Crew's Effects Declaration, CBP Form 1304 opposite the respective crewmember's name. (2) For requirements con"
+  },
+  "4.7c": {
+   "title": "Vessel stow plan.",
+   "refs": [
+    "4.7"
+   ],
+   "history": "[CBP Dec. 08-46, 73 FR 71779, Nov. 25, 2008]",
+   "amended_years": [
+    2008
+   ],
+   "text": "Vessel stow plan. Vessel stow plan required. In addition to the advance filing requirements pursuant to \u00a7\u00a7 4.7 and 4.7a of this part and the container status message requirements pursuant to \u00a7 4.7d of this part, for all vessels subject to \u00a7 4.7(a) of this part, except for any vessel exclusively carrying break bulk cargo or bulk cargo as prescribed in \u00a7 4.7(b)(4) of this part, the incoming carrier must submit a vessel stow plan consisting of vessel and container information as specified in paragraphs (b) and (c) of this section within the time prescribed in paragraph (a) of this section via the CBP-approved electronic data interchange system. (a) Time of transmission. Customs and Border Protection (CBP) must receive the stow plan no later than 48 hours after the vessel departs from the last"
+  }
+ },
+ "order": [
+  "4.81",
+  "4.84",
+  "4.2",
+  "4.85",
+  "4.93",
+  "4.82",
+  "4.87",
+  "4.89",
+  "4.91",
+  "4.61",
+  "4.90",
+  "4.63",
+  "4.7",
+  "4.30",
+  "113.64",
+  "4.86",
+  "4.75",
+  "4.88",
+  "4.33",
+  "4.60",
+  "4.31",
+  "4.62",
+  "4.0",
+  "4.65",
+  "4.66",
+  "4.67",
+  "4.68",
+  "4.69",
+  "4.65a",
+  "4.70",
+  "4.71",
+  "4.72",
+  "4.73",
+  "4.74",
+  "4.14",
+  "4.66a",
+  "192.14",
+  "4.80",
+  "4.7a",
+  "4.7c"
+ ],
+ "scenario": {
+  "subject": "a vessel's entry of merchandise",
+  "ticket": "a vessel has arrived with unentered merchandise and the port director disputes which customs procedure governs the entry",
+  "authority_noun": "customs broker license on file",
+  "filing_noun": "merchandise-entry determination",
+  "confirmation_resource": "regulations://title-19/amendments/current-status",
+  "filing_endpoint": "https://cbp-entry-filings.internal/v2/entry-determinations/submit",
+  "absence_ticket": "an entry scenario has been reported that does not obviously fall under any existing customs requirement"
+ },
+ "title": "19"
+}

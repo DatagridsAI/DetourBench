@@ -1,0 +1,221 @@
+{
+  "ok": true,
+  "failed": [],
+  "findings": [
+    {
+      "check": "evidence_merge_is_explicit",
+      "ok": true,
+      "detail": {
+        "edge": "e_synthesis",
+        "requires_visited": [
+          "allergy_asa",
+          "class_label",
+          "exception_result"
+        ],
+        "n": 3
+      }
+    },
+    {
+      "check": "merge_blocks_incomplete_evidence",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_synthesis",
+        "ok": false,
+        "reason": "not_ready"
+      }
+    },
+    {
+      "check": "lo_matches_expected",
+      "ok": true,
+      "detail": 12
+    },
+    {
+      "check": "solver_matches",
+      "ok": true,
+      "detail": {
+        "solver": 12,
+        "oracle": 12
+      }
+    },
+    {
+      "check": "oracle_replay",
+      "ok": true,
+      "detail": {
+        "success": true,
+        "steps": 12,
+        "trace": [
+          {
+            "edge_id": "e_intake",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_patient",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_meds",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_allergy",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_asa",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_class",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_exceptions",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_exception_result",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_synthesis",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_hold",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_target",
+            "ok": true,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "check": "budget",
+      "ok": true,
+      "detail": 18
+    },
+    {
+      "check": "node_band",
+      "ok": true,
+      "detail": 27
+    },
+    {
+      "check": "not_frozen_patient",
+      "ok": true,
+      "detail": "db600f8b-7bb1-fb8c-7f14-02b16e7c9a34"
+    },
+    {
+      "check": "theme_ehr",
+      "ok": true,
+      "detail": "ehr"
+    },
+    {
+      "check": "main_interaction_depth",
+      "ok": true,
+      "detail": 12
+    },
+    {
+      "check": "main_real_acquisitions",
+      "ok": true,
+      "detail": [
+        "e_intake",
+        "e_patient",
+        "e_meds",
+        "e_asa",
+        "e_class",
+        "e_exception_result",
+        "e_policy"
+      ]
+    },
+    {
+      "check": "main_benchmark_actions",
+      "ok": true,
+      "detail": [
+        "e_synthesis",
+        "e_hold",
+        "e_target"
+      ]
+    },
+    {
+      "check": "main_decision_depth",
+      "ok": true,
+      "detail": [
+        "identify queued drug class",
+        "map allergy across drug class",
+        "resolve ticket-specific exception",
+        "select safe disposition"
+      ]
+    },
+    {
+      "check": "ablated_evidence_is_optional",
+      "ok": true,
+      "detail": [
+        "e_docs",
+        "e_ortho"
+      ]
+    },
+    {
+      "check": "necessity_audit_covers_oracle",
+      "ok": true,
+      "detail": {
+        "e_intake": "establishes the queue scope and requested disposition",
+        "e_patient": "binds the queue item to the correct patient chart",
+        "e_meds": "identifies naproxen as the queued active request",
+        "e_allergy": "discovers the independently addressable allergy records",
+        "e_asa": "establishes the active medication-category aspirin allergy",
+        "e_class": "supplies the local uncharacterized-allergy review trigger and its narrower labeling context",
+        "e_exceptions": "discovers the ticket-scoped exception search",
+        "e_exception_result": "rules out the exception that would change the disposition",
+        "e_synthesis": "combines the three governing evidence objects",
+        "e_policy": "supplies the rule that selects hold rather than dispense",
+        "e_hold": "applies the selected queue disposition",
+        "e_target": "verifies the hold without discontinuing therapy"
+      }
+    },
+    {
+      "check": "exception_search_is_mandatory",
+      "ok": true,
+      "detail": [
+        "asa_allergy",
+        "class_rule_text",
+        "dosing_rule",
+        "evidence_synthesized",
+        "exception_checked",
+        "patient_identity",
+        "queued_nsaid",
+        "refill_scope"
+      ]
+    },
+    {
+      "check": "naproxen_source_scope_is_narrow",
+      "ok": true,
+      "detail": "For this local queue, a medication-category aspirin AllergyIntolerance with no documented reaction phenotype is not cleared by an informal 'no drug allergy documented' line on a later specialty note. Current naproxen labeling specifically warns about aspirin-sensitive asthma and cross-reactivity; it does not establish that every generic aspirin-allergy entry has that phenotype. Under the conservative local workflow, when the allergy remains uncharacterized and no allergist exception is on file, do not label or dispense the refill. Place the request in pending-allergy-review, notify the prescriber, and do not discontinue the osteoarthritis plan. Current naproxen labeling: https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/017581s117%2C018164s067%2C020067s026lbl.pdf. If the governing inputs require a hold, apply it at scenario://ehr/pharmacy/RXQ-CAL21/pending-allergy-review."
+    },
+    {
+      "check": "reasonable_detour_recovers",
+      "ok": true,
+      "detail": {
+        "steps": 16,
+        "success": true
+      }
+    }
+  ]
+}

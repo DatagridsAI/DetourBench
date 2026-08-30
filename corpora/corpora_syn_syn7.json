@@ -1,0 +1,1045 @@
+{
+ "seed": "ee9280c916",
+ "sections": {
+  "05d270f3d7": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 1952-04-15. Class: emergency. Reason: Traumatic injury of spinal cord and/or vertebral column (disorder). Conditions recorded: Chronic paralysis due to lesion of spinal cord (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1952
+   ],
+   "history": "[encounter 1952-04-15 to 1952-04-22]"
+  },
+  "6dd62af09a": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 1966-08-14. Class: ambulatory. Reason: Acute infective cystitis (disorder). Conditions recorded: Recurrent urinary tract infection (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1966
+   ],
+   "history": "[encounter 1966-08-14 to 1966-08-14]"
+  },
+  "89a13c71f2": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1968-05-13. Class: wellness. Reason: not stated. Conditions recorded: Serving in military service (finding); Received higher education (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1968
+   ],
+   "history": "[encounter 1968-05-13 to 1968-05-13]"
+  },
+  "4c1deeb9de": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 1969-05-05. Class: ambulatory. Reason: Major depression  single episode (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1969
+   ],
+   "history": "[encounter 1969-05-05 to 1969-05-05]"
+  },
+  "c18cec6f45": {
+   "title": "Initial psychiatric interview with mental status and evaluation (procedure)",
+   "text": "Initial psychiatric interview with mental status and evaluation (procedure) on 1969-05-05. Class: ambulatory. Reason: Major depression  single episode (disorder). Conditions recorded: Major depressive disorder (disorder). Medications: FLUoxetine 20 MG Oral Capsule. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1969
+   ],
+   "history": "[encounter 1969-05-05 to 1969-05-05]"
+  },
+  "bfd11df3c7": {
+   "title": "Prenatal visit (regime/therapy)",
+   "text": "Prenatal visit (regime/therapy) on 1981-04-29. Class: ambulatory. Reason: Blighted ovum (disorder). Conditions recorded: Past pregnancy history of miscarriage (situation). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1981
+   ],
+   "history": "[encounter 1981-04-29 to 1981-04-29]"
+  },
+  "4d7bf42c19": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1984-06-04. Class: wellness. Reason: not stated. Conditions recorded: Prediabetes (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1984
+   ],
+   "history": "[encounter 1984-06-04 to 1984-06-04]"
+  },
+  "d8a3552072": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1990-03-26. Class: wellness. Reason: not stated. Conditions recorded: Body mass index 30+ - obesity (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1990
+   ],
+   "history": "[encounter 1990-03-26 to 1990-03-26]"
+  },
+  "4fd11d2ba8": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2000-03-20. Class: wellness. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2000
+   ],
+   "history": "[encounter 2000-03-20 to 2000-03-20]"
+  },
+  "df31223ed2": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2001-03-26. Class: wellness. Reason: not stated. Conditions recorded: Alcoholism (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2001
+   ],
+   "history": "[encounter 2001-03-26 to 2001-03-26]"
+  },
+  "5b7eb1eccf": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2011-05-23. Class: wellness. Reason: not stated. Conditions recorded: Victim of intimate partner abuse (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-05-23 to 2011-05-23]"
+  },
+  "3f5dfeef50": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2012-05-28. Class: wellness. Reason: not stated. Conditions recorded: Full-time employment (finding). Medications: none. Procedures: none.",
+   "refs": [
+    "614ad48378"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-05-28 to 2012-05-28]"
+  },
+  "e1b36d07d0": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2014-06-09. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation); Stress (finding). Medications: none. Procedures: none.",
+   "refs": [
+    "424dc924c7",
+    "0af95345f9",
+    "614ad48378"
+   ],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-06-09 to 2014-06-09]"
+  },
+  "e1f6c7747b": {
+   "title": "Hospital admission (procedure)",
+   "text": "Hospital admission (procedure) on 2015-03-23. Class: snf. Reason: Patient transfer to skilled nursing facility (procedure). Conditions recorded: none. Medications: none. Procedures: History AND physical examination (procedure); Initial patient assessment (procedure); Development of individualized plan of care (procedure); Nursing care/supplementary surveillance (regime/therapy); Speech and language therapy regime (regime/therapy); Nursing care/supplementary surveillance (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-03-23 to 2015-04-16]"
+  },
+  "4db20e1197": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2015-04-27. Class: ambulatory. Reason: Screening for malignant neoplasm of colon (procedure). Conditions recorded: none. Medications: none. Procedures: Colonoscopy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-04-27 to 2015-04-27]"
+  },
+  "74da4087d2": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2015-06-15. Class: wellness. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: Assessment of health and social care needs (procedure); Patient referral for dental care (procedure).",
+   "refs": [],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-06-15 to 2015-06-15]"
+  },
+  "c6545d7e3f": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2015-06-29. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: Gingival disease (disorder). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Dental surgical procedure (procedure).",
+   "refs": [
+    "b8da081ba3",
+    "4a1a582608"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-06-29 to 2015-06-29]"
+  },
+  "5e8da815a0": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2016-06-20. Class: wellness. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Assessment using Morse Fall Scale (procedure); Patient referral for dental care (procedure).",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-06-20 to 2016-06-20]"
+  },
+  "5e71dafa29": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2016-07-04. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: none. Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Oral health education (procedure).",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-07-04 to 2016-07-04]"
+  },
+  "424dc924c7": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2017-06-26. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation); Gingivitis (disorder). Medications: none. Procedures: Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "e1b36d07d0",
+    "0af95345f9",
+    "ea9e17920f",
+    "614ad48378",
+    "d6c13c8f8a"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-06-26 to 2017-06-26]"
+  },
+  "b1d7733c4d": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2017-07-10. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Dental filling lost (finding). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "4a1a582608"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-07-10 to 2017-07-10]"
+  },
+  "052d68de1d": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2018-04-13. Class: outpatient. Reason: Otitis media (disorder). Conditions recorded: Otitis media (disorder). Medications: Amoxicillin 250 MG Oral Capsule; Naproxen sodium 220 MG Oral Tablet. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-04-13 to 2018-04-13]"
+  },
+  "e4f3badb9d": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2018-07-02. Class: wellness. Reason: not stated. Conditions recorded: Social isolation (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure).",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-07-02 to 2018-07-02]"
+  },
+  "7fa805e581": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2018-10-15. Class: outpatient. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure).",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-10-15 to 2018-10-15]"
+  },
+  "edb18c4810": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 2018-10-19. Class: emergency. Reason: Suspected lung cancer (situation). Conditions recorded: Suspected lung cancer (situation). Medications: none. Procedures: Plain X-ray of chest (procedure).",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-10-19 to 2018-10-19]"
+  },
+  "dd3bd27645": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2018-10-22. Class: ambulatory. Reason: Viral sinusitis (disorder). Conditions recorded: Viral sinusitis (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-10-22 to 2018-10-22]"
+  },
+  "3aee0466f8": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2018-10-29. Class: urgentcare. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure).",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-10-29 to 2018-10-29]"
+  },
+  "5e12d11323": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2018-11-05. Class: outpatient. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: Medication reconciliation (procedure).",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-11-05 to 2018-11-05]"
+  },
+  "1665c57c8d": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2018-11-12. Class: outpatient. Reason: Suspected lung cancer (situation). Conditions recorded: none. Medications: none. Procedures: Computed tomography of chest and abdomen (procedure).",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-11-12 to 2018-11-12]"
+  },
+  "adb0d04b73": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2018-11-18. Class: outpatient. Reason: Non-small cell lung cancer (disorder). Conditions recorded: Non-small cell lung cancer (disorder). Medications: none. Procedures: Sputum microscopy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-11-18 to 2018-11-18]"
+  },
+  "a1666667f2": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2018-11-20. Class: outpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Medications: none. Procedures: Magnetic resonance imaging for measurement of brain volume (procedure).",
+   "refs": [],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-11-20 to 2018-11-20]"
+  },
+  "8890e9f0f9": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2018-11-20. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc",
+    "05e02dd77e"
+   ],
+   "amended_years": [
+    2018
+   ],
+   "history": "[encounter 2018-11-20 to 2018-11-30]"
+  },
+  "88791cba48": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2019-01-03. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc",
+    "05e02dd77e"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-01-03 to 2019-01-06]"
+  },
+  "7024b23785": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2019-02-05. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc",
+    "05e02dd77e"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-02-05 to 2019-02-11]"
+  },
+  "799eb184ed": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2019-03-18. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc",
+    "05e02dd77e"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-03-18 to 2019-03-23]"
+  },
+  "936db02bf7": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2019-04-22. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc",
+    "05e02dd77e"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-04-22 to 2019-04-29]"
+  },
+  "5733de27ff": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2019-06-01. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "bbb113a2da",
+    "7c41bae4cc",
+    "05e02dd77e"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-06-01 to 2019-06-12]"
+  },
+  "0af95345f9": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2019-07-08. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: none. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Assessment using Morse Fall Scale (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "e1b36d07d0",
+    "424dc924c7",
+    "614ad48378"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-07-08 to 2019-07-08]"
+  },
+  "bbb113a2da": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2019-07-11. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "7c41bae4cc",
+    "05e02dd77e"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-07-11 to 2019-07-21]"
+  },
+  "b8da081ba3": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2019-07-29. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: Primary dental caries (disorder). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "c6545d7e3f",
+    "4a1a582608"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-07-29 to 2019-07-29]"
+  },
+  "7c41bae4cc": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2019-08-25. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "05e02dd77e"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-08-25 to 2019-08-29]"
+  },
+  "05e02dd77e": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2019-09-30. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-09-30 to 2019-10-06]"
+  },
+  "4e78f6fe8e": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2019-11-08. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-11-08 to 2019-11-16]"
+  },
+  "355726ad65": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2019-12-20. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[encounter 2019-12-20 to 2019-12-24]"
+  },
+  "3408921208": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2020-01-27. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-01-27 to 2020-01-31]"
+  },
+  "7a3bac541f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2020-03-02. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-03-02 to 2020-03-05]"
+  },
+  "7ee53f0943": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2020-04-04. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-04-04 to 2020-04-13]"
+  },
+  "739a019faf": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2020-04-26. Class: ambulatory. Reason: Screening for malignant neoplasm of colon (procedure). Conditions recorded: none. Medications: none. Procedures: Colonoscopy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-04-26 to 2020-04-26]"
+  },
+  "57d12efb0f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2020-05-15. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-05-15 to 2020-05-18]"
+  },
+  "3e3aa58adf": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2020-06-20. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-06-20 to 2020-06-23]"
+  },
+  "ea9e17920f": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2020-07-13. Class: wellness. Reason: not stated. Conditions recorded: Part-time employment (finding); Gingivitis (disorder). Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "424dc924c7",
+    "d6c13c8f8a"
+   ],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-07-13 to 2020-07-13]"
+  },
+  "4a1a582608": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2020-07-27. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Dental filling lost (finding). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "c6545d7e3f",
+    "b1d7733c4d",
+    "b8da081ba3"
+   ],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-07-27 to 2020-07-27]"
+  },
+  "f8e8f79548": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2020-08-03. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-08-03 to 2020-08-09]"
+  },
+  "405297f060": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2020-09-13. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-09-13 to 2020-09-21]"
+  },
+  "5170e72c8f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2020-10-20. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-10-20 to 2020-10-28]"
+  },
+  "fbd6afab05": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2020-11-28. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2020
+   ],
+   "history": "[encounter 2020-11-28 to 2020-12-01]"
+  },
+  "ee9280c916": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2020-12-29. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2020,
+    2021
+   ],
+   "history": "[encounter 2020-12-29 to 2021-01-01]"
+  },
+  "2a0ecadf58": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2021-01-31. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-01-31 to 2021-02-04]"
+  },
+  "d0da342b32": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2021-03-07. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-03-07 to 2021-03-14]"
+  },
+  "fa50ed7833": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2021-04-13. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-04-13 to 2021-04-16]"
+  },
+  "5ec23dbb1f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2021-05-21. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-05-21 to 2021-05-27]"
+  },
+  "6d396355e0": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2021-06-25. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-06-25 to 2021-06-29]"
+  },
+  "614ad48378": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2021-07-19. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation); Full-time employment (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure).",
+   "refs": [
+    "3f5dfeef50",
+    "e1b36d07d0",
+    "424dc924c7",
+    "0af95345f9"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-07-19 to 2021-07-19]"
+  },
+  "20293ccbd3": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2021-07-30. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: Suspected disease caused by Severe acute respiratory coronavirus 2 (situation). Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-07-30 to 2021-08-12]"
+  },
+  "c093353ce3": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2021-08-23. Class: ambulatory. Reason: Suspected disease caused by Severe acute respiratory coronavirus 2 (situation). Conditions recorded: Cough (finding); Sore throat (finding); Loss of taste (finding); Disease caused by severe acute respiratory syndrome coronavirus 2 (disorder). Medications: none. Procedures: Face mask (physical object).",
+   "refs": [],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-08-23 to 2021-08-23]"
+  },
+  "3b51fa7723": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2021-09-15. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-09-15 to 2021-09-21]"
+  },
+  "d723e066fd": {
+   "title": "Administration of vaccine to produce active immunity (procedure)",
+   "text": "Administration of vaccine to produce active immunity (procedure) on 2021-09-20. Class: outpatient. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-09-20 to 2021-09-20]"
+  },
+  "502ad11f35": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2021-10-24. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-10-24 to 2021-10-27]"
+  },
+  "a0c892fd46": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2021-11-30. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2021
+   ],
+   "history": "[encounter 2021-11-30 to 2021-12-06]"
+  },
+  "9736415e82": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2022-01-04. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-01-04 to 2022-01-10]"
+  },
+  "bffc257b36": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2022-02-09. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-02-09 to 2022-02-16]"
+  },
+  "528a128ca9": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2022-03-19. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-03-19 to 2022-03-27]"
+  },
+  "93978bd48f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2022-05-01. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-05-01 to 2022-05-05]"
+  },
+  "133f267851": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2022-06-04. Class: inpatient. Reason: Non-small cell carcinoma of lung  TNM stage 1 (disorder). Conditions recorded: none. Medications: Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection; Cisplatin 50 MG Injection; PACLitaxel 100 MG Injection. Procedures: Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure); Combined chemotherapy and radiation therapy (procedure).",
+   "refs": [
+    "8890e9f0f9",
+    "88791cba48",
+    "7024b23785",
+    "799eb184ed",
+    "936db02bf7",
+    "5733de27ff",
+    "bbb113a2da",
+    "7c41bae4cc"
+   ],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-06-04 to 2022-06-14]"
+  },
+  "d6c13c8f8a": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2022-06-27. Class: urgentcare. Reason: not stated. Conditions recorded: Alzheimer's disease (disorder); Not in labor force (finding); Gingivitis (disorder). Medications: Galantamine 4 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "424dc924c7",
+    "ea9e17920f"
+   ],
+   "amended_years": [
+    2022
+   ],
+   "history": "[encounter 2022-06-27 to 2022-06-27]"
+  }
+ },
+ "title": "synthea",
+ "scenario": {
+  "subject": "a patient's care episode",
+  "ticket": "a care episode is under retrospective review and the reviewer disputes which encounter governs the determination",
+  "authority_noun": "reviewing clinician sign-off on file",
+  "filing_noun": "episode determination",
+  "confirmation_resource": "record://encounters/status/current",
+  "filing_endpoint": "https://clinical-review.internal/v2/determinations/submit",
+  "absence_ticket": "a presentation has been recorded that does not obviously fall under any documented encounter"
+ }
+}

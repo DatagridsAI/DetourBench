@@ -1,0 +1,113 @@
+{
+  "schema_version": "detourbench.ehr-source-fact-audit.v1",
+  "case_id": "it-ehr-04-oxycodone-apap-refill",
+  "audited_on": "2026-08-21",
+  "source": {
+    "kind": "official Synthea sample dump",
+    "fhir_r4": "/data/benchmarks/raw-corpora/synthea-samples/ehr-samples/fhir/Micaela928_Josefina523_Rendón540_46fcc34a-97a1-f038-9bb1-4ae87116ae61.json",
+    "csv_patients": "/data/benchmarks/raw-corpora/synthea-samples/ehr-samples/csv/patients.csv",
+    "csv_medications": "/data/benchmarks/raw-corpora/synthea-samples/ehr-samples/csv/medications.csv",
+    "csv_conditions": "/data/benchmarks/raw-corpora/synthea-samples/ehr-samples/csv/conditions.csv"
+  },
+  "facts": [
+    {
+      "claim": "Patient Id/MRN 46fcc34a-97a1-f038-9bb1-4ae87116ae61 is Micaela928 Josefina523 Rendón540, female, birthDate 1985-06-12, city Northbridge MA.",
+      "class": "A",
+      "class_label": "observed in official Synthea chart",
+      "support": "FHIR Patient resource id; CSV patients.Id / FIRST / MIDDLE / LAST / BIRTHDATE"
+    },
+    {
+      "claim": "Active MedicationRequest RxNorm 1049625 Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet], authoredOn/start 2025-10-29T02:56:05Z, status active, STOP empty.",
+      "class": "A",
+      "support": "FHIR MedicationRequest 46fcc34a-97a1-f038-e42e-36415b133408; CSV medications START 2025-10-29 STOP empty CODE 1049625"
+    },
+    {
+      "claim": "The same RxNorm 1049625 product has a continuous annual MedicationRequest chain from 2015-09-02 through 2024-10-23, each status completed, each CSV DISPENSES=3, REASONCODE empty.",
+      "class": "A",
+      "support": "12 FHIR MedicationRequest resources and 12 CSV medication rows CODE 1049625"
+    },
+    {
+      "claim": "Percocet dosage on those orders is 1 tablet every six hours (frequency 4 per 1 d), not as-needed.",
+      "class": "A",
+      "support": "FHIR dosageInstruction timing.repeat and SNOMED 307468000"
+    },
+    {
+      "claim": "No other acetaminophen-containing MedicationRequest exists on this chart. No MedicationDispense or MedicationStatement resources exist in the FHIR bundle.",
+      "class": "A",
+      "support": "24 MedicationRequest resources inspected; MedicationDispense count 0; MedicationStatement count 0"
+    },
+    {
+      "claim": "CSV DISPENSES=3 on each 1049625 row is a Synthea medications.csv field, not a FHIR MedicationDispense resource.",
+      "class": "A",
+      "support": "medications.csv DISPENSES column"
+    },
+    {
+      "claim": "Active conditions from 2014-01-31 with no abatement: Chronic pain (82423001), Chronic low back pain (278860009), Fibromyalgia (203082005).",
+      "class": "A",
+      "support": "FHIR Condition resources; CSV conditions START 2014-01-31 STOP empty"
+    },
+    {
+      "claim": "None of the Percocet MedicationRequests carry reasonCode or reasonReference. CSV REASONCODE/REASONDESCRIPTION are empty. The chart does not mechanically link Percocet to fibromyalgia.",
+      "class": "A",
+      "support": "FHIR MedicationRequest.reason* absent; CSV REASONCODE empty"
+    },
+    {
+      "claim": "Completed RxNorm 1049625 MedicationRequest 2022-10-12 through 2023-10-18 exists in Synthea. It is older than the current active-order window and is not a graph node.",
+      "class": "A",
+      "support": "FHIR MedicationRequest 46fcc34a-97a1-f038-26f2-3d7c20a64f40; CSV medications START 2022-10-12 STOP 2023-10-18"
+    },
+    {
+      "claim": "The active 2025-10-29 RxNorm 1049625 MedicationRequest (FHIR id 46fcc34a-97a1-f038-e42e-36415b133408) is the queued refill resource. It is not a second 2025 order.",
+      "class": "A",
+      "support": "FHIR MedicationRequest 46fcc34a-97a1-f038-e42e-36415b133408; CSV medications START 2025-10-29 STOP empty"
+    },
+    {
+      "claim": "Medication review due (SNOMED 314529007) is active from 2025-10-29 with no STOP. Earlier episodes of the same code are resolved.",
+      "class": "A",
+      "support": "FHIR Condition clinicalStatus active; CSV START 2025-10-29 STOP empty"
+    },
+    {
+      "claim": "Active CarePlan from 2014-04-22 includes physical therapy (91251008) and cognitive and behavioral therapy (228557008).",
+      "class": "A",
+      "support": "FHIR CarePlan 46fcc34a-97a1-f038-fe69-253746d55fa6"
+    },
+    {
+      "claim": "Recent dental/fluoride and gingivitis records exist (sodium fluoride gel RxNorm 1535362 on 2025-11-12; gingivitis 66383009 resolved 2025-11-12).",
+      "class": "A",
+      "support": "FHIR MedicationAdministration/Medication and Condition resources"
+    },
+    {
+      "claim": "Unemployed (73438004) is active from 2025-10-29. Allergy medications terfenadine 141918 and epinephrine auto-injector 1870230 remain active from 1990.",
+      "class": "A",
+      "support": "FHIR Condition and MedicationRequest resources"
+    },
+    {
+      "claim": "Levonorgestrel IUD Mirena RxNorm 807283 MedicationAdministration 2025-11-26 is on the chart and is not an analgesic.",
+      "class": "A",
+      "support": "FHIR MedicationAdministration"
+    },
+    {
+      "claim": "Pharmacy queue RXQ-4611, refill window 2026-08-21, PDMP extract, controlled-substance agreement document, existing-order acetaminophen rollup, in-pharmacy fill log, in-chart CII continuity attestation reconstructed from the 2023–2024 completed orders plus the active queued MedicationRequest, and both workflow policy memos. The continuity attestation is overlay and is not a statewide PDMP extract.",
+      "class": "B",
+      "class_label": "generated scenario overlay"
+    },
+    {
+      "claim": "Queue-linked treatment indication for this refill is fibromyalgia (203082005). That linkage is overlay; Synthea does not attach a reason to Percocet.",
+      "class": "B",
+      "class_label": "generated scenario overlay"
+    },
+    {
+      "claim": "DailyMed Percocet labeling: oxycodone hydrochloride / acetaminophen, including 10 mg / 325 mg; total acetaminophen should not exceed 4 grams; 10 mg/325 mg maximal daily dose 6 tablets.",
+      "class": "C",
+      "class_label": "public/reference policy material",
+      "support": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4dd36cf5-8f73-404a-8b1d-3bd53bd90c25"
+    }
+  ],
+  "not_found_in_synthea": [
+    "PDMP query result",
+    "signed controlled-substance agreement",
+    "reason linkage from Percocet to fibromyalgia",
+    "FHIR MedicationDispense resources",
+    "a second acetaminophen-containing active medication"
+  ]
+}

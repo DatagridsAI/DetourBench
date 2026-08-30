@@ -1,0 +1,55 @@
+{
+ "schema_version": "detourbench.frozen-integrated-task.v2",
+ "frozen_on": "2026-08-27",
+ "task_id": 24,
+ "task_directory": "initial_integrated_tasks/24_banking_pin_card_controls",
+ "run_task_name": "banking_pin_card_controls",
+ "classification": "integrated_task_independently_piloted",
+ "task_revision": "banking-taubench-adaptation-v3",
+ "selection_note": "Frozen before its independent pilot and cleared for comparison against other frozen tasks. Selection was not blind: see independent_pilot.does_not_establish.",
+ "evidence_cluster_id": "taubench-demo-0018",
+ "metric_version": "detourbench-v3",
+ "solver_version": "compute_lower_bound.monotone-bfs.v1",
+ "state_semantics_version": "graph-env.expanding-search.v1",
+ "n_nodes": 25,
+ "n_edges": 26,
+ "oracle_lower_bound": 14,
+ "informed_lower_bound": 14,
+ "hard_budget": 21,
+ "primary_mechanism": "Breadth",
+ "supporting_mechanisms": [
+  "Depth",
+  "Currency",
+  "Disposition"
+ ],
+ "episode_count": 6,
+ "hashes_sha256": {
+  "graph_full.json": "b6c6a0d5992351745b1d1aa471d59c294b3d3166b8e16005142302ac2d0d04b2",
+  "oracle.json": "649d54bf80e9d80bb100adebb7bfa30870989497681473dcc5897905c6756405",
+  "verifier_report.json": "f07274d5ea8fee5e683c1d2187b6626a032a05ca4b6977d2a019881da93bba68",
+  "source_corpus.json": "fc6c7e3597dd26e5b937de7b3997af75dee54fa6116d34ca2b18a19591787397",
+  "necessity_audit.json": "c42edfd2bbc370733fda701b334dd33c0785eee2987bcdd317222b27c8e442cd",
+  "task_spec.json": "396c8b286d35df4dd49e91253f11f11be4f1723c42d6f05ab4cc8df4e012cbaf",
+  "initial_state.json": "44fb13d5853448e50526088d8742185c467f533f20e33d904ea4cba8defc070a",
+  "pilot_trajectories.json": "5292e4f5be1e8d35afe866e5627b25496cba03fbd84cf47c20812af4a1172f22",
+  "pilots/claude-opus-5.json": "02414b31531b88a699a72f574ef236c472cfe1151801fcf1f7f9c904fdf405b3",
+  "pilots/qwen3.6-plus.json": "8bdda34a06c35fe9890fe1c18f22aaf359e33d23291bcde54f2edf03c3d43fed"
+ },
+ "pilots_frozen_on": "2026-08-27",
+ "strict_cross_model_prompt_comparability": true,
+ "prior_pilot_compatibility": "v1_and_v2_runs_excluded_after_graph_revision",
+ "prior_classification": "integrated_internal_development_challenge",
+ "independent_pilot": {
+  "model": "gpt-5.6",
+  "date": "2026-08-28",
+  "episodes": 2,
+  "successes": 2,
+  "attainment_values": [
+   0.875,
+   0.7
+  ],
+  "held_out_from": "gpt-5.6 ran no episode of this task on any revision before this date, and was not consulted while the task was authored or revised.",
+  "establishes": "The task's difficulty is not an artifact of the models that were observed during development; a model that did not influence the design meets it at comparable cost.",
+  "does_not_establish": "Blind selection. This task was authored and revised while observing model behaviour, so its existence and shape remain informed by that behaviour. An independent pilot cannot undo selection that already happened."
+ }
+}

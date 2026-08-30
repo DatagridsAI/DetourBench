@@ -1,0 +1,43 @@
+{
+  "schema_version": "detourbench.frozen-integrated-task.v2",
+  "frozen_on": "2026-08-28",
+  "task_id": 26,
+  "task_directory": "initial_integrated_tasks/26_osv_tensorflow_pinned_upgrade",
+  "run_task_name": "osv_tensorflow_pinned_upgrade",
+  "classification": "integrated_development_challenge",
+  "task_revision": "osv-pinned-upgrade-v3",
+  "selection_note": "GHSA-scoped OSV development task; v1/v2 pilots invalidated. Fresh v3 pilots were run only after revision and remain development-time difficulty evidence rather than blind selection evidence.",
+  "evidence_cluster_id": "osv-tensorflow-ghsa",
+  "primary_mechanism": "Breadth",
+  "supporting_mechanisms": [
+    "Sufficiency",
+    "Disposition"
+  ],
+  "oracle_lower_bound": 10,
+  "informed_lower_bound": 10,
+  "hard_budget": 15,
+  "n_nodes": 54,
+  "n_edges": 343,
+  "episode_count": 3,
+  "prompt_version": "closed-benchmark-v3",
+  "metric_version": "detourbench-v3",
+  "solver_version": "compute_lower_bound.monotone-bfs.v1",
+  "state_semantics_version": "graph-env.expanding-search.v1",
+  "hashes_sha256": {
+    "graph_full.json": "8d54ad3a6dd4d60c422c8e0b8ff0b57d469a3d68869202749bb513842fe97aec",
+    "initial_state.json": "3736212de6e0655e747c816a37c2722786051bfe9e62a838b715970224e20ae6",
+    "necessity_audit.json": "3beb83321dc35546111ff7c1c2674ca0f701f014c71a092295b1861fb3cb6d72",
+    "oracle.json": "a53336f794d77491f8ee4b3d8435ad345186daa69389c4314cad5636415131d0",
+    "pilot_trajectories.json": "2e2290d6db709dd1ae92a4713cc7c87cfb3bfcbfc93a005010b8f88eb75a0d56",
+    "source_corpus.json": "44c83ea2cfa7c875416030042cb861d73b7bd6b66c4ef86dd7fb5c2cbc3c06cf",
+    "task_spec.json": "c008bf4f3a303256d1f60eee36b501ec209df24de92564412a6450ab52cc4fd1",
+    "verifier_report.json": "3553c591b619638d25da67b17a62f23c938eb3e7b6f10ae4d31748c4f1e7da26",
+    "README.md": "33b13e2efc501c0cbd9eb95391f301fb0c6b32ec587c639e7ba2b7339af00de3",
+    "invalidated_pilots_v1/claude-opus-5.json": "c07bceafd6168a5a6025d96ae31cd7b138ffdfbb738e703f46c9d6d7eaf7d534",
+    "invalidated_pilots_v1/qwen3.6-plus.json": "53447f09125cdbe7da37334445e6e584d0e8b411be1b70499b5c6cfdf739f132",
+    "invalidated_pilots_v2/qwen3.6-plus.json": "b1768a576addb917fcf4d2b68dcefa386ef8f6f4afeb785f958b6e6e8da762ca",
+    "pilots/deepseek-v4-pro-r1.json": "63a60556059d5ab3f63211b3e41c0bc9acfd720f9af69cedfa39503ab5a29261",
+    "pilots/kimi-k3-r1.json": "a18e926fc26e37f2be89b861796c154c50973c8f5a8a207819396f8ec6c7a78b",
+    "pilots/qwen3.6-plus-r1.json": "9e7d1588e5ba586e64e461f038b3b509041af0c2fd9b97034b97706a4b34c79c"
+  }
+}

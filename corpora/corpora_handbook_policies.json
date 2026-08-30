@@ -1,0 +1,100 @@
+{
+  "schema_version": "detourbench.handbook-policy.v1",
+  "task_name": "handbook_entity_precedence",
+  "upstream_dataset": "GitLab handbook (public)",
+  "local_extract": "/data/benchmarks/raw-corpora/rules-and-sops/gitlab-handbook/content/handbook",
+  "extractor": "fetch_handbook_policies.py",
+  "retrieved_on": "2026-08-28",
+  "observed_pages": {
+    "people_policies": {
+      "key": "people_policies",
+      "path": "handbook/people-policies/_index.md",
+      "title": "People Policies",
+      "length": 39029,
+      "applicability": "",
+      "opening": "## Purpose All of the policies listed below are important for GitLab team members to read and understand as they deal with people benefits, entity specific issues, and procedures and requirements of the company. If you have any questions around the internal policies, please reach out to People Operations via HelpLab. ## Scope These policies apply to all GitLab team members, contractors, advisors, and contracted parties interacting with GitLab computing resources and accessing company or customer data. ## Roles and Responsibilities | Role | Responsibility | |-----------|-----------| | GitLab Team Members | Responsible for following the requirements in these policies | | PeopleOps | Responsible for implementing and executing these policies | | Legal & PeopleOps Management (Code Owners) | Responsible for approving significant changes and exceptions to these policies | ## Translations There "
+    },
+    "entity_index": {
+      "key": "entity_index",
+      "path": "handbook/entity/entity-specific-employment-policies.md",
+      "title": "Entity-Specific Employment Policies",
+      "length": 503,
+      "applicability": "",
+      "opening": "## Introduction There is a directory for team members employed through a GitLab entity to locate [employment-related policies specific to their country of residence](/handbook/people-policies/#entity-specific-employment-policies) included with the team member policies listed on the ['People Policies' page](/handbook/people-policies/) of the handbook. These policies do not supersede [GitLab Inc.'s Code of Business Conduct & Ethics](https://ir.gitlab.com/governance/governance-documents/default.aspx)."
+    },
+    "ireland_disconnect": {
+      "key": "ireland_disconnect",
+      "path": "handbook/people-policies/ireland-ltd/right-to-disconnect-policy.md",
+      "title": "GitLab Ireland Ltd Right to Disconnect Policy",
+      "length": 11837,
+      "applicability": "## 2. Applicability This Policy applies to all team members regardless of position, tenure, and work location, as local laws permit, and is intended to support existing rights and obligations of team members and the Company under those laws. For any additional information regarding your specific work location, please refer to the [entity-specific employment policies](/handbook/people-policies/#entity-specific-employment-policies). All team members should familiarise themselves with this Policy. ## 3. Disconnecting from work Disconnecting from work means not engaging in work-related communications, to be free from being expected to routinely perform work outside of your working hours, the absence of any penalty for declining to attend to work matters outside of those times and showing respect for another person's right to disconnect. There are myriad forms of communication, but work-related communications in our Company include emails, slack messages, issue and MR mentions, and virtual meetings. This list is not exhaustive, and may expand as technology and our business evolve. It is o",
+      "opening": "Per the stated [Roles & Responsibilities](#roles-and-responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged. ## Roles and Responsibilities | Role | Responsibility | |-----------|-----------| | GitLab Ireland Ltd Team Members | Responsible for following the requirements in these policies | | People Ops | Responsible for implementing and executing these policies | | Legal & People Ops Management (Code Owners) | Responsible for approving significant changes and exceptions to these policies | ## 1. Purpose At GitLab (the \"Company\"), we support the safety, health and [well-being](/handbook/company/culture/all-remote/mental-health/) of all team members and we operate with an emphasis on [asynchronous communication](/handbook/company/culture/all-remote/asynchronous/) and a focus on impact, not activity. We believe that [f"
+    },
+    "france_disconnect": {
+      "key": "france_disconnect",
+      "path": "handbook/people-policies/france-sas/right-to-disconnect-charter.md",
+      "title": "GitLab France S.A.S. Right to Disconnect Charter",
+      "length": 31769,
+      "applicability": "### 2. Applicability This Policy applies to all team members regardless of position, tenure, and work location, to the extent permitted by French law, and is intended to support existing rights and obligations of team members and the Company under those laws. For any additional information regarding your specific work location, please refer to the entity-specific employment policy page. All team members should familiarise themselves with this Policy. ### 3. Disconnecting from work Disconnecting from work means: - The Company's undertaking not to solicit team members during rest periods; - The absence of obligation for team members to respond to work-related solicitations during rest periods; - The absence of any penalty or reproach for not responding or declining to attend to work matters outside of those times and showing respect for another person's right to disconnect; - The assurance that different behaviours will not be encouraged, valued or rewarded. There are myriad forms of communication, but work-related communications in our Company include emails, slack messages, issue and",
+      "opening": "Per the stated [Roles & Responsibilities](#roles-and-responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged. ## Roles and Responsibilities | Role | Responsibility | |-----------|-----------| | GitLab France S.A.S. Team Members | Responsible for following the requirements in these policies | | People Ops | Responsible for implementing and executing these policies | | Legal & People Ops Management (Code Owners) | Responsible for approving significant changes and exceptions to these policies | ## Français: GITLAB FRANCE S.A.S. CHARTE SUR LE DROIT À LA DÉCONNEXION ### 1. Objet Chez GitLab (ci-après la «Société»), nous veillons à la sécurité, à la santé et au bien-être de tous les collaborateurs et mettons l'accent non pas sur le nombre d'heures travaillées mais plutôt sur la communication asynchrone ainsi que sur les r"
+    },
+    "france_remote": {
+      "key": "france_remote",
+      "path": "handbook/people-policies/france-sas/remote-work-charter.md",
+      "title": "GitLab France S.A.S. Remote Work Charter",
+      "length": 24820,
+      "applicability": "",
+      "opening": "Per the stated [Roles & Responsibilities](/handbook/people-policies/france-sas/right-to-disconnect-charter/#roles-and-responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged. ## Français: GITLAB FRANCE S.A.S. CHARTE SUR LE TÉLÉTRAVAIL ### PRÉAMBULE Avec plus de 1700 membres d'équipe répartis dans plus de 65 pays, GitLab (est l'une des plus grandes entreprises au monde mettant en œuvre du travail à distance intégral. L'approche \"travail à distance intégral\" de GitLab favorise le recrutement et la mobilité des salariés (ci-après « membres de l'équipe) dans le monde entier, ainsi que la flexibilité des horaires de travail, en permettant aux membres de l'équipe de mieux travailler ensemble, qu'ils se trouvent au même endroit ou qu'ils soient répartis sur plusieurs fuseaux horaires. Par conséquent, l'ensemble des membres"
+    },
+    "usa_policies": {
+      "key": "usa_policies",
+      "path": "handbook/people-policies/inc-usa.md",
+      "title": "People Policies - GitLab Inc (USA)",
+      "length": 33267,
+      "applicability": "",
+      "opening": "All policies on this page apply to **US-based team members** who are employed by GitLab Inc. or GitLab Federal LLC. If a policy specifically states that it applies to federal contractors, it applies only to team members who are employed by GitLab Federal LLC. ## Equal Employment Opportunity Policy GitLab, Inc. is an equal opportunity employer. In accordance with anti-discrimination laws, it is the purpose of this policy to effectuate these principles and mandates. GitLab prohibits discrimination and harassment of any type and affords equal employment opportunities to team members and applicants without regard to race, color, religion, sex, sexual orientation, gender identity or expression, marital status, pregnancy, age, national origin, disability status, genetic information, protected veteran status, or any other characteristic protected by law. GitLab conforms to the spirit as well as"
+    },
+    "india_policies": {
+      "key": "india_policies",
+      "path": "handbook/people-policies/india-ltd/_index.md",
+      "title": "GitLab India Private Limited Policy Against Sexual Harassment",
+      "length": 15369,
+      "applicability": "",
+      "opening": "Per the stated [Roles & Responsibilities](#roles-and-responsibilities), changes to this page must be approved or merged by a code owner. All contributions are welcome and encouraged. ## Roles and Responsibilities | Role | Responsibility | |-----------|-----------| | GitLab India Private Ltd Team Members | Responsible for following the requirements in these policies | | People Ops | Responsible for implementing and executing these policies | | Legal & People Ops Management (Code Owners) | Responsible for approving significant changes and exceptions to these policies | ## POLICY AGAINST SEXUAL HARASSMENT ### 1.1 Introduction GitLab India Private Limited (GitLab) is committed to providing a safe and healthy work environment for all its team members, and does not permit any form of sexual harassment in the workplace. GitLab and its team members have a shared responsibility in contributing to"
+    }
+  },
+  "observed_links_from_index": [
+    "/handbook/communication/",
+    "/handbook/company/culture/all-remote/asynchronous/",
+    "/handbook/company/culture/all-remote/mental-health/",
+    "/handbook/company/culture/all-remote/workspace/",
+    "/handbook/company/culture/ecoc/",
+    "/handbook/company/esg/",
+    "/handbook/entity/india-pvt-ltd/",
+    "/handbook/finance/expenses/",
+    "/handbook/finance/procurement/office-equipment-supplies/",
+    "/handbook/hiring",
+    "/handbook/hiring/",
+    "/handbook/leadership/managing-conflict/leading-through-adversity/",
+    "/handbook/legal/anti-retaliation-policy/",
+    "/handbook/legal/privacy/employee-privacy-policy/",
+    "/handbook/marketing/team-member-social-media-policy/",
+    "/handbook/people-group/acceptable-use-policy/",
+    "/handbook/people-group/anti-harassment/",
+    "/handbook/people-group/time-off-and-absence/time-off-types/",
+    "/handbook/people-policies/",
+    "/handbook/people-policies/france-sas/remote-work-charter/",
+    "/handbook/people-policies/france-sas/right-to-disconnect-charter/",
+    "/handbook/people-policies/inc-usa/",
+    "/handbook/people-policies/ireland-ltd/right-to-disconnect-policy",
+    "/handbook/people-policies/leave-of-absence/",
+    "/handbook/people-policies/leave-of-absence/us/",
+    "/handbook/tools-and-tips/personal-vpn/",
+    "/handbook/total-rewards/benefits/general-and-entity-benefits/",
+    "/handbook/total-rewards/benefits/modern-health/"
+  ],
+  "missing": [],
+  "counts": {
+    "handbook_markdown_files": 4107
+  }
+}

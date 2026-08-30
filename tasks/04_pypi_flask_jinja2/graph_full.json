@@ -1,0 +1,323 @@
+{
+ "graph": {
+  "nodes": {
+   "start": {
+    "desc": "On-call queue for template-preview-service. Investigate SEC-2025, explain the CI failure, and submit implementation plus test evidence for the minimal dependency fix."
+   },
+   "ticket": {
+    "desc": "SEC-2025: Sandbox security policy found a vulnerable template engine. Select the first safe non-downgrade version allowed by Flask. Open the failed workflow job logs to identify its lockfile and package version."
+   },
+   "ci_failure": {
+    "desc": "Dependency-policy logs: jinja2 3.1.4 matched GHSA-cpwx-vrp4-4pq7. Scanner input was requirements.lock; inspect that lockfile next."
+   },
+   "lockfile": {
+    "desc": "requirements.lock pins flask==3.0.3 and jinja2==3.1.4. Consult deps.dev 3.0.3:dependencies for the parent constraint."
+   },
+   "deps_graph": {
+    "desc": "deps.dev graph for flask 3.0.3. Open the jinja2 package record for the direct requirement."
+   },
+   "dependency": {
+    "desc": "DIRECT jinja2 requirement >=3.1.2; locked 3.1.4. Follow OSV GHSA-cpwx-vrp4-4pq7 for the affected interval and fix reference."
+   },
+   "advisory": {
+    "desc": "GHSA-cpwx-vrp4-4pq7: Jinja2 sandbox breakout through the attr filter selecting the format method. Locked 3.1.4 is affected and 3.1.6 is first fixed. Inspect commit 90457bbf33b8662926ae65cdde4c4c32e756e403 for implementation and tests."
+   },
+   "upstream_commit": {
+    "desc": "GitHub commit 90457bbf33b8662926ae65cdde4c4c32e756e403: attr filter uses env.getattr. Review src/jinja2/filters.py and regression test tests/test_security.py before submitting evidence."
+   },
+   "implementation": {
+    "desc": "src/jinja2/filters.py: Route attr-filter lookup through the sandbox-aware environment getattr implementation. Corroborate it with the security regression test."
+   },
+   "regression_test": {
+    "desc": "tests/test_security.py: Add regression coverage for unsafe attribute access through the attr filter. With the implementation reviewed, submit to the CI verify endpoint."
+   },
+   "target": {
+    "desc": "CI remediation verified: pin jinja2 3.1.6; constraint, OSV range, implementation and regression test agree."
+   },
+   "other_dep_0": {
+    "desc": "Resolved blinker 1.9.0; unrelated to OSV GHSA-cpwx-vrp4-4pq7."
+   },
+   "other_dep_1": {
+    "desc": "Resolved click 8.4.2; unrelated to OSV GHSA-cpwx-vrp4-4pq7."
+   },
+   "other_dep_2": {
+    "desc": "Resolved itsdangerous 2.2.0; unrelated to OSV GHSA-cpwx-vrp4-4pq7."
+   },
+   "other_dep_3": {
+    "desc": "Resolved markupsafe 3.0.3; unrelated to OSV GHSA-cpwx-vrp4-4pq7."
+   },
+   "other_dep_4": {
+    "desc": "Resolved werkzeug 3.1.8; unrelated to OSV GHSA-cpwx-vrp4-4pq7."
+   },
+   "changelog": {
+    "desc": "CHANGES.rst records 3.1.6, but does not prove both implementation and regression behavior."
+   }
+  },
+  "edges": {
+   "start": [
+    {
+     "edge_id": "e_ticket",
+     "to": "ticket",
+     "desc": "scenario://template-preview-service/issues/SEC-2025",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "ticket": [
+    {
+     "edge_id": "e_ci",
+     "to": "ci_failure",
+     "desc": "scenario://template-preview-service/actions/jobs/SEC-2025/logs",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "ci_failure": [
+    {
+     "edge_id": "e_lock",
+     "to": "lockfile",
+     "desc": "repo://template-preview-service/requirements.lock",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "lockfile": [
+    {
+     "edge_id": "e_deps",
+     "to": "deps_graph",
+     "desc": "https://api.deps.dev/v3/systems/PYPI/packages/flask/versions/3.0.3:dependencies",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "deps_graph": [
+    {
+     "edge_id": "e_dep",
+     "to": "dependency",
+     "desc": "https://deps.dev/pypi/jinja2/3.1.4",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_other_0",
+     "to": "other_dep_0",
+     "desc": "https://deps.dev/pypi/blinker/1.9.0",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_other_1",
+     "to": "other_dep_1",
+     "desc": "https://deps.dev/pypi/click/8.4.2",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_other_2",
+     "to": "other_dep_2",
+     "desc": "https://deps.dev/pypi/itsdangerous/2.2.0",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_other_3",
+     "to": "other_dep_3",
+     "desc": "https://deps.dev/pypi/markupsafe/3.0.3",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_other_4",
+     "to": "other_dep_4",
+     "desc": "https://deps.dev/pypi/werkzeug/3.1.8",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "dependency": [
+    {
+     "edge_id": "e_osv",
+     "to": "advisory",
+     "desc": "https://api.osv.dev/v1/vulns/GHSA-cpwx-vrp4-4pq7",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "advisory": [
+    {
+     "edge_id": "e_commit",
+     "to": "upstream_commit",
+     "desc": "https://api.github.com/repos/pallets/jinja/commits/90457bbf33b8662926ae65cdde4c4c32e756e403",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "upstream_commit": [
+    {
+     "edge_id": "e_impl",
+     "to": "implementation",
+     "desc": "repo://pallets/jinja/90457bbf33b8662926ae65cdde4c4c32e756e403/src/jinja2/filters.py",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_test",
+     "to": "regression_test",
+     "desc": "repo://pallets/jinja/90457bbf33b8662926ae65cdde4c4c32e756e403/tests/test_security.py",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_changelog",
+     "to": "changelog",
+     "desc": "repo://pallets/jinja/90457bbf33b8662926ae65cdde4c4c32e756e403/CHANGES.rst",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "implementation": [],
+   "regression_test": [
+    {
+     "edge_id": "e_verify",
+     "to": "target",
+     "desc": "https://ci.internal/template-preview-service/security/verify?package=jinja2&version=3.1.6",
+     "resource_type": "endpoint",
+     "requires": [
+      "ticket_scope",
+      "failed_check",
+      "locked_version",
+      "parent_constraint",
+      "affected_range",
+      "fix_commit"
+     ],
+     "perturb": false,
+     "requires_visited": "implementation",
+     "requires_visited_n": null
+    }
+   ],
+   "target": [],
+   "other_dep_0": [],
+   "other_dep_1": [],
+   "other_dep_2": [],
+   "other_dep_3": [],
+   "other_dep_4": [],
+   "changelog": []
+  }
+ },
+ "meta": {
+  "start": "start",
+  "target": "target",
+  "token_grants": {
+   "ticket": "ticket_scope",
+   "ci_failure": "failed_check",
+   "lockfile": "locked_version",
+   "dependency": "parent_constraint",
+   "advisory": "affected_range",
+   "upstream_commit": "fix_commit"
+  },
+  "loop_nodes": [],
+  "dead_end_nodes": [
+   "other_dep_0",
+   "other_dep_1",
+   "other_dep_2",
+   "other_dep_3",
+   "other_dep_4",
+   "changelog"
+  ],
+  "mechanism_regions": {
+   "scenario": [
+    "ticket",
+    "ci_failure"
+   ],
+   "dependency_resolution": [
+    "lockfile",
+    "deps_graph",
+    "dependency"
+   ],
+   "vulnerability": [
+    "advisory"
+   ],
+   "code_evidence": [
+    "upstream_commit",
+    "implementation",
+    "regression_test"
+   ],
+   "distractor": [
+    "other_dep_0",
+    "other_dep_1",
+    "other_dep_2",
+    "other_dep_3",
+    "other_dep_4",
+    "changelog"
+   ]
+  },
+  "corpus_case_id": "pypi-flask-jinja2-ghsa-cpwx",
+  "source_kinds": [
+   "scenario overlay",
+   "deps.dev",
+   "OSV",
+   "GitHub"
+  ],
+  "theme_orthogonal": false,
+  "theme": "software_dependency",
+  "topology": "integrated_software_case",
+  "honeypot_depth": 5,
+  "loop_size": 3,
+  "loop_base_url": "https://deps.dev/_/advisory/pages",
+  "loop_host_vocab": [
+   "resolver-01",
+   "resolver-04",
+   "resolver-07",
+   "resolver-11"
+  ],
+  "loop_desc_template": "Resolution page from {host}: [{level}] {n} candidate versions returned. Response includes a `next_token` for continued paging.",
+  "difficulty": "hard",
+  "step_budget": 15,
+  "informed_lower_bound": 10
+ }
+}

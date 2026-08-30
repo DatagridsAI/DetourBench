@@ -1,0 +1,18 @@
+{
+  "schema_version": "detourbench.frozen-integrated-task.v2",
+  "task_id": 14,
+  "task_directory": "initial_integrated_tasks/14_ehr_oxycodone_apap_refill",
+  "metric_version": "detourbench-v3",
+  "oracle_lower_bound": 11,
+  "hard_budget": 17,
+  "hashes_sha256": {
+    "graph_full.json": "fb7d20eaf22f0dd46023acb4d4dc95f56cc37a08ea2003e752a2053a7bbe80e8",
+    "initial_state.json": "cf536c716731654d6b07f0406a386cdf261159b27e53a78e9c03eeb14bf34231",
+    "oracle.json": "ce5015c0380ed24433d4b6c01416a9731a73386f1ae5f2f77cb1ff4ebcc289b8",
+    "pilot_trajectories.json": "e26df14921cba98d8dd2674444d1e0198f1497eb3e2c0dcd115c3306a739bcaf",
+    "source_fact_audit.json": "4e89c76b6e7605ac0e453279b6bc0a3580c6be46508951f80d0f3c3b0070a341",
+    "task_spec.json": "cb04a40355f75f670a9febd7c20a322d9b7fa0c73edf3c2bffd3af458029ddac",
+    "verifier_report.json": "9f810ffa02ecac57821ee960cbdb6459116067ba95b494f6a98ca0d64a4ed215"
+  },
+  "note": "Public-release manifest; withheld model-output entries are omitted."
+}

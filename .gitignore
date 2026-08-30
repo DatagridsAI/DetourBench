@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+*.env
+.detourbench.env
+out/
+initial_integrated_tasks_result/
+*trajector*.json

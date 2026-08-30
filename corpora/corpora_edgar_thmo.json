@@ -1,0 +1,616 @@
+{
+  "schema_version": "detourbench.edgar-overlay.v1",
+  "task_name": "finance_auditor_change_elements",
+  "upstream_dataset": "SEC EDGAR",
+  "upstream_endpoints": [
+    "https://data.sec.gov/submissions/CIK0000811212.json",
+    "https://www.sec.gov/Archives/edgar/data/811212/"
+  ],
+  "extractor": "fetch_edgar_thmo.py",
+  "retrieved_on": "2026-08-28",
+  "snapshot_date": "2024-10-01",
+  "index_window_start": "2022-10-01",
+  "index_scope": "registrant periodic and current reports, proxy materials, registration statements and staff correspondence",
+  "issuer": {
+    "name": "ThermoGenesis Holdings, Inc.",
+    "cik": "0000811212",
+    "tickers": [],
+    "exchanges": [],
+    "sic_description": "Laboratory Apparatus & Furniture",
+    "fiscal_year_end": "1231"
+  },
+  "observed_filing_index": [
+    {
+      "accessionNumber": "0001437749-22-024191",
+      "filingDate": "2022-10-17",
+      "reportDate": "",
+      "form": "S-1/A",
+      "items": "",
+      "primaryDocument": "thmo20221013b_s1a.htm",
+      "primaryDocDescription": "FORM S-1/A",
+      "fileNumber": "333-264242"
+    },
+    {
+      "accessionNumber": "0001437749-22-024590",
+      "filingDate": "2022-10-24",
+      "reportDate": "",
+      "form": "CORRESP",
+      "items": "",
+      "primaryDocument": "filename1.htm",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0001437749-22-024962",
+      "filingDate": "2022-10-27",
+      "reportDate": "",
+      "form": "424B4",
+      "items": "",
+      "primaryDocument": "thmo20221026_424b4.htm",
+      "primaryDocDescription": "FORM 424B4",
+      "fileNumber": "333-264242"
+    },
+    {
+      "accessionNumber": "0001437749-22-025037",
+      "filingDate": "2022-10-28",
+      "reportDate": "2022-10-25",
+      "form": "8-K",
+      "items": "1.01,8.01,9.01",
+      "primaryDocument": "thmo20221027_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-22-025413",
+      "filingDate": "2022-11-01",
+      "reportDate": "2022-12-15",
+      "form": "DEF 14A",
+      "items": "",
+      "primaryDocument": "thmo20221028_def14a.htm",
+      "primaryDocDescription": "FORM DEF 14A",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-22-025414",
+      "filingDate": "2022-11-01",
+      "reportDate": "",
+      "form": "DEFA14A",
+      "items": "",
+      "primaryDocument": "thmo20221029_defa14a.htm",
+      "primaryDocDescription": "FORM DEFA14A",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-22-026930",
+      "filingDate": "2022-11-10",
+      "reportDate": "2022-11-10",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "thmo20221110_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-22-026947",
+      "filingDate": "2022-11-10",
+      "reportDate": "2022-09-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "thmo20220930_10q.htm",
+      "primaryDocDescription": "FORM 10-Q",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-22-029383",
+      "filingDate": "2022-12-20",
+      "reportDate": "2022-12-15",
+      "form": "8-K",
+      "items": "5.07,9.01",
+      "primaryDocument": "thmo20221219_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-22-029529",
+      "filingDate": "2022-12-21",
+      "reportDate": "2022-12-21",
+      "form": "8-K",
+      "items": "3.03,5.03,7.01,9.01",
+      "primaryDocument": "thmo20221221_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-000747",
+      "filingDate": "2023-01-10",
+      "reportDate": "2023-02-23",
+      "form": "DEF 14A",
+      "items": "",
+      "primaryDocument": "thmo20230105b_def14a.htm",
+      "primaryDocDescription": "FORM DEF 14A",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-000843",
+      "filingDate": "2023-01-11",
+      "reportDate": "2023-01-09",
+      "form": "8-K",
+      "items": "8.01,9.01",
+      "primaryDocument": "thmo20230110_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-002574",
+      "filingDate": "2023-02-06",
+      "reportDate": "2023-01-31",
+      "form": "8-K",
+      "items": "1.01,9.01",
+      "primaryDocument": "thmo20230206_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-004743",
+      "filingDate": "2023-02-27",
+      "reportDate": "2023-02-23",
+      "form": "8-K",
+      "items": "5.07,8.01",
+      "primaryDocument": "thmo20230227_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-006038",
+      "filingDate": "2023-03-10",
+      "reportDate": "2023-03-06",
+      "form": "8-K",
+      "items": "1.01,3.03,5.03,9.01",
+      "primaryDocument": "thmo20230309_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-007279",
+      "filingDate": "2023-03-21",
+      "reportDate": "2023-03-15",
+      "form": "8-K",
+      "items": "1.01,3.02,8.01,9.01",
+      "primaryDocument": "thmo20230317_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-008623",
+      "filingDate": "2023-03-30",
+      "reportDate": "2023-03-30",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "thmo20230330_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-008675",
+      "filingDate": "2023-03-30",
+      "reportDate": "2022-12-31",
+      "form": "10-K",
+      "items": "",
+      "primaryDocument": "thmo20221231_10k.htm",
+      "primaryDocDescription": "FORM 10-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0000000000-23-003621",
+      "filingDate": "2023-04-11",
+      "reportDate": "",
+      "form": "UPLOAD",
+      "items": "",
+      "primaryDocument": "filename1.pdf",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0001437749-23-010030",
+      "filingDate": "2023-04-11",
+      "reportDate": "",
+      "form": "CORRESP",
+      "items": "",
+      "primaryDocument": "filename1.htm",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0000000000-23-004213",
+      "filingDate": "2023-04-25",
+      "reportDate": "",
+      "form": "UPLOAD",
+      "items": "",
+      "primaryDocument": "filename1.pdf",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0001437749-23-011329",
+      "filingDate": "2023-04-27",
+      "reportDate": "",
+      "form": "CORRESP",
+      "items": "",
+      "primaryDocument": "filename1.htm",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0001437749-23-014601",
+      "filingDate": "2023-05-15",
+      "reportDate": "2023-05-15",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "thmo20230515_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-014637",
+      "filingDate": "2023-05-15",
+      "reportDate": "2023-03-31",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "thmo20230331_10q.htm",
+      "primaryDocDescription": "FORM 10-Q",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-020241",
+      "filingDate": "2023-07-19",
+      "reportDate": "2023-07-14",
+      "form": "8-K",
+      "items": "5.02",
+      "primaryDocument": "thmo20230719_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-021984",
+      "filingDate": "2023-08-03",
+      "reportDate": "2023-07-31",
+      "form": "8-K",
+      "items": "1.01,9.01",
+      "primaryDocument": "thmo20230802_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-023052",
+      "filingDate": "2023-08-10",
+      "reportDate": "2023-08-10",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "thmo20230810_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-023091",
+      "filingDate": "2023-08-10",
+      "reportDate": "2023-06-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "thmo20230630_10q.htm",
+      "primaryDocDescription": "FORM 10-Q",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-024813",
+      "filingDate": "2023-08-29",
+      "reportDate": "2023-08-23",
+      "form": "8-K",
+      "items": "5.02",
+      "primaryDocument": "thmo20230828_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-027651",
+      "filingDate": "2023-10-04",
+      "reportDate": "2023-09-28",
+      "form": "8-K",
+      "items": "8.01",
+      "primaryDocument": "thmo20231004_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-029117",
+      "filingDate": "2023-10-26",
+      "reportDate": "2023-12-14",
+      "form": "DEF 14A",
+      "items": "",
+      "primaryDocument": "thmo20231024_def14a.htm",
+      "primaryDocDescription": "FORM DEF 14A",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-030172",
+      "filingDate": "2023-11-03",
+      "reportDate": "",
+      "form": "DEFA14A",
+      "items": "",
+      "primaryDocument": "thmo20231103_defa14a.htm",
+      "primaryDocDescription": "FORM DEFA14A",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-031652",
+      "filingDate": "2023-11-13",
+      "reportDate": "2023-11-13",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "thmo20231113_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-031668",
+      "filingDate": "2023-11-13",
+      "reportDate": "2023-09-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "thmo20230930_10q.htm",
+      "primaryDocDescription": "FORM 10-Q",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-032692",
+      "filingDate": "2023-11-21",
+      "reportDate": "2023-11-17",
+      "form": "8-K",
+      "items": "8.01",
+      "primaryDocument": "thmo20231120_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0000000000-23-012985",
+      "filingDate": "2023-11-29",
+      "reportDate": "",
+      "form": "UPLOAD",
+      "items": "",
+      "primaryDocument": "filename1.pdf",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0001437749-23-033178",
+      "filingDate": "2023-11-29",
+      "reportDate": "2023-11-22",
+      "form": "8-K",
+      "items": "1.01,9.01",
+      "primaryDocument": "thmo20231129_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-23-033420",
+      "filingDate": "2023-12-01",
+      "reportDate": "",
+      "form": "CORRESP",
+      "items": "",
+      "primaryDocument": "filename1.htm",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0001437749-23-033707",
+      "filingDate": "2023-12-06",
+      "reportDate": "",
+      "form": "424B5",
+      "items": "",
+      "primaryDocument": "thmo20231204_424b5.htm",
+      "primaryDocDescription": "FORM 424B5",
+      "fileNumber": "333-275735"
+    },
+    {
+      "accessionNumber": "0001437749-23-034582",
+      "filingDate": "2023-12-15",
+      "reportDate": "2023-12-14",
+      "form": "8-K",
+      "items": "5.07",
+      "primaryDocument": "thmo20231215_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-001024",
+      "filingDate": "2024-01-10",
+      "reportDate": "2024-01-08",
+      "form": "8-K",
+      "items": "3.01",
+      "primaryDocument": "thmo20240108_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-001079",
+      "filingDate": "2024-01-10",
+      "reportDate": "2024-01-05",
+      "form": "8-K",
+      "items": "1.01,9.01",
+      "primaryDocument": "thmo20240108c_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-007472",
+      "filingDate": "2024-03-12",
+      "reportDate": "2024-03-08",
+      "form": "8-K",
+      "items": "5.02",
+      "primaryDocument": "thmo20240312_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-008572",
+      "filingDate": "2024-03-20",
+      "reportDate": "2024-03-15",
+      "form": "8-K",
+      "items": "8.01",
+      "primaryDocument": "thmo20240319_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-010490",
+      "filingDate": "2024-04-02",
+      "reportDate": "2023-12-31",
+      "form": "NT 10-K",
+      "items": "",
+      "primaryDocument": "thmo20240401_nt10k.htm",
+      "primaryDocDescription": "FORM NT 10-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-012088",
+      "filingDate": "2024-04-16",
+      "reportDate": "2023-12-31",
+      "form": "10-K",
+      "items": "",
+      "primaryDocument": "thmo20231231_10k.htm",
+      "primaryDocDescription": "FORM 10-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-012994",
+      "filingDate": "2024-04-24",
+      "reportDate": "2024-04-19",
+      "form": "8-K",
+      "items": "3.01",
+      "primaryDocument": "thmo20240423_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-017239",
+      "filingDate": "2024-05-16",
+      "reportDate": "2024-03-31",
+      "form": "NT 10-Q",
+      "items": "",
+      "primaryDocument": "thmo20240515_nt10q.htm",
+      "primaryDocDescription": "FORM NT 10-Q",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-017521",
+      "filingDate": "2024-05-17",
+      "reportDate": "2024-03-31",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "thmo20240331_10q.htm",
+      "primaryDocDescription": "FORM 10-Q",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-019139",
+      "filingDate": "2024-06-04",
+      "reportDate": "2024-05-29",
+      "form": "8-K",
+      "items": "8.01,9.01",
+      "primaryDocument": "thmo20240604_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-019942",
+      "filingDate": "2024-06-11",
+      "reportDate": "2024-06-06",
+      "form": "8-K",
+      "items": "3.01",
+      "primaryDocument": "thmo20240611_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-021310",
+      "filingDate": "2024-06-26",
+      "reportDate": "2024-06-22",
+      "form": "8-K",
+      "items": "5.02,9.01",
+      "primaryDocument": "thmo20240626_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-021951",
+      "filingDate": "2024-07-02",
+      "reportDate": "2024-06-30",
+      "form": "8-K",
+      "items": "8.01",
+      "primaryDocument": "thmo20240702_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-022503",
+      "filingDate": "2024-07-11",
+      "reportDate": "2024-07-09",
+      "form": "8-K",
+      "items": "2.04,9.01",
+      "primaryDocument": "thmo20240710_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-022841",
+      "filingDate": "2024-07-16",
+      "reportDate": "2024-07-12",
+      "form": "8-K",
+      "items": "8.01,9.01",
+      "primaryDocument": "thmo20240716_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-022843",
+      "filingDate": "2024-07-16",
+      "reportDate": "2024-07-15",
+      "form": "8-K",
+      "items": "5.02",
+      "primaryDocument": "thmo20240716c_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-024959",
+      "filingDate": "2024-08-06",
+      "reportDate": "2024-08-01",
+      "form": "8-K",
+      "items": "4.01,9.01",
+      "primaryDocument": "thmo20240806_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "333-82900"
+    },
+    {
+      "accessionNumber": "0001437749-24-027008",
+      "filingDate": "2024-08-15",
+      "reportDate": "2024-06-30",
+      "form": "NT 10-Q",
+      "items": "",
+      "primaryDocument": "thmo20240815_nt10q.htm",
+      "primaryDocDescription": "FORM NT 10-Q",
+      "fileNumber": "333-82900"
+    }
+  ],
+  "observed_excerpts": {
+    "dismissal_and_opinion": "Item 4.01. Change in Registrant ’ s Certifying Accountant. (a) On July 31, 2024, ThermoGenesis Holdings, Inc. (the “Company”) determined that Marcum LLP (“Marcum”) would no longer serve as the Company’s independent registered public accounting firm and would be dismissed effective as of August 1, 2024. The decision to change independent registered public accounting firms was approved by the Board of Directors (the “Board”) and the Audit Committee. The audited financial statements as of and for the years ended December 31, 2023 and 2022 did not contain an adverse opinion or a disclaimer of opinion and were not qualified or modified as to uncertainty, audit scope, or accounting principles, except for the financial statements as of and for each of the years ended December 31, 2023 and 2022 contained an explanatory paragraph indicating substantial doubt of the Company continuing as a going concern.",
+    "no_disagreements": "there were no “disagreements” (as defined in Item 304(a)(1)(iv) of Regulation S-K) between Marcum and the Company on any matter of accounting principles or practices, financial statement disclosure, or auditing scope or procedure, which disagreements, if not resolved to Marcum’s satisfaction, would have caused Marcum to make reference to the subject matter of the disagreement in connection with its report on the Company’s financial statements.",
+    "reportable_events": "For the year ended December 31, 2022, there were no “reportable events” (as such term is defined in Item 304(a)(1)(v) of Regulation S-K). For the year ended December 31, 2023 and the interim period ended March 31, 2024, there were the following “reportable events” (as such term is defined in Item 304(a)(1)(v) of Regulation S-K). As disclosed in Part II Item 9A of the Company’s Form 10-K for the year ended December 31, 2023 and in Part I Item 4 of the Company’s Form 10-Q for the quarter ended March 31, 2024, the Company’s management identified the following material weaknesses: ● the Company’s internal controls over financial reporting were not effective due to the existence of the material weakness with respect the segregation of duties due to limited staffing in the Company’s accounting department, which also results in an ineffective review process of the financial information. ● Privileged access and user access review controls over financial applications were not effectively designed or implemented to ensure appropriate access, authorization and segregation of duties.",
+    "tenk_item_9a": "and reported within the time periods specified in the SEC’s rules and forms. Disclosure controls and procedures include, without limitation, controls and procedures designed to ensure that information required to be disclosed by us in the reports that we file or submit under the Exchange Act is accumulated and communicated to our management, including our Chief Executive Officer and Chief Financial Officer, to allow timely decisions regarding required disclosure. Based on this evaluation, and in light of the weakness in our internal control over financial reporting described below, our Chief Executive Officer and Chief Financial Officer concluded that our disclosure controls and procedures were not effective as of December 31, 2023. Management ’ s Report on Internal Control over Financial Reporting Our management is responsible for establishing and maintaining adequate internal control over financial reporting (as defined in Rule 13a-15(f) and 15d-15(f) under the Exchange Act). Our Chief Executive Officer and Chief Financial Officer assessed the effectiveness of our internal control over financial reporting as of December 31, 2023. In making this assessment, our Chief Executive Officer and Chief Financial Officer used the criteria set forth by the Committee of Sponsoring Organizations of the Treadway Commission, or COSO, in Internal Control—Integrated Framework. Based on that assessment and using the COSO criteria, our Chief Executive Officer and Chief Financial Officer have concluded that, as of December 31, 2023, our internal controls over financial reporting were not effective because of the material weaknesses described below.",
+    "tenq_item_4": "nge Act Rule 13a-15(e) or 15d-15(e)) as of December 31, 2023. Disclosure controls and procedures include, without limitation, controls and procedures designed to ensure that information required to be disclosed by us in the reports that we file or submit under the Exchange Act is accumulated and communicated to our management, including our Chief Executive Officer and Chief Financial Officer, as appropriate, to allow timely decisions regarding required disclosure. Based on this evaluation, and in light of the weakness in our internal control over financial reporting described below, our Chief Executive Officer and Chief Financial Officer concluded that our disclosure controls and procedures were not effective as of March 31, 2024. Management ’ s Report on Internal Control over Financial Reporting Our management is responsible for establishing and maintaining adequate internal control over financial reporting (as defined in Rule 13a-15(f) and 15d-15(f) under the Exchange Act). Our Chief Executive Officer and Chief Financial Officer assessed the effectiveness of our internal control over financial reporting as of December 31, 2023. In making this assessment, our Chief Executive Officer and Chief Financial Officer used the criteria set forth by the Committee of Sponsoring Organizations of the Treadway Commission, or COSO, in Internal Control—Integrated Framework. Based on that assessment and using the COSO criteria, our Chief Executive Officer and Chief Financial Officer have concluded that, as of March 31, 2024, our internal controls over financial reporting were not effective because of the material weaknesses described below."
+  },
+  "accessions": {
+    "auditor_change": "0001437749-24-024959",
+    "tenk_2023": "0001437749-24-012088",
+    "tenq_q1_2024": "0001437749-24-017521"
+  }
+}

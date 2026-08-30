@@ -1,0 +1,262 @@
+{
+  "ok": true,
+  "failed": [],
+  "findings": [
+    {
+      "check": "evidence_merge_is_explicit",
+      "ok": true,
+      "detail": {
+        "edge": "e_episode_review",
+        "requires_visited": [
+          "er_encounter",
+          "inpatient_encounter",
+          "hctz",
+          "lisinopril",
+          "ibuprofen",
+          "exception_result"
+        ],
+        "n": 6
+      }
+    },
+    {
+      "check": "merge_blocks_incomplete_evidence",
+      "ok": true,
+      "detail": {
+        "edge_id": "e_episode_review",
+        "ok": false,
+        "reason": "not_ready"
+      }
+    },
+    {
+      "check": "lo_matches_expected",
+      "ok": true,
+      "detail": 12
+    },
+    {
+      "check": "solver_matches",
+      "ok": true,
+      "detail": {
+        "solver": 12,
+        "oracle": 12
+      }
+    },
+    {
+      "check": "oracle_replay",
+      "ok": true,
+      "detail": {
+        "success": true,
+        "steps": 12,
+        "trace": [
+          {
+            "edge_id": "e_intake",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_patient",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_meds",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_er",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_inpatient",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_hctz",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_lisinopril",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_ibuprofen",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_exception_result",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_episode_review",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_hold",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_target",
+            "ok": true,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "check": "budget",
+      "ok": true,
+      "detail": 18
+    },
+    {
+      "check": "node_band",
+      "ok": true,
+      "detail": 26
+    },
+    {
+      "check": "not_frozen_patient",
+      "ok": true,
+      "detail": "20553b9e-2375-883a-0d5c-ba8ff4eceb1c"
+    },
+    {
+      "check": "theme_ehr",
+      "ok": true,
+      "detail": "ehr"
+    },
+    {
+      "check": "main_interaction_depth",
+      "ok": true,
+      "detail": 12
+    },
+    {
+      "check": "main_real_acquisitions",
+      "ok": true,
+      "detail": [
+        "e_intake",
+        "e_patient",
+        "e_meds",
+        "e_er",
+        "e_inpatient",
+        "e_hctz",
+        "e_lisinopril",
+        "e_ibuprofen",
+        "e_exception_result"
+      ]
+    },
+    {
+      "check": "main_benchmark_actions",
+      "ok": true,
+      "detail": [
+        "e_episode_review",
+        "e_hold",
+        "e_target"
+      ]
+    },
+    {
+      "check": "main_decision_depth",
+      "ok": true,
+      "detail": [
+        "identify ER and inpatient episode boundaries",
+        "separate chronic hypertension rows from acute analgesics on snapshot",
+        "rule out ticket-scoped acute-analgesic continuation",
+        "reject discharge-summary collapse against MedicationRequest STOP dates",
+        "record episode-scoped outpatient review disposition"
+      ]
+    },
+    {
+      "check": "ablated_evidence_is_optional",
+      "ok": true,
+      "detail": [
+        "e_enc",
+        "e_docs",
+        "e_discharge",
+        "e_wellness",
+        "e_prior_hctz",
+        "e_oxy",
+        "e_exceptions",
+        "e_coverage"
+      ]
+    },
+    {
+      "check": "necessity_audit_covers_oracle",
+      "ok": true,
+      "detail": {
+        "e_intake": "establishes the post-discharge review scope",
+        "e_patient": "binds the queue item to the correct patient chart",
+        "e_meds": "opens the snapshot medication and episode context panel",
+        "e_er": "establishes the emergency admission that starts the acute episode",
+        "e_inpatient": "establishes the orthopedic inpatient boundary",
+        "e_hctz": "establishes the chronic hypertension row active on snapshot",
+        "e_lisinopril": "establishes the concurrent chronic ACEI row on snapshot",
+        "e_ibuprofen": "establishes the ER-started analgesic already stopped before snapshot",
+        "e_exception_result": "rules out authorized post-discharge acute-analgesic continuation",
+        "e_episode_review": "merges encounters, chronic rows, acute STOP dates, and exception result",
+        "e_hold": "records the episode-scoped pending-medication-review disposition",
+        "e_target": "verifies the hold without discontinuing chronic HTN therapy"
+      }
+    },
+    {
+      "check": "episode_boundaries_are_mandatory",
+      "ok": true,
+      "detail": [
+        "acute_ibuprofen",
+        "chronic_acei",
+        "chronic_hctz",
+        "episode_synthesized",
+        "er_boundary",
+        "exception_checked",
+        "inpatient_boundary",
+        "patient_identity",
+        "queued_panel",
+        "review_scope"
+      ]
+    },
+    {
+      "check": "discharge_summary_is_dead_end",
+      "ok": true,
+      "detail": [
+        "wellness_recon",
+        "discharge_summary",
+        "knee_xray",
+        "prior_hctz",
+        "oxy_apap",
+        "eligibility",
+        "formulary",
+        "copay",
+        "generic_review"
+      ]
+    },
+    {
+      "check": "episode_review_embeds_local_policy",
+      "ok": true,
+      "detail": "Episode-boundary synthesis compares the ER and inpatient boundaries, the chronic 2014 hypertension segment, and both acute analgesic rows with STOP dates before snapshot. Discharge prose that says 'continue ibuprofen' is not governing when "
+    },
+    {
+      "check": "discharge_collapse_path_fails_hold",
+      "ok": true,
+      "detail": {
+        "success": false,
+        "last": {
+          "edge_id": "e_episode_review",
+          "ok": false,
+          "reason": "not_ready"
+        }
+      }
+    },
+    {
+      "check": "reasonable_detour_recovers",
+      "ok": true,
+      "detail": {
+        "steps": 15,
+        "success": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "detourbench.frozen-integrated-task.v1",
+  "frozen_on": "2026-08-25",
+  "task_id": 18,
+  "task_directory": "initial_integrated_tasks/18_ehr_episode_boundary_review",
+  "run_task_name": "ehr_t24_episode_boundary_review",
+  "source_instance": "out/ehr_overlay_tasks/24_ehr_episode_boundary_review",
+  "source_corpus": "corpora_ehr_next/it-ehr-24-episode-boundary-review.json",
+  "classification": "integrated_model_contrast",
+  "selection_note": "Task mechanism was tuned after observing model behavior; use as a model-contrast challenge, not as an unbiased ranking sample.",
+  "metric_version": "detourbench-v3",
+  "n_nodes": 26,
+  "oracle_lower_bound": 12,
+  "informed_lower_bound": 12,
+  "hard_budget": 18,
+  "models": [
+    "claude-opus-5",
+    "deepseek-v4-pro"
+  ],
+  "replicates_per_model": 1,
+  "episode_count": 2,
+  "hashes_sha256": {
+    "graph_full.json": "837f99143baae4b63a22c2dc00ea652b31261e03eaa515e8ef59aa7185b34d3e",
+    "oracle.json": "6a3df85ec2b3a5d086e5f1f6fc494dbcc3e02be8da221133164976db0bd2e608",
+    "verifier_report.json": "ceaefedd594ef556370913a27c6e31c495cde4695e2fe979b0ca8542b4375a4b",
+    "source_corpus.json": "7472d35187c426e27201b156c81ed9168a042fa274b0d157c39aa8fabc4dde91"
+  }
+}

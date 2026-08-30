@@ -1,0 +1,513 @@
+{
+  "schema_version": "detourbench.edgar-overlay.v1",
+  "task_name": "finance_comment_letter_settled",
+  "upstream_dataset": "SEC EDGAR",
+  "upstream_endpoints": [
+    "https://data.sec.gov/submissions/CIK0001493761.json",
+    "https://www.sec.gov/Archives/edgar/data/1493761/"
+  ],
+  "extractor": "fetch_edgar_hear.py",
+  "retrieved_on": "2026-08-28",
+  "snapshot_date": "2024-04-30",
+  "index_window_start": "2022-04-30",
+  "index_scope": "registrant periodic reports and staff correspondence; third-party ownership filings and Rule 144 notices are a different register",
+  "issuer": {
+    "name": "Turtle Beach Corp",
+    "cik": "0001493761",
+    "tickers": [
+      "TBCH"
+    ],
+    "exchanges": [
+      "Nasdaq"
+    ],
+    "sic_description": "Communications Equipment, NEC",
+    "fiscal_year_end": "1231"
+  },
+  "observed_filing_index": [
+    {
+      "accessionNumber": "0001564590-22-017863",
+      "filingDate": "2022-05-04",
+      "reportDate": "2022-05-04",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "hear-8k_20220504.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0001564590-22-017898",
+      "filingDate": "2022-05-04",
+      "reportDate": "2022-03-31",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "hear-10q_20220331.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0001193125-22-153166",
+      "filingDate": "2022-05-17",
+      "reportDate": "2022-05-13",
+      "form": "8-K",
+      "items": "1.01,7.01,9.01",
+      "primaryDocument": "d348844d8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000929638-22-000933",
+      "filingDate": "2022-05-18",
+      "reportDate": "2022-05-17",
+      "form": "8-K",
+      "items": "5.02",
+      "primaryDocument": "ab8k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000929638-22-001041",
+      "filingDate": "2022-06-10",
+      "reportDate": "2022-06-07",
+      "form": "8-K",
+      "items": "5.07",
+      "primaryDocument": "ab8k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000929638-22-001285",
+      "filingDate": "2022-08-08",
+      "reportDate": "2022-08-08",
+      "form": "8-K",
+      "items": "7.01,9.01",
+      "primaryDocument": "ab8k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000950170-22-015555",
+      "filingDate": "2022-08-08",
+      "reportDate": "2022-08-08",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "hear-20220808.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000950170-22-015597",
+      "filingDate": "2022-08-08",
+      "reportDate": "2022-06-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "hear-20220630.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000929638-22-001573",
+      "filingDate": "2022-10-27",
+      "reportDate": "2022-10-26",
+      "form": "8-K",
+      "items": "5.02,7.01,9.01",
+      "primaryDocument": "ab8k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000950170-22-021930",
+      "filingDate": "2022-11-03",
+      "reportDate": "2022-11-03",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "hear-20221103.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000929638-22-001693",
+      "filingDate": "2022-11-09",
+      "reportDate": "2022-11-09",
+      "form": "NT 10-Q",
+      "items": "",
+      "primaryDocument": "turtlebeach_nt10q.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000950170-22-024679",
+      "filingDate": "2022-11-14",
+      "reportDate": "2022-09-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "hear-20220930.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000929638-22-001816",
+      "filingDate": "2022-12-06",
+      "reportDate": "2022-12-05",
+      "form": "8-K",
+      "items": "5.02,7.01,9.01",
+      "primaryDocument": "ab8k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000950170-23-007584",
+      "filingDate": "2023-03-13",
+      "reportDate": "2023-03-13",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "hear-20230313.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000929638-23-000844",
+      "filingDate": "2023-03-15",
+      "reportDate": "2023-03-10",
+      "form": "8-K",
+      "items": "1.01,2.03,9.01",
+      "primaryDocument": "ab8k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000929638-23-000865",
+      "filingDate": "2023-03-16",
+      "reportDate": "2022-12-31",
+      "form": "NT 10-K",
+      "items": "",
+      "primaryDocument": "a10k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000929638-23-000999",
+      "filingDate": "2023-03-29",
+      "reportDate": "2023-03-27",
+      "form": "8-K",
+      "items": "1.01,3.03,5.03,8.01,9.01",
+      "primaryDocument": "ab8k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000950170-23-010660",
+      "filingDate": "2023-03-29",
+      "reportDate": "2022-12-31",
+      "form": "10-K",
+      "items": "",
+      "primaryDocument": "hear-20221231.htm",
+      "primaryDocDescription": "10-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0001193125-23-090030",
+      "filingDate": "2023-04-04",
+      "reportDate": "2023-04-03",
+      "form": "8-K",
+      "items": "8.01",
+      "primaryDocument": "d494614d8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0001193125-23-130404",
+      "filingDate": "2023-05-01",
+      "reportDate": "2022-12-31",
+      "form": "10-K/A",
+      "items": "",
+      "primaryDocument": "d474039d10ka.htm",
+      "primaryDocDescription": "10-K/A",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0001193125-23-132585",
+      "filingDate": "2023-05-02",
+      "reportDate": "2023-05-01",
+      "form": "8-K",
+      "items": "5.02,9.01",
+      "primaryDocument": "d177239d8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000950170-23-017877",
+      "filingDate": "2023-05-04",
+      "reportDate": "2023-05-04",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "hear-20230504.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000950170-23-017960",
+      "filingDate": "2023-05-04",
+      "reportDate": "2023-03-31",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "hear-20230331.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000894579-23-000170",
+      "filingDate": "2023-05-11",
+      "reportDate": "2023-05-08",
+      "form": "8-K",
+      "items": "5.02,7.01,9.01",
+      "primaryDocument": "turtlebay8k05102023.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000894579-23-000176",
+      "filingDate": "2023-05-16",
+      "reportDate": "2023-05-12",
+      "form": "8-K",
+      "items": "5.02,9.01",
+      "primaryDocument": "turtlebeach8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0001140361-23-026426",
+      "filingDate": "2023-05-24",
+      "reportDate": "2023-05-19",
+      "form": "8-K",
+      "items": "4.01,9.01",
+      "primaryDocument": "brhc20053470_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000894579-23-000191",
+      "filingDate": "2023-06-16",
+      "reportDate": "2023-06-15",
+      "form": "8-K",
+      "items": "1.01,1.02,3.03,8.01,9.01",
+      "primaryDocument": "turtlebeach8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000894579-23-000193",
+      "filingDate": "2023-06-22",
+      "reportDate": "2023-06-15",
+      "form": "8-K",
+      "items": "5.02,7.01,9.01",
+      "primaryDocument": "turtlebeach8k06212023.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000894579-23-000195",
+      "filingDate": "2023-06-23",
+      "reportDate": "2023-06-17",
+      "form": "8-K",
+      "items": "1.01,7.01,9.01",
+      "primaryDocument": "turtlebeach8k06202023.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000894579-23-000197",
+      "filingDate": "2023-06-29",
+      "reportDate": "2023-06-26",
+      "form": "8-K",
+      "items": "5.02,9.01",
+      "primaryDocument": "turtlebeack8k06282023.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0001193125-23-185592",
+      "filingDate": "2023-07-12",
+      "reportDate": "2023-07-06",
+      "form": "8-K",
+      "items": "5.02,5.07,9.01",
+      "primaryDocument": "d510119d8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000950170-23-039092",
+      "filingDate": "2023-08-07",
+      "reportDate": "2023-08-07",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "hear-20230807.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000950170-23-039147",
+      "filingDate": "2023-08-07",
+      "reportDate": "2023-06-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "hear-20230630.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000000000-23-009245",
+      "filingDate": "2023-08-23",
+      "reportDate": "",
+      "form": "UPLOAD",
+      "items": "",
+      "primaryDocument": "filename1.pdf",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0000943663-23-000121",
+      "filingDate": "2023-09-07",
+      "reportDate": "",
+      "form": "CORRESP",
+      "items": "",
+      "primaryDocument": "filename1.htm",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0000000000-23-010382",
+      "filingDate": "2023-09-20",
+      "reportDate": "",
+      "form": "UPLOAD",
+      "items": "",
+      "primaryDocument": "filename1.pdf",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0000894579-23-000255",
+      "filingDate": "2023-10-06",
+      "reportDate": "",
+      "form": "CORRESP",
+      "items": "",
+      "primaryDocument": "filename1.htm",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0000950170-23-060292",
+      "filingDate": "2023-11-07",
+      "reportDate": "2023-11-07",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "hear-20231107.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000950170-23-060382",
+      "filingDate": "2023-11-07",
+      "reportDate": "2023-09-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "hear-20230930.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000000000-23-013051",
+      "filingDate": "2023-11-30",
+      "reportDate": "",
+      "form": "UPLOAD",
+      "items": "",
+      "primaryDocument": "filename1.pdf",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0000894579-23-000272",
+      "filingDate": "2023-12-14",
+      "reportDate": "",
+      "form": "CORRESP",
+      "items": "",
+      "primaryDocument": "filename1.htm",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0000000000-23-013810",
+      "filingDate": "2023-12-19",
+      "reportDate": "",
+      "form": "UPLOAD",
+      "items": "",
+      "primaryDocument": "filename1.pdf",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0000950170-24-030793",
+      "filingDate": "2024-03-13",
+      "reportDate": "2024-03-13",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "hear-20240313.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000950170-24-030883",
+      "filingDate": "2024-03-13",
+      "reportDate": "2023-12-31",
+      "form": "10-K",
+      "items": "",
+      "primaryDocument": "hear-20231231.htm",
+      "primaryDocDescription": "10-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0001193125-24-070243",
+      "filingDate": "2024-03-18",
+      "reportDate": "2024-03-12",
+      "form": "8-K",
+      "items": "1.01,2.01,2.03,3.02,3.03,5.02,5.03,7.01,9.01",
+      "primaryDocument": "d806415d8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000894579-24-000191",
+      "filingDate": "2024-04-22",
+      "reportDate": "2024-04-16",
+      "form": "8-K",
+      "items": "5.02",
+      "primaryDocument": "turtlebeach8k04182024.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35465"
+    },
+    {
+      "accessionNumber": "0000894579-24-000194",
+      "filingDate": "2024-04-23",
+      "reportDate": "2024-04-22",
+      "form": "8-K",
+      "items": "5.03,9.01",
+      "primaryDocument": "turtlebeach8k04232024.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35465"
+    }
+  ],
+  "observed_excerpts": {
+    "comment_prominence": "We note that you present and discuss your non-GAAP measures, including Adjusted EBITDA, prior to discussing your GAAP results of operations. Your presentation appears to give greater prominence to the non-GAAP measures and does not comply with Item 10(e)(1)(i)(A) of Regulation S-K and Question 102.10 of the Division's Compliance & Disclosure Interpretations on Non-GAAP Financial Measures. Please revise your presentations and discussions in future filings to comply. This comment also applies to your Forms 10-Q for the quarterly periods ended March 31, 2023 and June 30, 2023, respectively. John Hanson FirstName LastNameJohn Hanson Turtle Beach Corp Comapany August 23, NameTurtle 2023 Beach Corp August Page 2 23, 2023 Page 2 FirstName LastName 2.",
+    "review_scope": "We have limited our review of your filing to the financial statements and related disclosures and have the following comments. In some of our comments, we may ask you to provide us with information so we may better understand your disclosure. Please respond to these comments within ten business days by providing the requested information or advise us as soon as possible when you will respond.",
+    "undertaking_prominence": "Response : The Company respectfully acknowledges the Staff’s comment and advises the Staff that in future filings with the Commission, it will reorganize this disclosure to comply with Item 10(e)(1)(i)(A) of Regulation S-K and Question 102.10 of the Division's Compliance & Disclosure Interpretations on Non-GAAP Financial Measures. In future filings, in the “Results of Operations” section, we will move the sub-section on “Key Performance Indicators and Non-GAAP Measures” to the end after “Other Non-Operating Expense (Income)”. 2. Comment : In future filings, please revise your presentation to clearly describe each of the adjustments you make when calculating your non-GAAP measures. Clearly describe the specific nature of the costs included in the adjustment and explain management's reasons for excluding these costs from the non-GAAP measure. Refer to Item 10(e)(1)(i) of Regulation S-K.",
+    "comment_adjustments": "s of Operations Key Performance Indicators and Non-GAAP Measures, page 27 1) Comment : We have reviewed your response to prior comments 1 and 2. Based on your responses, the adjustments to your non-GAAP financial measures for employee and executive retention costs and for inventory and component related reserves appear to be normal operating expenses necessary to operate your business. As such, these adjustments are inconsistent with Question 100.01 of the Non-GAAP Financial Measures Compliance & Disclosure Interpretations. Please revise your non-GAAP measures in future filings to remove these adjustments.",
+    "undertaking_adjustments": "Response: The Company respectfully acknowledges the Staff’s comment and will revise its non-GAAP measures in future filings to remove the adjustments for employee and executive retention costs and for inventory and component related reserves, in accordance with the Staff’s comment. * * * * * * * 1 If you have any questions or if you require additional information, please do not hesitate to contact me at (858) 914-4461. Sincerely, /s/ John T.",
+    "review_completed": "We have completed our review of your filing. We remind you that the company and its management are responsible for the accuracy and adequacy of their disclosures, notwithstanding any review, comments, action or absence of action by the staff. Sincerely, Division of Corporation Finance Office of Manufacturing"
+  },
+  "accessions": {
+    "tenk_2022": "0000950170-23-010660",
+    "upload_1": "0000000000-23-009245",
+    "corresp_1": "0000943663-23-000121",
+    "corresp_3": "0000894579-23-000272",
+    "upload_close": "0000000000-23-013810"
+  }
+}

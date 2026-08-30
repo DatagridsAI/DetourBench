@@ -1,0 +1,427 @@
+{
+ "graph": {
+  "nodes": {
+   "start": {
+    "desc": "On-call queue for legacy-cli-test-runner. Resolve the failed dependency-policy check in SEC-2187 and submit the smallest policy-compliant remediation with auditable justification."
+   },
+   "ticket": {
+    "desc": "SEC-2187: the dependency-policy workflow failed on the frozen project snapshot. Its job logs contain the scanner finding and input; inspect those logs before proposing a change."
+   },
+   "ci_failure": {
+    "desc": "Dependency-policy job logs: the scanner flags minimist 0.0.8 in package-lock.json. The report does not establish which declared dependency introduced it; inspect the lockfile."
+   },
+   "lockfile": {
+    "desc": "package-lock.json contains the flagged resolution among the project snapshot's direct and indirect entries. Query the frozen deps.dev 2.5.3:dependencies graph to reconstruct its provenance; the top-level manifest alone omits the resolved transitive path."
+   },
+   "dependency_graph": {
+    "desc": "The deps.dev snapshot contains several direct records and their resolved children. Inspect package records to determine which branch reaches the scanner finding."
+   },
+   "parent": {
+    "desc": "mocha 2.5.3 requires mkdirp 0.5.1; resolved mkdirp 0.5.1 requires minimist 0.0.8. Inspect resolved package minimist 0.0.8."
+   },
+   "vulnerable": {
+    "desc": "Resolved INDIRECT minimist 0.0.8. This record links reviewed GHSA entries and package/repository sources. Determine which of the exposed records are material to a defensible remediation."
+   },
+   "advisory_0": {
+    "desc": "GHSA-vh95-rmgr-6w4m (CVE-2020-7598): Prototype pollution through unsanitized arguments. Affected line 0.x before 0.2.1; first fixed 0.2.1."
+   },
+   "advisory_1": {
+    "desc": "GHSA-xvch-5gv4-984h (CVE-2021-44906): Prototype pollution in setKey remains in releases before the later fix. Affected line 0.x before 0.2.4; first fixed 0.2.4."
+   },
+   "release_tag": {
+    "desc": "Annotated Git tag v0.2.4 points to release commit 8c6be4872b7f49318337223f7099497c63d808d8. Two relevant history links are 34e20b8461118608703d6485326abbb8e35e1703 and 3dbebff0f4436cf946cb6c1e6db606f4b9bded4f; inspect both and determine their roles."
+   },
+   "implementation_commit": {
+    "desc": "Commit 34e20b8461118608703d6485326abbb8e35e1703: Rework isConstructorOrProto and apply it to the trailing key so __proto__ and constructor paths are ignored. Review changed file index.js."
+   },
+   "implementation": {
+    "desc": "index.js: Rework isConstructorOrProto and apply it to the trailing key so __proto__ and constructor paths are ignored. The regression behavior is recorded separately in test/proto.js."
+   },
+   "test_commit": {
+    "desc": "Commit 3dbebff0f4436cf946cb6c1e6db606f4b9bded4f: regression evidence in test/proto.js. Inspect the test file before treating the tagged release as verified."
+   },
+   "regression_test": {
+    "desc": "test/proto.js: Add regression checks that trailing __proto__ and constructor keys in dotted options are ignored. This corroborates the guard in index.js."
+   },
+   "safe_candidate": {
+    "desc": "Registry release minimist 0.2.4: It is the first 0.x release that clears both reviewed advisories; 0.2.1 clears only the earlier advisory. It matches the annotated tag; submit it to the CI security verify endpoint only with dependency, advisory, code, and test evidence."
+   },
+   "target": {
+    "desc": "CI remediation verified: override minimist 0.0.8 -> 0.2.4; dependency path, both advisories, tagged implementation, and regression evidence agree."
+   },
+   "scanner_exception": {
+    "desc": "Scanner-exception policy for legacy-cli-test-runner: suppression requires evidence that the finding is inapplicable; it cannot replace investigation of a resolved affected version."
+   },
+   "package_manifest": {
+    "desc": "The top-level package.json declares mocha 2.5.3 but does not freeze the child resolution or establish the full dependency path."
+   },
+   "rejected_candidate_0": {
+    "desc": "minimist 0.2.1: It clears GHSA-vh95-rmgr-6w4m but remains affected by GHSA-xvch-5gv4-984h."
+   },
+   "rejected_candidate_1": {
+    "desc": "minimist 1.2.6: It clears both advisories but changes release line and is not the smallest policy-compliant non-downgrade override."
+   },
+   "unrelated_0": {
+    "desc": "commander 2.3.0 is direct but does not introduce minimist in this snapshot."
+   },
+   "unrelated_1": {
+    "desc": "debug 2.2.0 is direct but does not introduce minimist in this snapshot."
+   },
+   "release_metadata": {
+    "desc": "Registry metadata announces v0.2.4, but contains neither the changed implementation nor regression assertions."
+   }
+  },
+  "edges": {
+   "start": [
+    {
+     "edge_id": "e_ticket",
+     "to": "ticket",
+     "desc": "scenario://legacy-cli-test-runner/issues/SEC-2187",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "ticket": [
+    {
+     "edge_id": "e_ci",
+     "to": "ci_failure",
+     "desc": "scenario://legacy-cli-test-runner/actions/jobs/SEC-2187/logs",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "ci_failure": [
+    {
+     "edge_id": "e_lock",
+     "to": "lockfile",
+     "desc": "repo://legacy-cli-test-runner/package-lock.json",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_scanner_exception",
+     "to": "scanner_exception",
+     "desc": "scenario://legacy-cli-test-runner/security/scanner-exceptions",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "lockfile": [
+    {
+     "edge_id": "e_graph",
+     "to": "dependency_graph",
+     "desc": "https://api.deps.dev/v3/systems/NPM/packages/mocha/versions/2.5.3:dependencies",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_package_manifest",
+     "to": "package_manifest",
+     "desc": "repo://legacy-cli-test-runner/package.json",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "dependency_graph": [
+    {
+     "edge_id": "e_parent",
+     "to": "parent",
+     "desc": "https://deps.dev/npm/mkdirp/0.5.1",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_unrelated_0",
+     "to": "unrelated_0",
+     "desc": "https://deps.dev/npm/commander/2.3.0",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_unrelated_1",
+     "to": "unrelated_1",
+     "desc": "https://deps.dev/npm/debug/2.2.0",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "parent": [
+    {
+     "edge_id": "e_vulnerable",
+     "to": "vulnerable",
+     "desc": "https://deps.dev/npm/minimist/0.0.8",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "vulnerable": [
+    {
+     "edge_id": "e_advisory_0",
+     "to": "advisory_0",
+     "desc": "https://api.osv.dev/v1/vulns/GHSA-vh95-rmgr-6w4m",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_advisory_1",
+     "to": "advisory_1",
+     "desc": "https://api.osv.dev/v1/vulns/GHSA-xvch-5gv4-984h",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_release",
+     "to": "release_tag",
+     "desc": "https://api.github.com/repos/minimistjs/minimist/git/ref/tags/v0.2.4",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_safe",
+     "to": "safe_candidate",
+     "desc": "https://registry.npmjs.org/minimist/0.2.4",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_rejected_0",
+     "to": "rejected_candidate_0",
+     "desc": "https://registry.npmjs.org/minimist/0.2.1",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_rejected_1",
+     "to": "rejected_candidate_1",
+     "desc": "https://registry.npmjs.org/minimist/1.2.6",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "advisory_0": [],
+   "advisory_1": [],
+   "release_tag": [
+    {
+     "edge_id": "e_impl_commit",
+     "to": "implementation_commit",
+     "desc": "https://api.github.com/repos/minimistjs/minimist/commits/34e20b8461118608703d6485326abbb8e35e1703",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_test_commit",
+     "to": "test_commit",
+     "desc": "https://api.github.com/repos/minimistjs/minimist/commits/3dbebff0f4436cf946cb6c1e6db606f4b9bded4f",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_release_metadata",
+     "to": "release_metadata",
+     "desc": "https://registry.npmjs.org/minimist/0.2.4?view=release-metadata",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "implementation_commit": [
+    {
+     "edge_id": "e_impl",
+     "to": "implementation",
+     "desc": "repo://minimistjs/minimist/34e20b8461118608703d6485326abbb8e35e1703/index.js",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "implementation": [],
+   "test_commit": [
+    {
+     "edge_id": "e_test",
+     "to": "regression_test",
+     "desc": "repo://minimistjs/minimist/3dbebff0f4436cf946cb6c1e6db606f4b9bded4f/test/proto.js",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "regression_test": [],
+   "safe_candidate": [
+    {
+     "edge_id": "e_verify",
+     "to": "target",
+     "desc": "https://ci.internal/legacy-cli-test-runner/security/verify",
+     "resource_type": "endpoint",
+     "requires": [
+      "ticket_scope",
+      "failed_check",
+      "dependency_path",
+      "advisory_0_range",
+      "advisory_1_range",
+      "release_evidence",
+      "implementation_evidence",
+      "test_evidence",
+      "selected_override"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "target": [],
+   "scanner_exception": [],
+   "package_manifest": [],
+   "rejected_candidate_0": [],
+   "rejected_candidate_1": [],
+   "unrelated_0": [],
+   "unrelated_1": [],
+   "release_metadata": []
+  }
+ },
+ "meta": {
+  "start": "start",
+  "target": "target",
+  "token_grants": {
+   "ticket": "ticket_scope",
+   "ci_failure": "failed_check",
+   "parent": "dependency_path",
+   "advisory_0": "advisory_0_range",
+   "advisory_1": "advisory_1_range",
+   "release_tag": "release_evidence",
+   "implementation": "implementation_evidence",
+   "regression_test": "test_evidence",
+   "safe_candidate": "selected_override"
+  },
+  "loop_nodes": [],
+  "dead_end_nodes": [
+   "scanner_exception",
+   "package_manifest",
+   "rejected_candidate_0",
+   "rejected_candidate_1",
+   "unrelated_0",
+   "unrelated_1",
+   "release_metadata"
+  ],
+  "informed_lower_bound": 15,
+  "mechanism_regions": {
+   "scenario": [
+    "ticket",
+    "ci_failure"
+   ],
+   "dependency_resolution": [
+    "lockfile",
+    "dependency_graph",
+    "parent",
+    "vulnerable"
+   ],
+   "overlapping_advisories": [
+    "advisory_0",
+    "advisory_1"
+   ],
+   "release_validation": [
+    "release_tag",
+    "release_metadata"
+   ],
+   "code_validation": [
+    "implementation_commit",
+    "implementation"
+   ],
+   "regression_validation": [
+    "test_commit",
+    "regression_test"
+   ],
+   "candidate_selection": [
+    "safe_candidate",
+    "scanner_exception",
+    "package_manifest",
+    "rejected_candidate_0",
+    "rejected_candidate_1",
+    "unrelated_0",
+    "unrelated_1"
+   ]
+  },
+  "corpus_case_id": "npm-mocha-minimist-overlapping-ghsa",
+  "source_kinds": [
+   "scenario overlay",
+   "deps.dev",
+   "OSV",
+   "GitHub",
+   "npm registry"
+  ],
+  "theme_orthogonal": false,
+  "theme": "software_dependency",
+  "topology": "integrated_transitive_case",
+  "honeypot_depth": 5,
+  "loop_size": 3,
+  "loop_base_url": "https://deps.dev/_/advisory/pages",
+  "loop_host_vocab": [
+   "resolver-01",
+   "resolver-04",
+   "resolver-07",
+   "resolver-11"
+  ],
+  "loop_desc_template": "Resolution page from {host}: [{level}] {n} candidate versions returned. Response includes a `next_token` for continued paging.",
+  "difficulty": "hard",
+  "step_budget": 23
+ }
+}

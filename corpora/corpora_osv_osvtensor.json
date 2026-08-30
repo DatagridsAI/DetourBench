@@ -1,0 +1,1245 @@
+{
+ "seed": "GHSA-jfq2-rj7f-9gvf",
+ "sections": {
+  "PYSEC-2019-206": {
+   "title": "PYSEC-2019-206",
+   "text": "PYSEC-2019-206 Affected: tensorflow. Severity: unrated. from 0; fixed in 1.7.0rc0 Google TensorFlow 1.6.x and earlier is affected by: Null Pointer Dereference. The type of exploitation is: context-dependent.",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "PYSEC-2019-204"
+   ],
+   "amended_years": [
+    2019,
+    2023
+   ],
+   "history": "[published 2019-04-23, last modified 2023-11-08]"
+  },
+  "GHSA-jfq2-rj7f-9gvf": {
+   "title": "Null pointer dereference in TensorFlow leads to exploitation",
+   "text": "Null pointer dereference in TensorFlow leads to exploitation Affected: tensorflow, tensorflow-gpu. Severity: HIGH. from 1.0.0; fixed in 1.6.0; from 1.0.0; fixed in 1.6.0 Google TensorFlow 1.0.0 through 1.5.1 is affected by: Null Pointer Dereference. The type of exploitation is: context-dependent.",
+   "refs": [
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46",
+    "GHSA-hhvc-g5hv-48c6"
+   ],
+   "amended_years": [
+    2019,
+    2024
+   ],
+   "history": "[published 2019-04-24, last modified 2024-10-28]"
+  },
+  "GHSA-844w-j86r-4x2j": {
+   "title": "Heap buffer overflow in `UnsortedSegmentSum` in TensorFlow",
+   "text": "Heap buffer overflow in `UnsortedSegmentSum` in TensorFlow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: LOW. from 0; fixed in 1.15.0; from 0; fixed in 1.15.0; from 0; fixed in 1.15.0 ### Impact A heap buffer overflow in `UnsortedSegmentSum` can be produced when the `Index` template argument is `int32`. In this case `data_size` and `num_segments` fields are truncated from `int64` to `int32` and can produce negative numbers, resulting in accessing out of bounds heap memory. This is unlikely to be exploitable and was detected and fixed internally. We are making the security advisory only to notify users that it is better to update to TensorFlow 1.15 or 2.0 or later as these versions already have this fixed. ### Patches Patched by db4f9717c41bccc3ce10099ab61996b246099892 and released in all official releases after 1.15 and 2.0. ### For more information Please consult [`SECURITY.md`](https://github.com/tensorflow/tensorflow/blob/master/SECURITY.md) for more information regarding the security model and how to contact us with issues and questions.",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46",
+    "GHSA-hhvc-g5hv-48c6"
+   ],
+   "amended_years": [
+    2019,
+    2026
+   ],
+   "history": "[published 2019-12-16, last modified 2026-07-08]"
+  },
+  "PYSEC-2019-204": {
+   "title": "PYSEC-2019-204",
+   "text": "PYSEC-2019-204 Affected: tensorflow. Severity: unrated. from 0; fixed in 1.7.1 Invalid memory access and/or a heap buffer overflow in the TensorFlow XLA compiler in Google TensorFlow before 1.7.1 could cause a crash or read from other parts of process memory via a crafted configuration file.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2019,
+    2023
+   ],
+   "history": "[published 2019-04-24, last modified 2023-11-08]"
+  },
+  "PYSEC-2019-209": {
+   "title": "PYSEC-2019-209",
+   "text": "PYSEC-2019-209 Affected: tensorflow. Severity: unrated. from 0; fixed in db4f9717c41bccc3ce10099ab61996b246099892; from 1.0.0; fixed in 1.15.0 In TensorFlow before 1.15, a heap buffer overflow in UnsortedSegmentSum can be produced when the Index template argument is int32. In this case data_size and num_segments fields are truncated from int64 to int32 and can produce negative numbers, resulting in accessing out of bounds heap memory. This is unlikely to be exploitable and was detected and fixed internally in TensorFlow 1.15 and 2.0.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2019,
+    2023
+   ],
+   "history": "[published 2019-12-16, last modified 2023-11-08]"
+  },
+  "GHSA-frxx-2m33-6wcr": {
+   "title": "Improper Restriction of Operations within the Bounds of a Memory Buffer in Google TensorFlow",
+   "text": "Improper Restriction of Operations within the Bounds of a Memory Buffer in Google TensorFlow Affected: tensorflow, tensorflow-gpu. Severity: HIGH. from 1.5.0; fixed in 1.7.1; from 1.5.0; fixed in 1.7.1 Google TensorFlow 1.7 and below is affected by: Buffer Overflow. The impact is: execute arbitrary code (local). Users passing a malformed or malicious version of a TFLite graph into TOCO will cause TOCO to crash or cause a buffer overflow, potentially allowing malicious code to be executed.",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46",
+    "GHSA-hhvc-g5hv-48c6"
+   ],
+   "amended_years": [
+    2019,
+    2024
+   ],
+   "history": "[published 2019-04-24, last modified 2024-10-28]"
+  },
+  "GHSA-mw6v-crh8-8533": {
+   "title": "Integer Overflow or Wraparound in Google TensorFlow",
+   "text": "Integer Overflow or Wraparound in Google TensorFlow Affected: tensorflow, tensorflow-gpu. Severity: CRITICAL. from 1.0.0; fixed in 1.7.1; from 1.0.0; fixed in 1.7.1 ### Issue Description Google TensorFlow 1.7.x and earlier is affected by a Buffer Overflow vulnerability. The type of exploitation is context-dependent. The block size in meta file might contain a large int64 value which causes an integer overflow upon addition. Subsequent code using n as index may cause an out-of-bounds read. ### Impact A maliciously crafted meta checkpoint could be used to cause the TensorFlow process to perform an out of bounds read on in process memory.",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46",
+    "GHSA-hhvc-g5hv-48c6"
+   ],
+   "amended_years": [
+    2019,
+    2024
+   ],
+   "history": "[published 2019-04-30, last modified 2024-10-28]"
+  },
+  "GHSA-943p-xc6m-c6gr": {
+   "title": "Rejected CVE ID",
+   "text": "Rejected CVE ID Affected: tensorflow. Severity: HIGH. from 1.3.0; fixed in 1.7.0 ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2018-7576, CVE-2018-21233. Reason: this candidate was intended for one issue, but the description and references inadvertently combined multiple issues. Notes: All CVE users should consult CVE-2018-7576 and CVE-2018-21233 to determine which ID is appropriate. All references and descriptions in this candidate have been removed to prevent accidental usage.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2019,
+    2024
+   ],
+   "history": "[published 2019-04-30, last modified 2024-12-01]"
+  },
+  "GHSA-qx2v-j445-g354": {
+   "title": "Improper Input Validation in Google TensorFlow",
+   "text": "Improper Input Validation in Google TensorFlow Affected: tensorflow, tensorflow-gpu. Severity: HIGH. from 1.1.0; fixed in 1.7.1; from 1.1.0; fixed in 1.7.1 Memcpy parameter overlap in Google Snappy library 1.1.4, as used in Google TensorFlow before 1.7.1, could result in a crash or read from other parts of process memory.",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46",
+    "GHSA-hhvc-g5hv-48c6"
+   ],
+   "amended_years": [
+    2019,
+    2024
+   ],
+   "history": "[published 2019-04-30, last modified 2024-10-28]"
+  },
+  "PYSEC-2019-208": {
+   "title": "PYSEC-2019-208",
+   "text": "PYSEC-2019-208 Affected: tensorflow. Severity: unrated. from 0; fixed in 1.7.1 Google TensorFlow 1.7 and below is affected by: Buffer Overflow. The impact is: execute arbitrary code (local).",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2019,
+    2023
+   ],
+   "history": "[published 2019-04-23, last modified 2023-11-08]"
+  },
+  "PYSEC-2019-205": {
+   "title": "PYSEC-2019-205",
+   "text": "PYSEC-2019-205 Affected: tensorflow. Severity: unrated. from 0; fixed in 1.7.1 Google TensorFlow 1.7.x and earlier is affected by a Buffer Overflow vulnerability. The type of exploitation is context-dependent.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2019,
+    2023
+   ],
+   "history": "[published 2019-04-24, last modified 2023-11-08]"
+  },
+  "PYSEC-2019-210": {
+   "title": "PYSEC-2019-210",
+   "text": "PYSEC-2019-210 Affected: tensorflow. Severity: unrated. from 0; fixed in 1.12.2 NULL pointer dereference in Google TensorFlow before 1.12.2 could cause a denial of service via an invalid GIF file.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2019,
+    2023
+   ],
+   "history": "[published 2019-04-24, last modified 2023-11-08]"
+  },
+  "GHSA-mfg7-x5m7-6p8w": {
+   "title": "NULL Pointer Dereference in Google TensorFlow",
+   "text": "NULL Pointer Dereference in Google TensorFlow Affected: tensorflow, tensorflow-gpu. Severity: HIGH. from 1.0.0; fixed in 1.12.1; from 1.0.0; fixed in 1.12.1 NULL pointer dereference in Google TensorFlow before 1.12.1 could cause a denial of service via an invalid GIF file.",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46",
+    "GHSA-hhvc-g5hv-48c6"
+   ],
+   "amended_years": [
+    2019,
+    2024
+   ],
+   "history": "[published 2019-04-30, last modified 2024-10-28]"
+  },
+  "GHSA-q492-f7gr-27rp": {
+   "title": "Improper Restriction of Operations within the Bounds of a Memory Buffer in Google TensorFlow",
+   "text": "Improper Restriction of Operations within the Bounds of a Memory Buffer in Google TensorFlow Affected: tensorflow, tensorflow-gpu. Severity: HIGH. from 1.1.0; fixed in 1.7.1; from 1.1.0; fixed in 1.7.1 Invalid memory access and/or a heap buffer overflow in the TensorFlow XLA compiler in Google TensorFlow before 1.7.1 could cause a crash or read from other parts of process memory via a crafted configuration file.",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-g7p5-5759-qv46",
+    "GHSA-hhvc-g5hv-48c6"
+   ],
+   "amended_years": [
+    2019,
+    2024
+   ],
+   "history": "[published 2019-04-30, last modified 2024-10-28]"
+  },
+  "PYSEC-2019-207": {
+   "title": "PYSEC-2019-207",
+   "text": "PYSEC-2019-207 Affected: tensorflow. Severity: unrated. from 0; fixed in 1.7.1 Memcpy parameter overlap in Google Snappy library 1.1.4, as used in Google TensorFlow before 1.7.1, could result in a crash or read from other parts of process memory.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2019,
+    2023
+   ],
+   "history": "[published 2019-04-24, last modified 2023-11-08]"
+  },
+  "GHSA-g7p5-5759-qv46": {
+   "title": "Data leak in Tensorflow",
+   "text": "Data leak in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact The `data_splits` argument of [`tf.raw_ops.StringNGrams`](https://www.tensorflow.org/api_docs/python/tf/raw_ops/StringNGrams) lacks validation. This allows a user to pass values that can cause heap overflow errors and even leak contents of memory ```python >>> tf.raw_ops.StringNGrams(data=[\"aa\", \"bb\", \"cc\", \"dd\", \"ee\", \"ff\"], data_splits=[0,8], separator=\" \", ngram_widths=[3], left_pad=\"\", right_pad=\"\", pad_width=0, preserve_short_sequences=False) StringNGrams(ngrams=<tf.Tensor: shape=(6,), dtype=string, numpy= array([b'aa bb cc', b'bb cc dd', b'cc dd ee', b'dd ee ff', b'ee ff \\xf4j\\xa7q\\x7f\\x00\\x00q\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xd8\\x9b~\\xa8q\\x7f\\x00', b'ff \\xf4j\\xa7q\\x7f\\x00\\x00q\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xd8\\x9b~\\xa8q\\x7f\\x00 \\x9b~\\xa8q\\x7f\\x00\\x00p\\xf5j\\xa7q\\x7f\\x00\\x00H\\xf8j\\xa7q\\x7f\\x00\\x00\\xf0\\xf3\\xf7\\x85q\\x7f\\x00\\x00`}\\xa6\\x00\\x00\\x00\\x00\\x00`~\\xa6\\x00\\x00\\x00\\x00\\x00\\",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-hhvc-g5hv-48c6"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-132": {
+   "title": "PYSEC-2020-132",
+   "text": "PYSEC-2020-132 Affected: tensorflow. Severity: unrated. from 0; fixed in 0b5662bc2be13a8c8f044d925d87fb6e56247cd8; from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3 In tensorflow-lite before versions 1.15.4, 2.0.3, 2.1.2, 2.2.1 and 2.3.1, a crafted TFLite model can force a node to have as input a tensor backed by a `nullptr` buffer. This can be achieved by changing a buffer index in the flatbuffer serialization to convert a read-only tensor to a read-write one. The runtime assumes that these buffers are written to before a possible read, hence they are initialized with `nullptr`. However, by changing the buffer index for a tensor and implicitly converting that tensor to be a read-write one, as there is nothing in the model that writes to it, we get a null pointer dereference. The issue is patched in commit 0b5662bc, and is released in TensorFlow versions 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-hhvc-g5hv-48c6": {
+   "title": "Write to immutable memory region in TensorFlow",
+   "text": "Write to immutable memory region in TensorFlow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 0; fixed in 1.15.5; from 2.0.0; fixed in 2.0.4; from 2.1.0; fixed in 2.1.3 ### Impact The `tf.raw_ops.ImmutableConst` operation returns a constant tensor created from a memory mapped file which is assumed immutable. However, if the type of the tensor is not an integral type, the operation crashes the Python interpreter as it tries to write to the memory area: ```python >>> import tensorflow as tf >>> with open('/tmp/test.txt','w') as f: f.write('a'*128) >>> tf.raw_ops.ImmutableConst(dtype=tf.string,shape=2, memory_region_name='/tmp/test.txt') ``` If the file is too small, TensorFlow properly returns an error as the memory area has fewer bytes than what is needed for the tensor it creates. However, as soon as there are enough bytes, the above snippet causes a segmentation fault. This is because the alocator used to return the buffer data is not marked as returning an opaque handle since the [needed virtual method](https://github.com/tensorflow/tensorflow/blob/c1",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-12-10, last modified 2026-03-13]"
+  },
+  "PYSEC-2020-258": {
+   "title": "PYSEC-2020-258",
+   "text": "PYSEC-2020-258 Affected: tensorflow. Severity: unrated. from 0; fixed in 5ac1b9e24ff6afc465756edf845d2e9660bd34bf; from 0; fixed in 1.15.2; from 2.0.0; fixed in 2.0.1 In TensorFlow before 1.15.2 and 2.0.1, converting a string (from Python) to a tf.float16 value results in a segmentation fault in eager mode as the format checks for this use case are only in the graph mode. This issue can lead to denial of service in inference/training where a malicious attacker can send a data point which contains a string instead of a tf.float16 value. Similar effects can be obtained by manipulating saved models and checkpoints whereby replacing a scalar tf.float16 value with a scalar string will trigger this issue due to automatic conversions. This can be easily reproduced by tf.constant(\"hello\", tf.float16), if eager execution is enabled. This issue is patched in TensorFlow 1.15.1 and 2.0.1 with this vulnerability patched. TensorFlow 2.1.0 was released after we fixed the issue, thus it is not affected. Users are encouraged to switch to TensorFlow 1.15.1, 2.0.1 or 2.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-01-28, last modified 2023-12-06]"
+  },
+  "GHSA-hjmq-236j-8m87": {
+   "title": "Denial of service in tensorflow-lite",
+   "text": "Denial of service in tensorflow-lite Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 2.2.0; fixed in 2.2.1; from 2.3.0; fixed in 2.3.1; from 2.2.0; fixed in 2.2.1 ### Impact In TensorFlow Lite models using segment sum can trigger a denial of service by causing an out of memory allocation in the implementation of segment sum. Since code uses the last element of the tensor holding them to determine the dimensionality of output tensor, attackers can use a very large value to trigger a large allocation: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/lite/kernels/segment_sum.cc#L39-L44 ### Patches We have patched the issue in 204945b and will release patch releases for all affected versions. We recommend users to upgrade to TensorFlow 2.2.1, or 2.3.1. ### Workarounds A potential workaround would be to add a custom `Verifier` to limit the maximum value in the segment ids tensor. This only handles the case when the segment ids are stored statically in the model, but a similar validation could be done if ",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "GHSA-pg59-2f92-5cph": {
+   "title": "Heap buffer overflow in Tensorflow",
+   "text": "Heap buffer overflow in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 2.3.0; fixed in 2.3.1; from 2.3.0; fixed in 2.3.1; from 2.3.0; fixed in 2.3.1 ### Impact The `SparseCountSparseOutput` and `RaggedCountSparseOutput` implementations don't validate that the `weights` tensor has the same shape as the data. The check exists for `DenseCountSparseOutput`, where both tensors are fully specified: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/count_ops.cc#L110-L117 In the sparse and ragged count weights are still accessed in parallel with the data: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/count_ops.cc#L199-L201 But, since there is no validation, a user passing fewer weights than the values for the tensors can generate a read from outside the bounds of the heap buffer allocated for the weights. ### Patches We have patched the issue in 3cbb917b4714766030b28eba9fb41bb97ce9ee02 and will release a patch release",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-130": {
+   "title": "PYSEC-2020-130",
+   "text": "PYSEC-2020-130 Affected: tensorflow. Severity: unrated. from 0; fixed in 2d88f470dea2671b430884260f3626b1fe99830a; from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3 In tensorflow-lite before versions 1.15.4, 2.0.3, 2.1.2, 2.2.1 and 2.3.1, to mimic Python's indexing with negative values, TFLite uses `ResolveAxis` to convert negative values to positive indices. However, the only check that the converted index is now valid is only present in debug builds. If the `DCHECK` does not trigger, then code execution moves ahead with a negative index. This, in turn, results in accessing data out of bounds which results in segfaults and/or data corruption. The issue is patched in commit 2d88f470dea2671b430884260f3626b1fe99830a, and is released in TensorFlow versions 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-136": {
+   "title": "PYSEC-2020-136",
+   "text": "PYSEC-2020-136 Affected: tensorflow. Severity: unrated. from 0; fixed in 204945b19e44b57906c9344c0d00120eeeae178a; from 2.2.0; fixed in 2.2.1; from 2.3.0; fixed in 2.3.1 In TensorFlow Lite before versions 2.2.1 and 2.3.1, models using segment sum can trigger a denial of service by causing an out of memory allocation in the implementation of segment sum. Since code uses the last element of the tensor holding them to determine the dimensionality of output tensor, attackers can use a very large value to trigger a large allocation. The issue is patched in commit 204945b19e44b57906c9344c0d00120eeeae178a and is released in TensorFlow versions 2.2.1, or 2.3.1. A potential workaround would be to add a custom `Verifier` to limit the maximum value in the segment ids tensor. This only handles the case when the segment ids are stored statically in the model, but a similar validation could be done if the segment ids are generated at runtime, between inference steps. However, if the segment ids are generated as outputs of a tensor during inference steps, then there ar",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-xmq7-7fxm-rr79": {
+   "title": "Denial of Service in Tensorflow",
+   "text": "Denial of Service in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: HIGH. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact By controlling the `fill` argument of [`tf.strings.as_string`](https://www.tensorflow.org/api_docs/python/tf/strings/as_string), a malicious attacker is able to trigger a format string vulnerability due to the way the internal format use in a `printf` call is constructed: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/as_string_op.cc#L68-L74 This can result in unexpected output: ```python In [1]: tf.strings.as_string(input=[1234], width=6, fill='-') Out[1]: <tf.Tensor: shape=(1,), dtype=string, numpy=array(['1234 '], dtype=object)> In [2]: tf.strings.as_string(input=[1234], width=6, fill='+') Out[2]: <tf.Tensor: shape=(1,), dtype=string, numpy=array([' +1234'], dtype=object)> In [3]: tf.strings.as_string(input=[1234], width=6, fill=\"h\") Out[3]: <tf.Tensor: shape=(1,), dtype=string, numpy=array(['%6d'], dtype=objec",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "GHSA-h6fg-mjxg-hqq4": {
+   "title": "Integer truncation in Shard API usage",
+   "text": "Integer truncation in Shard API usage Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: HIGH. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact The `Shard` API in TensorFlow expects the last argument to be a function taking two `int64` (i.e., `long long`) arguments: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/util/work_sharder.h#L59-L60 However, there are several places in TensorFlow where a lambda taking `int` or `int32` arguments is being used: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/random_op.cc#L204-L205 https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/random_op.cc#L317-L318 In these cases, if the amount of work to be parallelized is large enough, integer truncation occurs. Depending on how the two arguments of the lambda are used, this can result in segfaults, read/write outside of heap allocated arrays, stack overflows, or ",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "GHSA-p2cq-cprg-frvm": {
+   "title": "Out of bounds write in tensorflow-lite",
+   "text": "Out of bounds write in tensorflow-lite Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: CRITICAL. from 2.2.0; fixed in 2.2.1; from 2.3.0; fixed in 2.3.1; from 2.2.0; fixed in 2.2.1 ### Impact In TensorFlow Lite models using segment sum can trigger a write out bounds / segmentation fault if the segment ids are not sorted. Code assumes that the segment ids are in increasing order, using the last element of the tensor holding them to determine the dimensionality of output tensor: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/lite/kernels/segment_sum.cc#L39-L44 This results in allocating insufficient memory for the output tensor and in a write outside the bounds of the output array: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/lite/kernels/internal/reference/reference_ops.h#L2625-L2631 This usually results in a segmentation fault, but depending on runtime conditions it can provide for a write gadget to be used in future memory corruption-based exploits. ### Patches ",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "GHSA-jc87-6vpp-7ff3": {
+   "title": "Heap buffer overflow in Tensorflow",
+   "text": "Heap buffer overflow in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 2.3.0; fixed in 2.3.1; from 2.3.0; fixed in 2.3.1; from 2.3.0; fixed in 2.3.1 ### Impact The `SparseCountSparseOutput` implementation does not validate that the input arguments form a valid sparse tensor. In particular, there is no validation that the `indices` tensor has the same shape as the `values` one. The values in these tensors are always accessed in parallel: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/count_ops.cc#L193-L195 Thus, a shape mismatch can result in accesses outside the bounds of heap allocated buffers. ### Patches We have patched the issue in 3cbb917b4714766030b28eba9fb41bb97ce9ee02 and will release a patch release. We recommend users to upgrade to TensorFlow 2.3.1. ### For more information Please consult [our security guide](https://github.com/tensorflow/tensorflow/blob/master/SECURITY.md) for more information regarding the security model and how to contact us with issues and ",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-03-13]"
+  },
+  "PYSEC-2020-131": {
+   "title": "PYSEC-2020-131",
+   "text": "PYSEC-2020-131 Affected: tensorflow. Severity: unrated. from 0; fixed in 8ee24e7949a203d234489f9da2c5bf45a7d5157d; from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3 In tensorflow-lite before versions 1.15.4, 2.0.3, 2.1.2, 2.2.1 and 2.3.1, when determining the common dimension size of two tensors, TFLite uses a `DCHECK` which is no-op outside of debug compilation modes. Since the function always returns the dimension of the first tensor, malicious attackers can craft cases where this is larger than that of the second tensor. In turn, this would result in reads/writes outside of bounds since the interpreter will wrongly assume that there is enough data in both tensors. The issue is patched in commit 8ee24e7949a203d234489f9da2c5bf45a7d5157d, and is released in TensorFlow versions 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-126": {
+   "title": "PYSEC-2020-126",
+   "text": "PYSEC-2020-126 Affected: tensorflow. Severity: unrated. from 0; fixed in 33be22c65d86256e6826666662e40dbdfe70ee83; from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3 In Tensorflow before versions 1.15.4, 2.0.3, 2.1.2, 2.2.1 and 2.3.1, by controlling the `fill` argument of tf.strings.as_string, a malicious attacker is able to trigger a format string vulnerability due to the way the internal format use in a `printf` call is constructed. This may result in segmentation fault. The issue is patched in commit 33be22c65d86256e6826666662e40dbdfe70ee83, and is released in TensorFlow versions 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-254": {
+   "title": "PYSEC-2020-254",
+   "text": "PYSEC-2020-254 Affected: tensorflow. Severity: unrated. from 0; fixed in ace0c15a22f7f054abcc1f53eabbcb0a1239a9e2; from 0; fixed in 1.15.5; from 2.0.0; fixed in 2.0.4 In affected versions of TensorFlow under certain cases a saved model can trigger use of uninitialized values during code execution. This is caused by having tensor buffers be filled with the default value of the type but forgetting to default initialize the quantized floating point types in Eigen. This is fixed in versions 1.15.5, 2.0.4, 2.1.3, 2.2.2, 2.3.2, and 2.4.0.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-12-10, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-257": {
+   "title": "PYSEC-2020-257",
+   "text": "PYSEC-2020-257 Affected: tensorflow. Severity: unrated. from 0; fixed in 0cc38aaa4064fd9e79101994ce9872c6d91f816b; from 0; fixed in 1.15.5; from 2.0.0; fixed in 2.0.4 In affected versions of TensorFlow under certain cases, loading a saved model can result in accessing uninitialized memory while building the computation graph. The MakeEdge function creates an edge between one output tensor of the src node (given by output_index) and the input slot of the dst node (given by input_index). This is only possible if the types of the tensors on both sides coincide, so the function begins by obtaining the corresponding DataType values and comparing these for equality. However, there is no check that the indices point to inside of the arrays they index into. Thus, this can result in accessing data out of bounds of the corresponding heap allocated arrays. In most scenarios, this can manifest as unitialized data access, but if the index points far away from the boundaries of the arrays this can be used to leak addresses from the library. This is fixed in version",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-12-10, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-255": {
+   "title": "PYSEC-2020-255",
+   "text": "PYSEC-2020-255 Affected: tensorflow. Severity: unrated. from 0; fixed in c1e1fc899ad5f8c725dcbb6470069890b5060bc7; from 0; fixed in 1.15.5; from 2.0.0; fixed in 2.0.4 In affected versions of TensorFlow the tf.raw_ops.ImmutableConst operation returns a constant tensor created from a memory mapped file which is assumed immutable. However, if the type of the tensor is not an integral type, the operation crashes the Python interpreter as it tries to write to the memory area. If the file is too small, TensorFlow properly returns an error as the memory area has fewer bytes than what is needed for the tensor it creates. However, as soon as there are enough bytes, the above snippet causes a segmentation fault. This is because the allocator used to return the buffer data is not marked as returning an opaque handle since the needed virtual method is not overridden. This is fixed in versions 1.15.5, 2.0.4, 2.1.3, 2.2.2, 2.3.2, and 2.4.0.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-12-10, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-123": {
+   "title": "PYSEC-2020-123",
+   "text": "PYSEC-2020-123 Affected: tensorflow. Severity: unrated. from 0; fixed in 3cbb917b4714766030b28eba9fb41bb97ce9ee02; from 0; fixed in 2.3.1 In Tensorflow before version 2.3.1, the `RaggedCountSparseOutput` implementation does not validate that the input arguments form a valid ragged tensor. In particular, there is no validation that the values in the `splits` tensor generate a valid partitioning of the `values` tensor. Thus, the code sets up conditions to cause a heap buffer overflow. A `BatchedMap` is equivalent to a vector where each element is a hashmap. However, if the first element of `splits_values` is not 0, `batch_idx` will never be 1, hence there will be no hashmap at index 0 in `per_batch_counts`. Trying to access that in the user code results in a segmentation fault. The issue is patched in commit 3cbb917b4714766030b28eba9fb41bb97ce9ee02 and is released in TensorFlow version 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-qhxx-j73r-qpm2": {
+   "title": "Uninitialized memory access in TensorFlow",
+   "text": "Uninitialized memory access in TensorFlow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 0; fixed in 1.15.5; from 2.0.0; fixed in 2.0.4; from 2.1.0; fixed in 2.1.3 ### Impact Under certain cases, a saved model can trigger use of uninitialized values during code execution. This is caused by having tensor buffers be filled with the default value of the type but forgetting to [default initialize the quantized floating point types in Eigen](https://github.com/tensorflow/tensorflow/blob/f70160322a579144950dff1537dcbe3c7c09d6f5/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h#L61-L104): ```cc struct QUInt8 { QUInt8() {} // ... uint8_t value; }; struct QInt16 { QInt16() {} // ... int16_t value; }; struct QUInt16 { QUInt16() {} // ... uint16_t value; }; struct QInt32 { QInt32() {} // ... int32_t value; }; ``` ### Patches We have patched the issue in GitHub commit [ace0c15a22f7f054abcc1f53eabbcb0a1239a9e2](https://github.com/tensorflow/tensorflow/commit/ace0c15a22f7f054abcc1f53eabbcb0a1239a9e2) and will release TensorFlow 2.4.0 co",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-12-10, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-121": {
+   "title": "PYSEC-2020-121",
+   "text": "PYSEC-2020-121 Affected: tensorflow. Severity: unrated. from 0; fixed in 3cbb917b4714766030b28eba9fb41bb97ce9ee02; from 0; fixed in 2.3.1 In Tensorflow before version 2.3.1, the `SparseCountSparseOutput` implementation does not validate that the input arguments form a valid sparse tensor. In particular, there is no validation that the `indices` tensor has the same shape as the `values` one. The values in these tensors are always accessed in parallel. Thus, a shape mismatch can result in accesses outside the bounds of heap allocated buffers. The issue is patched in commit 3cbb917b4714766030b28eba9fb41bb97ce9ee02 and is released in TensorFlow version 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-8fxw-76px-3rxv": {
+   "title": "Memory leak in Tensorflow",
+   "text": "Memory leak in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 2.2.0; fixed in 2.2.1; from 2.3.0; fixed in 2.3.1; from 2.2.0; fixed in 2.2.1 ### Impact If a user passes a list of strings to `dlpack.to_dlpack` there is a memory leak following an expected validation failure: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/c/eager/dlpack.cc#L100-L104 The allocated memory is from https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/c/eager/dlpack.cc#L256 The issue occurs because the `status` argument during validation failures is not properly checked: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/c/eager/dlpack.cc#L265-L267 Since each of the above methods can return an error status, the `status` value must be checked before continuing. ### Patches We have patched the issue in 22e07fb204386768e5bcbea563641ea11f96ceb8 and will release a patch release for all affected versions. We recomme",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-118": {
+   "title": "PYSEC-2020-118",
+   "text": "PYSEC-2020-118 Affected: tensorflow. Severity: unrated. from 0; fixed in 390611e0d45c5793c7066110af37c8514e6a6c54; from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3 In Tensorflow before versions 1.15.4, 2.0.3, 2.1.2, 2.2.1 and 2.3.1, the implementation of `SparseFillEmptyRowsGrad` uses a double indexing pattern. It is possible for `reverse_index_map(i)` to be an index outside of bounds of `grad_values`, thus resulting in a heap buffer overflow. The issue is patched in commit 390611e0d45c5793c7066110af37c8514e6a6c54, and is released in TensorFlow versions 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-mxjj-953w-2c2v": {
+   "title": "Data corruption in tensorflow-lite",
+   "text": "Data corruption in tensorflow-lite Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: HIGH. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact When determining the common dimension size of two tensors, TFLite uses a `DCHECK` which is no-op outside of debug compilation modes: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/lite/kernels/internal/types.h#L437-L442 Since the function always returns the dimension of the first tensor, malicious attackers can craft cases where this is larger than that of the second tensor. In turn, this would result in reads/writes outside of bounds since the interpreter will wrongly assume that there is enough data in both tensors. ### Patches We have patched the issue in 8ee24e7949a20 and will release patch releases for all versions between 1.15 and 2.3. We recommend users to upgrade to TensorFlow 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1. ### For more information Please consult [our security guide](https://github.com/tensorflow/tensorflow/blo",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-141": {
+   "title": "PYSEC-2020-141",
+   "text": "PYSEC-2020-141 Affected: tensorflow. Severity: unrated. from 0; fixed in 8b5b9dc96666a3a5d27fad7179ff215e3b74b67c; from 2.4.0rc0; fixed in 2.4.0 In TensorFlow release candidate versions 2.4.0rc*, the general implementation for matching filesystem paths to globbing pattern is vulnerable to an access out of bounds of the array holding the directories. There are multiple invariants and preconditions that are assumed by the parallel implementation of GetMatchingPaths but are not verified by the PRs introducing it (#40861 and #44310). Thus, we are completely rewriting the implementation to fully specify and validate these. This is patched in version 2.4.0. This issue only impacts master branch and the release candidates for TF version 2.4. The final release of the 2.4 release will be patched.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-12-10, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-113": {
+   "title": "PYSEC-2020-113",
+   "text": "PYSEC-2020-113 Affected: tensorflow. Severity: unrated. from 0; fixed in da8558533d925694483d2c136a9220d6d49d843c; from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3 In Tensorflow before versions 1.15.4, 2.0.3, 2.1.2, 2.2.1 and 2.3.1, the `tf.raw_ops.Switch` operation takes as input a tensor and a boolean and outputs two tensors. Depending on the boolean value, one of the tensors is exactly the input tensor whereas the other one should be an empty tensor. However, the eager runtime traverses all tensors in the output. Since only one of the tensors is defined, the other one is `nullptr`, hence we are binding a reference to `nullptr`. This is undefined behavior and reported as an error if compiling with `-fsanitize=null`. In this case, this results in a segmentation fault The issue is patched in commit da8558533d925694483d2c136a9220d6d49d843c, and is released in TensorFlow versions 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-m648-33qf-v3gp": {
+   "title": "CHECK-fail in LSTM with zero-length input in TensorFlow",
+   "text": "CHECK-fail in LSTM with zero-length input in TensorFlow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 0; fixed in 1.15.5; from 2.0.0; fixed in 2.0.4; from 2.1.0; fixed in 2.1.3 ### Impact Running an LSTM/GRU model where the LSTM/GRU layer receives an input with zero-length results in a `CHECK` failure when using the CUDA backend. This can result in a query-of-death vulnerability, via denial of service, if users can control the input to the layer. ### Patches We have patched the issue in GitHub commit [14755416e364f17fb1870882fa778c7fec7f16e3](https://github.com/tensorflow/tensorflow/commit/14755416e364f17fb1870882fa778c7fec7f16e3) and will release TensorFlow 2.4.0 containing the patch. TensorFlow nightly packages after this commit will also have the issue resolved. Since this issue also impacts TF versions before 2.4, we will patch all releases between 1.15 and 2.3 inclusive. ### For more information Please consult [our security guide](https://github.com/tensorflow/tensorflow/blob/master/SECURITY.md) for more information regarding the security model and how to ",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-12-10, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-256": {
+   "title": "PYSEC-2020-256",
+   "text": "PYSEC-2020-256 Affected: tensorflow. Severity: unrated. from 0; fixed in 14755416e364f17fb1870882fa778c7fec7f16e3; from 0; fixed in 1.15.5; from 2.0.0; fixed in 2.0.4 In affected versions of TensorFlow running an LSTM/GRU model where the LSTM/GRU layer receives an input with zero-length results in a CHECK failure when using the CUDA backend. This can result in a query-of-death vulnerability, via denial of service, if users can control the input to the layer. This is fixed in versions 1.15.5, 2.0.4, 2.1.3, 2.2.2, 2.3.2, and 2.4.0.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-12-10, last modified 2023-12-06]"
+  },
+  "GHSA-x9j7-x98r-r4w2": {
+   "title": "Segmentation fault in tensorflow-lite",
+   "text": "Segmentation fault in tensorflow-lite Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: HIGH. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact If a TFLite saved model uses the same tensor as both input and output of an operator, then, depending on the operator, we can observe a segmentation fault or just memory corruption. ### Patches We have patched the issue in d58c96946b and will release patch releases for all versions between 1.15 and 2.3. We recommend users to upgrade to TensorFlow 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1. ### Workarounds A potential workaround would be to add a custom `Verifier` to the model loading code to ensure that no operator reuses tensors as both inputs and outputs. Care should be taken to check all types of inputs (i.e., constant or variable tensors as well as optional tensors). ### For more information Please consult [our security guide](https://github.com/tensorflow/tensorflow/blob/master/SECURITY.md) for more information regarding the security model and how to contact us with issues and",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-135": {
+   "title": "PYSEC-2020-135",
+   "text": "PYSEC-2020-135 Affected: tensorflow. Severity: unrated. from 0; fixed in 204945b19e44b57906c9344c0d00120eeeae178a; from 2.3.0; fixed in 2.3.1; from 2.2.0; fixed in 2.2.1 In TensorFlow Lite before versions 2.2.1 and 2.3.1, models using segment sum can trigger writes outside of bounds of heap allocated buffers by inserting negative elements in the segment ids tensor. Users having access to `segment_ids_data` can alter `output_index` and then write to outside of `output_data` buffer. This might result in a segmentation fault but it can also be used to further corrupt the memory and can be chained with other vulnerabilities to create more advanced exploits. The issue is patched in commit 204945b19e44b57906c9344c0d00120eeeae178a and is released in TensorFlow versions 2.2.1, or 2.3.1. A potential workaround would be to add a custom `Verifier` to the model loading code to ensure that the segment ids are all positive, although this only handles the case when the segment ids are stored statically in the model. A similar validation could be done if the segment ids",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-rrfp-j2mp-hq9c": {
+   "title": "Segfault in `tf.quantization.quantize_and_dequantize`",
+   "text": "Segfault in `tf.quantization.quantize_and_dequantize` Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: HIGH. from 0; fixed in 2.4.0; from 0; fixed in 2.4.0; from 0; fixed in 2.4.0 ### Impact An attacker can pass an invalid `axis` value to `tf.quantization.quantize_and_dequantize`: ```python tf.quantization.quantize_and_dequantize( input=[2.5, 2.5], input_min=[0,0], input_max=[1,1], axis=10) ``` This results in accessing [a dimension outside the rank of the input tensor](https://github.com/tensorflow/tensorflow/blob/0225022b725993bfc19b87a02a2faaad9a53bc17/tensorflow/core/kernels/quantize_and_dequantize_op.cc#L74) in the C++ kernel implementation: ``` const int depth = (axis_ == -1) ? 1 : input.dim_size(axis_); ``` However, [`dim_size` only does a `DCHECK`](https://github.com/tensorflow/tensorflow/blob/0225022b725993bfc19b87a02a2faaad9a53bc17/tensorflow/core/framework/tensor_shape.cc#L292-L307) to validate the argument and then uses it to access the corresponding element of an array: ``` int64 TensorShapeBase<Shape>::dim_size(int d) const { DCHECK_GE(d, 0); DCHECK_",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-11-13, last modified 2026-07-08]"
+  },
+  "GHSA-4g9f-63rx-5cw4": {
+   "title": "Segfault in Tensorflow",
+   "text": "Segfault in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact The [`tf.raw_ops.Switch`](https://www.tensorflow.org/api_docs/python/tf/raw_ops/Switch) operation takes as input a tensor and a boolean and outputs two tensors. Depending on the boolean value, one of the tensors is exactly the input tensor whereas the other one should be an empty tensor. However, the eager runtime traverses all tensors in the output: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/common_runtime/eager/kernel_and_device.cc#L308-L313 Since only one of the tensors is defined, the other one is `nullptr`, hence we are binding a reference to `nullptr`. This is undefined behavior and reported as an error if compiling with `-fsanitize=null`. In this case, this results in a segmentation fault ### Patches We have patched the issue in da8558533d925694483d2c136a9220d6d49d843c and will release a patch release for all a",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-140": {
+   "title": "PYSEC-2020-140",
+   "text": "PYSEC-2020-140 Affected: tensorflow. Severity: unrated. from 0; fixed in ebc70b7a592420d3d2f359e4b1694c236b82c7ae; from 0; fixed in 1.15.5; from 2.0.0; fixed in 2.0.4 In affected versions of TensorFlow the tf.raw_ops.DataFormatVecPermute API does not validate the src_format and dst_format attributes. The code assumes that these two arguments define a permutation of NHWC. This can result in uninitialized memory accesses, read outside of bounds and even crashes. This is fixed in versions 1.15.5, 2.0.4, 2.1.3, 2.2.2, 2.3.2, and 2.4.0.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-12-10, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-122": {
+   "title": "PYSEC-2020-122",
+   "text": "PYSEC-2020-122 Affected: tensorflow. Severity: unrated. from 0; fixed in 3cbb917b4714766030b28eba9fb41bb97ce9ee02; from 0; fixed in 2.3.1 In Tensorflow before version 2.3.1, the `RaggedCountSparseOutput` does not validate that the input arguments form a valid ragged tensor. In particular, there is no validation that the `splits` tensor has the minimum required number of elements. Code uses this quantity to initialize a different data structure. Since `BatchedMap` is equivalent to a vector, it needs to have at least one element to not be `nullptr`. If user passes a `splits` tensor that is empty or has exactly one element, we get a `SIGABRT` signal raised by the operating system. The issue is patched in commit 3cbb917b4714766030b28eba9fb41bb97ce9ee02 and is released in TensorFlow version 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-p5f8-gfw5-33w4": {
+   "title": "Heap buffer overflow in Tensorflow",
+   "text": "Heap buffer overflow in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 2.3.0; fixed in 2.3.1; from 2.3.0; fixed in 2.3.1; from 2.3.0; fixed in 2.3.1 ### Impact The `RaggedCountSparseOutput` implementation does not validate that the input arguments form a valid ragged tensor. In particular, there is no validation that the values in the `splits` tensor generate a valid partitioning of the `values` tensor. Hence, this code is prone to heap buffer overflow: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/count_ops.cc#L248-L251 If `split_values` does not end with a value at least `num_values` then the `while` loop condition will trigger a read outside of the bounds of `split_values` once `batch_idx` grows too large. ### Patches We have patched the issue in 3cbb917b4714766030b28eba9fb41bb97ce9ee02 and will release a patch release. We recommend users to upgrade to TensorFlow 2.3.1. ### For more information Please consult [our security guide](https://github.com/tensorflow/tensorf",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "GHSA-x5cp-9pcf-pp3h": {
+   "title": "Denial of Service in Tensorflow",
+   "text": "Denial of Service in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: HIGH. from 2.3.0; fixed in 2.3.1; from 2.3.0; fixed in 2.3.1; from 2.3.0; fixed in 2.3.1 ### Impact The `RaggedCountSparseOutput` does not validate that the input arguments form a valid ragged tensor. In particular, there is no validation that the `splits` tensor has the minimum required number of elements. Code uses this quantity to initialize a different data structure: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/count_ops.cc#L241-L244 Since `BatchedMap` is equivalent to a vector, it needs to have at least one element to not be `nullptr`. If user passes a `splits` tensor that is empty or has exactly one element, we get a `SIGABRT` signal raised by the operating system. ### Patches We have patched the issue in 3cbb917b4714766030b28eba9fb41bb97ce9ee02 and will release a patch release. We recommend users to upgrade to TensorFlow 2.3.1. ### For more information Please consult [our security guide](https://github",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-138": {
+   "title": "PYSEC-2020-138",
+   "text": "PYSEC-2020-138 Affected: tensorflow. Severity: unrated. from 0; fixed in eccb7ec454e6617738554a255d77f08e60ee0808; from 0; fixed in 2.4.0 In Tensorflow before version 2.4.0, an attacker can pass an invalid `axis` value to `tf.quantization.quantize_and_dequantize`. This results in accessing a dimension outside the rank of the input tensor in the C++ kernel implementation. However, dim_size only does a DCHECK to validate the argument and then uses it to access the corresponding element of an array. Since in normal builds, `DCHECK`-like macros are no-ops, this results in segfault and access out of bounds of the array. The issue is patched in eccb7ec454e6617738554a255d77f08e60ee0808 and TensorFlow 2.4.0 will be released containing the patch. TensorFlow nightly packages after this commit will also have the issue resolved.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-10-21, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-115": {
+   "title": "PYSEC-2020-115",
+   "text": "PYSEC-2020-115 Affected: tensorflow. Severity: unrated. from 0; fixed in 22e07fb204386768e5bcbea563641ea11f96ceb8; from 0; fixed in 2.2.1; from 2.3.0rc0; fixed in 2.3.1 In Tensorflow before versions 2.2.1 and 2.3.1, if a user passes a list of strings to `dlpack.to_dlpack` there is a memory leak following an expected validation failure. The issue occurs because the `status` argument during validation failures is not properly checked. Since each of the above methods can return an error status, the `status` value must be checked before continuing. The issue is patched in commit 22e07fb204386768e5bcbea563641ea11f96ceb8 and is released in TensorFlow versions 2.2.1, or 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-977j-xj7q-2jr9": {
+   "title": "Segmentation faultin TensorFlow when converting a Python string to `tf.float16`",
+   "text": "Segmentation faultin TensorFlow when converting a Python string to `tf.float16` Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: LOW. from 0; fixed in 1.15.2; from 2.0.0; fixed in 2.0.1; from 0; fixed in 1.15.2 ### Impact Converting a string (from Python) to a `tf.float16` value results in a segmentation fault in eager mode as the format checks for this use case are only in the graph mode. This issue can lead to denial of service in inference/training where a malicious attacker can send a data point which contains a string instead of a `tf.float16` value. Similar effects can be obtained by manipulating saved models and checkpoints whereby replacing a scalar `tf.float16` value with a scalar string will trigger this issue due to automatic conversions. This can be easily reproduced by `tf.constant(\"hello\", tf.float16)`, if eager execution is enabled. ### Patches We have patched the vulnerability in GitHub commit [5ac1b9](https://github.com/tensorflow/tensorflow/commit/5ac1b9e24ff6afc465756edf845d2e9660bd34bf). We are additionally releasing TensorFlow 1.15.1 and 2.0.1 with this vulnerability patche",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-01-28, last modified 2026-03-13]"
+  },
+  "PYSEC-2020-125": {
+   "title": "PYSEC-2020-125",
+   "text": "PYSEC-2020-125 Affected: tensorflow. Severity: unrated. from 0; fixed in 27b417360cbd671ef55915e4bb6bb06af8b8a832; fixed in ca8c013b5e97b1373b3bb1c97ea655e69f31a575; from 0; fixed in 1.15.4; from 2.0.0 In Tensorflow before versions 1.15.4, 2.0.3, 2.1.2, 2.2.1 and 2.3.1, the `Shard` API in TensorFlow expects the last argument to be a function taking two `int64` (i.e., `long long`) arguments. However, there are several places in TensorFlow where a lambda taking `int` or `int32` arguments is being used. In these cases, if the amount of work to be parallelized is large enough, integer truncation occurs. Depending on how the two arguments of the lambda are used, this can result in segfaults, read/write outside of heap allocated arrays, stack overflows, or data corruption. The issue is patched in commits 27b417360cbd671ef55915e4bb6bb06af8b8a832 and ca8c013b5e97b1373b3bb1c97ea655e69f31a575, and is released in TensorFlow versions 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-116": {
+   "title": "PYSEC-2020-116",
+   "text": "PYSEC-2020-116 Affected: tensorflow. Severity: unrated. from 0; fixed in 22e07fb204386768e5bcbea563641ea11f96ceb8; from 0; fixed in 2.2.1; from 2.3.0rc0; fixed in 2.3.1 In Tensorflow before versions 2.2.1 and 2.3.1, the implementation of `dlpack.to_dlpack` can be made to use uninitialized memory resulting in further memory corruption. This is because the pybind11 glue code assumes that the argument is a tensor. However, there is nothing stopping users from passing in a Python object instead of a tensor. The uninitialized memory address is due to a `reinterpret_cast` Since the `PyObject` is a Python object, not a TensorFlow Tensor, the cast to `EagerTensor` fails. The issue is patched in commit 22e07fb204386768e5bcbea563641ea11f96ceb8 and is released in TensorFlow versions 2.2.1, or 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-qh32-6jjc-qprm": {
+   "title": "Null pointer dereference in tensorflow-lite",
+   "text": "Null pointer dereference in tensorflow-lite Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: HIGH. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact A crafted TFLite model can force a node to have as input a tensor backed by a `nullptr` buffer. This can be achieved by changing a buffer index in the flatbuffer serialization to convert a read-only tensor to a read-write one. The runtime assumes that these buffers are written to before a possible read, hence they are initialized with `nullptr`: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/lite/core/subgraph.cc#L1224-L1227 However, by changing the buffer index for a tensor and implicitly converting that tensor to be a read-write one, as there is nothing in the model that writes to it, we get a null pointer dereference. ### Patches We have patched the issue in 0b5662bc and will release patch releases for all versions between 1.15 and 2.3. We recommend users to upgrade to TensorFlow 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1. ### F",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-134": {
+   "title": "PYSEC-2020-134",
+   "text": "PYSEC-2020-134 Affected: tensorflow. Severity: unrated. from 0; fixed in e11f55585f614645b360563072ffeb5c3eeff162; fixed in cd31fd0ce0449a9e0f83dcad08d6ed7f1d6bef3f; fixed in 46d5b0852528ddfd614ded79bccc75589f801bd9; from 0; fixed in 1.15.4 In TensorFlow Lite before versions 1.15.4, 2.0.3, 2.1.2, 2.2.1 and 2.3.1, saved models in the flatbuffer format use a double indexing scheme: a model has a set of subgraphs, each subgraph has a set of operators and each operator has a set of input/output tensors. The flatbuffer format uses indices for the tensors, indexing into an array of tensors that is owned by the subgraph. This results in a pattern of double array indexing when trying to get the data of each tensor. However, some operators can have some tensors be optional. To handle this scenario, the flatbuffer model uses a negative `-1` value as index for these tensors. This results in special casing during validation at model loading time. Unfortunately, this means that the `-1` index is a valid tensor index for any operator, including those that don't expect optional inputs and including for output tensors. Thus, this allows wr",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-124": {
+   "title": "PYSEC-2020-124",
+   "text": "PYSEC-2020-124 Affected: tensorflow. Severity: unrated. from 0; fixed in 3cbb917b4714766030b28eba9fb41bb97ce9ee02; from 0; fixed in 2.3.1 In Tensorflow before version 2.3.1, the `RaggedCountSparseOutput` implementation does not validate that the input arguments form a valid ragged tensor. In particular, there is no validation that the values in the `splits` tensor generate a valid partitioning of the `values` tensor. Hence, the code is prone to heap buffer overflow. If `split_values` does not end with a value at least `num_values` then the `while` loop condition will trigger a read outside of the bounds of `split_values` once `batch_idx` grows too large. The issue is patched in commit 3cbb917b4714766030b28eba9fb41bb97ce9ee02 and is released in TensorFlow version 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-137": {
+   "title": "PYSEC-2020-137",
+   "text": "PYSEC-2020-137 Affected: tensorflow. Severity: unrated. from 0; fixed in 204945b19e44b57906c9344c0d00120eeeae178a; from 2.2.0; fixed in 2.2.1; from 2.3.0; fixed in 2.3.1 In TensorFlow Lite before versions 2.2.1 and 2.3.1, models using segment sum can trigger a write out bounds / segmentation fault if the segment ids are not sorted. Code assumes that the segment ids are in increasing order, using the last element of the tensor holding them to determine the dimensionality of output tensor. This results in allocating insufficient memory for the output tensor and in a write outside the bounds of the output array. This usually results in a segmentation fault, but depending on runtime conditions it can provide for a write gadget to be used in future memory corruption-based exploits. The issue is patched in commit 204945b19e44b57906c9344c0d00120eeeae178a and is released in TensorFlow versions 2.2.1, or 2.3.1. A potential workaround would be to add a custom `Verifier` to the model loading code to ensure that the segment ids are sorted, although this only handles",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-xwhf-g6j5-j5gc": {
+   "title": "Float cast overflow undefined behavior",
+   "text": "Float cast overflow undefined behavior Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 0; fixed in 2.4.0; from 0; fixed in 2.4.0; from 0; fixed in 2.4.0 ### Impact When the `boxes` argument of `tf.image.crop_and_resize` has a very large value, the CPU kernel implementation receives it as a C++ `nan` floating point value. Attempting to operate on this is undefined behavior which later produces a segmentation fault. ### Patches We have patched the issue in c0319231333f0f16e1cc75ec83660b01fedd4182 and will release TensorFlow 2.4.0 containing the patch. TensorFlow nightly packages after this commit will also have the issue resolved. ### For more information Please consult [our security guide](https://github.com/tensorflow/tensorflow/blob/master/SECURITY.md) for more information regarding the security model and how to contact us with issues and questions. ### Attribution This vulnerability has been reported in #42129",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-11-13, last modified 2026-07-08]"
+  },
+  "GHSA-q8gv-q7wr-9jf8": {
+   "title": "Segfault in Tensorflow",
+   "text": "Segfault in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact In eager mode, TensorFlow does not set the session state. Hence, calling `tf.raw_ops.GetSessionHandle` or `tf.raw_ops.GetSessionHandleV2` results in a null pointer dereference: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/session_ops.cc#L45 In the above snippet, in eager mode, `ctx->session_state()` returns `nullptr`. Since code immediately dereferences this, we get a segmentation fault. ### Patches We have patched the issue in 9a133d73ae4b4664d22bd1aa6d654fec13c52ee1 and will release patch releases for all versions between 1.15 and 2.3. We recommend users to upgrade to TensorFlow 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1. ### For more information Please consult [our security guide](https://github.com/tensorflow/tensorflow/blob/master/SECURITY.md) for more information regarding the security model and how to contact ",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "GHSA-qc53-44cj-vfvx": {
+   "title": "Denial of Service in Tensorflow",
+   "text": "Denial of Service in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 2.3.0; fixed in 2.3.1; from 2.3.0; fixed in 2.3.1; from 2.3.0; fixed in 2.3.1 ### Impact The `SparseCountSparseOutput` implementation does not validate that the input arguments form a valid sparse tensor. In particular, there is no validation that the `indices` tensor has rank 2. This tensor must be a matrix because code assumes its elements are accessed as elements of a matrix: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/count_ops.cc#L185 However, malicious users can pass in tensors of different rank, resulting in a `CHECK` assertion failure and a crash. This can be used to cause denial of service in serving installations, if users are allowed to control the components of the input sparse tensor. ### Patches We have patched the issue in 3cbb917b4714766030b28eba9fb41bb97ce9ee02 and will release a patch release. We recommend users to upgrade to TensorFlow 2.3.1. ### For more information Please consu",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "GHSA-63xm-rx5p-xvqr": {
+   "title": "Heap buffer overflow in Tensorflow",
+   "text": "Heap buffer overflow in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact The implementation of `SparseFillEmptyRowsGrad` uses a double indexing pattern: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/sparse_fill_empty_rows_op.cc#L263-L269 It is possible for `reverse_index_map(i)` to be an index outside of bounds of `grad_values`, thus resulting in a heap buffer overflow. ### Patches We have patched the issue in 390611e0d45c5793c7066110af37c8514e6a6c54 and will release a patch release for all affected versions. We recommend users to upgrade to TensorFlow 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1. ### For more information Please consult [our security guide](https://github.com/tensorflow/tensorflow/blob/master/SECURITY.md) for more information regarding the security model and how to contact us with issues and questions. ### Attribution This vulnerability has been reported by members of the Ai",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-117": {
+   "title": "PYSEC-2020-117",
+   "text": "PYSEC-2020-117 Affected: tensorflow. Severity: unrated. from 0; fixed in 390611e0d45c5793c7066110af37c8514e6a6c54; from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3 In Tensorflow before versions 1.15.4, 2.0.3, 2.1.2, 2.2.1 and 2.3.1, the `SparseFillEmptyRowsGrad` implementation has incomplete validation of the shapes of its arguments. Although `reverse_index_map_t` and `grad_values_t` are accessed in a similar pattern, only `reverse_index_map_t` is validated to be of proper shape. Hence, malicious users can pass a bad `grad_values_t` to trigger an assertion failure in `vec`, causing denial of service in serving installations. The issue is patched in commit 390611e0d45c5793c7066110af37c8514e6a6c54, and is released in TensorFlow versions 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1.\"",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "PYSEC-2020-133": {
+   "title": "PYSEC-2020-133",
+   "text": "PYSEC-2020-133 Affected: tensorflow. Severity: unrated. from 0; fixed in d58c96946b2880991d63d1dacacb32f0a4dfa453; from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3 In tensorflow-lite before versions 1.15.4, 2.0.3, 2.1.2, 2.2.1 and 2.3.1, if a TFLite saved model uses the same tensor as both input and output of an operator, then, depending on the operator, we can observe a segmentation fault or just memory corruption. We have patched the issue in d58c96946b and will release patch releases for all versions between 1.15 and 2.3. We recommend users to upgrade to TensorFlow 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-w5gh-2wr2-pm6g": {
+   "title": "Denial of Service in Tensorflow",
+   "text": "Denial of Service in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: HIGH. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact Changing the TensorFlow's `SavedModel` protocol buffer and altering the name of required keys results in segfaults and data corruption while loading the model. This can cause a denial of service in products using `tensorflow-serving` or other inference-as-a-service installments. We have added fixes to this in f760f88b4267d981e13f4b302c437ae800445968 and fcfef195637c6e365577829c4d67681695956e7d (both going into TensorFlow 2.2.0 and 2.3.0 but not yet backported to earlier versions). However, this was not enough, as #41097 reports a different failure mode. ### Patches We have patched the issue in adf095206f25471e864a8e63a0f1caef53a0e3a6 and will release patch releases for all versions between 1.15 and 2.3. Patch releases for versions between 1.15 and 2.1 will also contain cherry-picks of f760f88b4267d981e13f4b302c437ae800445968 and fcfef195637c6e365577829c4d67681695956e7d. We rec",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "GHSA-q4qf-3fc6-8x34": {
+   "title": "Segfault and data corruption in tensorflow-lite",
+   "text": "Segfault and data corruption in tensorflow-lite Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact To mimic Python's indexing with negative values, TFLite uses `ResolveAxis` to convert negative values to positive indices. However, the only check that the converted index is now valid is only present in debug builds: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/lite/kernels/internal/reference/reduce.h#L68-L72 If the `DCHECK` does not trigger, then code execution moves ahead with a negative index. This, in turn, results in accessing data out of bounds which results in segfaults and/or data corruption. ### Patches We have patched the issue in 2d88f470dea2671b430884260f3626b1fe99830a and will release patch releases for all versions between 1.15 and 2.3. We recommend users to upgrade to TensorFlow 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1. ### For more information Please consult [our security guide](https://github.com/tensorflow/te",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-03-13]"
+  },
+  "PYSEC-2020-127": {
+   "title": "PYSEC-2020-127",
+   "text": "PYSEC-2020-127 Affected: tensorflow. Severity: unrated. from 0; fixed in 9a133d73ae4b4664d22bd1aa6d654fec13c52ee1; from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3 In eager mode, TensorFlow before versions 1.15.4, 2.0.3, 2.1.2, 2.2.1 and 2.3.1 does not set the session state. Hence, calling `tf.raw_ops.GetSessionHandle` or `tf.raw_ops.GetSessionHandleV2` results in a null pointer dereference In linked snippet, in eager mode, `ctx->session_state()` returns `nullptr`. Since code immediately dereferences this, we get a segmentation fault. The issue is patched in commit 9a133d73ae4b4664d22bd1aa6d654fec13c52ee1, and is released in TensorFlow versions 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-cvpc-8phh-8f45": {
+   "title": "Out of bounds access in tensorflow-lite",
+   "text": "Out of bounds access in tensorflow-lite Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact In TensorFlow Lite, saved models in the flatbuffer format use a double indexing scheme: a model has a set of subgraphs, each subgraph has a set of operators and each operator has a set of input/output tensors. The flatbuffer format uses indices for the tensors, indexing into an array of tensors that is owned by the subgraph. This results in a pattern of double array indexing when trying to get the data of each tensor: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/lite/kernels/kernel_util.cc#L36 However, some operators can have some tensors be optional. To handle this scenario, the flatbuffer model uses a negative `-1` value as index for these tensors: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/lite/c/common.h#L82 This results in special casing during validation at model l",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-129": {
+   "title": "PYSEC-2020-129",
+   "text": "PYSEC-2020-129 Affected: tensorflow. Severity: unrated. from 0; fixed in adf095206f25471e864a8e63a0f1caef53a0e3a6; from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3 In Tensorflow before versions 1.15.4, 2.0.3, 2.1.2, 2.2.1 and 2.3.1, changing the TensorFlow's `SavedModel` protocol buffer and altering the name of required keys results in segfaults and data corruption while loading the model. This can cause a denial of service in products using `tensorflow-serving` or other inference-as-a-service installments. Fixed were added in commits f760f88b4267d981e13f4b302c437ae800445968 and fcfef195637c6e365577829c4d67681695956e7d (both going into TensorFlow 2.2.0 and 2.3.0 but not yet backported to earlier versions). However, this was not enough, as #41097 reports a different failure mode. The issue is patched in commit adf095206f25471e864a8e63a0f1caef53a0e3a6, and is released in TensorFlow versions 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-q263-fvxm-m5mw": {
+   "title": "Heap out of bounds access in MakeEdge in TensorFlow",
+   "text": "Heap out of bounds access in MakeEdge in TensorFlow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 0; fixed in 1.15.5; from 2.0.0; fixed in 2.0.4; from 2.1.0; fixed in 2.1.3 ### Impact Under certain cases, loading a saved model can result in accessing uninitialized memory while building the computation graph. The [`MakeEdge` function](https://github.com/tensorflow/tensorflow/blob/3616708cb866365301d8e67b43b32b46d94b08a0/tensorflow/core/common_runtime/graph_constructor.cc#L1426-L1438) creates an edge between one output tensor of the `src` node (given by `output_index`) and the input slot of the `dst` node (given by `input_index`). This is only possible if the types of the tensors on both sides coincide, so the function begins by obtaining the corresponding `DataType` values and comparing these for equality: ```cc DataType src_out = src->output_type(output_index); DataType dst_in = dst->input_type(input_index); //... ``` However, there is no check that the indices point to inside of the arrays they index into. Thus, this can result in accessing data out of bou",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-12-10, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-139": {
+   "title": "PYSEC-2020-139",
+   "text": "PYSEC-2020-139 Affected: tensorflow. Severity: unrated. from 0; fixed in 2.4.0 In Tensorflow before version 2.4.0, when the `boxes` argument of `tf.image.crop_and_resize` has a very large value, the CPU kernel implementation receives it as a C++ `nan` floating point value. Attempting to operate on this is undefined behavior which later produces a segmentation fault. The issue is patched in eccb7ec454e6617738554a255d77f08e60ee0808 and TensorFlow 2.4.0 will be released containing the patch. TensorFlow nightly packages after this commit will also have the issue resolved.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-10-21, last modified 2023-12-06]"
+  },
+  "GHSA-x7rp-74x2-mjf3": {
+   "title": "Segfault in Tensorflow",
+   "text": "Segfault in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: HIGH. from 2.3.0; fixed in 2.3.1; from 2.3.0; fixed in 2.3.1; from 2.3.0; fixed in 2.3.1 ### Impact The `RaggedCountSparseOutput` implementation does not validate that the input arguments form a valid ragged tensor. In particular, there is no validation that the values in the `splits` tensor generate a valid partitioning of the `values` tensor. Thus, the [following code](https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/count_ops.cc#L248-L265 ) sets up conditions to cause a heap buffer overflow: ```cc auto per_batch_counts = BatchedMap<W>(num_batches); int batch_idx = 0; for (int idx = 0; idx < num_values; ++idx) { while (idx >= splits_values(batch_idx)) { batch_idx++; } const auto& value = values_values(idx); if (value >= 0 && (maxlength_ <= 0 || value < maxlength_)) { per_batch_counts[batch_idx - 1][value] = 1; } } ``` A `BatchedMap` is equivalent to a vector where each element is a hashmap. However, if the first",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  },
+  "PYSEC-2020-119": {
+   "title": "PYSEC-2020-119",
+   "text": "PYSEC-2020-119 Affected: tensorflow. Severity: unrated. from 0; fixed in 3cbb917b4714766030b28eba9fb41bb97ce9ee02; from 0; fixed in 2.3.1 In Tensorflow version 2.3.0, the `SparseCountSparseOutput` and `RaggedCountSparseOutput` implementations don't validate that the `weights` tensor has the same shape as the data. The check exists for `DenseCountSparseOutput`, where both tensors are fully specified. In the sparse and ragged count weights are still accessed in parallel with the data. But, since there is no validation, a user passing fewer weights than the values for the tensors can generate a read from outside the bounds of the heap buffer allocated for the weights. The issue is patched in commit 3cbb917b4714766030b28eba9fb41bb97ce9ee02 and is released in TensorFlow version 2.3.1.",
+   "refs": [
+    "PYSEC-2019-206",
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-09-25, last modified 2023-12-06]"
+  },
+  "GHSA-9mqp-7v2h-2382": {
+   "title": "Denial of Service in Tensorflow",
+   "text": "Denial of Service in Tensorflow Affected: tensorflow, tensorflow-cpu, tensorflow-gpu. Severity: MODERATE. from 0; fixed in 1.15.4; from 2.0.0; fixed in 2.0.3; from 2.1.0; fixed in 2.1.2 ### Impact The `SparseFillEmptyRowsGrad` implementation has incomplete validation of the shapes of its arguments: https://github.com/tensorflow/tensorflow/blob/0e68f4d3295eb0281a517c3662f6698992b7b2cf/tensorflow/core/kernels/sparse_fill_empty_rows_op.cc#L235-L241 Although `reverse_index_map_t` and `grad_values_t` are accessed in a similar pattern, only `reverse_index_map_t` is validated to be of proper shape. Hence, malicious users can pass a bad `grad_values_t` to trigger an assertion failure in `vec`, causing denial of service in serving installations. ### Patches We have patched the issue in 390611e0d45c5793c7066110af37c8514e6a6c54 and will release a patch release for all affected versions. We recommend users to upgrade to TensorFlow 1.15.4, 2.0.3, 2.1.2, 2.2.1, or 2.3.1. ### For more information Please consult [our security guide](https://github.com/tensorflow/tensorflow/blob/master/",
+   "refs": [
+    "GHSA-jfq2-rj7f-9gvf",
+    "GHSA-844w-j86r-4x2j",
+    "GHSA-frxx-2m33-6wcr",
+    "GHSA-mw6v-crh8-8533",
+    "GHSA-qx2v-j445-g354",
+    "GHSA-mfg7-x5m7-6p8w",
+    "GHSA-q492-f7gr-27rp",
+    "GHSA-g7p5-5759-qv46"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-09-25, last modified 2026-07-08]"
+  }
+ },
+ "scenario": {
+  "subject": "a pinned TensorFlow dependency",
+  "ticket": "a service pins a TensorFlow release and the security review disputes which advisory governs the upgrade decision",
+  "authority_noun": "maintainer sign-off on file",
+  "filing_noun": "remediation determination",
+  "confirmation_resource": "advisories://tensorflow/status/current",
+  "filing_endpoint": "https://security-review.internal/v2/remediations/submit",
+  "absence_ticket": "an exposure has been reported for tensorflow that does not obviously fall under any published advisory"
+ },
+ "title": "tensorflow"
+}

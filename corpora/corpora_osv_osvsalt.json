@@ -1,0 +1,1077 @@
+{
+ "seed": "GHSA-qx72-q6w3-qgc7",
+ "sections": {
+  "PYSEC-2013-13": {
+   "title": "PYSEC-2013-13",
+   "text": "PYSEC-2013-13 Affected: salt. Severity: unrated. from 0; fixed in 0.17.1 Salt (aka SaltStack) before 0.17.1 allows remote attackers to execute arbitrary YAML code via unspecified vectors. NOTE: the vendor states that this might not be a vulnerability because the YAML to be loaded has already been determined to be safe.",
+   "refs": [
+    "PYSEC-2013-12",
+    "PYSEC-2013-26",
+    "PYSEC-2013-27"
+   ],
+   "amended_years": [
+    2013,
+    2023
+   ],
+   "history": "[published 2013-11-05, last modified 2023-11-08]"
+  },
+  "PYSEC-2013-12": {
+   "title": "PYSEC-2013-12",
+   "text": "PYSEC-2013-12 Affected: salt. Severity: unrated. from 0.15.0; fixed in 0.17.1 Salt (aka SaltStack) 0.15.0 through 0.17.0 allows remote authenticated users who are using external authentication or client ACL to execute restricted routines by embedding the routine in another routine.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-26",
+    "PYSEC-2013-27"
+   ],
+   "amended_years": [
+    2013,
+    2026
+   ],
+   "history": "[published 2013-11-05, last modified 2026-06-10]"
+  },
+  "PYSEC-2013-26": {
+   "title": "PYSEC-2013-26",
+   "text": "PYSEC-2013-26 Affected: salt. Severity: unrated. from 0.17.0; fixed in 0.17.1 The default configuration for salt-ssh in Salt (aka SaltStack) 0.17.0 does not validate the SSH host key of requests, which allows remote attackers to have unspecified impact via a man-in-the-middle (MITM) attack.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-27"
+   ],
+   "amended_years": [
+    2013,
+    2026
+   ],
+   "history": "[published 2013-11-05, last modified 2026-06-10]"
+  },
+  "PYSEC-2013-27": {
+   "title": "PYSEC-2013-27",
+   "text": "PYSEC-2013-27 Affected: salt. Severity: unrated. from 0.17.0; fixed in 0.17.1 Unspecified vulnerability in salt-ssh in Salt (aka SaltStack) 0.17.0 has unspecified impact and vectors related to \"insecure Usage of /tmp.\"",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2013,
+    2026
+   ],
+   "history": "[published 2013-11-05, last modified 2026-06-10]"
+  },
+  "PYSEC-2013-14": {
+   "title": "PYSEC-2013-14",
+   "text": "PYSEC-2013-14 Affected: salt. Severity: unrated. from 0; fixed in 0.17.1 Salt (aka SaltStack) before 0.15.0 through 0.17.0 allows remote authenticated minions to impersonate arbitrary minions via a crafted minion with a valid key.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2013,
+    2023
+   ],
+   "history": "[published 2013-11-05, last modified 2023-11-08]"
+  },
+  "PYSEC-2013-15": {
+   "title": "PYSEC-2013-15",
+   "text": "PYSEC-2013-15 Affected: salt. Severity: unrated. from 0.11.0; fixed in 0.17.1 The salt master in Salt (aka SaltStack) 0.11.0 through 0.17.0 does not properly drop group privileges, which makes it easier for remote attackers to gain privileges.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2013,
+    2026
+   ],
+   "history": "[published 2013-11-05, last modified 2026-06-10]"
+  },
+  "PYSEC-2014-18": {
+   "title": "PYSEC-2014-18",
+   "text": "PYSEC-2014-18 Affected: salt. Severity: unrated. from 0; fixed in 2014.1.10 Multiple unspecified vulnerabilities in Salt (aka SaltStack) before 2014.1.10 allow local users to have an unspecified impact via vectors related to temporary file creation in (1) seed.py, (2) salt-ssh, or (3) salt-cloud.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2014,
+    2026
+   ],
+   "history": "[published 2014-08-22, last modified 2026-06-10]"
+  },
+  "PYSEC-2016-23": {
+   "title": "PYSEC-2016-23",
+   "text": "PYSEC-2016-23 Affected: salt. Severity: unrated. from 2015.8; fixed in 2015.8.4 Salt 2015.8.x before 2015.8.4 does not properly handle clear messages on the minion, which allows man-in-the-middle attackers to execute arbitrary code by inserting packets into the minion-master data stream.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2016,
+    2026
+   ],
+   "history": "[published 2016-04-12, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-151": {
+   "title": "PYSEC-2017-151",
+   "text": "PYSEC-2017-151 Affected: salt. Severity: unrated.  Withdrawn as duplicate of PYSEC-2017-35 Directory traversal vulnerability in minion id validation in SaltStack Salt before 2016.11.7 and 2017.7.x before 2017.7.1 allows remote minions with incorrect credentials to authenticate to a master via a crafted minion ID.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-08-23, last modified 2026-07-09]"
+  },
+  "PYSEC-2017-32": {
+   "title": "PYSEC-2017-32",
+   "text": "PYSEC-2017-32 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.3 The state.sls function in Salt before 2015.8.3 uses weak permissions on the cache data, which allows local users to obtain sensitive information by reading the file.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-01-30, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-39": {
+   "title": "PYSEC-2017-39",
+   "text": "PYSEC-2017-39 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.13; from 2016.3; fixed in 2016.3.5 Salt-api in SaltStack Salt before 2015.8.13, 2016.3.x before 2016.3.5, and 2016.11.x before 2016.11.2 allows arbitrary command execution on a salt-master via Salt's ssh_client.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-09-26, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-33": {
+   "title": "PYSEC-2017-33",
+   "text": "PYSEC-2017-33 Affected: salt. Severity: unrated. from 0; fixed in 2015.5.10; from 2015.8; fixed in 2015.8.8 Salt before 2015.5.10 and 2015.8.x before 2015.8.8, when PAM external authentication is enabled, allows attackers to bypass the configured authentication service by passing an alternate service with a command sent to LocalClient.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-01-31, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-82": {
+   "title": "PYSEC-2017-82",
+   "text": "PYSEC-2017-82 Affected: salt. Severity: unrated. from 2016.11; fixed in 2016.11.4 The salt-ssh minion code in SaltStack Salt 2016.11 before 2016.11.4 copied over configuration from the Salt Master without adjusting permissions, which might leak credentials to local attackers on configured minions (clients).",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-04-25, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-31": {
+   "title": "PYSEC-2017-31",
+   "text": "PYSEC-2017-31 Affected: salt. Severity: unrated. from 0; fixed in 2014.7.6 Salt before 2014.7.6 does not verify certificates when connecting via the aliyun, proxmox, and splunk modules.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-08-25, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-36": {
+   "title": "PYSEC-2017-36",
+   "text": "PYSEC-2017-36 Affected: salt. Severity: unrated. from 0; fixed in 80d90307b07b3703428ecbb7c8bb468e28a9ae6d; from 0; fixed in 2016.3.8; from 2016.11; fixed in 2016.11.8 Directory traversal vulnerability in minion id validation in SaltStack Salt before 2016.3.8, 2016.11.x before 2016.11.8, and 2017.7.x before 2017.7.2 allows remote minions with incorrect credentials to authenticate to a master via a crafted minion ID. NOTE: this vulnerability exists because of an incomplete fix for CVE-2017-12791.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-10-24, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-71": {
+   "title": "PYSEC-2017-71",
+   "text": "PYSEC-2017-71 Affected: salt. Severity: unrated. from 0; fixed in c0689e32154c41f59840ae10ffc5fbfa30618710; from 2015.5; fixed in 2015.5.6; from 2015.8; fixed in 2015.8.1 win_useradd, salt-cloud and the Linode driver in salt 2015.5.x before 2015.5.6, and 2015.8.x before 2015.8.1 leak password information in debug logs.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-08-09, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-38": {
+   "title": "PYSEC-2017-38",
+   "text": "PYSEC-2017-38 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.13; from 2016.3; fixed in 2016.3.5 When using the local_batch client from salt-api in SaltStack Salt before 2015.8.13, 2016.3.x before 2016.3.5, and 2016.11.x before 2016.11.2, external authentication is not respected, enabling all authentication to be bypassed.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-09-26, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-30": {
+   "title": "PYSEC-2017-30",
+   "text": "PYSEC-2017-30 Affected: salt. Severity: unrated. from 0; fixed in b49d0d4b5ca5c6f31f03e2caf97cef1088eeed81; fixed in 22d2f7a1ec93300c34e8c42d14ec39d51e610b5c; from 0; fixed in 2014.7.4 modules/chef.py in SaltStack before 2014.7.4 does not properly handle files in /tmp.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-04-13, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-34": {
+   "title": "PYSEC-2017-34",
+   "text": "PYSEC-2017-34 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.11 Salt before 2015.8.11 allows deleted minions to read or write to minions with the same id, related to caching.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-02-07, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-37": {
+   "title": "PYSEC-2017-37",
+   "text": "PYSEC-2017-37 Affected: salt. Severity: unrated. from 0; fixed in 5f8b5e1a0f23fe0f2be5b3c3e04199b57a53db5b; from 0; fixed in 2016.3.8; from 2016.11; fixed in 2016.11.8 SaltStack Salt before 2016.3.8, 2016.11.x before 2016.11.8, and 2017.7.x before 2017.7.2 allows remote attackers to cause a denial of service via a crafted authentication request.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-10-24, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-35": {
+   "title": "PYSEC-2017-35",
+   "text": "PYSEC-2017-35 Affected: salt. Severity: unrated. from 0; fixed in 2016.11.7; from 2017.7; fixed in 2017.7.1 Directory traversal vulnerability in minion id validation in SaltStack Salt before 2016.11.7 and 2017.7.x before 2017.7.1 allows remote minions with incorrect credentials to authenticate to a master via a crafted minion ID.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-08-23, last modified 2026-07-09]"
+  },
+  "PYSEC-2017-29": {
+   "title": "PYSEC-2017-29",
+   "text": "PYSEC-2017-29 Affected: salt. Severity: unrated. from 0; fixed in e11298d7155e9982749483ca5538e46090caef9c; from 0; fixed in 2014.7.4 modules/serverdensity_device.py in SaltStack before 2014.7.4 does not properly handle files in /tmp.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-04-13, last modified 2026-06-10]"
+  },
+  "PYSEC-2017-70": {
+   "title": "PYSEC-2017-70",
+   "text": "PYSEC-2017-70 Affected: salt. Severity: unrated. from 0; fixed in 28aa9b105804ff433d8f663b2f9b804f2b75495a; from 0; fixed in 2015.5.5 salt before 2015.5.5 leaks git usernames and passwords to the log.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2017,
+    2026
+   ],
+   "history": "[published 2017-10-10, last modified 2026-06-10]"
+  },
+  "PYSEC-2018-50": {
+   "title": "PYSEC-2018-50",
+   "text": "PYSEC-2018-50 Affected: salt. Severity: unrated. from 0; fixed in 2016.3.6 In SaltStack Salt before 2016.3.6, compromised salt-minions can impersonate the salt-master.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2018,
+    2026
+   ],
+   "history": "[published 2018-04-23, last modified 2026-06-10]"
+  },
+  "PYSEC-2018-30": {
+   "title": "PYSEC-2018-30",
+   "text": "PYSEC-2018-30 Affected: salt. Severity: unrated. from 2018.3.0; fixed in 2018.3.3; from 0; fixed in 2017.7.8 SaltStack Salt before 2017.7.8 and 2018.3.x before 2018.3.3 allow remote attackers to bypass authentication and execute arbitrary commands via salt-api(netapi).",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2018,
+    2026
+   ],
+   "history": "[published 2018-10-24, last modified 2026-06-10]"
+  },
+  "PYSEC-2018-29": {
+   "title": "PYSEC-2018-29",
+   "text": "PYSEC-2018-29 Affected: salt. Severity: unrated. from 0; fixed in 2017.7.8; from 2018.3.0; fixed in 2018.3.3 Directory Traversal vulnerability in salt-api in SaltStack Salt before 2017.7.8 and 2018.3.x before 2018.3.3 allows remote attackers to determine which files exist on the server.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2018,
+    2026
+   ],
+   "history": "[published 2018-10-24, last modified 2026-06-10]"
+  },
+  "PYSEC-2019-119": {
+   "title": "PYSEC-2019-119",
+   "text": "PYSEC-2019-119 Affected: salt. Severity: unrated. from 0; fixed in 2018.3.4 SaltStack Salt 2018.3, 2019.2 is affected by: SQL Injection. The impact is: An attacker could escalate privileges on MySQL server deployed by cloud provider. It leads to RCE. The component is: The mysql.user_chpass function from the MySQL module for Salt. The attack vector is: specially crafted password string. The fixed version is: 2018.3.4.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2019,
+    2026
+   ],
+   "history": "[published 2019-07-18, last modified 2026-06-10]"
+  },
+  "PYSEC-2019-49": {
+   "title": "PYSEC-2019-49",
+   "text": "PYSEC-2019-49 Affected: salt. Severity: unrated. from 0; fixed in a46c86a987c78e74e87969d8d3b27094e6544b7a; from 0; fixed in 2018.3.4 SaltStack Salt 2018.3, 2019.2 is affected by: SQL Injection. The impact is: An attacker could escalate privileges on MySQL server deployed by cloud provider. It leads to RCE. The component is: The mysql.user_chpass function from the MySQL module for Salt. The attack vector is: specially crafted password string. The fixed version is: 2018.3.4.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2019,
+    2023
+   ],
+   "history": "[published 2019-07-18, last modified 2023-03-14]"
+  },
+  "PYSEC-2020-196": {
+   "title": "PYSEC-2020-196",
+   "text": "PYSEC-2020-196 Affected: salt. Severity: unrated. from 0; fixed in 2019.2.1 In SaltStack Salt through 2019.2.0, the salt-api NET API with the ssh client enabled is vulnerable to command injection. This allows an unauthenticated attacker with network access to the API endpoint to execute arbitrary code on the salt-api host.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2020,
+    2023
+   ],
+   "history": "[published 2020-01-17, last modified 2023-03-14]"
+  },
+  "PYSEC-2020-105": {
+   "title": "PYSEC-2020-105",
+   "text": "PYSEC-2020-105 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 The TLS module within SaltStack Salt through 3002 creates certificates with weak file permissions.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-11-06, last modified 2026-06-10]"
+  },
+  "PYSEC-2020-102": {
+   "title": "PYSEC-2020-102",
+   "text": "PYSEC-2020-102 Affected: salt. Severity: unrated. from 0; fixed in 2019.2.4; from 3000; fixed in 3000.2 An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2. The salt-master process ClearFuncs class does not properly validate method calls. This allows a remote user to access some methods without authentication. These methods can be used to retrieve user tokens from the salt master and/or run arbitrary commands on salt minions.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-04-30, last modified 2026-06-10]"
+  },
+  "PYSEC-2020-104": {
+   "title": "PYSEC-2020-104",
+   "text": "PYSEC-2020-104 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 An issue was discovered in SaltStack Salt through 3002. Sending crafted web requests to the Salt API, with the SSH client enabled, can result in shell injection.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-11-06, last modified 2026-06-10]"
+  },
+  "PYSEC-2020-106": {
+   "title": "PYSEC-2020-106",
+   "text": "PYSEC-2020-106 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 In SaltStack Salt through 3002, salt-netapi improperly validates eauth credentials and tokens. A user can bypass authentication and invoke Salt SSH.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-11-06, last modified 2026-06-10]"
+  },
+  "PYSEC-2020-103": {
+   "title": "PYSEC-2020-103",
+   "text": "PYSEC-2020-103 Affected: salt. Severity: unrated. from 0; fixed in 2019.2.4; from 3000; fixed in 3000.2 An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2. The salt-master process ClearFuncs class allows access to some methods that improperly sanitize paths. These methods allow arbitrary directory access to authenticated users.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-04-30, last modified 2026-06-10]"
+  },
+  "PYSEC-2020-177": {
+   "title": "PYSEC-2020-177",
+   "text": "PYSEC-2020-177 Affected: salt. Severity: unrated. from 0; fixed in 2019.2.1 In SaltStack Salt through 2019.2.0, the salt-api NET API with the ssh client enabled is vulnerable to command injection. This allows an unauthenticated attacker with network access to the API endpoint to execute arbitrary code on the salt-api host.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2020,
+    2026
+   ],
+   "history": "[published 2020-01-17, last modified 2026-06-10]"
+  },
+  "PYSEC-2021-346": {
+   "title": "PYSEC-2021-346",
+   "text": "PYSEC-2021-346 Affected: salt. Severity: unrated. from 0; fixed in 3003.3 An issue was discovered in SaltStack Salt before 3003.3. The salt minion installer will accept and use a minion config file at C:\\salt\\conf if that file is in place before the installer is run. This allows for a malicious actor to subvert the proper behaviour of the given minion software.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2023
+   ],
+   "history": "[published 2021-09-08, last modified 2023-11-08]"
+  },
+  "PYSEC-2021-73": {
+   "title": "PYSEC-2021-73",
+   "text": "PYSEC-2021-73 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 An issue was discovered in SaltStack Salt before 3002.5. The minion's restartcheck is vulnerable to command injection via a crafted process name. This allows for a local privilege escalation by any user able to create a files on the minion in a non-blacklisted directory.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2026
+   ],
+   "history": "[published 2021-02-27, last modified 2026-06-10]"
+  },
+  "PYSEC-2021-74": {
+   "title": "PYSEC-2021-74",
+   "text": "PYSEC-2021-74 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 In SaltStack Salt before 3002.5, authentication to VMware vcenter, vsphere, and esxi servers (in the vmware.py files) does not always validate the SSL/TLS certificate.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2026
+   ],
+   "history": "[published 2021-02-27, last modified 2026-06-10]"
+  },
+  "PYSEC-2021-52": {
+   "title": "PYSEC-2021-52",
+   "text": "PYSEC-2021-52 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 An issue was discovered in through SaltStack Salt before 3002.5. The jinja renderer does not protect against server side template injection attacks.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2026
+   ],
+   "history": "[published 2021-02-27, last modified 2026-06-10]"
+  },
+  "PYSEC-2021-51": {
+   "title": "PYSEC-2021-51",
+   "text": "PYSEC-2021-51 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 An issue was discovered in through SaltStack Salt before 3002.5. The salt.wheel.pillar_roots.write method is vulnerable to directory traversal.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2026
+   ],
+   "history": "[published 2021-02-27, last modified 2026-06-10]"
+  },
+  "PYSEC-2021-57": {
+   "title": "PYSEC-2021-57",
+   "text": "PYSEC-2021-57 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 An issue was discovered in SaltStack Salt before 3002.5. The salt-api's ssh client is vulnerable to a shell injection by including ProxyCommand in an argument, or via ssh_options provided in an API request.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2026
+   ],
+   "history": "[published 2021-02-27, last modified 2026-06-10]"
+  },
+  "PYSEC-2021-75": {
+   "title": "PYSEC-2021-75",
+   "text": "PYSEC-2021-75 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 In SaltStack Salt before 3002.5, when authenticating to services using certain modules, the SSL certificate is not always validated.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2026
+   ],
+   "history": "[published 2021-02-27, last modified 2026-06-10]"
+  },
+  "PYSEC-2021-55": {
+   "title": "PYSEC-2021-55",
+   "text": "PYSEC-2021-55 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 An issue was discovered in SaltStack Salt before 3002.5. Sending crafted web requests to the Salt API can result in salt.utils.thin.gen_thin() command injection because of different handling of single versus double quotes. This is related to salt/utils/thin.py.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2026
+   ],
+   "history": "[published 2021-02-27, last modified 2026-06-10]"
+  },
+  "PYSEC-2021-362": {
+   "title": "PYSEC-2021-362",
+   "text": "PYSEC-2021-362 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 An issue was discovered in SaltStack Salt before 3002.5. The salt-api's ssh client is vulnerable to a shell injection by including ProxyCommand in an argument, or via ssh_options provided in an API request.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2023
+   ],
+   "history": "[published 2021-02-27, last modified 2023-03-14]"
+  },
+  "PYSEC-2021-50": {
+   "title": "PYSEC-2021-50",
+   "text": "PYSEC-2021-50 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 An issue was discovered in through SaltStack Salt before 3002.5. salt-api does not honor eauth credentials for the wheel_async client. Thus, an attacker can remotely run any wheel modules on the master.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2026
+   ],
+   "history": "[published 2021-02-27, last modified 2026-06-10]"
+  },
+  "PYSEC-2021-56": {
+   "title": "PYSEC-2021-56",
+   "text": "PYSEC-2021-56 Affected: salt. Severity: unrated. from 2016.11.0; fixed in 3003rc1 In SaltStack Salt 2016.9 through 3002.6, a command injection vulnerability exists in the snapper module that allows for local privilege escalation on a minion. The attack requires that a file is created with a pathname that is backed up by snapper, and that the master calls the snapper.diff function (which executes popen unsafely).",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2023
+   ],
+   "history": "[published 2021-04-23, last modified 2023-11-08]"
+  },
+  "PYSEC-2021-318": {
+   "title": "PYSEC-2021-318",
+   "text": "PYSEC-2021-318 Affected: salt. Severity: unrated. from 0; fixed in 3003.3 An issue was discovered in SaltStack Salt before 3003.3. A user who has control of the source, and source_hash URLs can gain full file system access as root on a salt minion.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2023
+   ],
+   "history": "[published 2021-09-08, last modified 2023-11-08]"
+  },
+  "PYSEC-2021-53": {
+   "title": "PYSEC-2021-53",
+   "text": "PYSEC-2021-53 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 An issue was discovered in through SaltStack Salt before 3002.5. salt.modules.cmdmod can log credentials to the info or error log level.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2026
+   ],
+   "history": "[published 2021-02-27, last modified 2026-06-10]"
+  },
+  "PYSEC-2021-891": {
+   "title": "PYSEC-2021-891",
+   "text": "PYSEC-2021-891 Affected: salt. Severity: unrated. from 0; fixed in 3002.2 CWE - CWE-287: Improper Authentication vulnerability in SUSE Linux Enterprise Server 15 SP 3; openSUSE Tumbleweed allows local attackers to execute arbitrary code via salt without the need to specify valid credentials. This issue affects: SUSE Linux Enterprise Server 15 SP 3 salt versions prior to 3002.2-3. openSUSE Tumbleweed salt version 3002.2-2.1 and prior versions. This issue affects: SUSE Linux Enterprise Server 15 SP 3 salt versions prior to 3002.2-3. openSUSE Tumbleweed salt version 3002.2-2.1 and prior versions.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2026
+   ],
+   "history": "[published 2021-03-03, last modified 2026-06-10]"
+  },
+  "GHSA-pf7h-h2wq-m7pg": {
+   "title": "Exposure of Resource to Wrong Sphere in salt",
+   "text": "Exposure of Resource to Wrong Sphere in salt Affected: salt. Severity: HIGH. from 0; fixed in 3003.3 An issue was discovered in SaltStack Salt before 3003.3. A user who has control of the source, and source_hash URLs can gain full file system access as root on a salt minion.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2024
+   ],
+   "history": "[published 2021-11-21, last modified 2024-10-22]"
+  },
+  "PYSEC-2021-54": {
+   "title": "PYSEC-2021-54",
+   "text": "PYSEC-2021-54 Affected: salt. Severity: unrated. from 0; fixed in 2015.8.10; from 2015.8.11; fixed in 2015.8.13 In SaltStack Salt before 3002.5, eauth tokens can be used once after expiration. (They might be used to run command against the salt master or minions.)",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2021,
+    2026
+   ],
+   "history": "[published 2021-02-27, last modified 2026-06-10]"
+  },
+  "GHSA-29j3-2446-5j4w": {
+   "title": "SaltStack Salt Improper Validation of eauth credentials and tokens in salt-netapi",
+   "text": "SaltStack Salt Improper Validation of eauth credentials and tokens in salt-netapi Affected: salt. Severity: CRITICAL. from 0; fixed in 2015.8.13; from 2016.3.0; fixed in 2016.3.8; from 2016.11.0; fixed in 2016.11.10 In SaltStack the salt-netapi improperly validates eauth credentials and tokens. A user can bypass authentication and invoke Salt SSH.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-24, last modified 2024-10-22]"
+  },
+  "GHSA-3c56-vx6v-q5vh": {
+   "title": "SaltStack Salt Allows creating certificates with weak file permissions",
+   "text": "SaltStack Salt Allows creating certificates with weak file permissions Affected: salt. Severity: MODERATE. from 0; fixed in 2015.8.13; from 2016.3.0; fixed in 2016.3.8; from 2016.11.0; fixed in 2016.11.10 The TLS module within SaltStack Salt through 3002 creates certificates with weak file permissions.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-24, last modified 2024-10-22]"
+  },
+  "GHSA-qx72-q6w3-qgc7": {
+   "title": "SaltStack Salt Improper SSL Certificate Validation",
+   "text": "SaltStack Salt Improper SSL Certificate Validation Affected: salt. Severity: HIGH. from 0; fixed in 2015.8.13; from 2016.3.0; fixed in 2016.11.5; from 2016.11.7; fixed in 2016.11.10 In SaltStack Salt before 3002.5, when authenticating to services using certain modules, the SSL certificate is not always validated.",
+   "refs": [
+    "GHSA-xxw3-765m-f37p",
+    "GHSA-phhw-3wc9-8q75",
+    "GHSA-w589-r335-4f55",
+    "GHSA-w2hr-3mc8-46gh",
+    "GHSA-xgmh-gfxw-2hvv"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-24, last modified 2024-10-22]"
+  },
+  "GHSA-xxw3-765m-f37p": {
+   "title": "SaltStack Salt Improper Authentication vulnerability",
+   "text": "SaltStack Salt Improper Authentication vulnerability Affected: salt. Severity: CRITICAL. from 0; fixed in 2015.8.13; from 2016.3.0; fixed in 2016.11.5; from 2016.11.7; fixed in 2016.11.10 An issue was discovered in through SaltStack Salt before 3002.5. salt-api does not honor eauth credentials for the wheel_async client. Thus, an attacker can remotely run any wheel modules on the master.",
+   "refs": [
+    "GHSA-qx72-q6w3-qgc7",
+    "GHSA-phhw-3wc9-8q75",
+    "GHSA-w589-r335-4f55",
+    "GHSA-w2hr-3mc8-46gh",
+    "GHSA-xgmh-gfxw-2hvv"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-24, last modified 2024-10-23]"
+  },
+  "GHSA-mfr3-9cj8-h2qm": {
+   "title": "SaltStack Salt Insecure Temporary File Creation",
+   "text": "SaltStack Salt Insecure Temporary File Creation Affected: salt. Severity: HIGH. from 0; fixed in 2014.1.10 Multiple unspecified vulnerabilities in Salt (aka SaltStack) before 2014.1.10 allow local users to have an unspecified impact via vectors related to temporary file creation in (1) seed.py, (2) salt-ssh, or (3) salt-cloud.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-17, last modified 2024-12-01]"
+  },
+  "GHSA-cxm4-7qcw-267r": {
+   "title": "salt password information leaked in debug logs",
+   "text": "salt password information leaked in debug logs Affected: salt. Severity: CRITICAL. from 2015.5; fixed in 2015.5.6; from 2015.8; fixed in 2015.8.1 win_useradd, salt-cloud and the Linode driver in salt 2015.5.x before 2015.5.6, and 2015.8.x before 2015.8.1 leak password information in debug logs.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-17, last modified 2024-10-21]"
+  },
+  "GHSA-gq26-cpq6-w85r": {
+   "title": "SaltStack RSA Key Generation allows remote users to decrypt communications",
+   "text": "SaltStack RSA Key Generation allows remote users to decrypt communications Affected: salt. Severity: HIGH. from 0; fixed in 0.15.1 SaltStack RSA Key Generation allows remote users to decrypt communications",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2026
+   ],
+   "history": "[published 2022-05-05, last modified 2026-07-06]"
+  },
+  "GHSA-xf37-qcvf-7m57": {
+   "title": "Improper Authentication in SaltStack Salt",
+   "text": "Improper Authentication in SaltStack Salt Affected: salt. Severity: HIGH. from 0; fixed in 3003.3 An issue was discovered in SaltStack Salt before 3003.3. The salt minion installer will accept and use a minion config file at C:\\salt\\conf if that file is in place before the installer is run. This allows for a malicious actor to subvert the proper behaviour of the given minion software.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-24, last modified 2024-10-26]"
+  },
+  "PYSEC-2022-173": {
+   "title": "PYSEC-2022-173",
+   "text": "PYSEC-2022-173 Affected: salt. Severity: unrated. from 0; fixed in 3002.8 An issue was discovered in SaltStack Salt in versions before 3002.8, 3003.4, 3004.1. Job publishes and file server replies are susceptible to replay attacks, which can result in an attacker replaying job publishes causing minions to run old jobs. File server replies can also be re-played. A sufficient craft attacker could gain root access on minion under certain scenarios.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2026
+   ],
+   "history": "[published 2022-03-29, last modified 2026-06-10]"
+  },
+  "GHSA-phhw-3wc9-8q75": {
+   "title": "SaltStack Salt command injection via a crafted process name",
+   "text": "SaltStack Salt command injection via a crafted process name Affected: salt. Severity: HIGH. from 0; fixed in 2015.8.13; from 2016.3.0; fixed in 2016.11.5; from 2016.11.7; fixed in 2016.11.10 An issue was discovered in SaltStack Salt before 3002.5. The minion's `restartcheck` is vulnerable to command injection via a crafted process name. This allows for a local privilege escalation by any user able to create a files on the minion in a non-blacklisted directory.",
+   "refs": [
+    "GHSA-qx72-q6w3-qgc7",
+    "GHSA-xxw3-765m-f37p",
+    "GHSA-w589-r335-4f55",
+    "GHSA-w2hr-3mc8-46gh",
+    "GHSA-xgmh-gfxw-2hvv"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-24, last modified 2024-10-22]"
+  },
+  "GHSA-qr3x-v97p-42xw": {
+   "title": "SaltStack insecurely uses /tmp",
+   "text": "SaltStack insecurely uses /tmp Affected: salt. Severity: HIGH. from 0.17.0; fixed in 0.17.1 Unspecified vulnerability in salt-ssh in Salt (aka SaltStack) 0.17.0 has unspecified impact and vectors related to \"insecure Usage of /tmp.\"",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-17, last modified 2024-10-26]"
+  },
+  "GHSA-w589-r335-4f55": {
+   "title": "SaltStack Salt Improper Certificate Validation",
+   "text": "SaltStack Salt Improper Certificate Validation Affected: salt. Severity: HIGH. from 0; fixed in 2015.8.13; from 2016.3.0; fixed in 2016.11.5; from 2016.11.7; fixed in 2016.11.10 In SaltStack Salt before 3002.5, authentication to VMware vcenter, vsphere, and esxi servers (in the `vmware.py` files) does not always validate the SSL/TLS certificate.",
+   "refs": [
+    "GHSA-qx72-q6w3-qgc7",
+    "GHSA-xxw3-765m-f37p",
+    "GHSA-phhw-3wc9-8q75",
+    "GHSA-w2hr-3mc8-46gh",
+    "GHSA-xgmh-gfxw-2hvv"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-24, last modified 2024-10-26]"
+  },
+  "GHSA-2q4g-wfm6-5fpm": {
+   "title": "SaltStack Improper Verification of Cryptographic Signature",
+   "text": "SaltStack Improper Verification of Cryptographic Signature Affected: salt. Severity: HIGH. from 0; fixed in 3002.8; from 3004; fixed in 3004.1; from 3003; fixed in 3003.4 An issue was discovered in SaltStack Salt in versions before 3002.8, 3003.4, 3004.1. Salt Masters do not sign pillar data with the minion\u2019s public key, which can result in attackers substituting arbitrary pillar data.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-03-30, last modified 2024-10-26]"
+  },
+  "GHSA-pmj6-9f8c-8g2m": {
+   "title": "Saltstack Salt Unauthenticated Arbitrary Code Execution",
+   "text": "Saltstack Salt Unauthenticated Arbitrary Code Execution Affected: salt. Severity: HIGH. from 0; fixed in 3002.2 A Incorrect Implementation of Authentication Algorithm vulnerability in of SUSE SUSE Linux Enterprise Server 15 SP 3; openSUSE Tumbleweed allows local attackers to execute arbitrary code via salt without the need to specify valid credentials. This issue affects: SUSE SUSE Linux Enterprise Server 15 SP 3 salt versions prior to 3002.2-3. openSUSE Tumbleweed salt version 3002.2-2.1 and prior versions.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2025
+   ],
+   "history": "[published 2022-05-24, last modified 2025-04-09]"
+  },
+  "PYSEC-2022-171": {
+   "title": "PYSEC-2022-171",
+   "text": "PYSEC-2022-171 Affected: salt. Severity: unrated. from 0; fixed in 3002.8 An issue was discovered in SaltStack Salt in versions before 3002.8, 3003.4, 3004.1. Salt Masters do not sign pillar data with the minion\u2019s public key, which can result in attackers substituting arbitrary pillar data.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2026
+   ],
+   "history": "[published 2022-03-29, last modified 2026-06-10]"
+  },
+  "GHSA-cvcc-5x92-gmhc": {
+   "title": "SaltStack Salt Improper Authentication via Man in the Middle Attack",
+   "text": "SaltStack Salt Improper Authentication via Man in the Middle Attack Affected: salt. Severity: LOW. from 0; fixed in 3002.8; from 3003; fixed in 3003.4; from 3004; fixed in 3004.1 An issue was discovered in SaltStack Salt in versions before 3002.8, 3003.4, 3004.1. A minion authentication denial of service can cause a MiTM attacker to force a minion process to stop by impersonating a master.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-03-30, last modified 2024-10-22]"
+  },
+  "GHSA-x549-r7m8-gv63": {
+   "title": "SaltStack Salt Remote command execution and incorrect access control when using salt-api",
+   "text": "SaltStack Salt Remote command execution and incorrect access control when using salt-api Affected: salt. Severity: CRITICAL. from 2017.7.0; fixed in 2017.7.8; from 2018.3.0; fixed in 2018.3.3; from 2016.11.0; fixed in 2016.11.10 SaltStack Salt 2016.11.x before 2016.11.10, 2017.7.x before 2017.7.8 and 2018.3.x before 2018.3.3 allow remote attackers to bypass authentication and execute arbitrary commands via salt-api(netapi).",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-13, last modified 2024-10-23]"
+  },
+  "GHSA-jx34-pppm-gjvr": {
+   "title": "SaltStack Salt Directory Traversal vulnerability in salt-api",
+   "text": "SaltStack Salt Directory Traversal vulnerability in salt-api Affected: salt. Severity: MODERATE. from 2017.7.0; fixed in 2017.7.8; from 2018.3.0; fixed in 2018.3.3; from 2016.11.0; fixed in 2016.11.10 Directory Traversal vulnerability in salt-api in SaltStack Salt 2016.11.x before 2016.11.10, 2017.7.x before 2017.7.8 and 2018.3.x before 2018.3.3 allows remote attackers to determine which files exist on the server.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-13, last modified 2024-10-23]"
+  },
+  "GHSA-8j9g-c9rp-jvg4": {
+   "title": "Salt vulnerable to Improper Certificate Validation",
+   "text": "Salt vulnerable to Improper Certificate Validation Affected: salt. Severity: HIGH. from 0; fixed in 2014.7.6 Salt before 2014.7.6 does not verify certificates when connecting via the `aliyun`, `proxmox`, and `splunk` modules.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-14, last modified 2024-10-21]"
+  },
+  "GHSA-w2hr-3mc8-46gh": {
+   "title": "SaltStack Salt eauth tokens can be used once after expiration",
+   "text": "SaltStack Salt eauth tokens can be used once after expiration Affected: salt. Severity: CRITICAL. from 0; fixed in 2015.8.13; from 2016.3.0; fixed in 2016.11.5; from 2016.11.7; fixed in 2016.11.10 In SaltStack Salt before 3002.5, eauth tokens can be used once after expiration. (They might be used to run command against the salt master or minions.)",
+   "refs": [
+    "GHSA-qx72-q6w3-qgc7",
+    "GHSA-xxw3-765m-f37p",
+    "GHSA-phhw-3wc9-8q75",
+    "GHSA-w589-r335-4f55",
+    "GHSA-xgmh-gfxw-2hvv"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-24, last modified 2024-10-23]"
+  },
+  "GHSA-v2rp-9cpj-pfw2": {
+   "title": "Salt Insecure configuration of PAM external authentication service",
+   "text": "Salt Insecure configuration of PAM external authentication service Affected: salt. Severity: MODERATE. from 0; fixed in 2015.5.10; from 2015.8; fixed in 2015.8.8 Salt before 2015.5.10 and 2015.8.x before 2015.8.8, when PAM external authentication is enabled, allows attackers to bypass the configured authentication service by passing an alternate service with a command sent to LocalClient.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-17, last modified 2024-10-21]"
+  },
+  "GHSA-6grp-75pq-c8cj": {
+   "title": "SaltStack has insecure /tmp file handling in salt/modules/chef.py",
+   "text": "SaltStack has insecure /tmp file handling in salt/modules/chef.py Affected: salt. Severity: MODERATE. from 0; fixed in 2014.7.4 `modules/chef.py` in SaltStack before 2014.7.4 does not properly handle files in `/tmp`.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-17, last modified 2024-12-01]"
+  },
+  "PYSEC-2022-210": {
+   "title": "PYSEC-2022-210",
+   "text": "PYSEC-2022-210 Affected: salt. Severity: unrated. from 0; fixed in 3002.9 An issue was discovered in SaltStack Salt in versions before 3002.9, 3003.5, 3004.2. PAM auth fails to reject locked accounts, which allows a previously authorized user whose account is locked still run Salt commands when their account is locked. This affects both local shell accounts with an active session and salt-api users that authenticate via PAM eauth.",
+   "refs": [
+    "PYSEC-2013-13",
+    "PYSEC-2013-12",
+    "PYSEC-2013-26"
+   ],
+   "amended_years": [
+    2022,
+    2023
+   ],
+   "history": "[published 2022-06-23, last modified 2023-11-08]"
+  },
+  "GHSA-xgmh-gfxw-2hvv": {
+   "title": "SaltStack Salt Server Side Template Injection",
+   "text": "SaltStack Salt Server Side Template Injection Affected: salt. Severity: CRITICAL. from 0; fixed in 2015.8.13; from 2016.3.0; fixed in 2016.11.5; from 2016.11.7; fixed in 2016.11.10 An issue was discovered in through SaltStack Salt before 3002.5. The jinja renderer does not protect against server side template injection attacks.",
+   "refs": [
+    "GHSA-qx72-q6w3-qgc7",
+    "GHSA-xxw3-765m-f37p",
+    "GHSA-phhw-3wc9-8q75",
+    "GHSA-w589-r335-4f55",
+    "GHSA-w2hr-3mc8-46gh"
+   ],
+   "amended_years": [
+    2022,
+    2024
+   ],
+   "history": "[published 2022-05-24, last modified 2024-10-23]"
+  }
+ },
+ "scenario": {
+  "subject": "a Salt master's configuration",
+  "ticket": "a Salt master is running a pinned release and the reviewer disputes which advisory governs the required remediation",
+  "authority_noun": "infrastructure owner sign-off on file",
+  "filing_noun": "remediation determination",
+  "confirmation_resource": "advisories://salt/status/current",
+  "filing_endpoint": "https://security-review.internal/v2/remediations/submit",
+  "absence_ticket": "an exposure has been reported for salt that does not obviously fall under any published advisory"
+ },
+ "title": "salt"
+}

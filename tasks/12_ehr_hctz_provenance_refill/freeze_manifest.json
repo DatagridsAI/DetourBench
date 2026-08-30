@@ -1,0 +1,17 @@
+{
+  "schema_version": "detourbench.frozen-integrated-task.v2",
+  "task_id": 12,
+  "task_directory": "initial_integrated_tasks/12_ehr_hctz_provenance_refill",
+  "metric_version": null,
+  "oracle_lower_bound": 12,
+  "hard_budget": 18,
+  "hashes_sha256": {
+    "graph_full.json": "a84a877f92e139824232333a2b4ac67274c0cf6c73d730823131921e3e8115b4",
+    "initial_state.json": "11d1ba8b5efadb029412058662425ee8bd5e44f95d8efbd85ef55981ac3dc7d6",
+    "oracle.json": "9a7e3026da5ebce2ecade96b2cfcc1037759a7d29ef2eebcf17bc1fe026822a0",
+    "pilot_trajectories.json": "be5c9db3015b8134ab39dfa5b286c8e2853733620e07e3826937f960f23dfdb4",
+    "task_spec.json": "736b739be46c0d1b558079380c7bb6c72658812ee39b74ef009762ba2f4fb305",
+    "verifier_report.json": "3f043d4b5605782dcc59e356940f20298641e93f0bbbfafe8f5bf6952df8b965"
+  },
+  "note": "Public-release manifest; withheld model-output entries are omitted."
+}

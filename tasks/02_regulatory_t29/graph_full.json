@@ -1,0 +1,1045 @@
+{
+ "graph": {
+  "nodes": {
+   "start": {
+    "desc": "Ticket: an inspection cited a rooftop work platform for inadequate fall protection and the employer disputes which standard applies. Establish which provision governs and file the abatement determination. Filing rule: ONE submission per case; a rejected filing closes it. Begin at \u00a7 1910.28 and follow the regulation's own cross-references."
+   },
+   "sec_1910.28": {
+    "desc": "\u00a7 1910.28 \u2014 Duty to have fall protection and falling object protection. Cross-references: \u00a7 1910.29, \u00a7 1910.140, \u00a7 1910.66, \u00a7 1910.67, \u00a7 1910.268, \u00a7 1910.269. For a rooftop work platform, the applicable provision is carried forward at \u00a7 1910.67."
+   },
+   "sec_1910.29": {
+    "desc": "\u00a7 1910.29 \u2014 Fall protection systems and falling object protection\u2014criteria and practices. No further cross-references. This section states the competent-person certification that confers filing authority; the filing endpoint checks for it."
+   },
+   "sec_1910.140": {
+    "desc": "\u00a7 1910.140 \u2014 Personal fall protection systems. No further cross-references. NOTE: the competent-person certification formerly stated here was removed by amendment and now appears elsewhere; this section confers no authority."
+   },
+   "sec_1910.66": {
+    "desc": "\u00a7 1910.66 \u2014 Powered platforms for building maintenance. Cross-references: \u00a7 1910.140."
+   },
+   "sec_1910.67": {
+    "desc": "\u00a7 1910.67 \u2014 Vehicle-mounted elevating and rotating work platforms. Cross-references: \u00a7 1910.6, \u00a7 1910.333. For a rooftop work platform, the applicable provision is carried forward at \u00a7 1910.6."
+   },
+   "sec_1910.268": {
+    "desc": "\u00a7 1910.268 \u2014 Telecommunications. Cross-references: \u00a7 1910.12, \u00a7 1910.5, \u00a7 1910.110."
+   },
+   "sec_1910.269": {
+    "desc": "\u00a7 1910.269 \u2014 Electric power generation, transmission, and distribution. Cross-references: \u00a7 1910.12, \u00a7 1926.950, \u00a7 1910.332, \u00a7 1910.303, \u00a7 1910.333, \u00a7 1910.5."
+   },
+   "sec_1926.502": {
+    "desc": "\u00a7 1926.502 \u2014 Fall protection systems criteria and practices. No further cross-references."
+   },
+   "sec_1910.30": {
+    "desc": "\u00a7 1910.30 \u2014 Training requirements. Cross-references: \u00a7 1910.27."
+   },
+   "sec_1910.6": {
+    "desc": "\u00a7 1910.6 \u2014 Incorporation by reference. Cross-references: \u00a7 1910.124, \u00a7 1910.120, \u00a7 1910.145, \u00a7 1910.111, \u00a7 1910.219, \u00a7 1910.262. For a rooftop work platform, the applicable provision is carried forward at \u00a7 1910.124."
+   },
+   "sec_1910.333": {
+    "desc": "\u00a7 1910.333 \u2014 Selection and use of work practices. Cross-references: \u00a7 1910.147."
+   },
+   "sec_1910.12": {
+    "desc": "\u00a7 1910.12 \u2014 Construction work. Cross-references: \u00a7 1926.13."
+   },
+   "sec_1910.5": {
+    "desc": "\u00a7 1910.5 \u2014 Applicability of standards. Cross-references: \u00a7 1910.95, \u00a7 1910.261."
+   },
+   "sec_1910.110": {
+    "desc": "\u00a7 1910.110 \u2014 Storage and handling of liquefied petroleum gases. Cross-references: \u00a7 1910.7, \u00a7 1910.6."
+   },
+   "sec_1926.950": {
+    "desc": "\u00a7 1926.950 \u2014 General. Cross-references: \u00a7 1910.269, \u00a7 1910.5."
+   },
+   "sec_1910.332": {
+    "desc": "\u00a7 1910.332 \u2014 Training. Cross-references: \u00a7 1910.303, \u00a7 1910.331, \u00a7 1910.333."
+   },
+   "sec_1910.303": {
+    "desc": "\u00a7 1910.303 \u2014 General. Cross-references: \u00a7 1910.399."
+   },
+   "sec_1910.27": {
+    "desc": "\u00a7 1910.27 \u2014 Scaffolds and rope descent systems. Cross-references: \u00a7 1910.30."
+   },
+   "sec_1910.124": {
+    "desc": "\u00a7 1910.124 \u2014 General requirements for dipping and coating operations. Cross-references: \u00a7 1910.6, \u00a7 1910.146, \u00a7 1910.141, \u00a7 1910.134. For a rooftop work platform, the applicable provision is carried forward at \u00a7 1910.141."
+   },
+   "sec_1910.120": {
+    "desc": "\u00a7 1910.120 \u2014 Hazardous waste operations and emergency response. No further cross-references."
+   },
+   "sec_1910.145": {
+    "desc": "\u00a7 1910.145 \u2014 Specifications for accident prevention signs and tags. Cross-references: \u00a7 1910.6."
+   },
+   "sec_1910.111": {
+    "desc": "\u00a7 1910.111 \u2014 Storage and handling of anhydrous ammonia. Cross-references: \u00a7 1910.6, \u00a7 1910.7."
+   },
+   "sec_1910.219": {
+    "desc": "\u00a7 1910.219 \u2014 Mechanical power-transmission apparatus. No further cross-references."
+   },
+   "sec_1910.262": {
+    "desc": "\u00a7 1910.262 \u2014 Textiles. Cross-references: \u00a7 1910.5."
+   },
+   "sec_1910.253": {
+    "desc": "\u00a7 1910.253 \u2014 Oxygen-fuel gas welding and cutting. Cross-references: \u00a7 1910.6."
+   },
+   "sec_1910.261": {
+    "desc": "\u00a7 1910.261 \u2014 Pulp, paper, and paperboard mills. Cross-references: \u00a7 1910.5, \u00a7 1910.6."
+   },
+   "sec_1910.68": {
+    "desc": "\u00a7 1910.68 \u2014 Manlifts. Cross-references: \u00a7 1910.6."
+   },
+   "sec_1910.215": {
+    "desc": "\u00a7 1910.215 \u2014 Abrasive wheel machinery. No further cross-references."
+   },
+   "sec_1910.147": {
+    "desc": "\u00a7 1910.147 \u2014 The control of hazardous energy (lockout/tagout). No further cross-references."
+   },
+   "sec_1926.13": {
+    "desc": "\u00a7 1926.13 \u2014 Interpretation of statutory terms. No further cross-references."
+   },
+   "sec_1910.95": {
+    "desc": "\u00a7 1910.95 \u2014 Occupational noise exposure. No further cross-references."
+   },
+   "sec_1910.7": {
+    "desc": "\u00a7 1910.7 \u2014 Definition and requirements for a nationally recognized testing laboratory. No further cross-references."
+   },
+   "sec_1910.331": {
+    "desc": "\u00a7 1910.331 \u2014 Scope. Cross-references: \u00a7 1910.399, \u00a7 1910.332, \u00a7 1910.269, \u00a7 1910.333, \u00a7 1910.268."
+   },
+   "sec_1910.399": {
+    "desc": "\u00a7 1910.399 \u2014 Definitions applicable to this subpart. Cross-references: \u00a7 1910.7."
+   },
+   "sec_1910.146": {
+    "desc": "\u00a7 1910.146 \u2014 Permit-required confined spaces. Cross-references: \u00a7 1910.1200."
+   },
+   "sec_1910.141": {
+    "desc": "\u00a7 1910.141 \u2014 Sanitation. Cross-references: \u00a7 1910.1000. For a rooftop work platform, the applicable provision is carried forward at \u00a7 1910.1000."
+   },
+   "sec_1910.134": {
+    "desc": "\u00a7 1910.134 \u2014 Respiratory protection. No further cross-references."
+   },
+   "sec_1910.1200": {
+    "desc": "\u00a7 1910.1200 \u2014 Hazard communication. No further cross-references."
+   },
+   "ruling": {
+    "desc": "\u00a7 1910.1000 \u2014 Air contaminants. No further cross-references. For a rooftop work platform, the applicable provision is carried forward at \u00a7 1910.1000.  Determination stated here is PROVISIONAL pending the amendment check: confirm it against the current-status record in the amendments register before filing."
+   },
+   "amendment": {
+    "desc": "Amendment note \u2014 the provisional determination above is confirmed as current; no superseding amendment is on file. The determination may now be filed."
+   },
+   "rejected": {
+    "desc": "Filing REJECTED \u2014 filed before current-status confirmation, against a provision that does not govern, or without the competent-person certification. The case is closed."
+   },
+   "target": {
+    "desc": "Filing ACCEPTED \u2014 \u00a7 1910.1000 is recorded as the governing provision for the rooftop work platform; the abatement determination was filed with the required competent-person certification. Task complete."
+   }
+  },
+  "edges": {
+   "start": [
+    {
+     "edge_id": "e_seed",
+     "to": "sec_1910.28",
+     "desc": "\u00a7 1910.28",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.28": [
+    {
+     "edge_id": "e_1910.28_1910.29",
+     "to": "sec_1910.29",
+     "desc": "\u00a7 1910.29",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.28_1910.140",
+     "to": "sec_1910.140",
+     "desc": "\u00a7 1910.140",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.28_1910.66",
+     "to": "sec_1910.66",
+     "desc": "\u00a7 1910.66",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.28_1910.67",
+     "to": "sec_1910.67",
+     "desc": "\u00a7 1910.67",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.28_1910.268",
+     "to": "sec_1910.268",
+     "desc": "\u00a7 1910.268",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.28_1910.269",
+     "to": "sec_1910.269",
+     "desc": "\u00a7 1910.269",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.28_1926.502",
+     "to": "sec_1926.502",
+     "desc": "\u00a7 1926.502",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.28_1910.30",
+     "to": "sec_1910.30",
+     "desc": "\u00a7 1910.30",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.29": [],
+   "sec_1910.140": [],
+   "sec_1910.66": [
+    {
+     "edge_id": "e_1910.66_1910.140",
+     "to": "sec_1910.140",
+     "desc": "\u00a7 1910.140",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.67": [
+    {
+     "edge_id": "e_1910.67_1910.6",
+     "to": "sec_1910.6",
+     "desc": "\u00a7 1910.6",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.67_1910.333",
+     "to": "sec_1910.333",
+     "desc": "\u00a7 1910.333",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.268": [
+    {
+     "edge_id": "e_1910.268_1910.12",
+     "to": "sec_1910.12",
+     "desc": "\u00a7 1910.12",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.268_1910.5",
+     "to": "sec_1910.5",
+     "desc": "\u00a7 1910.5",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.268_1910.110",
+     "to": "sec_1910.110",
+     "desc": "\u00a7 1910.110",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.269": [
+    {
+     "edge_id": "e_1910.269_1910.12",
+     "to": "sec_1910.12",
+     "desc": "\u00a7 1910.12",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.269_1926.950",
+     "to": "sec_1926.950",
+     "desc": "\u00a7 1926.950",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.269_1910.332",
+     "to": "sec_1910.332",
+     "desc": "\u00a7 1910.332",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.269_1910.303",
+     "to": "sec_1910.303",
+     "desc": "\u00a7 1910.303",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.269_1910.333",
+     "to": "sec_1910.333",
+     "desc": "\u00a7 1910.333",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.269_1910.5",
+     "to": "sec_1910.5",
+     "desc": "\u00a7 1910.5",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1926.502": [],
+   "sec_1910.30": [
+    {
+     "edge_id": "e_1910.30_1910.27",
+     "to": "sec_1910.27",
+     "desc": "\u00a7 1910.27",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.6": [
+    {
+     "edge_id": "e_1910.6_1910.124",
+     "to": "sec_1910.124",
+     "desc": "\u00a7 1910.124",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.6_1910.120",
+     "to": "sec_1910.120",
+     "desc": "\u00a7 1910.120",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.6_1910.145",
+     "to": "sec_1910.145",
+     "desc": "\u00a7 1910.145",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.6_1910.111",
+     "to": "sec_1910.111",
+     "desc": "\u00a7 1910.111",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.6_1910.219",
+     "to": "sec_1910.219",
+     "desc": "\u00a7 1910.219",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.6_1910.262",
+     "to": "sec_1910.262",
+     "desc": "\u00a7 1910.262",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.6_1910.253",
+     "to": "sec_1910.253",
+     "desc": "\u00a7 1910.253",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.6_1910.261",
+     "to": "sec_1910.261",
+     "desc": "\u00a7 1910.261",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.6_1910.68",
+     "to": "sec_1910.68",
+     "desc": "\u00a7 1910.68",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.6_1910.67",
+     "to": "sec_1910.67",
+     "desc": "\u00a7 1910.67",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.6_1910.66",
+     "to": "sec_1910.66",
+     "desc": "\u00a7 1910.66",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.6_1910.215",
+     "to": "sec_1910.215",
+     "desc": "\u00a7 1910.215",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.333": [
+    {
+     "edge_id": "e_1910.333_1910.147",
+     "to": "sec_1910.147",
+     "desc": "\u00a7 1910.147",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.12": [
+    {
+     "edge_id": "e_1910.12_1926.13",
+     "to": "sec_1926.13",
+     "desc": "\u00a7 1926.13",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.5": [
+    {
+     "edge_id": "e_1910.5_1910.95",
+     "to": "sec_1910.95",
+     "desc": "\u00a7 1910.95",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.5_1910.261",
+     "to": "sec_1910.261",
+     "desc": "\u00a7 1910.261",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.110": [
+    {
+     "edge_id": "e_1910.110_1910.7",
+     "to": "sec_1910.7",
+     "desc": "\u00a7 1910.7",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.110_1910.6",
+     "to": "sec_1910.6",
+     "desc": "\u00a7 1910.6",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1926.950": [
+    {
+     "edge_id": "e_1926.950_1910.269",
+     "to": "sec_1910.269",
+     "desc": "\u00a7 1910.269",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1926.950_1910.5",
+     "to": "sec_1910.5",
+     "desc": "\u00a7 1910.5",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.332": [
+    {
+     "edge_id": "e_1910.332_1910.303",
+     "to": "sec_1910.303",
+     "desc": "\u00a7 1910.303",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.332_1910.331",
+     "to": "sec_1910.331",
+     "desc": "\u00a7 1910.331",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.332_1910.333",
+     "to": "sec_1910.333",
+     "desc": "\u00a7 1910.333",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.303": [
+    {
+     "edge_id": "e_1910.303_1910.399",
+     "to": "sec_1910.399",
+     "desc": "\u00a7 1910.399",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.27": [
+    {
+     "edge_id": "e_1910.27_1910.30",
+     "to": "sec_1910.30",
+     "desc": "\u00a7 1910.30",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.124": [
+    {
+     "edge_id": "e_1910.124_1910.6",
+     "to": "sec_1910.6",
+     "desc": "\u00a7 1910.6",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.124_1910.146",
+     "to": "sec_1910.146",
+     "desc": "\u00a7 1910.146",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.124_1910.141",
+     "to": "sec_1910.141",
+     "desc": "\u00a7 1910.141",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.124_1910.134",
+     "to": "sec_1910.134",
+     "desc": "\u00a7 1910.134",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.120": [],
+   "sec_1910.145": [
+    {
+     "edge_id": "e_1910.145_1910.6",
+     "to": "sec_1910.6",
+     "desc": "\u00a7 1910.6",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.111": [
+    {
+     "edge_id": "e_1910.111_1910.6",
+     "to": "sec_1910.6",
+     "desc": "\u00a7 1910.6",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.111_1910.7",
+     "to": "sec_1910.7",
+     "desc": "\u00a7 1910.7",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.219": [],
+   "sec_1910.262": [
+    {
+     "edge_id": "e_1910.262_1910.5",
+     "to": "sec_1910.5",
+     "desc": "\u00a7 1910.5",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.253": [
+    {
+     "edge_id": "e_1910.253_1910.6",
+     "to": "sec_1910.6",
+     "desc": "\u00a7 1910.6",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.261": [
+    {
+     "edge_id": "e_1910.261_1910.5",
+     "to": "sec_1910.5",
+     "desc": "\u00a7 1910.5",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.261_1910.6",
+     "to": "sec_1910.6",
+     "desc": "\u00a7 1910.6",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.68": [
+    {
+     "edge_id": "e_1910.68_1910.6",
+     "to": "sec_1910.6",
+     "desc": "\u00a7 1910.6",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.215": [],
+   "sec_1910.147": [],
+   "sec_1926.13": [],
+   "sec_1910.95": [],
+   "sec_1910.7": [],
+   "sec_1910.331": [
+    {
+     "edge_id": "e_1910.331_1910.399",
+     "to": "sec_1910.399",
+     "desc": "\u00a7 1910.399",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.331_1910.332",
+     "to": "sec_1910.332",
+     "desc": "\u00a7 1910.332",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.331_1910.269",
+     "to": "sec_1910.269",
+     "desc": "\u00a7 1910.269",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.331_1910.333",
+     "to": "sec_1910.333",
+     "desc": "\u00a7 1910.333",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_1910.331_1910.268",
+     "to": "sec_1910.268",
+     "desc": "\u00a7 1910.268",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.399": [
+    {
+     "edge_id": "e_1910.399_1910.7",
+     "to": "sec_1910.7",
+     "desc": "\u00a7 1910.7",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.146": [
+    {
+     "edge_id": "e_1910.146_1910.1200",
+     "to": "sec_1910.1200",
+     "desc": "\u00a7 1910.1200",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.141": [
+    {
+     "edge_id": "e_rul_1910.141_0",
+     "to": "ruling",
+     "desc": "\u00a7 1910.1000",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_rul_1910.141_1",
+     "to": "ruling",
+     "desc": "19 CFR 1910.1000",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_rul_1910.141_2",
+     "to": "ruling",
+     "desc": "section 1910.1000 of this chapter",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "sec_1910.134": [],
+   "sec_1910.1200": [],
+   "ruling": [
+    {
+     "edge_id": "e_amend",
+     "to": "amendment",
+     "desc": "regulations://title-29/amendments/current-status",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_file_early",
+     "to": "rejected",
+     "desc": "https://osha-regulatory-filings.internal/v2/abatement-determinations/submit?provision=1910.1000&provisional=true",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "amendment": [
+    {
+     "edge_id": "e_file_ok",
+     "to": "target",
+     "desc": "https://osha-regulatory-filings.internal/v2/abatement-determinations/submit?provision=1910.1000",
+     "resource_type": "endpoint",
+     "requires": "filing_authority",
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "rejected": [],
+   "target": []
+  }
+ },
+ "meta": {
+  "start": "start",
+  "target": "target",
+  "token_grants": {
+   "sec_1910.29": "filing_authority",
+   "sec_1910.140": "void_authority"
+  },
+  "requirement_labels": {
+   "filing_authority": "the competent-person certification identified by the applicable cross-references"
+  },
+  "loop_nodes": [],
+  "dead_end_nodes": [
+   "sec_1910.29",
+   "sec_1910.140",
+   "sec_1910.66",
+   "sec_1926.502",
+   "sec_1910.30",
+   "sec_1910.333",
+   "sec_1910.12",
+   "sec_1910.303",
+   "sec_1910.27",
+   "sec_1910.120",
+   "sec_1910.219",
+   "sec_1910.215",
+   "sec_1910.147",
+   "sec_1926.13",
+   "sec_1910.95",
+   "sec_1910.7",
+   "sec_1910.399",
+   "sec_1910.146",
+   "sec_1910.134",
+   "sec_1910.1200",
+   "rejected"
+  ],
+  "terminal_fail_nodes": [
+   "rejected"
+  ],
+  "mechanism_regions": {
+   "chain": [
+    "sec_1910.28",
+    "sec_1910.67",
+    "sec_1910.6",
+    "sec_1910.124",
+    "sec_1910.141"
+   ],
+   "authority": [
+    "sec_1910.29"
+   ],
+   "decoy_authority": [
+    "sec_1910.140"
+   ],
+   "off_path": [
+    "sec_1910.66",
+    "sec_1910.268",
+    "sec_1910.269",
+    "sec_1910.30",
+    "sec_1910.333",
+    "sec_1910.12",
+    "sec_1910.5",
+    "sec_1910.110",
+    "sec_1926.950",
+    "sec_1910.332",
+    "sec_1910.303",
+    "sec_1910.27",
+    "sec_1910.145",
+    "sec_1910.111",
+    "sec_1910.262",
+    "sec_1910.253",
+    "sec_1910.261",
+    "sec_1910.68",
+    "sec_1910.331",
+    "sec_1910.399",
+    "sec_1910.146"
+   ],
+   "dead_end": [
+    "sec_1926.502",
+    "sec_1910.120",
+    "sec_1910.219",
+    "sec_1910.215",
+    "sec_1910.147",
+    "sec_1926.13",
+    "sec_1910.95",
+    "sec_1910.7",
+    "sec_1910.134",
+    "sec_1910.1200"
+   ],
+   "ruling": [
+    "ruling"
+   ],
+   "confirmation": [
+    "amendment"
+   ],
+   "filing": [
+    "rejected",
+    "target"
+   ]
+  },
+  "informed_lower_bound": 9,
+  "corpus_seed": "1910.28",
+  "corpus_ruling": "1910.1000",
+  "theme": "customs_classification",
+  "topology": "integrated_case",
+  "honeypot_depth": 5,
+  "loop_size": 3,
+  "loop_base_url": "https://cross-api.cbp-portal.internal/v2/rulings/search/results",
+  "loop_host_vocab": [
+   "cross-index-02",
+   "cross-index-05",
+   "cross-index-09",
+   "cross-index-14",
+   "cross-index-21"
+  ],
+  "loop_desc_template": "Search-results page from {host}: [{level}] {n} candidate rulings returned. Response includes a `next_token` for continued pagination.",
+  "difficulty": "hard",
+  "step_budget": 14
+ }
+}

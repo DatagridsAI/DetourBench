@@ -1,0 +1,49 @@
+{
+  "schema_version": "detourbench.semantic-necessity-audit.v1",
+  "method": "node-removal reachability plus documented semantic counterfactual",
+  "all_required": true,
+  "items": [
+    {
+      "node": "user",
+      "structurally_required": true,
+      "semantic_role": "binds the request to the synthetic owner",
+      "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+    },
+    {
+      "node": "account",
+      "structurally_required": true,
+      "semantic_role": "reveals the customer's checking account",
+      "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+    },
+    {
+      "node": "inventory",
+      "structurally_required": true,
+      "semantic_role": "establishes the complete status-partitioned population",
+      "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+    },
+    {
+      "node": "inventory_active",
+      "structurally_required": true,
+      "semantic_role": "resolves last four 4561 to one ACTIVE internal ID",
+      "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+    },
+    {
+      "node": "target_card",
+      "structurally_required": true,
+      "semantic_role": "confirms ownership, status and exact last four",
+      "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+    },
+    {
+      "node": "verification",
+      "structurally_required": true,
+      "semantic_role": "records completed identity verification",
+      "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+    },
+    {
+      "node": "policy_current",
+      "structurally_required": true,
+      "semantic_role": "defines ACTIVE-only PIN and ordered-control requirements",
+      "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+    }
+  ]
+}

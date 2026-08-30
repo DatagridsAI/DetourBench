@@ -1,0 +1,1250 @@
+{
+ "seed": "172.102",
+ "sections": {
+  "172.102": {
+   "title": "Special provisions.",
+   "refs": [
+    "172.101",
+    "173.24",
+    "171.8",
+    "173.116",
+    "173.133",
+    "172.402",
+    "172.302",
+    "172.203"
+   ],
+   "history": "[Amdt. 172-123, 55 FR 52582, Dec. 21, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "Special provisions. Link to an amendment published at 91 FR 51103, Aug. 7, 2026. (a) General. When column 7 of the \u00a7 172.101 table refers to a special provision for a hazardous material, the meaning and requirements of that provision are as set forth in this section. When a special provision specifies packaging or packaging requirements\u2014 (1) The special provision is in addition to the standard requirements for all packagings prescribed in \u00a7 173.24 of this subchapter and any other applicable packaging requirements in subparts A and B of part 173 of this subchapter; and (2) To the extent a special provision imposes limitations or additional requirements on the packaging provisions set forth in column 8 of the \u00a7 172.101 table, packagings must conform to the requirements of the special provisi"
+  },
+  "172.101": {
+   "title": "Purpose and use of the hazardous materials table.",
+   "refs": [
+    "172.203"
+   ],
+   "history": "[Amdt. 172-173, 55 FR 52474, Dec. 21, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "Purpose and use of the hazardous materials table. Link to an amendment published at 91 FR 49310, Aug. 4, 2026. Link to an amendment published at 91 FR 51103, Aug. 7, 2026. (a) The Hazardous Materials Table (Table) in this section designates the materials listed therein as hazardous materials for the purpose of transportation of those materials. For each listed material, the Table identifies the hazard class or specifies that the material is forbidden in transportation, and gives the proper shipping name or directs the user to the preferred proper shipping name. In addition, the Table specifies or references requirements in this subchapter pertaining to labeling, packaging, quantity limits aboard aircraft and stowage of hazardous materials aboard vessels. (b) Column 1: Symbols. Column 1 of "
+  },
+  "173.24": {
+   "title": "General requirements for packagings and packages.",
+   "refs": [
+    "172.101",
+    "173.3",
+    "173.4",
+    "173.4a",
+    "173.4b",
+    "173.5",
+    "173.5a",
+    "173.6",
+    "173.7",
+    "173.8",
+    "173.27",
+    "176.11",
+    "171.7",
+    "173.132"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52610, Dec. 21, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "General requirements for packagings and packages. (a) Applicability. Except as otherwise provided in this subchapter, the provisions of this section apply to\u2014 (1) Bulk and non-bulk packagings; (2) New packagings and packagings which are reused; and (3) Specification and non-specification packagings. (b) Each package used for the shipment of hazardous materials under this subchapter shall be designed, constructed, maintained, filled, its contents so limited, and closed, so that under conditions normally incident to transportation\u2014 (1) Except as otherwise provided in this subchapter, there will be no identifiable (without the use of instruments) release of hazardous materials to the environment; (2) The effectiveness of the package will not be substantially reduced; for example, impact resis"
+  },
+  "171.8": {
+   "title": "Definitions and abbreviations.",
+   "refs": [
+    "173.115",
+    "173.134"
+   ],
+   "history": "[Amdt. 171-32, 41 FR 15994, Apr. 15, 1976]",
+   "amended_years": [
+    1976
+   ],
+   "text": "Definitions and abbreviations. Link to an amendment published at 91 FR 49305, Aug. 4, 2026. Link to an amendment published at 91 FR 49310, Aug. 4, 2026. Link to an amendment published at 91 FR 51102, Aug. 7, 2026. In this subchapter, Administrator means the Administrator, Pipeline and Hazardous Materials Safety Administration. Adsorbed gas. See \u00a7 173.115 of this subchapter. Aerosol means an article consisting of any non-refillable receptacle containing a gas compressed, liquefied or dissolved under pressure, the sole purpose of which is to expel a nonpoisonous (other than a Division 6.1 Packing Group III material) liquid, paste, or powder and fitted with a self-closing release device allowing the contents to be ejected by the gas. Agricultural product means a hazardous material, other than"
+  },
+  "173.116": {
+   "title": "Class 2\u2014Assignment of hazard zone.",
+   "refs": [
+    "172.101",
+    "173.133"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52634, Dec. 21, 1990, as amended at 56 FR 66268, Dec. 20, 1991; Amdt. 173-138, 59 FR 49133, Sept. 26, 1994; 67 FR 61013, Sept. 27, 2002]",
+   "amended_years": [
+    1990,
+    1991,
+    1994,
+    2002
+   ],
+   "text": "Class 2\u2014Assignment of hazard zone. (a) The hazard zone of a Class 2, Division 2.3 material is assigned in column 7 of the \u00a7 172.101 table. There are no hazard zones for Divisions 2.1 and 2.2. When the \u00a7 172.101 table provides more than one hazard zone for a Division 2.3 material, or indicates that the hazard zone be determined on the basis of the grouping criteria for Division 2.3, the hazard zone shall be determined by applying the following criteria: Hazard zone Inhalation toxicity A LC 50 less than or equal to 200 ppm. B LC 50 greater than 200 ppm and less than or equal to 1000 ppm. C LC 50 greater than 1000 ppm and less than or equal to 3000 ppm. D LC 50 greater than 3000 ppm or less than or equal to 5000 ppm. (b) The criteria specified in paragraph (a) of this section are represented "
+  },
+  "173.133": {
+   "title": "Assignment of packing group and hazard zones for Division 6.1 materials.",
+   "refs": [
+    "172.101",
+    "173.115",
+    "172.203",
+    "172.504"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52634, Dec. 21, 1990, as amended at 56 FR 66268, Dec. 20, 1991; 57 FR 45461, Oct. 1, 1992; Amdt. 173-234, 58 FR 51532, Oct. 1, 1993; Amdt. 173-138, 59 FR 49133, Sept. 26, 1994; Amdt. 173-255, 61 FR 50626, Sept. 26, 1996; 66 FR 45183, 45380, Aug. 28, 2001; 66 FR 49556, Sept. 28,",
+   "amended_years": [
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1996,
+    2001
+   ],
+   "text": "Assignment of packing group and hazard zones for Division 6.1 materials. (a) The packing group of Division 6.1 materials shall be as assigned in column 5 of the \u00a7 172.101 table. When the \u00a7 172.101 table provides more than one packing group or hazard zone for a hazardous material, the packing group and hazard zone shall be determined by applying the following criteria: (1) The packing group assignment for routes of administration other than inhalation of vapors shall be in accordance with the following table: Packing group Oral toxicity LD 50 (mg/kg) Dermal toxicity LD 50 (mg/kg) Inhalation toxicity by dusts and mists LC 50 (mg/L) I \u22645.0 \u226450 \u22640.2 II &gt;5.0 and \u226450 &gt;50 and \u2264200 &gt;0.2 and \u22642.0 III &gt;50 and \u2264300 &gt;200 and \u22641000 &gt;2.0 and \u22644.0 (2)(i) The packing group and hazard zon"
+  },
+  "172.402": {
+   "title": "Additional labeling requirements.",
+   "refs": [
+    "172.101",
+    "172.448",
+    "172.403",
+    "173.4",
+    "173.4a",
+    "173.4b",
+    "173.453",
+    "172.441",
+    "171.8"
+   ],
+   "history": "[Amdt. 172-123, 55 FR 52594, Dec. 21, 1990, as amended at 56 FR 66255, Dec. 20, 1991; Amdt. 172-139, 59 FR 67490, Dec. 29, 1994; Amdt. 172-140, 60 FR 26805, May 18, 1995; Amdt. 172-149, 61 FR 27173, May 30, 1996; 62 FR 39405, July 22, 1997; 66 FR 33425, June 21, 2001; 69 FR 3668, Jan. 26, 2004; 74 F",
+   "amended_years": [
+    1990,
+    1991,
+    1994,
+    1995,
+    1996,
+    1997,
+    2001,
+    2004
+   ],
+   "text": "Additional labeling requirements. (a) Subsidiary hazard labels. Each package containing a hazardous material\u2014 (1) Shall be labeled with primary and subsidiary hazard labels as specified in column 6 of the \u00a7 172.101 table (unless excepted in paragraph (a)(2) of this section); and (2)For other than Class 1 or Class 2 materials (for subsidiary labeling requirements for Class 1 or Class 2 materials see paragraph (e) or paragraphs (f) and (g), respectively, of this section), if not already labeled under paragraph (a)(1) of this section, shall be labeled with subsidiary hazard labels in accordance with the following table: Subsidiary Hazard Labels Subsidiary hazard level (packing group) Subsidiary Hazard (Class or Division) 3 4.1 4.2 4.3 5.1 6.1 8 I X *** *** X X X X II X X X X X X X III * X X X"
+  },
+  "172.302": {
+   "title": "General marking requirements for bulk packagings.",
+   "refs": [
+    "172.332",
+    "172.101",
+    "173.23",
+    "172.326",
+    "173.9"
+   ],
+   "history": "[Amdt. 172-123, 55 FR 52591, Dec. 21, 1990, as amended at 56 FR 66254, Dec. 20, 1991; Amdt. 172-150, 61 FR 50624, Sept. 26, 1996; Amdt. 172-151, 62 FR 1228, Jan. 8, 1997; 62 FR 39398, July 22, 1997; 66 FR 45379, Aug. 28, 2001; 70 FR 73164, Dec. 9, 2005; 72 FR 55692, Oct. 1, 2007; 85 FR 75712, Nov. 2",
+   "amended_years": [
+    1990,
+    1991,
+    1996,
+    1997,
+    2001,
+    2005,
+    2007
+   ],
+   "text": "General marking requirements for bulk packagings. (a) Identification numbers. Except as otherwise provided in this subpart, no person may offer for transportation or transport a hazardous material in a bulk packaging unless the packaging is marked as required by \u00a7 172.332 with the identification number specified for the material in the \u00a7 172.101 table\u2014 (1) On each side and each end, if the packaging has a capacity of 3,785 L (1,000 gallons) or more; (2) On two opposing sides, if the packaging has a capacity of less than 3,785 L (1,000 gallons); or (3) For cylinders permanently installed on a tube trailer motor vehicle, on each side and each end of the motor vehicle. (b) Size of markings. Except as otherwise provided, markings required by this subpart on bulk packagings must\u2014 (1) Have a wid"
+  },
+  "172.203": {
+   "title": "Additional description requirements.",
+   "refs": [
+    "173.23",
+    "172.202",
+    "171.8",
+    "173.435",
+    "173.433",
+    "173.453",
+    "173.471",
+    "173.473",
+    "173.403"
+   ],
+   "history": "[Amdt. 172-29A, 41 FR 40677, Sept. 20, 1976]",
+   "amended_years": [
+    1976
+   ],
+   "text": "Additional description requirements. (a) Special permits. Except as provided in \u00a7 173.23 of this subchapter, each shipping paper issued in connection with a shipment made under a special permit must bear the notation \u201cDOT-SP\u201d followed by the special permit number assigned and located so that the notation is clearly associated with the description to which the special permit applies. Each shipping paper issued in connection with a shipment made under an exemption or special permit issued prior to October 1, 2007, may bear the notation \u201cDOT-E\u201d followed by the number assigned and so located that the notation is clearly associated with the description to which it applies. (b) Limited quantities. When a shipping paper is required by this subchapter, the description for a material offered for tr"
+  },
+  "173.3": {
+   "title": "Packaging and exceptions.",
+   "refs": [
+    "173.25",
+    "171.7"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52607, Dec. 21, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "Packaging and exceptions. (a) The packaging of hazardous materials for transportation by air, highway, rail, or water must be as specified in this part. Methods of manufacture, packing, and storage of hazardous materials, that affect safety in transportation, must be open to inspection by a duly authorized representative of the initial carrier or of the Department. Methods of manufacture and related functions necessary for completion of a DOT specification or U.N. standard packaging must be open to inspection by a representative of the Department. (b) The regulations setting forth packaging requirements for a specific material apply to all modes of transportation unless otherwise stated, or unless exceptions from packaging requirements are authorized. (c) Salvage drums. Packages of hazardo"
+  },
+  "173.4": {
+   "title": "Small quantities for highway and rail.",
+   "refs": [
+    "178.606",
+    "173.21",
+    "173.421",
+    "173.424",
+    "173.426"
+   ],
+   "history": "[74 FR 2253, Jan. 14, 2009, as amended at 75 FR 5393, Feb. 2, 2010; 76 FR 3368, Jan. 19, 2011; 79 FR 40610, July 11, 2014; 80 FR 72924, Nov. 23, 2015]",
+   "amended_years": [
+    2009,
+    2010,
+    2011,
+    2014,
+    2015
+   ],
+   "text": "Small quantities for highway and rail. (a) When transported domestically by highway or rail in conformance with this section, quantities of Division 2.2 (except aerosols with no subsidiary hazard), Class 3, Division 4.1, Division 4.2 (PG II and III), Division 4.3 (PG II and III), Division 5.1, Division 5.2, Division 6.1, Class 7, Class 8, and Class 9 materials are not subject to any other requirements when\u2014 (1) The maximum quantity of material per inner receptacle or article is limited to\u2014 (i) Thirty (30) mL (1 ounce) for authorized liquids, other than Division 6.1, Packing Group I, Hazard Zone A or B materials; (ii) Thirty (30) g (1 ounce) for authorized solid materials; (iii) One (1) g (0.04 ounce) for authorized materials meeting the definition of a Division 6.1, Packing Group I, Hazard"
+  },
+  "173.4a": {
+   "title": "Excepted quantities.",
+   "refs": [
+    "173.22",
+    "173.27",
+    "173.21",
+    "173.25"
+   ],
+   "history": "[74 FR 2254, Jan. 14, 2009, as amended at 75 FR 72, Jan. 4, 2010; 76 FR 3368, Jan. 19, 2011; 80 FR 1152, Jan. 8, 2015; 81 FR 35541, June 2, 2016; 82 FR 15874, Mar. 30, 2017; 87 FR 44991, July 26, 2022; 87 FR 79774, Dec. 27, 2022]",
+   "amended_years": [
+    2009,
+    2010,
+    2011,
+    2015,
+    2016,
+    2017,
+    2022
+   ],
+   "text": "Excepted quantities. (a) Excepted quantities of materials, other than articles (e.g., aerosols), are not subject to requirements of this subchapter except for: (1) The shipper's responsibilities to properly class their material in accordance with \u00a7 173.22 of this subchapter; (2) Sections 171.15 and 171.16 of this subchapter pertaining to the reporting of incidents; and (3) For a Class 7 (Radioactive) material the requirements for an excepted package. (4) Packagings for which retention of liquid is a basic function must be capable of withstanding without leakage the pressure differential specified in \u00a7 173.27(c) of this part. (b) Authorized materials. Only materials authorized for transport aboard passenger aircraft and appropriately classed within one of the following hazard classes or div"
+  },
+  "173.4b": {
+   "title": "De minimis exceptions.",
+   "refs": [
+    "171.8",
+    "178.606",
+    "173.21",
+    "172.101",
+    "175.10"
+   ],
+   "history": "[74 FR 2255, Jan. 14, 2009, as amended at 75 FR 5393, Feb. 2, 2010; 76 FR 3368, Jan. 19, 2011; 78 FR 1073, Jan. 7, 2013; 89 FR 15665, Mar. 4, 2024; 89 FR 25476, Apr. 10, 2024]",
+   "amended_years": [
+    2009,
+    2010,
+    2011,
+    2013,
+    2024
+   ],
+   "text": "De minimis exceptions. (a) When packaged in accordance with this section, the following materials do not meet the definition of a hazardous material in \u00a7 171.8 of this subchapter and, therefore, are not subject to the requirements of this subchapter: Packing Group I materials of hazard Division 6.1 (no inhalation hazard), and Packing Group II and III materials of hazard Class 3, Division 4.1, Division 4.2, Division 4.3, Division 5.1, Division 6.1, Class 8, and Class 9. (1) The maximum quantity of material per inner receptacle or article is limited to\u2014 (i) One (1) mL (0.03 ounce) for authorized liquids; and (ii) One (1) g (0.04 ounce) for authorized solid materials; (2) Each inner receptacle with a removable closure has its closure held securely in place with wire, tape, or other positive m"
+  },
+  "173.5": {
+   "title": "Agricultural operations.",
+   "refs": [
+    "171.7",
+    "173.315",
+    "173.243",
+    "173.6",
+    "172.800"
+   ],
+   "history": "[Amdt. 173-259, 62 FR 1215, Jan. 8, 1997, as amended by Amdt. 173-262, 62 FR 49566, Sept. 22, 1997; Amdt. 173-259, 63 FR 8142, Feb. 18, 1998; 65 FR 50460, Aug. 18, 2000; 70 FR 73165, Dec. 9, 2005; 73 FR 4717, Jan. 28, 2008; 76 FR 5491, Feb. 1, 2011]",
+   "amended_years": [
+    1997,
+    1998,
+    2000,
+    2005,
+    2008,
+    2011
+   ],
+   "text": "Agricultural operations. (a) For other than a Class 2 material, the transportation of an agricultural product over local roads between fields of the same farm is excepted from the requirements of this subchapter. A Class 2 material transported over local roads between fields of the same farm is excepted from subparts G and H of part 172 of this subchapter. In either instance, transportation of the hazardous material is subject to the following conditions: (1) It is transported by a farmer who is an intrastate private motor carrier; and (2) The movement of the agricultural product conforms to requirements of the State in which it is transported and is specifically authorized by a State statute or regulation in effect before October 1, 1998. (b) The transportation of an agricultural product "
+  },
+  "173.5a": {
+   "title": "Oilfield service vehicles, mechanical displacement meter provers, and roadway striping vehicles exceptions.",
+   "refs": [
+    "173.29",
+    "171.8",
+    "171.7",
+    "178.337"
+   ],
+   "history": "[70 FR 3308, Jan. 24, 2005, as amended at 75 FR 27213, May 14, 2010; 76 FR 5492, Feb. 1, 2011; 83 FR 55807, Nov. 7, 2018]",
+   "amended_years": [
+    2005,
+    2010,
+    2011,
+    2018
+   ],
+   "text": "Oilfield service vehicles, mechanical displacement meter provers, and roadway striping vehicles exceptions. (a) Oilfield service vehicles. Notwithstanding \u00a7 173.29 of this subchapter, a cargo tank motor vehicle used in oilfield servicing operations is not subject to the specification requirements of this subchapter provided\u2014 (1) The cargo tank and equipment contains only residual amounts ( i.e. , it is emptied so far as practicable) of a flammable liquid alone or in combination with water, (2) No flame producing device is operated during transportation, and (3) The proper shipping name is preceded by \u201cRESIDUE: LAST CONTAINED * * * \u201d on the shipping paper for each movement on a public highway. (b) Mechanical displacement meter provers. (1) A mechanical displacement meter prover, as defined "
+  },
+  "173.6": {
+   "title": "Materials of trade exceptions.",
+   "refs": [
+    "171.8",
+    "173.320",
+    "173.124",
+    "173.133",
+    "173.63",
+    "173.150",
+    "173.151",
+    "173.152",
+    "173.153",
+    "173.154",
+    "173.155",
+    "173.161",
+    "173.165",
+    "173.167",
+    "173.306",
+    "173.309",
+    "172.101"
+   ],
+   "history": "[Amdt. 173-259, 62 FR 1216, Jan. 8, 1997, as amended by Amdt. 173-262, 62 FR 49566, Sept. 22, 1997; 62 FR 51560, Oct. 1, 1997; Amdt. 173-259, 63 FR 8142, Feb. 18, 1998; 63 FR 52849, Oct. 1, 1998; 66 FR 45381, Aug. 28, 2001; 67 FR 53137, Aug. 14, 2002; 68 FR 75742, Dec. 31, 2003; 68 FR 61941, Oct. 30",
+   "amended_years": [
+    1997,
+    1998,
+    2001,
+    2002,
+    2003
+   ],
+   "text": "Materials of trade exceptions. Link to an amendment published at 91 FR 49349, Aug. 4, 2026. When transported by motor vehicle in conformance with this section, a material of trade (see \u00a7 171.8 of this subchapter) is not subject to any other requirements of this subchapter besides those set forth or referenced in this section. (a) Materials and amounts. A material of trade is limited to the following: (1) A Class 3, 8, 9, Division 4.1, 5.1, 5.2, or 6.1 material contained in a packaging having a gross mass or capacity not over\u2014 (i) 0.5 kg (1 pound) or 0.5 L (1 pint) for a Packing Group I material; (ii) 30 kg (66 pounds) or 30 L (8 gallons) for a Packing Group II or Packing Group III material; (iii) 1500 L (400 gallons) for a diluted mixture, not to exceed 2 percent concentration, of a Class "
+  },
+  "173.7": {
+   "title": "Government operations and materials.",
+   "refs": [
+    "171.7",
+    "173.416"
+   ],
+   "history": "[29 FR 18671, Dec. 29, 1964. Redesignated at 32 FR 5606, Apr. 5, 1967]",
+   "amended_years": [
+    1964,
+    1967
+   ],
+   "text": "Government operations and materials. Link to an amendment published at 91 FR 49315, Aug. 4, 2026. (a) Hazardous materials offered for transportation by, for, or to the Department of Defense (DOD) of the U.S. Government, including commercial shipments pursuant to a DOD contract, must be packaged in accordance with the regulations in this subchapter or in packagings of equal or greater strength and efficiency as certified by DOD in accordance with the procedures prescribed by \u201cPackaging of Hazardous Material, DLAR 4145.41/AR 700-143/NAVSUPINST 4030.55D/AFMAN 24-210__IP/MCO 4030.40C (IBR, see \u00a7 171.7 of this subchapter).\u201d Hazardous materials offered for transportation by DOD under this provision may be reshipped by any shipper to any consignee provided the original packaging has not been dama"
+  },
+  "173.8": {
+   "title": "Exceptions for non-specification packagings used in intrastate transportation.",
+   "refs": [
+    "180.405"
+   ],
+   "history": "[Amdt. 173-259, 62 FR 1216, Jan. 8, 1997, as amended by Amdt. 172-262, 62 FR 49567, Sept. 22, 1997; Amdt. 173-259, 63 FR 8142, Feb. 18, 1998; 66 FR 45380, Aug. 28, 2001; 76 FR 56315, Sept. 13, 2011; 80 FR 72924, Nov. 23, 2015]",
+   "amended_years": [
+    1997,
+    1998,
+    2001,
+    2011,
+    2015
+   ],
+   "text": "Exceptions for non-specification packagings used in intrastate transportation. (a) [Reserved] (b) Non-specification cargo tanks for petroleum products. Notwithstanding requirements for specification packagings in subpart F of this part and parts 178 and 180 of this subchapter, a non-specification cargo tank motor vehicle having a capacity of less than 13,250 L (3,500 gallons) may be used by an intrastate motor carrier for transportation of a flammable liquid petroleum product in accordance with the provisions of paragraph (d) of this section. (c) Permanently secured non-bulk tanks for petroleum products. Notwithstanding requirements for specification packagings in subpart F of this part 173 and parts 178 and 180 of this subchapter, a non-specification metal tank permanently secured to a tr"
+  },
+  "173.27": {
+   "title": "General requirements for transportation by aircraft.",
+   "refs": [
+    "172.101",
+    "172.402",
+    "178.605",
+    "173.24"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52612, Dec. 21, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "General requirements for transportation by aircraft. (a) The requirements of this section are in addition to requirements prescribed elsewhere under this part and apply to packages offered or intended for transportation aboard aircraft. Except for materials not subject to performance packaging requirements in subpart E of this part, a packaging containing a Packing Group III material with a primary or subsidiary risk of Division 4.1, 4.2, 4.3, 5.1, or Class 8 must meet the Packing Group II performance level when offered for transportation by aircraft. (b) Packages authorized onboard aircraft. (1) When Column 9a of the \u00a7 172.101 table indicates that a material is \u201cForbidden\u201d, that material may not be offered for transportation or transported aboard passenger-carrying aircraft. (2) When Colu"
+  },
+  "176.11": {
+   "title": "Exceptions.",
+   "refs": [
+    "171.7",
+    "176.83",
+    "172.201",
+    "171.8",
+    "176.76"
+   ],
+   "history": "[Amdt. 176-1, 41 FR 16110, Apr. 15, 1976]",
+   "amended_years": [
+    1976
+   ],
+   "text": "Exceptions. (a) A hazardous material may be offered and accepted for transport by vessel when in conformance with the IMDG Code (IBR, see \u00a7 171.7 of this subchapter), subject to the conditions and limitations set forth in subpart C of part 171 of this subchapter.The requirements of \u00a7\u00a7 176.83, 176.84, and 176.112 through 176.174 are not applicable to shipments of Class 1 (explosive) materials made in accordance with the IMDG Code. A hazardous material which conforms to the provisions of this paragraph (a) is not subject to the requirement specified in \u00a7 172.201(d) of this subchapter for an emergency response telephone number, when transportation of the hazardous material originates and terminates outside the United States and the hazardous material\u2014 (1) Is not offloaded from the vessel; or "
+  },
+  "171.7": {
+   "title": "Reference material.",
+   "refs": [
+    "172.102",
+    "178.68",
+    "173.306",
+    "173.417",
+    "107.402",
+    "173.5a"
+   ],
+   "history": "[78 FR 1027, Jan. 7, 2013, as amended at 78 FR 15321, Mar. 11, 2013; 78 FR 65468, Oct. 31, 2013; 79 FR 15043, Mar. 18, 2014; 79 FR 40609, July 11, 2014; 80 FR 1114, Jan. 8, 2015; 80 FR 26746, May 8, 2015; 80 FR 79449, Dec. 21, 2015; 81 FR 25617, Apr. 29, 2016; 81 FR 35513, June 2, 2016; 82 FR 15833,",
+   "amended_years": [
+    2013,
+    2014,
+    2015,
+    2016
+   ],
+   "text": "Reference material. Link to an amendment published at 91 FR 49315, Aug. 4, 2026. Link to an amendment published at 91 FR 49324, Aug. 4, 2026. Link to an amendment published at 91 FR 49319, Aug. 4, 2026. Link to an amendment published at 91 FR 51102, Aug. 7, 2026. (a) Certain material is incorporated by reference into subchapters A, B, and C with the approval of the Director of the Federal Register in accordance with 5 U.S.C. 552(a) and 1 CFR part 51. To enforce any edition other than that specified in this section, PHMSA must publish a document in the Federal Register and the material must be available to the public. All approved incorporation by reference (IBR) material is available for inspection at PHMSA and at the National Archives and Records Administration (NARA). Contact PHMSA at: T"
+  },
+  "173.132": {
+   "title": "Class 6, Division 6.1\u2014Definitions.",
+   "refs": [
+    "173.133"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52634, Dec. 21, 1990, as amended at 56 FR 66268, Dec. 20, 1991; Amdt. 173-234, 58 FR 51532, Oct. 1, 1993; Amdt. 173-261, 62 FR 24732, May 6, 1997; 62 FR 45702, Aug. 28, 1997; 65 FR 58629, Sept. 29, 2000; 66 FR 45379, 45382, Aug. 28, 2001; 69 FR 76155, Dec. 20, 2004; 72 FR 55692",
+   "amended_years": [
+    1990,
+    1991,
+    1993,
+    1997,
+    2000,
+    2001,
+    2004
+   ],
+   "text": "Class 6, Division 6.1\u2014Definitions. (a) For the purpose of this subchapter, poisonous material (Division 6.1) means a material, other than a gas, which is known to be so toxic to humans as to afford a hazard to health during transportation, or which, in the absence of adequate data on human toxicity: (1) Is presumed to be toxic to humans because it falls within any one of the following categories when tested on laboratory animals (whenever possible, animal test data that has been reported in the chemical literature should be used): (i) Oral Toxicity. A liquid or solid with an LD 50 for acute oral toxicity of not more than 300 mg/kg. (ii) Dermal Toxicity. A material with an LD 50 for acute dermal toxicity of not more than 1000 mg/kg. (iii) Inhalation Toxicity. (A) A dust or mist with an LC 5"
+  },
+  "173.115": {
+   "title": "Class 2, Divisions 2.1, 2.2, and 2.3\u2014Definitions.",
+   "refs": [
+    "173.116",
+    "173.133",
+    "171.7",
+    "172.101",
+    "171.8"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52634, Dec. 21, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "Class 2, Divisions 2.1, 2.2, and 2.3\u2014Definitions. (a) Division 2.1 (Flammable gas). For the purpose of this subchapter, a flammable gas (Division 2.1) means any material which is a gas at 20 \u00b0C (68 \u00b0F) or less and 101.3 kPa (14.7 psia) of pressure (a material which has a boiling point of 20 \u00b0C (68 \u00b0F) or less at 101.3 kPa (14.7 psia)) which\u2014 (1) Is ignitable at 101.3 kPa (14.7 psia) when in a mixture of 13 percent or less by volume with air; or (2) Has a flammable range at 101.3 kPa (14.7 psia) with air of at least 12 percent regardless of the lower limit. Except for aerosols, the limits specified in paragraphs (a)(1) and (a)(2) of this section shall be determined at 101.3 kPa (14.7 psia) of pressure and a temperature of 20 \u00b0C (68 \u00b0F) in accordance with the ASTM E681-85, Standard Test Meth"
+  },
+  "173.134": {
+   "title": "Class 6, Division 6.2\u2014Definitions and exceptions.",
+   "refs": [],
+   "history": "[67 FR 53138, Aug. 14, 2002, as amended at 68 FR 57632, Oct. 6, 2003; 70 FR 56098, Sept. 23, 2005; 71 FR 32258, June 2, 2006; 71 FR 78631, Dec. 29, 2006; 72 FR 55692, Oct. 1, 2007; 73 FR 4718, Jan. 28, 2008; 74 FR 2257, Jan. 14, 2009; 76 FR 43530, July 20, 2011; 77 FR 60942, Oct. 5, 2012; 78 FR 1532",
+   "amended_years": [
+    2002,
+    2003,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2011,
+    2012
+   ],
+   "text": "Class 6, Division 6.2\u2014Definitions and exceptions. (a) Definitions and classification criteria. For the purposes of this subchapter, the following definitions and classification criteria apply to Division 6.2 materials. (1) Division 6.2 (Infectious substance) means a material known or reasonably expected to contain a pathogen. A pathogen is a microorganism (including bacteria, viruses, parasites, and fungi) or other agent, such as a proteinaceous infectious particle (prion) that can cause disease in humans or animals. An infectious substance must be assigned the identification number UN2814, UN2900, UN3291, UN3373, or UN3549 as appropriate, and must be assigned to one of the following categories: (i) Category A: An infectious substance in a form capable of causing permanent disability or li"
+  },
+  "172.504": {
+   "title": "General placarding requirements.",
+   "refs": [
+    "171.8"
+   ],
+   "history": "[Amdt. 172-123, 55 FR 52600, Dec. 21, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "General placarding requirements. Link to an amendment published at 91 FR 49339, Aug. 4, 2026. (a) General. Except as otherwise provided in this subchapter, each bulk packaging, freight container, unit load device, transport vehicle or rail car containing any quantity of a hazardous material must be placarded on each side and each end with the type of placards specified in tables 1 and 2 of this section and in accordance with other placarding requirements of this subpart, including the specifications for the placards named in the tables and described in detail in \u00a7\u00a7 172.519 through 172.560. (b) DANGEROUS placard. A freight container, unit load device, transport vehicle, or rail car which contains non-bulk packages with two or more categories of hazardous materials that require different pla"
+  },
+  "172.448": {
+   "title": "CARGO AIRCRAFT ONLY label.",
+   "refs": [],
+   "history": "[74 FR 2252, Jan. 14, 2009, as amended at 75 FR 72, Jan. 4, 2010]",
+   "amended_years": [
+    2009,
+    2010
+   ],
+   "text": "CARGO AIRCRAFT ONLY label. (a) Except for size and color, the CARGO AIRCRAFT ONLY label must be as follows: (b) The CARGO AIRCRAFT ONLY label must be black on an orange background. (c) A CARGO AIRCRAFT ONLY label conforming to the specifications in this section and in \u00a7 172.407(c)(2) in effect on October 1, 2008, may be used until January 1, 2013. [74 FR 2252, Jan. 14, 2009, as amended at 75 FR 72, Jan. 4, 2010]"
+  },
+  "172.403": {
+   "title": "Class 7 (radioactive) material.",
+   "refs": [
+    "173.421",
+    "173.403",
+    "172.402",
+    "173.435",
+    "173.433"
+   ],
+   "history": "[Amdt. 172-29, 41 FR 15996, Apr. 15, 1976]",
+   "amended_years": [
+    1976
+   ],
+   "text": "Class 7 (radioactive) material. (a) Unless excepted from labeling by \u00a7\u00a7 173.421 through 173.427 of this subchapter, each package of radioactive material must be labeled as provided in this section. (b) The proper label to affix to a package of Class 7 (radioactive) material is based on the radiation level at the surface of the package and the transport index. The proper category of label must be determined in accordance with paragraph (c) of this section. The label to be applied must be the highest category required for any of the two determining conditions for the package. RADIOACTIVE WHITE-I is the lowest category and RADIOACTIVE YELLOW-III is the highest. For example, a package with a transport index of 0.8 and a maximum surface radiation level of 0.6 millisievert (60 millirems) per hou"
+  },
+  "173.453": {
+   "title": "Fissile materials\u2014exceptions.",
+   "refs": [],
+   "history": "[69 FR 3692, Jan. 26, 2004]",
+   "amended_years": [
+    2004
+   ],
+   "text": "Fissile materials\u2014exceptions. Fissile materials meeting the requirements of at least one of the paragraphs (a) through (f) of this section are excepted from the requirements of this subpart for fissile materials, including the requirements of \u00a7\u00a7 173.457 and 173.459, but are subject to all other requirements of this subpart, except as noted. (a) An individual package containing 2 grams or less of fissile material. (b) An individual or bulk packaging containing 15 grams or less of fissile material provided the package has at least 200 grams of solid nonfissile material for every gram of fissile material. Lead, beryllium, graphite, and hydrogenous material enriched in deuterium may be present in the package but must not be included in determining the required mass for solid nonfissile materia"
+  },
+  "172.441": {
+   "title": "FISSILE label.",
+   "refs": [],
+   "history": "[69 FR 3669, Jan. 26, 2004]",
+   "amended_years": [
+    2004
+   ],
+   "text": "FISSILE label. (a) Except for size and color, the FISSILE label must be as follows: (b) In addition to complying with \u00a7 172.407, the background color on the FISSILE label must be white. [69 FR 3669, Jan. 26, 2004]"
+  },
+  "172.332": {
+   "title": "Identification number markings.",
+   "refs": [
+    "172.302",
+    "172.326"
+   ],
+   "history": "[Amdt. 172-101, 45 FR 74667, Nov. 10, 1980, as amended by Amdt. 172-81, 48 FR 28099, June 20, 1983; Amdt. 172-110, 52 FR 29527, Aug. 10, 1987; Amdt. 172-123, 55 FR 52593, Dec. 21, 1990; 56 FR 66255, Dec. 20, 1991; Amdt. 172-151, 62 FR 1228, Jan. 8, 1997; 65 FR 50459, Aug. 18, 2000; 68 FR 57632, Oct.",
+   "amended_years": [
+    1980,
+    1983,
+    1987,
+    1990,
+    1991,
+    1997,
+    2000
+   ],
+   "text": "Identification number markings. (a) General. When required by \u00a7 172.301, \u00a7 172.302, \u00a7 172.313, \u00a7 172.326, \u00a7 172.328, \u00a7 172.330, or \u00a7 172.331, identification number markings must be displayed on orange panels or placards as specified in this section, or on white square-on-point configurations as prescribed in \u00a7 172.336(b). (b) Orange panels. Display of an identification number on an orange panel shall be in conformance with the following: (1) The orange panel must be 160 mm (6.3 inches) high by 400 mm (15.7 inches) wide with a 15 mm (0.6 inches) black outer border. The identification number shall be displayed in 100 mm (3.9 inches) black Helvetica Medium numerals on the orange panel. Measurements may vary from those specified plus or minus 5 mm (0.2 inches). (2) The orange panel may be made"
+  },
+  "173.23": {
+   "title": "Previously authorized packaging.",
+   "refs": [
+    "178.337"
+   ],
+   "history": "[Amdt. 173-3, 33 FR 14921, Oct. 4, 1968]",
+   "amended_years": [
+    1968
+   ],
+   "text": "Previously authorized packaging. Link to an amendment published at 91 FR 49345, Aug. 4, 2026. (a) When the regulations specify a packaging with a specification marking prefix of \u201cDOT,\u201d a packaging marked prior to January 1, 1970, with the prefix of \u201cICC\u201d may be used in its place if the packaging otherwise conforms to applicable specification requirements. (b) [Reserved] (c) After July 2, 1982, a seamless aluminum cylinder manufactured in conformance with and for use under DOT special permit (SP) or exemption (E) 6498, 7042, 8107, 8364 or 8422 may be continued in use if marked before or at the time of the next retest with either the specification identification \u201c3AL\u201d immediately above the special permit or exemption number, or the DOT mark (e.g., DOT 3AL 1800) in proximity to the special pe"
+  },
+  "172.326": {
+   "title": "Portable tanks.",
+   "refs": [
+    "172.101",
+    "172.302",
+    "172.332",
+    "173.315"
+   ],
+   "history": "[Amdt. 172-123, 55 FR 52592, Dec. 21, 1990, as amended at 56 FR 66255, Dec. 20, 1991; 69 FR 64471, Nov. 4, 2004; 76 FR 3367, Jan. 19, 2011; 80 FR 1150, Jan. 8, 2015; 81 FR 35540, June 2, 2016]",
+   "amended_years": [
+    1990,
+    1991,
+    2004,
+    2011,
+    2015,
+    2016
+   ],
+   "text": "Portable tanks. (a) Shipping name. No person may offer for transportation or transport a portable tank containing a hazardous material unless it is legibly marked on two opposing sides with the proper shipping name specified for the material in the \u00a7 172.101 table. For transportation by vessel, the minimum height for a proper shipping name marked on a portable tank is 65 mm (2.5 inches); except that portable tanks with a capacity of less than 3,000 L (792.52 gallons) may reduce the marking size to not less than 12 mm (0.47 inches). (b) Owner's name. The name of the owner or of the lessee, if applicable, must be displayed on a portable tank that contains a hazardous material. (c) Identification numbers. (1) If the identification number markings required by \u00a7 172.302(a) are not visible, a tr"
+  },
+  "173.9": {
+   "title": "Transport vehicles or freight containers containing lading which has been fumigated.",
+   "refs": [],
+   "history": "[71 FR 78629, Dec. 29, 2006, as amended at 80 FR 1152, Jan. 8, 2015; 82 FR 15874, Mar. 30, 2017]",
+   "amended_years": [
+    2006,
+    2015,
+    2017
+   ],
+   "text": "Transport vehicles or freight containers containing lading which has been fumigated. (a) For the purpose of this section, not including 49 CFR part 387, a rail car, freight container, truck body, or trailer in which the lading has been fumigated with any material, or is undergoing fumigation, is a package containing a hazardous material. (b) No person may offer for transportation or transport a rail car, freight container, truck body, or trailer in which the lading has been fumigated or treated with any material, or is undergoing fumigation, unless the FUMIGANT marking specified in paragraph (e) of this section is prominently displayed so that it can be seen by any person attempting to enter the interior of the transport vehicle or freight container. For domestic transportation, a hazard w"
+  },
+  "172.202": {
+   "title": "Description of hazardous material on shipping papers.",
+   "refs": [
+    "172.101",
+    "173.27"
+   ],
+   "history": "[Amdt. 172-101, 45 FR 74665, Nov. 10, 1980]",
+   "amended_years": [
+    1980
+   ],
+   "text": "Description of hazardous material on shipping papers. (a) The shipping description of a hazardous material on the shipping paper must include: (1) The identification number prescribed for the material as shown in Column (4) of the \u00a7 172.101 table; (2) The proper shipping name prescribed for the material in Column (2) of the \u00a7 172.101 table; (3) The hazard class or division number prescribed for the material, as shown in Column (3) of the \u00a7 172.101 table. The subsidiary hazard class or division number is not required to be entered when a corresponding subsidiary hazard label is not required. Except for combustible liquids, the subsidiary hazard class(es) or subsidiary division number(s) must be entered in parentheses immediately following the primary hazard class or division number. In addi"
+  },
+  "173.435": {
+   "title": "Table of A1 and A2 values for radionuclides.",
+   "refs": [],
+   "history": "[69 FR 3678, Jan. 26, 2004; 69 FR 55119, Sept. 13, 2004, as amended at 71 FR 54395, Sept. 14, 2006; 77 FR 60942, Oct. 5, 2012; 79 FR 40615, July 11, 2014; 80 FR 1163, Jan. 8, 2015; 85 FR 83401, Dec. 21, 2020]",
+   "amended_years": [
+    2004,
+    2006,
+    2012,
+    2014,
+    2015,
+    2020
+   ],
+   "text": "Table of A 1 and A 2 values for radionuclides. The table of A 1 and A 2 values for radionuclides is as follows: Symbol of radionuclide Element and atomic number A 1 (TBq) A 1 (Ci) b A 2 (TBq) A 2 (Ci) b Specific activity (TBq/g) (Ci/g) Ac-225 (a) Actinium (89) 8.0 \u00d7 10 \u22121 2.2 \u00d7 10 1 6.0 \u00d7 10 \u22123 1.6 \u00d7 10 \u22121 2.1 \u00d7 10 3 5.8 \u00d7 10 4 Ac-227 (a) 9.0 \u00d7 10 \u22121 2.4 \u00d7 10 1 9.0 \u00d7 10 \u22125 2.4 \u00d7 10 \u22123 2.7 7.2 \u00d7 10 1 Ac-228 6.0 \u00d7 10 \u22121 1.6 \u00d7 10 1 5.0 \u00d7 10 \u22121 1.4 \u00d7 10 1 8.4 \u00d7 10 4 2.2 \u00d7 10 6 Ag-105 Silver (47) 2.0 5.4 \u00d7 10 1 2.0 5.4 \u00d7 10 1 1.1 \u00d7 10 3 3.0 \u00d7 10 4 Ag-108m (a) 7.0 \u00d7 10 \u22121 1.9 \u00d7 10 1 7.0 \u00d7 10 \u22121 1.9 \u00d7 10 1 9.7 \u00d7 10 \u22121 2.6 \u00d7 10 1 Ag-110m (a) 4.0 \u00d7 10 \u22121 1.1 \u00d7 10 1 4.0 \u00d7 10 \u22121 1.1 \u00d7 10 1 1.8 \u00d7 10 2 4.7 \u00d7 10 3 Ag-111 2.0 5.4 \u00d7 10 1 6.0 \u00d7 10 \u22121 1.6 \u00d7 10 1 5.8 \u00d7 10 3 1.6 \u00d7 10 5 Al-26 Aluminum (13) 1.0"
+  },
+  "173.433": {
+   "title": "Requirements for determining basic radionuclide values, and for the listing of radionuclides on shipping papers and labe",
+   "refs": [
+    "173.435"
+   ],
+   "history": "[69 FR 3677, Jan. 26, 2004; 69 FR 55119, Sept. 13, 2004, as amended at 79 FR 40614, July 11, 2014]",
+   "amended_years": [
+    2004,
+    2014
+   ],
+   "text": "Requirements for determining basic radionuclide values, and for the listing of radionuclides on shipping papers and labels. (a) For individual radionuclides listed in the table in \u00a7 173.435 and \u00a7 173.436: (1) A 1 and A 2 values are given in the table in \u00a7 173.435; and (2) Activity concentration exemption values and consignment activity exemption values are given in the table in \u00a7 173.436. (b) For individual radionuclides which are not listed in the tables in \u00a7 173.435 or \u00a7 173.436 or for which no relevant data are available: (1) the radionuclide values in Tables 7 or 8 of this section may be used; or (2) other basic radionuclide values may be used provided they are first approved by the Associate Administrator or, for international transport, multilateral approval is obtained from the pert"
+  },
+  "173.471": {
+   "title": "Requirements for U.S. Nuclear Regulatory Commission approved packages.",
+   "refs": [],
+   "history": "[Amdt. 173-244, 60 FR 50307, Sept. 28, 1995, as amended at 66 FR 45379, Aug. 28, 2001; 67 FR 61014, Sept. 27, 2002; 69 FR 3693, Jan. 26, 2004; 70 FR 56099, Sept. 23, 2005; 72 FR 55693, Oct. 1, 2007]",
+   "amended_years": [
+    1995,
+    2001,
+    2002,
+    2004,
+    2005,
+    2007
+   ],
+   "text": "Requirements for U.S. Nuclear Regulatory Commission approved packages. In addition to the applicable requirements of the U.S. Nuclear Regulatory Commission (NRC) and other requirements of this subchapter, any offeror of a Type B(U), Type B(M), or fissile material package that has been approved by the NRC in accordance with 10 CFR part 71 must also comply with the following requirements: (a) The offeror shall be registered with the USNRC as a party to the packaging approval, and make the shipment in compliance with the terms of the packaging approval; (b) The outside of each package must be durably and legibly marked with the package identification marking indicated in the USNRC packaging approval; (c) Each shipping paper related to the shipment of the package must bear the package identifi"
+  },
+  "173.473": {
+   "title": "Requirements for foreign-made packages.",
+   "refs": [
+    "171.7"
+   ],
+   "history": "[Amdt. 173-244, 60 FR 50307, Sept. 28, 1995, as amended at 66 FR 45379, Aug. 28, 2001; 67 FR 16015, Sept. 27, 2002; 68 FR 75742, 75747, Dec. 31, 2003; 69 FR 3693, Jan. 26, 2004; 79 FR 40617, July 11, 2014; 80 FR 1163, Jan. 8, 2015]",
+   "amended_years": [
+    1995,
+    2001,
+    2002,
+    2003,
+    2004,
+    2014,
+    2015
+   ],
+   "text": "Requirements for foreign-made packages. In addition to other applicable requirements of this subchapter, each offeror of a foreign-made Type B(U), Type B(M), Type C, Type CF, Type H(U), Type H(M), or fissile material package for which a Competent Authority Certificate is required by IAEA's \u201cRegulations for the Safe Transport of Radioactive Material, SSR-6, \u201d (IBR, see \u00a7 171.7 of this subchapter) shall also comply with the following requirements: (a) Prior to the shipment of such a package of Class 7 (radioactive) materials into or from the U.S., the offeror shall\u2014 (1) Have the foreign competent authority certificate revalidated by the U.S. Competent Authority, unless this has been done previously. Each request for revalidation must be in triplicate, contain all the information required by "
+  },
+  "173.403": {
+   "title": "Definitions.",
+   "refs": [
+    "173.435",
+    "173.433",
+    "173.453",
+    "171.8"
+   ],
+   "history": "[69 FR 3670, Jan. 26, 2004; 69 FR 55116, Sept. 13, 2004; 69 FR 58843, Oct. 1, 2004; 70 FR 56098, Sept. 23, 2005; 70 FR 73165, Dec. 9, 2005; 79 FR 40610, July 11, 2014; 80 FR 1162, Jan. 8, 2015]",
+   "amended_years": [
+    2004,
+    2005,
+    2014,
+    2015
+   ],
+   "text": "Definitions. For purposes of this subpart\u2014 A 1 means the maximum activity of special form Class 7 (radioactive) material permitted in a Type A package. This value is either listed in \u00a7 173.435 or may be derived in accordance with the procedures prescribed in \u00a7 173.433. A 2 means the maximum activity of Class 7 (radioactive) material, other than special form material, LSA material, and SCO, permitted in a Type A package. This value is either listed in \u00a7 173.435 or may be derived in accordance with the procedures prescribed in \u00a7 173.433. Class 7 (radioactive) material See the definition of Radioactive material in this section. Closed transport vehicle means a transport vehicle or conveyance equipped with a securely attached exterior enclosure that during normal transportation restricts the a"
+  },
+  "173.25": {
+   "title": "Authorized packagings and overpacks.",
+   "refs": [
+    "171.8",
+    "173.21",
+    "173.4a"
+   ],
+   "history": "[Amdt. 173-165, 48 FR 28099, June 20, 1983]",
+   "amended_years": [
+    1983
+   ],
+   "text": "Authorized packagings and overpacks. Link to an amendment published at 91 FR 49335, Aug. 4, 2026. (a) Authorized packages containing hazardous materials may be offered for transportation in an overpack as defined in \u00a7 171.8 of this subchapter, if all of the following conditions are met: (1) The package meets the requirements of \u00a7\u00a7 173.21 and 173.24 of this subchapter. (2) The overpack is marked with the proper shipping name and identification number, when applicable, and is labeled as required by this subchapter for each hazardous material contained therein, unless marking and labels representative of each hazardous material in the overpack are visible. (3) Each package subject to the orientation marking requirements of \u00a7 172.312 of this subchapter is packed in the overpack with its fillin"
+  },
+  "178.606": {
+   "title": "Stacking test.",
+   "refs": [],
+   "history": "[Amdt. 178-97, 55 FR 52723, Dec. 21, 1990, as amended at 56 FR 66286, Dec. 20, 1991; 57 FR 45465, Oct. 1, 1992; Amdt. 178-102, 59 FR 28494, June 2, 1994; Amdt. 178-106, 59 FR 67522, Dec. 29, 1994; 65 FR 58632, Sept. 29, 2000; 66 FR 45386, Aug. 28, 2001; 70 FR 34076, June 13, 2005; 72 FR 55696, Oct. ",
+   "amended_years": [
+    1990,
+    1991,
+    1992,
+    1994,
+    2000,
+    2001,
+    2005
+   ],
+   "text": "Stacking test. (a) General. All packaging design types other than bags must be subjected to a stacking test. (b) Number of test samples. Three test samples are required for each different packaging. For periodic retesting of packagings constructed of stainless steel, monel, or nickel, only one test sample is required. Exceptions for the number of aluminum and steel sample packagings used in conducting the stacking test are subject to the approval of the Associate Administrator. Notwithstanding the provisions of \u00a7 178.602(a) of this subpart, combination packagings may be subjected to the stacking test without their inner packagings, except where this would invalidate the results of the test. (c) Test method \u2014(1) Design qualification testing. The test sample must be subjected to a force appl"
+  },
+  "173.21": {
+   "title": "Forbidden materials and packages.",
+   "refs": [
+    "172.101",
+    "171.7"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52609, Dec. 21, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "Forbidden materials and packages. Unless otherwise provided in this subchapter, the offering for transportation or transportation of the following is forbidden: (a) Materials that are designated \u201cForbidden\u201d in Column 3 of the \u00a7 172.101 table. (b) Forbidden explosives as defined in \u00a7 173.54 of this part. (c) Electrical devices, such as batteries and battery-powered devices, which are likely to create sparks or generate a dangerous evolution of heat, unless packaged in a manner which precludes such an occurrence. (d) For carriage by aircraft, any package which has a magnetic field of more than 0.00525 gauss measured at 4.5 m (15 feet) from any surface of the package. (e) A material in the same packaging, freight container, or overpack with another material, the mixing of which is likely to c"
+  },
+  "173.421": {
+   "title": "Excepted packages for limited quantities of Class 7 (radioactive) materials.",
+   "refs": [
+    "173.453"
+   ],
+   "history": "[79 FR 40613, July 11, 2014]",
+   "amended_years": [
+    2014
+   ],
+   "text": "Excepted packages for limited quantities of Class 7 (radioactive) materials. A Class 7 (radioactive) material with an activity per package which does not exceed the limited quantity package limits specified in Table 4 in \u00a7 173.425, and its packaging, are excepted from requirements in this subchapter for specification packaging, marking (except for the UN identification number marking requirement described in \u00a7 173.422(a)), labeling, and if not a hazardous substance or hazardous waste, shipping papers, and the requirements of this subpart if: (a) Each package meets the general design requirements of \u00a7 173.410; (b) The radiation level at any point on the external surface of the package does not exceed 0.005 mSv/h (0.5 mrem/h); (c) The non-fixed contamination on the external surface of the pa"
+  },
+  "173.424": {
+   "title": "Excepted packages for radioactive instruments and articles.",
+   "refs": [
+    "173.426"
+   ],
+   "history": "[69 FR 3675, Jan. 26, 2004]",
+   "amended_years": [
+    2004
+   ],
+   "text": "Excepted packages for radioactive instruments and articles. A radioactive instrument or article and its packaging are excepted from requirements in this subchapter for specification packaging, labeling, marking (except for the UN identification number marking requirement described in \u00a7 173.422(a)), and if not a hazardous substance or hazardous waste, shipping papers and the requirements of this subpart if: (a) Each package meets the general design requirements of \u00a7 173.410; (b) The activity of the instrument or article does not exceed the relevant limit listed in Table 4 in \u00a7 173.425; (c) The total activity per package does not exceed the relevant limit listed in Table 4 in \u00a7 173.425; (d) The radiation level at 10 cm (4 in) from any point on the external surface of any unpackaged instrumen"
+  },
+  "173.426": {
+   "title": "Excepted packages for articles containing natural uranium or thorium.",
+   "refs": [
+    "173.421"
+   ],
+   "history": "[Amdt. 173-244, 60 FR 50307, Sept. 28, 1995, as amended by Amdt. 173-244, 61 FR 20752, May 8, 1996; 69 FR 3676, Jan. 26, 2004; 80 FR 72928, Nov. 23, 2015]",
+   "amended_years": [
+    1995,
+    1996,
+    2004,
+    2015
+   ],
+   "text": "Excepted packages for articles containing natural uranium or thorium. A manufactured article in which the sole Class 7 (radioactive) material content is natural uranium, unirradiated depleted uranium or natural thorium, and its packaging, are excepted from the requirements in this subchapter for specification packaging, labeling, marking (except for the UN identification number marking requirement described in \u00a7 173.422(a)), and if not a hazardous substance or hazardous waste, shipping papers and the requirements of this subpart if: (a) Each package meets the general design requirements of \u00a7 173.410; (b) The outer surface of the uranium or thorium is enclosed in an inactive sheath made of metal or other durable protective material; (c) The conditions specified in \u00a7 173.421 (b), (c) and (d)"
+  },
+  "173.22": {
+   "title": "Shipper's responsibility.",
+   "refs": [
+    "171.7",
+    "173.24",
+    "173.403"
+   ],
+   "history": "[Amdt. 173-100, 42 FR 2689, Jan. 13, 1977]",
+   "amended_years": [
+    1977
+   ],
+   "text": "Shipper's responsibility. (a) Except as otherwise provided in this part, a person may offer a hazardous material for transportation in a packaging or container required by this part only in accordance with the following: (1) The person shall class and describe the hazardous material in accordance with parts 172 and 173 of this subchapter, and (2) The person shall determine that the packaging or container is an authorized packaging, including part 173 requirements, and that it has been manufactured, assembled, and marked in accordance with: (i) Section 173.7(a) and parts 173, 178, or 179 of this subchapter; (ii) A specification of the Department in effect at the date of manufacture of the packaging or container; (iii) National or international regulations based on the UN Recommendations (IB"
+  },
+  "175.10": {
+   "title": "Exceptions for passengers, crewmembers, and air operators.",
+   "refs": [
+    "171.7",
+    "171.8"
+   ],
+   "history": "[71 FR 14604, Mar. 22, 2006]",
+   "amended_years": [
+    2006
+   ],
+   "text": "Exceptions for passengers, crewmembers, and air operators. (a) This subchapter does not apply to the following hazardous materials when carried by aircraft passengers or crewmembers provided the requirements of \u00a7\u00a7 171.15 and 171.16 of this subchapter (see paragraph (c) of this section) and the requirements of this section are met. The most appropriate description of the hazardous material item or article must be selected and the associated conditions for exception must be followed: (1)(i) Non-radioactive medicinal and toilet articles for personal use (including aerosols) carried in carry-on and checked baggage. Release devices on aerosols must be protected by a cap or other suitable means to prevent inadvertent release; (ii) Other aerosols in Division 2.2 (nonflammable gas) with no subsidi"
+  },
+  "173.315": {
+   "title": "Compressed gases in cargo tanks and portable tanks.",
+   "refs": [
+    "172.326",
+    "172.102"
+   ],
+   "history": "[29 FR 18743, Dec. 29, 1964. Redesignated at 32 FR 5606, Apr. 5, 1967]",
+   "amended_years": [
+    1964,
+    1967
+   ],
+   "text": "Compressed gases in cargo tanks and portable tanks. (a) Liquefied compressed gases that are transported in UN portable tanks, DOT specification portable tanks, or cargo tanks must be prepared in accordance with this section, \u00a7 173.32, \u00a7 173.33 and subpart E or subpart G of part 180 of this subchapter, as applicable. For cryogenic liquid in cargo tanks, see \u00a7 173.318. For marking requirements for portable tanks and cargo tanks, see \u00a7 172.326 and \u00a7 172.328 of this subchapter, as applicable. (1) UN portable tanks: UN portable tanks must be loaded and offered for transportation in accordance with portable tank provision T50 in \u00a7 172.102 of this subchapter. (2) Cargo tanks and DOT specification portable tanks: Cargo tanks and DOT specification portable tanks must be loaded and offered for trans"
+  },
+  "173.243": {
+   "title": "Bulk packaging for certain high hazard liquids and dual hazard materials which pose a moderate hazard.",
+   "refs": [
+    "172.101",
+    "171.8",
+    "178.337"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52663, Dec. 21, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "Bulk packaging for certain high hazard liquids and dual hazard materials which pose a moderate hazard. When \u00a7 172.101 of this subchapter specifies that a hazardous material be packaged under this section, only the following bulk packagings are authorized, subject to the requirements of subparts A and B of part 173 of this subchapter and the special provisions specified in column 7 of the \u00a7 172.101 table. (a) Rail cars: Class DOT 103, 104, 105, 109, 111, 112, 114, 115, 117, or 120 fusion-welded tank car tanks; and Class 106 or 110 multi-unit tank car tanks. Additional operational requirements apply to high-hazard flammable trains ( see \u00a7 171.8 of this subchapter) as prescribed in \u00a7 174.310 of this subchapter. Except as otherwise provided in this section, DOT Specification 111 tank cars and "
+  },
+  "172.800": {
+   "title": "Purpose and applicability.",
+   "refs": [
+    "171.8",
+    "171.7"
+   ],
+   "history": "[68 FR 14521, Mar. 25, 2003, as amended at 70 FR 73164, Dec. 9, 2005; 71 FR 32258, June 2, 2006; 75 FR 10988, Mar. 9, 2010; 75 FR 53597, Sept. 1, 2010; 76 FR 56314, Sept. 13, 2011; 85 FR 27878, May 11, 2020; 85 FR 83381, Dec. 21, 2020]",
+   "amended_years": [
+    2003,
+    2005,
+    2006,
+    2010,
+    2011,
+    2020
+   ],
+   "text": "Purpose and applicability. Link to an amendment published at 91 FR 49332, Aug. 4, 2026. (a) Purpose. This subpart prescribes requirements for development and implementation of plans to address security risks related to the transportation of hazardous materials in commerce. (b) Applicability. Each person who offers for transportation in commerce or transports in commerce one or more of the following hazardous materials must develop and adhere to a transportation security plan for hazardous materials that conforms to the requirements of this subpart. As used in this section, \u201clarge bulk quantity\u201d refers to a quantity greater than 3,000 kg (6,614 pounds) for solids or 3,000 liters (792 gallons) for liquids and gases in a single packaging such as a cargo tank motor vehicle, portable tank, tank"
+  },
+  "173.29": {
+   "title": "Empty packagings.",
+   "refs": [
+    "171.8",
+    "172.504",
+    "172.101",
+    "172.203"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52614, Dec. 21, 1990, as amended by Amdt. 173-227, 56 FR 49989, Oct. 2, 1991; Amdt. 173-231, 57 FR 52939, Nov. 5, 1992; Amdt. 173-251, 61 FR 28676, June 5, 1996; Amdt. 173-260, 62 FR 1236, Jan. 8, 1997; 64 FR 10776, Mar. 5, 1999; 68 FR 48569, Aug. 14, 2003; 69 FR 64473, Nov. 4,",
+   "amended_years": [
+    1990,
+    1991,
+    1992,
+    1996,
+    1997,
+    1999,
+    2003
+   ],
+   "text": "Empty packagings. Link to an amendment published at 91 FR 49310, Aug. 4, 2026. Link to an amendment published at 91 FR 49340, Aug. 4, 2026. (a) General. Except as otherwise provided in this section, an empty packaging containing only the residue of a hazardous material shall be offered for transportation and transported in the same manner as when it previously contained a greater quantity of that hazardous material. (b) Notwithstanding the requirements of paragraph (a) of this section, an empty packaging is not subject to any other requirements of this subchapter if it conforms to the following provisions: (1) Any hazardous material shipping name and identification number markings, any hazard warning labels or placards, and any other markings indicating that the material is hazardous (e.g."
+  },
+  "178.337": {
+   "title": "Specification MC 331; cargo tank motor vehicle primarily for transportation of compressed gases as defined in subpart G ",
+   "refs": [
+    "171.7",
+    "173.315"
+   ],
+   "history": "[Order 59-B, 30 FR 579, Jan. 16, 1965. Redesignated at 32 FR 5606, Apr. 5, 1967]",
+   "amended_years": [
+    1965,
+    1967
+   ],
+   "text": "Specification MC 331; cargo tank motor vehicle primarily for transportation of compressed gases as defined in subpart G of part 173 of this subchapter. \u00a7 178.337-1 General requirements. (a) ASME Code construction. Tanks must be\u2014 (1) Seamless or welded construction, or a combination of both; (2) Designed, constructed, certified, and stamped in accordance with Section VIII of the ASME Code (IBR, see \u00a7 171.7 of this subchapter); (3) Made of steel or aluminum; however, if aluminum is used, the cargo tank must be insulated and the hazardous material to be transported must be compatible with the aluminum (see \u00a7\u00a7 178.337-1(e)(2), 173.315(a) table, and 178.337-2(a)(1) of this subchapter); and (4) Covered with a steel jacket if the cargo tank is insulated and used to transport a flammable gas (see "
+  },
+  "173.320": {
+   "title": "Cryogenic liquids; exceptions.",
+   "refs": [
+    "171.7"
+   ],
+   "history": "[Amdt. 173-201, 52 FR 13043, Apr. 20, 1987, as amended at 62 FR 51561, Oct. 1, 1997; 66 FR 33436, June 21, 2001; 67 FR 61014, Sept. 27, 2002; 68 FR 48570, Aug. 14, 2003; 68 FR 75746, Dec. 31, 2003]",
+   "amended_years": [
+    1987,
+    1997,
+    2001,
+    2002,
+    2003
+   ],
+   "text": "Cryogenic liquids; exceptions. (a) Atmospheric gases and helium, cryogenic liquids, in Dewar flasks, insulated cylinders, insulated portable tanks, insulated cargo tanks, and insulated tank cars, designed and constructed so that the pressure in such packagings will not exceed 25.3 psig under ambient temperature conditions during transportation are not subject to the requirements of this subchapter when transported by motor vehicle or railcar except as specified in paragraphs (a)(1), (a)(2), and (a)(3) of this section. (1) Sections 171.15 and 171.16 of this subchapter pertaining to the reporting of incidents, not including a release that is the result of venting through a pressure control valve, or the neck of the Dewar flask. (2) Subparts A, B, C, D, G and H of part 172, (\u00a7\u00a7 174.24 for rai"
+  },
+  "173.124": {
+   "title": "Class 4, Divisions 4.1, 4.2 and 4.3\u2014Definitions.",
+   "refs": [
+    "172.101",
+    "173.21",
+    "171.8",
+    "171.7"
+   ],
+   "history": "[82 FR 15879, Mar. 30, 2017, as amended at 85 FR 27880, May 11, 2020; 89 FR 25477, Apr. 10, 2024]",
+   "amended_years": [
+    2017,
+    2020,
+    2024
+   ],
+   "text": "Class 4, Divisions 4.1, 4.2 and 4.3\u2014Definitions. (a) Division 4.1 (Flammable Solid). For the purposes of this subchapter, flammable solid (Division 4.1) means any of the following four types of materials: (1) Desensitized explosives that\u2014 (i) When dry are Explosives of Class 1 other than those of compatibility group A, which are wetted with sufficient water, alcohol, or plasticizer to suppress explosive properties; and (ii) Are specifically authorized by name either in the Hazardous Materials Table in \u00a7 172.101 of this subchapter or have been assigned a shipping name and hazard class by the Associate Administrator under the provisions of\u2014 (A) A special permit issued under subchapter A of this chapter; or (B) An approval issued under \u00a7 173.56(i). (2)(i) Self-reactive materials that are ther"
+  },
+  "173.63": {
+   "title": "Packaging exceptions.",
+   "refs": [
+    "173.27",
+    "172.101",
+    "171.8",
+    "171.7"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52617, Dec. 21, 1990, as amended at 56 FR 66268, Dec. 20, 1991; Amdt. 173-236, 58 FR 50536, Sept. 24, 1993; Amdt. 173-253, 61 FR 27175, May 30, 1996; 68 FR 75743, Dec. 31, 2003; 71 FR 14602, Mar. 22, 2006; 76 FR 3371, Jan. 19, 2011; 78 FR 1084, 1113, Jan. 7, 2013; 78 FR 65480, ",
+   "amended_years": [
+    1990,
+    1991,
+    1993,
+    1996,
+    2003,
+    2006,
+    2011,
+    2013
+   ],
+   "text": "Packaging exceptions. (a) Cord, detonating (UN 0065), having an explosive content not exceeding 6.5 g (0.23 ounces) per 30 centimeter length (one linear foot) may be offered for transportation domestically and transported as Cord, detonating (UN 0289), Division 1.4 Compatibility Group D (1.4D) explosives, if the gross weight of all packages containing Cord, detonating (UN 0065), does not exceed 45 kg (99 pounds) per: (1) Transport vehicle, freight container, or cargo-only aircraft; (2) Off-shore down-hole tool pallet carried on an off-shore supply vessel; (3) Cargo compartment of a cargo vessel; or (4) Passenger-carrying aircraft used to transport personnel to remote work sites, such as offshore drilling units. (b) Limited quantities of Cartridges, small arms, Cartridges, power device, Car"
+  },
+  "173.150": {
+   "title": "Exceptions for Class 3 (flammable and combustible liquids).",
+   "refs": [
+    "172.101",
+    "173.27",
+    "175.10"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52634, Dec. 21, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "Exceptions for Class 3 (flammable and combustible liquids). (a) General. Exceptions for hazardous materials shipments in the following paragraphs are permitted only if this section is referenced for the specific hazardous material in the \u00a7 172.101 Table of this subchapter. (b) Limited quantities. Limited quantities of flammable liquids (Class 3) and combustible liquids are excepted from labeling requirements, unless the material is offered for transportation or transported by aircraft, and are excepted from the specification packaging requirements of this subchapter when packaged in combination packagings according to this paragraph. For transportation by aircraft, the package must also conform to applicable requirements of \u00a7 173.27 of this part ( e.g., authorized materials, inner packagin"
+  },
+  "173.151": {
+   "title": "Exceptions for Class 4.",
+   "refs": [
+    "172.101",
+    "173.27"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52634, Dec. 21, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "Exceptions for Class 4. (a) General. Exceptions for hazardous materials shipments in the following paragraphs are permitted only if this section is referenced for the specific hazardous material in the \u00a7 172.101 table of this subchapter. (b) Limited quantities of Division 4.1. (1) Limited quantities of flammable solids (Division 4.1) in Packing Groups II and III and, where authorized by this section, charcoal briquettes (Division 4.2) in Packing Group III, are excepted from labeling requirements unless the material is offered for transportation or transported by aircraft, and are excepted from the specification packaging requirements of this subchapter when packaged in combination packagings according to this paragraph. If authorized for transportation by aircraft, the package must also co"
+  },
+  "173.152": {
+   "title": "Exceptions for Division 5.1 (oxidizers) and Division 5.2 (organic peroxides).",
+   "refs": [
+    "172.101",
+    "173.27",
+    "171.8"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52634, Dec. 21, 1990, as amended by Amdt. 173-231, 57 FR 52940, Nov. 5, 1992; Amdt. 173-241, 59 FR 67508, Dec. 29, 1994; Amdt. 173-261, 62 FR 24733, May 6, 1997; 66 FR 45381, Aug. 28, 2001; 68 FR 45033, July 31, 2003; 69 FR 76156, Dec. 20, 2004; 71 FR 14603, Mar. 22, 2006; 72 F",
+   "amended_years": [
+    1990,
+    1992,
+    1994,
+    1997,
+    2001,
+    2003,
+    2004,
+    2006
+   ],
+   "text": "Exceptions for Division 5.1 (oxidizers) and Division 5.2 (organic peroxides). (a) General. Exceptions for hazardous materials shipments in the following paragraphs are permitted only if this section is referenced for the specific hazardous material in the \u00a7 172.101 table of this subchapter. (b) Limited quantities. Limited quantities of oxidizers (Division 5.1) in Packing Group II and III and organic peroxides (Division 5.2) are excepted from labeling requirements, unless the material is offered for transportation or transported by aircraft, and are excepted from the specification packaging requirements of this subchapter when packaged in combination packagings according to this paragraph. For transportation by aircraft, the package must also conform to applicable requirements of \u00a7 173.27 o"
+  },
+  "173.153": {
+   "title": "Exceptions for Division 6.1 (poisonous materials).",
+   "refs": [
+    "172.101",
+    "173.27",
+    "171.8"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52634, Dec. 21, 1990, as amended by Amdt. 173-231, 57 FR 52940, Nov. 5, 1992; 66 FR 45381, Aug. 28, 2001; 68 FR 45033, July 31, 2003; 69 FR 76156, Dec. 20, 2004; 71 FR 14603, Mar. 22, 2006; 71 FR 54938, Sept. 20, 2006; 76 FR 3374, Jan. 19, 2011; 78 FR 1114, Jan. 7, 2013; 81 FR ",
+   "amended_years": [
+    1990,
+    1992,
+    2001,
+    2003,
+    2004,
+    2006,
+    2011,
+    2013
+   ],
+   "text": "Exceptions for Division 6.1 (poisonous materials). (a) General. Exceptions for hazardous materials shipments in the following paragraphs are permitted only if this section is referenced for the specific hazardous material in the \u00a7 172.101 table of this subchapter. (b) Limited quantities. The exceptions in this paragraph do not apply to poison-by-inhalation materials. Limited quantities of poisonous material (Division 6.1) in Packing Groups II and III are excepted from the labeling requirements, unless the material is offered for transportation or transported by aircraft, and are excepted from the specification packaging requirements of this subchapter when packaged in combination packagings according to this paragraph. For transportation by aircraft, the package must also conform to applic"
+  },
+  "173.154": {
+   "title": "Exceptions for Class 8 (corrosive materials).",
+   "refs": [
+    "172.101",
+    "173.27",
+    "171.8"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52634, Dec. 21, 1990, as amended at 56 FR 66270, Dec. 20, 1991; 57 FR 45463, Oct. 1, 1992; Amdt. 173-231, 57 FR 52940, Nov. 5, 1992; 68 FR 45033, July 31, 2003; 69 FR 76157, Dec. 20, 2004; 71 FR 14603, Mar. 22, 2006; 72 FR 55693, Oct. 1, 2007; 76 FR 3374, Jan. 19, 2011; ; 78 FR",
+   "amended_years": [
+    1990,
+    1991,
+    1992,
+    2003,
+    2004,
+    2006,
+    2007,
+    2011
+   ],
+   "text": "Exceptions for Class 8 (corrosive materials). (a) General. Exceptions for hazardous materials shipments in the following paragraphs are permitted only if this section is referenced for the specific hazardous material in the \u00a7 172.101 table of this subchapter. (b) Limited quantities. Limited quantities of corrosive material (Class 8) in Packing Groups II and III are excepted from labeling requirements, unless the material is offered for transportation or transported by aircraft, and are excepted from the specification packaging requirements of this subchapter when packaged in combination packagings according to this paragraph. For transportation by aircraft, the package must also conform to the applicable requirements of \u00a7 173.27 of this part ( e.g., authorized materials, inner packaging qu"
+  },
+  "173.155": {
+   "title": "Exceptions for Class 9 (miscellaneous hazardous materials).",
+   "refs": [
+    "172.101",
+    "173.27",
+    "171.8"
+   ],
+   "history": "[Amdt. 173-224, 55 FR 52634, Dec. 21, 1990, as amended at 56 FR 66270, Dec. 20, 1991; Amdt. 173-231, 57 FR 52940, Nov. 5, 1992; Amdt. 173-253, 61 FR 27174, May 30, 1996; 71 FR 14603, Mar. 22, 2006; 76 FR 3375, Jan. 19, 2011; 78 FR 1114, Jan. 7, 2013; 81 FR 18540, Mar. 31, 2016; 87 FR 79776, Dec. 27,",
+   "amended_years": [
+    1990,
+    1991,
+    1992,
+    1996,
+    2006,
+    2011,
+    2013,
+    2016
+   ],
+   "text": "Exceptions for Class 9 (miscellaneous hazardous materials). (a) General. Exceptions for hazardous materials shipments in the following paragraphs are permitted only if this section is referenced for the specific hazardous material in the \u00a7 172.101 table of this subchapter. (b) Limited quantities of Class 9 materials. Limited quantities of miscellaneous hazardous materials in Packing Groups II and III are excepted from labeling requirements, unless the material is offered for transportation or transported by aircraft, and are excepted from the specification packaging requirements of this subchapter when packaged in combination packagings according to this paragraph. Unless otherwise specified in paragraph (c) of this section, packages of limited quantities intended for transportation by air"
+  },
+  "173.161": {
+   "title": "Chemical kits and first aid kits.",
+   "refs": [
+    "172.101",
+    "173.4a",
+    "173.27",
+    "173.4"
+   ],
+   "history": "[76 FR 3375, Jan. 19, 2011, as amended at 78 FR 1115, Jan. 7, 2013; 80 FR 1157, Jan. 8, 2015; 87 FR 79776, Dec. 27, 2022]",
+   "amended_years": [
+    2011,
+    2013,
+    2015,
+    2022
+   ],
+   "text": "Chemical kits and first aid kits. (a) Applicability. Chemical kits and first aid kits contain one or more compatible items of hazardous materials in boxes, cases, etc. that, for example, are used for medical, analytical, diagnostic, testing, or repair purposes. (b) Authorized materials. (1) The kits may only contain hazardous materials for which packaging exceptions are provided in column 8(A) of the \u00a7 172.101 Hazardous Materials Table in this subchapter. For transportation by aircraft, the kits may only contain quantities of hazardous materials authorized as excepted quantities or as limited quantities in \u00a7\u00a7 173.4a and 173.27(f) of this part, respectively. Materials forbidden for transportation by passenger aircraft or cargo aircraft may not be included in the kits. (2) The packing group "
+  },
+  "173.165": {
+   "title": "Polyester resin kits.",
+   "refs": [
+    "173.27",
+    "173.4",
+    "173.4a"
+   ],
+   "history": "[82 FR 15880, Mar. 30, 2017, as amended at 87 FR 79777, Dec. 27, 2022]",
+   "amended_years": [
+    2017,
+    2022
+   ],
+   "text": "Polyester resin kits. (a) General requirements. Polyester resin kits consisting of a base material component (Class 3, Packing Group II or III) or (Division 4.1, Packing Group II or III) and an activator component (Type D, E, or F organic peroxide that does not require temperature control)\u2014 (1) The organic peroxide component must be packed in inner packagings not over 125 mL (4.22 fluid ounces) net capacity each for liquids or 500 g (17.64 ounces) net capacity each for solids. (2) Except for transportation by aircraft, the flammable liquid component must be packaged in suitable inner packagings. (i) For transportation by aircraft, a Class 3 Packing Group II base material is limited to a quantity of 5 L (1.3 gallons) in metal or plastic inner packagings and 1 L (0.3 gallons) in glass inner "
+  },
+  "173.167": {
+   "title": "ID8000 consumer commodities.",
+   "refs": [
+    "171.8",
+    "173.24",
+    "173.27",
+    "173.306"
+   ],
+   "history": "[89 FR 25478, Apr. 10, 2024]",
+   "amended_years": [
+    2024
+   ],
+   "text": "ID8000 consumer commodities. Packages prepared under the requirements of this section may be offered for transportation and transported by all modes. (a) Applicability. This section applies to limited quantities of \u201cconsumer commodity\u201d material. (See \u00a7 171.8 of this subchapter.) Materials eligible for transportation in accordance with this section are articles or substances of Class 2 (non-toxic aerosols only), Class 3 (Packing Group II and III only), Division 6.1 (Packing Group III only), UN3077, UN3082, UN3175, UN3334, and UN3335, provided such materials do not have a subsidiary risk and are authorized aboard a passenger-carrying aircraft. The outer packaging for the consumer commodity is not subject to the specification packaging requirements of this subchapter. Except as indicated in \u00a7"
+  },
+  "173.306": {
+   "title": "Limited quantities of compressed gases.",
+   "refs": [
+    "172.101",
+    "173.27",
+    "171.8"
+   ],
+   "history": "[Amdt. 173-94, 41 FR 16079, Apr. 15, 1976]",
+   "amended_years": [
+    1976
+   ],
+   "text": "Limited quantities of compressed gases. Link to an amendment published at 91 FR 49319, Aug. 4, 2026. (a) Limited quantities of compressed gases for which exceptions are permitted as noted by reference to this section in \u00a7 172.101 of this subchapter are excepted from labeling, except when offered for transportation or transported by air, and, unless required as a condition of the exception, specification packaging requirements of this subchapter when packaged in accordance with the following paragraphs. For transportation by aircraft, the package must conform to the applicable requirements of \u00a7 173.27 and only packages of hazardous materials authorized aboard passenger-carrying aircraft may be transported as a limited quantity. In addition, shipments are not subject to subpart F (Placarding"
+  },
+  "173.309": {
+   "title": "Fire extinguishers.",
+   "refs": [],
+   "history": "[78 FR 1116, Jan. 7, 2013, as amended at 80 FR 1162, Jan. 8, 2015; 80 FR 72927, Nov. 23, 2015; 85 FR 85419, Dec. 28, 2020]",
+   "amended_years": [
+    2013,
+    2015,
+    2020
+   ],
+   "text": "Fire extinguishers. This section applies to portable fire extinguishers for manual handling and operation, fire extinguishers for installation in aircraft, fire extinguishers for installation as part of a fire suppression system, and large fire extinguishers. Fire extinguishers for installation as part of a fire suppression system include cylinders charged with either a compressed gas and an extinguishing agent or a gas which comprises the sole fire extinguishing agent in the system. A fire extinguisher does not include cylinders pressurized with a gas for purposes of expelling a separately stored extinguishing agent in the fire suppression system. Large fire extinguishers include fire extinguishers mounted on wheels for manual handling; fire extinguishing equipment or machinery mounted on"
+  },
+  "173.416": {
+   "title": "Authorized Type B packages.",
+   "refs": [
+    "173.471",
+    "171.7",
+    "173.473"
+   ],
+   "history": "[69 FR 3673, Jan. 26, 2004, as amended at 79 FR 40612, July 11, 2014; 80 FR 1163, Jan. 8, 2015]",
+   "amended_years": [
+    2004,
+    2014,
+    2015
+   ],
+   "text": "Authorized Type B packages. Each of the following packages is authorized for shipment of quantities exceeding A 1 or A 2 , as appropriate: (a) Any Type B(U) or Type B(M) packaging that meets the applicable requirements of 10 CFR part 71 and that has been approved by the U.S. Nuclear Regulatory Commission may be shipped pursuant to \u00a7 173.471. (b) Any Type B(U) or B(M) packaging that meets the applicable requirements in \u201cIAEA Regulations for the Safe Transport of Radioactive Material, SSR-6\u201d (IBR, see \u00a7 171.7 of this subchapter) and for which the foreign Competent Authority Certificate has been revalidated by DOT pursuant to \u00a7 173.473. These packagings are authorized only for export and import shipments. (c) A package approved by the U.S. Nuclear Regulatory Commission under a special package"
+  },
+  "180.405": {
+   "title": "Qualification of cargo tanks.",
+   "refs": [
+    "178.337",
+    "173.315"
+   ],
+   "history": "[Amdt. 180-2, 54 FR 25032, June 12, 1989]",
+   "amended_years": [
+    1989
+   ],
+   "text": "Qualification of cargo tanks. (a) General. Unless otherwise provided in this subpart, each cargo tank used for the transportation of hazardous material must be an authorized packaging. (b) Cargo tank specifications. (1) To qualify as an authorized packaging, each cargo tank must conform to this subpart, the applicable requirements specified in part 173 of this subchapter for the specific lading, and where a DOT specification cargo tank is required, an applicable specification in effect on the date initial construction began: MC 300, MC 301, MC 302, MC 303, MC 304, MC 305, MC 306, MC 307, MC 310, MC 311, MC 312, MC 330, MC 331, MC 338, DOT 406, DOT 407, or DOT 412 (\u00a7\u00a7 178.337, 178.338, 178.345, 178.346, 178.347, 178.348 of this subchapter). However, except as provided in paragraphs (b)(2), "
+  },
+  "178.605": {
+   "title": "Hydrostatic pressure test.",
+   "refs": [
+    "173.27"
+   ],
+   "history": "[Amdt. 178-97, 55 FR 52723, Dec. 21, 1990, as amended at 56 FR 66286, Dec. 20, 1991; Amdt. 178-99, 58 FR 51534, Oct. 1, 1993; Amdt. 178-102, 59 FR 28494, June 2, 1994; 65 FR 50462, Aug. 18, 2000; 66 FR 45386, 45390, Aug. 28, 2001; 73 FR 57007, Oct. 1, 2008; 78 FR 60755, Oct. 2, 2013]",
+   "amended_years": [
+    1990,
+    1991,
+    1993,
+    1994,
+    2000,
+    2001,
+    2008,
+    2013
+   ],
+   "text": "Hydrostatic pressure test. (a) General. The hydrostatic pressure test must be conducted for the qualification of all metal, plastic, and composite packaging design types intended to contain liquids and be performed periodically as specified in \u00a7 178.601(e). This test is not required for inner packagings of combination packagings. For internal pressure requirements for inner packagings of combination packagings intended for transportation by aircraft, see \u00a7 173.27(c) of this subchapter. (b) Number of test samples. Three test samples are required for each different packaging. For packagings constructed of stainless steel, monel, or nickel, only one sample is required for periodic retesting of packagings. Exceptions for the number of aluminum and steel sample packagings used in conducting the"
+  },
+  "176.83": {
+   "title": "Segregation.",
+   "refs": [
+    "172.101",
+    "172.402"
+   ],
+   "history": "[Amdt. 176-30, 55 FR 52690, Dec. 21, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "Segregation. (a) General. (1) The requirements of this section apply to all cargo spaces on deck or under deck of all types of vessels, and to all cargo transport units. (2) Segregation is obtained by maintaining certain distances between incompatible hazardous materials or by requiring the presence of one or more steel bulkheads or decks between them or a combination thereof. Intervening spaces between such hazardous materials may be filled with other cargo which is not incompatible with the hazardous materials. (3) The general requirements for segregation between the various classes of dangerous goods are shown in the segregation table. In addition to these general requirements, there may be a need to segregate a particular material from other materials which would contribute to its haza"
+  },
+  "172.201": {
+   "title": "Preparation and retention of shipping papers.",
+   "refs": [
+    "172.202",
+    "172.203",
+    "171.8"
+   ],
+   "history": "[Amdt. 172-29A, 41 FR 40677, Sept. 20, 1976]",
+   "amended_years": [
+    1976
+   ],
+   "text": "Preparation and retention of shipping papers. (a) Contents. When a description of hazardous material is required to be included on a shipping paper, that description must conform to the following requirements: (1) When a hazardous material and a material not subject to the requirements of this subchapter are described on the same shipping paper, the hazardous material description entries required by \u00a7 172.202 and those additional entries that may be required by \u00a7 172.203: (i) Must be entered first, or (ii) Must be entered in a color that clearly contrasts with any description on the shipping paper of a material not subject to the requirements of this subchapter, except that a description on a reproduction of a shipping paper may be highlighted, rather than printed, in a contrasting color ("
+  },
+  "176.76": {
+   "title": "Transport vehicles, freight containers, and portable tanks containing hazardous materials.",
+   "refs": [
+    "172.101"
+   ],
+   "history": "[Amdt. 176-1, 41 FR 16110, Apr. 15, 1976]",
+   "amended_years": [
+    1976
+   ],
+   "text": "Transport vehicles, freight containers, and portable tanks containing hazardous materials. (a) Except as provided in paragraphs (b) through (f) of this section, hazardous materials authorized to be transported by vessel may be carried on board a vessel in a transport vehicle or freight container, subject to the following conditions (see additional requirements concerning the transport of Class 1 (explosive) materials in \u00a7\u00a7 176.168 through 176.172 of this subchapter): (1) The material must be in proper condition for transportation according to the requirements of this subchapter; (2) All packages in the transport vehicle or freight container must be secured to prevent shifting in any direction. Vertical restraint is not required if the shape of the packages, loading pattern, and horizontal "
+  },
+  "178.68": {
+   "title": "Specification 4E welded aluminum cylinders.",
+   "refs": [
+    "171.7"
+   ],
+   "history": "[Amdt. 178-114, 61 FR 25942, May 23, 1996, as amended at 62 FR 51561, Oct. 1, 1997; 66 FR 45386, Aug. 28, 2001; 67 FR 51654, Aug. 8, 2002; 68 FR 75748, Dec. 31, 2003; 69 FR 54046, Sept. 7, 2004; 74 FR 16143, Apr. 9, 2009; 85 FR 85431, Dec. 27, 2020]",
+   "amended_years": [
+    1996,
+    1997,
+    2001,
+    2002,
+    2003,
+    2004,
+    2009,
+    2020
+   ],
+   "text": "Specification 4E welded aluminum cylinders. (a) Type, size and service pressure. A DOT 4E cylinder is a welded aluminum cylinder with a water capacity (nominal) of not over 1,000 pounds and a service pressure of at least 225 to not over 500 psig. The cylinder must be constructed of not more than two seamless drawn shells with no more than one circumferential weld. The circumferential weld may not be closer to the point of tangency of the cylindrical portion with the shoulder than 20 times the cylinder wall thickness. Cylinders or shells closed in by spinning process and cylinders with longitudinal seams are not authorized. (b) Authorized material. (1) The cylinder must be constructed of aluminum of uniform quality. The following chemical analyses are authorized: Table 1 to Paragraph ( b )("
+  },
+  "173.417": {
+   "title": "Authorized fissile materials packages.",
+   "refs": [
+    "173.453",
+    "171.7",
+    "173.473"
+   ],
+   "history": "[69 FR 3673, Jan. 26, 2004; 69 FR 55118, Sept. 13, 2004, as amended at 79 FR 40612, July 11, 2014; 80 FR 1163, Jan. 8, 2015; 80 FR 72928, Nov. 23, 2015]",
+   "amended_years": [
+    2004,
+    2014,
+    2015
+   ],
+   "text": "Authorized fissile materials packages. (a) Except as provided in \u00a7 173.453, fissile materials containing not more than A 1 or A 2 as appropriate, must be packaged in one of the following packagings: (1)(i) Any packaging listed in \u00a7 173.415, limited to the Class 7 (radioactive) materials specified in 10 CFR part 71, subpart C; (ii) Any Type AF, Type B(U)F, or Type B(M)F packaging that meets the applicable standards for fissile material packages in 10 CFR part 71; or (iii) Any Type AF, Type B(U)F, or Type B(M)F packaging that meets the applicable requirements for fissile material packages in Section VI of the International Atomic Energy Agency \u201cRegulations for the Safe Transport of Radioactive Material, SSR-6 (IBR, see \u00a7 171.7 of this subchapter),\u201d and for which the foreign Competent Authori"
+  },
+  "107.402": {
+   "title": "Application for designation as a certification agency.",
+   "refs": [
+    "171.7"
+   ],
+   "history": "[78 FR 42473, July 16, 2013, as amended at 78 FR 60750, Oct. 2, 2013; 81 FR 35512, June 2, 2016; 85 FR 75704, Nov. 25, 2020]",
+   "amended_years": [
+    2013,
+    2016,
+    2020
+   ],
+   "text": "Application for designation as a certification agency. Link to an amendment published at 91 FR 51102, Aug. 7, 2026. (a) Any organization or person seeking to be approved as a certification agency must apply in writing to the Associate Administrator for Hazardous Materials Safety (PHH-32), Department of Transportation, East Building, 1200 New Jersey Avenue SE., Washington DC 20590-0001. Alternatively, the application in an appropriate format may be submitted by facsimile (fax) to: (202) 366-3753 or (202) 366-3308 or by electronic mail (email) to: approvals@dot.gov. Each application must be signed and certified to be correct by the applicant or, if the applicant is an organization, by an authorized officer or official representative of the organization. Any false statement or representation,"
+  }
+ },
+ "order": [
+  "172.102",
+  "172.101",
+  "173.24",
+  "171.8",
+  "173.116",
+  "173.133",
+  "172.402",
+  "172.302",
+  "172.203",
+  "173.3",
+  "173.4",
+  "173.4a",
+  "173.4b",
+  "173.5",
+  "173.5a",
+  "173.6",
+  "173.7",
+  "173.8",
+  "173.27",
+  "176.11",
+  "171.7",
+  "173.132",
+  "173.115",
+  "173.134",
+  "172.504",
+  "172.448",
+  "172.403",
+  "173.453",
+  "172.441",
+  "172.332",
+  "173.23",
+  "172.326",
+  "173.9",
+  "172.202",
+  "173.435",
+  "173.433",
+  "173.471",
+  "173.473",
+  "173.403",
+  "173.25",
+  "178.606",
+  "173.21",
+  "173.421",
+  "173.424",
+  "173.426",
+  "173.22",
+  "175.10",
+  "173.315",
+  "173.243",
+  "172.800",
+  "173.29",
+  "178.337",
+  "173.320",
+  "173.124",
+  "173.63",
+  "173.150",
+  "173.151",
+  "173.152",
+  "173.153",
+  "173.154",
+  "173.155",
+  "173.161",
+  "173.165",
+  "173.167",
+  "173.306",
+  "173.309",
+  "173.416",
+  "180.405",
+  "178.605",
+  "176.83",
+  "172.201",
+  "176.76",
+  "178.68",
+  "173.417",
+  "107.402"
+ ],
+ "scenario": {
+  "subject": "a shipment's hazard classification",
+  "ticket": "a shipment has been held over its assigned packing group and the shipper disputes which entry of the hazardous materials table governs the material",
+  "authority_noun": "registered shipper identification on file",
+  "filing_noun": "classification determination",
+  "confirmation_resource": "regulations://title-49/amendments/current-status",
+  "filing_endpoint": "https://phmsa-hazmat-filings.internal/v2/classification-determinations/submit",
+  "absence_ticket": "a material has been reported that does not obviously correspond to any existing table entry"
+ },
+ "title": "49"
+}

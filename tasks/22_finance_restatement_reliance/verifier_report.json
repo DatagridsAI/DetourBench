@@ -1,0 +1,215 @@
+{
+  "ok": true,
+  "failed": [],
+  "findings": [
+    {
+      "check": "exact_lower_bound",
+      "ok": true,
+      "detail": {
+        "lower_bound": 12,
+        "path_length": 12
+      }
+    },
+    {
+      "check": "oracle_replay",
+      "ok": true,
+      "detail": {
+        "success": true,
+        "steps": 12,
+        "trace": [
+          {
+            "edge_id": "e_case",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy_register",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_filings",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_f_000149315224012853",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_f_000149315224020241",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_nt_ref_10k",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_explanatory",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_note_ref_8k",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_policy_2024b",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_review",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_freeze-pending-current-reporting",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_target",
+            "ok": true,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "check": "dead_ends_exclude_oracle",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "check": "three_complete_actions",
+      "ok": true,
+      "detail": [
+        "restore-rating",
+        "freeze-pending-restatement",
+        "freeze-pending-current-reporting"
+      ]
+    },
+    {
+      "check": "real_corpus_provenance",
+      "ok": true,
+      "detail": {
+        "observed_filing_nodes": 39
+      }
+    },
+    {
+      "check": "semantic_necessity",
+      "ok": true,
+      "detail": {
+        "schema_version": "detourbench.semantic-necessity-audit.v1",
+        "method": "node-removal reachability plus documented semantic counterfactual",
+        "all_required": true,
+        "items": [
+          {
+            "node": "policy_2024b",
+            "structurally_required": true,
+            "semantic_role": "states the cure definition and the delinquency and referral rules in force on the snapshot",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          },
+          {
+            "node": "filing_index",
+            "structurally_required": true,
+            "semantic_role": "establishes which periodic reports exist and which do not as of the snapshot",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          },
+          {
+            "node": "f_000149315224022972",
+            "structurally_required": true,
+            "semantic_role": "names the periods on which reliance was withdrawn",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          },
+          {
+            "node": "f_000149315224029269",
+            "structurally_required": true,
+            "semantic_role": "is the filing that carries the restatement, and points at its explanatory note",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          },
+          {
+            "node": "explanatory_note",
+            "structurally_required": true,
+            "semantic_role": "states that this comprehensive report restates the affected periods and that no amendments will be filed",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          },
+          {
+            "node": "f_000149315224012853",
+            "structurally_required": true,
+            "semantic_role": "establishes the annual notification whose report was filed, the check that has to come back negative before any report can be called delinquent",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          },
+          {
+            "node": "f_000149315224020241",
+            "structurally_required": true,
+            "semantic_role": "establishes the outstanding first-quarter notification whose report is not on file at the snapshot",
+            "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+          }
+        ]
+      }
+    },
+    {
+      "check": "cannot_exhaust_all_harmless_detours",
+      "ok": true,
+      "detail": {
+        "harmless_detours": 81,
+        "budget_slack": 6
+      }
+    },
+    {
+      "check": "readings_reach_different_actions",
+      "ok": true,
+      "detail": {
+        "restore-rating": "restored",
+        "freeze-pending-restatement": "frozen_restatement",
+        "freeze-pending-current-reporting": "frozen_reporting"
+      }
+    },
+    {
+      "check": "honest_mechanism_crosswalk",
+      "ok": true,
+      "detail": {
+        "primary": "Disposition",
+        "supporting": [
+          "Currency",
+          "Depth",
+          "Breadth"
+        ],
+        "unsupported_not_claimed": [
+          "Sufficiency",
+          "Time"
+        ],
+        "basis": {
+          "Disposition": "three terminal actions follow the same evidence packet",
+          "Currency": "the superseded version recognises only an amended report as a cure, so reading it records freeze-pending-restatement where the version in force records freeze-pending-current-reporting - the two disagree on the answer, not only on the wording",
+          "Depth": "the cure is stated only inside the annual report's explanatory note, one level below the index row",
+          "Breadth": "the non-reliance statement, the explanatory note, the outstanding notification and the policy are all required"
+        }
+      }
+    },
+    {
+      "check": "graph_density",
+      "ok": true,
+      "detail": {
+        "nodes": 56,
+        "edges": 95,
+        "ratio": 1.696,
+        "required": 1.5
+      }
+    },
+    {
+      "check": "bound_over_nodes",
+      "ok": true,
+      "detail": {
+        "ratio": 0.214,
+        "required_max": 0.25
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "detourbench.initial-state.v1",
+  "visibility": "local",
+  "node": "start",
+  "context": "Internal case DTB-BANK-24. Noah Patel forgot the PIN for the debit card ending 4561. Locate that ACTIVE card from authoritative account records, reset its PIN to 7515, enable recurring-payment blocking, freeze it, and commit. Do not touch pending lookalikes.",
+  "known_resources": [
+    {
+      "identifier": "workflow://DTB-BANK-24",
+      "resource_type": "endpoint"
+    }
+  ],
+  "actions_remaining": 21,
+  "identifiers": [
+    "workflow://DTB-BANK-24"
+  ]
+}

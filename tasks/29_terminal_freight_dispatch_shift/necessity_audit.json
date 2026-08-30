@@ -1,0 +1,67 @@
+{
+  "schema_version": "detourbench.semantic-necessity-audit.v1",
+  "method": "node-removal reachability plus documented semantic counterfactual",
+  "all_required": true,
+  "items": [
+    {
+      "node": "orders_0900",
+      "structurally_required": true,
+      "semantic_role": "establishes the complete cutoff-scoped six-order work requirement",
+      "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+    },
+    {
+      "node": "routes_0900",
+      "structurally_required": true,
+      "semantic_role": "establishes the frozen directed lanes, drive minutes and handling buffers",
+      "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+    },
+    {
+      "node": "fleet_0900",
+      "structurally_required": true,
+      "semantic_role": "establishes vehicle and driver capabilities, including ADR eligibility and initial driving totals",
+      "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+    },
+    {
+      "node": "driving_policy",
+      "structurally_required": true,
+      "semantic_role": "defines the continuous-driving limit and mandatory 45-minute break rule",
+      "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+    },
+    {
+      "node": "adr_policy",
+      "structurally_required": true,
+      "semantic_role": "defines the controlled ADR profile requirement on both vehicle and driver",
+      "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+    },
+    {
+      "node": "operational_policy",
+      "structurally_required": true,
+      "semantic_role": "defines the in-force route-operational profile semantics",
+      "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+    },
+    {
+      "node": "submission_schema",
+      "structurally_required": true,
+      "semantic_role": "defines the required assignment fields for a valid plan bundle",
+      "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+    },
+    {
+      "node": "plan_a",
+      "structurally_required": true,
+      "semantic_role": "provides the only runtime-accepted candidate disposition",
+      "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+    },
+    {
+      "node": "plan_b",
+      "structurally_required": true,
+      "semantic_role": "provides the break-rule counterfactual that must be distinguished",
+      "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+    },
+    {
+      "node": "plan_c",
+      "structurally_required": true,
+      "semantic_role": "provides the ADR-eligibility counterfactual that must be distinguished",
+      "counterfactual_without_node": "The review gate cannot be completed without this evidence record; treating the missing fact as known would bypass the stated frozen decision rule."
+    }
+  ]
+}

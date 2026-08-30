@@ -1,0 +1,1145 @@
+{
+ "graph": {
+  "nodes": {
+   "start": {
+    "desc": "Outpatient pharmacy queue RXQ-4611: a combination-tablet refill is waiting after the 2025-10-29 pain-clinic visit. Assemble a complete evidence packet from the chart and route this refill to the appropriate queue disposition. You may not discontinue therapy, substitute a drug, select a dose, or close the clinical question without human confirmation."
+   },
+   "intake": {
+    "desc": "RXQ-4611: RXQ-4611 is a refill of an active combination analgesic tablet. Supporting chart material is listed from the patient header. Open the patient header at scenario://ehr/Patient/46fcc34a-97a1-f038-9bb1-4ae87116ae61."
+   },
+   "patient": {
+    "desc": "Patient header: Micaela928 Josefina523 Rend\u00f3n540, DOB 1985-06-12, MRN 46fcc34a-97a1-f038-9bb1-4ae87116ae61, Northbridge MA. Open the queued medication at scenario://ehr/MedicationRequest/oxycodone-apap-1049625."
+   },
+   "oxycodone_rx": {
+    "desc": "MedicationRequest remains active: Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet. Structured medication code is RxNorm 1049625. An active treatment-indication record is attached. Chart material is grouped into clinical regions: current monitoring records, longitudinal medication history, workflow policy memos, and other chart panels."
+   },
+   "fibro": {
+    "desc": "Condition SNOMED 203082005 Fibromyalgia, onset 2014-01-31, still active. This is the treatment-indication record linked from the queued MedicationRequest for this refill. Problem-list onset does not interpret monitoring records or select a milligram amount."
+   },
+   "snapshot": {
+    "desc": "Current monitoring region for this refill window: a prescription-monitoring extract, a monitoring-agreement document, an existing-order acetaminophen check, and an in-pharmacy fill log."
+   },
+   "pdmp": {
+    "desc": "Prescription-monitoring extract for 2026-05-21 through 2026-08-21: the only Schedule II rows for this patient are this same combination-tablet product. No other CII pharmacy fills are listed in the window. This extract does not select a dose."
+   },
+   "agreement": {
+    "desc": "Controlled-medication monitoring agreement signed 2026-06-02: the patient remains enrolled in clinic monitoring for the queued combination tablet. The agreement does not authorize this queue to change a milligram amount or to discontinue therapy."
+   },
+   "apap": {
+    "desc": "Existing-order acetaminophen check for active medications on this chart: the queued combination tablet is 325 mg acetaminophen per tablet at the ordered frequency of 4 tablets per day (1300 mg/day from this order). No second acetaminophen-containing MedicationRequest is on file. Public labeling states total acetaminophen should not exceed 4 grams per day. This check does not select a new dose and does not add or remove tablets."
+   },
+   "pharmacy_fill_log": {
+    "desc": "This pharmacy's own fill log lists three in-store fills of the queued product during the last membership year. The log is not a statewide prescription-monitoring extract and does not list other pharmacies."
+   },
+   "history": {
+    "desc": "Longitudinal medication-history region: completed combination-tablet orders from 2023 and 2024, plus the active medication-review-due situation. The 2025 active order is the queued MedicationRequest already on this chart, not a second prescription. The 2022 completed year is older than this refill window and is not listed here."
+   },
+   "y2023": {
+    "desc": "MedicationRequest RxNorm 1049625, 2023-10-18 through 2024-10-23, status completed. CSV dispenses field 3. No reasonCode is attached. One completed year in the current-window chain."
+   },
+   "y2024": {
+    "desc": "MedicationRequest RxNorm 1049625, 2024-10-23 through 2025-10-29, status completed. CSV dispenses field 3. No reasonCode is attached. The second completed year in the current-window chain. The next annual order is the active queued MedicationRequest (FHIR id 46fcc34a-97a1-f038-e42e-36415b133408), which is the same resource already opened from the patient header. After 2023 and 2024 are on file, an in-chart CII continuity attestation is listed from this order."
+   },
+   "cii_continuity": {
+    "desc": "In-chart CII continuity attestation for this product: the only Schedule II combination-tablet MedicationRequest across the 2023 completed order, the 2024 completed order, and the active queued order is RxNorm 1049625. The 2025 row is that queued MedicationRequest, not a second fill. This attestation is not a statewide prescription-monitoring extract and does not list other pharmacies."
+   },
+   "review_due": {
+    "desc": "Condition SNOMED 314529007 Medication review due, onset 2025-10-29, still active. This is a current medication-review situation on the same date as the active combination-tablet order. It is an in-chart clinic-monitoring record, not a signed controlled-medication agreement."
+   },
+   "policy_folder": {
+    "desc": "Workflow-policy region for RXQ-4611: two dated pharmacy memos are on file. Read the memo whose effective interval covers the queue date 2026-08-21."
+   },
+   "policy_2019": {
+    "desc": "Pharmacy refill memo effective 2019-11-01 through 2025-12-31: if a pain indication is on the problem list, the queue may auto-complete fulfillment without a monitoring packet. That interval does not include 2026-08-21. This memo does not select a dose."
+   },
+   "policy_2026": {
+    "desc": "Pharmacy refill memo effective 2026-01-01: for a Schedule II combination-tablet refill, do not label or dispense from this queue. Pause fulfillment. A pending-controlled-medication-review packet is accepted when the linked treatment indication is on file and two of three current monitoring categories are documented: (1) a prescription-monitoring extract or equivalent in-chart CII continuity, (2) a monitoring agreement or equivalent active medication-review record, (3) an existing-order acetaminophen check against labeling. Public Percocet labeling describes acetaminophen limits and does not authorize this queue to choose a milligram amount. Public labeling: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4dd36cf5-8f73-404a-8b1d-3bd53bd90c25."
+   },
+   "hold": {
+    "desc": "A complete evidence packet is recorded. Queue RXQ-4611 is staged for pending-controlled-medication-review. Fulfillment is not yet committed. This is not a discontinuation order and not a milligram change. Submit the queue disposition record. Submit the queue disposition at scenario://ehr/pharmacy/RXQ-4611/pending-controlled-medication-review/commit."
+   },
+   "target": {
+    "desc": "The evidence packet is filed. Pharmacy queue RXQ-4611 is routed to pending-controlled-medication-review. Fulfillment is paused. No tablets are labeled or dispensed, no dose is selected, therapy is not discontinued, and no substitute product is selected."
+   },
+   "legacy_autorefill": {
+    "desc": "Legacy auto-fulfillment path from the 2019-11-01 memo. This path is not valid for a 2026-08-21 queue date. No tablets are dispensed from this benchmark action."
+   },
+   "generic_review": {
+    "desc": "Generic clinical-review queue for RXQ-4611. This destination does not commit a controlled-medication review packet. No tablets are labeled or dispensed from this page."
+   },
+   "dispense_preview": {
+    "desc": "Dispense preview: this queue cannot label or dispense the combination tablet."
+   },
+   "dose_table": {
+    "desc": "Strength table copied from labeling (2.5/325 through 10/325). This table does not authorize this queue to choose a tablet strength."
+   },
+   "discontinue": {
+    "desc": "Discontinue preview: RXQ-4611 cannot discontinue therapy."
+   },
+   "tramadol_switch": {
+    "desc": "Alternative-analgesic folder. RXQ-4611 cannot substitute a different product."
+   },
+   "other_chart": {
+    "desc": "Other-chart region: dental records, social findings, additional pain labels, therapy notes, coverage, allergy medications, and an older export."
+   },
+   "dental": {
+    "desc": "Dental visit 2025-11-12: sodium fluoride 0.0272 MG/MG oral gel (RxNorm 1535362) was administered. This is not a Schedule II monitoring record."
+   },
+   "gingivitis": {
+    "desc": "Condition SNOMED 66383009 Gingivitis, onset 2025-10-29, resolved 2025-11-12. Not the queued product."
+   },
+   "unemployed": {
+    "desc": "Condition SNOMED 73438004 Unemployed, onset 2025-10-29, still active. Social-history context only."
+   },
+   "chronic_pain_generic": {
+    "desc": "Condition SNOMED 82423001 Chronic pain, onset 2014-01-31, still active. This generic pain finding is not the treatment-indication record linked from the queued MedicationRequest."
+   },
+   "lbp": {
+    "desc": "Condition SNOMED 278860009 Chronic low back pain, onset 2014-01-31, still active. It is listed on the problem list and is not the linked indication for this refill packet."
+   },
+   "careplan_pt": {
+    "desc": "CarePlan from 2014-04-22: physical therapy and cognitive and behavioral therapy remain in progress. Non-opioid therapy on file does not replace a current monitoring category for this queue."
+   },
+   "coverage": {
+    "desc": "Coverage folder for the current member year."
+   },
+   "copay": {
+    "desc": "ExplanationOfBenefit copay row for the queued product. Administrative only."
+   },
+   "epinephrine": {
+    "desc": "MedicationRequest remains active: epinephrine auto-injector RxNorm 1870230 from 1990. Not the queued refill."
+   },
+   "terfenadine": {
+    "desc": "MedicationRequest remains active: Terfenadine 60 MG Oral Tablet RxNorm 141918 from 1990. Not the queued refill."
+   },
+   "mirena": {
+    "desc": "MedicationAdministration 2025-11-26: levonorgestrel IUD RxNorm 807283. Not an analgesic."
+   },
+   "dstu2": {
+    "desc": "FHIR DSTU2 export lists older problem-list codes. Brand strings for the queued tablet may appear here."
+   }
+  },
+  "edges": {
+   "start": [
+    {
+     "edge_id": "e_intake",
+     "to": "intake",
+     "desc": "scenario://ehr/pharmacy/RXQ-4611",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "intake": [
+    {
+     "edge_id": "e_patient",
+     "to": "patient",
+     "desc": "scenario://ehr/Patient/46fcc34a-97a1-f038-9bb1-4ae87116ae61",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "patient": [
+    {
+     "edge_id": "e_meds",
+     "to": "oxycodone_rx",
+     "desc": "scenario://ehr/MedicationRequest/oxycodone-apap-1049625",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "oxycodone_rx": [
+    {
+     "edge_id": "e_other",
+     "to": "other_chart",
+     "desc": "scenario://ehr/panel/other-chart",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_fibro",
+     "to": "fibro",
+     "desc": "scenario://ehr/Condition/cond-3a91c2e0",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_policy_folder",
+     "to": "policy_folder",
+     "desc": "scenario://ehr/folder/workflow-memos",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_history",
+     "to": "history",
+     "desc": "scenario://ehr/folder/combination-tablet-history",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_tramadol",
+     "to": "tramadol_switch",
+     "desc": "scenario://ehr/plan/alternative-analgesic",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_snapshot",
+     "to": "snapshot",
+     "desc": "scenario://ehr/folder/monitoring-records",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "fibro": [],
+   "snapshot": [
+    {
+     "edge_id": "e_filllog",
+     "to": "pharmacy_fill_log",
+     "desc": "scenario://ehr/MedicationDispense/in-pharmacy-log",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_apap",
+     "to": "apap",
+     "desc": "scenario://ehr/DocumentReference/apap-existing-orders",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_agreement",
+     "to": "agreement",
+     "desc": "scenario://ehr/DocumentReference/csa-4611",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_pdmp",
+     "to": "pdmp",
+     "desc": "scenario://ehr/DocumentReference/pdmp-q3-4611",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "pdmp": [],
+   "agreement": [],
+   "apap": [],
+   "pharmacy_fill_log": [],
+   "history": [
+    {
+     "edge_id": "e_review_due",
+     "to": "review_due",
+     "desc": "scenario://ehr/Condition/46fcc34a-97a1-f038-medreview-2025",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_apap_alias",
+     "to": "oxycodone_rx",
+     "desc": "scenario://ehr/MedicationStatement/apap-oxycodone",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_y2023",
+     "to": "y2023",
+     "desc": "scenario://ehr/MedicationRequest/46fcc34a-97a1-f038-c186-c441ade3e3df",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_rxnorm_alias",
+     "to": "oxycodone_rx",
+     "desc": "scenario://ehr/CodeSystem/rxnorm-1049625",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "y2023": [
+    {
+     "edge_id": "e_y2024",
+     "to": "y2024",
+     "desc": "scenario://ehr/MedicationRequest/46fcc34a-97a1-f038-a98f-c658b5a74b45",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "y2024": [
+    {
+     "edge_id": "e_cii_continuity",
+     "to": "cii_continuity",
+     "desc": "scenario://ehr/DocumentReference/cii-continuity-4611",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_y2025",
+     "to": "oxycodone_rx",
+     "desc": "scenario://ehr/MedicationRequest/46fcc34a-97a1-f038-e42e-36415b133408",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "cii_continuity": [],
+   "review_due": [],
+   "policy_folder": [
+    {
+     "edge_id": "e_policy_2019",
+     "to": "policy_2019",
+     "desc": "scenario://ehr/policy/rxq-4611/memo-20191101",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_policy_2026",
+     "to": "policy_2026",
+     "desc": "scenario://ehr/policy/rxq-4611/memo-20260101",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "policy_2019": [
+    {
+     "edge_id": "e_legacy",
+     "to": "legacy_autorefill",
+     "desc": "scenario://ehr/pharmacy/RXQ-4611/legacy-autofulfill",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_generic_review",
+     "to": "generic_review",
+     "desc": "scenario://ehr/pharmacy/RXQ-4611/pending-clinical-review",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "policy_2026": [
+    {
+     "edge_id": "e_discontinue",
+     "to": "discontinue",
+     "desc": "scenario://ehr/pharmacy/RXQ-4611/discontinue-preview",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_dose",
+     "to": "dose_table",
+     "desc": "scenario://ehr/MedicationKnowledge/strength-table",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_dispense",
+     "to": "dispense_preview",
+     "desc": "scenario://ehr/pharmacy/RXQ-4611/dispense-preview",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_hold",
+     "to": "hold",
+     "desc": "scenario://ehr/pharmacy/RXQ-4611/pending-controlled-medication-review",
+     "resource_type": "endpoint",
+     "requires": [
+      "refill_scope",
+      "patient_identity",
+      "queued_med",
+      "pain_indication",
+      "governing_policy"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": [
+      "cii_history",
+      "clinic_monitoring",
+      "apap_existing_orders"
+     ],
+     "requires_any_n": 2
+    }
+   ],
+   "hold": [
+    {
+     "edge_id": "e_target",
+     "to": "target",
+     "desc": "scenario://ehr/pharmacy/RXQ-4611/pending-controlled-medication-review/commit",
+     "resource_type": "endpoint",
+     "requires": [
+      "review_routed"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "target": [],
+   "legacy_autorefill": [],
+   "generic_review": [],
+   "dispense_preview": [],
+   "dose_table": [],
+   "discontinue": [],
+   "tramadol_switch": [],
+   "other_chart": [
+    {
+     "edge_id": "e_terfenadine",
+     "to": "terfenadine",
+     "desc": "scenario://ehr/MedicationRequest/terfenadine-141918",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_dental",
+     "to": "dental",
+     "desc": "scenario://ehr/MedicationAdministration/fluoride-1535362",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_unemployed",
+     "to": "unemployed",
+     "desc": "scenario://ehr/Condition/unemployed-73438004",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_mirena",
+     "to": "mirena",
+     "desc": "scenario://ehr/MedicationAdministration/mirena-807283",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_chronic_pain",
+     "to": "chronic_pain_generic",
+     "desc": "scenario://ehr/Condition/chronic-pain-82423001",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_careplan",
+     "to": "careplan_pt",
+     "desc": "scenario://ehr/CarePlan/therapy-2014",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_coverage",
+     "to": "coverage",
+     "desc": "scenario://ehr/Coverage/member-year",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_epinephrine",
+     "to": "epinephrine",
+     "desc": "scenario://ehr/MedicationRequest/epinephrine-1870230",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_dstu2",
+     "to": "dstu2",
+     "desc": "scenario://ehr/fhir-dstu2/problem-list-export",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_lbp",
+     "to": "lbp",
+     "desc": "scenario://ehr/Condition/low-back-pain-278860009",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "dental": [
+    {
+     "edge_id": "e_gingivitis",
+     "to": "gingivitis",
+     "desc": "scenario://ehr/Condition/gingivitis-66383009",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "gingivitis": [],
+   "unemployed": [],
+   "chronic_pain_generic": [],
+   "lbp": [],
+   "careplan_pt": [],
+   "coverage": [
+    {
+     "edge_id": "e_copay",
+     "to": "copay",
+     "desc": "scenario://ehr/ExplanationOfBenefit/copay",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "copay": [],
+   "epinephrine": [],
+   "terfenadine": [],
+   "mirena": [],
+   "dstu2": [
+    {
+     "edge_id": "e_percocet_alias",
+     "to": "oxycodone_rx",
+     "desc": "scenario://ehr/MedicationStatement/percocet-brand",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ]
+  }
+ },
+ "meta": {
+  "start": "start",
+  "target": "target",
+  "token_grants": {
+   "intake": "refill_scope",
+   "patient": "patient_identity",
+   "oxycodone_rx": "queued_med",
+   "fibro": "pain_indication",
+   "pdmp": "cii_history",
+   "cii_continuity": "cii_history",
+   "agreement": "clinic_monitoring",
+   "review_due": "clinic_monitoring",
+   "apap": "apap_existing_orders",
+   "policy_2026": "governing_policy",
+   "hold": "review_routed"
+  },
+  "requirement_labels": {
+   "governing_policy": "governing policy",
+   "patient_identity": "patient identity",
+   "refill_scope": "refill scope",
+   "review_routed": "review routed",
+   "clinic_monitoring": "clinic monitoring",
+   "queued_med": "queued med",
+   "pain_indication": "pain indication",
+   "apap_existing_orders": "acetaminophen existing-order check",
+   "cii_history": "CII history"
+  },
+  "dead_end_nodes": [
+   "pharmacy_fill_log",
+   "legacy_autorefill",
+   "generic_review",
+   "dispense_preview",
+   "dose_table",
+   "discontinue",
+   "tramadol_switch",
+   "gingivitis",
+   "unemployed",
+   "chronic_pain_generic",
+   "lbp",
+   "careplan_pt",
+   "copay",
+   "epinephrine",
+   "terfenadine",
+   "mirena"
+  ],
+  "mechanism_regions": {
+   "core": [
+    "start",
+    "intake",
+    "patient",
+    "oxycodone_rx",
+    "fibro",
+    "snapshot",
+    "policy_folder",
+    "policy_2026",
+    "hold",
+    "target"
+   ],
+   "evidence_synthesis": [
+    "snapshot",
+    "pdmp",
+    "agreement",
+    "apap",
+    "pharmacy_fill_log",
+    "cii_continuity",
+    "review_due"
+   ],
+   "version_constraint": [
+    "policy_folder",
+    "policy_2019",
+    "policy_2026"
+   ],
+   "two_routes": [
+    "snapshot",
+    "pdmp",
+    "agreement",
+    "history",
+    "y2023",
+    "y2024",
+    "cii_continuity",
+    "review_due"
+   ],
+   "alias_maze": [
+    "oxycodone_rx"
+   ],
+   "longitudinal_history": [
+    "history",
+    "y2023",
+    "y2024",
+    "cii_continuity",
+    "review_due"
+   ],
+   "other_chart": [
+    "other_chart",
+    "dental",
+    "gingivitis",
+    "unemployed",
+    "chronic_pain_generic",
+    "lbp",
+    "careplan_pt",
+    "coverage",
+    "copay",
+    "epinephrine",
+    "terfenadine",
+    "mirena",
+    "dstu2"
+   ]
+  },
+  "informed_lower_bound": 11,
+  "corpus_case_id": "it-ehr-04-oxycodone-apap-refill",
+  "evidence_cluster_id": "ehr-oxycodone-apap-controlled-refill-review",
+  "source_kinds": [
+   "synthea frozen chart",
+   "public labeling",
+   "generated scenario overlay"
+  ],
+  "theme_orthogonal": false,
+  "dead_end_definition": "outdegree-zero nodes that grant no success token; evidence leaves and long-route monitors are not dead ends",
+  "off_canonical_oracle_nodes": [
+   "pharmacy_fill_log",
+   "y2023",
+   "y2024",
+   "cii_continuity",
+   "review_due",
+   "history",
+   "policy_2019",
+   "legacy_autorefill",
+   "generic_review",
+   "dispense_preview",
+   "dose_table",
+   "discontinue",
+   "tramadol_switch",
+   "other_chart",
+   "dental",
+   "gingivitis",
+   "unemployed",
+   "chronic_pain_generic",
+   "lbp",
+   "careplan_pt",
+   "coverage",
+   "copay",
+   "epinephrine",
+   "terfenadine",
+   "mirena",
+   "dstu2",
+   "apap"
+  ],
+  "canonical_oracle_edge_path": [
+   "e_intake",
+   "e_patient",
+   "e_meds",
+   "e_fibro",
+   "e_snapshot",
+   "e_pdmp",
+   "e_agreement",
+   "e_policy_folder",
+   "e_policy_2026",
+   "e_hold",
+   "e_target"
+  ],
+  "alternative_success_edge_path": [
+   "e_intake",
+   "e_patient",
+   "e_meds",
+   "e_fibro",
+   "e_history",
+   "e_y2023",
+   "e_y2024",
+   "e_cii_continuity",
+   "e_review_due",
+   "e_policy_folder",
+   "e_policy_2026",
+   "e_hold",
+   "e_target"
+  ],
+  "edge_ordering": {
+   "rule": "sha256(seed:identifier) hex ascending",
+   "seed": 4611
+  },
+  "node_provenance": {
+   "start": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "intake": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "patient": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "oxycodone_rx": {
+    "observed_fact": "synthea",
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "synthea"
+   },
+   "fibro": {
+    "observed_fact": "synthea",
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "synthea"
+   },
+   "snapshot": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "pdmp": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "agreement": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "apap": {
+    "observed_fact": "synthea",
+    "scenario_logic": "generated_overlay",
+    "reference": "public_reference",
+    "origin": "synthea"
+   },
+   "pharmacy_fill_log": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "history": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "y2023": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "y2024": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "cii_continuity": {
+    "observed_fact": "synthea",
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "synthea"
+   },
+   "review_due": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "policy_folder": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "policy_2019": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "policy_2026": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": "public_reference",
+    "origin": "generated_overlay"
+   },
+   "hold": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "target": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "legacy_autorefill": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "generic_review": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "dispense_preview": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "dose_table": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": "public_reference",
+    "origin": "generated_overlay"
+   },
+   "discontinue": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "tramadol_switch": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "other_chart": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "dental": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "gingivitis": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "unemployed": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "chronic_pain_generic": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "lbp": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "careplan_pt": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "coverage": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "copay": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "epinephrine": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "terfenadine": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "mirena": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "dstu2": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   }
+  },
+  "aliased_nodes": [
+   "oxycodone_rx"
+  ],
+  "evidence_rule": {
+   "mandatory_tokens": [
+    "pain_indication"
+   ],
+   "categories": {
+    "cii_history": [
+     "pdmp",
+     "cii_continuity"
+    ],
+    "clinic_monitoring": [
+     "agreement",
+     "review_due"
+    ],
+    "apap_existing_orders": [
+     "apap"
+    ]
+   },
+   "threshold": 2,
+   "lookalikes": [
+    "pharmacy_fill_log",
+    "chronic_pain_generic",
+    "lbp",
+    "careplan_pt",
+    "dental"
+   ]
+  },
+  "theme": "ehr",
+  "topology": "integrated_ehr_oxycodone_apap_case",
+  "difficulty": "hard",
+  "step_budget": 17
+ }
+}

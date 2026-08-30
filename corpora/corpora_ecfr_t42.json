@@ -1,0 +1,1156 @@
+{
+ "seed": "405.425",
+ "sections": {
+  "405.425": {
+   "title": "Effects of opting-out of Medicare.",
+   "refs": [
+    "405.440",
+    "424.5",
+    "414.48",
+    "414.80",
+    "424.62",
+    "424.64",
+    "424.535",
+    "1001.1901"
+   ],
+   "history": "[63 FR 58901, Nov. 2, 1998, as amended at 79 FR 68001, Nov. 13, 2014; 80 FR 71370, Nov. 16, 2015; 84 FR 47852, Sept. 10, 2019]",
+   "amended_years": [
+    1998,
+    2014,
+    2015,
+    2019
+   ],
+   "text": "Effects of opting-out of Medicare. If a physician or practitioner opts-out of Medicare in accordance with this subpart, the following results obtain during the opt-out period: (a) Except as provided in \u00a7 405.440, no payment may be made directly by Medicare or by any Medicare Advantage plan to the physician or practitioner or to any entity to which the physician or practitioner reassigns his right to receive payment for services. (b) The physician or practitioner may not furnish any item or service that would otherwise be covered by Medicare (except for emergency or urgent care services) to any Medicare beneficiary except through a private contract that meets the requirements of this subpart. (c) The physician or practitioner is not subject to the requirement to submit a claim for items or "
+  },
+  "405.440": {
+   "title": "Emergency and urgent care services.",
+   "refs": [
+    "1001.1901"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Emergency and urgent care services. (a) A physician or practitioner who has opted-out of Medicare under this subpart need not enter into a private contract to furnish emergency care services or urgent care services to a Medicare beneficiary. Accordingly, a physician or practitioner will not be determined to have failed to maintain opt-out if he or she furnishes emergency care services or urgent care services to a Medicare beneficiary with whom the physician or practitioner has not previously entered into a private contract, provided the physician or practitioner complies with the billing requirements specified in paragraph (b) of this section. (b) When a physician or practitioner who has not been excluded under sections 1128, 1156, or 1892 of the Social Security Act furnishes emergency car"
+  },
+  "424.5": {
+   "title": "Basic conditions.",
+   "refs": [
+    "409.68"
+   ],
+   "history": "[53 FR 6635, Mar. 2, 1988; 53 FR 12945, Apr. 20, 1988; 60 FR 38271, July 26, 1995]",
+   "amended_years": [
+    1988,
+    1995
+   ],
+   "text": "Basic conditions. (a) As a basis for Medicare payment, the following conditions must be met: (1) Types of services. The services must be\u2014 (i) Covered services, as specified in part 409 or part 410 of this chapter; or (ii) Services excluded from coverage as custodial care or services not reasonable and necessary, but reimbursable in accordance with \u00a7\u00a7 405.332 through 405.334 of this chapter, pertaining to limitation of liability. (2) Sources of services. The services must have been furnished by a provider, nonparticipating hospital, or supplier that was, at the time it furnished the services, qualified to have payment made for them. (3) Beneficiary of services. Except as provided in \u00a7 409.68 of this chapter, the services must have been furnished while the individual was eligible to have pay"
+  },
+  "414.48": {
+   "title": "Limits on actual charges of nonparticipating suppliers.",
+   "refs": [
+    "400.202",
+    "414.20"
+   ],
+   "history": "[58 FR 63687, Dec. 2, 1993, as amended at 62 FR 59102, Oct. 31, 1997]",
+   "amended_years": [
+    1993,
+    1997
+   ],
+   "text": "Limits on actual charges of nonparticipating suppliers. (a) General rule. A supplier, as defined in \u00a7 400.202 of this chapter, who is nonparticipating and does not accept assignment may charge a beneficiary an amount up to the limiting charge described in paragraph (b) of this section. (b) Specific limits. For items or services paid under the physician fee schedule, the limiting charge is 115 percent of the fee schedule amount for nonparticipating suppliers. For items or services CMS excludes from payment under the physician fee schedule (in accordance with section 1848 (j)(3) of the Act), the limiting charge is 115 percent of 95 percent of the payment basis applicable to participating suppliers as calculated in \u00a7 414.20(b). [58 FR 63687, Dec. 2, 1993, as amended at 62 FR 59102, Oct. 31, 1"
+  },
+  "414.80": {
+   "title": "Incentive payment for primary care services.",
+   "refs": [],
+   "history": "[75 FR 73617, Nov. 29, 2010]",
+   "amended_years": [
+    2010
+   ],
+   "text": "Incentive payment for primary care services. (a) Definitions. As defined in this section\u2014 Eligible primary care practitioner means one of the following: (i) A physician (as defined in section 1861(r)(1) of the Act) who meets all of the following criteria: (A) Enrolled in Medicare with a primary specialty designation of 08-family practice, 11-internal medicine, 37-pediatrics, or 38-geriatrics. (B) At least 60 percent of the physician's allowed charges under the physician fee schedule (excluding hospital inpatient care and emergency department visits) during a reference period specified by the Secretary are for primary care services. (ii) A nurse practitioner, clinical nurse specialist, or physician assistant (as defined in section 1861(aa)(5) of the Act) who meets all of the following crite"
+  },
+  "424.62": {
+   "title": "Payment after beneficiary's death: Bill has been paid.",
+   "refs": [
+    "424.53"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Payment after beneficiary's death: Bill has been paid. (a) Scope. This section specifies the persons whom Medicare pays, and the conditions for payments, when the beneficiary has died and the bill has been paid. (b) Situation. (1) The beneficiary has received covered services for which he could receive direct payment under \u00a7 424.53. (2) The beneficiary died without receiving Medicare payment. (3) The bill has been paid. (c) Persons whom Medicare pays. In the situation described in paragraph (b) of this section, Medicare pays the following persons in the specified circumstances: (1) The person or persons who, without a legal obligation to do so, paid for the services with their own funds, before or after the beneficiary's death. (2) The legal representative of the beneficiary's estate if th"
+  },
+  "424.64": {
+   "title": "Payment after beneficiary's death: Bill has not been paid.",
+   "refs": [],
+   "history": "[53 FR 6634, Mar. 2, 1988, as amended at 53 FR 28388, July 28, 1988]",
+   "amended_years": [
+    1988
+   ],
+   "text": "Payment after beneficiary's death: Bill has not been paid. (a) Scope. This section specifies whom Medicare pays, and the conditions for payment when the beneficiary has died and the bill has not been paid. (b) Situation. (1) The beneficiary has received covered Part B services furnished by a physician or other supplier. (2) The beneficiary died without making an assignment to the physician or other supplier or receiving Medicare payment. (3) The bill has not been paid. (c) To whom payment is made. In the situation described in paragraph (b) of this section, Medicare pays as follows: (1) Payment to the supplier. Medicare pays the physician or other supplier if he or she\u2014 (i) Files a claim on a CMS-prescribed form in accordance with the applicable requirements of this subpart; (ii) Upon requ"
+  },
+  "424.535": {
+   "title": "Revocation of enrollment in the Medicare program.",
+   "refs": [
+    "1001.2",
+    "424.514",
+    "424.80",
+    "489.18"
+   ],
+   "history": "[71 FR 20776, Apr. 21, 2006, as amended at 72 FR 53648, Sept. 19, 2007; 73 FR 36461, June 27, 2008; 73 FR 69940, Nov. 19, 2008; 75 FR 24449, May 5, 2010; 75 FR 70465, Nov. 17, 2010; 76 FR 5964, Feb. 2, 2011; 77 FR 25318, Apr. 27, 2012; 77 FR 29030, May 16, 2012; 79 FR 29968, May 23, 2014; 79 FR 7253",
+   "amended_years": [
+    2006,
+    2007,
+    2008,
+    2010,
+    2011,
+    2012,
+    2014
+   ],
+   "text": "Revocation of enrollment in the Medicare program. (a) Reasons for revocation. CMS may revoke a currently enrolled provider or supplier's Medicare enrollment and any corresponding provider agreement or supplier agreement for the following reasons: (1) Noncompliance. The provider or supplier is determined to not be in compliance with the enrollment requirements described in this title 42, or in the enrollment application applicable for its provider or supplier type, and has not submitted a plan of corrective action as outlined in part 488 of this chapter. The provider or supplier may also be determined not to be in compliance if it has failed to pay any user fees as assessed under part 488 of this chapter. (i) CMS may request additional documentation from the provider or supplier to determin"
+  },
+  "1001.1901": {
+   "title": "Scope and effect of exclusion.",
+   "refs": [
+    "1001.2"
+   ],
+   "history": "[57 FR 3330, Jan. 29, 1992, as amended at 60 FR 32917, June 26, 1995; 63 FR 46690, Sept. 2, 1998; 64 FR 39427, July 22, 1999; 82 FR 4116, Jan. 12, 2017]",
+   "amended_years": [
+    1992,
+    1995,
+    1998,
+    1999,
+    2017
+   ],
+   "text": "Scope and effect of exclusion. (a) Scope of exclusion. Exclusions of individuals and entities under this title will be from Medicare, Medicaid and any of the other Federal health care programs, as defined in \u00a7 1001.2. (b) Effect of exclusion on excluded individuals and entities. (1) Unless and until an individual or entity is reinstated into the Medicare, Medicaid, and other Federal health care programs in accordance with subpart F of this part, no payment will be made by Medicare, including Medicare Advantage and Prescription Drug Plans, Medicaid, or any other Federal health care program for any item or service furnished, on or after the effective date specified in the notice\u2014 (i) By an excluded individual or entity; or (ii) At the medical direction or on the prescription of a physician o"
+  },
+  "409.68": {
+   "title": "Guarantee of payment for inpatient hospital or inpatient CAH services furnished before notification of exhaustion of ben",
+   "refs": [],
+   "history": "[48 FR 12541, Mar. 25, 1983, as amended at 50 FR 33033, Aug. 16, 1985; 58 FR 30666, May 26, 1993]",
+   "amended_years": [
+    1983,
+    1985,
+    1993
+   ],
+   "text": "Guarantee of payment for inpatient hospital or inpatient CAH services furnished before notification of exhaustion of benefits. (a) Conditions for payment. Payment may be made for inpatient hospital or inpatient CAH services furnished a beneficiary after he or she has exhausted the available benefit days if the following conditions are met: (1) The services were furnished before CMS or the intermediary notified the hospital or CAH that the beneficiary had exhausted the available benefit days and was not entitled to have payment made for those services. (2) At the time the hospital or CAH furnished the services, it was unaware that the beneficiary had exhausted the available benefit days and could reasonably have assumed that he or she was entitled to have payment made for these services. (3"
+  },
+  "400.202": {
+   "title": "Definitions specific to Medicare.",
+   "refs": [
+    "424.55",
+    "424.56",
+    "424.64",
+    "424.66"
+   ],
+   "history": "[48 FR 12534, Mar. 25, 1983]",
+   "amended_years": [
+    1983
+   ],
+   "text": "Definitions specific to Medicare. As used in connection with the Medicare program, unless the context indicates otherwise\u2014 Carrier means an entity that has a contract with CMS to determine and make Medicare payments for Part B benefits payable on a charge basis and to perform other related functions. Critical access hospital (CAH) means a facility designated by HFCA as meeting the applicable requirements of section 1820 of the Act and of subpart F of part 485 of this chapter. Departmental Appeals Board means: (1) Except as provided in paragraphs (2) and (3) of this definition, a Board established in the office of the Secretary, whose members act in panels to provide impartial review of disputed decisions made by operating components of the Department or by ALJs. (2) For purposes of review "
+  },
+  "414.20": {
+   "title": "Formula for computing fee schedule amounts.",
+   "refs": [
+    "414.2"
+   ],
+   "history": "[62 FR 59101, Oct. 31, 1997]",
+   "amended_years": [
+    1997
+   ],
+   "text": "Formula for computing fee schedule amounts. (a) Participating supplier. The fee schedule amount for a participating supplier for a physician service as defined in \u00a7 414.2 is computed as the product of the following amounts: (1) The RVUs for the service. (2) The GAF for the fee schedule area. (3) The CF. (b) Nonparticipating supplier. The fee schedule amount for a nonparticipating supplier for a physician service as defined in \u00a7 414.2 is 95 percent of the fee schedule amount as calculated in paragraph (a) of this section. [62 FR 59101, Oct. 31, 1997]"
+  },
+  "424.53": {
+   "title": "Payment to the beneficiary.",
+   "refs": [
+    "424.55"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Payment to the beneficiary. Medicare pays the beneficiary for the following services, if covered, in the specified circumstances: (a) Emergency inpatient and outpatient services furnished by a nonparticipating U.S. hospital that has not elected to claim payment in accordance with subpart G of this part. (b) Certain medical and other health services covered under Medicare Part B and furnished by a nonparticipating U.S. hospital, if the hospital does not receive assigned payment as a supplier under \u00a7 424.55. (c) Emergency or nonemergency services furnished by a foreign hospital if the hospital does not have in effect an election to claim payment in accordance with subpart H of this part. (d) Physician and ambulance services furnished outside the United States. (e) Services furnished by a sup"
+  },
+  "1001.2": {
+   "title": "Definitions.",
+   "refs": [
+    "412.92"
+   ],
+   "history": "[57 FR 3330, Jan. 29, 1992, as amended at 63 FR 46686, Sept. 2, 1998; 64 FR 39426, July 22, 1999; 82 FR 4111, Jan. 12, 2017]",
+   "amended_years": [
+    1992,
+    1998,
+    1999,
+    2017
+   ],
+   "text": "Definitions. For purposes of this part: Agent means any person who has express or implied authority to obligate or act on behalf of an entity. Controlled substance means a drug or other substance, or immediate precursor: (a) Included in schedules I, II, III, IV or V of part B of subchapter I in 21 U.S.C. chapter 13, or (b) That is deemed a controlled substance by the law of any State. Convicted means that\u2014 (a) A judgment of conviction has been entered against an individual or entity by a Federal, State or local court, regardless of whether: (1) There is a post-trial motion or an appeal pending, or (2) The judgment of conviction or other record relating to the criminal conduct has been expunged or otherwise removed; (b) A Federal, State or local court has made a finding of guilt against an "
+  },
+  "424.514": {
+   "title": "Application fee.",
+   "refs": [],
+   "history": "[76 FR 5962, Feb. 2, 2011]",
+   "amended_years": [
+    2011
+   ],
+   "text": "Application fee. (a) Application fee requirements for prospective institutional providers. Beginning on or after March 25, 2011, prospective institutional providers that are submitting an initial application or currently enrolled institutional providers that are submitting an application to establish a new practice location must submit either or both of the following: (1) The applicable application fee. (2) A request for a hardship exception to the application fee at the time of filing a Medicare enrollment application. (b) Application fee requirements for revalidating institutional providers. Beginning March 25, 2011, institutional providers that are subject to CMS revalidation efforts must submit either or both of the following: (1) The applicable application fee. (2) A request for a har"
+  },
+  "424.80": {
+   "title": "Prohibition of reassignment of claims by suppliers.",
+   "refs": [
+    "414.50",
+    "410.26",
+    "424.90",
+    "424.73",
+    "424.82"
+   ],
+   "history": "[53 FR 6634, Mar. 2, 1988, as amended at 54 FR 4027, Jan. 27, 1989; 69 FR 66426, Nov. 15, 2004; 70 FR 16722, Apr. 1, 2005; 71 FR 69788, Dec. 1, 2006; 72 FR 66406, Nov. 27, 2007]",
+   "amended_years": [
+    1988,
+    1989,
+    2004,
+    2005,
+    2006,
+    2007
+   ],
+   "text": "Prohibition of reassignment of claims by suppliers. (a) Basic prohibition. Except as specified in paragraph (b) of this section, Medicare does not pay amounts that are due a supplier under an assignment to any other person under reassignment, power of attorney, or any other direct arrangement. Nothing in this section alters a party's obligations under the anti-kickback statute (section 1128B(b) of the Act), the physician self-referral prohibition (section 1877 of the Act), the rules regarding physician billing for purchased diagnostic tests (\u00a7 414.50 of this chapter), the rules regarding payment for services and supplies incident to a physician's professional services (\u00a7 410.26 of this chapter), or any other applicable Medicare laws, rules, or regulations. (b) Exceptions to the basic rule "
+  },
+  "489.18": {
+   "title": "Change of ownership or leasing: Effect on provider agreement.",
+   "refs": [],
+   "history": "[45 FR 22937, Apr. 4, 1980, as amended at 59 FR 56251, Nov. 10, 1994]",
+   "amended_years": [
+    1980,
+    1994
+   ],
+   "text": "Change of ownership or leasing: Effect on provider agreement. (a) What constitutes change of ownership \u2014(1) Partnership. In the case of a partnership, the removal, addition, or substitution of a partner, unless the partners expressly agree otherwise, as permitted by applicable State law, constitutes change of ownership. (2) Unincorporated sole proprietorship. Transfer of title and property to another party constitutes change of ownership. (3) Corporation. The merger of the provider corporation into another corporation, or the consolidation of two or more corporations, resulting in the creation of a new corporation constitutes change of ownership. Transfer of corporate stock or the merger of another corporation into the provider corporation does not constitute change of ownership. (4) Leasi"
+  },
+  "424.55": {
+   "title": "Payment to the supplier.",
+   "refs": [
+    "410.155",
+    "410.79"
+   ],
+   "history": "[53 FR 6634, Mar. 2, 1988, as amended at 63 FR 20130, Apr. 23, 1998; 69 FR 66426, Nov. 15, 2004; 82 FR 53364, Nov. 15, 2017]",
+   "amended_years": [
+    1988,
+    1998,
+    2004,
+    2017
+   ],
+   "text": "Payment to the supplier. (a) Medicare pays the supplier for covered services if the beneficiary (or the person authorized to request payment on the beneficiary's behalf) assigns the claim to the supplier and the supplier accepts assignment. (b) In accepting assignment, the supplier agrees to the following: (1) To accept, as full charge for the service, the amount approved by the carrier as the basis for determining the Medicare Part B payment (the reasonable charge or the lesser of the fee schedule amount and the actual charge). (2) To limit charges to the beneficiary or any other source as follows: (i) To collect nothing for those services for which Medicare pays 100 percent of the Medicare approved amount. (ii) To collect only the difference between the Medicare approved amount and the M"
+  },
+  "424.56": {
+   "title": "Payment to a beneficiary and to a supplier.",
+   "refs": [],
+   "history": "[53 FR 6641, Mar. 2, 1988; 53 FR 12945, Apr. 20, 1988]",
+   "amended_years": [
+    1988
+   ],
+   "text": "Payment to a beneficiary and to a supplier. (a) Conditions for split payment. If the beneficiary assigns the claim after paying part of the bill, payment may be made partly to the beneficiary and partly to the supplier. (b) Payment to the supplier. Payment to the supplier who submits the assigned claim is for whichever of the following amounts is less: (1) The reasonable charge minus the amount the beneficiary had already paid to the supplier; or (2) The full Part B benefit due for the services furnished. (c) Payment to the beneficiary. Any part of the Part B benefit which, on the basis of paragraph (b) of this section, is not payable to the supplier, is paid to the beneficiary. (d) Examples. Example 1. An assigned bill of $300 on which partial payment of $100 has been made is submitted to"
+  },
+  "424.66": {
+   "title": "Payment to entities that provide coverage complementary to Medicare Part B.",
+   "refs": [
+    "424.36"
+   ],
+   "history": "[53 FR 28388, July 28, 1988; 53 FR 40231, Oct. 14, 1988]",
+   "amended_years": [
+    1988
+   ],
+   "text": "Payment to entities that provide coverage complementary to Medicare Part B. (a) Conditions for payment. Medicare may pay an entity for Part B services furnished by a physician or other supplier if the entity meets all of the following requirements: (1) Provides coverage of the service under a complementary health benefit plan (this is, the coverage that the plan provides is complementary to Medicare benefits and covers only the amount by which the Part B payment falls short of the approved charge for the service under the plan). (2) Has paid the person who provided the service an amount (including the amount payable under the Medicare program) that the person accepts as full payment. (3) Has the written authorization of the beneficiary (or of a person authorized to sign claims on his behal"
+  },
+  "414.2": {
+   "title": "Definitions.",
+   "refs": [
+    "414.36",
+    "400.202"
+   ],
+   "history": "[56 FR 59624, Nov. 25, 1991, as amended at 57 FR 42492, Sept. 15, 1992; 58 FR 63686, Dec. 2, 1993; 59 FR 63463, Dec. 8, 1994; 60 FR 63177, Dec. 8, 1995; 63 FR 34328, June 24, 1998; 66 FR 55322, Nov. 1, 2001; 75 FR 73616, Nov. 29, 2010]",
+   "amended_years": [
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1998,
+    2001,
+    2010
+   ],
+   "text": "Definitions. As used in this part, unless the context indicates otherwise\u2014 AA stands for anesthesiologist assistant. AHPB stands for adjusted historical payment basis. CF stands for conversion factor. CRNA stands for certified registered nurse anesthetist. CY stands for calendar year. FY stands for fiscal year. GAF stands for geographic adjustment factor. GPCI stands for geographic practice cost index. HCPCS stands for CMS Common Procedure Coding System. Health Professional Shortage Area (HPSA) means an area designated under section 332(a)(1)(A) of the Public Health Service Act as identified by the Secretary prior to the beginning of such year. Major surgical procedure means a surgical procedure for which a 10-day or 90-day global period is used for payment under the physician fee schedule"
+  },
+  "412.92": {
+   "title": "Special treatment: Sole community hospitals.",
+   "refs": [
+    "412.64",
+    "413.65"
+   ],
+   "history": "[50 FR 12741, Mar. 29, 1985]",
+   "amended_years": [
+    1985
+   ],
+   "text": "Special treatment: Sole community hospitals. (a) Criteria for classification as a sole community hospital. CMS classifies a hospital as a sole community hospital if it is located more than 35 miles from other like hospitals, or it is located in a rural area (as defined in \u00a7 412.64) and meets one of the following conditions: (1) The hospital is located between 25 and 35 miles from other like hospitals and meets one of the following criteria: (i) No more than 25 percent of residents who become hospital inpatients or no more than 25 percent of the Medicare beneficiaries who become hospital inpatients in the hospital's service area are admitted to other like hospitals located within a 35-mile radius of the hospital, or, if larger, within its service area; (ii) The hospital has fewer than 50 be"
+  },
+  "414.50": {
+   "title": "Physician or other supplier billing for diagnostic tests performed or interpreted by a physician who does not share a pr",
+   "refs": [
+    "413.17",
+    "411.351"
+   ],
+   "history": "[72 FR 66400, Nov. 27, 2007, as amended at 73 FR 2432, Jan. 15, 2008; 73 FR 69935, Nov. 19, 2008]",
+   "amended_years": [
+    2007,
+    2008
+   ],
+   "text": "Physician or other supplier billing for diagnostic tests performed or interpreted by a physician who does not share a practice with the billing physician or other supplier. (a) General rules. (1) For services covered under section 1861(s)(3) of the Act and paid for under part 414 of this chapter (other than clinical diagnostic laboratory tests paid under section 1833(a)(2)(D) of the Act, which are subject to the special billing rules set forth in section 1833(h)(5)(A) of the Act), if a physician or other supplier bills for the technical component (TC) or professional component (PC) of a diagnostic test that was ordered by the physician or other supplier (or ordered by a party related to such physician or other supplier through common ownership or control as described in \u00a7 413.17 of this ch"
+  },
+  "410.26": {
+   "title": "Services and supplies incident to a physician's professional services: Conditions.",
+   "refs": [
+    "410.32",
+    "410.29",
+    "410.59"
+   ],
+   "history": "[51 FR 41339, Nov. 14, 1986, as amended at 66 FR 55328, Nov. 1, 2001; 67 FR 20684, Apr. 26, 2002; 69 FR 66421, Nov. 15, 2004; 77 FR 69361, Nov. 16, 2012; 78 FR 74811, Dec. 10, 2013; 79 FR 68002, Nov. 13, 2014; 80 FR 14870, Mar. 20, 2015; 80 FR 71372, Nov. 16, 2015; 81 FR 80552, Nov. 15, 2016; 87 FR ",
+   "amended_years": [
+    1986,
+    2001,
+    2002,
+    2004,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016
+   ],
+   "text": "Services and supplies incident to a physician's professional services: Conditions. (a) Definitions. For purposes of this section, the following definitions apply: (1) Auxiliary personnel means any individual who is acting under the supervision of a physician (or other practitioner), regardless of whether the individual is an employee, leased employee, or independent contractor of the physician (or other practitioner) or of the same entity that employs or contracts with the physician (or other practitioner), has not been excluded from the Medicare, Medicaid and all other federally funded health care programs by the Office of Inspector General or had his or her Medicare enrollment revoked, and meets any applicable requirements to provide incident to services, including licensure, imposed by "
+  },
+  "424.90": {
+   "title": "Court ordered assignments: Conditions and limitations.",
+   "refs": [
+    "413.64"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Court ordered assignments: Conditions and limitations. (a) Conditions for acceptance. An assignment or reassignment established by or in accordance with a court order is effective for Medicare payments only if\u2014 (1) Someone files a certified copy of the court order and of the executed assignment or reassignment (if it was necessary to execute one) with the intermediary or carrier responsible for processing the claim; and (2) The assignment or reassignment\u2014 (i) Applies to all Medicare benefits payable to a particular person or entity during a specified or indefinite time period; or (ii) Specifies a particular amount of money, payable to a particular person or entity by a particular intermediary or carrier. (b) Retention of authority to reduce interim payments to providers. A court-ordered as"
+  },
+  "424.73": {
+   "title": "Prohibition of assignment of claims by providers.",
+   "refs": [
+    "424.90"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Prohibition of assignment of claims by providers. (a) Basic prohibition. Except as specified in paragraph (b) of this section, Medicare does not pay amounts that are due a provider to any other person under assignment, or power of attorney, or any other direct payment arrangement. (b) Exceptions to the prohibition \u2014(1) Payment to a government agency or entity. Subject to the requirements of the Assignment of Claims Act (31 U.S.C. 3727), Medicare may pay a government agency or entity under an assignment by the provider. (2) Payment under assignment established by court order. Medicare may pay under an assignment established by, or in accordance with, the order of a court of competent jurisdiction if the assignment meets the conditions set forth in \u00a7 424.90. (3) Payment to an agent. Medicare"
+  },
+  "424.82": {
+   "title": "Revocation of right to receive assigned benefits.",
+   "refs": [
+    "424.80",
+    "424.55"
+   ],
+   "history": "[53 FR 6644, Mar. 2, 1988; 53 FR 12945, Apr. 20, 1988]",
+   "amended_years": [
+    1988
+   ],
+   "text": "Revocation of right to receive assigned benefits. (a) Scope. This section sets forth the conditions and procedures for revocation of the right of a supplier or other party to receive Medicare payments. (b) Definition. As used in this section, other party means an employer, facility, or health care delivery system to which Medicare may make payment under \u00a7 424.80(b) (1), (2), or (3). (c) Basis for revocation. CMS may revoke the right of a supplier or other party to receive Medicare payments if the supplier or other party, after warning by CMS or the carrier\u2014 (1) Violates the terms of assignment in \u00a7 424.55(b). (2) Continues collection efforts or fails to refund moneys incorrectly collected, in violation of the terms of assignment in \u00a7 424.55(b). (3) Executes or continues in effect a reassig"
+  },
+  "410.155": {
+   "title": "Outpatient mental health treatment limitation.",
+   "refs": [
+    "410.152",
+    "410.160"
+   ],
+   "history": "[63 FR 20129, Apr. 23, 1998, as amended at 73 FR 69934, Nov. 19, 2008; 74 FR 62005, Nov. 25, 2009; 88 FR 82179, Nov. 22, 2023]",
+   "amended_years": [
+    1998,
+    2008,
+    2009,
+    2023
+   ],
+   "text": "Outpatient mental health treatment limitation. (a) Limitation. For services subject to the limitation as specified in paragraph (b) of this section, the percentage of the expenses incurred for such services during a calendar year that is considered incurred expenses under Medicare Part B when determining the amount of payment and deductible under \u00a7 410.152 and \u00a7 410.160 of this part, respectively, is as follows: (1) For expenses incurred in years before 2010, 62 1/2 percent. (2) For expenses incurred in 2010 and 2011, 68 3/4 percent. (3) For expenses incurred in 2012, 75 percent. (4) For expenses incurred in 2013, 81 1/4 percent. (5) For expenses incurred in CY 2014 and subsequent years, 100 percent. (b) Application of the limitation \u2014(1) Services subject to the limitation. Except as speci"
+  },
+  "410.79": {
+   "title": "Medicare Diabetes Prevention Program expanded model: Conditions of coverage.",
+   "refs": [
+    "424.205"
+   ],
+   "history": "[81 FR 80552, Nov. 15, 2016; 81 FR 81698, Nov. 18, 2016, as amended at 82 FR 53358, Nov. 15, 2017; 85 FR 19287, Apr. 6, 2020; 85 FR 85027, Dec. 28, 2020; 86 FR 65666, Nov. 19, 2021; 88 FR 79528, Nov. 16, 2023; 89 FR 98557, Dec. 9, 2024; 90 FR 50007, Nov. 5, 2025; 91 FR 12079, Mar. 12, 2026]",
+   "amended_years": [
+    2016,
+    2017,
+    2020,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "text": "Medicare Diabetes Prevention Program expanded model: Conditions of coverage. (a) Medicare Diabetes Prevention Program (MDPP) services will be available beginning on April 1, 2018. (b) Definitions. For purposes of this section, the following definitions apply: Baseline weight means the MDPP beneficiary's body weight recorded during that beneficiary's first core session. CDC-approved DPP curriculum refers to the content of the core sessions, core maintenance sessions, and ongoing maintenance sessions. The curriculum may be either the CDC-preferred curriculum as designated by the CDC DPRP Standards or an alternative curriculum approved for use in DPP by the CDC. Combination with an online component refers to sessions that are delivered as a combination of online (non-live) with in-person or d"
+  },
+  "424.36": {
+   "title": "Signature requirements.",
+   "refs": [],
+   "history": "[53 FR 6640, Mar. 2, 1988; 53 FR 12945, Apr. 20, 1988, as amended at 53 FR 28388, July 28, 1988; 72 FR 66406, Nov. 27, 2007; 73 FR 2432, Jan. 15, 2008; 73 FR 66938, Nov. 19, 2008]",
+   "amended_years": [
+    1988,
+    2007,
+    2008
+   ],
+   "text": "Signature requirements. (a) General rule. The beneficiary's own signature is required on the claim unless the beneficiary has died or the provisions of paragraphs (b), (c), or (d) of this section apply. For purposes of this section, \u201cthe claim\u201d includes the actual claim form or such other form that contains adequate notice to the beneficiary or other authorized individual that the purpose of the signature is to authorize a provider or supplier to submit a claim to Medicare for specified services furnished to the beneficiary. (b) Who may sign when the beneficiary is incapable. If the beneficiary is physically or mentally incapable of signing the claim, the claim may be signed on his or her behalf by one of the following: (1) The beneficiary's legal guardian. (2) A relative or other person w"
+  },
+  "414.36": {
+   "title": "Payment for drugs incident to a physician's service.",
+   "refs": [
+    "405.517"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Payment for drugs incident to a physician's service. Payment for drugs incident to a physician's service is made in accordance with \u00a7 405.517 of this chapter."
+  },
+  "412.64": {
+   "title": "Federal rates for inpatient operating costs for Federal fiscal year 2005 and subsequent fiscal years.",
+   "refs": [
+    "413.40"
+   ],
+   "history": "[69 FR 49242, Aug. 11, 2004]",
+   "amended_years": [
+    2004
+   ],
+   "text": "Federal rates for inpatient operating costs for Federal fiscal year 2005 and subsequent fiscal years. (a) General rule. CMS determines a national adjusted prospective payment rate for inpatient operating costs for each inpatient hospital discharge in Federal fiscal year 2005 and subsequent fiscal years involving inpatient hospital services of a hospital in the United States subject to the prospective payment system for which payment may be made under Medicare Part A. (b) Geographic classifications. (1) For purposes of this section, the following definitions apply: (i) The term region means one of the 9 metropolitan divisions comprising the 50 States and the District of Columbia, established by the Executive Office of Management and Budget for statistical and reporting purposes. (ii) The te"
+  },
+  "413.65": {
+   "title": "Requirements for a determination that a facility or an organization has provider-based status.",
+   "refs": [
+    "412.22",
+    "483.5",
+    "413.174",
+    "489.2",
+    "405.2401"
+   ],
+   "history": "[65 FR 18538, Apr. 7, 2000, as amended at 65 FR 58920, Oct. 3, 2000; 66 FR 1599, Jan. 9, 2001; 66 FR 59920, Nov. 30, 2001; 67 FR 50114, Aug. 1, 2002; 68 FR 46070, Aug. 4, 2003; 68 FR 53261, Sept. 9, 2003; 70 FR 47487, Aug. 12, 2005; 74 FR 44000, Aug. 27, 2009; 82 FR 38515, Aug. 14, 2017]",
+   "amended_years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2005,
+    2009,
+    2017
+   ],
+   "text": "Requirements for a determination that a facility or an organization has provider-based status. Link to an amendment published at 91 FR 50343, Aug. 4, 2026. (a) Scope and definitions. (1) Scope. (i) This section applies to all facilities for which provider-based status is sought, including remote locations of hospitals, as defined in paragraph (a)(2) of this section and satellite facilities as defined in \u00a7\u00a7 412.22(h)(1) and 412.25(e)(1) of this chapter, other than facilities described in paragraph (a)(1)(ii) of this section. (ii) The determinations of provider-based status for payment purposes described in this section are not made as to whether the following facilities are provider-based: (A) Ambulatory surgical centers (ASCs). (B) Comprehensive outpatient rehabilitation facilities (CORFs)"
+  },
+  "413.17": {
+   "title": "Cost to related organizations.",
+   "refs": [],
+   "history": "[51 FR 34793, Sept. 30, 1986, as amended at 81 FR 57270, Aug. 22, 2016]",
+   "amended_years": [
+    1986,
+    2016
+   ],
+   "text": "Cost to related organizations. (a) Principle. Except as provided in paragraph (d) of this section, costs applicable to services, facilities, and supplies furnished to the provider by organizations related to the provider by common ownership or control are includable in the allowable cost of the provider at the cost to the related organization. However, such cost must not exceed the price of comparable services, facilities, or supplies that could be purchased elsewhere. (b) Definitions \u2014(1) Related to the provider. Related to the provider means that the provider to a significant extent is associated or affiliated with or has control of or is controlled by the organization furnishing the services, facilities, or supplies. (2) Common ownership. Common ownership exists if an individual or indi"
+  },
+  "411.351": {
+   "title": "Definitions.",
+   "refs": [
+    "416.164",
+    "1001.952"
+   ],
+   "history": "[85 FR 77656, Dec. 2, 2020, as amended at 86 FR 65667, Nov. 19, 2021; 87 FR 72285, Nov. 23, 2022]",
+   "amended_years": [
+    2020,
+    2021,
+    2022
+   ],
+   "text": "Definitions. The definitions in this subpart apply only for purposes of section 1877 of the Act and this subpart. As used in this subpart, unless the context indicates otherwise: Centralized building means all or part of a building, including, for purposes of this subpart only, a mobile vehicle, van, or trailer that is owned or leased on a full-time basis (that is, 24 hours per day, 7 days per week, for a term of not less than 6 months) by a group practice and that is used exclusively by the group practice. Space in a building or a mobile vehicle, van, or trailer that is shared by more than one group practice, by a group practice and one or more solo practitioners, or by a group practice and another provider or supplier (for example, a diagnostic imaging facility) is not a centralized buil"
+  },
+  "410.32": {
+   "title": "Diagnostic x-ray tests, diagnostic laboratory tests, and other diagnostic tests: Conditions.",
+   "refs": [
+    "411.15",
+    "410.34",
+    "400.200"
+   ],
+   "history": "[62 FR 59098, Oct. 31, 1997, as amended at 63 FR 26308, May 12, 1998; 63 FR 53307, Oct. 5, 1998; 63 FR 58906, Nov. 2, 1998; 64 FR 59440, Nov. 2, 1999; 66 FR 58809, Nov. 23, 2001; 69 FR 66421, Nov. 15, 2004; 72 FR 66398, Nov. 27, 2007; 75 FR 73615, Nov. 29, 2010; 77 FR 69361, Nov. 16, 2012; 83 FR 600",
+   "amended_years": [
+    1997,
+    1998,
+    1999,
+    2001,
+    2004,
+    2007,
+    2010,
+    2012
+   ],
+   "text": "Diagnostic x-ray tests, diagnostic laboratory tests, and other diagnostic tests: Conditions. (a) Ordering diagnostic tests. Except as otherwise provided in this section, all diagnostic x-ray tests, diagnostic laboratory tests, and other diagnostic tests must be ordered by the physician who is treating the beneficiary, that is, the physician who furnishes a consultation or treats a beneficiary for a specific medical problem and who uses the results in the management of the beneficiary's specific medical problem. Tests not ordered by the physician who is treating the beneficiary are not reasonable and necessary (see \u00a7 411.15(k)(1) of this chapter). (1) Mammography exception. A physician who meets the qualification requirements for an interpreting physician under section 354 of the Public Hea"
+  },
+  "410.29": {
+   "title": "Limitations on drugs and biologicals.",
+   "refs": [
+    "410.28",
+    "410.63"
+   ],
+   "history": "[51 FR 41339, Nov. 14, 1986, as amended at 55 FR 22790, June 4, 1990; 56 FR 43709, Sept. 4, 1991; 80 FR 70602, Nov. 13, 2015]",
+   "amended_years": [
+    1986,
+    1990,
+    1991,
+    2015
+   ],
+   "text": "Limitations on drugs and biologicals. Medicare part B does not pay for the following: (a) Except as provided in \u00a7 410.28(a) for outpatient diagnostic services and \u00a7 410.63(b) for blood clotting factors, and except for EPO, any drug or biological which is usually self-administered by the patient. (b) Any drug product that meets all of the following conditions: (1) The drug product was approved by the Food and Drug Administration (FDA) before October 10, 1962. (2) The drug product is available only through prescription. (3) The drug product is the subject of a notice of opportunity for hearing issued under section 505(e) of the Federal Food, Drug, and Cosmetic Act and published in the Federal Register on a proposed order of FDA to withdraw its approval for the drug product because it has det"
+  },
+  "410.59": {
+   "title": "Outpatient occupational therapy services: Conditions.",
+   "refs": [
+    "410.61",
+    "489.2"
+   ],
+   "history": "[63 FR 58906, Nov. 2, 1998, as amended at 67 FR 80040, Dec. 31, 2002; 69 FR 66421, Nov. 15, 2004; 72 FR 66399, Nov. 27, 2007; 77 FR 69363, Nov. 16, 2012; 78 FR 74811, Dec. 10, 2013; 79 FR 68002, Nov. 13, 2014; 83 FR 60073, Nov. 23, 2018; 84 FR 63188, Nov. 15, 2019; 86 FR 65664, Nov. 19, 2021; 88 FR ",
+   "amended_years": [
+    1998,
+    2002,
+    2004,
+    2007,
+    2012,
+    2013,
+    2014,
+    2018,
+    2019,
+    2021
+   ],
+   "text": "Outpatient occupational therapy services: Conditions. (a) Basic rule. Except as specified in paragraph (a)(3)(iii) of this section, Medicare Part B pays for outpatient occupational therapy services only if they are furnished by an individual meeting the qualifications in part 484 of this chapter for an occupational therapist or an appropriately supervised occupational therapy assistant but only under the following conditions: (1) They are furnished to a beneficiary while he or she is under the care of a physician who is a doctor of medicine, osteopathy, or podiatric medicine. (2) They are furnished under a written plan of treatment that meets the requirements of \u00a7 410.61. (3) They are furnished\u2014 (i) By a provider as defined in \u00a7 489.2 of this chapter, or by others under arrangements with, "
+  },
+  "413.64": {
+   "title": "Payments to providers: Specific rules.",
+   "refs": [],
+   "history": "[51 FR 34793, Sept. 30, 1986, as amended at 51 FR 42238, Nov. 24, 1986; 53 FR 1628, Jan. 21, 1988; 57 FR 39830, Sept. 1, 1992; 59 FR 36713, July 19, 1994; 64 FR 41682, July 30, 1999; 65 FR 41211, July 3, 2000; 66 FR 41394, Aug. 7, 2001; 67 FR 56056, Aug. 30, 2002; 69 FR 49252, Aug. 11, 2004; 69 FR 6",
+   "amended_years": [
+    1986,
+    1988,
+    1992,
+    1994,
+    1999,
+    2000,
+    2001,
+    2002,
+    2004
+   ],
+   "text": "Payments to providers: Specific rules. (a) Reimbursement on a reasonable cost basis. Providers of services paid on the basis of the reasonable cost of services furnished to beneficiaries will receive interim payments approximating the actual costs of the provider. These payments will be made on the most expeditious schedule administratively feasible but not less often than monthly. A retroactive adjustment based on actual costs will be made at the end of a reporting period. (b) Amount and frequency of payment. Medicare states that providers of services will be paid the reasonable cost of services furnished to beneficiaries. Since actual costs of services cannot be determined until the end of the accounting period, the providers must be paid on an estimated cost basis during the year. While"
+  },
+  "410.152": {
+   "title": "Amounts of payment.",
+   "refs": [
+    "410.161",
+    "410.155",
+    "410.60",
+    "410.59",
+    "410.160",
+    "413.170"
+   ],
+   "history": "[51 FR 41339, Nov. 14, 1986; 52 FR 4499, Feb. 12, 1987]",
+   "amended_years": [
+    1986,
+    1987
+   ],
+   "text": "Amounts of payment. (a) General provisions \u2014(1) Exclusion from incurred expenses. As used in this section, \u201cincurred expenses\u201d are expenses incurred by an individual, during his or her coverage period, for covered Part B services, excluding the following: (i) Expenses incurred for services for which the beneficiary is entitled to have payment made under Medicare Part A or would be so entitled except for the application of the Part A deductible and coinsurance requirements. (ii) Expenses incurred in meeting the Part B blood deductible (\u00a7 410.161). (iii) In the case of services payable under a formula that takes into account reasonable charges, reasonable costs, customary charges, customary (insofar as reasonable) charges, charges related to reasonable costs, fair compensation, a pre-treatme"
+  },
+  "410.160": {
+   "title": "Part B annual deductible.",
+   "refs": [
+    "410.152",
+    "410.34",
+    "410.56",
+    "410.37",
+    "410.16"
+   ],
+   "history": "[51 FR 41339, Nov. 14, 1986, as amended at 56 FR 8842, 8852, Mar. 1, 1991; 57 FR 24981, June 12, 1992; 62 FR 59101, Oct. 31, 1997; 69 FR 66423, Nov. 15, 2004; 71 FR 69785, Dec. 1, 2006; 73 FR 69934, Nov. 19, 2008; 75 FR 73615, Nov. 29, 2010; 77 FR 69363, Nov. 16, 2012; 80 FR 71373, Nov. 16, 2015; 85",
+   "amended_years": [
+    1986,
+    1991,
+    1992,
+    1997,
+    2004,
+    2006,
+    2008,
+    2010,
+    2012,
+    2015
+   ],
+   "text": "Part B annual deductible. (a) Basic rule. Except as provided in paragraph (b) of this section, incurred expenses (as defined in \u00a7 410.152) are subject to, and count toward meeting the annual deductible. (b) Exceptions. Expenses incurred for the following services are not subject to the Part B annual deductible and do not count toward meeting that deductible: (1) Home health services. (2) Pneumococcal, influenza, and hepatitis b, and COVID-19 vaccines and their administration. (3) Federally qualified health center services. (4) ASC facility services furnished before July 1987 and physician services furnished before April 1988 that met the requirements for payment of 100 percent of the reasonable charges. (5) Screening mammography services as described in \u00a7 410.34 (c) and (d). (6) Screening "
+  },
+  "424.205": {
+   "title": "Requirements for Medicare Diabetes Prevention Program suppliers.",
+   "refs": [
+    "410.79",
+    "414.84",
+    "424.518"
+   ],
+   "history": "[82 FR 53364, Nov. 15, 2017,as amended at 86 FR 65682, Nov. 19, 2021; 88 FR 79540, Nov. 16, 2023; 89 FR 98565, Dec. 9, 2024; 90 FR 50014, Nov. 5, 2025; 90 FR 55617, Dec. 2, 2025]",
+   "amended_years": [
+    2017,
+    2021,
+    2023,
+    2024,
+    2025
+   ],
+   "text": "Requirements for Medicare Diabetes Prevention Program suppliers. (a) Definitions. In addition to the definitions specified at \u00a7 410.79(b) and \u00a7 414.84(a) of this subchapter, the following definitions apply to this section: Administrative location means a physical location associated with the MDPP supplier's operations where they are the primary operator in the space, from where coaches are dispatched or based, and where MDPP services may or may not be furnished. Coach means an individual who furnishes MDPP services on behalf of an MDPP supplier as an employee, contractor, or volunteer. Coach eligibility end date means the end date indicated by the MDPP supplier in submitting a change to the supplier's MDPP enrollment application in accordance with paragraph (c)(5) of this section that remo"
+  },
+  "405.517": {
+   "title": "Payment for drugs and biologicals that are not paid on a cost or prospective payment basis.",
+   "refs": [
+    "413.170"
+   ],
+   "history": "[63 FR 58905, Nov. 2, 1998, as amended at 69 FR 1116, Jan. 7, 2004; 69 FR 66420, Nov. 15, 2004]",
+   "amended_years": [
+    1998,
+    2004
+   ],
+   "text": "Payment for drugs and biologicals that are not paid on a cost or prospective payment basis. (a) Applicability \u2014(1) Payment for drugs and biologicals before January 1, 2004. Payment for a drug or biological that is not paid on a cost or prospective payment basis is determined by the standard methodology described in paragraph (b) of this section. Examples of when this procedure applies include a drug or biological furnished incident to a physician's service, a drug or biological furnished by an independent dialysis facility that is not included in the ESRD composite rate set forth in \u00a7 413.170(c) of this chapter, and a drug or biological furnished as part of the durable medical equipment benefit. (2) Payment for drugs and biologicals on or after January 1, 2004. Effective January 1, 2004, p"
+  },
+  "413.40": {
+   "title": "Ceiling on the rate of increase in hospital inpatient costs.",
+   "refs": [
+    "412.533",
+    "412.1",
+    "412.25",
+    "412.30",
+    "412.22",
+    "412.23",
+    "412.4"
+   ],
+   "history": "[58 FR 46340, Sept. 1, 1993]",
+   "amended_years": [
+    1993
+   ],
+   "text": "Ceiling on the rate of increase in hospital inpatient costs. (a) Introduction \u2014(1) Scope. This section implements section 1886(b) of the Act, establishing a ceiling on the rate of increase in operating costs per case for hospital inpatient services furnished to Medicare beneficiaries that will be recognized as reasonable for purposes of determining the amount of Medicare payment. This rate-of-increase ceiling applies to hospital cost reporting periods beginning on or after October 1, 1982. This section also sets forth rules governing exemptions from and adjustments to the ceiling. (2) Applicability. (i) This section is not applicable to\u2014 (A) Hospitals reimbursed in accordance with section 1814(b)(3) of the Act or under State reimbursement control systems that have been approved under secti"
+  },
+  "412.22": {
+   "title": "Excluded hospitals and hospital units: General rules.",
+   "refs": [
+    "412.1",
+    "412.23",
+    "412.20",
+    "412.29",
+    "413.40",
+    "482.21"
+   ],
+   "history": "[50 FR 12741, Mar. 29, 1985]",
+   "amended_years": [
+    1985
+   ],
+   "text": "Excluded hospitals and hospital units: General rules. (a) Criteria. Subject to the criteria set forth in paragraph (e) of this section, a hospital is excluded from the prospective payment systems specified in \u00a7 412.1(a)(1) of this part if it meets the criteria for one or more of the excluded classifications described in \u00a7 412.23. For purposes of this subpart, the term \u201chospital\u201d includes a critical access hospital (CAH). (b) Cost reimbursement. Except for those hospitals specified in paragraph (c) of this section, and \u00a7 412.20(b), (c), and (d), all excluded hospitals (and excluded hospital units, as described in \u00a7 412.23 through \u00a7 412.29) are reimbursed under the cost reimbursement rules set forth in part 413 of this chapter, and are subject to the ceiling on the rate of hospital cost incr"
+  },
+  "483.5": {
+   "title": "Definitions.",
+   "refs": [
+    "413.65"
+   ],
+   "history": "[68 FR 46071, Aug. 4, 2003, as amended at 71 FR 39229, July 12, 2006; 71 FR 55340, Sept. 22, 2006; 79 FR 27155, May 12, 2014; 81 FR 68848, Oct. 4, 2016; 82 FR 32259, July 13, 2017; 89 FR 40996, May 10, 2024; 90 FR 55697, Dec. 3, 2025]",
+   "amended_years": [
+    2003,
+    2006,
+    2014,
+    2016,
+    2017,
+    2024,
+    2025
+   ],
+   "text": "Definitions. As used in this subpart, the following definitions apply: Abuse. Abuse is the willful infliction of injury, unreasonable confinement, intimidation, or punishment with resulting physical harm, pain or mental anguish. Abuse also includes the deprivation by an individual, including a caretaker, of goods or services that are necessary to attain or maintain physical, mental, and psychosocial well-being. Instances of abuse of all residents, irrespective of any mental or physical condition, cause physical harm, pain or mental anguish. It includes verbal abuse, sexual abuse, physical abuse, and mental abuse including abuse facilitated or enabled through the use of technology. Willful, as used in this definition of abuse, means the individual must have acted deliberately, not that the "
+  },
+  "413.174": {
+   "title": "Prospective rates for hospital-based and independent ESRD facilities.",
+   "refs": [
+    "498.3",
+    "405.517"
+   ],
+   "history": "[62 FR 43668, Aug. 15, 1997, as amended at 70 FR 70330, Nov. 21, 2005; 73 FR 69935, Nov. 19, 2008; 75 FR 49198, Aug. 12, 2010; 78 FR 72252, Dec. 2, 2013; 79 FR 66262, Nov. 6, 2014; 80 FR 69076, Nov. 6, 2015]",
+   "amended_years": [
+    1997,
+    2005,
+    2008,
+    2010,
+    2013,
+    2014,
+    2015
+   ],
+   "text": "Prospective rates for hospital-based and independent ESRD facilities. (a) Establishment of rates. CMS establishes prospective payment rates for ESRD facilities using a methodology that\u2014 (1) Differentiates between hospital-based providers of services and independent ESRD facilities for items and services furnished prior to January 1, 2009; (2) Does not differentiate between hospital-based providers of services and independent ESRD facilities for items and services furnished on or after January 1, 2009; and (3) Requires the labor share be based on the labor share otherwise applied to independent ESRD facilities when applying the geographic index to hospital-based ESRD providers of services, on or after January 1, 2009. (b) Determination of independent facility. For purposes of rate-setting a"
+  },
+  "489.2": {
+   "title": "Scope of part.",
+   "refs": [],
+   "history": "[45 FR 22937, Apr. 4, 1980, as amended at 47 FR 56297, Dec. 15, 1982; 48 FR 56036, Dec. 15, 1983; 51 FR 24492, July 3, 1986; 58 FR 30676, May 26, 1993; 59 FR 6578, Feb. 11, 1994; 62 FR 46037, Aug. 29, 1997; 68 FR 66720, Nov. 28, 2003; 84 FR 63204, Nov. 15, 2019; 87 FR 72309, Nov. 23, 2022; 88 FR 821",
+   "amended_years": [
+    1980,
+    1982,
+    1983,
+    1986,
+    1993,
+    1994,
+    1997,
+    2003,
+    2019,
+    2022
+   ],
+   "text": "Scope of part. (a) Subpart A of this part sets forth the basic requirements for submittal and acceptance of a provider agreement under Medicare. Subpart B of this part specifies the basic commitments and limitations that the provider must agree to as part of an agreement to provide services. Subpart C specifies the limitations on allowable charges to beneficiaries for deductibles, coinsurance, copayments, blood, and services that must be part of the provider agreement. Subpart D of this part specifies how incorrect collections are to be handled. Subpart F sets forth the circumstances and procedures for denial of payments for new admissions and for withholding of payment as an alternative to termination of a provider agreement. (b) The following providers are subject to the provisions of th"
+  },
+  "405.2401": {
+   "title": "Scope and definitions.",
+   "refs": [
+    "410.160",
+    "410.161"
+   ],
+   "history": "[43 FR 8261, Mar. 1, 1978, as amended at 43 FR 30526, July 14, 1978; 47 FR 21049, May 17, 1982; 47 FR 23448, May 28, 1982; 51 FR 41351, Nov. 14, 1986; 57 FR 24975, June 12, 1992; 59 FR 26958, May 25, 1994; 60 FR 63176, Dec. 8, 1995; 61 FR 14657, Apr. 3, 1996; 69 FR 74815, Dec. 24, 2003; 71 FR 55345,",
+   "amended_years": [
+    1978,
+    1982,
+    1986,
+    1992,
+    1994,
+    1995,
+    1996,
+    2003
+   ],
+   "text": "Scope and definitions. (a) Scope. This subpart establishes the requirements for coverage and reimbursement of rural health clinic and Federally qualified health center services under Medicare. (b) Definitions. As used in this subpart, unless the context indicates otherwise: Allowable costs means costs that are incurred by a RHC or FQHC that is authorized to bill based on reasonable costs and are reasonable in amount and proper and necessary for the efficient delivery of RHC and FQHC services. Beneficiary means an individual enrolled in the Supplementary Medical Insurance program for the Aged and Disabled (part of title XVIII of the Act). Certified nurse midwife (CNM) means an individual who meets the applicable education, training, and other requirements of \u00a7 410.77(a) of this chapter. Cli"
+  },
+  "416.164": {
+   "title": "Scope of ASC services.",
+   "refs": [
+    "410.152"
+   ],
+   "history": "[72 FR 42545, Aug. 2, 2007, as amended at 79 FR 67030, Nov. 10, 2014; 80 FR 70604, Nov. 13, 2015; 83 FR 59178, Nov. 21, 2018; 86 FR 63992, Nov. 16, 2021; 89 FR 94588, Nov. 27, 2024; 90 FR 54084, Nov. 25, 2025]",
+   "amended_years": [
+    2007,
+    2014,
+    2015,
+    2018,
+    2021,
+    2024,
+    2025
+   ],
+   "text": "Scope of ASC services. (a) Included facility services. ASC services for which payment is packaged into the ASC payment for a covered surgical procedure under \u00a7 416.166 include, but are not limited to\u2014 (1) Nursing, technician, and related services; (2) Use of the facility where the surgical procedures are performed; (3) Any laboratory testing performed under a Clinical Laboratory Improvement Amendments of 1988 (CLIA) certificate of waiver; (4) Drugs and biologicals for which separate payment is not allowed under the hospital outpatient prospective payment system (OPPS); (5) Medical and surgical supplies not on pass-through status under subpart G of part 419 of this subchapter and not covered ancillary skin substitute supplies under paragraph (b) of this section; (6) Equipment; (7) Surgical "
+  },
+  "1001.952": {
+   "title": "Exceptions.",
+   "refs": [],
+   "history": "[57 FR 3330, Jan. 29, 1992]",
+   "amended_years": [
+    1992
+   ],
+   "text": "Exceptions. The following payment practices shall not be treated as a criminal offense under section 1128B of the Act and shall not serve as the basis for an exclusion: (a) Investment interests. As used in section 1128B of the Act, \u201cremuneration\u201d does not include any payment that is a return on an investment interest, such as a dividend or interest income, made to an investor as long as all of the applicable standards are met within one of the following three categories of entities: (1) If, within the previous fiscal year or previous 12 month period, the entity possesses more than $50,000,000 in undepreciated net tangible assets (based on the net acquisition cost of purchasing such assets from an unrelated entity) related to the furnishing of health care items and services, all of the foll"
+  },
+  "411.15": {
+   "title": "Particular services excluded from coverage.",
+   "refs": [
+    "410.63"
+   ],
+   "history": "[54 FR 41734, Oct. 11, 1989; 55 FR 1820, Jan. 19, 1990]",
+   "amended_years": [
+    1989,
+    1990
+   ],
+   "text": "Particular services excluded from coverage. The following services are excluded from coverage: (a) Routine physical checkups such as: (1) Examinations performed for a purpose other than treatment or diagnosis of a specific illness, symptoms, complaint, or injury, except for screening mammography, colorectal cancer screening tests, screening pelvic exams, prostate cancer screening tests, glaucoma screening exams, ultrasound screening for abdominal aortic aneurysms (AAA), cardiovascular disease screening tests, diabetes screening tests, a screening electrocardiogram, initial preventive physical examinations that meet the criteria specified in paragraphs (k)(6) through (k)(15) of this section, additional preventive services that meet the criteria in \u00a7 410.64 of this chapter, or annual wellnes"
+  },
+  "410.34": {
+   "title": "Mammography services: Conditions for and limitations on coverage.",
+   "refs": [],
+   "history": "[59 FR 49833, Sept. 30, 1994, as amended at 60 FR 14224, Mar. 16, 1995; 60 FR 63176, Dec. 8, 1995; 62 FR 59100, Oct. 31, 1997; 63 FR 4596, Jan. 30, 1998]",
+   "amended_years": [
+    1994,
+    1995,
+    1997,
+    1998
+   ],
+   "text": "Mammography services: Conditions for and limitations on coverage. (a) Definitions. As used in this section, the following definitions apply: (1) Diagnostic mammography means a radiologic procedure furnished to a man or woman with signs or symptoms of breast disease, or a personal history of breast cancer, or a personal history of biopsy-proven benign breast disease, and includes a physician's interpretation of the results of the procedure. (2) Screening mammography means a radiologic procedure furnished to a woman without signs or symptoms of breast disease, for the purpose of early detection of breast cancer, and includes a physician's interpretation of the results of the procedure. (3) Supplier of diagnostic mammography means a facility that is certified and responsible for ensuring that"
+  },
+  "400.200": {
+   "title": "General definitions.",
+   "refs": [],
+   "history": "[48 FR 12534, Mar. 25, 1983]",
+   "amended_years": [
+    1983
+   ],
+   "text": "General definitions. In this chapter, unless the context indicates otherwise\u2014 Act means the Social Security Act, and titles referred to are titles of that Act. Administrator means the Administrator, Centers for Medicare &amp; Medicaid Services (CMS), formerly the Health Care Financing Administration (HCFA). ALJ stands for administrative law judge. Area means the geographical area within the boundaries of a State, or a State or other jurisdiction, designated as constituting an area with respect to which a Professional Standards Review Organization or a Utilization and Quality Control Peer Review Organization has been or may be designated. Beneficiary means a person who is entitled to Medicare benefits and/or has been determined to be eligible for Medicaid. CMP stands for competitive medical"
+  },
+  "410.28": {
+   "title": "Hospital or CAH diagnostic services furnished to outpatients: Conditions.",
+   "refs": [
+    "411.15",
+    "410.29",
+    "413.65",
+    "410.32"
+   ],
+   "history": "[51 FR 41339, Nov. 14, 1986, as amended at 58 FR 30668, May 26, 1993; 63 FR 26307, May 12, 1998; 65 FR 18536, Apr. 7, 2000; 66 FR 58809, Nov. 23, 2001; 74 FR 60680, Nov. 20, 2009; 75 FR 72259, Nov. 24, 2010; 85 FR 19286, Apr. 6, 2020; 87 FR 72285, Nov. 23, 2022; 88 FR 82177, Nov. 22, 2023; 89 FR 945",
+   "amended_years": [
+    1986,
+    1993,
+    1998,
+    2000,
+    2001,
+    2009,
+    2010,
+    2020,
+    2022,
+    2023
+   ],
+   "text": "Hospital or CAH diagnostic services furnished to outpatients: Conditions. (a) Medicare Part B pays for hospital or CAH diagnostic services furnished to outpatients, including drugs and biologicals required in the performance of the services (even if those drugs or biologicals are self-administered), if those services meet the following conditions: (1) They are furnished by or under arrangements made by a participating hospital or participating CAH, except in the case of an SNF resident as provided in \u00a7 411.15(p) of this chapter. (2) They are ordinarily furnished by, or under arrangements made by, the hospital or CAH to its outpatients for the purpose of diagnostic study. (3) They would be covered as inpatient hospital services if furnished to an inpatient. (b) Drugs and biologicals are als"
+  },
+  "410.63": {
+   "title": "Hepatitis B vaccine and blood clotting factors: Conditions.",
+   "refs": [
+    "411.15",
+    "410.29"
+   ],
+   "history": "[55 FR 22790, June 4, 1990; 55 FR 31186, Aug. 1, 1990, as amended at 69 FR 66422, Nov. 15, 2004; 77 FR 69363, Nov. 16, 2012; 87 FR 70223, Nov. 18, 2022; 89 FR 98556, Dec. 9, 2024]",
+   "amended_years": [
+    1990,
+    2004,
+    2012,
+    2022,
+    2024
+   ],
+   "text": "Hepatitis B vaccine and blood clotting factors: Conditions. Notwithstanding the exclusion from coverage of vaccines (see \u00a7 411.15 of this chapter) and self-administered drugs (see \u00a7 410.29), the following services are included as medical and other health services covered under \u00a7 410.10, subject to the specified conditions: (a) Hepatitis B vaccine: Conditions. Effective January 1, 2025, hepatitis B vaccinations are reasonable and necessary for the prevention of illness for those individuals who are at high or intermediate risk of contracting hepatitis B as listed in paragraphs (a)(1) through (3) of this section: (1) High risk groups. (i) End-Stage Renal Disease (ESRD) patients; (ii) Hemophiliacs who receive Factor VIII or IX concentrates; (iii) Clients of institutions for individuals with i"
+  },
+  "410.61": {
+   "title": "Plan of treatment requirements for outpatient rehabilitation services.",
+   "refs": [],
+   "history": "[53 FR 6638, Mar. 2, 1988; 53 FR 12945, Apr. 20, 1988, as amended at 54 FR 38680, Sept. 20, 1989; 54 FR 46614, Nov. 6, 1989. Redesignated at 56 FR 8854, Mar. 1, 1991; 56 FR 23022, May 20, 1991; 63 FR 58907, Nov. 2, 1998; 67 FR 80040, Dec. 31, 2002; 72 FR 66399, Nov. 27, 2007; 77 FR 69363, Nov. 16, 2",
+   "amended_years": [
+    1988,
+    1989,
+    1991,
+    1998,
+    2002,
+    2007
+   ],
+   "text": "Plan of treatment requirements for outpatient rehabilitation services. (a) Basic requirement. Outpatient rehabilitation services (including services furnished by a qualified physical or occupational therapist in private practice), must be furnished under a written plan of treatment that meets the requirements of paragraphs (b) through (e) of this section. (b) Establishment of the plan. The plan is established before treatment is begun by one of the following: (1) A physician. (2) A physical therapist who furnishes the physical therapy services. (3) A speech-language pathologist who furnishes the speech-language pathology services. (4) An occupational therapist who furnishes the occupational therapy services. (5) A nurse practitioner, a clinical nurse specialist, or a physician assistant. ("
+  },
+  "410.161": {
+   "title": "Part B blood deductible.",
+   "refs": [
+    "410.160",
+    "424.64"
+   ],
+   "history": "[51 FR 41339, Nov. 14, 1986, as amended at 53 FR 6648, Mar. 2, 1988; 56 FR 8852, Mar. 1, 1991; 58 FR 30668, May 26, 1993]",
+   "amended_years": [
+    1986,
+    1988,
+    1991,
+    1993
+   ],
+   "text": "Part B blood deductible. (a) General rules. (1) As used in this section, packed red cells means the red blood cells that remain after plasma is separated from whole blood. (2) A unit of packed red cells is treated as the equivalent of a pint of whole blood, which in this section is referred to as a unit of whole blood. (3) Medicare does not pay for the first 3 units of whole blood or units of packed red cells that are furnished under Part A or Part B in a calendar year. The Part B blood deductible is reduced to the extent that a blood deductible has been applied under Part A. (4) The blood deductible does not apply to other blood components such as platelets, fibrinogen, plasma, gamma globulin and serum albumin, or to the costs of processing, storing, and administering blood. (5) The blood"
+  },
+  "410.60": {
+   "title": "Outpatient physical therapy services: Conditions.",
+   "refs": [
+    "410.61",
+    "489.2"
+   ],
+   "history": "[63 FR 58906, Nov. 2, 1998, as amended at 67 FR 80041, Dec. 31, 2002; 69 FR 66422, Nov. 15, 2004; 72 FR 66399, Nov. 27, 2007; 77 FR 69363, Nov. 16, 2012; 78 FR 74811, Dec. 10, 2013; 79 FR 68002, Nov. 13, 2014; 83 FR 60073, Nov. 23, 2018; 84 FR 63188, Nov. 15, 2019; 86 FR 65664, Nov. 19, 2021; 88 FR ",
+   "amended_years": [
+    1998,
+    2002,
+    2004,
+    2007,
+    2012,
+    2013,
+    2014,
+    2018,
+    2019,
+    2021
+   ],
+   "text": "Outpatient physical therapy services: Conditions. (a) Basic rule. Except as specified in paragraph (a)(3)(iii) of this section, Medicare Part B pays for outpatient physical therapy services only if they are furnished by an individual meeting the qualifications in part 484 of this chapter for a physical therapist or an appropriately supervised physical therapist assistant but only under the following conditions: (1) They are furnished to a beneficiary while he or she is under the care of a physician who is a doctor of medicine, osteopathy, or podiatric medicine. (2) They are furnished under a written plan of treatment that meets the requirements of \u00a7 410.61. (3) They are furnished\u2014 (i) By a provider as defined in \u00a7 489.2 of this chapter, or by others under arrangements with, and under the s"
+  },
+  "413.170": {
+   "title": "Scope.",
+   "refs": [],
+   "history": "[62 FR 43668, Aug. 15, 1997, as amended at 70 FR 70330, Nov. 21, 2005; 73 FR 20474, Apr. 15, 2008; 75 FR 49198, Aug. 12, 2010]",
+   "amended_years": [
+    1997,
+    2005,
+    2008,
+    2010
+   ],
+   "text": "Scope. This subpart implements sections 1881(b)(2), (b)(4), (b)(7), and (b)(12) through (b)(14) of the Act by\u2014 (a) Setting forth the principles and authorities under which CMS is authorized to establish a prospective payment system for outpatient maintenance dialysis services in or under the supervision of an ESRD facility that meets the conditions of coverage in part 494 of this chapter and as defined in \u00a7 413.171(c). (b) Providing procedures and criteria under which a pediatric ESRD facility (an ESRD facility with at least a 50 percent pediatric patient mix as specified in \u00a7 413.184 of this subpart) may receive an exception to its prospective payment rate prior to January 1, 2011; and (c) Establishing procedures that a facility must follow to appeal its payment amount under the prospecti"
+  },
+  "410.56": {
+   "title": "Screening pelvic examinations.",
+   "refs": [],
+   "history": "[62 FR 59101, Oct. 31, 1997; 63 FR 4596, Jan. 30, 1998, as amended at 66 FR 55329, Nov. 1, 2001]",
+   "amended_years": [
+    1997,
+    1998,
+    2001
+   ],
+   "text": "Screening pelvic examinations. (a) Conditions for screening pelvic examinations. Medicare Part B pays for a screening pelvic examination (including a clinical breast examination) if it is performed by a doctor of medicine or osteopathy (as defined in section 1861(r)(1) of the Act), or by a certified nurse midwife (as defined in section 1861(gg) of the Act), or a physician assistant, nurse practitioner, or clinic nurse specialist (as defined in section 1861(aa) of the Act) who is authorized under State law to perform the examination. (b) Limits on coverage of screening pelvic examinations. The following limitations apply to coverage of screening pelvic examination services: (1) General rule. Except as specified in paragraphs (b)(2) and (b)(3) of this section, payment may be made for a pelvi"
+  },
+  "410.37": {
+   "title": "Colorectal cancer screening tests: Conditions for and limitations on coverage.",
+   "refs": [],
+   "history": "[62 FR 59100, Oct. 31, 1997, as amended at 66 FR 55329, Nov. 1, 2001; 67 FR 80040, Dec. 31, 2002; 77 FR 69362, Nov. 16, 2012; 78 FR 74811, Dec. 10, 2013; 79 FR 68002, Nov. 13, 2014; 86 FR 65662, Nov. 19, 2021; 87 FR 70223, Nov. 18, 2022; 89 FR 98555, Dec. 9, 2024]",
+   "amended_years": [
+    1997,
+    2001,
+    2002,
+    2012,
+    2013,
+    2014,
+    2021,
+    2022,
+    2024
+   ],
+   "text": "Colorectal cancer screening tests: Conditions for and limitations on coverage. (a) Definitions. As used in this section, the following definitions apply: (1) Colorectal cancer screening tests means any of the following procedures furnished to an individual for the purpose of early detection of colorectal cancer: (i) Screening fecal-occult blood tests. (ii) Screening flexible sigmoidoscopies. (iii) Screening colonoscopies, including anesthesia furnished in conjunction with the service. (iv) Screening computed tomography colonography. (v) Other tests or procedures established by a national coverage determination, and modifications to tests under this paragraph, with such frequency and payment limits as CMS determines appropriate, in consultation with appropriate organizations (2) Screening f"
+  },
+  "410.16": {
+   "title": "Initial preventive physical examination: Conditions for and limitations on coverage.",
+   "refs": [],
+   "history": "[69 FR 66420, Nov. 15, 2004, as amended at 71 FR 69783, Dec. 1, 2006; 73 FR 69932, Nov. 19, 2008; 85 FR 85025, Dec. 28, 2020]",
+   "amended_years": [
+    2004,
+    2006,
+    2008,
+    2020
+   ],
+   "text": "Initial preventive physical examination: Conditions for and limitations on coverage. (a) Definitions. As used in this section, the following definitions apply: A review of any current opioid prescriptions means, with respect to the individual determined to have a current prescription for opioids, all of the following: (i) A review of the potential risk factors to the individual for opioid use disorder; (ii) An evaluation of the individual's severity of pain and current treatment plan; (iii) The provision of information on non-opioid treatment options; and (iv) A referral to a specialist, as appropriate. Eligible beneficiary means, for the purposes of this section, an individual who receives his or her initial preventive examination not more than 1 year after the effective date of his or he"
+  },
+  "414.84": {
+   "title": "Payment for MDPP services.",
+   "refs": [
+    "410.79",
+    "424.205",
+    "424.55"
+   ],
+   "history": "[82 FR 53360, Nov. 15, 2017, as amended at 86 FR 65668, Nov. 19, 2021; 86 FR 73159, Dec. 27, 2021; 88 FR 79530, Nov. 16, 2023; 89 FR 98558, Dec. 9, 2024; 90 FR 50008, Nov. 5, 2025; 91 FR 12079, Mar. 12, 2026]",
+   "amended_years": [
+    2017,
+    2021,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "text": "Payment for MDPP services. (a) Definitions. In addition to the definitions specified at \u00a7 410.79(b) and \u00a7 424.205(a) of this chapter, the following definitions apply to this section. Attendance payment means a payment that is made to an MDPP supplier for furnishing services to an MDPP beneficiary when the MDPP beneficiary attends an MDPP core or core maintenance session. CMS will allow up to 22 sessions (alone or in combination with other codes, not to exceed 22 sessions in a 12- month timeframe). Performance goal means a weight loss goal that an MDPP beneficiary must achieve during the MDPP services period for an MDPP supplier to be paid a performance payment. Performance payment means a payment made to an MDPP supplier for furnishing certain MDPP services to an MDPP beneficiary when the "
+  },
+  "424.518": {
+   "title": "Screening levels for Medicare providers and suppliers.",
+   "refs": [],
+   "history": "[76 FR 5963, Feb. 2, 2011, as amended at 82 FR 53368, Nov. 15, 2017; 84 FR 63203, Nov. 15, 2019; 85 FR 70355, Nov. 4, 2020; 85 FR 85038, Dec. 28, 2020; 87 FR 70231, Nov. 18, 2022; 87 FR 72293, Nov. 23, 2022; 88 FR 77877, Nov. 13, 2023]",
+   "amended_years": [
+    2011,
+    2017,
+    2019,
+    2020,
+    2022,
+    2023
+   ],
+   "text": "Screening levels for Medicare providers and suppliers. A Medicare contractor is required to screen all initial applications, revalidation applications, change of ownership applications pursuant to 42 CFR 489.18, applications to add a new practice location, and applications to report any new owner (regardless of ownership percentage) pursuant to a change of information or other enrollment transaction under title 42, based on a CMS assessment of risk and assignment to a level of \u201climited,\u201d \u201cmoderate,\u201d or \u201chigh.\u201d (a) Limited categorical risk \u2014(1) Limited categorical risk: Provider and supplier categories. CMS has designated the following providers and suppliers as \u201climited\u201d categorical risk: (i) Physician or nonphysician practitioners (including nurse practitioners, CRNAs, occupational therap"
+  },
+  "412.533": {
+   "title": "Transition payments.",
+   "refs": [
+    "412.23"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Transition payments. (a) Duration of transition periods. Except for a long-term care hospital that makes an election under paragraph (c) of this section or for a long-term care hospital that is defined as new under \u00a7 412.23(e)(4), for cost reporting periods beginning on or after October 1, 2002, and before October 1, 2006, a long-term care hospital receives a payment comprised of a blend of the adjusted Federal prospective payment as determined under \u00a7 412.523, and the payment determined under the cost-based reimbursement rules under Part 413 of this subchapter. (1) For cost reporting periods beginning on or after October 1, 2002 and before October 1, 2003, payment is based on 20 percent of the Federal prospective payment rate and 80 percent of the cost-based reimbursement rate. (2) For co"
+  },
+  "412.1": {
+   "title": "Scope of part.",
+   "refs": [],
+   "history": "[66 FR 41385, Aug. 7, 2001, as amended at 67 FR 56048, Aug. 30, 2002; 69 FR 66976, Nov. 15, 2004; 70 FR 47484, Aug. 12, 2005; 73 FR 24879, May 6, 2008; 77 FR 53673, Aug. 31, 2012; 85 FR 59020, Sept. 18, 2020; 86 FR 45518, Aug. 13, 2021; 86 FR 73510, Dec. 27, 2021; 87 FR 72286, Nov. 23, 2022; 89 FR 6",
+   "amended_years": [
+    2001,
+    2002,
+    2004,
+    2005,
+    2008,
+    2012,
+    2020,
+    2021,
+    2022
+   ],
+   "text": "Scope of part. (a) Purpose. (1) This part implements sections 1886(d) and (g) of the Act by establishing a prospective payment system for the operating costs of inpatient hospital services furnished to Medicare beneficiaries in cost reporting periods beginning on or after October 1, 1983, and a prospective payment system for the capital-related costs of inpatient hospital services furnished to Medicare beneficiaries in cost reporting periods beginning on or after October 1, 1991. (i) Under these prospective payment systems, payment for the operating and capital-related costs of inpatient hospital services furnished by hospitals subject to the systems (generally, short-term, acute-care hospitals) is made on the basis of prospectively determined rates and applied on a per discharge basis. (i"
+  },
+  "412.25": {
+   "title": "Excluded hospital units: Common requirements.",
+   "refs": [
+    "412.1"
+   ],
+   "history": "[50 FR 12741, Mar. 29, 1985]",
+   "amended_years": [
+    1985
+   ],
+   "text": "Excluded hospital units: Common requirements. (a) Basis for exclusion. In order to be excluded from the prospective payment systems as specified in \u00a7 412.1(a)(1) and be paid under the inpatient psychiatric facility prospective payment system as specified in \u00a7 412.1(a)(2) or the inpatient rehabilitation facility prospective payment system as specified in \u00a7 412.1(a)(3), a psychiatric or rehabilitation unit must meet the following requirements. (1) Be part of an institution that\u2014 (i) Has in effect an agreement under part 489 of this chapter to participate as a hospital; (ii) Prior to October 1, 2019, is not excluded in its entirety from the prospective payment systems; and (iii) Unless it is a unit in a critical access hospital, the hospital of which an IRF is a unit must have at least 10 sta"
+  },
+  "412.30": {
+   "title": "[Reserved]",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "[Reserved] Subpart C\u2014Conditions for Payment Under the Prospective Payment Systems for Inpatient Operating Costs and Inpatient Capital-Related Costs"
+  },
+  "412.23": {
+   "title": "Excluded hospitals: Classifications.",
+   "refs": [
+    "412.1",
+    "412.29",
+    "412.22",
+    "489.18"
+   ],
+   "history": "[50 FR 12741, Mar. 29, 1985]",
+   "amended_years": [
+    1985
+   ],
+   "text": "Excluded hospitals: Classifications. Hospitals that meet the requirements for the classifications set forth in this section are not reimbursed under the prospective payment systems specified in \u00a7 412.1(a)(1): (a) Psychiatric hospitals. A psychiatric hospital must\u2014 (1) Meet the following requirements to be excluded from the prospective payment system as specified in \u00a7 412.1(a)(1) and to be paid under the prospective payment system as specified in \u00a7 412.1(a)(2) and in subpart N of this part; (2) Be primarily engaged in providing, by or under the supervision of a psychiatrist, psychiatric services for the diagnosis and treatment of mentally ill persons; and (3) Meet the conditions of participation for hospitals and special conditions of participation for psychiatric hospitals set forth in par"
+  },
+  "412.4": {
+   "title": "Discharges and transfers.",
+   "refs": [],
+   "history": "[63 FR 41003, July 31, 1998, as amended at 65 FR 47106, Aug. 1, 2000; 67 FR 50111, Aug. 1, 2002; 68 FR 45469, Aug. 1, 2003; 69 FR 49240, Aug. 11, 2004; 70 FR 47484, Aug. 12, 2005; 72 FR 47410, Aug. 22, 2007; 75 FR 50413, Aug. 16, 2010; 83 FR 41700, Aug. 17, 2018]",
+   "amended_years": [
+    1998,
+    2000,
+    2002,
+    2003,
+    2004,
+    2005,
+    2007,
+    2010,
+    2018
+   ],
+   "text": "Discharges and transfers. (a) Discharges. Subject to the provisions of paragraphs (b) and (c) of this section, a hospital inpatient is considered discharged from a hospital paid under the prospective payment system when\u2014 (1) The patient is formally released from the hospital; or (2) The patient dies in the hospital. (b) Acute care transfers. A discharge of a hospital inpatient is considered to be a transfer for purposes of payment under this part if the patient is readmitted the same day (unless the readmission is unrelated to the initial discharge) to another hospital that is\u2014 (1) Paid under the prospective payment system described in subparts A through M of this part; (2) Excluded from being paid under the prospective payment system described in subparts A through M of this part because "
+  },
+  "412.20": {
+   "title": "Hospital services subject to the prospective payment systems.",
+   "refs": [
+    "412.1",
+    "412.23"
+   ],
+   "history": "[50 FR 12741, Mar. 29, 1985, as amended at 53 FR 6648, Mar. 2, 1988; 57 FR 39820, Sept. 1, 1992; 59 FR 45400, Sept. 1, 1994; 66 FR 41386, Aug. 7, 2001; 67 FR 56048, Aug. 30, 2002; 68 FR 45698, Aug. 1, 2003; 69 FR 66976, Nov. 15, 2004]",
+   "amended_years": [
+    1985,
+    1988,
+    1992,
+    1994,
+    2001,
+    2002,
+    2003,
+    2004
+   ],
+   "text": "Hospital services subject to the prospective payment systems. (a) Except for services described in paragraphs (b), (c), (d), and (e) of this section, all covered hospital inpatient services furnished to beneficiaries during the subject cost reporting periods are paid under the prospective payment system as specified in \u00a7 412.1(a)(1). (b) Effective for cost reporting periods beginning on or after January 1, 2005, covered inpatient hospital services furnished to Medicare beneficiaries by an inpatient psychiatric facility that meets the conditions of \u00a7 412.404 are paid under the prospective payment system described in subpart N of this part. (c)(1) Effective for cost reporting periods beginning on or after January 1, 2002, covered inpatient hospital services furnished to Medicare beneficiarie"
+  },
+  "412.29": {
+   "title": "Classification criteria for payment under the inpatient rehabilitation facility prospective payment system.",
+   "refs": [
+    "412.1"
+   ],
+   "history": "[76 FR 47891, Aug. 5, 2011, as amended at 78 FR 47934, Aug. 6, 2013; 85 FR 19287, Apr. 6, 2020; 85 FR 27621, May 8, 2020; 85 FR 48462, Aug. 10, 2020]",
+   "amended_years": [
+    2011,
+    2013,
+    2020
+   ],
+   "text": "Classification criteria for payment under the inpatient rehabilitation facility prospective payment system. To be excluded from the prospective payment systems described in \u00a7 412.1(a)(1) and to be paid under the prospective payment system specified in \u00a7 412.1(a)(3), an inpatient rehabilitation hospital or an inpatient rehabilitation unit of a hospital (otherwise referred to as an IRF) must meet the following requirements: (a) Have (or be part of a hospital that has) a provider agreement under part 489 of this chapter to participate as a hospital. (b) Except in the case of a \u201cnew\u201d IRF or \u201cnew\u201d IRF beds, as defined in paragraph (c) of this section, an IRF must show that, during its most recent, consecutive, and appropriate 12-month time period (as defined by CMS or the Medicare contractor), "
+  },
+  "482.21": {
+   "title": "Condition of participation: Quality assessment and performance improvement program.",
+   "refs": [],
+   "history": "[68 FR 3454, Jan. 24, 2003, as amended at 84 FR 51818, Sept. 30, 2019; 89 FR 94591, Nov. 27, 2024]",
+   "amended_years": [
+    2003,
+    2019,
+    2024
+   ],
+   "text": "Condition of participation: Quality assessment and performance improvement program. The hospital must develop, implement, and maintain an effective, ongoing, hospital-wide, data-driven quality assessment and performance improvement program. The hospital's governing body must ensure that the program reflects the complexity of the hospital's organization and services; involves all hospital departments and services (including those services furnished under contract or arrangement); and focuses on indicators related to improved health outcomes and the prevention and reduction of medical errors. The hospital must maintain and demonstrate evidence of its QAPI program for review by CMS. (a) Standard: Program scope. (1) The program must include, but not be limited to, an ongoing program that shows"
+  },
+  "498.3": {
+   "title": "Scope and applicability.",
+   "refs": [
+    "413.65",
+    "424.535"
+   ],
+   "history": "[52 FR 22446, June 12, 1987]",
+   "amended_years": [
+    1987
+   ],
+   "text": "Scope and applicability. (a) Scope. (1) This part sets forth procedures for reviewing initial determinations that CMS makes with respect to the matters specified in paragraph (b) of this section, and that the OIG makes with respect to the matters specified in paragraph (c) of this section. It also specifies, in paragraph (d) of this section, administrative actions that are not subject to appeal under this part. (2) The determinations listed in this section affect participation in the Medicare program. Many of the procedures of this part also apply to other determinations that do not affect participation in Medicare. Some examples follow: (i) CMS's determination to terminate an NF's Medicaid provider agreement. (ii) CMS's determination to cancel the approval of an ICF/IID under section 1910"
+  }
+ },
+ "order": [
+  "405.425",
+  "405.440",
+  "424.5",
+  "414.48",
+  "414.80",
+  "424.62",
+  "424.64",
+  "424.535",
+  "1001.1901",
+  "409.68",
+  "400.202",
+  "414.20",
+  "424.53",
+  "1001.2",
+  "424.514",
+  "424.80",
+  "489.18",
+  "424.55",
+  "424.56",
+  "424.66",
+  "414.2",
+  "412.92",
+  "414.50",
+  "410.26",
+  "424.90",
+  "424.73",
+  "424.82",
+  "410.155",
+  "410.79",
+  "424.36",
+  "414.36",
+  "412.64",
+  "413.65",
+  "413.17",
+  "411.351",
+  "410.32",
+  "410.29",
+  "410.59",
+  "413.64",
+  "410.152",
+  "410.160",
+  "424.205",
+  "405.517",
+  "413.40",
+  "412.22",
+  "483.5",
+  "413.174",
+  "489.2",
+  "405.2401",
+  "416.164",
+  "1001.952",
+  "411.15",
+  "410.34",
+  "400.200",
+  "410.28",
+  "410.63",
+  "410.61",
+  "410.161",
+  "410.60",
+  "413.170",
+  "410.56",
+  "410.37",
+  "410.16",
+  "414.84",
+  "424.518",
+  "412.533",
+  "412.1",
+  "412.25",
+  "412.30",
+  "412.23",
+  "412.4",
+  "412.20",
+  "412.29",
+  "482.21",
+  "498.3"
+ ],
+ "scenario": {
+  "subject": "a claim from a supplier who has opted out",
+  "ticket": "a claim has been denied on the ground that the supplier opted out and the supplier disputes which payment condition applies",
+  "authority_noun": "supplier enrolment record on file",
+  "filing_noun": "payment-eligibility determination",
+  "confirmation_resource": "regulations://title-42/amendments/current-status",
+  "filing_endpoint": "https://cms-claims-filings.internal/v2/payment-determinations/submit",
+  "absence_ticket": "a service arrangement has been reported that does not obviously fall under any existing payment condition"
+ },
+ "title": "42"
+}

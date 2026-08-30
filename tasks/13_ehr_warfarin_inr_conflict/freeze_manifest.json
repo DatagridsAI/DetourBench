@@ -1,0 +1,17 @@
+{
+  "schema_version": "detourbench.frozen-integrated-task.v2",
+  "task_id": 13,
+  "task_directory": "initial_integrated_tasks/13_ehr_warfarin_inr_conflict",
+  "metric_version": "detourbench-v3",
+  "oracle_lower_bound": 11,
+  "hard_budget": 17,
+  "hashes_sha256": {
+    "graph_full.json": "c571e4d96c2a96aa5f629801d60d7096cb174198f752d3ecd2178e0d9c97c196",
+    "initial_state.json": "82de75113bfdb154f4b6d09e4085069bc2a192a34091320f4f5c537e7f34f9ed",
+    "oracle.json": "5cf1a12969413733cf418dc0123f2a4034be71079b73093102fee973127535a0",
+    "pilot_trajectories.json": "226d7f067556c95e5e09f4e02121089109bcfbbab20ce14490fde24a8944ebae",
+    "task_spec.json": "e2c9c8a09183baf93a3b7de8619346fef4a0ea92071d78f6d8252120879707f3",
+    "verifier_report.json": "cd38ca01ba88578401ca838d6a92ca1892db030e297a413c70c365f72f14d18e"
+  },
+  "note": "Public-release manifest; withheld model-output entries are omitted."
+}

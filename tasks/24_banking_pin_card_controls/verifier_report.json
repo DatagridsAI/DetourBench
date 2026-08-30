@@ -1,0 +1,119 @@
+{
+  "ok": true,
+  "failed": [],
+  "findings": [
+    {
+      "check": "exact_lower_bound",
+      "ok": true,
+      "detail": {
+        "lower_bound": 14,
+        "path_length": 14
+      }
+    },
+    {
+      "check": "oracle_replay",
+      "ok": true,
+      "detail": {
+        "success": true,
+        "steps": 14
+      }
+    },
+    {
+      "check": "semantic_necessity",
+      "ok": true,
+      "detail": {
+        "schema_version": "detourbench.semantic-necessity-audit.v1",
+        "method": "node-removal reachability plus documented semantic counterfactual",
+        "all_required": true,
+        "items": [
+          {
+            "node": "user",
+            "structurally_required": true,
+            "semantic_role": "binds the request to the synthetic owner",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "account",
+            "structurally_required": true,
+            "semantic_role": "reveals the customer's checking account",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "inventory",
+            "structurally_required": true,
+            "semantic_role": "establishes the complete status-partitioned population",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "inventory_active",
+            "structurally_required": true,
+            "semantic_role": "resolves last four 4561 to one ACTIVE internal ID",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "target_card",
+            "structurally_required": true,
+            "semantic_role": "confirms ownership, status and exact last four",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "verification",
+            "structurally_required": true,
+            "semantic_role": "records completed identity verification",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "policy_current",
+            "structurally_required": true,
+            "semantic_role": "defines ACTIVE-only PIN and ordered-control requirements",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          }
+        ]
+      }
+    },
+    {
+      "check": "three_entry_dispositions",
+      "ok": true,
+      "detail": [
+        "reset-active-ending-4561",
+        "close-pending-lookalike-8619",
+        "close-pending-lookalike-8620"
+      ]
+    },
+    {
+      "check": "detours_exceed_budget_slack",
+      "ok": true,
+      "detail": {
+        "harmless_detour_edges": 10,
+        "budget_slack": 7
+      }
+    },
+    {
+      "check": "confidential_synthetic_provenance",
+      "ok": true,
+      "detail": "Customer, account and card fields are adapted from a supplied internal synthetic TauBench fixture. They are not real customer data. Policy consolidation, graph links, state gates, false summits and audit actions are DetourBench-authored. The upstream package is marked confidential/internal-only; this frozen task must not be redistributed or described as a public corpus."
+    },
+    {
+      "check": "honest_mechanism_crosswalk",
+      "ok": true,
+      "detail": {
+        "primary": "Breadth",
+        "supporting": [
+          "Depth",
+          "Currency",
+          "Disposition"
+        ],
+        "unsupported_not_claimed": [
+          "Sufficiency",
+          "Time"
+        ],
+        "basis": {
+          "Breadth": "identity, account, status-filtered inventory, card detail, verification and policy are jointly required",
+          "Depth": "three ordered writes plus audit follow card resolution",
+          "Currency": "the in-force policy, not the superseded generic policy, governs status eligibility",
+          "Disposition": "one requested reset and two plausible but irreversible closure choices lead to distinct outcomes"
+        }
+      }
+    }
+  ]
+}

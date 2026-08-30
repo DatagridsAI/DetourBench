@@ -1,0 +1,24 @@
+{
+ "lower_bound_steps": 9,
+ "oracle_lower_bound": 9,
+ "informed_lower_bound": 9,
+ "oracle_edge_path": [
+  "e_seed",
+  "e_1910.28_1910.29",
+  "e_1910.28_1910.67",
+  "e_1910.67_1910.6",
+  "e_1910.6_1910.124",
+  "e_1910.124_1910.141",
+  "e_rul_1910.141_0",
+  "e_amend",
+  "e_file_ok"
+ ],
+ "difficulty": "hard",
+ "step_budget": 14,
+ "difficulty_multiplier": 1.5,
+ "metric_version": "attainment-v2-success-weighted-oracle",
+ "theme": "customs_classification",
+ "topology": "integrated_case",
+ "n_nodes": 43,
+ "n_dead_end_nodes": 21
+}

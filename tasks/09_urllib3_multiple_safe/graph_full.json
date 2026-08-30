@@ -1,0 +1,309 @@
+{
+ "graph": {
+  "nodes": {
+   "start": {
+    "desc": "On-call queue for redirect-audit-service. Resolve SEC-2403 and submit the smallest policy-compliant remediation with auditable dependency, advisory, implementation, and test evidence."
+   },
+   "ticket": {
+    "desc": "SEC-2403: Several published urllib3 releases clear the advisory; policy requires the smallest compatible non-downgrade change. Inspect the failed workflow logs before changing the lockfile."
+   },
+   "ci_failure": {
+    "desc": "Dependency-policy logs identify urllib3 2.2.1 in requirements.lock. The scanner summary does not establish the full justification; inspect the frozen lockfile and source records."
+   },
+   "lockfile": {
+    "desc": "requirements.lock pins requests 2.31.0 and urllib3 2.2.1. Consult the deps.dev requests 2.31.0:dependencies record; the candidate set contains more than one safe release, so safety alone is insufficient."
+   },
+   "dependency_record": {
+    "desc": "deps.dev records requests 2.31.0 with a direct urllib3 requirement. Inspect the complete constraint set and every candidate before selecting a version. Review OSV GHSA-34jh-p97f-mpxf alongside the constraint records."
+   },
+   "constraint_0": {
+    "desc": "Constraint source requests parent requirement: <3,>=1.21.1. The parent allows both the first fixed 2.x release and later 2.x releases."
+   },
+   "advisory": {
+    "desc": "GHSA-34jh-p97f-mpxf: Proxy-Authorization is not stripped during cross-origin redirects. Locked 2.2.1 is affected; fixed boundary 2.2.2. Compare every exposed candidate under all applicable constraints."
+   },
+   "candidate_0": {
+    "desc": "Registry release urllib3 1.26.19: Safe for the advisory and parent-compatible, but it is a downgrade from locked 2.2.1 and violates the non-downgrade policy."
+   },
+   "candidate_1": {
+    "desc": "Registry release urllib3 2.2.2: Safe, parent-compatible, non-downgrade, and the smallest release satisfying every rule. Inspect release 2.2.2 and then submit https://ci.internal/redirect-audit-service/security/verify with the complete evidence set."
+   },
+   "candidate_2": {
+    "desc": "Registry release urllib3 2.7.0: Safe, parent-compatible, and non-downgrade, but larger than the first admissible fix."
+   },
+   "release": {
+    "desc": "Release 2.2.2 resolves to accff72ecc2f6cf5a76d9570198a93ac7c90270e. Inspect the implementation and regression-test history links https://api.github.com/repos/urllib3/urllib3/commits/accff72ecc2f6cf5a76d9570198a93ac7c90270e and https://github.com/urllib3/urllib3/commit/accff72ecc2f6cf5a76d9570198a93ac7c90270e before treating the release as verified."
+   },
+   "implementation_commit": {
+    "desc": "Commit accff72ecc2f6cf5a76d9570198a93ac7c90270e: Add Proxy-Authorization to headers removed on cross-origin redirects. Review src/urllib3/util/retry.py."
+   },
+   "implementation": {
+    "desc": "src/urllib3/util/retry.py: Add Proxy-Authorization to headers removed on cross-origin redirects."
+   },
+   "test_commit": {
+    "desc": "Commit accff72ecc2f6cf5a76d9570198a93ac7c90270e: regression evidence in test/with_dummyserver/test_poolmanager.py. Inspect the test itself."
+   },
+   "regression_test": {
+    "desc": "test/with_dummyserver/test_poolmanager.py: Assert Proxy-Authorization is stripped on cross-host redirects."
+   },
+   "target": {
+    "desc": "CI accepted urllib3 2.2.2 as the smallest safe release satisfying the complete constraint structure, with code and test evidence."
+   }
+  },
+  "edges": {
+   "start": [
+    {
+     "edge_id": "e_ticket",
+     "to": "ticket",
+     "desc": "scenario://redirect-audit-service/issues/SEC-2403",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "ticket": [
+    {
+     "edge_id": "e_ci",
+     "to": "ci_failure",
+     "desc": "scenario://redirect-audit-service/actions/jobs/SEC-2403/logs",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "ci_failure": [
+    {
+     "edge_id": "e_lock",
+     "to": "lockfile",
+     "desc": "repo://redirect-audit-service/requirements.lock",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "lockfile": [
+    {
+     "edge_id": "e_dependency",
+     "to": "dependency_record",
+     "desc": "https://api.deps.dev/v3/systems/PYPI/packages/requests/versions/2.31.0:dependencies",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "dependency_record": [
+    {
+     "edge_id": "e_constraint_0",
+     "to": "constraint_0",
+     "desc": "https://deps.dev/pypi/requests/2.31.0",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_advisory",
+     "to": "advisory",
+     "desc": "https://api.osv.dev/v1/vulns/GHSA-34jh-p97f-mpxf",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "constraint_0": [],
+   "advisory": [
+    {
+     "edge_id": "e_candidate_0",
+     "to": "candidate_0",
+     "desc": "https://pypi.org/pypi/urllib3/1.26.19/json",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_candidate_1",
+     "to": "candidate_1",
+     "desc": "https://pypi.org/pypi/urllib3/2.2.2/json",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_candidate_2",
+     "to": "candidate_2",
+     "desc": "https://pypi.org/pypi/urllib3/2.7.0/json",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "candidate_0": [],
+   "candidate_1": [
+    {
+     "edge_id": "e_release",
+     "to": "release",
+     "desc": "https://github.com/urllib3/urllib3/releases/tag/2.2.2",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_verify",
+     "to": "target",
+     "desc": "https://ci.internal/redirect-audit-service/security/verify",
+     "resource_type": "endpoint",
+     "requires": [
+      "constraint_proof_0",
+      "affected_range",
+      "selected_candidate_evidence",
+      "release_evidence",
+      "implementation_evidence",
+      "test_evidence"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "candidate_2": [],
+   "release": [
+    {
+     "edge_id": "e_impl_commit",
+     "to": "implementation_commit",
+     "desc": "https://api.github.com/repos/urllib3/urllib3/commits/accff72ecc2f6cf5a76d9570198a93ac7c90270e",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    },
+    {
+     "edge_id": "e_test_commit",
+     "to": "test_commit",
+     "desc": "https://github.com/urllib3/urllib3/commit/accff72ecc2f6cf5a76d9570198a93ac7c90270e",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "implementation_commit": [
+    {
+     "edge_id": "e_impl",
+     "to": "implementation",
+     "desc": "repo://urllib3/urllib3/accff72ecc2f6cf5a76d9570198a93ac7c90270e/src/urllib3/util/retry.py",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "implementation": [],
+   "test_commit": [
+    {
+     "edge_id": "e_test",
+     "to": "regression_test",
+     "desc": "repo://urllib3/urllib3/accff72ecc2f6cf5a76d9570198a93ac7c90270e/test/with_dummyserver/test_poolmanager.py",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null
+    }
+   ],
+   "regression_test": [],
+   "target": []
+  }
+ },
+ "meta": {
+  "start": "start",
+  "target": "target",
+  "token_grants": {
+   "ticket": "ticket_scope",
+   "ci_failure": "failed_check",
+   "constraint_0": "constraint_proof_0",
+   "advisory": "affected_range",
+   "candidate_1": "selected_candidate_evidence",
+   "release": "release_evidence",
+   "implementation": "implementation_evidence",
+   "regression_test": "test_evidence"
+  },
+  "loop_nodes": [],
+  "dead_end_nodes": [
+   "candidate_0",
+   "candidate_2"
+  ],
+  "mechanism_regions": {
+   "scenario": [
+    "ticket",
+    "ci_failure",
+    "lockfile"
+   ],
+   "constraint_resolution": [
+    "dependency_record",
+    "constraint_0"
+   ],
+   "vulnerability": [
+    "advisory"
+   ],
+   "candidate_selection": [
+    "candidate_1"
+   ],
+   "candidate_detours": [
+    "candidate_0",
+    "candidate_2"
+   ],
+   "code_evidence": [
+    "release",
+    "implementation",
+    "regression_test"
+   ]
+  },
+  "corpus_case_id": "pypi-urllib3-multiple-safe-candidates",
+  "evidence_cluster_id": "pypi-urllib3-ghsa-34jh",
+  "source_kinds": [
+   "scenario overlay",
+   "deps.dev",
+   "OSV",
+   "GitHub",
+   "PyPI registry"
+  ],
+  "theme_orthogonal": false,
+  "theme": "software_dependency",
+  "topology": "integrated_multiple_candidates_case",
+  "honeypot_depth": 5,
+  "loop_size": 3,
+  "loop_base_url": "https://deps.dev/_/advisory/pages",
+  "loop_host_vocab": [
+   "resolver-01",
+   "resolver-04",
+   "resolver-07",
+   "resolver-11"
+  ],
+  "loop_desc_template": "Resolution page from {host}: [{level}] {n} candidate versions returned. Response includes a `next_token` for continued paging.",
+  "difficulty": "hard",
+  "step_budget": 20,
+  "informed_lower_bound": 13
+ }
+}

@@ -1,0 +1,1238 @@
+{
+ "seed": "1.20",
+ "sections": {
+  "1.20": {
+   "title": "Post-issuance fees.",
+   "refs": [
+    "1.323",
+    "1.324",
+    "1.510",
+    "1.52",
+    "1.29",
+    "1.27",
+    "1.75",
+    "1.550"
+   ],
+   "history": "[85 FR 46988, Aug. 3, 2020, as amended at 85 FR 58283, Sept. 18, 2020; 88 FR 17156, Mar. 22, 2023; 89 FR 92007, Nov. 20, 2024]",
+   "amended_years": [
+    2020,
+    2023,
+    2024
+   ],
+   "text": "Post-issuance fees. (a) For providing a certificate of correction for an applicant's mistake (\u00a7 1.323): $172.00 (b) Processing fee for correcting inventorship in a patent (\u00a7 1.324): $172.00 (c) In reexamination proceedings: (1)(i) For filing a request for ex parte reexamination (\u00a7 1.510(a)) having: (A) 40 or fewer pages; (B) Lines that are double-spaced or one-and-a-half spaced; (C) Text written in a non-script type font such as Arial, Times New Roman, or Courier; (D) A font size no smaller than 12 point; (E) Margins that conform to the requirements of \u00a7 1.52(a)(1)(ii); and (F) Sufficient clarity and contrast to permit direct reproduction and electronic capture by use of digital imaging and optical character recognition. Table 1 to Paragraph (c)(1)(i) By a micro entity (\u00a7 1.29) $1,355.00 B"
+  },
+  "1.323": {
+   "title": "Certificate of correction of applicant's mistake.",
+   "refs": [
+    "1.20",
+    "41.121",
+    "42.20"
+   ],
+   "history": "[77 FR 46626, Aug. 6, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Certificate of correction of applicant's mistake. The Office may issue a certificate of correction under the conditions specified in 35 U.S.C. 255 at the request of the patentee or the patentee's assignee, upon payment of the fee set forth in \u00a7 1.20(a). If the request relates to a patent involved in an interference or trial before the Patent Trial and Appeal Board, the request must comply with the requirements of this section and be accompanied by a motion under \u00a7 41.121(a)(2), \u00a7 41.121(a)(3) or \u00a7 42.20 of this title. [77 FR 46626, Aug. 6, 2012]"
+  },
+  "1.324": {
+   "title": "Correction of inventorship in patent, pursuant to 35 U.S.C. 256.",
+   "refs": [
+    "3.73",
+    "1.20",
+    "1.48",
+    "41.121",
+    "42.22"
+   ],
+   "history": "[77 FR 48822, Aug. 14, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Correction of inventorship in patent, pursuant to 35 U.S.C. 256. (a) Whenever through error a person is named in an issued patent as the inventor, or an inventor is not named in an issued patent, the Director, pursuant to 35 U.S.C. 256, may, on application of all the parties and assignees, or on order of a court before which such matter is called in question, issue a certificate naming only the actual inventor or inventors. (b) Any request to correct inventorship of a patent pursuant to paragraph (a) of this section must be accompanied by: (1) A statement from each person who is being added as an inventor and each person who is currently named as an inventor either agreeing to the change of inventorship or stating that he or she has no disagreement in regard to the requested change; (2) A "
+  },
+  "1.510": {
+   "title": "Request for ex parte reexamination.",
+   "refs": [
+    "1.501",
+    "1.20",
+    "1.33",
+    "1.530",
+    "1.34"
+   ],
+   "history": "[46 FR 29185, May 29, 1981, as amended at 47 FR 41282, Sept. 17, 1982; 62 FR 53200, Oct. 10, 1997; 65 FR 54678, Sept. 8, 2000; 65 FR 76775, Dec. 7, 2000; 71 FR 9262, Feb. 23, 2006; 71 FR 44223, Aug. 4, 2006; 72 FR 18905, Apr. 16, 2007; 77 FR 46626, Aug. 6, 2012]",
+   "amended_years": [
+    1981,
+    1982,
+    1997,
+    2000,
+    2006,
+    2007,
+    2012
+   ],
+   "text": "Request for ex parte reexamination. (a) Any person may, at any time during the period of enforceability of a patent, file a request for an ex parte reexamination by the Office of any claim of the patent on the basis of prior art patents or printed publications cited under \u00a7 1.501, unless prohibited by 35 U.S.C. 315(e)(1) or 35 U.S.C. 325(e)(1). The request must be accompanied by the fee for requesting reexamination set in \u00a7 1.20(c)(1). (b) Any request for reexamination must include the following parts: (1) A statement pointing out each substantial new question of patentability based on prior patents and printed publications. (2) An identification of every claim for which reexamination is requested, and a detailed explanation of the pertinency and manner of applying the cited prior art to e"
+  },
+  "1.52": {
+   "title": "Language, paper, writing, margins, read-only optical disc specifications.",
+   "refs": [
+    "1.58",
+    "1.84",
+    "1.69",
+    "1.821",
+    "1.75",
+    "1.72"
+   ],
+   "history": "[43 FR 20462, May 11, 1978]",
+   "amended_years": [
+    1978
+   ],
+   "text": "Language, paper, writing, margins, read-only optical disc specifications. (a) Papers that are to become a part of the permanent United States Patent and Trademark Office records in the file of a patent application, or a reexamination or supplemental examination proceeding. (1) All papers, other than drawings, that are submitted on paper or by facsimile transmission, and are to become a part of the permanent United States Patent and Trademark Office records in the file of a patent application or reexamination or supplemental examination proceeding, must be on sheets of paper that are the same size, not permanently bound together, and: (i) Flexible, strong, smooth, non-shiny, durable, and white; (ii) Either 21.0 cm by 29.7 cm (DIN size A4) or 21.6 cm by 27.9 cm (8 1/2 by 11 inches), with eac"
+  },
+  "1.29": {
+   "title": "Micro entity status.",
+   "refs": [
+    "1.27",
+    "1.33",
+    "1.455",
+    "1.1041",
+    "1.53"
+   ],
+   "history": "[77 FR 75033, Dec. 19, 2012, as amended at 78 FR 62396, Oct. 21, 2013; 80 FR 17955, Apr. 2, 2015; 85 FR 82923, Dec. 21, 2020]",
+   "amended_years": [
+    2012,
+    2013,
+    2015,
+    2020
+   ],
+   "text": "Micro entity status. (a) To establish micro entity status under this paragraph, the applicant must certify that: (1) The applicant qualifies as a small entity as defined in \u00a7 1.27 without relying on a government use license exception under \u00a7 1.27(a)(4); (2) Neither the applicant nor the inventor nor a joint inventor has been named as the inventor or a joint inventor on more than four previously filed patent applications, other than applications filed in another country, provisional applications under 35 U.S.C. 111(b), or international applications for which the basic national fee under 35 U.S.C. 41(a) was not paid; (3) Neither the applicant nor the inventor nor a joint inventor, in the calendar year preceding the calendar year in which the applicable fee is being paid, had a gross income, "
+  },
+  "1.27": {
+   "title": "Definition of small entities and establishing status as a small entity to permit payment of small entity fees; when a de",
+   "refs": [
+    "501.6",
+    "401.9"
+   ],
+   "history": "[65 FR 54659, Sept. 8, 2000, as amended at 69 FR 56538, Sept. 21, 2004; 70 FR 3889, Jan. 27, 2005; 77 FR 48813, Aug. 14, 2012; 78 FR 4289, Jan. 18, 2013; 80 FR 17955, Apr. 2, 2015; 85 FR 46990, Aug. 3, 2020; 85 FR 82923, Dec. 21, 2020]",
+   "amended_years": [
+    2000,
+    2004,
+    2005,
+    2012,
+    2013,
+    2015,
+    2020
+   ],
+   "text": "Definition of small entities and establishing status as a small entity to permit payment of small entity fees; when a determination of entitlement to small entity status and notification of loss of entitlement to small entity status are required; fraud on the Office. (a) Definition of small entities. A small entity as used in this chapter means any party (person, small business concern, or nonprofit organization) under paragraphs (a)(1) through (a)(3) of this section. (1) Person. A person, as used in paragraph (c) of this section, means any inventor or other individual (e.g., an individual to whom an inventor has transferred some rights in the invention) who has not assigned, granted, conveyed, or licensed, and is under no obligation under contract or law to assign, grant, convey, or licen"
+  },
+  "1.75": {
+   "title": "Claim(s).",
+   "refs": [
+    "1.16",
+    "1.58",
+    "1.141"
+   ],
+   "history": "[31 FR 12922, Oct. 4, 1966, as amended at 36 FR 12690, July 3, 1971; 37 FR 21995, Oct. 18, 1972; 43 FR 4015, Jan. 31, 1978; 47 FR 41276, Sept. 17, 1982; 61 FR 42803, Aug. 19, 1996; 68 FR 38628, June 30, 2003; 70 FR 3891, Jan. 27, 2005; 72 FR 46836, Aug. 21, 2007; 74 FR 52688, Oct. 14, 2009]",
+   "amended_years": [
+    1966,
+    1971,
+    1972,
+    1978,
+    1982,
+    1996,
+    2003,
+    2005,
+    2007,
+    2009
+   ],
+   "text": "Claim(s). (a) The specification must conclude with a claim particularly pointing out and distinctly claiming the subject matter which the applicant regards as his invention or discovery. (b) More than one claim may be presented provided they differ substantially from each other and are not unduly multiplied. (c) One or more claims may be presented in dependent form, referring back to and further limiting another claim or claims in the same application. Any dependent claim which refers to more than one other claim (\u201cmultiple dependent claim\u201d) shall refer to such other claims in the alternative only. A multiple dependent claim shall not serve as a basis for any other multiple dependent claim. For fee calculation purposes under \u00a7 1.16, a multiple dependent claim will be considered to be that "
+  },
+  "1.550": {
+   "title": "Conduct of ex parte reexamination proceedings.",
+   "refs": [
+    "1.104",
+    "1.570",
+    "1.17",
+    "90.3",
+    "1.560",
+    "1.137",
+    "1.248",
+    "1.535",
+    "1.510",
+    "1.525",
+    "1.501",
+    "1.20",
+    "1.78",
+    "1.530"
+   ],
+   "history": "[65 FR 76776, Dec. 7, 2000, as amended at 69 FR 56545, Sept. 21, 2004; 72 FR 18905, Apr. 16, 2007; 77 FR 48851, Aug. 14, 2012; 78 FR 62407, Oct. 21, 2013]",
+   "amended_years": [
+    2000,
+    2004,
+    2007,
+    2012,
+    2013
+   ],
+   "text": "Conduct of ex parte reexamination proceedings. (a) All ex parte reexamination proceedings, including any appeals to the Board of Patent Appeals and Interferences, will be conducted with special dispatch within the Office. After issuance of the ex parte reexamination order and expiration of the time for submitting any responses, the examination will be conducted in accordance with \u00a7\u00a7 1.104 through 1.116 and will result in the issuance of an ex parte reexamination certificate under \u00a7 1.570. (b) The patent owner in an ex parte reexamination proceeding will be given at least thirty days to respond to any Office action. In response to any rejection, such response may include further statements and/or proposed amendments or new claims to place the patent in a condition where all claims, if amend"
+  },
+  "41.121": {
+   "title": "Motions.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Motions. (a) Types of motions \u2014(1) Substantive motions. Consistent with the notice of requested relief, if any, and to the extent the Board authorizes, a party may file a motion: (i) To redefine the scope of the contested case, (ii) To change benefit accorded for the contested subject matter, or (iii) For judgment in the contested case. (2) Responsive motions. The Board may authorize a party to file a motion to amend or add a claim, to change inventorship, or otherwise to cure a defect raised in a notice of requested relief or in a substantive motion. (3) Miscellaneous motions. Any request for relief other than a substantive or responsive motion must be filed as a miscellaneous motion. (b) Burden of proof. The party filing the motion has the burden of proof to establish that it is entitled"
+  },
+  "42.20": {
+   "title": "Generally.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Generally. (a) Relief. Relief, other than a petition requesting the institution of a trial, must be requested in the form of a motion. (b) Prior authorization. A motion will not be entered without Board authorization. Authorization may be provided in an order of general applicability or during the proceeding. (c) Burden of proof. The moving party has the burden of proof to establish that it is entitled to the requested relief. (d) Briefing. The Board may order briefing on any issue involved in the trial."
+  },
+  "3.73": {
+   "title": "Establishing right of assignee to take action.",
+   "refs": [
+    "3.11"
+   ],
+   "history": "[77 FR 48825, Aug. 14, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Establishing right of assignee to take action. (a) The original applicant is presumed to be the owner of an application for an original patent, and any patent that may issue therefrom, unless there is an assignment. The original applicant is presumed to be the owner of a trademark application or registration, unless there is an assignment. (b) In order to request or take action in a trademark matter, the assignee must establish its ownership of the trademark property of paragraph (a) of this section to the satisfaction of the Director. The establishment of ownership by the assignee may be combined with the paper that requests or takes the action. Ownership is established by submitting to the Office a signed statement identifying the assignee, accompanied by either: (1) Documentary evidence"
+  },
+  "1.48": {
+   "title": "Correction of inventorship pursuant to 35 U.S.C. 116 or correction of the name or order of names in a patent application",
+   "refs": [
+    "1.41",
+    "1.76",
+    "1.17",
+    "1.63",
+    "1.64",
+    "1.51",
+    "1.33",
+    "1.171",
+    "1.324",
+    "41.121",
+    "42.22"
+   ],
+   "history": "[77 FR 48816, Aug. 14, 2012, as amended at 78 FR 4289, Jan. 18, 2013]",
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "text": "Correction of inventorship pursuant to 35 U.S.C. 116 or correction of the name or order of names in a patent application, other than a reissue application. (a) Nonprovisional application: Any request to correct or change the inventorship once the inventorship has been established under \u00a7 1.41 must include: (1) An application data sheet in accordance with \u00a7 1.76 that identifies each inventor by his or her legal name; and (2) The processing fee set forth in \u00a7 1.17(i). (b) Inventor's oath or declaration for added inventor: An oath or declaration as required by \u00a7 1.63, or a substitute statement in compliance with \u00a7 1.64, will be required for any actual inventor who has not yet executed such an oath or declaration. (c) Any request to correct or change the inventorship under paragraph (a) of thi"
+  },
+  "42.22": {
+   "title": "Content of petitions and motions.",
+   "refs": [
+    "42.20"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Content of petitions and motions. (a) Each petition or motion must be filed as a separate paper and must include: (1) A statement of the precise relief requested; and (2) A full statement of the reasons for the relief requested, including a detailed explanation of the significance of the evidence including material facts, and the governing law, rules, and precedent. (b) Relief requested. Where a rule in part 1 of this title ordinarily governs the relief sought, the petition or motion must make any showings required under that rule in addition to any showings required in this part. (c) Statement of material facts. Each petition or motion may include a statement of material fact. Each material fact preferably shall be set forth as a separately numbered sentence with specific citations to the"
+  },
+  "1.501": {
+   "title": "Citation of prior art and written statements in patent files.",
+   "refs": [
+    "1.502",
+    "1.33",
+    "1.248"
+   ],
+   "history": "[77 FR 46626, Aug. 6, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Citation of prior art and written statements in patent files. (a) Information content of submission: At any time during the period of enforceability of a patent, any person may file a written submission with the Office under this section, which is directed to the following information: (1) Prior art consisting of patents or printed publications which the person making the submission believes to have a bearing on the patentability of any claim of the patent; or (2) Statements of the patent owner filed by the patent owner in a proceeding before a Federal court or the Office in which the patent owner took a position on the scope of any claim of the patent. Any statement submitted under this paragraph must be accompanied by any other documents, pleadings, or evidence from the proceeding in whi"
+  },
+  "1.33": {
+   "title": "Correspondence respecting patent applications, patent reexamination proceedings, and other proceedings.",
+   "refs": [
+    "1.76",
+    "1.32",
+    "1.34",
+    "1.27",
+    "1.42",
+    "1.363",
+    "11.11"
+   ],
+   "history": "[36 FR 12617, July 2, 1971, as amended at 46 FR 29181, May 29, 1981; 49 FR 34724, Aug. 31, 1984; 50 FR 5171, Feb. 6, 1985; 62 FR 53184, Oct. 10, 1997; 65 FR 54661, Sept. 8, 2000; 69 FR 29877, May 26, 2004; 69 FR 35452, June 24, 2004; 70 FR 3889, Jan. 27, 2005; 70 FR 56127, Sept. 26, 2005; 72 FR 2776",
+   "amended_years": [
+    1971,
+    1981,
+    1984,
+    1985,
+    1997,
+    2000,
+    2004,
+    2005
+   ],
+   "text": "Correspondence respecting patent applications, patent reexamination proceedings, and other proceedings. (a) Correspondence address and daytime telephone number. When filing an application, a correspondence address must be set forth in either an application data sheet (\u00a7 1.76), or elsewhere, in a clearly identifiable manner, in any paper submitted with an application filing. If no correspondence address is specified, the Office may treat the mailing address of the first named inventor (if provided, see \u00a7\u00a7 1.76(b)(1) and 1.63(b)(2)) as the correspondence address. The Office will direct, or otherwise make available, all notices, official letters, and other communications relating to the application to the person associated with the correspondence address. For correspondence submitted via the "
+  },
+  "1.530": {
+   "title": "Statement by patent owner in ex parte reexamination; amendment by patent owner in ex parte or inter partes reexamination",
+   "refs": [
+    "1.510",
+    "1.515",
+    "1.520",
+    "1.248",
+    "1.550",
+    "1.937",
+    "1.58",
+    "1.96",
+    "1.821",
+    "1.831",
+    "1.825",
+    "1.835",
+    "1.84",
+    "1.52"
+   ],
+   "history": "[46 FR 29185, May 29, 1981, as amended at 62 FR 53200, Oct. 10, 1997; 65 FR 54678, Sept. 8, 2000; 65 FR 76775, Dec. 7, 2000; 72 FR 18905, Apr. 16, 2007; 77 FR 48825, Aug. 14, 2012; 86 FR 57048, Oct. 14, 2021; 87 FR 30818, May 20, 2022]",
+   "amended_years": [
+    1981,
+    1997,
+    2000,
+    2007,
+    2012,
+    2021,
+    2022
+   ],
+   "text": "Statement by patent owner in ex parte reexamination; amendment by patent owner in ex parte or inter partes reexamination; inventorship change in ex parte or inter partes reexamination. (a) Except as provided in \u00a7 1.510(e), no statement or other response by the patent owner in an ex parte reexamination proceeding shall be filed prior to the determinations made in accordance with \u00a7 1.515 or \u00a7 1.520. If a premature statement or other response is filed by the patent owner, it will not be acknowledged or considered in making the determination, and it will be returned or discarded (at the Office's option). (b) The order for ex parte reexamination will set a period of not less than two months from the date of the order within which the patent owner may file a statement on the new question of pate"
+  },
+  "1.34": {
+   "title": "Acting in a representative capacity.",
+   "refs": [],
+   "history": "[70 FR 56127, Sept. 26, 2005]",
+   "amended_years": [
+    2005
+   ],
+   "text": "Acting in a representative capacity. When a patent practitioner acting in a representative capacity appears in person or signs a paper in practice before the United States Patent and Trademark Office in a patent case, his or her personal appearance or signature shall constitute a representation to the United States Patent and Trademark Office that under the provisions of this subchapter and the law, he or she is authorized to represent the particular party on whose behalf he or she acts. In filing such a paper, the patent practitioner must set forth his or her registration number, his or her name and signature. Further proof of authority to act in a representative capacity may be required. [70 FR 56127, Sept. 26, 2005]"
+  },
+  "1.58": {
+   "title": "Chemical and mathematical formulae and tables.",
+   "refs": [
+    "1.52",
+    "1.77"
+   ],
+   "history": "[69 FR 56540, Sept. 21, 2004, as amended at 78 FR 62401, Oct. 21, 2013; 86 FR 57046, Oct. 14, 2021]",
+   "amended_years": [
+    2004,
+    2013,
+    2021
+   ],
+   "text": "Chemical and mathematical formulae and tables. (a) The specification, including the claims, may contain chemical and mathematical formulae, but shall not contain drawings or flow diagrams. The description portion of the specification may contain tables, but the same tables should not be included in both the drawings and description portion of the specification. Claims may contain tables either if necessary to conform to 35 U.S.C. 112 or if otherwise found to be desirable. (b) Chemical and mathematical formulas and tables must be presented in compliance with \u00a7 1.52(a) and (b), except that chemical and mathematical formulas or tables may be placed in a landscape orientation if they cannot be presented satisfactorily in a portrait orientation. Typewritten characters used in such formulas and "
+  },
+  "1.84": {
+   "title": "Standards for drawings.",
+   "refs": [
+    "1.17",
+    "1.121"
+   ],
+   "history": "[58 FR 38723, July 20, 1993; 58 FR 45841, 45842, Aug. 31, 1993, as amended at 61 FR 42804, Aug. 19, 1996; 62 FR 53190, Oct. 10, 1997; 65 FR 54669, Sept. 8, 2000; 65 FR 57055, Sept. 20, 2000; 69 FR 56541, Sept. 21, 2004; 70 FR 3891, Jan. 27, 2005; 78 FR 11057, Feb. 14, 2013; 80 FR 17962, Apr. 2, 2015",
+   "amended_years": [
+    1993,
+    1996,
+    1997,
+    2000,
+    2004,
+    2005,
+    2013,
+    2015
+   ],
+   "text": "Standards for drawings. (a) Drawings. There are two acceptable categories for presenting drawings in utility and design patent applications. (1) Black ink. Black and white drawings are normally required. India ink, or its equivalent that secures solid black lines, must be used for drawings; or (2) Color. Color drawings are permitted in design applications. Where a design application contains color drawings, the application must include the number of sets of color drawings required by paragraph (a)(2)(ii) of this section and the specification must contain the reference required by paragraph (a)(2)(iii) of this section. On rare occasions, color drawings may be necessary as the only practical medium by which to disclose the subject matter sought to be patented in a utility patent application."
+  },
+  "1.69": {
+   "title": "Foreign language oaths and declarations.",
+   "refs": [
+    "1.63"
+   ],
+   "history": "[42 FR 5594, Jan. 28, 1977, as amended at 48 FR 2711, Jan. 20, 1983; 62 FR 53189, Oct. 10, 1997; 69 FR 56540, Sept. 21, 2004; 70 FR 3890, Jan. 27, 2005]",
+   "amended_years": [
+    1977,
+    1983,
+    1997,
+    2004,
+    2005
+   ],
+   "text": "Foreign language oaths and declarations. (a) Whenever an individual making an oath or declaration cannot understand English, the oath or declaration must be in a language that such individual can understand and shall state that such individual understands the content of any documents to which the oath or declaration relates. (b) Unless the text of any oath or declaration in a language other than English is in a form provided by the Patent and Trademark Office or in accordance with PCT Rule 4.17(iv), it must be accompanied by an English translation together with a statement that the translation is accurate, except that in the case of an oath or declaration filed under \u00a7 1.63, the translation may be filed in the Office no later than two months from the date applicant is notified to file the "
+  },
+  "1.821": {
+   "title": "Nucleotide and/or amino acid sequence disclosures in patent applications.",
+   "refs": [
+    "1.822",
+    "1.495",
+    "1.824",
+    "1.52",
+    "1.77",
+    "1.823"
+   ],
+   "history": "[63 FR 29634, June 1, 1998, as amended at 65 FR 54680, Sept. 8, 2000; 69 FR 18803, Apr. 9, 2004; 70 FR 10489, Mar. 4, 2005; 86 FR 57048, Oct. 14, 2021]",
+   "amended_years": [
+    1998,
+    2000,
+    2004,
+    2005,
+    2021
+   ],
+   "text": "Nucleotide and/or amino acid sequence disclosures in patent applications. (a) Nucleotide and/or amino acid sequences, as used in \u00a7\u00a7 1.821 through 1.825, are interpreted to mean an unbranched sequence of 4 or more amino acids or an unbranched sequence of 10 or more nucleotides. Branched sequences are specifically excluded from this definition. Sequences with fewer than four specifically defined nucleotides or amino acids are specifically excluded from this section. \u201cSpecifically defined\u201d means those amino acids other than \u201cXaa\u201d and those nucleotide bases other than \u201cn,\u201d defined in accordance with Appendices A through F to this subpart. Nucleotides and amino acids are further defined as follows: (1) Nucleotides. Nucleotides are intended to embrace only those nucleotides that can be represent"
+  },
+  "1.72": {
+   "title": "Title and abstract.",
+   "refs": [
+    "1.76"
+   ],
+   "history": "[65 FR 54667, Sept. 8, 2000, as amended at 65 FR 57054, Sept. 20, 2000; 68 FR 38628, June 30, 2003; 78 FR 62402, Oct. 21, 2013]",
+   "amended_years": [
+    2000,
+    2003,
+    2013
+   ],
+   "text": "Title and abstract. (a) The title of the invention may not exceed 500 characters in length and must be as short and specific as possible. Characters that cannot be captured and recorded in the Office's automated information systems may not be reflected in the Office's records in such systems or in documents created by the Office. Unless the title is supplied in an application data sheet (\u00a7 1.76), the title of the invention should appear as a heading on the first page of the specification. (b) A brief abstract of the technical disclosure in the specification must commence on a separate sheet, preferably following the claims, under the heading \u201cAbstract\u201d or \u201cAbstract of the Disclosure.\u201d The sheet or sheets presenting the abstract may not include other parts of the application or other materi"
+  },
+  "1.455": {
+   "title": "Representation in international applications.",
+   "refs": [
+    "11.9"
+   ],
+   "history": "[43 FR 20466, May 11, 1978, as amended at 50 FR 5171, Feb. 6, 1985; 58 FR 4345, Jan. 14, 1993; 68 FR 59888, Oct. 20, 2003; 69 FR 35452, June 24, 2004]",
+   "amended_years": [
+    1978,
+    1985,
+    1993,
+    2003,
+    2004
+   ],
+   "text": "Representation in international applications. (a) Applicants of international applications may be represented by attorneys or agents registered to practice before the United States Patent and Trademark Office or by an applicant appointed as a common representative (PCT Art. 49, Rules 4.8 and 90 and \u00a7 11.9). If applicants have not appointed an attorney or agent or one of the applicants to represent them, and there is more than one applicant, the applicant first named in the request and who is entitled to file in the U.S. Receiving Office shall be considered to be the common representative of all the applicants. An attorney or agent having the right to practice before a national office with which an international application is filed and for which the United States is an International Search"
+  },
+  "1.1041": {
+   "title": "Representation in an international design application.",
+   "refs": [
+    "11.6",
+    "11.9",
+    "1.34"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Representation in an international design application. (a) The applicant may appoint a representative before the International Bureau in accordance with Rule 3. (b) Applicants of international design applications may be represented before the Office as an office of indirect filing by a practitioner registered (\u00a7 11.6) or granted limited recognition (\u00a7 11.9(a) or (b)) to practice before the Office in patent matters. Such practitioner may act pursuant to \u00a7 1.34 or pursuant to appointment by the applicant. The appointment must be in writing signed by the applicant, must give the practitioner power to act on behalf of the applicant, and must specify the name and registration number or limited recognition number of each practitioner. An appointment of a representative made in the international "
+  },
+  "1.53": {
+   "title": "Application number, filing date, and completion of application.",
+   "refs": [
+    "1.78",
+    "1.51",
+    "1.76",
+    "1.17",
+    "1.16",
+    "1.55"
+   ],
+   "history": "[62 FR 53186, Oct. 10, 1997, as amended at 63 FR 5734, Feb. 4, 1998; 65 FR 14871, Mar. 20, 2000; 65 FR 50104, Aug. 16, 2000; 65 FR 54665, Sept. 8, 2000; 65 FR 78960, Dec. 18, 2000; 68 FR 14336, Mar. 25, 2003; 68 FR 32380, May 30, 2003; 69 FR 29878, May 26, 2004; 69 FR 56539, Sept. 21, 2004; 70 FR 38",
+   "amended_years": [
+    1997,
+    1998,
+    2000,
+    2003,
+    2004
+   ],
+   "text": "Application number, filing date, and completion of application. (a) Application number. Any papers received in the Patent and Trademark Office which purport to be an application for a patent will be assigned an application number for identification purposes. (b) Application filing requirements\u2014Nonprovisional application. The filing date of an application for patent filed under this section, other than an application for a design patent or a provisional application under paragraph (c) of this section, is the date on which a specification, with or without claims, is received in the Office. The filing date of an application for a design patent filed under this section, except for a continued prosecution application under paragraph (d) of this section, is the date on which the specification as"
+  },
+  "501.6": {
+   "title": "Criteria for the determination of rights in and to inventions.",
+   "refs": [],
+   "history": "[53 FR 39735, Oct. 11, 1988, as amended at 61 FR 40999, Aug. 7, 1996]",
+   "amended_years": [
+    1988,
+    1996
+   ],
+   "text": "Criteria for the determination of rights in and to inventions. (a) The following rules shall be applied in determining the respective rights of the Government and of the inventor in and to any invention that is subject to the provisions of this part: (1) The Government shall obtain, except as herein otherwise provided, the entire right, title and interest in and to any invention made by any Government employee: (i) During working hours, or (ii) With a contribution by the Government of facilities, equipment, materials, funds or information, or of time or services of other Government employees on official duty, or (iii) Which bears a direct relation to or is made in consequence of the official duties of the inventor. (2) In any case where the contribution of the Government, as measured by an"
+  },
+  "401.9": {
+   "title": "Contractor and contractor employee inventor requests for rights in inventions.",
+   "refs": [
+    "401.3",
+    "401.14"
+   ],
+   "history": "[88 FR 17737, Mar. 24, 2023]",
+   "amended_years": [
+    2023
+   ],
+   "text": "Contractor and contractor employee inventor requests for rights in inventions. (a) Agencies shall allow a contractor to request greater rights in an invention, including a request to return title to an invention to the contractor, when the funding agreement contains alternate provisions in accordance with \u00a7 401.3(a)(2): (1) The agency shall consider if the circumstances which originally led the agency to invoke an exception under \u00a7 401.3(a) are currently valid and applicable to the actual subject invention. (i) The agency shall provide the contractor the opportunity to submit information on its plans and intentions to bring the subject invention to practical application pursuant to 35 U.S.C. 200. (ii) The agency shall assess whether government ownership of the invention will better promote"
+  },
+  "1.16": {
+   "title": "National application filing, search, and examination fees.",
+   "refs": [
+    "1.29",
+    "1.27",
+    "1.57",
+    "1.51"
+   ],
+   "history": "[70 FR 3887, Jan. 27, 2005, as amended at 70 FR 30365, May 26, 2005; 72 FR 46901, Aug. 22, 2007; 73 FR 47540, Aug. 14, 2008; 76 FR 70653, Nov. 15, 2011; 77 FR 48812, Aug. 14, 2012; 77 FR 54365, Sept. 5, 2012; 78 FR 4284, Jan. 18, 2013; 78 FR 62395, Oct. 21, 2013; 80 FR 17954, Apr. 2, 2015; 82 FR 528",
+   "amended_years": [
+    2005,
+    2007,
+    2008,
+    2011,
+    2012,
+    2013,
+    2015
+   ],
+   "text": "National application filing, search, and examination fees. (a) Basic fee for filing each application under 35 U.S.C. 111 for an original patent, except design, plant, or provisional applications: Table 1 to Paragraph (a) By a micro entity (\u00a7 1.29) $70.00 By a small entity (\u00a7 1.27(a)) 140.00 By a small entity (\u00a7 1.27(a)) if the application is submitted in compliance with the USPTO electronic filing system (\u00a7 1.27(b)(2)) 70.00 By other than a small or micro entity 350.00 (b) Basic fee for filing each application under 35 U.S.C. 111 for an original design patent: Table 2 to Paragraph (b) By a micro entity (\u00a7 1.29) $60.00 By a small entity (\u00a7 1.27(a)) 120.00 By other than a small or micro entity 300.00 (c) Basic fee for filing each application for an original plant patent: Table 3 to Paragraph"
+  },
+  "1.141": {
+   "title": "Different inventions in one national application.",
+   "refs": [
+    "1.75"
+   ],
+   "history": "[52 FR 20046, May 28, 1987]",
+   "amended_years": [
+    1987
+   ],
+   "text": "Different inventions in one national application. (a) Two or more independent and distinct inventions may not be claimed in one national application, except that more than one species of an invention, not to exceed a reasonable number, may be specifically claimed in different claims in one national application, provided the application also includes an allowable claim generic to all the claimed species and all the claims to species in excess of one are written in dependent form (\u00a7 1.75) or otherwise include all the limitations of the generic claim. (b) Where claims to all three categories, product, process of making, and process of use, are included in a national application, a three way requirement for restriction can only be made where the process of making is distinct from the product. "
+  },
+  "1.104": {
+   "title": "Nature of examination.",
+   "refs": [
+    "1.21",
+    "1.9"
+   ],
+   "history": "[62 FR 53191, Oct. 10, 1997, as amended at 65 FR 14872, Mar. 20, 2000; 65 FR 54671, Sept. 8, 2000; 65 FR 57056, Sept. 20, 2000; 70 FR 1823, Jan. 11, 2005; 70 FR 54266, Sept. 14, 2005; 72 FR 46841, Aug. 21, 2007; 74 FR 52690, Oct. 14, 2009; 78 FR 11057, Feb. 14, 2013]",
+   "amended_years": [
+    1997,
+    2000,
+    2005,
+    2007,
+    2009,
+    2013
+   ],
+   "text": "Nature of examination. (a) Examiner's action. (1) On taking up an application for examination or a patent in a reexamination proceeding, the examiner shall make a thorough study thereof and shall make a thorough investigation of the available prior art relating to the subject matter of the claimed invention. The examination shall be complete with respect both to compliance of the application or patent under reexamination with the applicable statutes and rules and to the patentability of the invention as claimed, as well as with respect to matters of form, unless otherwise indicated. (2) The applicant, or in the case of a reexamination proceeding, both the patent owner and the requester, will be notified of the examiner's action. The reasons for any adverse action or any objection or requir"
+  },
+  "1.570": {
+   "title": "Issuance and publication of ex parte reexamination certificate concludes ex parte reexamination proceeding.",
+   "refs": [
+    "1.525",
+    "1.989",
+    "1.33",
+    "1.565"
+   ],
+   "history": "[65 FR 76777, Dec. 7, 2000, as amended at 72 FR 18905, Apr. 16, 2007]",
+   "amended_years": [
+    2000,
+    2007
+   ],
+   "text": "Issuance and publication of ex parte reexamination certificate concludes ex parte reexamination proceeding. (a) To conclude an ex parte reexamination proceeding, the Director will issue and publish an ex parte reexamination certificate in accordance with 35 U.S.C. 307 setting forth the results of the ex parte reexamination proceeding and the content of the patent following the ex parte reexamination proceeding. (b) An ex parte reexamination certificate will be issued and published in each patent in which an ex parte reexamination proceeding has been ordered under \u00a7 1.525 and has not been merged with any inter partes reexamination proceeding pursuant to \u00a7 1.989(a). Any statutory disclaimer filed by the patent owner will be made part of the ex parte reexamination certificate. (c) The ex part"
+  },
+  "1.17": {
+   "title": "Patent application and reexamination processing fees.",
+   "refs": [
+    "1.53",
+    "1.29",
+    "1.27"
+   ],
+   "history": "[78 FR 17105, Mar. 20, 2013, as amended at 78 FR 62395, Oct. 21, 2013; 78 FR 75252, Dec. 11, 2013; 80 FR 17954, Apr. 2, 2015; 82 FR 52814, Nov. 14, 2017; 85 FR 46986, Aug. 3, 2020; 85 FR 58283, Sept. 18, 2020; 88 FR 17154, Mar. 22, 2023; 89 FR 92004, Nov. 20, 2024; 90 FR 39126, Aug. 14, 2025; 91 FR ",
+   "amended_years": [
+    2013,
+    2015,
+    2017,
+    2020,
+    2023,
+    2024,
+    2025
+   ],
+   "text": "Patent application and reexamination processing fees. (a) Extension fees pursuant to \u00a7 1.136(a), except in provisional applications filed under \u00a7 1.53(c): (1) For reply within first month: Table 1 to Paragraph (a)(1) By a micro entity (\u00a7 1.29) $47.00 By a small entity (\u00a7 1.27(a)) 94.00 By other than a small or micro entity 235.00 (2) For reply within second month: Table 2 to Paragraph (a)(2) By a micro entity (\u00a7 1.29) $138.00 By a small entity (\u00a7 1.27(a)) 276.00 By other than a small or micro entity 690.00 (3) For reply within third month: Table 3 to Paragraph (a)(3) By a micro entity (\u00a7 1.29) $318.00 By a small entity (\u00a7 1.27(a)) 636.00 By other than a small or micro entity 1,590.00 (4) For reply within fourth month: Table 4 to Paragraph (a)(4) By a micro entity (\u00a7 1.29) $499.00 By a smal"
+  },
+  "90.3": {
+   "title": "Time for appeal or civil action.",
+   "refs": [],
+   "history": "[77 FR 48677, Aug. 14, 2012, as amended at 89 FR 22086, Mar. 29, 2024]",
+   "amended_years": [
+    2012,
+    2024
+   ],
+   "text": "Time for appeal or civil action. (a) Filing deadline. (1) For an appeal under 35 U.S.C. 141. The notice of appeal filed pursuant to 35 U.S.C. 142 must be filed with the Director of the United States Patent and Trademark Office no later than sixty-three (63) days after the date of the final Board decision. Any notice of cross-appeal is controlled by Rule 4(a)(3) of the Federal Rules of Appellate Procedure, and any other requirement imposed by the Rules of the United States Court of Appeals for the Federal Circuit. (2) For a notice of election under 35 U.S.C. 141(d). The time for filing a notice of election under 35 U.S.C. 141(d) is governed by 35 U.S.C. 141(d). (3) For a civil action under 35 U.S.C. 145 or 146. (i) A civil action must be commenced no later than sixty-three (63) days after t"
+  },
+  "1.560": {
+   "title": "Interviews in ex parte reexamination proceedings.",
+   "refs": [],
+   "history": "[65 FR 76777, Dec. 7, 2000]",
+   "amended_years": [
+    2000
+   ],
+   "text": "Interviews in ex parte reexamination proceedings. (a) Interviews in ex parte reexamination proceedings pending before the Office between examiners and the owners of such patents or their attorneys or agents of record must be conducted in the Office at such times, within Office hours, as the respective examiners may designate. Interviews will not be permitted at any other time or place without the authority of the Director. Interviews for the discussion of the patentability of claims in patents involved in ex parte reexamination proceedings will not be conducted prior to the first official action. Interviews should be arranged in advance. Requests that reexamination requesters participate in interviews with examiners will not be granted. (b) In every instance of an interview with an examine"
+  },
+  "1.137": {
+   "title": "Revival of abandoned application, or terminated or limited reexamination prosecution.",
+   "refs": [
+    "1.550",
+    "1.17",
+    "1.20",
+    "1.57",
+    "1.510"
+   ],
+   "history": "[78 FR 62405, Oct. 21, 2013, as amended at 80 FR 17963, Apr. 2, 2015]",
+   "amended_years": [
+    2013,
+    2015
+   ],
+   "text": "Revival of abandoned application, or terminated or limited reexamination prosecution. (a) Revival on the basis of unintentional delay. If the delay in reply by applicant or patent owner was unintentional, a petition may be filed pursuant to this section to revive an abandoned application or a reexamination prosecution terminated under \u00a7 1.550(d) or \u00a7 1.957(b) or limited under \u00a7 1.957(c). (b) Petition requirements. A grantable petition pursuant to this section must be accompanied by: (1) The reply required to the outstanding Office action or notice, unless previously filed; (2) The petition fee as set forth in \u00a7 1.17(m); (3) Any terminal disclaimer (and fee as set forth in \u00a7 1.20(d)) required pursuant to paragraph (d) of this section; and (4) A statement that the entire delay in filing the "
+  },
+  "1.248": {
+   "title": "Service of papers; manner of service; proof of service in cases other than interferences and trials.",
+   "refs": [],
+   "history": "[46 FR 29184, May 29, 1981, as amended at 49 FR 48454, Dec. 12, 1984; 69 FR 50000, Aug. 12, 2004; 69 FR 58260, Sept. 30, 2004; 77 FR 46626, Aug. 6, 2012]",
+   "amended_years": [
+    1981,
+    1984,
+    2004,
+    2012
+   ],
+   "text": "Service of papers; manner of service; proof of service in cases other than interferences and trials. (a) Service of papers must be on the attorney or agent of the party if there be such or on the party if there is no attorney or agent, and may be made in any of the following ways: (1) By delivering a copy of the paper to the person served; (2) By leaving a copy at the usual place of business of the person served with someone in his employment; (3) When the person served has no usual place of business, by leaving a copy at the person's residence, with some person of suitable age and discretion who resides there; (4) Transmission by first class mail. When service is by mail the date of mailing will be regarded as the date of service; (5) Whenever it shall be satisfactorily shown to the Direc"
+  },
+  "1.535": {
+   "title": "Reply by third party requester in ex parte reexamination.",
+   "refs": [
+    "1.530",
+    "1.248"
+   ],
+   "history": "[65 FR 76776, Dec. 7, 2000]",
+   "amended_years": [
+    2000
+   ],
+   "text": "Reply by third party requester in ex parte reexamination. A reply to the patent owner's statement under \u00a7 1.530 may be filed by the ex parte reexamination requester within two months from the date of service of the patent owner's statement. Any reply by the ex parte requester must be served upon the patent owner in accordance with \u00a7 1.248. If the patent owner does not file a statement under \u00a7 1.530, no reply or other submission from the ex parte reexamination requester will be considered. [65 FR 76776, Dec. 7, 2000]"
+  },
+  "1.525": {
+   "title": "Order for ex parte reexamination.",
+   "refs": [
+    "1.515",
+    "1.520"
+   ],
+   "history": "[65 FR 76775, Dec. 7, 2000]",
+   "amended_years": [
+    2000
+   ],
+   "text": "Order for ex parte reexamination. (a) If a substantial new question of patentability is found pursuant to \u00a7 1.515 or \u00a7 1.520, the determination will include an order for ex parte reexamination of the patent for resolution of the question. If the order for ex parte reexamination resulted from a petition pursuant to \u00a7 1.515(c), the ex parte reexamination will ordinarily be conducted by an examiner other than the examiner responsible for the initial determination under \u00a7 1.515(a). (b) The notice published in the Official Gazette under \u00a7 1.11(c) will be considered to be constructive notice and ex parte reexamination will proceed. [65 FR 76775, Dec. 7, 2000]"
+  },
+  "1.78": {
+   "title": "Claiming benefit of earlier filing date and cross-references to other applications.",
+   "refs": [
+    "1.53",
+    "1.16",
+    "1.76"
+   ],
+   "history": "[80 FR 17959, Apr. 2, 2015, as amended at 89 FR 92008, Nov. 20, 2024]",
+   "amended_years": [
+    2015,
+    2024
+   ],
+   "text": "Claiming benefit of earlier filing date and cross-references to other applications. (a) Claims under 35 U.S.C. 119(e) for the benefit of a prior-filed provisional application. An applicant in a nonprovisional application, other than for a design patent, or an international application designating the United States may claim the benefit of one or more prior-filed provisional applications under the conditions set forth in 35 U.S.C. 119(e) and this section. (1) The nonprovisional application or international application designating the United States must be: (i) Filed not later than twelve months after the date on which the provisional application was filed, subject to paragraph (b) of this section (a subsequent application); or (ii) Entitled to claim the benefit under 35 U.S.C. 120, 121, or "
+  },
+  "3.11": {
+   "title": "Documents which will be recorded.",
+   "refs": [],
+   "history": "[62 FR 53202, Oct. 10, 1997, as amended at 70 FR 1824, Jan. 11, 2005; 70 FR 54267, Sept. 14, 2005; 78 FR 62408, Oct. 21, 2013]",
+   "amended_years": [
+    1997,
+    2005,
+    2013
+   ],
+   "text": "Documents which will be recorded. (a) Assignments of applications, patents, and registrations, and other documents relating to interests in patent applications and patents, accompanied by completed cover sheets as specified in \u00a7 3.28 and \u00a7 3.31, will be recorded in the Office. Other documents, accompanied by completed cover sheets as specified in \u00a7 3.28 and \u00a7 3.31, affecting title to applications, patents, or registrations, will be recorded as provided in this part or at the discretion of the Director. (b) Executive Order 9424 of February 18, 1944 (9 FR 1959, 3 CFR 1943-1948 Comp., p. 303) requires the several departments and other executive agencies of the Government, including Government-owned or Government-controlled corporations, to forward promptly to the Director for recording all li"
+  },
+  "1.41": {
+   "title": "Inventorship.",
+   "refs": [
+    "1.76",
+    "1.53",
+    "1.48",
+    "1.17",
+    "1.51"
+   ],
+   "history": "[77 FR 48814, Aug. 14, 2012, as amended at 80 FR 17956, Apr. 2, 2015]",
+   "amended_years": [
+    2012,
+    2015
+   ],
+   "text": "Inventorship. (a) An application must include, or be amended to include, the name of the inventor for any invention claimed in the application. (b) The inventorship of a nonprovisional application under 35 U.S.C. 111(a) is the inventor or joint inventors set forth in the application data sheet in accordance with \u00a7 1.76 filed before or concurrently with the inventor's oath or declaration. If an application data sheet is not filed before or concurrently with the inventor's oath or declaration, the inventorship is the inventor or joint inventors set forth in the inventor's oath or declaration, except as provided for in \u00a7\u00a7 1.53(d)(4) and 1.63(d). Once an application data sheet or the inventor's oath or declaration is filed in a nonprovisional application, any correction of inventorship must be"
+  },
+  "1.76": {
+   "title": "Application data sheet.",
+   "refs": [
+    "1.55",
+    "1.33",
+    "1.57",
+    "1.32",
+    "1.78",
+    "1.63",
+    "1.64",
+    "1.48"
+   ],
+   "history": "[65 FR 54668, Sept. 8, 2000, as amended at 65 FR 57054, Sept. 20, 2000; 69 FR 56540, Sept. 21, 2004; 70 FR 54266, Sept. 14, 2005;; 72 FR 46837, Aug. 21, 2007; 74 FR 52689, Oct. 14, 2009; 77 FR 48820, Aug. 14, 2012; 78 FR 11055, Feb. 14, 2013; 78 FR 62402, Oct. 21, 2013; 80 FR 17959, Apr. 2, 2015]",
+   "amended_years": [
+    2000,
+    2004,
+    2005,
+    2007,
+    2009,
+    2012,
+    2013,
+    2015
+   ],
+   "text": "Application data sheet. (a) Application data sheet. An application data sheet is a sheet or sheets that may be submitted in a provisional application under 35 U.S.C. 111(b), a nonprovisional application under 35 U.S.C. 111(a), a nonprovisional international design application, or a national stage application under 35 U.S.C. 371 and must be submitted when required by \u00a7 1.55 or 1.78 to claim priority to or the benefit of a prior-filed application under 35 U.S.C. 119, 120, 121, 365, or 386. An application data sheet must be titled \u201cApplication Data Sheet.\u201d An application data sheet must contain all of the section headings listed in paragraph (b) of this section, except as provided in paragraph (c)(2) of this section, with any appropriate data for each section heading. If an application data s"
+  },
+  "1.63": {
+   "title": "Inventor's oath or declaration.",
+   "refs": [
+    "1.64",
+    "1.76",
+    "1.51",
+    "1.78",
+    "1.33",
+    "1.48",
+    "1.324"
+   ],
+   "history": "[77 FR 48818, Aug. 14, 2012, as amended at 80 FR 17959, Apr. 2, 2015]",
+   "amended_years": [
+    2012,
+    2015
+   ],
+   "text": "Inventor's oath or declaration. (a) The inventor, or each individual who is a joint inventor of a claimed invention, in an application for patent must execute an oath or declaration directed to the application, except as provided for in \u00a7 1.64. An oath or declaration under this section must: (1) Identify the inventor or joint inventor executing the oath or declaration by his or her legal name; (2) Identify the application to which it is directed; (3) Include a statement that the person executing the oath or declaration believes the named inventor or joint inventor to be the original inventor or an original joint inventor of a claimed invention in the application for which the oath or declaration is being submitted; and (4) State that the application was made or was authorized to be made by"
+  },
+  "1.64": {
+   "title": "Substitute statement in lieu of an oath or declaration.",
+   "refs": [
+    "1.63",
+    "1.76"
+   ],
+   "history": "[77 FR 48819, Aug. 14, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Substitute statement in lieu of an oath or declaration. (a) An applicant under \u00a7 1.43, 1.45 or 1.46 may execute a substitute statement in lieu of an oath or declaration under \u00a7 1.63 if the inventor is deceased, is under a legal incapacity, has refused to execute the oath or declaration under \u00a7 1.63, or cannot be found or reached after diligent effort. (b) A substitute statement under this section must: (1) Comply with the requirements of \u00a7 1.63(a), identifying the inventor or joint inventor with respect to whom a substitute statement in lieu of an oath or declaration is executed, and stating upon information and belief the facts which such inventor is required to state; (2) Identify the person executing the substitute statement and the relationship of such person to the inventor or joint i"
+  },
+  "1.51": {
+   "title": "General requisites of an application.",
+   "refs": [
+    "1.53",
+    "1.63",
+    "1.16",
+    "1.41"
+   ],
+   "history": "[62 FR 53185, Oct. 10, 1997, as amended at 65 FR 54664, Sept. 8, 2000; 68 FR 14336, Mar. 25, 2003; 70 FR 3889, Jan. 27, 2005; 77 FR 46624, Aug. 6, 2012; 77 FR 48816, Aug. 14, 2012; 78 FR 62396, Oct. 21, 2013]",
+   "amended_years": [
+    1997,
+    2000,
+    2003,
+    2005,
+    2012,
+    2013
+   ],
+   "text": "General requisites of an application. (a) Applications for patents must be made to the Director of the United States Patent and Trademark Office. An application transmittal letter limited to the transmittal of the documents and fees comprising a patent application under this section may be signed by a juristic applicant or patent owner. (b) A complete application filed under \u00a7 1.53(b) or \u00a7 1.53(d) comprises: (1) A specification as prescribed by 35 U.S.C. 112, including a claim or claims, see \u00a7\u00a7 1.71 to 1.77; (2) The inventor's oath or declaration, see \u00a7\u00a7 1.63 and 1.64; (3) Drawings, when necessary, see \u00a7\u00a7 1.81 to 1.85; and (4) The prescribed filing fee, search fee, examination fee, and application size fee, see \u00a7 1.16. (c) A complete provisional application filed under \u00a7 1.53(c) comprises:"
+  },
+  "1.171": {
+   "title": "Application for reissue.",
+   "refs": [],
+   "history": "[62 FR 53196, Oct. 10, 1997]",
+   "amended_years": [
+    1997
+   ],
+   "text": "Application for reissue. An application for reissue must contain the same parts required for an application for an original patent, complying with all the rules relating thereto except as otherwise provided, and in addition, must comply with the requirements of the rules relating to reissue applications. [62 FR 53196, Oct. 10, 1997]"
+  },
+  "1.502": {
+   "title": "Processing of prior art citations during an ex parte reexamination proceeding.",
+   "refs": [
+    "1.510",
+    "1.535",
+    "1.525"
+   ],
+   "history": "[72 FR 18905, Apr. 16, 2007]",
+   "amended_years": [
+    2007
+   ],
+   "text": "Processing of prior art citations during an ex parte reexamination proceeding. Citations by the patent owner under \u00a7 1.555 and by an ex parte reexamination requester under either \u00a7 1.510 or \u00a7 1.535 will be entered in the reexamination file during a reexamination proceeding. The entry in the patent file of citations submitted after the date of an order to reexamine pursuant to \u00a7 1.525 by persons other than the patent owner, or an ex parte reexamination requester under either \u00a7 1.510 or \u00a7 1.535, will be delayed until the reexamination proceeding has been concluded by the issuance and publication of a reexamination certificate. See \u00a7 1.902 for processing of prior art citations in patent and reexamination files during an inter partes reexamination proceeding filed under \u00a7 1.913. [72 FR 18905, "
+  },
+  "1.32": {
+   "title": "Power of attorney.",
+   "refs": [
+    "11.6",
+    "11.9",
+    "1.42",
+    "1.363",
+    "1.48",
+    "1.34"
+   ],
+   "history": "[69 FR 29877, May 26, 2004, as amended at 70 FR 56127, Sept. 26, 2005; 77 FR 48813, Aug. 14, 2012; 80 FR 17956, Apr. 2, 2015; 88 FR 78649, Nov. 16, 2023; 91 FR 13519, Mar. 20, 2026]",
+   "amended_years": [
+    2004,
+    2005,
+    2012,
+    2015,
+    2023,
+    2026
+   ],
+   "text": "Power of attorney. (a) Definitions. (1) Patent practitioner means a practitioner registered under \u00a7 11.6 or an individual given limited recognition under \u00a7 11.9(a) or (b) or \u00a7 11.16. Only these persons are permitted to represent others before the Office in patent matters. An attorney or agent registered under \u00a7 11.6(d) may only act as a practitioner in design patent applications or other design patent matters or design patent proceedings. (2) Power of attorney means a written document by which a principal authorizes one or more patent practitioners or joint inventors to act on the principal's behalf. (3) Principal means the applicant (\u00a7 1.42) for an application for patent and the patent owner for a patent, including a patent in a supplemental examination or reexamination proceeding. The pr"
+  },
+  "1.42": {
+   "title": "Applicant for patent.",
+   "refs": [
+    "1.63",
+    "1.33"
+   ],
+   "history": "[77 FR 48815, Aug. 14, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Applicant for patent. (a) The word \u201capplicant\u201d when used in this title refers to the inventor or all of the joint inventors, or to the person applying for a patent as provided in \u00a7\u00a7 1.43, 1.45, or 1.46. (b) If a person is applying for a patent as provided in \u00a7 1.46, the word \u201capplicant\u201d refers to the assignee, the person to whom the inventor is under an obligation to assign the invention, or the person who otherwise shows sufficient proprietary interest in the matter, who is applying for a patent under \u00a7 1.46 and not the inventor. (c) If fewer than all joint inventors are applying for a patent as provided in \u00a7 1.45, the phrase \u201cthe applicant\u201d means the joint inventors who are applying for the patent without the omitted inventor(s). (d) Any person having authority may deliver an application"
+  },
+  "1.363": {
+   "title": "Fee address for maintenance fee purposes.",
+   "refs": [
+    "1.33"
+   ],
+   "history": "[49 FR 34725, Aug. 31, 1984, as amended at 69 FR 29878, May 26, 2004]",
+   "amended_years": [
+    1984,
+    2004
+   ],
+   "text": "Fee address for maintenance fee purposes. (a) All notices, receipts, refunds, and other communications relating to payment or refund of maintenance fees will be directed to the correspondence address used during prosecution of the application as indicated in \u00a7 1.33(a) unless: (1) A fee address for purposes of payment of maintenance fees is set forth when submitting the issue fee, or (2) A change in the correspondence address for all purposes is filed after payment of the issue fee, or (3) A fee address or a change in the \u201cfee address\u201d is filed for purposes of receiving notices, receipts and other correspondence relating to the payment of maintenance fees after the payment of the issue fee, in which instance, the latest such address will be used. (b) An assignment of a patent application or"
+  },
+  "11.11": {
+   "title": "Administrative suspension, inactivation, resignation, reinstatement, and revocation.",
+   "refs": [
+    "11.9",
+    "1.21"
+   ],
+   "history": "[86 FR 28455, May 26, 2021, as amended at 87 FR 68057, Nov. 14, 2022]",
+   "amended_years": [
+    2021,
+    2022
+   ],
+   "text": "Administrative suspension, inactivation, resignation, reinstatement, and revocation. (a) Contact information. (1) A registered practitioner, or person granted limited recognition under \u00a7 11.9(b), must notify the OED Director of the postal address for their office, at least one and up to three email addresses where they receive email, and a business telephone number, as well as every change to each of said addresses and telephone number within thirty days of the date of the change. A registered practitioner, or person granted limited recognition under \u00a7 11.9(b), shall, in addition to any notice of change of address and telephone number filed in individual patent applications, separately file written notice of the change of address or telephone number with the OED Director. A registered prac"
+  },
+  "1.515": {
+   "title": "Determination of the request for ex parte reexamination.",
+   "refs": [
+    "1.501",
+    "1.33"
+   ],
+   "history": "[65 FR 76775, Dec. 7, 2000, as amended at 77 FR 46626, Aug. 6, 2012]",
+   "amended_years": [
+    2000,
+    2012
+   ],
+   "text": "Determination of the request for ex parte reexamination. (a) Within three months following the filing date of a request for an ex parte reexamination, an examiner will consider the request and determine whether or not a substantial new question of patentability affecting any claim of the patent is raised by the request and the prior art cited therein, with or without consideration of other patents or printed publications. A statement and any accompanying information submitted pursuant to \u00a7 1.501(a)(2) will not be considered by the examiner when making a determination on the request. The examiner's determination will be based on the claims in effect at the time of the determination, will become a part of the official file of the patent, and will be given or mailed to the patent owner at the"
+  },
+  "1.520": {
+   "title": "Ex parte reexamination at the initiative of the Director.",
+   "refs": [
+    "1.510",
+    "1.33"
+   ],
+   "history": "[65 FR 76775, Dec. 7, 2000]",
+   "amended_years": [
+    2000
+   ],
+   "text": "Ex parte reexamination at the initiative of the Director. The Director, at any time during the period of enforceability of a patent, may determine whether or not a substantial new question of patentability is raised by patents or printed publications which have been discovered by the Director or which have been brought to the Director's attention, even though no request for reexamination has been filed in accordance with \u00a7 1.510 or \u00a7 1.913. The Director may initiate ex parte reexamination without a request for reexamination pursuant to \u00a7 1.510 or \u00a7 1.913. Normally requests from outside the Office that the Director undertake reexamination on his own initiative will not be considered. Any determination to initiate ex parte reexamination under this section will become a part of the official f"
+  },
+  "1.937": {
+   "title": "Conduct of inter partes reexamination.",
+   "refs": [
+    "1.104",
+    "1.20",
+    "1.78",
+    "1.530"
+   ],
+   "history": "[65 FR 76777, as amended at 77 FR 46628, Aug. 6, 2012; 77 FR 48853, Aug. 14, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Conduct of inter partes reexamination. (a) All inter partes reexamination proceedings, including any appeals to the Patent Trial and Appeal Board, will be conducted with special dispatch within the Office, unless the Director makes a determination that there is good cause for suspending the reexamination proceeding. (b) The inter partes reexamination proceeding will be conducted in accordance with \u00a7\u00a7 1.104 through 1.116, the sections governing the application examination process, and will result in the issuance of an inter partes reexamination certificate under \u00a7 1.997, except as otherwise provided. (c) All communications between the Office and the parties to the inter partes reexamination which are directed to the merits of the proceeding must be in writing and filed with the Office for e"
+  },
+  "1.96": {
+   "title": "Submission of computer program listings.",
+   "refs": [
+    "1.84",
+    "1.52",
+    "1.77"
+   ],
+   "history": "[61 FR 42804, Aug. 19, 1996, as amended at 65 FR 54670, Sept. 8, 2000; 70 FR 54266, Sept. 14, 2005; 86 FR 57047, Oct. 14, 2021]",
+   "amended_years": [
+    1996,
+    2000,
+    2005,
+    2021
+   ],
+   "text": "Submission of computer program listings. (a) General. Descriptions of the operation and general content of computer program listings should appear in the description portion of the specification. A computer program listing for the purpose of this section is defined as a document that lists, in appropriate sequence, the instructions, routines, and other contents of a program for a computer. The program listing may be either in machine or machine-independent (object or source) language that will cause a computer to perform a desired procedure or task such as solving a problem, regulating the flow of work in a computer, or controlling or monitoring events. Computer program listings may be submitted in patent applications, as set forth in paragraphs (b) and (c) of this section. (b) Material wh"
+  },
+  "1.831": {
+   "title": "Requirements for patent applications filed on or after July 1, 2022, having nucleotide and/or amino acid sequence disclo",
+   "refs": [],
+   "history": "[87 FR 30818, May 20, 2022, as amended at 88 FR 34091, May 26, 2023]",
+   "amended_years": [
+    2022,
+    2023
+   ],
+   "text": "Requirements for patent applications filed on or after July 1, 2022, having nucleotide and/or amino acid sequence disclosures. (a) Patent applications disclosing a nucleotide and/or amino acid sequence(s) by enumeration of its residues, as defined in paragraph (b) of this section, must contain, as a separate part of the disclosure, a computer readable Sequence Listing in XML format (a \u201cSequence Listing XML\u201d). Disclosed nucleotide or amino acid sequences that do not meet the definition in paragraph (b) of this section must not be included in the \u201cSequence Listing XML.\u201d The \u201cSequence Listing XML\u201d contains the information of the nucleotide and/or amino acid sequence(s) disclosed in the patent application using the symbols and format in accordance with the requirements of \u00a7\u00a7 1.832 through 1.83"
+  },
+  "1.825": {
+   "title": "Amendment to add or replace a \u201cSequence Listing\u201d and CRF copy thereof.",
+   "refs": [
+    "1.821",
+    "1.52",
+    "1.77",
+    "1.824"
+   ],
+   "history": "[86 FR 57051, Oct. 14, 2021]",
+   "amended_years": [
+    2021
+   ],
+   "text": "Amendment to add or replace a \u201cSequence Listing\u201d and CRF copy thereof. (a) Any amendment adding a \u201cSequence Listing\u201d (\u00a7 1.821(c)) after the application filing date must include: (1) A \u201cSequence Listing,\u201d in accordance with the requirements of \u00a7\u00a7 1.821 through 1.824, submitted as: (i) An ASCII plain text file, under \u00a7 1.821(c)(1), via the USPTO patent electronic filing system or on a read-only optical disc, in compliance with \u00a7 1.52(e); (ii) A PDF file via the USPTO patent electronic filing system; or (iii) Physical sheets of paper; (2) A request that the amendment be made: (i) By incorporation by reference of the material in the ASCII plain text file, in a separate paragraph of the specification, identifying the name of the file, the date of creation, and the size of the file in bytes ( se"
+  },
+  "1.835": {
+   "title": "Amendment to add or replace a \u201cSequence Listing XML\u201d in patent applications filed on or after July 1, 2022.",
+   "refs": [
+    "1.831",
+    "1.52",
+    "1.77"
+   ],
+   "history": "[87 FR 30818, May 20, 2022]",
+   "amended_years": [
+    2022
+   ],
+   "text": "Amendment to add or replace a \u201cSequence Listing XML\u201d in patent applications filed on or after July 1, 2022. (a) Any amendment to a patent application adding an initial submission of a \u201cSequence Listing XML\u201d as required by \u00a7 1.831(a) after the application filing date must include: (1) A \u201cSequence Listing XML\u201d in accordance with \u00a7\u00a7 1.831 through 1.834, submitted as an XML file: (i) Via the USPTO patent electronic filing system; or (ii) On a read-only optical disc, in compliance with \u00a7 1.52(e); (2) A request to amend the specification to include an incorporation by reference statement of the material in the \u201cSequence Listing XML\u201d file, identifying the name of the file, the date of creation, and the size of the file in bytes ( see \u00a7 1.77(b)(5)(ii)), except when submitted to the United States I"
+  },
+  "1.77": {
+   "title": "Arrangement of application elements.",
+   "refs": [
+    "1.76",
+    "1.52",
+    "1.96",
+    "1.821",
+    "1.58",
+    "1.831"
+   ],
+   "history": "[65 FR 54668, Sept. 8, 2000, as amended at 70 FR 1823, Jan. 11, 2005; 77 FR 48820, Aug. 14, 2012; 78 FR 11055, Feb. 14, 2013; 86 FR 57047, Oct. 14, 2021; 86 FR 73985, Dec. 29, 2021; 87 FR 30817, May 20, 2022]",
+   "amended_years": [
+    2000,
+    2005,
+    2012,
+    2013,
+    2021,
+    2022
+   ],
+   "text": "Arrangement of application elements. (a) The elements of the application, if applicable, should appear in the following order: (1) Utility application transmittal form. (2) Fee transmittal form. (3) Application data sheet (see \u00a7 1.76). (4) Specification. (5) Drawings. (6) The inventor's oath or declaration. (b) The specification should include the following sections in order: (1) Title of the invention, which may be accompanied by an introductory portion stating the name, citizenship, and residence of the applicant (unless included in the application data sheet). (2) Cross-reference to related applications. (3) Statement regarding federally sponsored research or development. (4) The names of the parties to a joint research agreement. (5) An incorporation by reference statement regarding th"
+  },
+  "1.121": {
+   "title": "Manner of making amendments in applications.",
+   "refs": [
+    "1.52",
+    "1.58",
+    "1.96",
+    "1.825",
+    "1.835",
+    "1.77"
+   ],
+   "history": "[68 FR 38628, June 30, 2003, as amended at 69 FR 56543, Sept. 21, 2004; 80 FR 17963, Apr. 2, 2015; 86 FR 57048, Oct. 14, 2021; 87 FR 30817, May 20, 2022]",
+   "amended_years": [
+    2003,
+    2004,
+    2015,
+    2021,
+    2022
+   ],
+   "text": "Manner of making amendments in applications. (a) Amendments in applications, other than reissue applications. Amendments in applications, other than reissue applications, are made by filing a paper, in compliance with \u00a7 1.52, directing that specified amendments be made. (b) Specification. Amendments to the specification, other than the claims, \u201cLarge Tables\u201d (\u00a7 1.58(c)), a \u201cComputer Program Listing Appendix\u201d (\u00a7 1.96(c)(5) and (7)), a \u201cSequence Listing\u201d (\u00a7 1.825), or a \u201cSequence Listing XML\u201d (\u00a7 1.835), must be made by adding, deleting, or replacing a paragraph; by replacing a section; or by providing a substitute specification, in the manner specified in this section. (1) Amendment to delete, replace, or add a paragraph. Amendments to the specification, including amendment to a section head"
+  },
+  "1.822": {
+   "title": "Symbols and format to be used for nucleotide and/or amino acid sequence data.",
+   "refs": [
+    "1.823"
+   ],
+   "history": "[63 FR 29635, June 1, 1998, as amended at 69 FR 18803, Apr. 9, 2004; 70 FR 10489, Mar. 4, 2005; 86 FR 57050, Oct. 14, 2021]",
+   "amended_years": [
+    1998,
+    2004,
+    2005,
+    2021
+   ],
+   "text": "Symbols and format to be used for nucleotide and/or amino acid sequence data. (a) The symbols and format to be used for nucleotide and/or amino acid sequence data shall conform to the requirements of paragraphs (b) through (e) of this section. (b) The code for representing the nucleotide and/or amino acid sequence characters shall conform to the code set forth in appendices A and C to this subpart. No code other than that specified in these sections shall be used in nucleotide and amino acid sequences. A modified base or modified or unusual amino acid may be presented in a given sequence as the corresponding unmodified base or amino acid if the modified base or modified or unusual amino acid is one of those listed in appendices B and D to this subpart, and the modification is also set fort"
+  },
+  "1.495": {
+   "title": "Entering the national stage in the United States of America.",
+   "refs": [
+    "1.63",
+    "1.76",
+    "1.64",
+    "1.831"
+   ],
+   "history": "[52 FR 20051, May 28, 1987, as amended at 58 FR 4347, Jan. 14, 1993; 63 FR 29620, June 1, 1998; 65 FR 57060, Sept. 20, 2000; 67 FR 523, Jan. 4, 2002; 68 FR 71007, Dec. 22, 2003; 70 FR 3892, Jan. 27, 2005; 70 FR 30365, May 26, 2005; 72 FR 46843, Aug. 21, 2007; 74 FR 52691, Oct. 14, 2009; 77 FR 48824,",
+   "amended_years": [
+    1987,
+    1993,
+    1998,
+    2000,
+    2002,
+    2003,
+    2005,
+    2007,
+    2009
+   ],
+   "text": "Entering the national stage in the United States of America. (a) The applicant in an international application must fulfill the requirements of 35 U.S.C. 371 within the time periods set forth in paragraphs (b) and (c) of this section in order to prevent the abandonment of the international application as to the United States of America. The thirty-month time period set forth in paragraphs (b), (c), (d), (e) and (h) of this section may not be extended. (b) To avoid abandonment of the application, the applicant shall furnish to the United States Patent and Trademark Office not later than the expiration of thirty months from the priority date: (1) A copy of the international application, unless it has been previously communicated by the International Bureau or unless it was originally filed i"
+  },
+  "1.824": {
+   "title": "Form and format for a nucleotide and/or amino acid sequence submission as an ASCII plain text file.",
+   "refs": [
+    "1.821",
+    "1.52"
+   ],
+   "history": "[86 FR 57051, Oct. 14, 2021]",
+   "amended_years": [
+    2021
+   ],
+   "text": "Form and format for a nucleotide and/or amino acid sequence submission as an ASCII plain text file. (a) A \u201cSequence Listing\u201d under \u00a7 1.821(c)(1) and the CRF required by \u00a7 1.821(e) submitted as an ASCII plain text file may be created by any means, such as text editors, nucleotide/amino acid sequence editors, or other custom computer programs; however, the ASCII plain text file must conform to the following requirements: (1) Must have the following compatibilities: (i) Computer compatibility: PC or Mac\u00ae; and (ii) Operating system compatibility: MS-DOS\u00ae, MS-Windows\u00ae, Mac OS\u00ae, or Unix\u00ae/Linux\u00ae. (2) Must be in ASCII plain text, where: (i) All printable characters (including the space character) are permitted; and (ii) No nonprintable (ASCII control) characters are permitted, except ASCII CRLF or"
+  },
+  "1.823": {
+   "title": "Requirements for content of a \u201cSequence Listing\u201d part of the specification.",
+   "refs": [
+    "1.821",
+    "1.52",
+    "1.77"
+   ],
+   "history": "[86 FR 57050, Oct. 14, 2021]",
+   "amended_years": [
+    2021
+   ],
+   "text": "Requirements for content of a \u201cSequence Listing\u201d part of the specification. (a) The \u201cSequence Listing\u201d must comply with the following: (1) The order and presentation of the items of information in the \u201cSequence Listing\u201d shall conform to the arrangement in appendix G to this subpart. The submission of those items of information designated with an \u201cM\u201d is mandatory. The submission of those items of information designated with an \u201cO\u201d is optional. (2) Each item of information shall begin on a new line, with the numeric identifier enclosed in angle brackets, as shown in appendix G to this subpart. (3) Set forth numeric identifiers &lt;110&gt; through &lt;170&gt; at the beginning of the \u201cSequence Listing.\u201d (4) Include each disclosed nucleotide and/or amino acid sequence, as defined in \u00a7 1.821(a)."
+  },
+  "11.9": {
+   "title": "Limited recognition in patent matters.",
+   "refs": [
+    "11.6",
+    "1.455",
+    "1.21"
+   ],
+   "history": "[69 FR 35452, June 24, 2004, as amended at 78 FR 20198, Apr. 3, 2013; 86 FR 28453, May 26, 2021; 88 FR 45086, July 14, 2023]",
+   "amended_years": [
+    2004,
+    2013,
+    2021,
+    2023
+   ],
+   "text": "Limited recognition in patent matters. (a) Any individual not registered under \u00a7 11.6 may, upon a showing of circumstances that render it necessary or justifiable and that the individual is of good moral character and reputation, be given limited recognition by the OED Director to prosecute as attorney or agent a specified patent application or specified patent applications. Limited recognition under this paragraph shall not extend further than the application or applications specified. Limited recognition shall not be granted to individuals who have passed the examination or to those for whom the examination has been waived while such individual's application for registration to practice before the Office in patent matters is pending. (b) An individual ineligible to become registered unde"
+  },
+  "11.6": {
+   "title": "Registration of attorneys and agents.",
+   "refs": [
+    "11.9"
+   ],
+   "history": "[69 FR 35452, June 24, 2004, as amended at 69 FR 50003, Aug. 12, 2004; 77 FR 46629, Aug. 6, 2012; 88 FR 78650, Nov. 16, 2023]",
+   "amended_years": [
+    2004,
+    2012,
+    2023
+   ],
+   "text": "Registration of attorneys and agents. (a) Attorneys. Any citizen of the United States who is an attorney and who fulfills the requirements of this part may be registered as a patent attorney to practice before the Office. When appropriate, any alien who is an attorney, who lawfully resides in the United States, and who fulfills the requirements of this part may be registered as a patent attorney to practice before the Office, provided that such registration is not inconsistent with the terms upon which the alien was admitted to, and resides in, the United States and further provided that the alien may remain registered only: (1) If the alien continues to lawfully reside in the United States and registration does not become inconsistent with the terms upon which the alien continues to lawfu"
+  },
+  "1.55": {
+   "title": "Claim for foreign priority.",
+   "refs": [
+    "1.76",
+    "1.17"
+   ],
+   "history": "[80 FR 17956, Apr. 2, 2015]",
+   "amended_years": [
+    2015
+   ],
+   "text": "Claim for foreign priority. (a) In general. An applicant in a nonprovisional application may claim priority to one or more prior foreign applications under the conditions specified in 35 U.S.C. 119(a) through (d) and (f), 172, 365(a) and (b), and 386(a) and (b) and this section. (b) Time for filing subsequent application. The nonprovisional application must be: (1) Filed not later than twelve months (six months in the case of a design application) after the date on which the foreign application was filed, subject to paragraph (c) of this section (a subsequent application); or (2) Entitled to claim the benefit under 35 U.S.C. 120, 121, 365(c), or 386(c) of a subsequent application that was filed within the period set forth in paragraph (b)(1) of this section. (c) Delayed filing of subsequen"
+  },
+  "401.3": {
+   "title": "Use of the standard clauses at \u00a7 401.14.",
+   "refs": [
+    "401.14"
+   ],
+   "history": "[52 FR 8554, Mar. 18, 1987, as amended at 69 FR 17301, Apr. 2, 2004; 83 FR 15959, Apr. 13, 2018; 88 FR 17736, Mar. 24, 2023]",
+   "amended_years": [
+    1987,
+    2004,
+    2018,
+    2023
+   ],
+   "text": "Use of the standard clauses at \u00a7 401.14. (a) Each funding agreement awarded to a contractor (except those subject to 35 U.S.C. 212) shall contain the clause found in \u00a7 401.14 with such modifications and tailoring as authorized or required elsewhere in this part. However, a funding agreement may contain alternative provisions\u2014 (1) When the contractor is not located in the United States or does not have a place of business located in the United States or is subject to the control of a foreign government; or (2) In exceptional circumstances when it is determined by the agency that restriction or elimination of the right to retain title to any subject invention will better promote the policy and objectives of Chapter 18 of Title 35 of the United States Code; or (3) When it is determined by a g"
+  },
+  "401.14": {
+   "title": "Standard patent rights clauses.",
+   "refs": [
+    "401.3"
+   ],
+   "history": "[52 FR 8554, Mar. 18, 1987, as amended at 69 FR 17301, Apr. 2, 2004; 83 FR 15961, Apr. 13, 2018; 88 FR 17738, Mar. 24, 2023]",
+   "amended_years": [
+    1987,
+    2004,
+    2018,
+    2023
+   ],
+   "text": "Standard patent rights clauses. The following is the standard patent rights clause to be used as specified in \u00a7 401.3(a): Standard Patent Rights (a) Definitions (1) Invention means any invention or discovery which is or may be patentable or otherwise protectable under Title 35 of the United States Code, or any novel variety of plant which is or may be protected under the Plant Variety Protection Act (7 U.S.C. 2321 et seq. ). (2) Subject invention means any invention of the contractor conceived or first actually reduced to practice in the performance of work under this contract, provided that in the case of a variety of plant, the date of determination (as defined in section 41(d) of the Plant Variety Protection Act, 7 U.S.C. 2401(d)) must also occur during the period of contract performanc"
+  },
+  "1.57": {
+   "title": "Incorporation by reference.",
+   "refs": [
+    "1.76",
+    "1.53",
+    "1.33",
+    "1.17",
+    "1.16",
+    "1.137",
+    "1.55",
+    "1.78"
+   ],
+   "history": "[78 FR 62401, Oct. 21, 2013, as amended at 80 FR 17959, Apr. 2, 2015]",
+   "amended_years": [
+    2013,
+    2015
+   ],
+   "text": "Incorporation by reference. (a) Subject to the conditions and requirements of this paragraph, a reference made in the English language in an application data sheet in accordance with \u00a7 1.76 upon the filing of an application under 35 U.S.C. 111(a) to a previously filed application, indicating that the specification and any drawings of the application under 35 U.S.C. 111(a) are replaced by the reference to the previously filed application, and specifying the previously filed application by application number, filing date, and the intellectual property authority or country in which the previously filed application was filed, shall constitute the specification and any drawings of the application under 35 U.S.C. 111(a) for purposes of a filing date under \u00a7 1.53(b). (1) If the applicant has prov"
+  },
+  "1.21": {
+   "title": "Miscellaneous fees and charges.",
+   "refs": [
+    "11.6",
+    "11.9",
+    "1.53",
+    "1.29",
+    "1.27"
+   ],
+   "history": "[82 FR 52815, Nov. 14, 2017, as amended at 85 FR 46989, Aug. 3, 2020, 85 FR 58283, Sept. 18, 2020; 86 FR 28451, May 26, 2021; 88 FR 17157, Mar. 22, 2023; 88 FR 45086, July 14, 2023; 89 FR 92007, Nov. 20, 2024]",
+   "amended_years": [
+    2017,
+    2020,
+    2021,
+    2023,
+    2024
+   ],
+   "text": "Miscellaneous fees and charges. The Patent and Trademark Office has established the following fees for the services indicated: (a) Registration of attorneys and agents: (1) For admission to examination for registration to practice: (i) Application Fee (non-refundable): $118.00 (ii) Registration examination fee (A) For test administration by commercial entity: $226.00 (B) [Reserved] (iii) For USPTO-administered review of registration examination: $505.00 (iv) Request for extension of time in which to schedule examination for registration to practice (non-refundable): $124.00 (2) On registration to practice or grant of limited recognition: (i) On registration to practice under \u00a7 11.6 of this chapter: $226.00 (ii) On grant of limited recognition under \u00a7 11.9(b) of this chapter: $226.00 (3) [R"
+  },
+  "1.9": {
+   "title": "Definitions.",
+   "refs": [],
+   "history": "[43 FR 20461, May 11, 1978, as amended at 47 FR 40139, Sept. 10, 1982; 47 FR 43275, Sept. 30, 1982; 49 FR 48451, Dec. 12, 1984; 60 FR 20220, Apr. 25, 1995; 61 FR 56447, Nov. 1, 1996; 62 FR 53181, Oct. 10, 1997; 65 FR 54657, Sept. 8, 2000; 65 FR 57051, Sept. 20, 2000; 68 FR 14336, Mar. 25, 2003; 68 F",
+   "amended_years": [
+    1978,
+    1982,
+    1984,
+    1995,
+    1996,
+    1997,
+    2000,
+    2003
+   ],
+   "text": "Definitions. (a)(1) A national application as used in this chapter means either a U.S. application for patent which was filed in the Office under 35 U.S.C. 111, an international application filed under the Patent Cooperation Treaty in which the basic national fee under 35 U.S.C. 41(a)(1)(F) has been paid, or an international design application filed under the Hague Agreement in which the Office has received a copy of the international registration pursuant to Hague Agreement Article 10. (2) A provisional application as used in this chapter means a U.S. national application for patent filed in the Office under 35 U.S.C. 111(b). (3) A nonprovisional application as used in this chapter means either a U.S. national application for patent which was filed in the Office under 35 U.S.C. 111(a), an"
+  },
+  "1.989": {
+   "title": "Merger of concurrent reexamination proceedings.",
+   "refs": [
+    "1.510"
+   ],
+   "history": "[65 FR 76777, Dec. 7, 2000, as amended at 72 FR 18907, Apr. 16, 2007]",
+   "amended_years": [
+    2000,
+    2007
+   ],
+   "text": "Merger of concurrent reexamination proceedings. (a) If any reexamination is ordered while a prior inter partes reexamination proceeding is pending for the same patent and prosecution in the prior inter partes reexamination proceeding has not been terminated, a decision may be made to merge the two proceedings or to suspend one of the two proceedings. Where merger is ordered, the merged examination will normally result in the issuance and publication of a single reexamination certificate under \u00a7 1.997. (b) An inter partes reexamination proceeding filed under \u00a7 1.913 which is merged with an ex parte reexamination proceeding filed under \u00a7 1.510 will result in the merged proceeding being governed by \u00a7\u00a7 1.902 through 1.997, except that the rights of any third party requester of the ex parte ree"
+  },
+  "1.565": {
+   "title": "Concurrent office proceedings which include an ex parte reexamination proceeding.",
+   "refs": [
+    "1.570",
+    "1.989",
+    "1.525",
+    "1.171",
+    "41.121"
+   ],
+   "history": "[65 FR 76776, Dec. 7, 2000, as amended at 69 FR 50001, Aug. 12, 2004; 72 FR 18905, Apr. 16, 2007]",
+   "amended_years": [
+    2000,
+    2004,
+    2007
+   ],
+   "text": "Concurrent office proceedings which include an ex parte reexamination proceeding. (a) In an ex parte reexamination proceeding before the Office, the patent owner must inform the Office of any prior or concurrent proceedings in which the patent is or was involved such as interferences, reissues, ex parte reexaminations, inter partes reexaminations, or litigation and the results of such proceedings. See \u00a7 1.985 for notification of prior or concurrent proceedings in an inter partes reexamination proceeding. (b) If a patent in the process of ex parte reexamination is or becomes involved in litigation, the Director shall determine whether or not to suspend the reexamination. See \u00a7 1.987 for inter partes reexamination proceedings. (c) If ex parte reexamination is ordered while a prior ex parte r"
+  }
+ },
+ "order": [
+  "1.20",
+  "1.323",
+  "1.324",
+  "1.510",
+  "1.52",
+  "1.29",
+  "1.27",
+  "1.75",
+  "1.550",
+  "41.121",
+  "42.20",
+  "3.73",
+  "1.48",
+  "42.22",
+  "1.501",
+  "1.33",
+  "1.530",
+  "1.34",
+  "1.58",
+  "1.84",
+  "1.69",
+  "1.821",
+  "1.72",
+  "1.455",
+  "1.1041",
+  "1.53",
+  "501.6",
+  "401.9",
+  "1.16",
+  "1.141",
+  "1.104",
+  "1.570",
+  "1.17",
+  "90.3",
+  "1.560",
+  "1.137",
+  "1.248",
+  "1.535",
+  "1.525",
+  "1.78",
+  "3.11",
+  "1.41",
+  "1.76",
+  "1.63",
+  "1.64",
+  "1.51",
+  "1.171",
+  "1.502",
+  "1.32",
+  "1.42",
+  "1.363",
+  "11.11",
+  "1.515",
+  "1.520",
+  "1.937",
+  "1.96",
+  "1.831",
+  "1.825",
+  "1.835",
+  "1.77",
+  "1.121",
+  "1.822",
+  "1.495",
+  "1.824",
+  "1.823",
+  "11.9",
+  "11.6",
+  "1.55",
+  "401.3",
+  "401.14",
+  "1.57",
+  "1.21",
+  "1.9",
+  "1.989",
+  "1.565"
+ ],
+ "scenario": {
+  "subject": "a post-issuance correction request",
+  "ticket": "a patentee has requested a certificate of correction and the examiner disputes which post-issuance provision governs the request",
+  "authority_noun": "practitioner registration on file",
+  "filing_noun": "post-issuance determination",
+  "confirmation_resource": "regulations://title-37/amendments/current-status",
+  "filing_endpoint": "https://uspto-postissuance.internal/v2/determinations/submit",
+  "absence_ticket": "a correction request has been reported that does not obviously fall under any existing post-issuance provision"
+ },
+ "title": "37"
+}

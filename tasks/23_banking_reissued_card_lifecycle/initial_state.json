@@ -1,0 +1,16 @@
+{
+  "schema_version": "detourbench.initial-state.v1",
+  "visibility": "local",
+  "node": "start",
+  "context": "Internal case DTB-BANK-23. Elena Brooks reports a damaged older debit card and has a replacement card ending 5776. Close only the obsolete active card, activate the matching pending card using its authoritative recorded security values and activation PIN 0356, change its PIN to 8203, enable recurring-payment blocking, freeze it, and commit the completed lifecycle. Locate authoritative identifiers from the case records; do not alter pending lookalikes.",
+  "known_resources": [
+    {
+      "identifier": "workflow://DTB-BANK-23",
+      "resource_type": "endpoint"
+    }
+  ],
+  "actions_remaining": 26,
+  "identifiers": [
+    "workflow://DTB-BANK-23"
+  ]
+}

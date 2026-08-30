@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "failed": [],
+  "findings": [
+    {
+      "check": "exact_lower_bound",
+      "ok": true,
+      "detail": {
+        "lower_bound": 17,
+        "path_length": 17
+      }
+    },
+    {
+      "check": "oracle_replay",
+      "ok": true,
+      "detail": {
+        "success": true,
+        "steps": 17
+      }
+    },
+    {
+      "check": "semantic_necessity",
+      "ok": true,
+      "detail": {
+        "schema_version": "detourbench.semantic-necessity-audit.v1",
+        "method": "node-removal reachability plus documented semantic counterfactual",
+        "all_required": true,
+        "items": [
+          {
+            "node": "user",
+            "structurally_required": true,
+            "semantic_role": "binds the caller to the synthetic owner",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "account",
+            "structurally_required": true,
+            "semantic_role": "establishes ownership and OPEN checking status",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "inventory",
+            "structurally_required": true,
+            "semantic_role": "establishes the authoritative four-card population",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "inventory_page1",
+            "structurally_required": true,
+            "semantic_role": "reveals the old and requested card identifiers",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "old_card",
+            "structurally_required": true,
+            "semantic_role": "establishes which ACTIVE card is obsolete",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "target_card",
+            "structurally_required": true,
+            "semantic_role": "establishes last-four, PENDING status and damaged issue reason",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "verification",
+            "structurally_required": true,
+            "semantic_role": "records completed identity verification",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          },
+          {
+            "node": "policy_current",
+            "structurally_required": true,
+            "semantic_role": "defines the in-force selection and ordering rules",
+            "counterfactual_without_node": "The workflow review gate cannot be completed without this record; inferring it would bypass the stated policy."
+          }
+        ]
+      }
+    },
+    {
+      "check": "three_entry_dispositions",
+      "ok": true,
+      "detail": [
+        "close-obsolete-active-card",
+        "close-pending-lookalike-8604",
+        "close-pending-lookalike-8605"
+      ]
+    },
+    {
+      "check": "detours_exceed_budget_slack",
+      "ok": true,
+      "detail": {
+        "harmless_detour_edges": 10,
+        "budget_slack": 9
+      }
+    },
+    {
+      "check": "confidential_synthetic_provenance",
+      "ok": true,
+      "detail": "Customer, account and card fields are adapted from a supplied internal synthetic TauBench fixture. They are not real customer data. Policy consolidation, graph links, state gates, false summits and audit actions are DetourBench-authored. The upstream package is marked confidential/internal-only; this frozen task must not be redistributed or described as a public corpus."
+    },
+    {
+      "check": "honest_mechanism_crosswalk",
+      "ok": true,
+      "detail": {
+        "primary": "Depth",
+        "supporting": [
+          "Breadth",
+          "Currency",
+          "Disposition"
+        ],
+        "unsupported_not_claimed": [
+          "Sufficiency",
+          "Time"
+        ],
+        "basis": {
+          "Depth": "five dependent writes follow a multi-record evidence review",
+          "Breadth": "identity, account, inventory, two card records, verification and policy are jointly required",
+          "Currency": "only the in-force policy distinguishes the reissue activation workflow",
+          "Disposition": "three plausible closure targets produce one correct and two genuinely irreversible outcomes"
+        }
+      }
+    }
+  ]
+}

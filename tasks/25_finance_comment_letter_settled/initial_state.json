@@ -1,0 +1,16 @@
+{
+  "schema_version": "detourbench.initial-state.v1",
+  "visibility": "local",
+  "node": "start",
+  "context": "Disclosure-review case DTB-SEC-25, snapshot 2024-04-30. Pre-trade diligence on Turtle Beach Corporation (CIK 0001493761) flagged the non-GAAP presentation in the fiscal 2022 annual report as possibly non-compliant. Establish how that question stands as of the snapshot and record one disposition. Desk policy is versioned and the register says which version governs a snapshot date. Selecting a disposition forecloses the others, so there is one attempt. A selected disposition is not filed until it has been committed to the review file, which is the step that closes the case.",
+  "known_resources": [
+    {
+      "identifier": "workflow://DTB-SEC-25",
+      "resource_type": "endpoint"
+    }
+  ],
+  "actions_remaining": 18,
+  "identifiers": [
+    "workflow://DTB-SEC-25"
+  ]
+}

@@ -1,0 +1,639 @@
+{
+ "seed": "226.2",
+ "sections": {
+  "226.2": {
+   "title": "Definitions and rules of construction.",
+   "refs": [
+    "226.15",
+    "226.19",
+    "226.12",
+    "226.5b",
+    "226.4",
+    "226.5a",
+    "226.6",
+    "226.7"
+   ],
+   "history": "[75 FR 7793, Feb. 22, 2010, as amended at 76 FR 22998, Apr. 25, 2011]",
+   "amended_years": [
+    2010,
+    2011
+   ],
+   "text": "Definitions and rules of construction. (a) Definitions. For purposes of this regulation, the following definitions apply: (1) Act means the Truth in Lending Act (15 U.S.C. 1601 et seq. ). (2) Advertisement means a commercial message in any medium that promotes, directly or indirectly, a credit transaction. (3) [Reserved] 2 2 [Reserved] (4) Billing cycle or cycle means the interval between the days or dates of regular periodic statements. These intervals shall be equal and no longer than a quarter of a year. An interval will be considered equal if the number of days in the cycle does not vary more than four days from the regular day or date of the periodic statement. (5) Board means the Board of Governors of the Federal Reserve System. (6) Business day means a day on which the creditor's of"
+  },
+  "226.15": {
+   "title": "Right of rescission.",
+   "refs": [
+    "226.6",
+    "226.5b"
+   ],
+   "history": "[Reg. Z, 46 FR 20892, Apr. 7, 1981, as amended at 54 FR 24688, June 9, 1989; 58 FR 40583, July 29, 1993; 59 FR 40204, Aug. 5, 1994; 59 FR 63715, Dec. 9, 1994; 66 FR 17338, Mar. 30, 2001; 72 FR 63474, Nov. 9, 2007]",
+   "amended_years": [
+    1981,
+    1989,
+    1993,
+    1994,
+    2001,
+    2007
+   ],
+   "text": "Right of rescission. (a) Consumer's right to rescind. (1)(i) Except as provided in paragraph (a)(1)(ii) of this section, in a credit plan in which a security interest is or will be retained or acquired in a consumer's principal dwelling, each consumer whose ownership interest is or will be subject to the security interest shall have the right to rescind: each credit extension made under the plan; the plan when the plan is opened; a security interest when added or increased to secure an existing plan; and the increase when a credit limit on the plan is increased. (ii) As provided in section 125(e) of the Act, the consumer does not have the right to rescind each credit extension made under the plan if such extension is made in accordance with a previously established credit limit for the pla"
+  },
+  "226.19": {
+   "title": "Certain mortgage and variable-rate transactions.",
+   "refs": [
+    "226.5b",
+    "226.18",
+    "226.22"
+   ],
+   "history": "[Reg. Z, 52 FR 48670, Dec. 24, 1987; 53 FR 467, Jan. 7, 1988, as amended at 61 FR 49246, Sept. 19, 1996; 62 FR 63443, Dec. 1, 1997; 72 FR 63474, Nov. 9, 2007; 73 FR 44600, July 30, 2008; 73 FR 44600, July 30, 2008; 74 FR 23301, May 19, 2009]",
+   "amended_years": [
+    1987,
+    1988,
+    1996,
+    1997,
+    2007,
+    2008,
+    2009
+   ],
+   "text": "Certain mortgage and variable-rate transactions. (a) Mortgage transactions subject to RESPA \u2014(1)(i) Time of disclosures. In a mortgage transaction subject to the Real Estate Settlement Procedures Act (12 U.S.C. 2601 et seq. ) that is secured by the consumer's dwelling, other than a home equity line of credit subject to \u00a7 226.5b or mortgage transaction subject to paragraph (a)(5) of this section, the creditor shall make good faith estimates of the disclosures required by \u00a7 226.18 and shall deliver or place them in the mail not later than the third business day after the creditor receives the consumer's written application. (ii) Imposition of fees. Except as provided in paragraph (a)(1)(iii) of this section, neither a creditor nor any other person may impose a fee on a consumer in connection"
+  },
+  "226.12": {
+   "title": "Special credit card provisions.",
+   "refs": [],
+   "history": "[75 FR 7812, Feb. 22, 2010]",
+   "amended_years": [
+    2010
+   ],
+   "text": "Special credit card provisions. (a) Issuance of credit cards. Regardless of the purpose for which a credit card is to be used, including business, commercial, or agricultural use, no credit card shall be issued to any person except\u2014 (1) In response to an oral or written request or application for the card; or (2) As a renewal of, or substitute for, an accepted credit card. 21 21 [Reserved] (b) Liability of cardholder for unauthorized use \u2014(1)(i) Definition of unauthorized use. For purposes of this section, the term \u201cunauthorized use\u201d means the use of a credit card by a person, other than the cardholder, who does not have actual, implied, or apparent authority for such use, and from which the cardholder receives no benefit. (ii) Limitation on amount. The liability of a cardholder for unauth"
+  },
+  "226.5b": {
+   "title": "Requirements for home equity plans.",
+   "refs": [
+    "226.14"
+   ],
+   "history": "[Reg. Z, 54 FR 24686, June 9, 1989, as amended at 55 FR 38312, Sept. 18, 1990; 55 FR 42148, Oct. 17, 1990; 57 FR 34681, Aug. 6, 1992; 60 FR 15471, Mar. 24, 1995; 66 FR 17338, Mar. 30, 2001; 72 FR 63474, Nov. 9, 2007]",
+   "amended_years": [
+    1989,
+    1990,
+    1992,
+    1995,
+    2001,
+    2007
+   ],
+   "text": "Requirements for home equity plans. The requirements of this section apply to open-end credit plans secured by the consumer's dwelling. For purposes of this section, an annual percentage rate is the annual percentage rate corresponding to the periodic rate as determined under \u00a7 226.14(b). (a) Form of disclosures \u2014(1) General. The disclosures required by paragraph (d) of this section shall be made clearly and conspicuously and shall be grouped together and segregated from all unrelated information. The disclosures may be provided on the application form or on a separate form. The disclosure described in paragraph (d)(4)(iii), the itemization of third-party fees described in paragraph (d)(8), and the variable-rate information described in paragraph (d)(12) of this section may be provided sep"
+  },
+  "226.4": {
+   "title": "Finance charge.",
+   "refs": [],
+   "history": "[75 FR 7794, Feb. 22, 2010]",
+   "amended_years": [
+    2010
+   ],
+   "text": "Finance charge. (a) Definition. The finance charge is the cost of consumer credit as a dollar amount. It includes any charge payable directly or indirectly by the consumer and imposed directly or indirectly by the creditor as an incident to or a condition of the extension of credit. It does not include any charge of a type payable in a comparable cash transaction. (1) Charges by third parties. The finance charge includes fees and amounts charged by someone other than the creditor, unless otherwise excluded under this section, if the creditor: (i) Requires the use of a third party as a condition of or an incident to the extension of credit, even if the consumer can choose the third party; or (ii) Retains a portion of the third-party charge, to the extent of the portion retained. (2) Special"
+  },
+  "226.5a": {
+   "title": "Credit and charge card applications and solicitations.",
+   "refs": [
+    "226.5b",
+    "226.14"
+   ],
+   "history": "[75 FR 7797, Feb. 22, 2010, as amended at 75 FR 37568, June 26, 2010; 76 FR 22999, Apr. 25, 2011]",
+   "amended_years": [
+    2010,
+    2011
+   ],
+   "text": "Credit and charge card applications and solicitations. (a) General rules. The card issuer shall provide the disclosures required under this section on or with a solicitation or an application to open a credit or charge card account. (1) Definition of solicitation. For purposes of this section, the term solicitation means an offer by the card issuer to open a credit or charge card account that does not require the consumer to complete an application. A \u201cfirm offer of credit\u201d as defined in section 603(l) of the Fair Credit Reporting Act (15 U.S.C. 1681a(l)) for a credit or charge card is a solicitation for purposes of this section. (2) Form of disclosures; tabular format. (i) The disclosures in paragraphs (b)(1) through (5) (except for (b)(1)(iv)(B)) and (b)(7) through (15) of this section m"
+  },
+  "226.6": {
+   "title": "Account-opening disclosures.",
+   "refs": [
+    "226.5b",
+    "226.12"
+   ],
+   "history": "[75 FR 7800, Feb. 22, 2010, as amended at 75 FR 37568, June 26, 2010; 76 FR 22999, Apr. 25, 2011]",
+   "amended_years": [
+    2010,
+    2011
+   ],
+   "text": "Account-opening disclosures. (a) Rules affecting home-equity plans. The requirements of this paragraph (a) apply only to home-equity plans subject to the requirements of \u00a7 226.5b. A creditor shall disclose the items in this section, to the extent applicable: (1) Finance charge. The circumstances under which a finance charge will be imposed and an explanation of how it will be determined, as follows: (i) A statement of when finance charges begin to accrue, including an explanation of whether or not any time period exists within which any credit extended may be repaid without incurring a finance charge. If such a time period is provided, a creditor may, at its option and without disclosure, impose no finance charge when payment is received after the time period's expiration. (ii) A disclosur"
+  },
+  "226.7": {
+   "title": "Periodic statement.",
+   "refs": [
+    "226.5b",
+    "226.8",
+    "226.14",
+    "226.9",
+    "226.16"
+   ],
+   "history": "[75 FR 7804, Feb. 22, 2010, as amended at 75 FR 37568, June 26, 2010; 76 FR 23000, Apr. 25, 2011]",
+   "amended_years": [
+    2010,
+    2011
+   ],
+   "text": "Periodic statement. The creditor shall furnish the consumer with a periodic statement that discloses the following items, to the extent applicable: (a) Rules affecting home-equity plans. The requirements of paragraph (a) of this section apply only to home-equity plans subject to the requirements of \u00a7 226.5b. Alternatively, a creditor subject to this paragraph may, at its option, comply with any of the requirements of paragraph (b) of this section; however, any creditor that chooses not to provide a disclosure under paragraph (a)(7) of this section must comply with paragraph (b)(6) of this section. (1) Previous balance. The account balance outstanding at the beginning of the billing cycle. (2) Identification of transactions. An identification of each credit transaction in accordance with \u00a7 "
+  },
+  "226.18": {
+   "title": "Content of disclosures.",
+   "refs": [
+    "226.17"
+   ],
+   "history": "[46 FR 20892, Apr. 7, 1981; 46 FR 29246, June 1, 1981, as amended at 52 FR 48670, Dec. 24, 1987; 61 FR 49246, Sept. 19, 1996; 75 FR 58482, Sept. 24, 2010; 75 FR 81841, Dec. 29, 2010]",
+   "amended_years": [
+    1981,
+    1987,
+    1996,
+    2010
+   ],
+   "text": "Content of disclosures. For each transaction, the creditor shall disclose the following information as applicable: (a) Creditor. The identity of the creditor making the disclosures. (b) Amount financed. The amount financed, using that term, and a brief description such as the amount of credit provided to you or on your behalf. The amount financed is calculated by: (1) Determining the principal loan amount or the cash price (subtracting any downpayment); (2) Adding any other amounts that are financed by the creditor and are not part of the finance charge; and (3) Subtracting any prepaid finance charge. (c) Itemization of amount financed. (1) A separate written itemization of the amount financed, including: 40 40 Good faith estimates of settlement costs provided for transactions subject to t"
+  },
+  "226.22": {
+   "title": "Determination of annual percentage rate.",
+   "refs": [
+    "226.18",
+    "226.23",
+    "226.17"
+   ],
+   "history": "[46 FR 20892, Apr. 7, 1981, as amended at 47 FR 756, Jan. 7, 1982; 48 FR 14886, Apr. 6, 1983; 61 FR 49246, Sept. 19, 1996]",
+   "amended_years": [
+    1981,
+    1982,
+    1983,
+    1996
+   ],
+   "text": "Determination of annual percentage rate. (a) Accuracy of annual percentage rate. (1) The annual percentage rate is a measure of the cost of credit, expressed as a yearly rate, that relates the amount and timing of value received by the consumer to the amount and timing of payments made. The annual percentage rate shall be determined in accordance with either the actuarial method or the United States Rule method. Explanations, equations and instructions for determining the annual percentage rate in accordance with the actuarial method are set forth in appendix J to this regulation. 45d 45d An error in disclosure of the annual percentage rate or finance charge shall not, in itself, be considered a violation of this regulation if: (1) The error resulted from a corresponding error in a calcula"
+  },
+  "226.14": {
+   "title": "Determination of annual percentage rate.",
+   "refs": [
+    "226.5a",
+    "226.5b",
+    "226.7"
+   ],
+   "history": "[75 FR 7815, Feb. 22, 2010]",
+   "amended_years": [
+    2010
+   ],
+   "text": "Determination of annual percentage rate. (a) General rule. The annual percentage rate is a measure of the cost of credit, expressed as a yearly rate. An annual percentage rate shall be considered accurate if it is not more than 1/8 th of 1 percentage point above or below the annual percentage rate determined in accordance with this section. 31a An error in disclosure of the annual percentage rate or finance charge shall not, in itself, be considered a violation of this regulation if: 31a [Reserved] (1) The error resulted from a corresponding error in a calculation tool used in good faith by the creditor; and (2) Upon discovery of the error, the creditor promptly discontinues use of that calculation tool for disclosure purposes, and notifies the Board in writing of the error in the calculat"
+  },
+  "226.8": {
+   "title": "Identifying transactions on periodic statements.",
+   "refs": [
+    "226.13",
+    "226.2"
+   ],
+   "history": "[75 FR 7806, Feb. 22, 2010]",
+   "amended_years": [
+    2010
+   ],
+   "text": "Identifying transactions on periodic statements. The creditor shall identify credit transactions on or with the first periodic statement that reflects the transaction by furnishing the following information, as applicable. 16 16 [Reserved] (a) Sale credit. (1) Except as provided in paragraph (a)(2) of this section, for each credit transaction involving the sale of property or services, the creditor must disclose the amount and date of the transaction, and either: (i) A brief identification 17 of the property or services purchased, for creditors and sellers that are the same or related; 18 or 17 [Reserved] 18 [Reserved] (ii) The seller's name; and the city and state or foreign country where the transaction took place. 19 The creditor may omit the address or provide any suitable designation "
+  },
+  "226.9": {
+   "title": "Subsequent disclosure requirements.",
+   "refs": [
+    "226.6",
+    "226.5",
+    "226.5b",
+    "226.16"
+   ],
+   "history": "[75 FR 7807, Feb. 22, 2010, as amended at 75 FR 37568, June 26, 2010; 76 FR 23000, Apr. 25, 2011]",
+   "amended_years": [
+    2010,
+    2011
+   ],
+   "text": "Subsequent disclosure requirements. (a) Furnishing statement of billing rights \u2014(1) Annual statement. The creditor shall mail or deliver the billing rights statement required by \u00a7 226.6(a)(5) and (b)(5)(iii) at least once per calendar year, at intervals of not less than 6 months nor more than 18 months, either to all consumers or to each consumer entitled to receive a periodic statement under \u00a7 226.5(b)(2) for any one billing cycle. (2) Alternative summary statement. As an alternative to paragraph (a)(1) of this section, the creditor may mail or deliver, on or with each periodic statement, a statement substantially similar to Model Form G-4 or Model Form G-4(A) in appendix G to this part, as applicable. Creditors offering home-equity plans subject to the requirements of \u00a7 226.5b may use ei"
+  },
+  "226.16": {
+   "title": "Advertising.",
+   "refs": [
+    "226.6",
+    "226.5b",
+    "226.4",
+    "226.14"
+   ],
+   "history": "[75 FR 7816, Feb. 22, 201, as amended at 76 FR 23002, Apr. 25, 2011]",
+   "amended_years": [
+    2011
+   ],
+   "text": "Advertising. (a) Actually available terms. If an advertisement for credit states specific credit terms, it shall state only those terms that actually are or will be arranged or offered by the creditor. (b) Advertisement of terms that require additional disclosures. (1) Any term required to be disclosed under \u00a7 226.6(b)(3) set forth affirmatively or negatively in an advertisement for an open-end (not home-secured) credit plan triggers additional disclosures under this section. Any term required to be disclosed under \u00a7 226.6(a)(1) or (a)(2) set forth affirmatively or negatively in an advertisement for a home-equity plan subject to the requirements of \u00a7 226.5b triggers additional disclosures under this section. If any of the terms that trigger additional disclosures under this paragraph is se"
+  },
+  "226.17": {
+   "title": "General disclosure requirements.",
+   "refs": [
+    "226.18",
+    "226.47",
+    "226.19",
+    "226.46"
+   ],
+   "history": "[Reg. Z, 46 FR 20892, Apr. 7, 1981, as amended at 52 FR 48670, Dec. 24, 1987; 61 FR 49246, Sept. 19, 1996; 66 FR 17338, Mar. 30, 2001; 67 FR 16982, Apr. 9, 2002; 72 FR 63474, Nov. 9, 2007; 73 FR 44600, July 30, 2008; 74 FR 23301, May 19, 2009; 73 FR 44600, July 30, 2008; 74 FR 41232, Aug. 14, 2009]",
+   "amended_years": [
+    1981,
+    1987,
+    1996,
+    2001,
+    2002,
+    2007,
+    2008,
+    2009
+   ],
+   "text": "General disclosure requirements. (a) Form of disclosures. (1) The creditor shall make the disclosures required by this subpart clearly and conspicuously in writing, in a form that the consumer may keep. The disclosures required by this subpart may be provided to the consumer in electronic form, subject to compliance with the consumer consent and other applicable provisions of the Electronic Signatures in Global and National Commerce Act (E-Sign Act) (15 U.S.C. 7001 et seq. ). The disclosures required by \u00a7\u00a7 226.17(g), 226.19(b), and 226.24 may be provided to the consumer in electronic form without regard to the consumer consent or other provisions of the E-Sign Act in the circumstances set forth in those sections. The disclosures shall be grouped together, shall be segregated from everythin"
+  },
+  "226.23": {
+   "title": "Right of rescission.",
+   "refs": [
+    "226.32"
+   ],
+   "history": "[Reg. Z, 46 FR 20892, Apr. 7, 1981, as amended at 51 FR 45299, Dec. 18, 1986; 58 FR 40583, July 29, 1993; 59 FR 40204, Aug. 5, 1994; 59 FR 63715, Dec. 9, 1994; 60 FR 15471, Mar. 24, 1995; 61 FR 49247, Sept. 19, 1996; 66 FR 17338, Mar. 30, 2001; 72 FR 63474, Nov. 9, 2007; 73 FR 44601, July 24, 2008]",
+   "amended_years": [
+    1981,
+    1986,
+    1993,
+    1994,
+    1995,
+    1996,
+    2001,
+    2007,
+    2008
+   ],
+   "text": "Right of rescission. (a) Consumer's right to rescind. (1) In a credit transaction in which a security interest is or will be retained or acquired in a consumer's principal dwelling, each consumer whose ownership interest is or will be subject to the security interest shall have the right to rescind the transaction, except for transactions described in paragraph (f) of this section. 47 47 For purposes of this section, the addition to an existing obligation of a security interest in a consumer's principal dwelling is a transaction. The right of rescission applies only to the addition of the security interest and not the existing obligation. The creditor shall deliver the notice required by paragraph (b) of this section but need not deliver new material disclosures. Delivery of the required n"
+  },
+  "226.13": {
+   "title": "Billing error resolution. 27",
+   "refs": [
+    "226.7"
+   ],
+   "history": "[75 FR 7814, Feb. 22, 2010]",
+   "amended_years": [
+    2010
+   ],
+   "text": "Billing error resolution. 27 27 [Reserved] (a) Definition of billing error. For purposes of this section, the term billing error means: (1) A reflection on or with a periodic statement of an extension of credit that is not made to the consumer or to a person who has actual, implied, or apparent authority to use the consumer's credit card or open-end credit plan. (2) A reflection on or with a periodic statement of an extension of credit that is not identified in accordance with the requirements of \u00a7\u00a7 226.7(a)(2) or (b)(2), as applicable, and 226.8. (3) A reflection on or with a periodic statement of an extension of credit for property or services not accepted by the consumer or the consumer's designee, or not delivered to the consumer or the consumer's designee as agreed. (4) A reflection o"
+  },
+  "226.5": {
+   "title": "General disclosure requirements.",
+   "refs": [
+    "226.6",
+    "226.9",
+    "226.56",
+    "226.5a",
+    "226.5b",
+    "226.10",
+    "226.7",
+    "226.16"
+   ],
+   "history": "[75 FR 7796, Feb. 22, 2010, as amended at 76 FR 22998, Apr. 25, 2011]",
+   "amended_years": [
+    2010,
+    2011
+   ],
+   "text": "General disclosure requirements. (a) Form of disclosures. (1) General. (i) The creditor shall make the disclosures required by this subpart clearly and conspicuously. (ii) The creditor shall make the disclosures required by this subpart in writing, 7 in a form that the consumer may keep, 8 except that: 7 [Reserved] 8 [Reserved] (A) The following disclosures need not be written: Disclosures under \u00a7 226.6(b)(3) of charges that are imposed as part of an open-end (not home-secured) plan that are not required to be disclosed under \u00a7 226.6(b)(2) and related disclosures of charges under \u00a7 226.9(c)(2)(iii)(B); disclosures under \u00a7 226.9(c)(2)(vi); disclosures under \u00a7 226.9(d) when a finance charge is imposed at the time of the transaction; and disclosures under \u00a7 226.56(b)(1)(i). (B) The following "
+  },
+  "226.47": {
+   "title": "Content of disclosures.",
+   "refs": [
+    "226.18"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Content of disclosures. (a) Application or solicitation disclosures. A creditor shall provide the disclosures required under paragraph (a) of this section on or with a solicitation or an application for a private education loan. (1) Interest rates. (i) The interest rate or range of interest rates applicable to the loan and actually offered by the creditor at the time of application or solicitation. If the rate will depend, in part, on a later determination of the consumer's creditworthiness or other factors, a statement that the rate for which the consumer may qualify will depend on the consumer's creditworthiness and other factors, if applicable. (ii) Whether the interest rates applicable to the loan are fixed or variable. (iii) If the interest rate may increase after consummation of the "
+  },
+  "226.46": {
+   "title": "Special disclosure requirements for private education loans.",
+   "refs": [
+    "226.17",
+    "226.47",
+    "226.18",
+    "228.18",
+    "226.48"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Special disclosure requirements for private education loans. (a) Coverage. The requirements of this subpart apply to private education loans as defined in \u00a7 226.46(b)(5). A creditor may, at its option, comply with the requirements of this subpart for an extension of credit subject to \u00a7\u00a7 226.17 and 226.18 that is extended to a consumer for expenses incurred after graduation from a law, medical, dental, veterinary, or other graduate school and related to relocation, study for a bar or other examination, participation in an internship or residency program, or similar purposes. (1) Relation to other subparts in this part. Except as otherwise specifically provided, the requirements and limitations of this subpart are in addition to and not in lieu of those contained in other subparts of this pa"
+  },
+  "226.32": {
+   "title": "Requirements for certain closed-end home mortgages.",
+   "refs": [
+    "226.33",
+    "226.4",
+    "226.30"
+   ],
+   "history": "[Reg. Z, 60 FR 15472, Mar. 24, 1995, as amended at 60 FR 29969, June 7, 1995; 66 FR 65617, Dec. 20, 2001; 73 FR 44602, July 30, 2008]",
+   "amended_years": [
+    1995,
+    2001,
+    2008
+   ],
+   "text": "Requirements for certain closed-end home mortgages. (a) Coverage. (1) Except as provided in paragraph (a)(2) of this section, the requirements of this section apply to a consumer credit transaction that is secured by the consumer's principal dwelling, and in which either: (i) The annual percentage rate at consummation will exceed by more than 8 percentage points for first-lien loans, or by more than 10 percentage points for subordinate-lien loans, the yield on Treasury securities having comparable periods of maturity to the loan maturity as of the fifteenth day of the month immediately preceding the month in which the application for the extension of credit is received by the creditor; or (ii) The total points and fees payable by the consumer at or before loan closing will exceed the great"
+  },
+  "226.56": {
+   "title": "Requirements for over-the-limit transactions.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Requirements for over-the-limit transactions. (a) Definition. For purposes of this section, the term \u201cover-the-limit transaction\u201d means any extension of credit by a card issuer to complete a transaction that causes a consumer's credit card account balance to exceed the credit limit. (b) Opt-in requirement \u2014(1) General. A card issuer shall not assess a fee or charge on a consumer's credit card account under an open-end (not home-secured) consumer credit plan for an over-the-limit transaction unless the card issuer: (i) Provides the consumer with an oral, written or electronic notice, segregated from all other information, describing the consumer's right to affirmatively consent, or opt in, to the card issuer's payment of an over-the-limit transaction; (ii) Provides a reasonable opportunity "
+  },
+  "226.10": {
+   "title": "Payments.",
+   "refs": [],
+   "history": "[75 FR 7811, Feb. 22, 2010, as amended at 76 FR 23001, Apr. 25, 2011]",
+   "amended_years": [
+    2010,
+    2011
+   ],
+   "text": "Payments. (a) General rule. A creditor shall credit a payment to the consumer's account as of the date of receipt, except when a delay in crediting does not result in a finance or other charge or except as provided in paragraph (b) of this section. (b) Specific requirements for payments \u2014(1) General rule. A creditor may specify reasonable requirements for payments that enable most consumers to make conforming payments. (2) Examples of reasonable requirements for payments. Reasonable requirements for making payment may include: (i) Requiring that payments be accompanied by the account number or payment stub; (ii) Setting reasonable cut-off times for payments to be received by mail, by electronic means, by telephone, and in person (except as provided in paragraph (b)(3) of this section), pro"
+  },
+  "228.18": {
+   "title": "Outside retail lending areas.",
+   "refs": [
+    "228.22"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Outside retail lending areas. (a) In general \u2014(1) Large banks. The Board evaluates a large bank's record of helping to meet the credit needs of its entire community in its outside retail lending area pursuant to \u00a7 228.22. However, the Board will not evaluate a large bank in its outside retail lending area if it did not originate or purchase loans in any product lines in the outside retail lending area during the evaluation period. (2) Intermediate or small banks. The Board evaluates the record of an intermediate bank, or a small bank that opts to be evaluated under the Retail Lending Test, of helping to meet the credit needs of its entire community in its outside retail lending area pursuant to \u00a7 228.22, for a particular calendar year, if: (i) The bank opts to have its major product lines "
+  },
+  "226.48": {
+   "title": "Limitations on private education loans.",
+   "refs": [
+    "226.47"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Limitations on private education loans. (a) Co-branding prohibited. (1) Except as provided in paragraph (b) of this section, a creditor, other than the covered educational institution itself, shall not use the name, emblem, mascot, or logo of a covered educational institution, or other words, pictures, or symbols identified with a covered educational institution, in the marketing of private education loans in a way that implies that the covered education institution endorses the creditor's loans. (2) A creditor's marketing of private education loans does not imply that the covered education institution endorses the creditor's loans if the marketing includes a clear and conspicuous disclosure that is equally prominent and closely proximate to the reference to the covered educational institu"
+  },
+  "226.33": {
+   "title": "Requirements for reverse mortgages.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Requirements for reverse mortgages. (a) Definition. For purposes of this subpart, reverse mortgage transaction means a nonrecourse consumer credit obligation in which: (1) A mortgage, deed of trust, or equivalent consensual security interest securing one or more advances is created in the consumer's principal dwelling; and (2) Any principal, interest, or shared appreciation or equity is due and payable (other than in the case of default) only after: (i) The consumer dies; (ii) The dwelling is transferred; or (iii) The consumer ceases to occupy the dwelling as a principal dwelling. (b) Content of disclosures. In addition to other disclosures required by this part, in a reverse mortgage transaction the creditor shall provide the following disclosures in a form substantially similar to the mo"
+  },
+  "226.30": {
+   "title": "Limitation on rates.",
+   "refs": [],
+   "history": "[75 FR 7818, Feb. 22, 2010]",
+   "amended_years": [
+    2010
+   ],
+   "text": "Limitation on rates. A creditor shall include in any consumer credit contract secured by a dwelling and subject to the act and this regulation the maximum interest rate that may be imposed during the term of the obligation 50 when: 50 [Reserved] (a) In the case of closed-end credit, the annual percentage rate may increase after consummation, or (b) In the case of open-end credit, the annual percentage rate may increase during the plan. [75 FR 7818, Feb. 22, 2010] Subpart E\u2014Special Rules for Certain Home Mortgage Transactions Source: Reg. Z, 60 FR 15471, Mar. 24, 1995, unless otherwise noted."
+  },
+  "228.22": {
+   "title": "Retail lending test.",
+   "refs": [
+    "228.21"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Retail lending test. Link to an amendment published at 89 FR 7189, Feb. 1, 2024. (a) Retail Lending Test \u2014(1) In general. Pursuant to \u00a7 228.21, the Retail Lending Test evaluates a bank's record of helping to meet the credit needs of its entire community through the bank's origination and purchase of home mortgage loans, multifamily loans, small business loans, and small farm loans. (2) Automobile loans. The Retail Lending Test evaluates a bank's record of helping to meet the credit needs of its entire community through the bank's origination and purchase of automobile loans if the bank is a majority automobile lender. A bank that is not a majority automobile lender may opt to have automobile loans evaluated under this section. (b) Methodology overview \u2014(1) Retail Lending Volume Screen. The"
+  },
+  "228.21": {
+   "title": "Evaluation of CRA performance in general.",
+   "refs": [
+    "228.22",
+    "228.23",
+    "228.24",
+    "228.25",
+    "228.30",
+    "228.29",
+    "228.26",
+    "228.16",
+    "228.27",
+    "228.42"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Evaluation of CRA performance in general. (a) Application of performance tests and strategic plans \u2014(1) Large banks. To evaluate the performance of a large bank, the Board applies the Retail Lending Test in \u00a7 228.22, the Retail Services and Products Test in \u00a7 228.23, the Community Development Financing Test in \u00a7 228.24, and the Community Development Services Test in \u00a7 228.25. (2) Intermediate banks \u2014(i) In general. To evaluate the performance of an intermediate bank, the Board applies the Retail Lending Test in \u00a7 228.22 and either the Intermediate Bank Community Development Test in \u00a7 228.30(a)(2) or, at the bank's option, the Community Development Financing Test in \u00a7 228.24. (ii) Intermediate banks evaluated under \u00a7 228.24. If an intermediate bank opts to be evaluated pursuant to the Commu"
+  },
+  "228.23": {
+   "title": "Retail services and products test.",
+   "refs": [
+    "228.21",
+    "228.25"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Retail services and products test. (a) Retail Services and Products Test \u2014(1) In general. Pursuant to \u00a7 228.21, the Retail Services and Products Test evaluates the availability of a bank's retail banking services and retail banking products and the responsiveness of those services and products to the credit needs of the bank's entire community, including low- and moderate-income individuals, families, or households, low- and moderate-income census tracts, small businesses, and small farms. The Board evaluates the bank's retail banking services, as described in paragraph (b) of this section, and the bank's retail banking products, as described in paragraph (c) of this section. (2) Main offices. For purposes of this section, references to a branch also include a main office that is open to, "
+  },
+  "228.24": {
+   "title": "Community development financing test.",
+   "refs": [
+    "228.21",
+    "228.15",
+    "228.19"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Community development financing test. (a) Community Development Financing Test \u2014(1) In general. Pursuant to \u00a7 228.21, the Community Development Financing Test evaluates the bank's record of helping to meet the credit needs of its entire community through community development loans and community development investments ( i.e., the bank's community development financing performance). (2) Allocation. The Board considers community development loans and community development investments allocated pursuant to paragraph I.b of appendix B to this part. (b) Facility-based assessment area evaluation. The Board evaluates a bank's community development financing performance in a facility-based assessment area using the metric in paragraph (b)(1) of this section, benchmarks in paragraph (b)(2) of this"
+  },
+  "228.25": {
+   "title": "Community development services test.",
+   "refs": [
+    "228.21",
+    "228.13",
+    "228.15",
+    "228.19",
+    "228.28"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Community development services test. (a) Community Development Services Test \u2014(1) In general. Pursuant to \u00a7 228.21, the Community Development Services Test evaluates a bank's record of helping to meet the community development services needs of its entire community. (2) Allocation. The Board considers information provided by the bank and may consider publicly available information and information provided by government or community sources that demonstrates that a community development service benefits or serves a facility-based assessment area, State, or multistate MSA, or the nationwide area. (b) Facility-based assessment area evaluation. The Board evaluates a bank's community development services performance in a facility-based assessment area and assigns a conclusion for a facility-bas"
+  },
+  "228.30": {
+   "title": "Intermediate bank performance evaluation.",
+   "refs": [
+    "228.22",
+    "228.24",
+    "228.15",
+    "228.23",
+    "228.25",
+    "228.21"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Intermediate bank performance evaluation. (a) Intermediate bank performance evaluation \u2014(1) In general. The Board evaluates an intermediate bank's record of helping to meet the credit needs of its entire community pursuant to the Retail Lending Test in \u00a7 228.22 and the Intermediate Bank Community Development Test as provided in paragraph (a)(2) of this section, unless an intermediate bank opts to be evaluated pursuant to the Community Development Financing Test in \u00a7 228.24. (2) Intermediate Bank Community Development Test. (i) An intermediate bank's community development performance is evaluated pursuant to the following criteria: (A) The number and dollar amount of community development loans; (B) The number and dollar amount of community development investments; (C) The extent to which t"
+  },
+  "228.29": {
+   "title": "Small bank performance evaluation.",
+   "refs": [
+    "228.22",
+    "228.23",
+    "228.24",
+    "228.25",
+    "228.21"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Small bank performance evaluation. (a) Small bank performance evaluation \u2014(1) In general. The Board evaluates a small bank's record of helping to meet the credit needs of its entire community pursuant to the Small Bank Lending Test as provided in paragraph (a)(2) of this section, unless the small bank opts to be evaluated pursuant to the Retail Lending Test in \u00a7 228.22. (2) Small Bank Lending Test. A small bank's retail lending performance is evaluated pursuant to the following criteria: (i) The bank's loan-to-deposit ratio, adjusted for seasonal variation, and, as appropriate, other retail and community development lending-related activities, such as loan originations for sale to the secondary markets, community development loans, or community development investments; (ii) The percentage "
+  },
+  "228.26": {
+   "title": "Limited purpose banks.",
+   "refs": [
+    "228.25",
+    "228.21",
+    "228.15",
+    "228.19",
+    "228.42"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Limited purpose banks. (a) Bank request for designation as a limited purpose bank. To receive a designation as a limited purpose bank, a bank must file a written request with the Board at least 90 days prior to the proposed effective date of the designation. If the Board approves the designation, it remains in effect until the bank requests revocation of the designation or until one year after the Board notifies a limited purpose bank that the Board has revoked the designation on the Board's own initiative. (b) Performance evaluation \u2014(1) In general. To evaluate a limited purpose bank, the Board applies the Community Development Financing Test for Limited Purpose Banks as described in paragraphs (c) through (f) of this section. (2) Additional consideration \u2014(i) Community development servic"
+  },
+  "228.16": {
+   "title": "Facility-based assessment areas.",
+   "refs": [
+    "228.21"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Facility-based assessment areas. (a) In general. A bank must delineate one or more facility-based assessment areas within which the Board evaluates the bank's record of helping to meet the credit needs of its entire community pursuant to the performance tests and strategic plan described in \u00a7 228.21. (b) Geographic requirements for facility-based assessment areas. (1) Except as provided in paragraph (b)(3) of this section, a bank's facility-based assessment areas must include each county in which a bank has a main office, a branch, or a deposit-taking remote service facility, as well as the surrounding counties in which the bank has originated or purchased a substantial portion of its loans (including home mortgage loans, multifamily loans, small business loans, small farm loans, and autom"
+  },
+  "228.27": {
+   "title": "Strategic plan.",
+   "refs": [
+    "228.21",
+    "228.42"
+   ],
+   "history": "[Reg. BB, 89 FR 7188, Feb. 1, 2024, as amended at 89 FR 22068, Mar. 29, 2024]",
+   "amended_years": [
+    2024
+   ],
+   "text": "Strategic plan. (a) Alternative election. Pursuant to \u00a7 228.21, the Board evaluates a bank's record of helping to meet the credit needs of its entire community under a strategic plan, if: (1) The Board has approved the plan pursuant to this section; (2) The plan is in effect; and (3) The bank has been operating under an approved plan for at least one year. (b) Data requirements. The Board's approval of a plan does not affect the bank's obligation, if any, to collect, maintain, and report data as required by \u00a7 228.42. (c) Plans in general \u2014(1) Term. A plan may have a term of not more than five years. (2) Performance tests in plan. (i) A bank's plan must include the same performance tests that would apply in the absence of an approved plan, except as provided in paragraph (g)(1) of this sect"
+  },
+  "228.42": {
+   "title": "Data collection, reporting, and disclosure.",
+   "refs": [
+    "228.23"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Data collection, reporting, and disclosure. Link to an amendment published at 89 FR 7189, Feb. 1, 2024. (a) Information required to be collected and maintained \u2014(1) Small business loans and small farm loans data. A large bank must collect and maintain in electronic form, as prescribed by the Board, until the completion of the bank's next CRA examination in which the data are evaluated, the following data for each small business loan or small farm loan originated or purchased by the bank during the evaluation period: (i) A unique number or alpha-numeric symbol that can be used to identify the relevant loan file; (ii) An indicator for the loan type as reported on the bank's Call Report or Report of Assets and Liabilities of U.S. Branches and Agencies of Foreign Banks, as applicable. (iii) Th"
+  },
+  "228.15": {
+   "title": "Impact and responsiveness review of community development loans, community development investments, and community develo",
+   "refs": [
+    "228.24",
+    "228.25",
+    "228.26",
+    "228.21"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Impact and responsiveness review of community development loans, community development investments, and community development services. (a) Impact and responsiveness review, in general. Under the Community Development Financing Test in \u00a7 228.24, the Community Development Services Test in \u00a7 228.25, and the Community Development Financing Test for Limited Purpose Banks in \u00a7 228.26, the Board evaluates the extent to which a bank's community development loans, community development investments, and community development services are impactful and responsive in meeting community development needs in each facility-based assessment area and, as applicable, each State, multistate MSA, and the nationwide area. The Board evaluates the impact and responsiveness of a bank's community development loans"
+  },
+  "228.19": {
+   "title": "Areas for eligible community development loans, community development investments, and community development services.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Areas for eligible community development loans, community development investments, and community development services. The Board may consider a bank's community development loans, community development investments, and community development services provided outside of its facility-based assessment areas, as provided in this part."
+  },
+  "228.13": {
+   "title": "Consideration of community development loans, community development investments, and community development services.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Consideration of community development loans, community development investments, and community development services. As provided in paragraph (a) of this section, a bank may receive consideration for a loan, investment, or service that supports community development as described in paragraphs (b) through (l) of this section. (a) Full and partial credit for community development loans, community development investments, and community development services \u2014(1) Full credit. A bank will receive credit for its entire loan, investment, or service if it meets the majority standard in paragraph (a)(1)(i) of this section; meets the bona fide intent standard in paragraph (a)(1)(ii) of this section; involves an MDI, WDI, LICU, or CDFI as provided in paragraph (a)(1)(iii) of this section; or involves "
+  },
+  "228.28": {
+   "title": "Assigned conclusions and ratings.",
+   "refs": [
+    "228.22",
+    "228.29",
+    "228.27",
+    "228.51"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Assigned conclusions and ratings. (a) Conclusions \u2014(1) State, multistate MSA, and institution test conclusions and performance scores \u2014(i) In general. For each of the applicable performance tests pursuant to \u00a7\u00a7 228.22 through 228.26 and 228.30, the Board assigns conclusions and associated test performance scores of \u201cOutstanding,\u201d \u201cHigh Satisfactory,\u201d \u201cLow Satisfactory,\u201d \u201cNeeds to Improve,\u201d or \u201cSubstantial Noncompliance\u201d for the performance of a bank in each State and multistate MSA, as applicable pursuant to paragraph (c) of this section, and for the institution. (ii) Small banks. The Board assigns conclusions of \u201cOutstanding,\u201d \u201cSatisfactory,\u201d \u201cNeeds to Improve,\u201d or \u201cSubstantial Noncompliance\u201d for the performance of a small bank evaluated under the Small Bank Lending Test in \u00a7 228.29(a)(2)"
+  },
+  "228.51": {
+   "title": "Applicability dates and transition provisions.",
+   "refs": [
+    "228.12",
+    "228.42",
+    "228.22"
+   ],
+   "history": "[Reg. BB, 89 FR 7188, Feb. 1, 2024, as amended at 89 FR 22068, Mar. 29, 2024]",
+   "amended_years": [
+    2024
+   ],
+   "text": "Applicability dates and transition provisions. (a) Applicability dates \u2014(1) In general. Except as provided in paragraphs (a)(2), (b), and (d) of this section, this part is applicable, beginning on April 1, 2024. (2) Specific applicability dates. The following sections are applicable as follows: (i) On January 1, 2026, \u00a7\u00a7 228.12 through 228.30, 228.42(a), 228.43, and 228.44; the data collection and maintenance requirements in \u00a7 228.42(c) through (f); and appendices A through F to this part become applicable. (ii) On January 1, 2027, \u00a7 228.42(b) and (g) through (i) and the reporting requirements in \u00a7 228.42(c) through (f) become applicable. (iii) Rules during transition period. Prior to the applicability dates in paragraphs (a)(2)(i) and (ii) of this section, banks must comply with the relev"
+  },
+  "228.12": {
+   "title": "Definitions.",
+   "refs": [
+    "228.13",
+    "228.11",
+    "228.22",
+    "228.42"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Definitions. Link to an amendment published at 89 FR 7188, Feb. 1, 2024. For purposes of this part, the following definitions apply: Affiliate means any company that controls, is controlled by, or is under common control with another company. The term \u201ccontrol\u201d has the meaning given to that term in 12 U.S.C. 1841(a)(2), as implemented by the Board in 12 CFR part 225, and a company is under common control with another company if both companies are directly or indirectly controlled by the same company. Affordable housing means activities described in \u00a7 228.13(b). Area median income means: (1) The median family income for the MSA (as defined in this section), if an individual, family, household, or census tract is located in an MSA that has not been subdivided into metropolitan divisions, or "
+  },
+  "228.11": {
+   "title": "Authority, purposes, and scope.",
+   "refs": [],
+   "history": "[Reg. BB, 89 FR 7188, Feb. 1, 2024, as amended at 89 FR 22068, Mar. 29, 2024]",
+   "amended_years": [
+    2024
+   ],
+   "text": "Authority, purposes, and scope. (a) Authority. The Board of Governors of the Federal Reserve System (the Board) issues this part to implement the Community Reinvestment Act (12 U.S.C. 2901 et seq. ) (CRA). The regulations comprising this part are issued under the authority of the CRA and under the provisions of the United States Code authorizing the Board: (1) To conduct examinations of State-chartered banks that are members of the Federal Reserve System (12 U.S.C. 325); (2) To conduct examinations of bank holding companies and their subsidiaries (12 U.S.C. 1844) and savings and loan holding companies and their subsidiaries (12 U.S.C. 1467a); and (3) To consider applications for: (i) Domestic branches by State member banks (12 U.S.C. 321); (ii) Mergers in which the resulting bank would be "
+  }
+ },
+ "order": [
+  "226.2",
+  "226.15",
+  "226.19",
+  "226.12",
+  "226.5b",
+  "226.4",
+  "226.5a",
+  "226.6",
+  "226.7",
+  "226.18",
+  "226.22",
+  "226.14",
+  "226.8",
+  "226.9",
+  "226.16",
+  "226.17",
+  "226.23",
+  "226.13",
+  "226.5",
+  "226.47",
+  "226.46",
+  "226.32",
+  "226.56",
+  "226.10",
+  "228.18",
+  "226.48",
+  "226.33",
+  "226.30",
+  "228.22",
+  "228.21",
+  "228.23",
+  "228.24",
+  "228.25",
+  "228.30",
+  "228.29",
+  "228.26",
+  "228.16",
+  "228.27",
+  "228.42",
+  "228.15",
+  "228.19",
+  "228.13",
+  "228.28",
+  "228.51",
+  "228.12",
+  "228.11"
+ ],
+ "scenario": {
+  "subject": "a home equity line of credit",
+  "ticket": "a consumer has disputed the finance-charge disclosure given for a home equity plan and the creditor disagrees about which disclosure requirement governs",
+  "authority_noun": "creditor identification on file",
+  "filing_noun": "disclosure-accuracy determination",
+  "confirmation_resource": "regulations://title-12/amendments/current-status",
+  "filing_endpoint": "https://reg-z-filings.internal/v2/disclosure-determinations/submit",
+  "absence_ticket": "a credit arrangement has been reported that does not obviously fall under any existing disclosure requirement"
+ },
+ "title": "12"
+}

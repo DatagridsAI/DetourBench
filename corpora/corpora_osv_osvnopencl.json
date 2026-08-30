@@ -1,0 +1,1040 @@
+{
+ "seed": "GHSA-vr6h-vxqj-3pjx",
+ "sections": {
+  "GHSA-jp4j-q5fc-58gv": {
+   "title": "OpenClaw's Discord component interaction ingress skips guild/channel policy enforcement",
+   "text": "OpenClaw's Discord component interaction ingress skips guild/channel policy enforcement Affected: openclaw. Severity: MODERATE. from 2026.2.14; fixed in 2026.3.28 ## Summary Discord button and component interaction ingress did not consistently reapply the same guild and channel policy gates used for normal inbound messages. ## Impact Users could trigger privileged component actions from contexts that should have been blocked by Discord channel policy. ## Affected Component `extensions/discord/src/monitor/agent-components.ts` ## Fixed Versions - Affected: `>= 2026.2.14, <= 2026.3.24` - Patched: `>= 2026.3.28` - Latest stable `2026.3.28` contains the fix. ## Fix Fixed by commit `511093d4b3` (`Discord: apply component interaction policy gates`).",
+   "refs": [
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3",
+    "GHSA-w626-296m-8f85"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-31, last modified 2026-07-08]"
+  },
+  "GHSA-56f2-hvwg-5743": {
+   "title": "OpenClaw affected by SSRF in Image Tool Remote Fetch",
+   "text": "OpenClaw affected by SSRF in Image Tool Remote Fetch Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.2.2 ## Summary A server-side request forgery (SSRF) vulnerability in the Image tool allowed attackers to force OpenClaw to make HTTP requests to arbitrary internal or restricted network targets. ## Affected Versions - npm: openclaw <= 2026.2.1 ## Patched Versions - npm: openclaw 2026.2.2 and later ## Fix Commits - 81c68f582d4a9a20d9cca9f367d2da9edc5a65ae (guard remote media fetches with SSRF checks) - 9bd64c8a1f91dda602afc1d5246a2ff2be164647 (expand SSRF guard coverage) ## Details The Image tool accepts file paths, file:// URLs, data: URLs, and http(s) URLs. In vulnerable versions, http(s) URLs were fetched without SSRF protections, enabling requests to localhost, RFC1918, link-local, and cloud metadata targets. This was fixed by routing remote media fetching through the SSRF guard (private/internal IP + hostname blocking, redirect hardening, DNS pinning). ## Exploitability Notes - Requires ",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-77w2-crqv-cmv3",
+    "GHSA-w626-296m-8f85"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-02-17, last modified 2026-02-22]"
+  },
+  "GHSA-77w2-crqv-cmv3": {
+   "title": "OpenClaw: Feishu Raw Card Send Surface Can Mint Legacy Card Callbacks That Bypass DM Pairing",
+   "text": "OpenClaw: Feishu Raw Card Send Surface Can Mint Legacy Card Callbacks That Bypass DM Pairing Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.3.28 ## Summary Feishu Raw card Send Surface Can Mint Legacy Card Callbacks That Bypass DM Pairing ## Affected Packages / Versions - Package: `openclaw` - Affected versions: `<= 2026.3.24` - First patched version: `2026.3.25` - Latest published npm version at verification time: `2026.3.24` ## Details Feishu raw card sends could previously mint legacy callback payloads that bypassed DM pairing and let unpaired recipients reach callback handling. Commit `81c45976db532324b5a0918a70decc19520dc354` rejects legacy raw-card command payloads so callbacks stay on the normal paired path. Verified vulnerable on tag `v2026.3.24` and fixed on `main` by commit `81c45976db532324b5a0918a70decc19520dc354`. ## Fix Commit(s) - `81c45976db532324b5a0918a70decc19520dc354`",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-w626-296m-8f85"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-29, last modified 2026-04-10]"
+  },
+  "GHSA-w626-296m-8f85": {
+   "title": "Duplicate Advisory: OpenClaw's ACP child sessions inherit subagent security envelope constraints",
+   "text": "Duplicate Advisory: OpenClaw's ACP child sessions inherit subagent security envelope constraints Affected: openclaw. Severity: LOW. from 0; fixed in 2026.4.22 ### Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-q3jj-46pq-826r. This link is maintained to preserve external references. ### Original Description OpenClaw before 2026.4.22 contains a security envelope constraint bypass vulnerability allowing restricted subagents to spawn ACP child sessions that fail to inherit depth, child-count limits, control scope, or target-agent restrictions. Attackers can exploit this by spawning child sessions that bypass subagent-only constraints, potentially escalating privileges or accessing restricted resources.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-11, last modified 2026-05-18]"
+  },
+  "GHSA-3fv3-6p2v-gxwj": {
+   "title": "OpenClaw QQ Bot Extension missing SSRF Protection on All Media Fetch Paths",
+   "text": "OpenClaw QQ Bot Extension missing SSRF Protection on All Media Fetch Paths Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.8 ## Impact QQ Bot Extension: Missing SSRF Protection on All Media Fetch Paths. QQ Bot media download paths were not consistently routed through the SSRF guard and allowlist policy. OpenClaw is a user-controlled local assistant. This advisory is scoped to the OpenClaw trust model and does not assume a multi-tenant service boundary. ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `<= 2026.4.2` - Patched versions: `2026.4.8` ## Fix The issue was fixed on `main` and is available in the patched npm version listed above. The verified fixed tree is commit `d7c3210cd6f5fdfdc1beff4c9541673e814354d5`. ## Verification The fix was re-checked against `main` before publication, including targeted regression tests for the affected security boundary. ## Credits Thanks @adithyan-ak for reporting.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-09, last modified 2026-04-28]"
+  },
+  "GHSA-jr6x-2q95-fh2g": {
+   "title": "OpenClaw's authorization mismatch allowed write-scope agent runs to reach owner-only tools",
+   "text": "OpenClaw's authorization mismatch allowed write-scope agent runs to reach owner-only tools Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.3.1 ### Summary An authorization mismatch allowed authenticated callers with `operator.write` access to invoke owner-only tool surfaces (`gateway`, `cron`) through `agent` runs in scoped-token deployments. ### Impact On affected deployments, write-scoped callers could perform control-plane actions beyond intended write scope. ### Fix Owner-only gating is now enforced consistently for owner-only tool surfaces during agent execution, and tool scope classification was tightened to remove the privilege mismatch. ### Affected and Patched Versions - Affected: `<= 2026.2.26` - Patched: `2026.3.1`",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-02, last modified 2026-07-08]"
+  },
+  "GHSA-q2qc-744p-66r2": {
+   "title": "OpenClaw: `session_status` sessionId resolution bypasses sandboxed session-tree visibility",
+   "text": "OpenClaw: `session_status` sessionId resolution bypasses sandboxed session-tree visibility Affected: openclaw. Severity: HIGH. from 2026.3.11; fixed in 2026.3.28 ## Summary `session_status` sessionId resolution bypasses sandboxed session-tree visibility ## Affected Packages / Versions - Package: `openclaw` - Affected versions: `>= 2026.3.11, <= 2026.3.24` - First patched version: `2026.3.25` - Latest published npm version at verification time: `2026.3.24` ## Details `session_status` previously resolved a `sessionId` to a canonical session key after early visibility checks, letting sandboxed children reach parent or sibling sessions that were blocked by explicit `sessionKey`. Commit `d9810811b6c3c9266d7580f00574e5e02f7663de` enforces visibility after `sessionId` resolution so sandboxed callers cannot escape their session tree. Verified vulnerable on tag `v2026.3.24` and fixed on `main` by commit `d9810811b6c3c9266d7580f00574e5e02f7663de`. ## Fix Commit(s) - `d9810811b6c3c9266d7580f00574e5e02f7663de`",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-29, last modified 2026-07-08]"
+  },
+  "GHSA-4jpw-hj22-2xmc": {
+   "title": "OpenClaw: Pairing-scoped device tokens could mint `operator.admin` and reach node RCE",
+   "text": "OpenClaw: Pairing-scoped device tokens could mint `operator.admin` and reach node RCE Affected: openclaw. Severity: CRITICAL. from 0; fixed in 2026.3.11 ## Summary In affected versions of `openclaw`, a caller holding only `operator.pairing` could use `device.token.rotate` to mint a new token with broader scopes for an already paired device. If the target device was approved for `operator.admin`, the attacker could obtain an administrative token without already holding administrative scope. ## Impact This is a critical authorization flaw. On deployments with connected node hosts or companion apps that expose `system.run`, the escalated token could then modify node execution approvals and reach real remote code execution on the node. Even without nodes, the flaw still granted unauthorized gateway-admin access. ## Affected Packages and Versions - Package: `openclaw` (npm) - Affected versions: `<= 2026.3.8` - Fixed in: `2026.3.11` ## Technical Details `device.token.rotate` accepted caller-supplied target scopes and validated them against the",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-13, last modified 2026-07-08]"
+  },
+  "GHSA-v6c6-vqqg-w888": {
+   "title": "OpenClaw affected by potential code execution via unsafe hook module path handling in Gateway",
+   "text": "OpenClaw affected by potential code execution via unsafe hook module path handling in Gateway Affected: openclaw. Severity: HIGH. from 2026.1.5; fixed in 2026.2.14 ## Summary OpenClaw Gateway supports hook mappings with optional JavaScript/TypeScript transform modules. In affected versions, the gateway did not sufficiently constrain configured module paths before passing them to dynamic `import()`. Under some configurations, a user who can modify gateway configuration could cause the gateway process to load and execute an unintended local module. ## Impact Potential code execution in the OpenClaw gateway Node.js process. This requires access that can modify gateway configuration (for example via the gateway config endpoints). Treat such access as high privilege. ## Affected Packages / Versions - npm package: `openclaw` - Affected: `>= 2026.1.5` and `<= 2026.2.13` ## Patched Versions - `>= 2026.2.14` ## Fix Commit(s) - `a0361b8ba959e8506dc79d638b6e6a00d12887e4` (restrict hook transform module loading) - `35c0e66ed057f1a9f7ad2515fdcef516bd6584ce` (ha",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-02-18, last modified 2026-03-06]"
+  },
+  "GHSA-vr6h-vxqj-3pjx": {
+   "title": "Duplicate Advisory: Host environment sanitizer missed two Node.js control variables",
+   "text": "Duplicate Advisory: Host environment sanitizer missed two Node.js control variables Affected: openclaw. Severity: HIGH. from 0 ## Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-ccwh-wwpp-6wg5. This link is maintained to preserve external references. ## Original Description OpenClaw before 2026.5.26 contains an insufficient sanitization vulnerability in the host environment sanitizer that allows Node.js control variables to bypass validation. Attackers with access to workspace .env files, tool environment overrides, or skill environment blocks can pass malicious Node.js control variables to influence child processes or coverage output paths.",
+   "refs": [
+    "GHSA-g796-jqmx-wf9q",
+    "GHSA-h9h6-pwqv-j9hv",
+    "GHSA-wr92-6w3g-2hwc",
+    "GHSA-r4c2-gq3j-7rpj",
+    "GHSA-3r78-rqg8-95gg",
+    "GHSA-8wmm-344f-mpjg",
+    "GHSA-c8w7-9w9h-x69q",
+    "GHSA-27pq-2ph8-8x25"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-16, last modified 2026-06-18]"
+  },
+  "GHSA-vc32-h5mq-453v": {
+   "title": "OpenClaw: /allowlist omits owner-only enforcement for cross-channel allowlist writes",
+   "text": "OpenClaw: /allowlist omits owner-only enforcement for cross-channel allowlist writes Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.8 ## Impact /allowlist omits owner-only enforcement for cross-channel allowlist writes. An authorized non-owner sender could attempt allowlist writes against a different channel. OpenClaw is a user-controlled local assistant. This advisory is scoped to the OpenClaw trust model and does not assume a multi-tenant service boundary. ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `<=v2026.4.1` - Patched versions: `2026.4.8` ## Fix The issue was fixed on `main` and is available in the patched npm version listed above. The verified fixed tree is commit `d7c3210cd6f5fdfdc1beff4c9541673e814354d5`. ## Verification The fix was re-checked against `main` before publication, including targeted regression tests for the affected security boundary. ## Credits Thanks @zsxsoft and @KeenSecurityLab for reporting.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-09, last modified 2026-05-06]"
+  },
+  "GHSA-659f-22xc-98f2": {
+   "title": "OpenClaw hook transform path containment missed symlink-resolved escapes",
+   "text": "OpenClaw hook transform path containment missed symlink-resolved escapes Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.2.22 ## Vulnerability Webhook transform modules were validated with lexical path checks only. A symlink under the allowed hooks transform tree could resolve outside the intended directory and be dynamically imported. ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `<= 2026.2.21-2` - Patched version (planned next release): `2026.2.22` ## Impact When an attacker can cause a transform module path to reference a symlinked entry that resolves outside the trusted transform directory, the gateway may import and execute unintended JavaScript with gateway-process privileges. ## Attack Preconditions - Hook transforms are enabled and reachable. - Attacker can influence transform path resolution (for example via privileged config access and/or writable filesystem path in the transform tree). - A symlink escape exists to attacker-controlled code. ## Remediation - Enforce r",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-03, last modified 2026-03-04]"
+  },
+  "GHSA-g796-jqmx-wf9q": {
+   "title": "Duplicate Advisory: macOS Swift exec allowlist missed combined POSIX inline flags",
+   "text": "Duplicate Advisory: macOS Swift exec allowlist missed combined POSIX inline flags Affected: openclaw. Severity: MODERATE. from 0 ## Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-c226-q6fx-6j6c. This link is maintained to preserve external references. ## Original Description OpenClaw before 2026.5.6 contains an allowlist bypass vulnerability in the macOS Swift exec feature that misses combined POSIX inline-command flags. Attackers can execute shell content outside the intended allowlist check by using combined flag forms, potentially allowing unauthorized command execution depending on operator configuration.",
+   "refs": [
+    "GHSA-vr6h-vxqj-3pjx",
+    "GHSA-h9h6-pwqv-j9hv",
+    "GHSA-wr92-6w3g-2hwc",
+    "GHSA-r4c2-gq3j-7rpj",
+    "GHSA-3r78-rqg8-95gg",
+    "GHSA-8wmm-344f-mpjg",
+    "GHSA-c8w7-9w9h-x69q",
+    "GHSA-27pq-2ph8-8x25"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-16, last modified 2026-06-18]"
+  },
+  "GHSA-767m-xrhc-fxm7": {
+   "title": "OpenClaw: Gateway operator.write Can Reach Admin-Class Telegram Config and Cron Persistence via send",
+   "text": "OpenClaw: Gateway operator.write Can Reach Admin-Class Telegram Config and Cron Persistence via send Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.3.28 ## Summary Gateway operator.write Can Reach Admin-Class Telegram Config and Cron Persistence via send ## Current Maintainer Triage - Status: narrow - Normalized severity: medium - Assessment: Real shipped operator.write to admin-class Telegram config or cron persistence bug, but it is an authenticated sink-specific escalation and high is too high given the narrower scope. ## Affected Packages / Versions - Package: `openclaw` (npm) - Latest published npm version: `2026.3.31` - Vulnerable version range: `<=2026.3.24` - Patched versions: `>= 2026.3.28` - First stable tag containing the fix: `v2026.3.28` ## Fix Commit(s) - `b7d70ade3b9900dbe97bd73be9c02e924ff3c986` \u2014 2026-03-25T12:12:09-06:00 ## Release Process Note - The fix is already present in released version `2026.3.28`. - This draft looks ready for final maintainer disposition or publication, not additional code-fix work. Thanks @zpbr",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-07, last modified 2026-05-08]"
+  },
+  "GHSA-5fc7-f62m-8983": {
+   "title": "OpenClaw: Feishu docx upload_file/upload_image Bypasses Workspace-Only Filesystem Policy (GHSA-qf48-qfv4-jjm9 Incomplete Fix)",
+   "text": "OpenClaw: Feishu docx upload_file/upload_image Bypasses Workspace-Only Filesystem Policy (GHSA-qf48-qfv4-jjm9 Incomplete Fix) Affected: openclaw. Severity: LOW. from 0; fixed in 2026.4.8 ## Impact Feishu docx upload_file/upload_image Bypasses Workspace-Only Filesystem Policy (GHSA-qf48-qfv4-jjm9 Incomplete Fix). Feishu document uploads could read local files outside the workspace-only file policy when processing docx upload blocks. OpenClaw is a user-controlled local assistant. This advisory is scoped to the OpenClaw trust model and does not assume a multi-tenant service boundary. ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `<=2026.4.3` - Patched versions: `2026.4.8` ## Fix The issue was fixed on `main` and is available in the patched npm version listed above. The verified fixed tree is commit `d7c3210cd6f5fdfdc1beff4c9541673e814354d5`. ## Verification The fix was re-checked against `main` before publication, including targeted regression tests for the affected security boundary. ## Credits Thanks @Rosayxy for reporting.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-09, last modified 2026-04-28]"
+  },
+  "GHSA-8mr2-f9wf-hcfq": {
+   "title": "Duplicate Advisory: OpenClaw reuses the gateway auth token in the owner ID prompt hashing fallback",
+   "text": "Duplicate Advisory: OpenClaw reuses the gateway auth token in the owner ID prompt hashing fallback Affected: openclaw. Severity: LOW. from 0; fixed in 2026.2.22 ### Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-v6x2-2qvm-6gv8. This link is maintained to preserve external references. ### Original Description OpenClaw versions prior to 2026.2.22 reuse gateway.auth.token as a fallback hash secret for owner-ID prompt obfuscation when commands.ownerDisplay is set to hash and commands.ownerDisplaySecret is unset, creating dual-use of authentication secrets across security domains. Attackers with access to system prompts sent to third-party model providers can derive the gateway authentication token from the hash outputs, compromising gateway authentication security.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-21, last modified 2026-03-24]"
+  },
+  "GHSA-f6h3-846h-2r8w": {
+   "title": "OpenClaw's elevated allowFrom accepted broader identity signals than specified within sender-scoped authorization",
+   "text": "OpenClaw's elevated allowFrom accepted broader identity signals than specified within sender-scoped authorization Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.2.22 ### Summary In certain elevated-mode configurations, `tools.elevated.allowFrom` accepted broader identity signals than intended. The fix tightens matching to sender-scoped identity by default and makes mutable metadata matching explicit. ### Context OpenClaw is commonly used in 1:1 chats or trusted group chats. In that intended model, this issue is best treated as authorization hardening / defense-in-depth for elevated sender approval. ### Affected Packages / Versions - Package: `openclaw` (npm) - Latest published npm version at triage: `2026.2.21-2` - Affected versions: `<= 2026.2.21-2` - Planned patched version (pre-set for publish-ready advisory): `2026.2.22` ### Details Elevated sender authorization now matches sender-scoped identity values only by default (`SenderId`, `From`, `SenderE164`) and no longer considers recipient routing fields such as `ctx.To`. Mutable sender metadata (`S",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-04, last modified 2026-03-04]"
+  },
+  "GHSA-p7gr-f84w-hqg5": {
+   "title": "OpenClaw's sandboxed sessions_spawn now enforces sandbox inheritance for cross-agent spawns",
+   "text": "OpenClaw's sandboxed sessions_spawn now enforces sandbox inheritance for cross-agent spawns Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.3.1 ### Summary A sandboxed session could use cross-agent `sessions_spawn` to create a child under an agent configured with `sandbox.mode=\"off\"`, downgrading runtime confinement. ### Impact In mixed-agent setups that allow cross-agent spawning, a sandboxed requester could escape into an unsandboxed child runtime. ### Fix Spawn-time sandbox inheritance is now enforced: if the requester is sandboxed and the resolved child runtime would be unsandboxed, spawn is rejected. ### Affected and Patched Versions - Affected: `<= 2026.2.26` - Patched: `2026.3.1`",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-02, last modified 2026-03-27]"
+  },
+  "GHSA-72q8-jcmc-97wx": {
+   "title": "OpenClaw: Feishu card actions could misclassify DMs and skip dmPolicy",
+   "text": "OpenClaw: Feishu card actions could misclassify DMs and skip dmPolicy Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.20 ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `< 2026.4.20` - Patched version: `2026.4.20` ## Impact Feishu card-action callbacks could synthesize a message event with DM conversations classified as group conversations. That skipped `dmPolicy` enforcement for card actions, so a sender in a Feishu DM could trigger card-action flows that should have been blocked by a restrictive DM policy. The issue is limited to Feishu card-action handling. Severity is medium. ## Fix OpenClaw now resolves Feishu card-action chat type before dispatch, including API lookup when stored context is unavailable, and avoids falling through to group handling for DMs. Fix commit: - `90979d7c3ef7ec30b9f8aa6963a5e38d2f17d166` ## Release Fixed in OpenClaw `2026.4.20`.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-25, last modified 2026-07-08]"
+  },
+  "GHSA-h9g4-589h-68xv": {
+   "title": "OpenClaw has an authentication bypass in sandbox browser bridge server",
+   "text": "OpenClaw has an authentication bypass in sandbox browser bridge server Affected: openclaw. Severity: HIGH. from 2026.1.29-beta.1; fixed in 2026.2.14 ## Summary openclaw could start the sandbox browser bridge server without authentication. When the sandboxed browser is enabled, openclaw runs a local (loopback) HTTP bridge that exposes browser control endpoints (for example `/profiles`, `/tabs`, `/tabs/open`, `/agent/*`). Due to missing auth wiring in the sandbox initialization path, that bridge server accepted requests without requiring gateway auth. ## Impact A local attacker (any process on the same machine) could access the bridge server port and: - enumerate open tabs and retrieve CDP WebSocket URLs - open/close/navigate tabs - execute JavaScript in page contexts via CDP - exfiltrate cookies/session data and page contents from authenticated sessions This is a localhost-only exposure (CVSS AV:L), but provides full browser-session compromise for sandboxed browser usage. ## Affected Versions - Introduced in: `2026.1.29-beta.1` (first",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-02-18, last modified 2026-03-05]"
+  },
+  "GHSA-9gvx-vj57-vqqx": {
+   "title": "Duplicate Advisory: OpenClaw: Gateway Canvas local-direct requests bypass Canvas HTTP and WebSocket authentication",
+   "text": "Duplicate Advisory: OpenClaw: Gateway Canvas local-direct requests bypass Canvas HTTP and WebSocket authentication Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.3.23 ### Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-6mqc-jqh6-x8fc. This link is maintained to preserve external references. ### Original Description OpenClaw before 2026.3.23 contains an authentication bypass vulnerability in the Canvas gateway where authorizeCanvasRequest() unconditionally allows local-direct requests without validating bearer tokens or canvas capabilities. Attackers can send unauthenticated loopback HTTP and WebSocket requests to Canvas routes to bypass authentication and gain unauthorized access.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-10, last modified 2026-04-10]"
+  },
+  "GHSA-8m9v-xpgf-g99m": {
+   "title": "OpenClaw has an unauthorized sender bypass in its stop triggers and /models command authorization",
+   "text": "OpenClaw has an unauthorized sender bypass in its stop triggers and /models command authorization Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.3.1 ### Summary Unauthorized senders could trigger two command paths without sender authorization checks: 1. stop-like natural-language abort triggers 2. `/models` command output ### Impact An unauthorized sender could disrupt active sessions and view model/auth metadata that should be authorization-gated. ### Fix Sender authorization is now enforced for stop-like abort triggers and `/models` listings. ### Affected and Patched Versions - Affected: `<= 2026.2.26` - Patched: `2026.3.1`",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-02, last modified 2026-03-04]"
+  },
+  "GHSA-3298-56p6-rpw2": {
+   "title": "OpenClaw has incomplete Fix for CVE-2026-27486: Unvalidated SIGKILL in `!stop` Chat Command via `shell-utils.ts`",
+   "text": "OpenClaw has incomplete Fix for CVE-2026-27486: Unvalidated SIGKILL in `!stop` Chat Command via `shell-utils.ts` Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.3.24 > Fixed in OpenClaw 2026.3.24, the current shipping release. ### Advisory Details **Title**: Incomplete Fix for CVE-2026-27486: Unvalidated SIGKILL in `!stop` Chat Command via `shell-utils.ts` **Description**: ### Summary The `!stop` (and `/bash stop`) chat command kills background bash processes using `SIGKILL` directly, without first sending `SIGTERM` to allow graceful shutdown. This is because `bash-command.ts` imports `killProcessTree()` from `src/agents/shell-utils.ts`, which still contains the pre-CVE-2026-27486 aggressive kill logic, rather than from the patched `src/process/kill-tree.ts`. ### Details CVE-2026-27486 fixed unsafe process termination by introducing a graceful shutdown sequence in `src/process/kill-tree.ts` \u2014 sending `SIGTERM` first, waiting a configurable grace period (default 3 seconds), then escalating to `SIGKILL` only if the process is still alive. However, an i",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-30, last modified 2026-04-10]"
+  },
+  "GHSA-rvvf-6vh3-9j43": {
+   "title": "OpenClaw: Discord Slash Commands Bypass Group DM Channel Allowlist",
+   "text": "OpenClaw: Discord Slash Commands Bypass Group DM Channel Allowlist Affected: openclaw. Severity: LOW. from 0; fixed in 2026.3.31 ## Summary Discord Slash Commands Bypass Group DM Channel Allowlist ## Current Maintainer Triage - Status: narrow - Normalized severity: moderate - Assessment: v2026.3.28 native Discord slash and autocomplete paths still skip the group-DM allowlist, but impact is limited to already-authorized Discord users bypassing a channel restriction rather than crossing a stronger trust boundary. ## Affected Packages / Versions - Package: `openclaw` (npm) - Latest published npm version: `2026.3.31` - Vulnerable version range: `<=2026.3.28` - Patched versions: `>= 2026.3.31` - First stable tag containing the fix: `v2026.3.31` ## Fix Commit(s) - `8fdb19676ab44cf85d47ee13c578195f2e527591` \u2014 2026-03-30T11:17:36-06:00 OpenClaw thanks @nexrin for reporting.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-03, last modified 2026-05-06]"
+  },
+  "GHSA-796m-2973-wc5q": {
+   "title": "OpenClaw has exec allowlist/safeBins policy-runtime mismatch via env -S wrapper interpretation",
+   "text": "OpenClaw has exec allowlist/safeBins policy-runtime mismatch via env -S wrapper interpretation Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.2.23 ### Summary `tools.exec` allowlist/safe-bins evaluation could diverge from runtime execution for wrapper commands using GNU `env -S/--split-string` semantics. This allowed policy checks to treat a command as a benign safe-bin invocation while runtime executed a different payload. ### Affected Packages / Versions - Package: `openclaw` (npm) - Vulnerable versions: `<= 2026.2.22-2` (latest currently published npm version) - Patched version (released): `2026.2.23` ### Impact An attacker able to influence tool command text (for example via untrusted prompt/content injection reaching an exec-capable flow) could bypass allowlist/safe-bins intent and execute unexpected commands. ### Technical Details Root cause was policy/runtime interpretation mismatch for dispatch wrappers: - analysis resolved an effective executable from wrapper-unwrapped argv, - execution could still run original wrapper arg",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-03, last modified 2026-03-04]"
+  },
+  "GHSA-7jm2-g593-4qrc": {
+   "title": "OpenClaw: Agent gateway config mutations could change protected operator settings",
+   "text": "OpenClaw: Agent gateway config mutations could change protected operator settings Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.20 ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `< 2026.4.20` - Patched version: `2026.4.20` ## Impact The agent-facing `gateway config.patch` / `config.apply` guard did not cover several operator-trusted settings, including sandbox policy, plugin enablement, gateway auth/TLS, hook routing, MCP server configuration, SSRF policy, and filesystem hardening. A prompt-injected model with access to the owner-only gateway tool could persist changes to those settings. This is a model-to-operator guard bypass, not a remote unauthenticated gateway compromise. Severity is medium. ## Fix OpenClaw now blocks model-driven gateway config mutations for the broader operator-trusted path set and covers per-agent overrides and array-entry patching. Fix commit: - `fe30b31a97a917ecc6e92f6c85378b6b20352422` ## Release Fixed in OpenClaw `2026.4.20`.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-25, last modified 2026-07-08]"
+  },
+  "GHSA-4cqv-h74h-93j4": {
+   "title": "OpenClaw has a Discord `allowFrom` slug-collision authorization bypass",
+   "text": "OpenClaw has a Discord `allowFrom` slug-collision authorization bypass Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.2.22 OpenClaw supports Discord allowlists using either user IDs or names/tags. Name/tag matching depends on slug normalization, so different user tags can collide to the same slug and unintentionally satisfy a name-based allowlist entry. ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `<= 2026.2.21-2` - Patched versions: >= 2026.2.22 ## What Changed - `openclaw security audit` now warns on Discord name/tag allowlist entries (DM allowlists, guild/channel `users`, and pairing-store entries). - Runtime authorization now prefers resolved user IDs when a configured name/tag can be resolved, without rewriting config files on disk. - Name-based entries remain supported for compatibility. ## Recommendations - Prefer stable Discord user IDs for security-sensitive allowlists. - Run `openclaw security audit` and address warnings where practical. ## Fix Commit(s) - f97c45",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-03, last modified 2026-03-04]"
+  },
+  "GHSA-vw3h-q6xq-jjm5": {
+   "title": "OpenClaw: Voice-call realtime WebSocket accepted oversized frames",
+   "text": "OpenClaw: Voice-call realtime WebSocket accepted oversized frames Affected: openclaw. Severity: HIGH. from 2026.4.9; fixed in 2026.4.10 ## Summary Voice-call realtime WebSocket accepted oversized frames. ## Affected Packages / Versions - Package: `openclaw` - Ecosystem: npm - Affected versions: `>= 2026.4.9 < 2026.4.10` - Patched versions: `>= 2026.4.10` ## Impact The voice-call realtime WebSocket path could accept oversized frames, creating a remote availability risk for deployments exposing that webhook path. ## Technical Details The fix rejects oversized realtime WebSocket frames before processing them. ## Fix The issue was fixed in #63890. The first stable tag containing the fix is `v2026.4.10`, and `openclaw@2026.4.14` includes the fix. ## Fix Commit(s) - `afadb7dae6738819ad9c7d2597ace0516957d20e` - PR: #63890 ## Release Process Note Users should upgrade to `openclaw` 2026.4.10 or newer. The latest npm release, `2026.4.14`, already includes the fix. ## Reporters Thanks to G0odUser from ADLab of VenusTech Thanks to @",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-17, last modified 2026-06-08]"
+  },
+  "GHSA-jhpv-5j76-m56h": {
+   "title": "OpenClaw: Sender policy bypass in host media attachment reads allows unauthorized local file disclosure",
+   "text": "OpenClaw: Sender policy bypass in host media attachment reads allows unauthorized local file disclosure Affected: openclaw. Severity: MODERATE. from 2026.4.9; fixed in 2026.4.10 ## Summary OpenClaw's outbound host-media attachment read helper could enable host-local file reads based on global or agent-level read access without also honoring sender and group-scoped tool policy. In channel deployments that used `toolsBySender` or group policy to deny `read` for less-trusted senders, a denied sender could still trigger host-media attachment loading and cause readable local files to be returned through the outbound media path. ## Affected Versions This issue is known to affect OpenClaw 2026.4.9. Earlier versions were not confirmed during triage, so the advisory range is intentionally scoped to `>= 2026.4.9 < 2026.4.10`. ## Impact Affected deployments are those that both allow host read or filesystem root expansion at the global/agent level and rely on sender or group-scoped policy to deny `read` for some channel participants. In that configuration, the intended send",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-17, last modified 2026-05-05]"
+  },
+  "GHSA-h9h6-pwqv-j9hv": {
+   "title": "Duplicate Advisory: Bootstrap token replay could widen pending pairing scopes",
+   "text": "Duplicate Advisory: Bootstrap token replay could widen pending pairing scopes Affected: openclaw. Severity: LOW. from 0 ## Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-9v8j-9c9g-w66c. This link is maintained to preserve external references. ## Original Description OpenClaw before 2026.5.12 contains a bootstrap token replay vulnerability allowing callers with pending token access to reuse tokens with broader requested scopes. Attackers can replay bootstrap tokens before approval to escalate pairing authority beyond intended scope limits.",
+   "refs": [
+    "GHSA-vr6h-vxqj-3pjx",
+    "GHSA-g796-jqmx-wf9q",
+    "GHSA-wr92-6w3g-2hwc",
+    "GHSA-r4c2-gq3j-7rpj",
+    "GHSA-3r78-rqg8-95gg",
+    "GHSA-8wmm-344f-mpjg",
+    "GHSA-c8w7-9w9h-x69q",
+    "GHSA-27pq-2ph8-8x25"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-16, last modified 2026-06-18]"
+  },
+  "GHSA-6f72-9gxx-98mj": {
+   "title": "Duplicate Advisory: OpenClaw: OpenShell FS bridge writes stay pinned to the sandbox mount root",
+   "text": "Duplicate Advisory: OpenClaw: OpenShell FS bridge writes stay pinned to the sandbox mount root Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.22 ### Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-wppj-c6mr-83jj. This link is maintained to preserve external references. ### Original Description OpenClaw before 2026.4.22 contains a time-of-check/time-of-use race condition in OpenShell sandbox filesystem writes that allows attackers to redirect writes outside the intended mount root. Attackers can exploit symlink swaps during filesystem operations to bypass sandbox restrictions and write files outside the local mount root.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-06, last modified 2026-05-11]"
+  },
+  "GHSA-2fgq-7j6h-9rm4": {
+   "title": "OpenClaw has system.run shell-wrapper env injection via SHELLOPTS/PS4 can bypass allowlist intent (RCE)",
+   "text": "OpenClaw has system.run shell-wrapper env injection via SHELLOPTS/PS4 can bypass allowlist intent (RCE) Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.2.22 ### Summary `system.run` allowed `SHELLOPTS` + `PS4` environment injection to trigger command substitution during `bash -lc` xtrace expansion before the allowlisted command body executed. ### Affected Packages / Versions - Package: `openclaw` (npm) - Affected: `<= 2026.2.21-2` (includes latest published npm version at triage time) - Patched (planned next release): `2026.2.22` ### Impact In `allowlist` mode, an attacker who can invoke `system.run` with request-scoped `env` could execute additional shell commands outside the intended allowlisted command body. ### Root Cause Host exec env sanitization blocked startup-file vectors (`BASH_ENV`, `ENV`, etc.) but did not block `SHELLOPTS`/`PS4`. For shell wrappers (`bash|sh|zsh ... -c/-lc`), request env overrides were passed through and `bash` evaluated `PS4` under `xtrace`, enabling command substitution. ### Fix - Block `SHELLOPTS` and `PS4` i",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-03, last modified 2026-03-30]"
+  },
+  "GHSA-52vj-fvrv-7q82": {
+   "title": "OpenClaw vulnerable to SSRF in src/agents/tools/web-fetch.ts",
+   "text": "OpenClaw vulnerable to SSRF in src/agents/tools/web-fetch.ts Affected: openclaw. Severity: LOW. from 0; fixed in 2026.1.29 A weakness has been identified in OpenClaw up to 2026.1.26. Affected by this issue is some unknown functionality of the file src/agents/tools/web-fetch.ts of the component assertPublicHostname Handler. Executing a manipulation can lead to server-side request forgery. The attack can be executed remotely. This attack is characterized by high complexity. The exploitation is known to be difficult. The exploit has been made available to the public and could be used for attacks. Upgrading to version 2026.1.29 can resolve this issue. This patch is called b623557a2ec7e271bda003eb3ac33fbb2e218505. Upgrading the affected component is advised.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-10, last modified 2026-04-10]"
+  },
+  "GHSA-ch86-pxr9-j9h9": {
+   "title": "Duplicate Advisory: OpenClaw: Gemini OAuth exposed the PKCE verifier through the OAuth state parameter",
+   "text": "Duplicate Advisory: OpenClaw: Gemini OAuth exposed the PKCE verifier through the OAuth state parameter Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.2 ### Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-9jpj-g8vv-j5mf. This link is maintained to preserve external references. ### Original Description OpenClaw before 2026.4.2 reuses the PKCE verifier as the OAuth state parameter in the Gemini OAuth flow, exposing it through the redirect URL. Attackers who capture the redirect URL can obtain both the authorization code and PKCE verifier, defeating PKCE protection and enabling token redemption.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-03, last modified 2026-04-07]"
+  },
+  "GHSA-3c6j-hq33-3jv4": {
+   "title": "OpenClaw: Paired nodes could forge exec lifecycle events without system.run provenance",
+   "text": "OpenClaw: Paired nodes could forge exec lifecycle events without system.run provenance Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.5.18 ### Summary OpenClaw nodes send lifecycle events back to the gateway. In affected releases, a paired node could send an exec lifecycle event that was accepted without enough provenance tying it to an authorized `system.run` request. This issue affects the node event boundary. It does not allow an unauthenticated caller to reach the gateway; the attacker must already control a paired node connection. ### Affected configurations This affects deployments with a paired node where that node can send crafted `node.event` messages to the gateway and the target agent/session can process exec lifecycle events. ### Impact A malicious or compromised paired node could make the gateway treat attacker-supplied event data as an exec lifecycle result. In the vulnerable flow, that could steer the target session into an exec-event path that exposed capabilities the reduced node surface should not have pro",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-02, last modified 2026-07-02]"
+  },
+  "GHSA-8j7f-g9gv-7jhc": {
+   "title": "Duplicate Advisory: OpenClaw: SSRF via Unguarded Configured Base URLs in Multiple Channel Extensions (Incomplete Fix for CVE-2026-28476)",
+   "text": "Duplicate Advisory: OpenClaw: SSRF via Unguarded Configured Base URLs in Multiple Channel Extensions (Incomplete Fix for CVE-2026-28476) Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.3.28 ### Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-rhfg-j8jq-7v2h. This link is maintained to preserve external references. ### Original Description OpenClaw before 2026.3.25 contains a server-side request forgery vulnerability in multiple channel extensions that fail to properly guard configured base URLs against SSRF attacks. Attackers can exploit unprotected fetch() calls against configured endpoints to rebind requests to blocked internal destinations and access restricted resources.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-10, last modified 2026-04-10]"
+  },
+  "GHSA-jmm5-fvh5-gf4p": {
+   "title": "OpenClaw has non-constant-time token comparison in hooks authentication",
+   "text": "OpenClaw has non-constant-time token comparison in hooks authentication Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.2.12 ## Summary OpenClaw hooks previously compared the provided hook token using a regular string comparison. Because this comparison is not constant-time, an attacker with network access to the hooks endpoint could potentially use timing measurements across many requests to gradually infer the token. In practice, this typically requires hooks to be exposed to an untrusted network and a large number of requests; real-world latency and jitter can make reliable measurement difficult. ## Affected Packages / Versions - openclaw (npm): < 2026.2.12 ## Patched Versions - openclaw (npm): >= 2026.2.12 ## Mitigations - Upgrade to openclaw >= 2026.2.12. - If users cannot upgrade immediately: restrict network access to the hooks endpoint and rotate the hooks token after updating. ## Fix Commit(s) - 113ebfd6a23c4beb8a575d48f7482593254506ec OpenClaw thanks @akhmittra for reporting.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-02, last modified 2026-03-06]"
+  },
+  "GHSA-qm9x-v7cx-7rq4": {
+   "title": "OpenClaw's system.run allowlist can be bypassed through an unregistered time dispatch wrapper",
+   "text": "OpenClaw's system.run allowlist can be bypassed through an unregistered time dispatch wrapper Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.3.22 ## Summary Allow-always exec approvals did not unwrap /usr/bin/time, so an unregistered time wrapper could bypass executable binding and reuse approval state for the inner command. ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected: < 2026.3.22 - Fixed: >= 2026.3.22 - Latest released tag checked: `v2026.3.23-2` (`630f1479c44f78484dfa21bb407cbe6f171dac87`) - Latest published npm version checked: `2026.3.23-2` ## Fix Commit(s) - `39409b6a6dd4239deea682e626bac9ba547bfb14` ## Release Status The fix shipped in `v2026.3.22` and remains present in `v2026.3.23` and `v2026.3.23-2`. ## Code-Level Confirmation - src/infra/dispatch-wrapper-resolution.ts now unwraps /usr/bin/time and binds approvals to the real inner executable. - src/infra/exec-approvals-allow-always.test.ts ships regression coverage for time-wrapper allow-always approval bypasses. OpenClaw thanks @YLChen-007 for",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-26, last modified 2026-04-10]"
+  },
+  "GHSA-wr92-6w3g-2hwc": {
+   "title": "Duplicate Advisory: OpenClaw's sandboxed sessions_spawn now enforces sandbox inheritance for cross-agent spawns",
+   "text": "Duplicate Advisory: OpenClaw's sandboxed sessions_spawn now enforces sandbox inheritance for cross-agent spawns Affected: openclaw. Severity: HIGH. from 0 ## Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-p7gr-f84w-hqg5. This link is maintained to preserve external references. ## Original Description OpenClaw versions prior to 2026.3.1 fail to enforce sandbox inheritance during cross-agent sessions_spawn operations, allowing sandboxed sessions to create child processes under unsandboxed agents. An attacker with a sandboxed session can exploit this to spawn child runtimes with sandbox.mode set to off, bypassing runtime confinement restrictions.",
+   "refs": [
+    "GHSA-vr6h-vxqj-3pjx",
+    "GHSA-g796-jqmx-wf9q",
+    "GHSA-h9h6-pwqv-j9hv",
+    "GHSA-r4c2-gq3j-7rpj",
+    "GHSA-3r78-rqg8-95gg",
+    "GHSA-8wmm-344f-mpjg",
+    "GHSA-c8w7-9w9h-x69q",
+    "GHSA-27pq-2ph8-8x25"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-21, last modified 2026-03-27]"
+  },
+  "GHSA-r4c2-gq3j-7rpj": {
+   "title": "Duplicate Advisory: OpenClaw: Telegram Webhook Missing Guess Rate Limiting Enables Brute-Force Guessing of Weak Webhook Secret",
+   "text": "Duplicate Advisory: OpenClaw: Telegram Webhook Missing Guess Rate Limiting Enables Brute-Force Guessing of Weak Webhook Secret Affected: openclaw. Severity: MODERATE. from 0 ## Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-vcx4-4qxg-mfp4. This link is maintained to preserve external references. ## Original Description OpenClaw before 2026.3.25 contains a missing rate limiting vulnerability in Telegram webhook authentication that allows attackers to brute-force weak webhook secrets. The vulnerability enables repeated authentication guesses without throttling, permitting attackers to systematically guess webhook secrets through brute-force attacks.",
+   "refs": [
+    "GHSA-vr6h-vxqj-3pjx",
+    "GHSA-g796-jqmx-wf9q",
+    "GHSA-h9h6-pwqv-j9hv",
+    "GHSA-wr92-6w3g-2hwc",
+    "GHSA-3r78-rqg8-95gg",
+    "GHSA-8wmm-344f-mpjg",
+    "GHSA-c8w7-9w9h-x69q",
+    "GHSA-27pq-2ph8-8x25"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-10, last modified 2026-04-18]"
+  },
+  "GHSA-846p-hgpv-vphc": {
+   "title": "OpenClaw: QQ Bot structured payloads could read arbitrary local files",
+   "text": "OpenClaw: QQ Bot structured payloads could read arbitrary local files Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.2 ## Summary Before OpenClaw 2026.4.2, QQ Bot structured media payloads could read local files from attacker-chosen paths. A crafted structured payload could escape QQ Bot-owned media roots and cause arbitrary file reads on the host. ## Impact Prompt-influenced structured payload output could exfiltrate any host file readable by the OpenClaw process through the QQ Bot media-send path. This was a real confidentiality bug on the host filesystem boundary. ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `<= 2026.4.1` - Patched versions: `>= 2026.4.2` - Latest published npm version: `2026.4.1` ## Fix Commit(s) - `2c45b06afdd6f7c621038b5419d8e661cff34a7f` \u2014 restrict QQ Bot structured payload local paths ## Release Process Note The fix is present on `main` and is staged for OpenClaw `2026.4.2`. Publish this advisory after the `2026.4.2` npm release is live. Thanks",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-07, last modified 2026-04-07]"
+  },
+  "GHSA-r54r-wmmq-mh84": {
+   "title": "OpenClaw: ZIP extraction race could write outside destination via parent symlink rebind",
+   "text": "OpenClaw: ZIP extraction race could write outside destination via parent symlink rebind Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.3.2 ### Summary ZIP extraction in OpenClaw could be raced into writing outside the intended destination directory via parent-directory symlink rebind between validation and write. ### Affected Packages / Versions - Package: `openclaw` (npm) - Vulnerable versions: `<= 2026.3.1` - Latest published vulnerable version confirmed: `2026.3.1` (npm as of 2026-03-02) - Patched version: `2026.3.2` (released) ### Technical Details In `src/infra/archive.ts`, ZIP extraction previously validated output paths, then later opened/truncated the destination path in a separate step. A local race on parent-directory symlink state could redirect the final write outside the extraction root. The fix hardens ZIP writes by binding writes to the opened file handle identity and avoiding the pre-write truncate race path, with shared fd realpath verification in `src/infra/fs-safe.ts` and regression coverage in `src/infra",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-03, last modified 2026-04-02]"
+  },
+  "GHSA-g375-h3v6-4873": {
+   "title": "OpenClaw: Heartbeat owner downgrade missed local async exec completion events",
+   "text": "OpenClaw: Heartbeat owner downgrade missed local async exec completion events Affected: openclaw. Severity: MODERATE. from 2026.3.31; fixed in 2026.4.10 ## Summary Heartbeat owner downgrade missed local async exec completion events. ## Affected Packages / Versions - Package: `openclaw` - Ecosystem: npm - Affected versions: `>= 2026.3.31 < 2026.4.10` - Patched versions: `>= 2026.4.10` ## Impact Local background exec completion text could be missed by heartbeat owner-downgrade detection, leaving a run in a more privileged context than intended after untrusted completion content. ## Technical Details The fix expands exec-completion detection to local background exec formats and adds targeted tests. ## Fix The issue was fixed in #64376. The first stable tag containing the fix is `v2026.4.10`, and `openclaw@2026.4.14` includes the fix. ## Fix Commit(s) - `19a2e9ddb5a8a494abcba812bb11f51075026a27` - PR: #64376 ## Release Process Note Users should upgrade to `openclaw` 2026.4.10 or newer. The latest npm release, `2026.4.14`, already includes th",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-17, last modified 2026-07-08]"
+  },
+  "GHSA-8mh7-phf8-xgfm": {
+   "title": "OpenClaw skills.status could leak secrets to operator.read clients",
+   "text": "OpenClaw skills.status could leak secrets to operator.read clients Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.2.14 ### Summary `skills.status` could disclose secrets to `operator.read` clients by returning raw resolved config values in `configChecks` for skill `requires.config` paths. ### Affected Packages / Versions - Package: `openclaw` (npm) - Affected: `<= 2026.2.13` - Patched: `2026.2.14` ### Details The gateway method `skills.status` returned a requirements report that included `configChecks[].value` (the resolved value for each `requires.config` entry). If a skill required a broad config subtree (for example `channels.discord`), the report could include secrets such as Discord bot tokens. `skills.status` is callable with `operator.read`, so read-scoped clients could obtain secrets without `operator.admin` / `config.*` access. ### Fix - Stop including raw resolved config values in requirement checks (return only `{ path, satisfied }`). - Narrow the Discord skill requirement to the token key. Fi",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-02-17, last modified 2026-02-20]"
+  },
+  "GHSA-vr7j-g7jv-h5mp": {
+   "title": "OpenClaw session transcript files were created without forced user-only permissions",
+   "text": "OpenClaw session transcript files were created without forced user-only permissions Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.2.17 `openclaw` created new session transcript JSONL files with overly broad default permissions in affected releases. On multi-user hosts, other local users or processes could read transcript contents, including secrets that might appear in tool output. ## Affected Packages / Versions - Package: `openclaw` (`npm`) - Affected versions: `<= 2026.2.15` - First fixed version: `2026.2.17` - Current latest npm release checked during verification: `2026.3.13` (not affected) ## Impact Session transcript JSONL files are created under the local OpenClaw session store. In affected releases, newly created transcript files did not force user-only permissions, so transcript contents could be readable by other local users depending on the host environment and umask behavior. ## Fix New transcript files are now created with `0o600` permissions. Existing transcript permission drift is also remediated by the ",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-16, last modified 2026-04-06]"
+  },
+  "GHSA-qjpc-qf9m-xwmr": {
+   "title": "OpenClaw: Trusted-proxy Control UI WebSocket accepted client-declared scopes before pairing",
+   "text": "OpenClaw: Trusted-proxy Control UI WebSocket accepted client-declared scopes before pairing Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.5.18 ### Summary In trusted-proxy Control UI mode, OpenClaw accepted a WebSocket client's declared operator scopes before those scopes were bound to a server-approved pairing or trusted-proxy authorization baseline. This issue affects trusted-proxy Control UI deployments. It does not apply to shared-secret Control UI sessions, which are treated as trusted operator sessions by design. ### Affected configurations This affects deployments using `gateway.auth.mode: \"trusted-proxy\"` for Control UI access where a restricted trusted-proxy user could open a Control UI WebSocket and present a fresh, unpaired device identity with elevated requested scopes. ### Impact An unpaired or restricted trusted-proxy Control UI client could obtain cached `operator.admin` authority on its live WebSocket connection. That authority could then be used for admin-gated Gateway RPCs until the connection was closed or re",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-02, last modified 2026-07-08]"
+  },
+  "GHSA-v8cg-4474-49v8": {
+   "title": "OpenClaw: Slack system events bypass sender authorization in member and message subtype handlers",
+   "text": "OpenClaw: Slack system events bypass sender authorization in member and message subtype handlers Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.2.26 ### Summary Slack `member_*` and `message` subtype system events (`message_changed`, `message_deleted`, `thread_broadcast`) were not consistently enforcing sender authorization before enqueueing system events. ### Affected Packages / Versions - Package: `openclaw` (npm) - Latest published version: `2026.2.25` - Affected range: `<= 2026.2.25` - Planned patched version: `2026.2.26` (pre-set for publish-readiness) ### Technical Details Slack system-event handlers in `src/slack/monitor/events/members.ts` and `src/slack/monitor/events/messages.ts` enqueued events after channel checks without shared sender authorization. Deployments relying on Slack DM allowlists (`dmPolicy` / `allowFrom`) or per-channel `users` allowlists could receive unauthorized system-event ingress from non-allowlisted senders. The fix routes those handlers through `authorizeAndResolveSlackSystemEventContext(...)` and fai",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-12, last modified 2026-03-30]"
+  },
+  "GHSA-3r78-rqg8-95gg": {
+   "title": "Duplicate Advisory: OpenClaw's voice-call Twilio webhook replay could bypass manager dedupe because normalized event IDs were randomized per parse",
+   "text": "Duplicate Advisory: OpenClaw's voice-call Twilio webhook replay could bypass manager dedupe because normalized event IDs were randomized per parse Affected: openclaw. Severity: MODERATE. from 0 ## Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-vqx8-9xxw-f2m7. This link is maintained to preserve external references. ## Original Description OpenClaw versions prior to 2026.2.23 contain a vulnerability in Twilio webhook event deduplication where normalized event IDs are randomized per parse, allowing replay events to bypass manager dedupe checks. Attackers can replay Twilio webhook events to trigger duplicate or stale call-state transitions, potentially causing incorrect call handling and state corruption.",
+   "refs": [
+    "GHSA-vr6h-vxqj-3pjx",
+    "GHSA-g796-jqmx-wf9q",
+    "GHSA-h9h6-pwqv-j9hv",
+    "GHSA-wr92-6w3g-2hwc",
+    "GHSA-r4c2-gq3j-7rpj",
+    "GHSA-8wmm-344f-mpjg",
+    "GHSA-c8w7-9w9h-x69q",
+    "GHSA-27pq-2ph8-8x25"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-21, last modified 2026-03-24]"
+  },
+  "GHSA-8wmm-344f-mpjg": {
+   "title": "Duplicate Advisory: Tool group policy callers could accept unvalidated group IDs",
+   "text": "Duplicate Advisory: Tool group policy callers could accept unvalidated group IDs Affected: openclaw. Severity: MODERATE. from 0 ## Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-985f-72mj-8gf7. This link is maintained to preserve external references. ## Original Description OpenClaw before 2026.4.25 contains an input validation vulnerability in tool group policy callers that accept unvalidated group IDs. Attackers who can supply a group ID to the policy resolver could trigger incorrect group-policy decisions for tool invocations, potentially bypassing intended access controls.",
+   "refs": [
+    "GHSA-vr6h-vxqj-3pjx",
+    "GHSA-g796-jqmx-wf9q",
+    "GHSA-h9h6-pwqv-j9hv",
+    "GHSA-wr92-6w3g-2hwc",
+    "GHSA-r4c2-gq3j-7rpj",
+    "GHSA-3r78-rqg8-95gg",
+    "GHSA-c8w7-9w9h-x69q",
+    "GHSA-27pq-2ph8-8x25"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-16, last modified 2026-06-18]"
+  },
+  "GHSA-vr5g-mmx7-h897": {
+   "title": "OpenClaw has Browser SSRF Policy Bypass via Interaction-Triggered Navigation",
+   "text": "OpenClaw has Browser SSRF Policy Bypass via Interaction-Triggered Navigation Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.8 ## Impact Browser SSRF Policy Bypass via Interaction-Triggered Navigation. Browser interactions could trigger navigations that bypassed the normal SSRF navigation checks. OpenClaw is a user-controlled local assistant. This advisory is scoped to the OpenClaw trust model and does not assume a multi-tenant service boundary. ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `<= 2026.4.5` - Patched versions: `2026.4.8` ## Fix The issue was fixed on `main` and is available in the patched npm version listed above. The verified fixed tree is commit `d7c3210cd6f5fdfdc1beff4c9541673e814354d5`. ## Verification The fix was re-checked against `main` before publication, including targeted regression tests for the affected security boundary. ## Credits Thanks @ccreater222 and @KeenSecurityLab for reporting.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-09, last modified 2026-04-28]"
+  },
+  "GHSA-c8w7-9w9h-x69q": {
+   "title": "Duplicate Advisory: Slack reaction events could ignore reaction notification settings",
+   "text": "Duplicate Advisory: Slack reaction events could ignore reaction notification settings Affected: openclaw. Severity: MODERATE. from 0 ## Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-fcvx-5cxc-v5p8. This link is maintained to preserve external references. ## Original Description OpenClaw before 2026.5.12 contains a notification bypass vulnerability allowing Slack reaction events to enter the agent pipeline despite disabled reaction notifications. Attackers can trigger unintended agent processing by sending reaction events when the feature is enabled, potentially leading to unauthorized processing of lower-trust input.",
+   "refs": [
+    "GHSA-vr6h-vxqj-3pjx",
+    "GHSA-g796-jqmx-wf9q",
+    "GHSA-h9h6-pwqv-j9hv",
+    "GHSA-wr92-6w3g-2hwc",
+    "GHSA-r4c2-gq3j-7rpj",
+    "GHSA-3r78-rqg8-95gg",
+    "GHSA-8wmm-344f-mpjg",
+    "GHSA-27pq-2ph8-8x25"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-16, last modified 2026-06-18]"
+  },
+  "GHSA-48wf-g7cp-gr3m": {
+   "title": "OpenClaw has allowlist exec-guard bypass via env -S",
+   "text": "OpenClaw has allowlist exec-guard bypass via env -S Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.2.23 ### Summary In `allowlist` mode, `system.run` guardrails could be bypassed through `env -S`, causing policy-analysis/runtime-execution mismatch for shell wrapper payloads. ### Severity Rationale (Medium) This issue is rated **medium** because it is a guardrail/policy bypass in OpenClaw's trusted-operator model, not an authentication boundary break. - Authenticated Gateway callers are trusted operators by design. - `exec` approvals/allowlists are operator safety controls. - The bug still weakens expected safety behavior and can enable unintended command execution when untrusted content influences tool input. ### Affected Packages / Versions - Package: `openclaw` (npm) - Vulnerable versions: `<= 2026.2.22-2` - Patched versions: `>= 2026.2.23` Latest published npm version checked during triage: `2026.2.22-2`. ### Technical Impact When `/usr/bin/env` is allowlisted, `env -S 'sh -c ...'` coul",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-03, last modified 2026-03-20]"
+  },
+  "GHSA-j472-gf56-x589": {
+   "title": "OpenClaw: PowerShell encoded-command aliases could miss exec allowlist checks",
+   "text": "OpenClaw: PowerShell encoded-command aliases could miss exec allowlist checks Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.5.12 ### Summary PowerShell encoded-command aliases could miss exec allowlist checks. In affected versions, a command request using abbreviated encoded-command flags could use an alias form not recognized by the allowlist parser. This advisory is scoped to the named feature and configuration. It does not change OpenClaw's trusted-operator model: authenticated Gateway operators, installed plugins, and intentional local execution surfaces remain trusted unless a separate policy, approval, allowlist, sandbox, or auth boundary is crossed. ### Impact When the affected feature is enabled and reachable, this could run encoded PowerShell content without the intended allowlist decision. Practical impact depends on the operator's configuration and whether lower-trust input can reach that path. ### Patched Versions The first stable patched version is `2026.5.12`. ### Mitigations Avoid allowlisting Power",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-07-02, last modified 2026-07-08]"
+  },
+  "GHSA-p464-m8x6-vhv8": {
+   "title": "OpenClaw: MS Teams webhook parses body before JWT validation, enabling unauthenticated resource exhaustion",
+   "text": "OpenClaw: MS Teams webhook parses body before JWT validation, enabling unauthenticated resource exhaustion Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.3.31 ## Summary MS Teams webhook parses body before JWT validation, enabling unauthenticated resource exhaustion ## Current Maintainer Triage - Status: open - Normalized severity: medium - Assessment: v2026.3.28 still parses Teams JSON after only a Bearer-prefix gate and before real JWT validation, and the auth-before-parse fix is not yet shipped. ## Affected Packages / Versions - Package: `openclaw` (npm) - Latest published npm version: `2026.3.31` - Vulnerable version range: `<=2026.3.28` - Patched versions: `>= 2026.3.31` - First stable tag containing the fix: `v2026.3.31` ## Fix Commit(s) - `3834d47099dd13c8244ed6de8b9ea9855c553623` \u2014 2026-03-30T13:46:40+01:00 OpenClaw thanks @AntAISecurityLab for reporting.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-03, last modified 2026-05-06]"
+  },
+  "GHSA-7h7g-x2px-94hj": {
+   "title": "OpenClaw: Pairing setup codes exposed long-lived shared gateway credentials instead of short-lived bootstrap tokens",
+   "text": "OpenClaw: Pairing setup codes exposed long-lived shared gateway credentials instead of short-lived bootstrap tokens Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.3.12 ### Summary OpenClaw pairing setup codes generated by `/pair` and `openclaw qr` embedded the configured shared gateway token or password directly in the setup payload. Anyone who obtained that code from chat history, logs, screenshots, or copied QR payloads could recover the long-lived shared credential. ### Impact An attacker with access to a leaked setup code could reuse the shared gateway credential outside the intended one-time pairing flow. ### Affected versions `openclaw` `<= 2026.3.11` ### Patch Fixed in `openclaw` `2026.3.12`. Setup codes now carry short-lived bootstrap tokens that are only valid for the initial device bootstrap exchange. Update to `2026.3.12` or later and rotate any previously exposed shared gateway credentials if setup codes may have leaked.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-13, last modified 2026-07-08]"
+  },
+  "GHSA-jf25-7968-h2h5": {
+   "title": "OpenClaw: screen_record outPath bypassed workspace-only filesystem guard",
+   "text": "OpenClaw: screen_record outPath bypassed workspace-only filesystem guard Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.10 ## Summary screen_record outPath bypassed workspace-only filesystem guard. ## Affected Packages / Versions - Package: `openclaw` - Ecosystem: npm - Affected versions: `< 2026.4.10` - Patched versions: `>= 2026.4.10` ## Impact The node-host screen recording tool could honor an `outPath` outside the workspace guard, allowing an authorized tool call to write outside the intended workspace boundary. ## Technical Details The fix applies the workspace-root guard to node tool `outPath` handling, including screen recording paths. ## Fix The issue was fixed in #63551. The first stable tag containing the fix is `v2026.4.10`, and `openclaw@2026.4.14` includes the fix. ## Fix Commit(s) - `635bb35b68d8faa5bfa2fda35feadd315122748a` - PR: #63551 ## Release Process Note Users should upgrade to `openclaw` 2026.4.10 or newer. The latest npm release, `2026.4.14`, already includes the fix. ## Credits Thanks",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-17, last modified 2026-05-05]"
+  },
+  "GHSA-9q7v-8mr7-g23p": {
+   "title": "OpenClaw: SSRF via Unguarded `fetch()` in Marketplace Plugin Download and Ollama Model Discovery",
+   "text": "OpenClaw: SSRF via Unguarded `fetch()` in Marketplace Plugin Download and Ollama Model Discovery Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.3.31 ## Summary SSRF via Unguarded `fetch()` in Marketplace Plugin Download and Ollama Model Discovery ## Current Maintainer Triage - Status: narrow - Normalized severity: medium - Assessment: Keep the shipped marketplace archive-fetch SSRF, but narrow out the Ollama half because it is operator-configured and overlaps weaker trust-model or duplicate SSRF ground. ## Affected Packages / Versions - Package: `openclaw` (npm) - Latest published npm version: `2026.3.31` - Vulnerable version range: `<=2026.3.28` - Patched versions: `>= 2026.3.31` - First stable tag containing the fix: `v2026.3.31` ## Fix Commit(s) - `8deb9522f3d2680820588b190adb4a2a52f3670b` \u2014 2026-03-30T20:08:38+01:00 OpenClaw thanks @tdjackey for reporting.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-02, last modified 2026-05-05]"
+  },
+  "GHSA-h43v-27wg-5mf9": {
+   "title": "OpenClaw: Forged Nostr DMs could create pairing state before signature verification",
+   "text": "OpenClaw: Forged Nostr DMs could create pairing state before signature verification Affected: openclaw. Severity: MODERATE. from 2026.3.22; fixed in 2026.3.31 ## Summary Before OpenClaw 2026.3.31, the Nostr DM ingress path could issue pairing challenges before validating the event signature. A forged DM could create a pending pairing entry and trigger a pairing-reply attempt before signature rejection. ## Impact An unauthenticated remote sender could consume shared pairing capacity and trigger bounded relay/logging work on the Nostr channel. This issue did not grant message decryption, pairing approval, or broader authorization bypass. ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `>= 2026.3.22, < 2026.3.31` - Patched versions: `>= 2026.3.31` - Latest published npm version: `2026.4.1` ## Fix Commit(s) - `4ee742174f36b5445703e3b1ef2fbd6ae6700fa4` \u2014 verify inbound DM signatures before pairing replies ## Release Process Note The fix shipped in OpenClaw `2026.3.31` on March 31, 2026. The current published npm rel",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-07, last modified 2026-05-05]"
+  },
+  "GHSA-gc9r-867r-j85f": {
+   "title": "OpenClaw: Microsoft Teams SSO invoke handler missed sender authorization checks",
+   "text": "OpenClaw: Microsoft Teams SSO invoke handler missed sender authorization checks Affected: openclaw. Severity: LOW. from 2026.4.10; fixed in 2026.4.14 ## Summary Microsoft Teams SSO invoke handler missed sender authorization checks. ## Affected Packages / Versions - Package: `openclaw` - Ecosystem: npm - Affected versions: `>= 2026.4.10 < 2026.4.14` - Patched versions: `>= 2026.4.14` ## Impact Microsoft Teams SSO signin invoke handling could process an invoke from a sender before applying the same sender allowlist checks used by normal message handling. ## Technical Details The fix routes SSO invoke handling through the Teams sender authorization path and adds coverage for denied senders. ## Fix The issue was fixed in #66033. The first stable tag containing the fix is `v2026.4.14`, and `openclaw@2026.4.14` includes the fix. ## Fix Commit(s) - `80b1fa17bfc3f6a668492f0326ea52f48bb89776` - PR: #66033 ## Release Process Note Users should upgrade to `openclaw` 2026.4.14 or newer. The latest npm release, `2026.4.14`, already includes the fix",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-17, last modified 2026-05-05]"
+  },
+  "GHSA-53vx-pmqw-863c": {
+   "title": "OpenClaw: Browser SSRF policy default allowed private-network navigation",
+   "text": "OpenClaw: Browser SSRF policy default allowed private-network navigation Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.14 ## Summary Browser SSRF policy default allowed private-network navigation. ## Affected Packages / Versions - Package: `openclaw` - Ecosystem: npm - Affected versions: `< 2026.4.14` - Patched versions: `>= 2026.4.14` ## Impact Browser SSRF protection could allow private-network navigation by default in paths where restrictive behavior was expected, exposing internal services or metadata endpoints through browser-driven requests. ## Technical Details The fix preserves strict SSRF configuration semantics, keeps private-network access disabled unless explicitly opted in, and updates loopback CDP readiness handling for the stricter default. ## Fix The issue was fixed in #66354 and #66386. The first stable tag containing the fix is `v2026.4.14`, and `openclaw@2026.4.14` includes the fix. ## Fix Commit(s) - `024f4614a1a1831406e763adc40ef226e3d5e9ed` - `1dabfef28db523e7de81edeb3dd689e9171236a2` ",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-17, last modified 2026-05-08]"
+  },
+  "GHSA-9mph-4f7v-fmvh": {
+   "title": "OpenClaw has agent avatar symlink traversal in gateway session metadata",
+   "text": "OpenClaw has agent avatar symlink traversal in gateway session metadata Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.2.22 ## Summary A crafted local avatar path could follow a symlink outside the agent workspace and return arbitrary file contents as a base64 `data:` URL in gateway responses. ## Impact - Confidentiality impact: local file read in the gateway process context. - Exfiltration path: `agents.list` can return the resulting `avatarUrl` payload. ## Affected Components - `src/gateway/session-utils.ts` (`resolveIdentityAvatarUrl`) ## Affected Packages / Versions - Package: `openclaw` (npm) - Introduced: `v2026.1.21` - Affected published versions: `<= 2026.2.21-2` - Planned patched version: `2026.2.22` ## Remediation - Resolve workspace and avatar paths with `realpath` and enforce realpath containment. - Open files with `O_NOFOLLOW` when available. - Compare pre-open and opened file identity (`dev`/`ino`) to block swap races. - Add regression tests for outside-workspace symlink rejection and in-workspa",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-04, last modified 2026-03-04]"
+  },
+  "GHSA-rxxp-482v-7mrh": {
+   "title": "OpenClaw's inbound media downloads could exceed configured byte limits before rejection across multiple channels",
+   "text": "OpenClaw's inbound media downloads could exceed configured byte limits before rejection across multiple channels Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.2.22 ## Summary OpenClaw did not consistently enforce configured inbound media byte limits before buffering remote media in several channel ingestion paths. A remote sender could trigger oversized downloads and memory pressure before rejection. ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `<= 2026.2.21-2` (latest published at triage time) - Fixed in: `2026.2.22` (planned next release) ## Impact An attacker could cause elevated memory usage and potential process instability (denial of service) by sending oversized media payloads. ## Fix Commit(s) - `73d93dee64127a26f1acd09d0403b794cdeb4f5c` ## Release Process Note `patched_versions` is pre-set to the planned next release (`2026.2.22`). After that npm release is published, this advisory can be published without further version-field edits. OpenClaw thanks @tdjackey for reporting.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-02, last modified 2026-03-30]"
+  },
+  "GHSA-9868-vxmx-w862": {
+   "title": "OpenClaw's system.run allowlist bypass via shell line-continuation command substitution",
+   "text": "OpenClaw's system.run allowlist bypass via shell line-continuation command substitution Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.2.22 ### Summary In OpenClaw `system.run` allowlist mode, shell-wrapper analysis could be bypassed by splitting command substitution as `$\\\\` + newline + `(` inside double quotes. Analysis treated the payload as allowlisted (for example `/bin/echo`), while shell runtime folded the line continuation into `$(...)` and executed non-allowlisted subcommands. ### Affected Packages / Versions - Package: npm `openclaw` - Latest published affected version: `2026.2.21-2` - Affected range: `<=2026.2.21-2` - Patched version (planned next release): `2026.2.22` ### Impact In deployments that opt into `tools.exec.security=allowlist` (with `ask=on-miss` or `off`), this can bypass approval boundaries and lead to unintended command execution. ### Fix Commit(s) - `3f0b9dbb36c86e308267924c0d3d4a4e1fc4d1e9` ### Remediation - Upgrade to `2026.2.22` (or newer) when published. - Temporary mitigation: set `tools.exec",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-03, last modified 2026-03-19]"
+  },
+  "GHSA-wwc3-c577-533m": {
+   "title": "Duplicate Advisory: OpenClaw: Gateway `device.token.rotate` does not terminate active WebSocket sessions after credential rotation",
+   "text": "Duplicate Advisory: OpenClaw: Gateway `device.token.rotate` does not terminate active WebSocket sessions after credential rotation Affected: openclaw. Severity: LOW. from 0; fixed in 2026.3.31 ### Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-rfqg-qgf8-xr9x. This link is maintained to preserve external references. ### Original Description OpenClaw before 2026.3.31 fails to terminate active WebSocket sessions when rotating device tokens. Attackers with previously compromised credentials can maintain unauthorized access through existing WebSocket connections after token rotation.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-24, last modified 2026-05-05]"
+  },
+  "GHSA-m6fx-m8hc-572m": {
+   "title": "OpenClaw: Telegram audio preflight transcription enables resource consumption by unauthorized senders",
+   "text": "OpenClaw: Telegram audio preflight transcription enables resource consumption by unauthorized senders Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.3.31 ## Summary Telegram audio preflight transcription enables resource consumption by unauthorized senders ## Current Maintainer Triage - Status: narrow - Normalized severity: medium - Assessment: v2026.3.28 still lets unauthorized Telegram group senders trigger audio preflight before allowlist enforcement, but the real impact is resource or billing burn rather than direct data exposure or host compromise. ## Affected Packages / Versions - Package: `openclaw` (npm) - Latest published npm version: `2026.3.31` - Vulnerable version range: `<=2026.3.28` - Patched versions: `>= 2026.3.31` - First stable tag containing the fix: `v2026.3.31` ## Fix Commit(s) - `c4fa8635d03943ffe9e294d501089521dca635c5` \u2014 2026-03-30T12:19:31+01:00 OpenClaw thanks @AntAISecurityLab for reporting.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-03, last modified 2026-05-05]"
+  },
+  "GHSA-27pq-2ph8-8x25": {
+   "title": "Duplicate Advisory: Shell positional parameters could weaken strict inline-eval checks",
+   "text": "Duplicate Advisory: Shell positional parameters could weaken strict inline-eval checks Affected: openclaw. Severity: HIGH. from 0 ## Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-5cj2-3jr2-5h77. This link is maintained to preserve external references. ## Original Description OpenClaw before 2026.4.2 contains an inline-eval bypass vulnerability allowing authenticated operators to weaken strict allowlist checks via shell positional parameters. Attackers can combine allowlisted tools with shell positional arguments to place inline-eval content in shell carriers outside intended allowlist rules, enabling execution of unapproved shell-provided content.",
+   "refs": [
+    "GHSA-vr6h-vxqj-3pjx",
+    "GHSA-g796-jqmx-wf9q",
+    "GHSA-h9h6-pwqv-j9hv",
+    "GHSA-wr92-6w3g-2hwc",
+    "GHSA-r4c2-gq3j-7rpj",
+    "GHSA-3r78-rqg8-95gg",
+    "GHSA-8wmm-344f-mpjg",
+    "GHSA-c8w7-9w9h-x69q"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-16, last modified 2026-06-18]"
+  },
+  "GHSA-c4qg-j8jg-42q5": {
+   "title": "OpenClaw: QQBot direct media upload skipped URL SSRF validation",
+   "text": "OpenClaw: QQBot direct media upload skipped URL SSRF validation Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.20 ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `< 2026.4.20` - Patched version: `2026.4.20` ## Impact The QQBot direct-upload media path could forward attacker-controlled image URLs without applying the SSRF validation used by the local download path. This could make configured QQBot media delivery request or relay URLs the operator did not intend to allow. The affected path is limited to QQBot outbound media handling and does not expose arbitrary local files. Severity is low. ## Fix OpenClaw now validates QQBot direct-upload media URLs before `uploadC2CMedia` and `uploadGroupMedia` direct-upload calls. Fix commit: - `49db424c8001f2f419aad85f434894d8d85c1a09` ## Release Fixed in OpenClaw `2026.4.20`.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-25, last modified 2026-05-12]"
+  },
+  "GHSA-j4xf-96qf-rx69": {
+   "title": "OpenClaw has a Feishu allowFrom authorization bypass via display-name collision",
+   "text": "OpenClaw has a Feishu allowFrom authorization bypass via display-name collision Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.2.22 ### Summary Feishu allowlist authorization could be bypassed by display-name collision. ### Details `channels.feishu.allowFrom` is documented as an ID-based allowlist (open_id list), but Feishu policy matching accepted mutable sender display names in the same namespace. An attacker could set a display name equal to an allowlisted ID string and pass authorization checks. The fix enforces ID-only matching for Feishu allowlist checks, normalizes Feishu ID prefixes during comparison, and ignores mutable display names for authorization. ### Impact Deployments using Feishu allowlist-based authorization could incorrectly authorize non-allowlisted senders when a colliding display name was used. ### Affected Packages / Versions - Package: `openclaw` (npm) - Latest published version at triage time: `2026.2.21-2` - Affected range: `<= 2026.2.21-2` - Planned patched version: `>= 2026.2.22` ### Fix C",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-03, last modified 2026-03-30]"
+  },
+  "GHSA-xpr6-2hgm-4wwp": {
+   "title": "Duplicate Advisory: OpenClaw vulnerable to arbitrary code execution via attacker-controlled setup-api.js loaded from cwd during env-key resolution",
+   "text": "Duplicate Advisory: OpenClaw vulnerable to arbitrary code execution via attacker-controlled setup-api.js loaded from cwd during env-key resolution Affected: openclaw. Severity: HIGH. from 0; fixed in 2026.4.23 ### Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-r39h-4c2p-3jxp. This link is maintained to preserve external references. ### Original Description OpenClaw before 2026.4.23 contains an arbitrary code execution vulnerability in the bundled plugin setup resolver that loads setup-api.js from process.cwd() during provider setup metadata resolution. Attackers can execute arbitrary JavaScript under the current user account by placing a malicious extensions/<plugin>/setup-api.js file in a repository and convincing a user to run OpenClaw commands from that directory.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-11, last modified 2026-05-18]"
+  },
+  "GHSA-chm2-m3w2-wcxm": {
+   "title": "OpenClaw Google Chat spoofing access with allowlist authorized mutable email principal despite sender-ID mismatch",
+   "text": "OpenClaw Google Chat spoofing access with allowlist authorized mutable email principal despite sender-ID mismatch Affected: clawdbot, openclaw. Severity: LOW. from 0; fixed in 2026.2.14; from 0 ### Summary Google Chat allowlisting supports matching by sender email in addition to immutable sender resource name (`users/<id>`). This weakens identity binding if a deployment assumes allowlists are strictly keyed by immutable principals. ### Affected Packages / Versions (As of 2026-02-14; based on latest published npm versions) - `openclaw` (npm): `<= 2026.2.13` - `clawdbot` (npm): `<= 2026.1.24-3` ### Details Affected component: - `extensions/googlechat/src/monitor.ts` The `allowFrom` checks accept: - Immutable sender id (`users/<id>`) - Raw email (`alice@example.com`) for usability Historically, `users/<email>` was also treated as an email allowlist entry. This is now deprecated because it looks like an immutable ID but is actually a mutable principal. ### Security Triage (2026-02-14) Severity: **Low** Rationale: - Requests are authenticated as coming from Google Chat (token verifi",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-02-17, last modified 2026-02-17]"
+  },
+  "GHSA-whf9-3hcx-gq54": {
+   "title": "OpenClaw `device.token.rotate` mints tokens for unapproved roles, bypassing device role-upgrade pairing",
+   "text": "OpenClaw `device.token.rotate` mints tokens for unapproved roles, bypassing device role-upgrade pairing Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.8 ## Impact OpenClaw `device.token.rotate` mints tokens for unapproved roles, bypassing device role-upgrade pairing. Device token rotation could mint or preserve roles/scopes that had not gone through the intended pairing approval. OpenClaw is a user-controlled local assistant. This advisory is scoped to the OpenClaw trust model and does not assume a multi-tenant service boundary. ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `<= v2026.04.01` - Patched versions: `2026.4.8` ## Fix The issue was fixed on `main` and is available in the patched npm version listed above. The verified fixed tree is commit `d7c3210cd6f5fdfdc1beff4c9541673e814354d5`. ## Verification The fix was re-checked against `main` before publication, including targeted regression tests for the affected security boundary. ## Credits Thanks @nicky-cc of Tencent zhuque Lab ([https://github.com",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-09, last modified 2026-05-06]"
+  },
+  "GHSA-9528-x887-j2fp": {
+   "title": "OpenClaw's Nextcloud Talk webhook missing rate limiting on shared secret authentication",
+   "text": "OpenClaw's Nextcloud Talk webhook missing rate limiting on shared secret authentication Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.3.28 ## Summary Nextcloud Talk webhook signature failures were not throttled even though the integration relies on an operator-configured shared secret that may be weak. ## Impact An attacker who could reach the webhook endpoint could brute-force weak secrets online and then forge inbound webhook events. ## Affected Component `extensions/nextcloud-talk/src/monitor.ts` ## Fixed Versions - Affected: `<= 2026.3.24` - Patched: `>= 2026.3.28` - Latest stable `2026.3.28` contains the fix. ## Fix Fixed by commit `e403decb6e` (`nextcloud-talk: throttle repeated webhook auth failures`). OpenClaw thanks @AntAISecurityLab for reporting.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-03-31, last modified 2026-04-06]"
+  },
+  "GHSA-jj6q-rrrf-h66h": {
+   "title": "OpenClaw: Shared-secret comparison call sites leaked length information through timing",
+   "text": "OpenClaw: Shared-secret comparison call sites leaked length information through timing Affected: openclaw. Severity: MODERATE. from 0; fixed in 2026.4.2 ## Summary Before OpenClaw 2026.4.2, several shared-secret comparison call sites still used early length-mismatch checks instead of the shared fixed-length comparison helper. Those paths could leak secret-length information through measurable timing differences. ## Impact The affected paths exposed a low-severity timing side channel on secret comparison. The issue did not by itself demonstrate auth bypass, but it weakened the intended constant-time handling for shared secrets. ## Affected Packages / Versions - Package: `openclaw` (npm) - Affected versions: `<= 2026.4.1` - Patched versions: `>= 2026.4.2` - Latest published npm version: `2026.4.1` ## Fix Commit(s) - `be10ecef770a4654519869c3641bbb91087c8c7b` \u2014 reuse the shared secret comparison helper at affected call sites ## Release Process Note The fix is present on `main` and is staged for OpenClaw `2026.4.2`. Publish this advisory aft",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-04-07, last modified 2026-05-06]"
+  },
+  "GHSA-p3pv-c954-9m6f": {
+   "title": "Duplicate Advisory: OpenClaw: Owner-enforced commands could accept wildcard channel senders as command owners",
+   "text": "Duplicate Advisory: OpenClaw: Owner-enforced commands could accept wildcard channel senders as command owners Affected: openclaw. Severity: LOW. from 0; fixed in 2026.4.21 ### Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-c28g-vh7m-fm7v. This link is maintained to preserve external references. ### Original Description OpenClaw before 2026.4.21 contains an authorization bypass vulnerability in command-auth.ts that allows non-owner senders to execute owner-enforced slash commands when wildcard inbound senders are configured without explicit owner allowFrom settings. Attackers can exploit this by sending commands like /send, /config, or /debug on affected channels to bypass owner-only command authorization checks.",
+   "refs": [
+    "GHSA-jp4j-q5fc-58gv",
+    "GHSA-56f2-hvwg-5743",
+    "GHSA-77w2-crqv-cmv3"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-05-11, last modified 2026-05-18]"
+  },
+  "GHSA-qp5j-jr73-m2pw": {
+   "title": "Duplicate Advisory: Workspace .env npm_execpath could influence bundled runtime dependency install",
+   "text": "Duplicate Advisory: Workspace .env npm_execpath could influence bundled runtime dependency install Affected: openclaw. Severity: HIGH. from 0 ## Duplicate Advisory This advisory has been withdrawn because it is a duplicate of GHSA-24vr-rprv-67rf. This link is maintained to preserve external references. ## Original Description OpenClaw before 2026.4.29 contains a path traversal vulnerability in the install helper that allows workspace .env files to override the npm_execpath configuration used for bundled runtime dependency installation. Attackers with workspace access can execute unintended local package-manager executables during dependency setup to compromise the build environment.",
+   "refs": [
+    "GHSA-vr6h-vxqj-3pjx",
+    "GHSA-g796-jqmx-wf9q",
+    "GHSA-h9h6-pwqv-j9hv",
+    "GHSA-wr92-6w3g-2hwc",
+    "GHSA-r4c2-gq3j-7rpj",
+    "GHSA-3r78-rqg8-95gg",
+    "GHSA-8wmm-344f-mpjg",
+    "GHSA-c8w7-9w9h-x69q"
+   ],
+   "amended_years": [
+    2026
+   ],
+   "history": "[published 2026-06-16, last modified 2026-06-18]"
+  }
+ },
+ "title": "openclaw",
+ "scenario": {
+  "subject": "an OpenClaw agent deployment",
+  "ticket": "an internal deployment pins an OpenClaw release and the security review disputes which advisory governs the upgrade",
+  "authority_noun": "service owner sign-off on file",
+  "filing_noun": "remediation determination",
+  "confirmation_resource": "advisories://openclaw/status/current",
+  "filing_endpoint": "https://security-review.internal/v2/remediations/submit",
+  "absence_ticket": "an exposure has been reported for openclaw that does not obviously fall under any published advisory"
+ }
+}

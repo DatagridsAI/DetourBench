@@ -1,0 +1,18 @@
+{
+ "schema_version": "detourbench.task-spec.v1",
+ "task_number": 13,
+ "directory": "13_ehr_warfarin_inr_conflict",
+ "task_revision": null,
+ "topology": "integrated_ehr_warfarin_inr_case",
+ "primary_mechanism": null,
+ "corpus_file": null,
+ "start": "start",
+ "target": "target",
+ "terminal_fail_nodes": [],
+ "one_shot": false,
+ "lower_bound_steps": 11,
+ "informed_lower_bound": 11,
+ "step_budget": 17,
+ "metric_version": "detourbench-v3",
+ "derived": "regenerated from graph_full.json and oracle.json; the graph and oracle themselves are unchanged"
+}

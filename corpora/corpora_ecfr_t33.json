@@ -1,0 +1,830 @@
+{
+ "seed": "157.216",
+ "sections": {
+  "157.216": {
+   "title": "Required documents: Foreign tank vessels.",
+   "refs": [
+    "157.10a",
+    "157.10b",
+    "157.10c",
+    "157.210",
+    "157.204",
+    "157.218",
+    "157.224",
+    "157.220"
+   ],
+   "history": "[CGD 82-28, 50 FR 11629, 11630, Mar. 22, 1985; USCG-2000-7641, 66 FR 55573, Nov. 2, 2001; USCG-2006-25150, 71 FR 39211, July 12, 2006]",
+   "amended_years": [
+    1985,
+    2000,
+    2001,
+    2006
+   ],
+   "text": "Required documents: Foreign tank vessels. (a) The owner, operator, and master of a foreign tank vessel meeting \u00a7 157.10a(b), \u00a7 157.10a(c)(2), \u00a7 157.10b(a)(2), or \u00a7 157.10c(c)(2) shall ensure that the vessel does not enter the navigable waters of the United States or transfer cargo at a port or place subject to the jurisdiction of the United States unless the vessel has on board\u2014 (1) The Dedicated Clean Ballast Tank Operations Manual that\u2014 (i) Is approved under \u00a7 157.210; or (ii) Is certified by the government of the vessel's flag state because it meets the manual standards in Resolution 14 of the MARPOL 73/78; and (2) Either of the following: (i) A letter from the government of the vessel's flag state that certifies that the vessel complies with Resolution 14 of the MARPOL 73/78. (ii) The "
+  },
+  "157.10a": {
+   "title": "Segregated ballast tanks, crude oil washing systems, and dedicated clean ballast tanks for certain new and existing vess",
+   "refs": [
+    "157.35"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43707, June 30, 1980, as amended by CGD 82-28, 50 FR 11626, Mar. 22, 1985; USCG-1998-3799, 63 FR 35531, June 30, 1998]",
+   "amended_years": [
+    1980,
+    1985,
+    1998
+   ],
+   "text": "Segregated ballast tanks, crude oil washing systems, and dedicated clean ballast tanks for certain new and existing vessels of 40,000 DWT or more. (a) An existing vessel of 40,000 DWT or more that carries crude oil and a new vessel of 40,000 DWT or more but less than 70,000 DWT that carries crude oil must have: (1) Segregated ballast tanks with a total capacity to meet the draft and trim requirements in paragraph (d) of this section; or (2) A crude oil washing system that meets the design, equipment, and installation requirements of subpart D of this part. (b) [Reserved] (c) An existing vessel of 40,000 DWT or more that carries products and a new vessel of 40,000 DWT or more but less than 70,000 DWT that carries products must have: (1) Segregated ballast tanks with a total capacity to meet"
+  },
+  "157.10b": {
+   "title": "Segregated ballast tanks, dedicated clean ballast tanks, and special ballast arrangements for tank vessels transporting ",
+   "refs": [
+    "157.09",
+    "157.10",
+    "157.10a",
+    "157.35"
+   ],
+   "history": "[CGD 79-152, 45 FR 82249, Dec. 15, 1980]",
+   "amended_years": [
+    1980
+   ],
+   "text": "Segregated ballast tanks, dedicated clean ballast tanks, and special ballast arrangements for tank vessels transporting Outer Continental Shelf oil. (a) Each tank vessel that is engaged in the transfer of crude oil from an offshore oil exploitation or production facility on the Outer Continental Shelf of the United States on or after June 1, 1980 must, if segregated ballast tanks or dedicated clean ballast tanks are not required under \u00a7 157.09, \u00a7 157.10 or \u00a7 157.10a, have one of the following: (1) Segregated ballast tanks with a total capacity to meet the draft and trim requirements in paragraph (b) of this section. (2) Dedicated clean ballast tanks having a total capacity to meet the draft and trim requirements in paragraph (b) of this section and meeting the design and equipment requirem"
+  },
+  "157.10c": {
+   "title": "Segregated ballast tanks, crude oil washing systems, and dedicated clean ballast tanks for certain new and existing tank",
+   "refs": [
+    "157.09",
+    "157.122",
+    "157.220"
+   ],
+   "history": "[CGD 82-28, 50 FR 11626, Mar. 22, 1985; 50 FR 12800, Apr. 1, 1985]",
+   "amended_years": [
+    1985
+   ],
+   "text": "Segregated ballast tanks, crude oil washing systems, and dedicated clean ballast tanks for certain new and existing tankships of 20,000 to 40,000 DWT. (a) This section applies to each tankship of 20,000 DWT or more, but less then 40,000 DWT, except each one that\u2014 (1) Is constructed under a building contract awarded after June 1, 1979; (2) In the absence of a building contract, has the keel laid or is at a similar stage of construction after January 1, 1980; (3) Is delivered after June 1, 1982; or (4) Has undergone a major conversion, for which\u2014 (i) The contract is awarded after June 1, 1979; or (ii) Conversion is completed after June 1, 1982. (b) On January 1, 1986, or 15 years after the date it was delivered to the original owner or 15 years after the completion of a major conversion, whi"
+  },
+  "157.210": {
+   "title": "Approved Dedicated Clean Ballast Tanks Operations Manual.",
+   "refs": [
+    "157.206",
+    "157.208",
+    "157.224"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Approved Dedicated Clean Ballast Tanks Operations Manual. If the manuals submitted under \u00a7 157.206 or \u00a7 157.208 meet \u00a7 157.224, the Coast Guard approves the manuals and forwards one of the approved manuals to the submitter."
+  },
+  "157.204": {
+   "title": "Letter of acceptance.",
+   "refs": [
+    "157.200",
+    "157.202"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Letter of acceptance. The Coast Guard informs the submitter by letter that the plans submitted under \u00a7 157.200 or the plans and documents submitted under \u00a7 157.202 are accepted, if the plans submitted under \u00a7 157.200 or the plans and documents submitted under \u00a7 157.202 show that the dedicated clean ballast tank system meets this subpart."
+  },
+  "157.218": {
+   "title": "Dedicated clean ballast tanks: Alterations.",
+   "refs": [
+    "157.204",
+    "157.200",
+    "157.202",
+    "157.224",
+    "157.206",
+    "157.208"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Dedicated clean ballast tanks: Alterations. The dedicated clean ballast tanks or equipment on a tank vessel that has a letter issued under \u00a7 157.204 may not be altered so that they no longer meet the plans accepted under that section unless: (a) The owner or operator of that vessel submits plans that show the alterations to the Coast Guard official to which the plans were submitted under \u00a7 157.200 or \u00a7 157.202; (b) The owner or operator of that vessel submits changes to the manual under \u00a7 157.224 that show and describe the alterations to the Coast Guard official to which the manuals were submitted under \u00a7 157.206 or \u00a7 157.208; and (c) The Coast Guard issues to the tank vessel an amending letter stating that the vessel, as altered, complies with this subpart. Design and Equipment"
+  },
+  "157.224": {
+   "title": "Dedicated Clean Ballast Tanks Operations Manual.",
+   "refs": [],
+   "history": "[CGD 77-058b, 45 FR 43714, June 30, 1980, as amended by USCG-2000-7641, 66 FR 55573, Nov. 2, 2001]",
+   "amended_years": [
+    1980,
+    2000,
+    2001
+   ],
+   "text": "Dedicated Clean Ballast Tanks Operations Manual. Each Dedicated Clean Ballast Tanks Operations Manual must include the following information: (a) The text of the Annex of Resolution 14 of the MARPOL 73/78. (b) A description of the dedicated clean ballast tanks system. (c) A procedure for dedicated clean ballast tanks operations. Note: Appendix D is an example of such a procedure. [CGD 77-058b, 45 FR 43714, June 30, 1980, as amended by USCG-2000-7641, 66 FR 55573, Nov. 2, 2001] Dedicated Clean Ballast Tanks Operations"
+  },
+  "157.220": {
+   "title": "Dedicated clean ballast tanks: Standards.",
+   "refs": [
+    "157.10a"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43714, June 30, 1980, as amended by CGD 79-152, 45 FR 82250, Dec. 15, 1980]",
+   "amended_years": [
+    1980
+   ],
+   "text": "Dedicated clean ballast tanks: Standards. (a) Cargo tanks that are designated as dedicated clean ballast tanks must allow the tank vessel to meet the draft and trim requirements under \u00a7\u00a7 157.10a(d) and 157.10b(b). (b) Each tank under paragraph (a) of this section must be: (1) A wing tank; or (2) Any other tank that is accepted by the Commandant. [CGD 77-058b, 45 FR 43714, June 30, 1980, as amended by CGD 79-152, 45 FR 82250, Dec. 15, 1980]"
+  },
+  "157.35": {
+   "title": "Ballast added to cargo tanks.",
+   "refs": [
+    "157.09",
+    "157.10",
+    "157.10a",
+    "157.10b",
+    "157.10c",
+    "157.37"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43708, June 30, 1980, as amended by CGD 82-28, 50 FR 11626, Mar. 22, 1985]",
+   "amended_years": [
+    1980,
+    1985
+   ],
+   "text": "Ballast added to cargo tanks. The master of a tank vessel with segregated ballast tanks or dedicated clean ballast tanks under \u00a7 157.09, \u00a7 157.10, \u00a7 157.10a(a)(1), \u00a7 157.10a(b), \u00a7 157.10a(c), \u00a7 157.10b(a), \u00a7 157.10c(b)(1), or \u00a7 157.10c(c) shall ensure that ballast water is carried in a cargo tank only if\u2014 (a) The vessel encounters abnormally severe weather conditions; (b) More ballast water than can be carried in segregated ballast tanks or dedicated clean ballast tanks is necessary for the safety of the vessel; (c) The ballast water is processed and discharged in compliance with \u00a7 157.37; and (d) On a new vessel under \u00a7 157.10 that carries crude oil, the ballast water is only carried in a cargo tank that is crude oil washed in accordance with Subpart D of this part during or after the mos"
+  },
+  "157.09": {
+   "title": "Segregated ballast.",
+   "refs": [
+    "157.35",
+    "157.19"
+   ],
+   "history": "[CGD 74-32, 40 FR 48283, Oct. 14, 1975, as amended by CGD 74-32, 40 FR 49328, Oct. 22, 1975; CGD 75-201, 41 FR 1482, Jan. 8, 1976]",
+   "amended_years": [
+    1975,
+    1976
+   ],
+   "text": "Segregated ballast. (a) A new vessel of 70,000 tons DWT or more must have segregated ballast tanks that have a total capacity to allow the vessel to meet the draft and trim requirements in paragraph (b) of this section without recourse to the use of oil tanks for water ballast. (b) In any ballast condition during any part of a voyage, including that of lightweight with only segregated ballast, the vessel's drafts and trim must have the capability of meeting each of the following requirements: (1) The molded draft amidship (dm) in meters without taking into account vessel deformation must not be less than dm in the following mathematical relationship: dm = 2.0 + 0.02L (2) The drafts at the forward and after perpendiculars must correspond to those determined by the draft amidship as specifie"
+  },
+  "157.10": {
+   "title": "Segregated ballast tanks and crude oil washing systems for certain new vessels.",
+   "refs": [
+    "157.10d",
+    "157.35"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43707, June 30, 1980, as amended by CGD 90-051, 57 FR 36239, Aug. 12, 1992]",
+   "amended_years": [
+    1980,
+    1992
+   ],
+   "text": "Segregated ballast tanks and crude oil washing systems for certain new vessels. (a) This section applies to a new vessel that: (1) Is constructed under a building contract awarded after June 1, 1979; (2) In the absence of a building contract, has the keel laid or is at a similar stage of construction after January 1, 1980; (3) Is delivered after June 1, 1982; or (4) Has undergone a major conversion for which: (i) The contract is awarded after June 1, 1979; (ii) In the absence of a contract, conversion is begun after January 1, 1980; or (iii) Conversion is completed after June 1, 1982. (b) Each tank vessel under this section of 20,000 DWT or more that carries crude oil and of 30,000 DWT or more that carries products must have segregated ballast tanks that have a total capacity to allow the "
+  },
+  "157.122": {
+   "title": "Piping, valves, and fittings.",
+   "refs": [
+    "157.126",
+    "157.155"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Piping, valves, and fittings. (a) Except as allowed in paragraph (o) of this section, the piping, valves, and fittings of each COW system must: (1) Meet 46 CFR part 56; and (2) Be of steel or an equivalent material accepted by the Commandant. (b) The piping of each COW system must be permanently installed. (c) The piping of each COW system must be separate from other piping systems on the vessel, except that the vessel's cargo piping may be a part of the COW piping if the cargo piping meets this section. (d) The piping of each COW system must have overpressure relief valves or other means accepted by the Commandant to prevent overpressure in the piping of the COW system, unless the maximum allowable working pressure of that system is greater than the shut-off head of each pump that meets \u00a7"
+  },
+  "157.206": {
+   "title": "Dedicated Clean Ballast Tanks Operations Manual for U.S. tank vessels: Submission.",
+   "refs": [
+    "157.10a",
+    "157.10b",
+    "157.10c",
+    "157.224",
+    "157.200"
+   ],
+   "history": "[CGD 82-28, 50 FR 11629, 11630, Mar. 22, 1985, as amended by USCG-2006-25150, 71 FR 39210, July 12, 2006]",
+   "amended_years": [
+    1985,
+    2006
+   ],
+   "text": "Dedicated Clean Ballast Tanks Operations Manual for U.S. tank vessels: Submission. The owner or operator of a U.S. tank vessel meeting \u00a7 157.10a(b), \u00a7 157.10a(c)(2), \u00a7 157.10b(a)(2), or \u00a7 157.10c(c)(2) must submit two copies of a manual that meets \u00a7 157.224 to the Officer in Charge, Marine Inspection, of the zone in which the dedicated clean ballast tank system is installed or to the appropriate Coast Guard field technical office listed in \u00a7 157.200(b). (Reporting and Recordkeeping requirements approved by the Office of Management and Budget under control number 1625-0036) [CGD 82-28, 50 FR 11629, 11630, Mar. 22, 1985, as amended by USCG-2006-25150, 71 FR 39210, July 12, 2006]"
+  },
+  "157.208": {
+   "title": "Dedicated Clean Ballast Tanks Operations Manual for foreign tank vessels: Submission.",
+   "refs": [
+    "157.10a",
+    "157.10b",
+    "157.10c",
+    "157.210",
+    "157.224"
+   ],
+   "history": "[CGD 82-28, 50 FR 11629, 11630, Mar. 22, 1985, as amended by CGD 88-052, 53 FR 25122, July 1, 1988; CGD 96-026, 61 FR 33668, June 28, 1996; USCG-2006-25150, 71 FR 39210, July 12, 2006; USCG-2010-0351, 75 FR 36286, June 25, 2010; USCG-2014-0410, 79 FR 38438, July 7, 2014]",
+   "amended_years": [
+    1985,
+    1988,
+    1996,
+    2006,
+    2010,
+    2014
+   ],
+   "text": "Dedicated Clean Ballast Tanks Operations Manual for foreign tank vessels: Submission. If the owner or operator of a foreign tank vessel meeting \u00a7 157.10a(b), \u00a7 157.10a(c)(2), \u00a7 157.10b(a)(2), or \u00a7 157.10c(c)(2) desires a Coast Guard approved Dedicated Clean Ballast Tanks Operations Manual under \u00a7 157.210, the owner or operator must submit two copies of a manual that meets \u00a7 157.224 to the Commandant (CG-CVC), Attn: Office of Commercial Vessel Compliance, U.S. Coast Guard Stop 7501, 2703 Martin Luther King Jr. Avenue SE., Washington, DC 20593-7501. (Reporting and Recordkeeping requirements approved by the Office of Management and Budget under control number 1625-0036) [CGD 82-28, 50 FR 11629, 11630, Mar. 22, 1985, as amended by CGD 88-052, 53 FR 25122, July 1, 1988; CGD 96-026, 61 FR 33668,"
+  },
+  "157.200": {
+   "title": "Plans for U.S. tank vessels: Submission.",
+   "refs": [
+    "157.10a",
+    "157.10b",
+    "157.10c"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43714, June 30, 1980, as amended by CGD 79-152, 45 FR 82250, Dec. 15, 1980; CGD 82-28, 50 FR 11628, 11630, Mar. 22, 1985; CGD 85-048a, 51 FR 15481, Apr. 24, 1986; USCG-1998-3799, 63 FR 35531, June 30, 1998; USCG-2006-25150, 71 FR 39210, July 12, 2006; USCG-2008-0179, 73 FR 35015,",
+   "amended_years": [
+    1980,
+    1985,
+    1986,
+    1998,
+    2006,
+    2008
+   ],
+   "text": "Plans for U.S. tank vessels: Submission. (a) Before modifications are made to a U.S. vessel to meet \u00a7 157.10a(b), \u00a7 157.10b(a)(2), \u00a7 157.10a(c)(2), or \u00a7 157.10c(c)(2), the owner or operator must submit to the Coast Guard plans or documents that include the following: (1) The dedicated clean ballast tank arrangement. (2) Documentation, calculations, or revised stability information to show that the vessel, with the addition of the dedicated clean ballast tanks, meets the stability standards for load line assignment in 46 CFR part 42. (3) Documentation, calculations, or a loading manual to show that the vessel, with the addition of the dedicated clean ballast tanks, meets the structural standards in 46 CFR part 32. (4) A drawing or diagram of the pumping and piping system for the dedicated c"
+  },
+  "157.202": {
+   "title": "Plans and documents for foreign tank vessels: Submission.",
+   "refs": [
+    "157.10a",
+    "157.10b",
+    "157.204"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43714, June 30, 1980, as amended by CGD 82-28, 50 FR 11629, Mar. 22, 1985; CGD 88-052, 53 FR 25122, July 1, 1988; CGD 96-026, 61 FR 33668, June 28, 1996; USCG-2014-0410, 79 FR 38438, July 7, 2014]",
+   "amended_years": [
+    1980,
+    1985,
+    1988,
+    1996,
+    2014
+   ],
+   "text": "Plans and documents for foreign tank vessels: Submission. The owner or operator of a foreign tank vessel under \u00a7 150.10a(b), \u00a7 157.10a(c)(2), or \u00a7 157.10b(a)(2) who desires the letter from the Coast Guard under \u00a7 157.204 accepting the plans submitted under this paragraph, and the owner or operator of a foreign tank vessel under \u00a7 150.10c(c)(2) must submit to the Commandant (CG-CVC), Attn: Office of Commercial Vessel Compliance, U.S. Coast Guard Stop 7501, 2703 Martin Luther King Jr. Avenue SE., Washington, DC 20593-7501\u2014 (a) Plans that include: (1) The dedicated clean ballast tank arrangement; and (2) A drawing or diagram of the pumping and piping system for the dedicated clean ballast tanks; and (b) Documentation from the authority that assigned the load line to the tank vessel that state"
+  },
+  "157.37": {
+   "title": "Discharge of oily mixtures from oil cargoes.",
+   "refs": [
+    "157.11",
+    "157.12"
+   ],
+   "history": "[CGD 74-32, 40 FR 48283, Oct. 14, 1975, as amended by CGD 76-088b, 48 FR 45721, Oct. 6, 1983; USCG-2000-7641, 66 FR 55573, Nov. 2, 2001; USCG-2006-25150, 71 FR 39210, July 12, 2006; USCG-2008-0179, 73 FR 35015, June 19, 2008; USCG-2004-18939, 74 FR 3382, Jan. 16, 2009]",
+   "amended_years": [
+    1975,
+    1983,
+    2000,
+    2001,
+    2004,
+    2006,
+    2008,
+    2009
+   ],
+   "text": "Discharge of oily mixtures from oil cargoes. (a) A tank vessel may not discharge an oily mixture into the sea from a cargo tank, slop tank, or cargo pump room bilge unless the vessel: (1) Is more than 50 nautical miles from the nearest land; (2) Is proceeding en route; (3) Is discharging at an instantaneous rate of oil content not exceeding 30 liters per nautical mile; (4) Is an existing vessel and the total quantity of oil discharged into the sea does not exceed 1/15,000 of the total quantity of the cargo that the discharge formed a part, or is a new vessel and the total quantity of oil discharged into the sea does not exceed 1/30,000 of the total quantity of the cargo that the discharge formed a part; (5) Discharges: (i) Through the above waterline discharge point described in \u00a7 157.11(b"
+  },
+  "157.19": {
+   "title": "Cargo tank arrangement and size.",
+   "refs": [],
+   "history": "[CGD 74-32, 40 FR 48283, Oct. 14, 1975, as amended by CGD 75-240, 41 FR 54180, Dec. 13, 1976; CGD 76-088b, 48 FR 45720, Oct. 6, 1983; USCG-2000-7223, 65 FR 40058, June 29, 2000; USCG-2010-0194, 80 FR 5938, Feb. 4, 2015]",
+   "amended_years": [
+    1975,
+    1976,
+    1983,
+    2000,
+    2010,
+    2015
+   ],
+   "text": "Cargo tank arrangement and size. (a) With the exception of those vessels listed in paragraph (b) of this section, this section applies to: (1) A U.S. or foreign vessel that is delivered after January 1, 1977; (2) A U.S. vessel that is delivered before January 1, 1977, for which the building contract is awarded after January 1, 1972, or, if there is no building contract, the keel is laid or the vessel is at a similar stage of construction after June 30, 1972; and (3) A foreign vessel that is delivered before January 1, 1977, for which the building contract is awarded after January 1, 1974, or, if there is no building contract, the keel is laid or the vessel is at a similar stage of construction after June 30, 1974. (b) This section does not apply to U.S. or foreign oil tankers delivered on "
+  },
+  "157.10d": {
+   "title": "Double hulls on tank vessels.",
+   "refs": [
+    "157.08",
+    "157.10"
+   ],
+   "history": "[CGD 90-051, 57 FR 36239, Aug. 12, 1992, as amended by USCG-1999-6164, 65 FR 39262, June 23, 2000]",
+   "amended_years": [
+    1992,
+    1999,
+    2000
+   ],
+   "text": "Double hulls on tank vessels. (a) With the exceptions stated in \u00a7 157.08(n), this section applies to a tank vessel\u2014 (1) For which the building contract is awarded after June 30, 1990; (2) That is delivered after December 31, 1993; (3) That undergoes a major conversion for which; (i) The contract is awarded after June 30, 1990; or (ii) Conversion is completed after December 31, 1993; or (4) That is otherwise required to have a double hull by 46 U.S.C. 3703a(c). Note: The double hull compliance dates of 46 U.S.C. 3703a(c) are set out in appendix G to this part. To determine a tank vessel's double hull compliance date under OPA 90, use the vessel's hull configuration ( i.e., single hull; single hull with double sides; or single hull with double bottom) on August 18, 1990. (b) Each vessel to w"
+  },
+  "157.126": {
+   "title": "Pumps.",
+   "refs": [
+    "157.128"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Pumps. (a) Crude oil must be supplied to the COW machines by COW system pumps or cargo pumps. (b) The pumps under paragraph (a) of this section must be designed and arranged with sufficient capacity to meet the following: (1) A sufficient pressure and flow is supplied to allow the simultaneous operation of those COW machines designed to operate simultaneously. (2) If an eductor is used for tank stripping, enough driving fluid is provided by the pumps to allow the eductor to meet \u00a7 157.128(a). (c) There must be means on the tank vessel to maintain the pressure under paragraph (b) of this section when shore terminal back pressure is less than the pressure under paragraph (b) of this section. (d) The COW system must have two or more pumps that are capable of supplying oil to the COW machines."
+  },
+  "157.155": {
+   "title": "COW operations: General.",
+   "refs": [
+    "157.10",
+    "157.10a",
+    "157.122",
+    "157.128",
+    "157.11",
+    "157.10c"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43709, June 30, 1980, as amended by CGD 82-28, 50 FR 11628, Mar. 22, 1985]",
+   "amended_years": [
+    1980,
+    1985
+   ],
+   "text": "COW operations: General. (a) The master of a tank vessel having a COW system under \u00a7 157.10(e), \u00a7 157.10a(a)(2), or 157.10c(b)(2) shall ensure that\u2014 (1) Before crude oil washing a cargo tank, the level in each tank with crude oil that is used as a source for crude oil washing is lowered at least one meter; (2) A tank used as a slop tank is not used as a source for crude oil washing until: (i) Its contents are discharged ashore or to another tank; and (ii) The tank contains only crude oil; (3) During COW operations: (i) The valves under \u00a7 157.122(i)(1) are shut; or (ii) The blanks under \u00a7 157.122(i)(2) are installed; (4) The rotation of each COW machine mounted to or close to the bottom of each cargo tank is verified by: (i) A visual inspection of a means located outside of the cargo tank t"
+  },
+  "157.11": {
+   "title": "Pumping, piping and discharge arrangements.",
+   "refs": [
+    "157.09",
+    "157.10a",
+    "157.10b",
+    "157.10",
+    "157.10d",
+    "157.08",
+    "157.19",
+    "157.45"
+   ],
+   "history": "[CGD 74-32, 40 FR 48283, Oct. 14, 1975, as amended by CGD 80-78, 45 FR 43704, June 30, 1980; CGD 77-058b, 45 FR 43708, June 30, 1980; CGD 79-152, 45 FR 82250, Dec. 15, 1980; CGD 76-088b, 48 FR 45720, Oct. 6, 1983; CGD 90-051, 57 FR 36244, Aug. 12, 1992; USCG-2000-7641, 66 FR 55573, Nov. 2, 2001; USC",
+   "amended_years": [
+    1975,
+    1980,
+    1983,
+    1992,
+    2000,
+    2001
+   ],
+   "text": "Pumping, piping and discharge arrangements. (a) Each tank vessel must have a fixed piping system for transferring oily mixtures from cargo tanks to slop tanks and for discharging oily mixtures to the sea and to reception facilities. On a vessel that has two or more independent piping arrangements, the arrangements collectively form the fixed piping system required by this paragraph. (b) Each fixed piping system required by paragraph (a) of this section must have: (1) At least two manifolds on the weather deck for transferring oily mixtures to reception facilities, one of which is on the port side of the vessel and one of which is on the starboard side; and (2) Except as provided in paragraph (c) of this section, at least one discharge point that: (i) Is used for discharges to the sea; (ii)"
+  },
+  "157.12": {
+   "title": "Oil discharge monitoring and control system.",
+   "refs": [
+    "157.02",
+    "157.12b"
+   ],
+   "history": "[USCG-2004-18939, 74 FR 3378, Jan. 16, 2009]",
+   "amended_years": [
+    2004,
+    2009
+   ],
+   "text": "Oil discharge monitoring and control system. (a) Each vessel must have an oil discharge monitoring and control system (monitoring system) that is designed for use with each type of cargo oil that the vessel carries. (b) Each oil content meter component of the monitoring system installed on a U.S. vessel must be approved under 46 CFR part 162, subpart 162.050. Each oil content meter component of the monitoring system installed on a foreign vessel must be approved: (1) Under 46 CFR part 162, subpart 162.050; or (2) As meeting IMO Marine Environment Protection Committee resolution MEPC.108(49) by a country that has ratified the MARPOL 73/78. Paragraph 1.2.2 of MEPC.108(49) provides, as to equipment installed in \u201coil tankers the keels of which are laid, or which are at a similar stage of const"
+  },
+  "157.08": {
+   "title": "Applicability of subpart B.",
+   "refs": [
+    "157.03"
+   ],
+   "history": "[CGD 75-240, 41 FR 54179, Dec. 13, 1976, as amended by CGD 77-058b, 45 FR 43707, June 30, 1980; CGD 79-152, 45 FR 82249, Dec. 15, 1980; CGD 76-088b, 48 FR 45720, Oct. 6, 1983; CGD 90-051, 57 FR 36239, Aug. 12, 1992; 57 FR 40494, Sept. 3, 1992; CGD 97-023, 62 FR 33364, June 19, 1997; USCG-2008-0179, ",
+   "amended_years": [
+    1976,
+    1980,
+    1983,
+    1992,
+    1997,
+    2008
+   ],
+   "text": "Applicability of subpart B. Note: An \u201coil tanker\u201d as defined in \u00a7 157.03 includes barges as well as self-propelled vessels. (a) Sections 157.10d and 157.11(g) apply to each vessel to which this part applies. (b) Sections 157.11 (a) through (f), 157.12, 157.15, 157.19(b)(3), 157.33, and 157.37 apply to each vessel to which this part applies that carries 200 cubic meters or more of crude oil or products in bulk as cargo, as well as to each oceangoing oil tanker to which this part applies of 150 gross tons or more. These sections do not apply to a foreign vessel which remains beyond the navigable waters of the United States and does not transfer oil cargo at a port or place subject to the jurisdiction of the United States. (c) Section 157.21 applies to each oil tanker to which this part appli"
+  },
+  "157.128": {
+   "title": "Stripping system.",
+   "refs": [
+    "157.10",
+    "157.10a",
+    "157.10c",
+    "157.140"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43709, June 30, 1980, as amended by CGD 82-28, 50 FR 11627, Mar. 22, 1985]",
+   "amended_years": [
+    1980,
+    1985
+   ],
+   "text": "Stripping system. (a) Each tank vessel having a COW system under \u00a7 157.10(e), \u00a7 157.10a(a)(2), or \u00a7 157.10c(b)(2) must have a stripping system that is designed to remove crude oil from\u2014 (1) Each cargo tank at 1.25 times the rate at which all the COW machines that are designed to simultaneously wash the bottom of the tank, are operating; and (2) The bottom of each tank to allow the tank vessel to pass the inspection under \u00a7 157.140(a)(2). (b) Each cargo tank must be designed to allow the level of crude oil in the tank to be determined by: (1) Hand dipping at the aftermost portion of the tank and three other locations; or (2) Any other means accepted by the Commandant. (c) Each stripping system must have at least one of the following devices for stripping oil from each cargo tank: (1) A posi"
+  },
+  "157.45": {
+   "title": "Valves in cargo or ballast piping system.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Valves in cargo or ballast piping system. When a tank vessel is at sea and the tanks contain oil, valves and closing devices in the cargo or ballast piping system or in the transfer system must be kept closed except they may be opened for cargo or ballast transfer to trim the vessel."
+  },
+  "157.02": {
+   "title": "Incorporation by reference: Where can I get a copy of the publications mentioned in this part?",
+   "refs": [
+    "157.12",
+    "157.450",
+    "157.430",
+    "157.445",
+    "157.14",
+    "157.20",
+    "157.435"
+   ],
+   "history": "[USCG-2004-18939, 74 FR 3378, Jan. 16, 2009, as amended by USCG-2010-0351, 75 FR 36286, June 25, 2010; USCG-2014-0410, 79 FR 38437, July 7, 2014; USCG-2010-0194, 80 FR 5937, Feb. 4, 2015]",
+   "amended_years": [
+    2004,
+    2009,
+    2010,
+    2014,
+    2015
+   ],
+   "text": "Incorporation by reference: Where can I get a copy of the publications mentioned in this part? (a) Certain material is incorporated by reference into this part with the approval of the Director of the Federal Register under 5 U.S.C. 552(a) and 1 CFR part 51. To enforce any edition other than that specified in this section, the Coast Guard must publish notice of change in the Federal Register and the material must be available to the public. All approved material is available for inspection at the National Archives and Records Administration (NARA). For information on the availability of this material at NARA, call 202-741-6030 or go to http://www.archives.gov/federal_register/code_of_federal_regulations/ibr_locations.html. Also, it is available for inspection at the Coast Guard Headquarter"
+  },
+  "157.12b": {
+   "title": "Implementation requirements.",
+   "refs": [],
+   "history": "[USCG-2004-18939, 74 FR 3379, Jan. 16, 2009]",
+   "amended_years": [
+    2004,
+    2009
+   ],
+   "text": "Implementation requirements. Oil discharge monitoring and control systems must be fitted to oil tankers to which this subpart applies. A monitoring and control system must employ a control unit and be fitted with a starting interlock and overboard discharge control. [USCG-2004-18939, 74 FR 3379, Jan. 16, 2009]"
+  },
+  "157.03": {
+   "title": "Definitions.",
+   "refs": [
+    "157.10d"
+   ],
+   "history": "[CGD 96-026, 61 FR 33666, June 28, 1996; 61 FR 36786, July 12, 1996, as amended by CGD 91-045, 61 FR 39788, July 30, 1996; USCG-2000-7641, 66 FR 55572, Nov. 2, 2001; USCG-2004-18939, 74 FR 3378, Jan. 16, 2009; USCG-2014-0410, 79 FR 38437, July 7, 2014]",
+   "amended_years": [
+    1996,
+    2000,
+    2001,
+    2004,
+    2009,
+    2014
+   ],
+   "text": "Definitions. Except as otherwise stated in a subpart: Amidships means the middle of the length. Animal fat means a non-petroleum oil, fat, or grease derived from animals and not specifically identified elsewhere in this part. Ballast voyage means the voyage that a tank vessel engages in after it leaves the port of final cargo discharge. Breadth or B means the maximum molded breadth of a vessel in meters. Cargo tank length means the length from the forward bulkhead of the forwardmost cargo tanks, to the after bulkhead of the aftermost cargo tanks. Center tank means any tank inboard of a longitudinal bulkhead. Clean ballast means ballast which: (1) If discharged from a vessel that is stationary into clean, calm water on a clear day, would not\u2014 (i) Produce visible traces of oil on the surface"
+  },
+  "157.140": {
+   "title": "Tank vessel inspections.",
+   "refs": [
+    "157.142",
+    "157.10",
+    "157.10c",
+    "157.102"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43709, June 30, 1980, as amended by CGD 82-28, 50 FR 11628, Mar. 22, 1985; USCG-2000-7641, 66 FR 55573, Nov. 2, 2001]",
+   "amended_years": [
+    1980,
+    1985,
+    2000,
+    2001
+   ],
+   "text": "Tank vessel inspections. (a) Before issuing a letter under \u00a7 157.142, the Coast Guard makes an initial inspection of each U.S. tank vessel having a COW system under \u00a7 157.10(e), \u00a7 157.10(a)(2), or \u00a7 157.10c(b)(2) and each foreign tank vessel whose owner or operator submitted the plans under \u00a7 157.102 to determine whether or not, when entering a port, the cargo tanks that carry crude oil meet the following: (1) After each tank is crude oil washed but not water rinsed, except the bottom of the tank may be flushed with water and stripped, each tank is essentially free of oil residues to a degree acceptable to the Coast Guard inspector. (2) After the tanks that are to be used as ballast tanks when leaving the port are crude oil washed and stripped but not water rinsed or bottom flushed, they a"
+  },
+  "157.450": {
+   "title": "Maneuvering and vessel status information.",
+   "refs": [],
+   "history": "[CGD 91-045, 61 FR 39790, July 30, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "Maneuvering and vessel status information. A tankship owner, master, or operator shall comply with IMO Resolution A.601(15), Annex sections 1.1, 2.3, 3.1, and 3.2, with appendices. [CGD 91-045, 61 FR 39790, July 30, 1996]"
+  },
+  "157.430": {
+   "title": "Enhanced survey requirements.",
+   "refs": [
+    "157.04"
+   ],
+   "history": "[CGD 91-045, 61 FR 39789, July 30, 1996, as amended by USCG-2014-0410, 79 FR 38439, July 7, 2014]",
+   "amended_years": [
+    1996,
+    2014
+   ],
+   "text": "Enhanced survey requirements. Beginning at each tank vessel's next regularly scheduled drydock examination and continuing as required under 46 CFR part 31, or, for each foreign flagged tank vessel, beginning at the next drydock and continuing as required under the foreign vessel's flag administration, a tank vessel owner or operator shall\u2014 (a) Implement an enhanced survey program that complies with the standards of IMO Resolution A.744(18), Annex B sections 1.1.3-1.1.4, 1.2-1.3, 2.1, 2.3-2.6, 3-8, and Annexes 1-10 with appendices; (b) Implement a vessel specific survey program that provides a level of protection equivalent to the requirements in paragraph (a)(1) of this section and is approved by the Commandant (CG-CVC). A written request for program equivalency under this paragraph must b"
+  },
+  "157.445": {
+   "title": "Maneuvering performance capability.",
+   "refs": [
+    "157.04"
+   ],
+   "history": "[CGD 91-045, 61 FR 39790, July 30, 1996; 61 FR 41685, Aug. 9, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "Maneuvering performance capability. (a) A tankship owner or operator shall ensure that maneuvering tests in accordance with IMO Resolution A.751(18), sections 1.2, 2.3-2.4, 3-4.2, and 5 (with Explanatory Notes in MSC/Circ.644) have been conducted by July 29, 1997. Completion of maneuvering performance tests must be shown by\u2014 (1) For a foreign flag tankship, a letter from the flag administration or an authorized classification society, as described in \u00a7 157.04 of this part, stating the requirements in paragraph (a) of this section have been met; or (2) For a U.S. flag tankship, results from the vessel owner confirming the completion of the tests or a letter from an authorized classification society, as described in \u00a7 157.04 of this part, stating the requirements in paragraph (a) of this sec"
+  },
+  "157.14": {
+   "title": "Pump-room bottom protection.",
+   "refs": [
+    "157.02"
+   ],
+   "history": "[USCG-2010-0194, 80 FR 5938, Feb. 4, 2015]",
+   "amended_years": [
+    2010,
+    2015
+   ],
+   "text": "Pump-room bottom protection. Each oil tanker of 5,000 tons deadweight or more constructed on or after January 1, 2007, must meet the minimum standard of pump room bottom protection required by Annex I, Regulation 22 (incorporated by reference, see \u00a7 157.02). [USCG-2010-0194, 80 FR 5938, Feb. 4, 2015]"
+  },
+  "157.20": {
+   "title": "Accidental oil outflow performance.",
+   "refs": [
+    "157.02"
+   ],
+   "history": "[USCG-2010-0194, 80 FR 5938, Feb. 4, 2015]",
+   "amended_years": [
+    2010,
+    2015
+   ],
+   "text": "Accidental oil outflow performance. Each oil tanker which is delivered on or after January 1, 2010 must meet the minimum standard of accidental oil outflow performance required by Annex I, Regulation 23 (incorporated by reference, see \u00a7 157.02). [USCG-2010-0194, 80 FR 5938, Feb. 4, 2015]"
+  },
+  "157.435": {
+   "title": "Vital systems surveys.",
+   "refs": [],
+   "history": "[CGD 91-045, 61 FR 39789, July 30, 1996; 61 FR 41685, Aug. 9, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "Vital systems surveys. (a) A tank vessel owner or operator shall ensure that surveys of the following systems are conducted: (1) Cargo systems. The survey must include the examination and testing of the items listed in chapters 6, 7, and 10 of the International Safety Guide for Oil Tankers and Terminals, if applicable, prior to cargo transfer operations. (2) Mooring systems. The survey must include a visual examination of the emergency towline, the anchor releasing mechanism, and mooring lines prior to entering the port or place of destination, if weather permits, or prior to getting underway. (b) Surveys must be conducted by company management personnel, company designated individuals, or vessel officers knowledgeable about the equipment operating parameters and having the authority, capa"
+  },
+  "157.142": {
+   "title": "Letter of acceptance: Inspections.",
+   "refs": [
+    "157.140"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Letter of acceptance: Inspections. If the inspections under \u00a7 157.140 are passed, the Coast Guard issues to the tank vessel a letter that states that the vessel complies with this subpart."
+  },
+  "157.102": {
+   "title": "Plans for foreign tank vessels: Submission.",
+   "refs": [
+    "157.10",
+    "157.10a",
+    "157.10c",
+    "157.106",
+    "157.104"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43709, June 30, 1980, as amended by CGD 82-28, 50 FR 11627, 11630, Mar. 22, 1985; CGD 88-052, 53 FR 25122, July 1, 1988; CGD 96-026, 61 FR 33668, June 28, 1996; USCG-2006-25150, 71 FR 39210, July 12, 2006; USCG-2010-0351, 75 FR 36286, June 25, 2010; USCG-2014-0410, 79 FR 38438, J",
+   "amended_years": [
+    1980,
+    1985,
+    1988,
+    1996,
+    2006,
+    2010,
+    2014
+   ],
+   "text": "Plans for foreign tank vessels: Submission. If the owner or operator of a foreign tank vessel having a COW system under \u00a7 157.10(e), \u00a7 157.10a(a)(2), or \u00a7 157.10c(b)(2), desires the letter from the Coast Guard under \u00a7 157.106 accepting the plans submitted under this paragraph, the owner or operator must submit to the Commandant (CG-CVC), Attn: Office of Commercial Vessel Compliance, U.S. Coast Guard Stop 7501, 2703 Martin Luther King Jr. Avenue SE., Washington, DC 20593-7501, plans that include\u2014 (a) A drawing or diagram of the COW pumping and piping system that meets 46 CFR 56.01-10(d); (b) The design of each COW machine; (c) The arrangement, location, and installation of the COW machines; and (d) Except as allowed in \u00a7 157.104, the projected direct impingement pattern of crude oil from th"
+  },
+  "157.04": {
+   "title": "Authorization of classification societies.",
+   "refs": [
+    "157.116"
+   ],
+   "history": "[CGD 82-28, 50 FR 11625, 11630, Mar. 22, 1985, as amended by CGD 88-052, 53 FR 25122, July 1, 1988; CGD 96-026, 61 FR 33668, June 28, 1996; USCG-2000-7641, 66 FR 55573, Nov. 2, 2001; USCG-2006-25150, 71 FR 39210, July 12, 2006; USCG-2010-0351, 75 FR 36286, June 25, 2010; USCG-2014-0410, 79 FR 38438,",
+   "amended_years": [
+    1985,
+    1988,
+    1996,
+    2000,
+    2001,
+    2006,
+    2010,
+    2014
+   ],
+   "text": "Authorization of classification societies. (a) The Coast Guard may authorize any classification society (CS) to perform certain plan reviews, certifications, and inspections required by this part on vessels classed by that CS, except that only U.S. classification societies may be authorized to perform those plan reviews, inspections, and certifications for U.S. vessels. (b) If a CS desires authorization to perform the plan reviews, certifications, and inspections required under this part, it must submit to the Commandant (CG-CVC), Attn: Office of Commercial Vessel Compliance, U.S. Coast Guard Stop 7501, 2703 Martin Luther King Jr. Avenue SE., Washington, DC 20593-7501, evidence from the governments concerned showing that they have authorized the CS to inspect and certify vessels on their b"
+  },
+  "157.106": {
+   "title": "Letter of acceptance.",
+   "refs": [
+    "157.100",
+    "157.102",
+    "157.104"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Letter of acceptance. The Coast Guard informs the submitter by letter that the plans submitted under \u00a7 157.100 or \u00a7 157.102 are accepted if: (a) The plans submitted show that the COW system meets this subpart; or (b) The plans submitted and the scale model under \u00a7 157.104 show that the COW system meets this subpart."
+  },
+  "157.104": {
+   "title": "Scale models.",
+   "refs": [
+    "157.100",
+    "157.102"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Scale models. If the pattern under \u00a7 157.100(a)(4) or \u00a7 157.102(d) cannot be shown on a plan, a scale model of each tank must be built for Coast Guard inspection to simulate, by a pinpoint of light, the projected direct impingement pattern on the surfaces of the tank."
+  },
+  "157.116": {
+   "title": "Required documents: U.S. tank vessels.",
+   "refs": [
+    "157.10",
+    "157.10a",
+    "157.10c",
+    "157.112",
+    "157.138",
+    "157.106",
+    "157.158",
+    "157.140",
+    "157.142"
+   ],
+   "history": "[CGD 82-28, 50 FR 11627, 11630, Mar. 22, 1985, as amended by USCG-2006-25150, 71 FR 39210, July 12, 2006]",
+   "amended_years": [
+    1985,
+    2006
+   ],
+   "text": "Required documents: U.S. tank vessels. The owner, operator, and master of a U.S. tank vessel having a COW system under \u00a7 157.10(e), \u00a7 157.10a(a)(2), or \u00a7 157.10c(b)(2) shall ensure that the vessel does not engage in a voyage unless the vessel has on board the following: (a) The Crude Oil Washing Operations and Equipment Manual that\u2014 (1) Is approved under \u00a7 157.112; or (2) Bears a certification by an authorized CS that the manual contains the information required under \u00a7 157.138. (b) Evidence of acceptance of the tank vessel's COW system consisting of\u2014 (1) A document from an authorized CS that certifies the vessel meets \u00a7 157.10c(b)(2) and each amending letter by the authorized CS approving changes in the design, equipment, or installation; or (2) The letter of acceptance under \u00a7 157.106 an"
+  },
+  "157.100": {
+   "title": "Plans for U.S. tank vessels: Submission.",
+   "refs": [
+    "157.10",
+    "157.10a",
+    "157.10c",
+    "157.140",
+    "157.104"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43709, June 30, 1980, as amended by CGD 82-28, 50 FR 11626, 11630, Mar. 22, 1985; CDG 85-048a, 51 FR 15481, Apr. 24, 1986; USCG-1998-3799, 63 FR 35531, June 30, 1998; USCG-2006-25150, 71 FR 39210, July 12, 2006; USCG-2008-0179, 73 FR 35015, June 19, 2008; USCG-2010-0351, 75 FR 36",
+   "amended_years": [
+    1980,
+    1985,
+    1986,
+    1998,
+    2006,
+    2008,
+    2010
+   ],
+   "text": "Plans for U.S. tank vessels: Submission. (a) Before each U.S. tank vessel having a COW system under \u00a7 157.10(e), \u00a7 157.10a(a)(2), or \u00a7 157.10c(b)(2) is inspected under \u00a7 157.140, the owner or operator of that vessel must submit to the Coast Guard plans that include\u2014 (1) A drawing or diagram of the COW pumping and piping system that meets 46 CFR 56.01-10(d); (2) The design of each COW machine; (3) The arrangement, location, and installation of the COW machines; and (4) Except as allowed in \u00a7 157.104, the projected direct impingement pattern of crude oil from the nozzles of the COW machines on the surfaces of each tank, showing the surface areas not reached by direct impingement. (b) Plans under paragraph (a) of this section must be submitted to the Officer in Charge, Marine Inspection, of t"
+  },
+  "157.112": {
+   "title": "Approved Crude Oil Washing Operations and Equipment Manual.",
+   "refs": [
+    "157.108",
+    "157.110",
+    "157.138"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Approved Crude Oil Washing Operations and Equipment Manual. If the manuals submitted under \u00a7 157.108 or \u00a7 157.110 meet \u00a7 157.138, the Coast Guard approves the manuals and forwards one of the approved manuals to the submitter."
+  },
+  "157.138": {
+   "title": "Crude Oil Washing Operations and Equipment Manual.",
+   "refs": [
+    "157.140",
+    "157.160",
+    "157.122",
+    "157.155",
+    "157.10a",
+    "157.10c",
+    "157.166"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43709, June 30, 1980, as amended by CGD 82-28, 50 FR 11628, Mar. 22, 1985; USCG-2000-7641, 66 FR 55573, Nov. 2, 2001]",
+   "amended_years": [
+    1980,
+    1985,
+    2000,
+    2001
+   ],
+   "text": "Crude Oil Washing Operations and Equipment Manual. (a) Each Crude Oil Washing Operations and Equipment Manual must include the following information: (1) The text of the Annex of Resolution 15 of the MARPOL 73/78. (2) A line drawing of the tank vessel's COW system showing the locations of pumps, piping, and COW machines. (3) A description of the COW system. (4) The procedure for the inspection of the COW system during COW operations. (5) Design characteristic information of the COW system that includes the following: (i) Pressure and flow of the crude oil pumped to the COW machines. (ii) Revolutions, number of cycles, and length of cycles of each COW machine. (iii) Pressure and flow of the stripping suction device. (iv) Number and location of COW machines operating simultaneously in each c"
+  },
+  "157.158": {
+   "title": "COW operations: Changed characteristics.",
+   "refs": [
+    "157.150",
+    "157.140",
+    "157.112"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "COW operations: Changed characteristics. The COW system may be operated with characteristics that do not meet those recorded under \u00a7 157.150(b) only if: (a) The tank vessel passes the inspections under \u00a7 157.140 using the changed characteristics; (b) The changed characteristics used to pass the inspections under \u00a7 157.140 are recorded in the Crude Oil Washing Operations and Equipment Manual approved under \u00a7 157.112; and (c) The Coast Guard issues to the tank vessel an amending letter stating that the tank vessel complies with this subpart with these characteristics."
+  },
+  "157.108": {
+   "title": "Crude Oil Washing Operations and Equipment Manual for U.S. tank vessels: Submission.",
+   "refs": [
+    "157.10",
+    "157.10a",
+    "157.10c",
+    "157.140",
+    "157.138",
+    "157.100"
+   ],
+   "history": "[CGD 82-28, 50 FR 11627, 11630, Mar. 22, 1985, as amended by USCG-2006-25150, 71 FR 39210, July 12, 2006]",
+   "amended_years": [
+    1985,
+    2006
+   ],
+   "text": "Crude Oil Washing Operations and Equipment Manual for U.S. tank vessels: Submission. Before each U.S. tank vessel having a COW system under \u00a7 157.10(e), \u00a7 157.10a(a)(2), or \u00a7 157.10c(b)(2) is inspected under \u00a7 157.140, the owner or operator of that vessel must submit two copies of a manual that meets \u00a7 157.138, to the Officer in Charge, Marine Inspection, of the zone in which the COW system is installed or to the appropriate Coast Guard field technical office listed in \u00a7 157.100(b). (Reporting and Recordkeeping requirements approved by the Office of Management and Budget under control number 1625-0036) [CGD 82-28, 50 FR 11627, 11630, Mar. 22, 1985, as amended by USCG-2006-25150, 71 FR 39210, July 12, 2006]"
+  },
+  "157.110": {
+   "title": "Crude Oil Washing Operations and Equipment Manual for foreign tank vessels: Submission.",
+   "refs": [
+    "157.10",
+    "157.10a",
+    "157.10c",
+    "157.112",
+    "157.138"
+   ],
+   "history": "[CGD 82-28, 50 FR 11627, 11630, Mar. 22, 1985, as amended by CGD 88-052, 53 FR 25122, July 1, 1988; CGD 96-026, 61 FR 33668, June 28, 1996; USCG-2006-25150, 71 FR 39210, July 12, 2006; USCG-2014-0410, 79 FR 38438, July 7, 2014]",
+   "amended_years": [
+    1985,
+    1988,
+    1996,
+    2006,
+    2014
+   ],
+   "text": "Crude Oil Washing Operations and Equipment Manual for foreign tank vessels: Submission. If the owner or operator of a foreign tank vessel having a COW system under \u00a7 157.10(e), \u00a7 157.10a(a)(2), or \u00a7 157.10c(b)(2) desires a Coast Guard approved Crude Oil Washing Operations and Equipment Manual under \u00a7 157.112, the owner or operator must submit two copies of a manual that meets \u00a7 157.138 to the Commandant (CG-CVC), Attn: Office of Commercial Vessel Compliance, U.S. Coast Guard Stop 7501, 2703 Martin Luther King Jr. Avenue SE., Washington, DC 20593-7501. (Reporting and Recordkeeping requirements approved by the Office of Management and Budget under control number 1625-0036) [CGD 82-28, 50 FR 11627, 11630, Mar. 22, 1985, as amended by CGD 88-052, 53 FR 25122, July 1, 1988; CGD 96-026, 61 FR 33"
+  },
+  "157.160": {
+   "title": "Tanks: Ballasting and crude oil washing.",
+   "refs": [
+    "157.10",
+    "157.35",
+    "157.37",
+    "157.10a",
+    "157.10c"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43709, June 30, 1980, as amended by CGD 82-28, 50 FR 11628, Mar. 22, 1985; USCG-2000-7641, 66 FR 55573, Nov. 2, 2001]",
+   "amended_years": [
+    1980,
+    1985,
+    2000,
+    2001
+   ],
+   "text": "Tanks: Ballasting and crude oil washing. (a) The owner, operator, and master of a tank vessel under \u00a7 157.10(e) shall ensure that: (1) Ballast water is carried in a cargo tank only as allowed under \u00a7 157.35; (2) For oil cargo residue control, at least 25 percent of the cargo tanks are crude oil washed before each ballast voyage and that each cargo tank is crude oil washed at least once every fourth time crude oil is discharged from the tank, but no tank need be crude oil washed more than once during each 120 day period; (3) Ballast water in a cargo tank that is crude oil washed but not water rinsed during or after the most recent discharge of crude oil from that tank is discharged in accordance with \u00a7 157.37(a); and (4) Cargo tanks are not crude oil washed during a ballast voyage. (b) The "
+  },
+  "157.166": {
+   "title": "Hydrocarbon emissions.",
+   "refs": [
+    "157.10a",
+    "157.10c",
+    "157.132"
+   ],
+   "history": "[CGD 82-28, 50 FR 11628, Mar. 22, 1985]",
+   "amended_years": [
+    1985
+   ],
+   "text": "Hydrocarbon emissions. If the tank vessel having a COW system under \u00a7 157.10a(a)(2) or \u00a7 157.10c(b)(2) transfers cargo at a port in the United States that is in an area designated in 40 CFR part 81 as an area that does not meet the national primary ambient air quality ozone standard under 40 CFR part 50, issued under the Clean Air Act, as amended (42 U.S.C. 1857), the master of the vessel shall ensure that when cargo tanks are ballasted in that port the hydrocarbon vapors in each tank are contained by a means under \u00a7 157.132. Note: Questions relating to whether or not a particular port is located in an area designated in 40 CFR part 81 as an area that does not meet the national primary ambient air quality standard under 40 CFR part 50 should be directed to the Plans Analysis Section of the"
+  },
+  "157.150": {
+   "title": "Crude Oil Washing Operations and Equipment Manual: Recording information after inspections.",
+   "refs": [
+    "157.140",
+    "157.112"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Crude Oil Washing Operations and Equipment Manual: Recording information after inspections. After passing the inspections under \u00a7 157.140, the owner, operator, and master shall ensure that the following are recorded in the Crude Oil Washing Operations and Equipment Manual approved under \u00a7 157.112: (a) The results of the inspections under \u00a7 157.140. (b) The following characteristics used to pass the inspections under \u00a7 157.140: (1) Pressure and flow of the crude oil pumped to the COW machines. (2) Revolutions, number of cycles, and length of cycles of each COW machine. (3) Pressure and flow of the stripping suction device. (4) Number and location of COW machines operating simultaneously in each cargo tank. (5) Volume of water used for water rinsing. (6) Trim conditions of the tank vessel. P"
+  },
+  "157.132": {
+   "title": "Cargo tanks: Hydrocarbon vapor emissions.",
+   "refs": [
+    "157.10a",
+    "157.10c"
+   ],
+   "history": "[CGD 77-058b, 45 FR 43709, June 30, 1980, as amended by CGD 82-28, 50 FR 11628, Mar. 22, 1985]",
+   "amended_years": [
+    1980,
+    1985
+   ],
+   "text": "Cargo tanks: Hydrocarbon vapor emissions. Each tank vessel having a COW system under \u00a7 157.10a(a)(2) or \u00a7 157.10c(b)(2) without sufficient segregated ballast tanks or dedicated clean ballast tanks to allow the vessel to depart from any port in the United States without ballasting cargo tanks must have\u2014 (a) A means to discharge hydrocarbon vapors from each cargo tank that is ballasted to a cargo tank that is discharging crude oil; or (b) Any other means accepted by the Commandant that prevents hydrocarbon vapor emissions when the cargo tanks are ballasted in port. [CGD 77-058b, 45 FR 43709, June 30, 1980, as amended by CGD 82-28, 50 FR 11628, Mar. 22, 1985]"
+  }
+ },
+ "order": [
+  "157.216",
+  "157.10a",
+  "157.10b",
+  "157.10c",
+  "157.210",
+  "157.204",
+  "157.218",
+  "157.224",
+  "157.220",
+  "157.35",
+  "157.09",
+  "157.10",
+  "157.122",
+  "157.206",
+  "157.208",
+  "157.200",
+  "157.202",
+  "157.37",
+  "157.19",
+  "157.10d",
+  "157.126",
+  "157.155",
+  "157.11",
+  "157.12",
+  "157.08",
+  "157.128",
+  "157.45",
+  "157.02",
+  "157.12b",
+  "157.03",
+  "157.140",
+  "157.450",
+  "157.430",
+  "157.445",
+  "157.14",
+  "157.20",
+  "157.435",
+  "157.142",
+  "157.102",
+  "157.04",
+  "157.106",
+  "157.104",
+  "157.116",
+  "157.100",
+  "157.112",
+  "157.138",
+  "157.158",
+  "157.108",
+  "157.110",
+  "157.160",
+  "157.166",
+  "157.150",
+  "157.132"
+ ],
+ "scenario": {
+  "subject": "a foreign tank vessel's clean ballast arrangement",
+  "ticket": "a foreign tank vessel has been held at berth over its dedicated clean ballast documentation and the operator disputes which requirement applies",
+  "authority_noun": "letter of acceptance on file",
+  "filing_noun": "ballast-arrangement determination",
+  "confirmation_resource": "regulations://title-33/amendments/current-status",
+  "filing_endpoint": "https://uscg-tankvessel-filings.internal/v2/ballast-determinations/submit",
+  "absence_ticket": "a ballast arrangement has been reported that does not obviously fall under any existing tank requirement"
+ },
+ "title": "33"
+}

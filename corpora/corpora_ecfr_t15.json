@@ -1,0 +1,1144 @@
+{
+ "seed": "734.4",
+ "sections": {
+  "734.4": {
+   "title": "De minimis U.S. content.",
+   "refs": [
+    "772.1",
+    "744.6",
+    "742.4",
+    "742.6",
+    "742.15",
+    "734.3",
+    "740.17"
+   ],
+   "history": "[61 FR 12746, Mar. 25, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "De minimis U.S. content. (a) Items for which there is no de minimis level. (1) There is no de minimis level for the export from a foreign country of a foreign-made computer with an Adjusted Peak Performance (APP) exceeding that listed in ECCN 4A003.b and containing U.S.-origin controlled semiconductors (other than memory circuits) classified under ECCN 3A001 to Computer Tier 3 destinations; or exceeding an APP listed in ECCN 4A994.b and containing U.S.-origin controlled semiconductors (other than memory circuits) classified under ECCN 3A001 or high speed interconnect devices (ECCN 4A994.j) to Cuba, Iran, North Korea, and Syria. (2) Foreign produced encryption technology that incorporates U.S. origin encryption technology controlled by ECCN 5E002 is subject to the EAR regardless of the amou"
+  },
+  "772.1": {
+   "title": "Definitions of terms as used in the Export Administration Regulations (EAR).",
+   "refs": [
+    "734.19"
+   ],
+   "history": "[61 FR 12925, Mar. 25, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "Definitions of terms as used in the Export Administration Regulations (EAR). The following are definitions of terms as used in the Export Administration Regulations (EAR). In this part, references to the EAR are references to 15 CFR chapter VII, subchapter C. Those terms in quotation marks refer to terms used on the Commerce Control List (CCL) (supplement no. 1 to part 774 of the EAR). Parenthetical references following the terms in quotation marks (i.e., (Cat 5)) refer to the CCL category in which that term is found. If a term is used in only one Export Control Classification Number (ECCN) on the CCL, then that term will not appear in this part, but will be defined in the Related Definitions paragraph in the List of Items Controlled Section of that ECCN. 16/14 nanometer node (16/14 nm nod"
+  },
+  "744.6": {
+   "title": "Restrictions on specific activities of \u201cU.S. persons.\u201d",
+   "refs": [
+    "744.22"
+   ],
+   "history": "[86 FR 4871, Jan. 15, 2021, as amended at 86 FR 18436, Apr. 9, 2021; 86 FR 70018, Dec. 9, 2021; 87 FR 13059, Mar. 8, 2022; 87 FR 62199, Oct. 13, 2022; 88 FR 2825, Jan. 18, 2023; 88 FR 73448, 73494, Oct. 25, 2023; 89 FR 23885, Apr. 4, 2024; 89 FR 96817, Dec. 5, 2024; 90 FR 5311, Jan. 16, 2025]",
+   "amended_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "text": "Restrictions on specific activities of \u201cU.S. persons.\u201d (a) Scope. The general prohibitions in this section apply only to the extent that the underlying activities are not subject to a license requirement or general prohibition administered by another federal department or agency, see, for example, Assistance to Foreign Atomic Energy Activities regulations (10 CFR part 810), administered by the Department of Energy; International Traffic in Arms Regulations (ITAR) (22 CFR parts 120 through 130), administered by the Department of State; and certain sanctions regulations (to include, but not limited to, 31 CFR parts 500 through 599), administered by the Department of the Treasury. Accordingly, \u201cU.S. persons\u201d are required to seek a license from BIS only for the activities described in this sec"
+  },
+  "742.4": {
+   "title": "National security.",
+   "refs": [
+    "742.6",
+    "734.4",
+    "734.9",
+    "748.3",
+    "734.20"
+   ],
+   "history": "[61 FR 12786, Mar. 25, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "National security. (a) License requirements. It is the policy of the United States to restrict the export and reexport of items that would make a significant contribution to the military potential of any other destination or combination of destinations that would prove detrimental to the national security (NS) of the United States. Generally, items on the Commerce Control List in supplement no. 1 to part 774 of the EAR that have a reason for control of NS are those that are also listed on the Wassenaar Arrangement's \u201cList of Dual-use Goods and Technologies,\u201d as well as some items listed on the Wassenaar Arrangement's \u201cMunitions List.\u201d \u201c600 series\u201d items and 9x515 items are also controlled for NS reasons. (1) National Security column 1 (NS:1). A license is required for exports and reexports"
+  },
+  "742.6": {
+   "title": "Regional stability.",
+   "refs": [
+    "744.17"
+   ],
+   "history": "[61 FR 12786, Mar. 25, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "Regional stability. Link to an amendment published at 91 FR 46260, July 23, 2026. (a) License requirements. The following controls are maintained in support of U.S. foreign policy to maintain regional stability: (1) RS Column 1 license requirements in general. A license is required for exports and reexports to all destinations, except Australia, Canada, or the United Kingdom, for all items in ECCNs on the CCL that include RS Column 1 in the Country Chart column of the \u201cLicense Requirements\u201d section. Transactions described in paragraph (a)(2), (3), or (9) of this section are subject to the RS Column 1 license requirements set forth in those paragraphs rather than the license requirements set forth in this paragraph (a)(1). (2) Special RS Column 1 license requirements applicable to certain t"
+  },
+  "742.15": {
+   "title": "Encryption items.",
+   "refs": [
+    "772.1",
+    "740.17",
+    "734.3"
+   ],
+   "history": "[73 FR 57507, Oct. 3, 2008, as amended at 75 FR 36494, June 25, 2010; 75 FR 43821, July 27, 2010; 76 FR 1063, Jan. 7, 2011; 76 FR 29619, May 20, 2011; 78 FR 13469, Feb. 28, 2013; 78 FR 37383, June 20, 2013; 81 FR 64673, Sept. 20, 2016; 86 FR 16488, Mar. 29, 2021; 88 FR 73494, Oct. 25, 2023; 89 FR 23",
+   "amended_years": [
+    2008,
+    2010,
+    2011,
+    2013,
+    2016,
+    2021,
+    2023
+   ],
+   "text": "Encryption items. Encryption items can be used to maintain the secrecy of information, and thereby may be used by persons abroad to harm U.S. national security, foreign policy and law enforcement interests. The United States has a critical interest in ensuring that important and sensitive information of the public and private sector is protected. Consistent with our international obligations as a member of the Wassenaar Arrangement, the United States has a responsibility to maintain control over the export and reexport of encryption items. As the President indicated in Executive Order 13026 and in his Memorandum of November 15, 1996, exports and reexports of encryption software, like exports and reexports of encryption hardware, are controlled because of this functional capacity to encrypt"
+  },
+  "734.3": {
+   "title": "Items subject to the EAR.",
+   "refs": [
+    "734.4",
+    "734.9",
+    "740.17"
+   ],
+   "history": "[61 FR 12746, Mar. 25, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "Items subject to the EAR. (a) Except for items excluded in paragraph (b) of this section, the following items are subject to the EAR: (1) All items in the United States, including in a U.S. Foreign Trade Zone or moving intransit through the United States from one foreign country to another; (2) All U.S. origin items wherever located; (3) Foreign-made commodities that incorporate controlled U.S.-origin commodities, foreign-made commodities that are \u2018bundled\u2019 with controlled U.S.-origin software, foreign-made software that is commingled with controlled U.S.-origin software, and foreign-made technology that is commingled with controlled U.S.-origin technology: (i) In any quantity, as described in \u00a7 734.4(a) of this part; or (ii) In quantities exceeding the de minimis levels, as described in \u00a7"
+  },
+  "740.17": {
+   "title": "Encryption commodities, software, and technology (ENC).",
+   "refs": [],
+   "history": "[81 FR 64669, Sept. 20, 2016, as amended at 82 FR 27110, June 14, 2017; 83 FR 53750, Oct. 24, 2018; 85 FR 62587, Oct. 5, 2020; 86 FR 16487, Mar. 29, 2021; 87 FR 31951, May 26, 2022; 88 FR 73492, Oct. 25, 2023; 89 FR 28599, Apr. 19, 2024]",
+   "amended_years": [
+    2016,
+    2017,
+    2018,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "text": "Encryption commodities, software, and technology (ENC). License Exception ENC authorizes export, reexport, and transfer (in-country) of systems, equipment, commodities, and components therefor that are classified under ECCN 5A002, 5B002, equivalent or related software and technology therefor classified under 5D002 or 5E002, and \u201ccryptanalytic items\u201d and digital forensics items (investigative tools) classified under ECCN 5A004, 5D002 or 5E002. This License Exception ENC does not authorize export or reexport to, transfer (in-country) in, or provision of any service in any country listed in Country Groups E:1 or E:2 in supplement no. 1 to part 740 of the EAR, or release of source code or technology to any national of a country listed in Country Groups E:1 or E:2. Reexports and transfers (in-c"
+  },
+  "734.19": {
+   "title": "Transfer of access information and export, reexport, and transfer (in-country) of software keys.",
+   "refs": [],
+   "history": "[89 FR 96812, Dec. 5, 2024]",
+   "amended_years": [
+    2024
+   ],
+   "text": "Transfer of access information and export, reexport, and transfer (in-country) of software keys. (a) To the extent an authorization would be required to transfer \u201ctechnology\u201d or \u201csoftware,\u201d a comparable authorization is required to transfer \u201caccess information\u201d if done with \u201cknowledge\u201d that such transfer would result in the release of such \u201ctechnology\u201d or \u201csoftware\u201d without a required authorization. Note 1 to paragraph ( a ): For purposes of this section, a release of \u201csoftware\u201d includes source code and object code. (b) Software keys, also called software license keys, that allow users the ability to use the \u201csoftware\u201d or hardware, or software keys that renew existing \u201csoftware\u201d or hardware use licenses, are classified and controlled under the same ECCNs on the CCL as the corresponding \u201cso"
+  },
+  "744.22": {
+   "title": "Restrictions on exports, reexports, and transfers (in-country) to certain military-intelligence end uses or end users.",
+   "refs": [
+    "740.11",
+    "744.21"
+   ],
+   "history": "[86 FR 70019, Dec. 9, 2021, as amended at 87 FR 13060, Mar. 8, 2022; 87 FR 57081, Sept. 16, 2022]",
+   "amended_years": [
+    2021,
+    2022
+   ],
+   "text": "Restrictions on exports, reexports, and transfers (in-country) to certain military-intelligence end uses or end users. (a) General prohibition. In addition to the license requirements for items specified on the Commerce Control List (CCL) (supplement no. 1 to part 774 of the EAR), you may not export, reexport, or transfer (in-country) any item subject to the EAR without a license from BIS if, at the time of the export, reexport, or transfer (in-country), you have \u201cknowledge\u201d that the item is intended, entirely or in part, for a 'military-intelligence end use' in Belarus, Burma, Cambodia, the People's Republic of China (China), Russia, or Venezuela; or a country listed in Country Groups E:1 or E:2 (see supplement no. 1 to part 740 of the EAR), or for a Belarusian, Burmese, Cambodian, Chines"
+  },
+  "734.9": {
+   "title": "Foreign-Direct Product (FDP) Rules.",
+   "refs": [
+    "740.6"
+   ],
+   "history": "[87 FR 6024, Feb. 3, 2022, as amended at 87 FR 12236, Mar. 3, 2022; 87 FR 13055, Mar. 8, 2022; 87 FR 22131, Apr. 14, 2022; 87 FR 57078, Sept. 16, 2022; 87 FR 62195, Oct. 13, 2022; 88 FR 2824, Jan. 18, 2023; 88 FR 12153, Feb. 27, 2023; 88 FR 33428, May 23, 2023; 88 FR 73488, Oct. 25, 2023; 89 FR 6056",
+   "amended_years": [
+    2022,
+    2023
+   ],
+   "text": "Foreign-Direct Product (FDP) Rules. Foreign-produced items located outside the United States are subject to the EAR when they are a \u201cdirect product\u201d of specified \u201ctechnology\u201d or \u201csoftware,\u201d produced by a complete plant or 'major component' of a plant that itself is a \u201cdirect product\u201d of specified \u201ctechnology\u201d or \u201csoftware,\u201d or, for specified foreign-produced items in paragraph (e)(3)(i)(B)(2) of this section, contain an item produced by a complete plant or 'major component' of a plant that itself is a \u201cdirect product\u201d of specified \u201ctechnology\u201d or \u201csoftware.\u201d If a foreign-produced item is subject to the EAR, then you should separately determine the license requirements that apply to that foreign-produced item ( e.g., by assessing the item classification, destination, end-use, and end-user i"
+  },
+  "748.3": {
+   "title": "Classification requests and advisory opinions.",
+   "refs": [
+    "734.3",
+    "740.17",
+    "748.1",
+    "748.15",
+    "748.16"
+   ],
+   "history": "[61 FR 12812, Mar. 25, 1996, as amended at 61 FR 68585, Dec. 30, 1996; 62 FR 25461, May 9, 1997; 65 FR 62609, Oct. 19, 2000; 67 FR 38868, June 6, 2002; 68 FR 35785, June 17, 2003; 70 FR 8249, Feb. 18, 2005; 72 FR 33659, June 19, 2007; 73 FR 49330, Aug. 21, 2008; 75 FR 36499, June 25, 2010; 75 FR 450",
+   "amended_years": [
+    1996,
+    1997,
+    2000,
+    2002,
+    2003,
+    2005,
+    2007,
+    2008,
+    2010
+   ],
+   "text": "Classification requests and advisory opinions. (a) Introduction. You may ask BIS to provide you with the correct Export Control Classification Number (ECCN) down to the paragraph (or subparagraph) level, if appropriate. BIS will issue you a determination that each item identified in your classification request is either described by an ECCN in the Commerce Control List (CCL) in supplement no. 1 to part 774 of the EAR or not described by an ECCN and, therefore, an \u201cEAR99\u201d item. These classification determinations issued by BIS are not U.S. Government determinations that the items described therein are \u201csubject to the EAR,\u201d as this term is defined in \u00a7 734.3 of the EAR. Those who request commodity classifications and advisory opinions should have determined that the items at issue are not su"
+  },
+  "734.20": {
+   "title": "Activities that are not deemed reexports.",
+   "refs": [
+    "734.14",
+    "772.1"
+   ],
+   "history": "[81 FR 35605, June 3, 2016]",
+   "amended_years": [
+    2016
+   ],
+   "text": "Activities that are not deemed reexports. The following activities are not deemed reexports (see \u201cdeemed reexport\u201d definition in \u00a7 734.14(b)): (a) Authorized Release of \u201ctechnology\u201d or source code. Release of \u201ctechnology\u201d or source code by an entity outside the United States to a foreign person of a country other than the foreign country where the release takes place if: (1) The entity is authorized to receive the \u201ctechnology\u201d or source code at issue, whether by a license, license exception, or situation where no license is required under the EAR for such \u201ctechnology\u201d or source code; and (2) The entity has \u201cknowledge\u201d that the foreign national's most recent country of citizenship or permanent residency is that of a country to which export from the United States of the \u201ctechnology\u201d or sourc"
+  },
+  "744.17": {
+   "title": "Restrictions on certain exports, reexports and transfers (in-country) of microprocessors and associated \u201csoftware\u201d and \u201c",
+   "refs": [
+    "740.11"
+   ],
+   "history": "[79 FR 75046, Dec. 17, 2014]",
+   "amended_years": [
+    2014
+   ],
+   "text": "Restrictions on certain exports, reexports and transfers (in-country) of microprocessors and associated \u201csoftware\u201d and \u201ctechnology\u201d for \u201cmilitary end uses\u201d and to \u201cmilitary end users.\u201d (a) General prohibition. In addition to the license requirements set forth elsewhere in the EAR, you may not export, reexport or transfer (in-country) microprocessors (\u201cmicroprocessor microcircuits,\u201d \u201cmicrocomputer microcircuits,\u201d and microcontroller microcircuits having a processing speed of 5 GFLOPS or more and an arithmetic logic unit with an access width of 32 bit or more, including those incorporating \u201cinformation security\u201d functionality), or associated \u201csoftware\u201d and \u201ctechnology\u201d for the \u201cproduction\u201d or \u201cdevelopment\u201d of such microprocessors without a license if, at the time of the export, reexport or t"
+  },
+  "740.11": {
+   "title": "Governments, international organizations, international inspections under the Chemical Weapons Convention, and the Inter",
+   "refs": [
+    "744.2",
+    "740.17"
+   ],
+   "history": "[78 FR 22714, Apr. 16, 2013, as amended at 79 FR 32624, June 5, 2014; 80 FR 29442, May 21, 2015; 81 FR 64669, Sept. 20, 2016; 82 FR 50515, Nov. 1, 2017; 85 FR 4174, Jan. 23, 2020; 85 FR 83768, Dec. 23, 2020; 86 FR 58209, Oct. 21, 2021; 88 FR 85492, Dec. 8, 2023; 89 FR 18355, Mar. 13, 2024; 89 FR 347",
+   "amended_years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2020,
+    2021,
+    2023,
+    2024
+   ],
+   "text": "Governments, international organizations, international inspections under the Chemical Weapons Convention, and the International Space Station (GOV). This License Exception authorizes exports and reexports for international nuclear safeguards; U.S. government agencies or personnel; agencies of cooperating governments; international inspections under the Chemical Weapons Convention; and the International Space Station. Commodities listed in ECCNs 0A501, 0A506, 0A507, 0A508, and 0A509 are eligible only for transactions described in paragraphs (b)(2)(i) and (ii) of this section. Any item listed in a 0x5zz ECCN for export, reexport, or transfer (in-country) to an E:1 country is eligible only for transactions described in paragraphs (b)(2)(i) and (ii) solely for U.S. Government official use of "
+  },
+  "744.21": {
+   "title": "Restrictions on certain 'military end uses' or 'military end users'.",
+   "refs": [
+    "772.1",
+    "744.8"
+   ],
+   "history": "[87 FR 13059, Mar. 8, 2022, as amended at 87 FR 34136, June 6, 2022; 87 FR 57080, Sept. 16, 2022; 89 FR 18783, Mar. 15, 2024; 89 FR 68543, Aug. 27, 2024; 90 FR 47212, Sept. 30, 2025]",
+   "amended_years": [
+    2022,
+    2024,
+    2025
+   ],
+   "text": "Restrictions on certain 'military end uses' or 'military end users'. (a) General prohibition. In addition to the license requirements for items specified on the Commerce Control List (CCL) (supplement no. 1 to part 774 of the EAR), you may not export, reexport, or transfer (in-country): (1) Any item subject to the EAR listed in supplement no. 2 to this part without a license if, at the time of the export, reexport, or transfer (in-country), you have \u201cknowledge,\u201d as defined in \u00a7 772.1 of the EAR, that the item is intended, entirely or in part, for a 'military end use,' as defined in paragraph (f) of this section, in Burma, Cambodia, the People's Republic of China (China), Nicaragua, or Venezuela, or a Burmese, Cambodian, Chinese, Nicaraguan, or Venezuelan 'military end user,' as defined in "
+  },
+  "740.6": {
+   "title": "Technology and software under restriction (TSR).",
+   "refs": [
+    "736.2",
+    "743.1"
+   ],
+   "history": "[61 FR 64275, Dec. 4, 1996, as amended at 63 FR 50520, Sept. 22, 1998; 63 FR 55019, Oct. 14, 1998; 69 FR 5690, Feb. 6, 2004; 75 FR 44890, July 30, 2010; 78 FR 61901, Oct. 4, 2013; 80 FR 43318, July 22, 2015; 85 FR 84213, Dec. 28, 2020; 86 FR 4933, Jan. 19, 2021; 90 FR 4615, Jan. 16, 2025]",
+   "amended_years": [
+    1996,
+    1998,
+    2004,
+    2010,
+    2013,
+    2015,
+    2020,
+    2021,
+    2025
+   ],
+   "text": "Technology and software under restriction (TSR). (a) Scope. License Exception TSR permits exports and reexports of technology and software where the Commerce Country Chart (Supplement No. 1 to part 738 of the EAR) indicates a license requirement to the ultimate destination for national security reasons only and identified by \u201cTSR\u2014Yes\u201d in entries on the CCL, provided the software or technology is destined to Country Group B, except Sudan and Ukraine. (See Supplement No. 1 to part 740.) A written assurance is required from the consignee before exporting or reexporting under this License Exception. (1) Required assurance for export of technology. You may not export or reexport technology under this License Exception until you have received from the importer a written assurance that, without a"
+  },
+  "748.1": {
+   "title": "General provisions.",
+   "refs": [],
+   "history": "[61 FR 12812, Mar. 25, 1996, as amended at 70 FR 8249, Feb. 18, 2005; 73 FR 49329, Aug. 21, 2008; 75 FR 36499, June 25, 2010; 78 FR 13469, Feb. 28, 2013; 78 FR 22723, Apr. 16, 2013; 80 FR 51730, Aug. 26, 2015; 81 FR 64676, Sept. 20, 2016; 81 FR 87426, Dec. 5, 2016]",
+   "amended_years": [
+    1996,
+    2005,
+    2008,
+    2010,
+    2013,
+    2015,
+    2016
+   ],
+   "text": "General provisions. (a) Scope. In this part, references to the Export Administration Regulations or EAR are references to 15 CFR chapter VII, subchapter C. The provisions of this part involve requests for classifications and advisory opinions, export license applications, reexport license applications, and certain license exception notices subject to the EAR. All terms, conditions, provisions, and instructions, including the applicant and consignee certifications, contained in electronic or paper form(s) are incorporated as part of the EAR. For the purposes of this part, the term \u201capplication\u201d refers to both electronic applications and the Form BIS-748P: Multipurpose Application. (b) BIS responses. BIS will give a formal classification, advisory opinion or licensing decision only through t"
+  },
+  "748.15": {
+   "title": "Authorization Validated End-User (VEU).",
+   "refs": [
+    "748.3"
+   ],
+   "history": "[89 FR 80083, Oct. 2, 2024, as amended at 90 FR 4562, Jan. 15, 2025]",
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "text": "Authorization Validated End-User (VEU). Validated end-users (VEU) are those who have been previously approved by BIS pursuant to the requirements of this section. To be eligible for authorization VEU, exporters, reexporters, and validated end-user applicants must adhere to the conditions and restrictions set forth in paragraphs (a) through (f) of this section. If a request for VEU Authorization for a particular end-user is not granted, no new license requirement is triggered. In addition, such a result does not render the end user ineligible for license approvals from BIS. There are two types of VEU authorization: General VEU Authorization and Data Center VEU Authorization. General VEU Authorizations permit the export, reexport, and transfer to validated end-users of any eligible items tha"
+  },
+  "748.16": {
+   "title": "Approved integrated circuit designers list and approved \u201cOSAT\u201d companies list, addition, removal, or modification reques",
+   "refs": [
+    "748.3",
+    "743.9"
+   ],
+   "history": "[90 FR 5312, Jan. 16, 2025]",
+   "amended_years": [
+    2025
+   ],
+   "text": "Approved integrated circuit designers list and approved \u201cOSAT\u201d companies list, addition, removal, or modification requests. You must submit an advisory opinion, in accordance with \u00a7 748.3 of this part and the provisions in this section, to request an addition or modification to or removal from the approved integrated circuit designers list in supplement no. 6 to part 740 of the EAR, or the approved \u201cOSAT\u201d companies list in supplement no. 7 to part 740 of the EAR. The advisory opinion request must adhere to the provisions in paragraphs (a) through (d) of this section. Denied requests do not result in new license requirements or render the applicant ineligible for license approvals from BIS, nor does a denied request preclude a company from submitting a subsequent request. (a)(1) Requests to"
+  },
+  "734.14": {
+   "title": "Reexport.",
+   "refs": [
+    "734.18",
+    "734.20"
+   ],
+   "history": "[81 FR 35604, June 3, 2016]",
+   "amended_years": [
+    2016
+   ],
+   "text": "Reexport. (a) Except as set forth in \u00a7\u00a7 734.18 and 734.20, Reexport means: (1) An actual shipment or transmission of an item subject to the EAR from one foreign country to another foreign country, including the sending or taking of an item to or from such countries in any manner; (2) Releasing or otherwise transferring \u201ctechnology\u201d or source code subject to the EAR to a foreign person of a country other than the foreign country where the release or transfer takes place (a deemed reexport); (3) Transferring by a person outside the United States of registration, control, or ownership of: (i) A spacecraft subject to the EAR that is not eligible for reexport under License Exception STA ( i.e., spacecraft that provide space-based logistics, assembly or servicing of any spacecraft) to a person i"
+  },
+  "744.2": {
+   "title": "Restrictions on certain nuclear end-uses.",
+   "refs": [
+    "744.5",
+    "740.13"
+   ],
+   "history": "[61 FR 12802, Mar. 25, 1996, as amended at 61 FR 64284, Dec. 4, 1996; 62 FR 25459, May 9, 1997; 67 FR 55598, Aug. 29, 2002; 73 FR 68326, Nov. 18, 2008; 79 FR 46324, Aug. 7, 2014]",
+   "amended_years": [
+    1996,
+    1997,
+    2002,
+    2008,
+    2014
+   ],
+   "text": "Restrictions on certain nuclear end-uses. (a) General prohibition. In addition to the license requirements for items specified on the CCL, you may not export, reexport, or transfer (in-country) to any destination, other than countries in supplement no. 3 to this part, an item subject to the EAR without a license if, at the time of export, reexport, or transfer (in-country) you know 1 that the item will be used directly or indirectly in any one or more of the following activities described in paragraphs (a)(1), (a)(2), and (a)(3) of this section: 1 Part 772 of the EAR defines \u201cknowledge\u201d for all of the EAR except part 760, Restrictive Trade Practices and Boycotts. The definition, which includes variants such as \u201cknow\u201d and \u201creason to know\u201d, encompasses more than positive knowledge. Thus, the"
+  },
+  "744.8": {
+   "title": "Restrictions on exports, reexports, and transfers (in-country) when certain persons designated on the list of Specially ",
+   "refs": [
+    "748.5",
+    "744.11"
+   ],
+   "history": "[89 FR 20115, Mar. 21, 2024, as amended at 90 FR 47212, Sept. 30, 2025]",
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "text": "Restrictions on exports, reexports, and transfers (in-country) when certain persons designated on the list of Specially Designated Nationals and Blocked Persons (SDN List) are a party to the transaction. (a) Scope. (1) In addition to any other EAR license requirements that may be applicable, this section imposes EAR license requirements, license review policies, and restrictions on the use of license exceptions for exports, reexports, and transfers (in-country) when a person who is designated on the Department of the Treasury, Office of Foreign Assets Control's (OFAC) List of Specially Designated Nationals and Blocked Persons (SDN List) with any of the following identifiers is a party to the transaction, as described in \u00a7 748.5(c) through (f): (i) Related to Russia's invasion of Ukraine. ("
+  },
+  "736.2": {
+   "title": "General prohibitions and determination of applicability.",
+   "refs": [
+    "738.4",
+    "746.5",
+    "734.9",
+    "748.5",
+    "744.2",
+    "744.11",
+    "734.4"
+   ],
+   "history": "[61 FR 12754, Mar. 25, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "General prohibitions and determination of applicability. (a) Information or facts that determine the applicability of the general prohibitions. The following five types of facts determine your obligations under the ten general prohibitions and the EAR generally (also see other parts of the EAR where the license requirements and other EAR restrictions are specified in greater detail): (1) Classification of the item. The classification of the item on the Commerce Control List (see part 774 of the EAR) or description of the item in supplements no. 2, 4, or 6 to part 746 of the EAR. For guidance on classifying items, see the Commerce Control List Order of Review in supplement no. 4 to part 774 and for determining licensing requirements using the Commerce Control List in supplement no. 1 to par"
+  },
+  "743.1": {
+   "title": "Wassenaar Arrangement.",
+   "refs": [
+    "743.4",
+    "762.2",
+    "740.11",
+    "748.15",
+    "740.20"
+   ],
+   "history": "[63 FR 2458, Jan. 15, 1998]",
+   "amended_years": [
+    1998
+   ],
+   "text": "Wassenaar Arrangement. (a) Scope. This section outlines special reporting requirements for exports of certain commodities, software and technology controlled under the Wassenaar Arrangement. Such reports must be submitted to BIS semiannually in accordance with the provisions of paragraph (f) of this section, and records of all exports subject to the reporting requirements of this section must be kept in accordance with part 762 of the EAR. This section does not require reports for reexports. This section is limited to the Wassenaar Arrangement reporting requirements for items listed on the Wassenaar Arrangement's Dual-Use list. For reporting requirements for conventional arms listed on the Wassenaar Arrangement Munitions List that are subject to the EAR (i.e., \u201c600 series\u201d ECCNs), see \u00a7 74"
+  },
+  "743.9": {
+   "title": "Reporting requirements for \u201cfront-end fabricators\u201d producing \u201capplicable advanced logic integrated circuits\u201d for authori",
+   "refs": [],
+   "history": "[90 FR 5310, Jan. 16, 2025]",
+   "amended_years": [
+    2025
+   ],
+   "text": "Reporting requirements for \u201cfront-end fabricators\u201d producing \u201capplicable advanced logic integrated circuits\u201d for authorized integrated circuit designers. (a) Requirement. \u201cFront-end fabricators\u201d producing any integrated circuit specified under ECCN 3A090.a or presumed to be specified under ECCN 3A090.a by Note 1 to 3A090 for any authorized integrated circuit designer must submit reports to BIS in accordance with this section. Reports need not, however, include information about exports, reexports, or in-country transfers to an entity that is both an approved integrated circuit designer listed in supplement no. 6 to part 740 of the EAR and an authorized integrated circuit designer, as described in Note 1 to ECCN 3A090.a. (b) Information to be included in the reports. The following informati"
+  },
+  "734.18": {
+   "title": "Activities that are not exports, reexports, or transfers.",
+   "refs": [],
+   "history": "[81 FR 35604, June 3, 2016, as amended at 82 FR 61156, Dec. 27, 2017; 89 FR 40371, May 10, 2024]",
+   "amended_years": [
+    2016,
+    2017,
+    2024
+   ],
+   "text": "Activities that are not exports, reexports, or transfers. (a) Activities that are not exports, reexports, or transfers. The following activities are not exports, reexports, or transfers: (1) Launching a spacecraft, launch vehicle, payload, or other item into space. (2) Transmitting or otherwise transferring \u201ctechnology\u201d or \u201csoftware\u201d to a person in the United States who is not a foreign person from another person in the United States. (3) Transmitting or otherwise making a transfer (in-country) within the same foreign country of \u201ctechnology\u201d or \u201csoftware\u201d between or among only persons who are not \u201cforeign persons,\u201d so long as the transmission or transfer does not result in a release to a foreign person or to a person prohibited from receiving the \u201ctechnology\u201d or \u201csoftware.\u201d (4) Shipping, m"
+  },
+  "744.5": {
+   "title": "Restrictions on certain maritime nuclear propulsion end-uses.",
+   "refs": [],
+   "history": "[61 FR 12802, Mar. 25, 1996, as amended at 62 FR 25459, May 9, 1997; 73 FR 68326, Nov. 18, 2008]",
+   "amended_years": [
+    1996,
+    1997,
+    2008
+   ],
+   "text": "Restrictions on certain maritime nuclear propulsion end-uses. (a) General prohibition. In addition to the license requirements for items specified on the CCL, you may not export, reexport, or transfer (in-country) certain technology subject to the EAR without a license if at the time of the export, reexport or transfer (in-country) you know the item is for use in connection with a foreign maritime nuclear propulsion project. This prohibition applies to any technology relating to maritime nuclear propulsion plants, their land prototypes, and special facilities for their construction, support, or maintenance, including any machinery, devices, components, or equipment specifically developed or designed for use in such plants or facilities. (b) Exceptions. The exceptions provided in part 740 o"
+  },
+  "740.13": {
+   "title": "Technology and software\u2014unrestricted (TSU).",
+   "refs": [
+    "30.37",
+    "740.17"
+   ],
+   "history": "[61 FR 64283, Dec. 4, 1996. Redesignated at 61 FR 68579, Dec. 30, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "Technology and software\u2014unrestricted (TSU). This license exception authorizes exports and reexports of operation technology and software; sales technology and software; software updates (bug fixes); \u201cmass market\u201d software subject to the General Software Note; and release of technology and source code in the United States by U.S. universities to their bona fide and full time regular employees. Note that encryption software subject to the EAR is not subject to the General Software Note (see paragraph (d)(2) of this section). (a) Operation technology and software \u2014(1) Scope. The provisions of paragraph (a) permit exports and reexports of operation technology and software. \u201cOperation technology\u201d is the minimum technology necessary for the installation, operation, maintenance (checking), or rep"
+  },
+  "748.5": {
+   "title": "Parties to the transaction.",
+   "refs": [
+    "748.4"
+   ],
+   "history": "[65 FR 42569, July 10, 2000, as amended at 73 FR 49330, Aug. 21, 2008]",
+   "amended_years": [
+    2000,
+    2008
+   ],
+   "text": "Parties to the transaction. The following parties may be entered on the application. The definitions, which also appear in part 772 of the EAR, are set out here for your convenience to assist you in filling out your application correctly. (a) Applicant. The person who applies for an export or reexport license, and who has the authority of a principal party in interest to determine and control the export or reexport of items. See \u00a7 748.4(a) and definition of \u201cexporter\u201d in part 772 of the EAR. (b) Other party authorized to receive license. The person authorized by the applicant to receive the license. If a person and address is listed in Block 15 of the application, the Bureau of Industry and Security will send the license to that person instead of the applicant. Designation of another party"
+  },
+  "744.11": {
+   "title": "License requirements that apply to entities acting or at significant risk of acting contrary to the national security or",
+   "refs": [
+    "744.16",
+    "748.5",
+    "744.8",
+    "734.9",
+    "740.2"
+   ],
+   "history": "[87 FR 61973, Oct. 13, 2022, as amended at 87 FR 62200, Oct. 13, 2022; 88 FR 18985, Mar. 30, 2023; 89 FR 33228, Apr. 29, 2024; 89 FR 51651, June 18, 2024; 89 FR 58273, July 18, 2024; 89 FR 60303, July 25, 2024; 89 FR 68543, Aug. 27, 2024; 89 FR 87282, Nov. 1, 2024; 89 FR 96817, Dec. 5, 2024; 90 FR 5",
+   "amended_years": [
+    2022,
+    2023,
+    2024
+   ],
+   "text": "License requirements that apply to entities acting or at significant risk of acting contrary to the national security or foreign policy interests of the United States. BIS may impose foreign policy export, re-export, and transfer (in-country) license requirements, limitations on availability of license exceptions, and set license application review policy based on the criteria in this section. Such requirements, limitations and policy are in addition to those set forth elsewhere in the EAR. License requirements, limitations on use of license exceptions, and license application review policies will be imposed under this section by adding an entity or an address that presents a high diversion risk ( see \u00a7 744.16(f) of this part) to the Entity List (supplement no. 4 to this part) with a refer"
+  },
+  "738.4": {
+   "title": "Determining whether a license is required.",
+   "refs": [
+    "740.17"
+   ],
+   "history": "[61 FR 12756, Mar. 25, 1996, as amended at 67 FR 38861, June 6, 2002; 70 FR 54628, Sept. 16, 2005; 73 FR 57503, Oct. 3, 2008; 74 FR 52883, Oct. 15, 2009; 75 FR 36490, June 25, 2010; 78 FR 61901, Oct. 4, 2013; 79 FR 32623, June 5, 2014; 81 FR 64668, Sept. 20, 2016; 83 FR 38020, Aug. 3, 2018; 86 FR 54",
+   "amended_years": [
+    1996,
+    2002,
+    2005,
+    2008,
+    2009,
+    2010,
+    2013,
+    2014,
+    2016,
+    2018
+   ],
+   "text": "Determining whether a license is required. (a) Using the CCL and the Country Chart \u2014(1) Overview. Once you have determined that your item is classified under a specific ECCN, you must use information contained in the \u201cLicense Requirements\u201d section of that ECCN in combination with the Country Chart to decide whether a license is required. Note that not all license requirements set forth under the \u201cLicense Requirements\u201d section of an ECCN refer you to the Commerce Country Chart, but in some cases this section will contain references to a specific section in the EAR for license requirements. In such cases, this section would not apply. (2) License decision making process. The following decision making process must be followed in order to determine whether a license is required to export or re"
+  },
+  "746.5": {
+   "title": "[Reserved]",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "[Reserved]"
+  },
+  "743.4": {
+   "title": "Conventional arms reporting.",
+   "refs": [
+    "758.1",
+    "748.15"
+   ],
+   "history": "[89 FR 34706, Apr. 30, 2024]",
+   "amended_years": [
+    2024
+   ],
+   "text": "Conventional arms reporting. (a) Scope. This section outlines special reporting requirements for exports of certain items included in the UN Register of Conventional Arms (UNRoCA) and Wassenaar Arrangement (WA) Munitions List. These reports cover substantially similar arms. States participating in the UNRoCA report annually on all transfers of arms (see www.disarmament.unoda.org/convarms/register/ ); Participating States of the Wassenaar Arrangement exchange information every six months on deliveries and transfers to non-WA governments of conventional arms set forth in the Wassenaar Arrangement's Basic Documents under Part II \u201cGuideline and Procedures, including the Initial Elements\u201d, Appendix 3: \u201cSpecific Information Exchange on Arms Content by Category\u201d. Public Documents, Vol. 1\u2014Founding"
+  },
+  "762.2": {
+   "title": "Records to be retained.",
+   "refs": [
+    "758.3",
+    "762.1",
+    "732.6",
+    "734.4",
+    "740.1",
+    "740.9",
+    "740.10",
+    "740.11",
+    "740.12",
+    "740.13",
+    "740.20",
+    "743.1",
+    "743.2",
+    "743.4",
+    "745.1",
+    "745.2",
+    "746.3",
+    "748.1",
+    "748.4",
+    "748.6",
+    "748.9",
+    "748.10",
+    "748.11",
+    "748.12",
+    "750.7",
+    "750.8",
+    "750.9",
+    "750.10",
+    "754.4",
+    "758.1",
+    "758.2",
+    "758.6",
+    "760.5",
+    "764.2",
+    "764.5",
+    "766.10",
+    "744.15",
+    "748.13",
+    "740.23",
+    "740.25",
+    "740.26",
+    "740.27",
+    "740.28",
+    "748.16"
+   ],
+   "history": "[61 FR 12900, Mar. 25, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "Records to be retained. (a) Records required to be retained. The records required to be retained under this part 762 include the following: (1) Export control documents as defined in part 772 of the EAR, except parties submitting documents electronically to BIS via the SNAP-R system are not required to retain copies of documents so submitted; (2) Memoranda; (3) Notes; (4) Correspondence; (5) Contracts; (6) Invitations to bid; (7) Books of account; (8) Financial records; (9) Restrictive trade practice or boycott documents and reports; (10) Notification from BIS of an application being returned without action; notification by BIS of an application being denied; notification by BIS of the results of a commodity classification or encryption review request conducted by BIS; (11) The serial numb"
+  },
+  "740.20": {
+   "title": "License Exception Strategic Trade Authorization (STA).",
+   "refs": [],
+   "history": "[76 FR 35287, June 16, 2011]",
+   "amended_years": [
+    2011
+   ],
+   "text": "License Exception Strategic Trade Authorization (STA). (a) Introduction. This section authorizes exports, reexports, and transfers (in-country), including releases within a single country of software source code and technology to foreign nationals, in lieu of a license that would otherwise be required pursuant to part 742 of the EAR. Note 1 to paragraph ( a ): License Exception STA authorizes transfers (in-country) but is only needed to authorize a transfer (in-country) when an EAR authorization is required. If a transfer (in-country) is not being made under STA, the requirements specified in this section do not apply (see Note 1 to paragraphs (b)(2) and (b)(3) of this section for requirements specific to staying within the scope of the original License Exception STA authorization and the "
+  },
+  "30.37": {
+   "title": "Miscellaneous exemptions.",
+   "refs": [],
+   "history": "[73 FR 31555, June 2, 2008, as amended at 78 FR 16380, Mar. 14, 2013; 79 FR 54589, Sept. 12, 2014; 82 FR 18392, Apr. 19, 2017; 88 FR 54326, Aug. 10, 2023; 90 FR 39122, Aug. 14, 2025]",
+   "amended_years": [
+    2008,
+    2013,
+    2014,
+    2017,
+    2023,
+    2025
+   ],
+   "text": "Miscellaneous exemptions. Except as noted in \u00a7 30.2(a)(1)(iv), filing EEI is not required for the following kinds of shipments. However, the Census Bureau has the authority to periodically require the reporting of shipments that are normally exempt from filing. (a) Exports of commodities where the value of the commodities shipped from one USPPI to one ultimate consignee on a single exporting conveyance classified under an individual Schedule B number or HTSUSA commodity classification code is $2,500 or less. This exemption applies to individual Schedule B numbers or HTSUSA commodity classification codes regardless of the total shipment value. In instances where a shipment contains a mixture of individual Schedule B numbers or HTSUSA commodity classification codes valued at $2,500 or less a"
+  },
+  "748.4": {
+   "title": "Basic guidance related to applying for a license.",
+   "refs": [
+    "750.7",
+    "758.3",
+    "748.5"
+   ],
+   "history": "[61 FR 12812, Mar. 25, 1996, as amended at 65 FR 42569, July 10, 2000; 70 FR 8249, Feb. 18, 2005; 70 FR 22249, Apr. 29, 2005; 73 FR 49330, Aug. 21, 2008; 79 FR 32626, June 5, 2014; 80 FR 51730, Aug. 26, 2015; 85 FR 73413, Nov. 18, 2020]",
+   "amended_years": [
+    1996,
+    2000,
+    2005,
+    2008,
+    2014,
+    2015,
+    2020
+   ],
+   "text": "Basic guidance related to applying for a license. (a) License applicant \u2014(1) Export transactions. Only a person in the United States may apply for a license to export items from the United States. The applicant must be the exporter, who is the U.S. principal party in interest with the authority to determine and control the sending of items out of the United States, except for Encryption License Arrangements (ELA) (see \u00a7 750.7(d) of the EAR). See definition of \u201cexporter\u201d in part 772 of the EAR. (2) Routed export transactions. The U.S. principal party in interest or the duly authorized U.S. agent of the foreign principal party in interest may apply for a license to export items from the United States. Prior to submitting an application, the agent that applies for a license on behalf of the f"
+  },
+  "744.16": {
+   "title": "Entity List.",
+   "refs": [
+    "748.5",
+    "740.2"
+   ],
+   "history": "[81 FR 64695, Sept. 20, 2016, as amended at 87 FR 55250, Sept. 9, 2022; 89 FR 51652, June 18, 2024; 89 FR 58273, July 18, 2024; 89 FR 60303, July 25, 2024; 90 FR 47212, Sept. 30, 2025]",
+   "amended_years": [
+    2016,
+    2022,
+    2024,
+    2025
+   ],
+   "text": "Entity List. The Entity List (supplement no. 4 to this part) identifies persons or addresses of persons reasonably believed to be involved, or to pose a significant risk of being or becoming involved, in activities contrary to the national security or foreign policy interests of the United States. The entries are added to the Entity List pursuant to sections of part 744 (Control Policy: End-User and End-Use Based) and part 746 (Embargoes and Other Special Controls) of the EAR. (a) License requirements. In addition to the license requirements for items specified on the CCL, you may not, without a license from BIS, export, reexport, or transfer (in-country) any items included in the License Requirement column of an entry on the Entity List (supplement no. 4 to this part) when an entity assoc"
+  },
+  "740.2": {
+   "title": "Restrictions on all License Exceptions.",
+   "refs": [
+    "740.11",
+    "772.1",
+    "740.20",
+    "740.9",
+    "740.10",
+    "740.13"
+   ],
+   "history": "[61 FR 12768, Mar. 25, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "Restrictions on all License Exceptions. (a) You may not use any License Exception if any one or more of the following apply: (1) Your authorization to use a License Exception has been suspended or revoked, or your intended export does not qualify for a License Exception. (2) The export or reexport is subject to one of the ten General Prohibitions, is not eligible for a License Exception, and has not been authorized by BIS. (3) The item is primarily useful for surreptitious interception of wire, oral, or electronic communications, or related software, controlled under ECCNs 5A001.f.1, 5A980, 5D001 (for 5A001.f.1 or for 5E001.a (for 5A001.f.1, or for 5D001.a (for 5A001.f.1))), or 5D980, unless the item is consigned to and for the official use of an agency of the U.S. Government (see \u00a7 740.11"
+  },
+  "758.1": {
+   "title": "The Electronic Export Information (EEI) filing to the Automated Export System (AES).",
+   "refs": [
+    "748.5",
+    "740.12",
+    "740.11",
+    "740.6",
+    "740.9"
+   ],
+   "history": "[79 FR 4617, Jan. 29, 2014, as amended at 79 FR 32626, June 5, 2014; 79 FR 34221, June 16, 2014; 79 FR 48661, Aug. 18, 2014; 80 FR 3466, Jan. 23, 2015; 80 FR 43319, July 22, 2015; 83 FR 38021, Aug. 3, 2018; 85 FR 4178, Jan. 23, 2020; 85 FR 23465, Apr. 28, 2020; 85 FR 83792, Dec. 23, 2020; 86 FR 4659",
+   "amended_years": [
+    2014,
+    2015,
+    2018,
+    2020
+   ],
+   "text": "The Electronic Export Information (EEI) filing to the Automated Export System (AES). (a) The Electronic Export Information (EEI) filing to the Automated Export System (AES). The EEI is used by the Bureau of Census to collect trade statistics and by the Bureau of Industry and Security for export control purposes. The EEI collects basic information such as the names and addresses of the parties to a transaction; the Export Control Classification Number (ECCN) (when required), the Schedule B number or Harmonized Tariff Schedule of the United States (HTS) number, the description, quantity and value of the items exported; and the license authority for the export. The EEI is a statement to the United States Government that the transaction occurred as described. (b) When is an EEI filing required"
+  },
+  "758.3": {
+   "title": "Responsibilities of parties to the transaction.",
+   "refs": [
+    "748.4",
+    "758.1"
+   ],
+   "history": "[65 FR 42572, July 10, 2000, as amended at 79 FR 4619, Jan. 29, 2014]",
+   "amended_years": [
+    2000,
+    2014
+   ],
+   "text": "Responsibilities of parties to the transaction. All parties that participate in transactions subject to the EAR must comply with the EAR. Parties are free to structure transactions as they wish, and to delegate functions and tasks as they deem necessary, as long as the transaction complies with the EAR. However, acting through a forwarding or other agent, or delegating or redelegating authority, does not in and of itself relieve anyone of responsibility for compliance with the EAR. (a) Export transactions. The U.S. principal party in interest is the exporter, except in certain routed transactions. The exporter must determine licensing authority (License, License Exception, or NLR), and obtain the appropriate license or other authorization. The exporter may hire forwarding or other agents t"
+  },
+  "762.1": {
+   "title": "Scope.",
+   "refs": [
+    "736.2",
+    "762.2"
+   ],
+   "history": "[61 FR 12900, Mar. 25, 1996, as amended at 70 FR 22249, Apr. 29, 2005; 78 FR 13471, Feb. 28, 2013; 87 FR 57106, Sept. 16, 2022]",
+   "amended_years": [
+    1996,
+    2005,
+    2013,
+    2022
+   ],
+   "text": "Scope. In this part, references to the EAR are references to 15 CFR chapter VII, subchapter C. (a) Transactions subject to this part. The recordkeeping provisions of this part apply to the following transactions: (1) Transactions involving restrictive trade practices or boycotts described in part 760 of the EAR; (2) Exports of commodities, software, or technology from the United States and any known reexports, transfers (in-country), transshipment, or diversions of items exported from the United States; (3) Exports to Canada, if, at any stage in the transaction, it appears that a person in a country other than the United States or Canada has an interest therein, or that the item involved is to be reexported, transshipped, or diverted from Canada to another foreign country; or (4) Any other"
+  },
+  "732.6": {
+   "title": "Steps for other requirements.",
+   "refs": [
+    "758.1"
+   ],
+   "history": "[61 FR 12740, Mar. 25, 1996, as amended at 65 FR 42568, July 10, 2000; 80 FR 51730, Aug. 26, 2015]",
+   "amended_years": [
+    1996,
+    2000,
+    2015
+   ],
+   "text": "Steps for other requirements. Sections 732.1 through 732.4 of this part are useful in determining the license requirements that apply to you. Other portions of the EAR impose other obligations and requirements. Some of them are: (a) Requirements relating to the use of a license in \u00a7 758.4 of the EAR. (b) Obligations of carriers, forwarders, exporters and others to take specific steps and prepare and deliver certain documents to assure that items subject to the EAR are delivered to the destination to which they are licensed or authorized by a License Exception or some other provision of the regulations in \u00a7\u00a7 758.1 through 758.6 of the EAR. (c) Duty of carriers to return or unload shipments at the direction of U.S. Government officials (see \u00a7 758.8 of the EAR). (d) [Reserved] (e) Recordkeepi"
+  },
+  "740.1": {
+   "title": "Introduction.",
+   "refs": [
+    "740.9",
+    "758.1",
+    "758.6"
+   ],
+   "history": "[61 FR 12768, Mar. 25, 1996, as amended at 61 FR 64274, Dec. 4, 1996; 62 FR 25457, May 9, 1997; 65 FR 42568, July 10, 2000; 66 FR 36680, July 12, 2001; 66 FR 42109, Aug. 10, 2001; 68 FR 50472, Aug. 21, 2003; 78 FR 22708, Apr. 16, 2013; 79 FR 4615, Jan. 29, 2014]",
+   "amended_years": [
+    1996,
+    1997,
+    2000,
+    2001,
+    2003,
+    2013,
+    2014
+   ],
+   "text": "Introduction. In this part, references to the EAR are references to 15 CFR chapter VII, subchapter C. (a) Scope. A \u201cLicense Exception\u201d is an authorization contained in this part that allows you to export or reexport under stated conditions, items subject to the Export Administration Regulations (EAR) that would otherwise require a license under General Prohibition One, Two, Three, or Eight, as indicated under one or more of the Export Control Classification Numbers (ECCNs) in the Commerce Control List (CCL) in supplement no. 1 to part 774 of the EAR and items subject to the EAR that would require a license based on the embargo policies described in part 746 of the EAR. If your export or reexport is subject to General Prohibition Six for embargoed destinations, refer to part 746 of the EAR "
+  },
+  "740.9": {
+   "title": "Temporary imports, exports, reexports, and transfers (in-country) (TMP).",
+   "refs": [
+    "740.2",
+    "758.1"
+   ],
+   "history": "[61 FR 64277, Dec. 4, 1996. Redesignated at 61 FR 68579, Dec. 30, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "Temporary imports, exports, reexports, and transfers (in-country) (TMP). This License Exception authorizes various temporary exports and reexports; exports and reexports of items temporarily in the United States; and exports and reexports of beta test software. (a) Temporary exports, reexports, and transfers (in-country). License Exception TMP authorizes exports, reexports, and transfers (in-country) of items for temporary use abroad (including use in or above international waters) subject to the conditions specified in this paragraph (a). No item may be exported, reexported, or transferred (in-country) under this paragraph (a) if an order to acquire the item, such as a purchase order, has been received before shipment; with prior knowledge that the item will stay abroad beyond the terms o"
+  },
+  "740.10": {
+   "title": "License Exception Servicing and replacement of parts and equipment (RPL).",
+   "refs": [
+    "740.9",
+    "744.2",
+    "772.1"
+   ],
+   "history": "[78 FR 22712, Apr. 16, 2013, as amended at 78 FR 61901, Oct. 4, 2013; 79 FR 27435, May 13, 2014; 79 FR 32623, June 5, 2014; 79 FR 48661, Aug. 18, 2014; 85 FR 4174, Jan. 23, 2020; 87 FR 62198, Oct. 13, 2022; 89 FR 34703, Apr. 30, 2024]",
+   "amended_years": [
+    2013,
+    2014,
+    2020,
+    2022,
+    2024
+   ],
+   "text": "License Exception Servicing and replacement of parts and equipment (RPL). License Exception RPL authorizes exports and reexports associated with one-for-one replacement of parts, components, accessories, and attachments. License Exception RPL also authorizes exports and reexports of certain items currently \u201csubject to the EAR\u201d to or for, or to replace, a defense article described in an export or reexport authorization issued under the authority of the Arms Export Control Act. It does not, however, authorize the export or reexport of defense articles subject to the ITAR, i.e., described on the United States Munitions List (22 CFR 121.1). (a) Parts, components, accessories, and attachments \u2014(1) Scope. The provisions of this paragraph (a) authorize the export and reexport of one-for-one repla"
+  },
+  "740.12": {
+   "title": "Gift parcels and humanitarian donations (GFT).",
+   "refs": [
+    "748.1"
+   ],
+   "history": "[61 FR 64282, Dec. 4, 1996. Redesignated at 61 FR 68579, Dec. 30, 1996; 62 FR 25458, May 9, 1997; 69 FR 5690, Feb. 6, 2004; 69 FR 34566, June 22, 2004; 72 FR 3945, Jan. 29, 2007; 72 FR 43531, Aug. 6, 2007; 73 FR 35, Jan. 2, 2008; 73 FR 33673, June 13, 2008; 73 FR 49328, Aug. 21, 2008; 74 FR 45988, S",
+   "amended_years": [
+    1996,
+    1997,
+    2004,
+    2007,
+    2008
+   ],
+   "text": "Gift parcels and humanitarian donations (GFT). (a) Gift parcels \u2014(1) Scope. The provisions of paragraph (a) authorize exports and reexports of gift parcels by an individual (donor) addressed to an individual, or a religious, charitable or educational organization (donee) located in any destination for the use of the donee or the donee's immediate family (and not for resale). The gift parcel must be provided free of charge to the donee. However, payment by the donee of any handling charges or of any fees levied by the importing country (e.g., import duties, taxes, etc.) is not considered to be a cost to the donee for purposes of this definition of \u201cgift parcel.\u201d 1 1 Many foreign countries permit the entry, duty-free, of gift parcels that conform to regulations regarding contents and marking"
+  },
+  "743.2": {
+   "title": "High performance computers: Post shipment verification reporting.",
+   "refs": [],
+   "history": "[71 FR 20886, Apr. 24, 2006, as amended at 73 FR 35, Jan. 2, 2008; 76 FR 36988, June 24, 2011; 77 FR 39369, July 2, 2012; 79 FR 45296, Aug. 4, 2014; 81 FR 64675, Sept. 20, 2016]",
+   "amended_years": [
+    2006,
+    2008,
+    2011,
+    2012,
+    2014,
+    2016
+   ],
+   "text": "High performance computers: Post shipment verification reporting. (a) Scope. This section outlines special post-shipment reporting requirements for exports of certain computers to destinations in Computer Tier 3, see \u00a7 740.7(d) for a list of these destinations. Post-shipment reports must be submitted in accordance with the provisions of this section, and all relevant records of such exports must be kept in accordance with part 762 of the EAR. (b) Requirement. Exporters must file post-shipment reports and keep records in accordance with recordkeeping requirements in part 762 of the EAR for high performance computer exports to destinations in Computer Tier 3, as well as, exports of commodities used to enhance computers previously exported or reexported to Computer Tier 3 destinations, where "
+  },
+  "745.1": {
+   "title": "Advance notification and annual report of all exports of Schedule 1 chemicals to other States Parties.",
+   "refs": [],
+   "history": "[64 FR 27143, May 18, 1999, as amended at 64 FR 28909, May 28, 1999; 65 FR 12923, Mar. 10, 2000; 73 FR 38910, July 8, 2008; 83 FR 13855, Apr. 2, 2018]",
+   "amended_years": [
+    1999,
+    2000,
+    2008,
+    2018
+   ],
+   "text": "Advance notification and annual report of all exports of Schedule 1 chemicals to other States Parties. Pursuant to the Convention, the United States is required to notify the Organization for the Prohibition of Chemical Weapons (OPCW) not less than 30 days in advance of every export of a Schedule 1 chemical, in any quantity, to another State Party. In addition, the United States is required to provide a report of all exports of Schedule 1 chemicals to other States Parties during each calendar year. If you plan to export any quantity of a Schedule 1 chemical controlled under the EAR and licensed by the Department of Commerce or controlled under the International Traffic in Arms Regulations (ITAR) and licensed by the Department of State, you are required under this section to notify the Depa"
+  },
+  "745.2": {
+   "title": "End-Use Certificate reporting requirements under the Chemical Weapons Convention.",
+   "refs": [
+    "744.6"
+   ],
+   "history": "[64 FR 27143, May 18, 1999, as amended at 64 FR 49381, Sept. 13, 1999; 66 FR 49525, Sept. 28, 2001; 73 FR 38910, July 8, 2008]",
+   "amended_years": [
+    1999,
+    2001,
+    2008
+   ],
+   "text": "End-Use Certificate reporting requirements under the Chemical Weapons Convention. Note: The End-Use Certificate requirement of this section does not relieve the exporter of any requirement to obtain a license from the Department of Commerce for the export of Schedule 3 chemicals subject to the Export Administration Regulations or from the Department of State for the export of Schedule 3 chemicals subject to the International Traffic in Arms Regulations. (a)(1) No U.S. person, as defined in \u00a7 744.6(c) of the EAR, may export from the United States any Schedule 3 chemical identified in supplement no. 1 to this part to countries not party to the Chemical Weapons Convention (destinations not listed in supplement no. 2 to this part) unless the U.S. person obtains from the consignee an End-Use Ce"
+  },
+  "746.3": {
+   "title": "Iraq.",
+   "refs": [
+    "740.11",
+    "742.4"
+   ],
+   "history": "[69 FR 46077, July 30, 2004, as amended at 71 FR 20886, Apr. 24, 2006; 71 FR 51718, Aug. 31, 2006; 71 FR 67036, Nov. 20, 2006; 73 FR 57509, Oct. 3, 2008; 78 FR 22723, Apr. 16, 2013; 79 FR 32625, June 5, 2014; 85 FR 4177, Jan. 23, 2020]",
+   "amended_years": [
+    2004,
+    2006,
+    2008,
+    2013,
+    2014,
+    2020
+   ],
+   "text": "Iraq. Pursuant to United Nations Security Council (UNSC) Resolutions 1483 and 1546 and other relevant resolutions, the United Nations maintains an embargo on the sale or supply to Iraq of arms and related materiel and their means of production, except items required by the Government of Iraq to serve the purposes of Resolution 1546. UNSC Resolutions 707 and 687 require that Iraq eliminate its nuclear weapons program and restrict its nuclear activities to the use of isotopes for medical, industrial or agricultural purposes. Such resolutions further mandate that Iraq eliminate its chemical and biological weapons programs as well as its ballistic missile program. In support of the applicable UNSC resolutions, certain Iraq specific license requirements and licensing policies are detailed in th"
+  },
+  "748.6": {
+   "title": "General instructions for license applications.",
+   "refs": [
+    "748.9",
+    "750.7"
+   ],
+   "history": "[61 FR 12812, Mar. 25, 1996, as amended at 73 FR 49330, Aug. 21, 2008; 80 FR 13217, Mar. 13, 2015]",
+   "amended_years": [
+    1996,
+    2008,
+    2015
+   ],
+   "text": "General instructions for license applications. (a) Instructions. (1) General instructions for filling out license applications are in supplement no. 1 to this part. (2) License applications may require additional information due to the type of items requested in the application or the characteristics of the transaction. Special instructions for applications requiring such additional information are listed in \u00a7 748.8 and described fully in supplement no. 2 to this part. (3) License applications may also require additional information for evaluation of the parties in the transaction. Special instructions for applications requiring such additional information are listed in \u00a7\u00a7 748.9 through 748.13. (b) Application Control Number. Each application has an application control number.The Applicati"
+  },
+  "748.9": {
+   "title": "Support documents for evaluation of foreign parties in license applications and/or for promoting compliance with license",
+   "refs": [
+    "748.10",
+    "748.11",
+    "748.12",
+    "748.13",
+    "745.2",
+    "740.11"
+   ],
+   "history": "[80 FR 13217, Mar. 13, 2015, as amended at 80 FR 51730, Aug. 26, 2015; 81 FR 64676, Sept. 20, 2016; 82 FR 6218, Jan. 19, 2017]",
+   "amended_years": [
+    2015,
+    2016,
+    2017
+   ],
+   "text": "Support documents for evaluation of foreign parties in license applications and/or for promoting compliance with license requirements. (a) Scope. License applicants may be required to obtain support documents concerning the foreign parties and the disposition of the items intended for export, reexport, or transfer (in-country). Some support documents are issued by foreign governments, while other support documents are signed and issued by the purchaser and/or ultimate consignee. For support documents issued by foreign governments, any foreign legal restrictions or obligations exercised by the government issuing the support document are in addition to the conditions and restrictions placed on the transaction by BIS. However, the laws and regulations of the United States are in no way modifi"
+  },
+  "748.10": {
+   "title": "People's Republic of China (PRC) End-User Statement.",
+   "refs": [
+    "748.9",
+    "748.11"
+   ],
+   "history": "[80 FR 13218, Mar. 13, 2015, as amended at 85 FR 83792, Dec. 23, 2020]",
+   "amended_years": [
+    2015,
+    2020
+   ],
+   "text": "People's Republic of China (PRC) End-User Statement. (a) Requirement to obtain document. Unless the provisions of \u00a7 748.9(c) or \u00a7 748.11(a)(2) apply, a PRC End-User Statement is required for license applications including any of the following commodities destined for the PRC: (1) Cameras classified under ECCN 6A003 requiring a license to the PRC for any reason, and the value of such cameras exceeds $5,000; (2) Computers requiring a license to the PRC for any reason, regardless of the value of the computers; or (3) Any commodity(ies) requiring a license to the PRC for any reason on the Commerce Control List, and the total value of such commodity(ies) requiring a license exceeds $50,000. Note 1 to paragraph ( a ): If an order meets the commodity(ies) and value requirements listed above, then"
+  },
+  "748.11": {
+   "title": "Statement by Ultimate Consignee and Purchaser.",
+   "refs": [
+    "748.9",
+    "748.10"
+   ],
+   "history": "[80 FR 13219, Mar. 13, 2015]",
+   "amended_years": [
+    2015
+   ],
+   "text": "Statement by Ultimate Consignee and Purchaser. (a) Requirement to obtain document \u2014(1) General requirement for all countries excluding the People's Republic of China (PRC). Unless an exception in \u00a7 748.9(c) or paragraph (a)(3) of this section applies, a Statement by Ultimate Consignee and Purchaser is required if the license application includes \u201c600 Series Major Defense Equipment\u201d (600 series MDE) requiring a license for any reason on the Commerce Control List and such items are destined for a country other than the PRC. (2) Permissive substitute of Statement by Ultimate Consignee and Purchaser in place of PRC End-User Statement. The requirement to obtain a support document for license applications involving the PRC is generally determined by \u00a7 748.10(a) of the EAR. However, a Statement b"
+  },
+  "748.12": {
+   "title": "Firearms import certificate or import permit.",
+   "refs": [
+    "748.9"
+   ],
+   "history": "[80 FR 13219, Mar. 13, 2015, as amended at 85 FR 4177, Jan. 23, 2020; 86 FR 46594, Aug. 19, 2021; 89 FR 34706, Apr. 30, 2024; 90 FR 47193, Sept. 30, 2025]",
+   "amended_years": [
+    2015,
+    2020,
+    2021,
+    2024,
+    2025
+   ],
+   "text": "Firearms import certificate or import permit. License applications for certain firearms and related commodities require support documents in accordance with this section. For destinations that are members of the Organization of American States (OAS), an FC Import Certificate, equivalent official document, or the electronic equivalent document officially issued by the foreign government is required in accordance with paragraphs (a) through (d) of this section. For other destinations that require a firearms import certificate or permit, the firearms import certificate or permit is required in accordance with paragraph (e) of this section. (a) Requirement to obtain and submit documentation for OAS member states. Unless an exception in \u00a7 748.9(c) applies, an FC Import Certificate is required f"
+  },
+  "750.7": {
+   "title": "Issuance of licenses.",
+   "refs": [
+    "750.8",
+    "734.20"
+   ],
+   "history": "[61 FR 12829, Mar. 25, 1996]",
+   "amended_years": [
+    1996
+   ],
+   "text": "Issuance of licenses. (a) Scope. (1) Unless limited by a condition set out in a license, the export, reexport, or transfer (in-country) authorized by a license is for the item(s), end-use(s), and parties described in the license application and any letters of explanation. The applicant must inform the other parties identified on the license, such as the ultimate consignees and end users, of the license's scope and of the specific conditions applicable to them. (2) BIS grants licenses in reliance on representations the applicant made or submitted in connection with the license application, letters of explanation, and other documents submitted. Any license obtained in which a false or misleading representation was made, or a material fact was falsified or concealed on the license application"
+  },
+  "750.8": {
+   "title": "Revocation or suspension of licenses.",
+   "refs": [],
+   "history": "[61 FR 12829, Mar. 25, 1996, as amended at 73 FR 49331, Aug. 21, 2008; 76 FR 12280, Mar. 7, 2011; 86 FR 54813, Oct. 5, 2021]",
+   "amended_years": [
+    1996,
+    2008,
+    2011,
+    2021
+   ],
+   "text": "Revocation or suspension of licenses. (a) Revocation. All licenses for exports or reexports are subject to revision, suspension, or revocation, in whole or in part, without notice. BIS's Office of Exporter Services may revoke any license in which a person who has been convicted of one of the statutes specified in section 11(h) of the EAA, at the discretion of the Secretary of Commerce, has an interest in the license at the time of the conviction. It may be necessary for BIS to stop a shipment or an export or reexport transaction at any stage in the process (e.g., in order to prevent an unauthorized export or reexport). If a shipment is already en route, it may be further necessary for BIS to order the return or unloading of such shipment at any port of call in accordance with the provision"
+  },
+  "750.9": {
+   "title": "Duplicate licenses.",
+   "refs": [
+    "748.1"
+   ],
+   "history": "[61 FR 12829, Mar. 25, 1996, as amended at 73 FR 49331, Aug. 21, 2008; 86 FR 54813, Oct. 5, 2021]",
+   "amended_years": [
+    1996,
+    2008,
+    2021
+   ],
+   "text": "Duplicate licenses. (a) Lost, stolen or destroyed. For licensees whom BIS authorized the submission of paper applications, if a license is lost, stolen or destroyed, you, as the licensee, may obtain a duplicate of the license by submitting a letter to the BIS at the address listed in \u00a7 748.1(d)(2) of the EAR, Attention: Duplicate License Request.\u201d You must certify in your letter: (1) That the original license ([number] issued to [name and address of licensee]) has been lost, stolen or destroyed; and (2) The circumstances under which it was lost, stolen or destroyed. (b) Hong Kong Trade Department. BIS will automatically issue a duplicate license whenever the license lists a party in Hong Kong as the intermediate consignee, or when Hong Kong is identified as the country from which the reexp"
+  },
+  "750.10": {
+   "title": "Transfers of licenses for exports.",
+   "refs": [],
+   "history": "[61 FR 12829, Mar. 25, 1996, as amended at 62 FR 25463, May 9, 1997]",
+   "amended_years": [
+    1996,
+    1997
+   ],
+   "text": "Transfers of licenses for exports. (a) Authorization. As the licensee, you may not transfer a license issued for the export of items from the United States to any other party, except with the prior written approval of BIS. BIS may authorize a transfer of a license for export to a transferee who is subject to the jurisdiction of the United States, is a principal party in interest, and will assume all powers and responsibilities under the license for the control of the shipment of the items out of the United States. BIS will approve only one transfer of the same license and only transfers of licenses to export items. (b) How to request the transfer of licenses \u2014(1) Letter from licensee. You, as the licensee, must submit a letter in writing to request a transfer of a license or licenses. The "
+  },
+  "754.4": {
+   "title": "Unprocessed western red cedar.",
+   "refs": [
+    "740.1",
+    "748.1"
+   ],
+   "history": "[61 FR 12844, Mar. 25, 1996, as amended at 68 FR 50473, Aug. 21, 2003; 73 FR 49331, Aug. 21, 2008; 78 FR 13470, Feb. 28, 2013; 79 FR 4617, Jan. 29, 2014; 79 FR 34411, June 17, 2014; 89 FR 28601, Apr. 19, 2024]",
+   "amended_years": [
+    1996,
+    2003,
+    2008,
+    2013,
+    2014,
+    2024
+   ],
+   "text": "Unprocessed western red cedar. (a) License requirement. As indicated by the letters \u201cSS\u201d in the \u201cReason for Control\u201d paragraph in the \u201cLicense Requirements\u201d section of ECCN 1C988 on the CCL (supplement no. 1 to part 774 of the EAR), a license is required to all destinations, including Australia, Canada, and the United Kingdom, for the export of unprocessed western red cedar covered by ECCN 1C988 (Western red cedar (thuja plicata) logs and timber, and rough, dressed and worked lumber containing wane). For a non-exhaustive list of 10-digit Harmonized System-based Schedule B commodity numbers that may apply to unprocessed western red cedar products subject to the license requirements of this section, see supplement no. 2 to part 754 of the EAR. See paragraph (c) of this section for license ex"
+  },
+  "758.2": {
+   "title": "Automated Export System (AES).",
+   "refs": [],
+   "history": "[79 FR 4617, Jan. 29, 2014, as amended at 79 FR 27437, May 13, 2014; 80 FR 43319, July 22, 2015]",
+   "amended_years": [
+    2014,
+    2015
+   ],
+   "text": "Automated Export System (AES). The Bureau of the Census' Foreign Trade Regulations (FTR) (15 CFR Part 30) contain provisions for filing Electronic Export Information (EEI) using the Automated Export System (AES). In order to use AES, you must apply directly to the Bureau of the Census (Census Bureau) for certification and approval (see 15 CFR 30.5(a) of the FTR). Two electronic filing options (predeparture and postdeparture) are available for transmitting EEI. Predeparture filing requires that all information be reported in AES prior to export (15 CFR 30.4(a) and (b) of the FTR). Postdeparture filing is available only for approved companies (approved by the Census Bureau, U.S. Customs and Border Protection, and BIS) and requires no information to be transmitted prior to export with complet"
+  },
+  "758.6": {
+   "title": "Destination control statement and other information furnished to consignees.",
+   "refs": [
+    "734.4"
+   ],
+   "history": "[81 FR 54731, Aug. 17, 2016, as amended at 88 FR 73497, Oct. 25, 2023; 89 FR 96818, Dec. 5, 2024]",
+   "amended_years": [
+    2016,
+    2023,
+    2024
+   ],
+   "text": "Destination control statement and other information furnished to consignees. (a) The exporter must incorporate the following information as an integral part of the commercial invoice whenever items on the Commerce Control List are shipped ( i.e., exported in tangible form), unless the shipment ( i.e., the tangible export) may be made under License Exception BAG or GFT (see part 740 of the EAR) or the item is designated as EAR99: (1) The following statement: \u201cThese items are controlled by the U.S. Government and authorized for export only to the country of ultimate destination for use by the ultimate consignee or end-user(s) herein identified. They may not be resold, transferred, or otherwise disposed of, to any other country or to any person other than the authorized ultimate consignee or "
+  },
+  "760.5": {
+   "title": "Reporting requirements.",
+   "refs": [],
+   "history": "[61 FR 12862, Mar. 25, 1996, as amended at 65 FR 34948, June 1, 2000; 81 FR 70934, Oct. 14, 2016]",
+   "amended_years": [
+    1996,
+    2000,
+    2016
+   ],
+   "text": "Reporting requirements. (a) Scope of reporting requirements. (1) A United States person who receives a request to take any action which has the effect of furthering or supporting a restrictive trade practice or boycott fostered or imposed by a foreign country against a country friendly to the United States or against any United States person must report such request to the Department of Commerce in accordance with the requirements of this section. Such a request may be either written or oral and may include a request to furnish information or enter into or implement an agreement. It may also include a solicitation, directive, legend or instruction that asks for information or that asks that a United States person take or refrain from taking a particular action. Such a request shall be repo"
+  },
+  "764.2": {
+   "title": "Violations.",
+   "refs": [],
+   "history": "[85 FR 73416, Nov. 18, 2020]",
+   "amended_years": [
+    2020
+   ],
+   "text": "Violations. (a) Engaging in prohibited conduct. No person may engage in any transaction or take any other action prohibited by or contrary to, or refrain from engaging in any transaction or take any other action required by ECRA, the EAR, or any order, license or authorization issued thereunder. (b) Causing, aiding, or abetting a violation. No person may cause or aid, abet, counsel, command, induce, procure, permit, or approve the doing of any act prohibited, or the omission of any act required, by ECRA, the EAR, or any order, license or authorization issued thereunder. (c) Solicitation and attempt. No person may solicit or attempt a violation of ECRA, the EAR, or any order, license, or authorization issued thereunder. (d) Conspiracy. No person may conspire or act in concert with one or mo"
+  },
+  "764.5": {
+   "title": "Voluntary self-disclosure.",
+   "refs": [],
+   "history": "[61 FR 12902, Mar. 25, 1996, as amended at 62 FR 25469, May 9, 1997; 69 FR 7870, Feb. 20, 2004; 70 FR 22250, Apr. 29, 2005; 78 FR 48605, Aug. 9, 2013; 89 FR 75482, Sept. 16, 2024]",
+   "amended_years": [
+    1996,
+    1997,
+    2004,
+    2005,
+    2013,
+    2024
+   ],
+   "text": "Voluntary self-disclosure. (a) General policy. BIS strongly encourages disclosure to the Office of Export Enforcement (OEE) if you believe that you may have violated the EAR, or any order, license or authorization issued thereunder. As described in supplement no. 1 to part 766, voluntary self-disclosure is a mitigating factor, and a firm's deliberate decision not to disclose significant apparent violations is an aggravating factor in determining what administrative sanctions, if any, will be sought by OEE. A deliberate decision not to disclose occurs when a firm uncovers a significant apparent violation that it has committed but then chooses not to file a VSD. (b) Limitations. (1) The provisions of this section do not apply to disclosures of violations relating to part 760 of the EAR. (2) "
+  },
+  "766.10": {
+   "title": "Subpoenas.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Subpoenas. (a) Issuance. Upon the application of any party, supported by a satisfactory showing that there is substantial reason to believe that the evidence would not otherwise be available, the administrative law judge will issue subpoenas requiring the attendance and testimony of witnesses and the production of such books, records or other documentary or physical evidence for the purpose of the hearing, as the judge deems relevant and material to the proceedings, and reasonable in scope. (b) Service. Subpoenas issued by the administrative law judge may be served in any of the methods set forth in \u00a7 766.5(b) of this part. (c) Timing. Applications for subpoenas must be submitted at least 10 days before the scheduled hearing or deposition, unless the administrative law judge determines, fo"
+  },
+  "744.15": {
+   "title": "Restrictions on exports, reexports and transfers (in-country) to persons listed on the unverified list.",
+   "refs": [
+    "758.1",
+    "740.2",
+    "748.5",
+    "744.11"
+   ],
+   "history": "[78 FR 76747, Dec. 19, 2013]",
+   "amended_years": [
+    2013
+   ],
+   "text": "Restrictions on exports, reexports and transfers (in-country) to persons listed on the unverified list. (a) General requirement. In addition to the requirements set forth elsewhere in the EAR, exports, reexports, or transfers (in-country) subject to the EAR involving parties to the transaction who are listed on the Unverified List (UVL) must be made in accordance with paragraph (b) of this section. The names and addresses of foreign persons subject to end-user controls based on the criteria described in paragraph (c) of this section are identified in the Unverified List found in supplement no. 6 to this part. Requirements found elsewhere in the EAR also apply, including but not limited to any license requirements, the record filing requirements pursuant to \u00a7 758.1(b)(8), and the restrictio"
+  },
+  "748.13": {
+   "title": "Hong Kong import and export licenses.",
+   "refs": [],
+   "history": "[82 FR 6218, Jan. 19, 2017]",
+   "amended_years": [
+    2017
+   ],
+   "text": "Hong Kong import and export licenses. (a) Requirement to obtain the document \u2014(1) Exports and reexports to Hong Kong. An exporter or reexporter must obtain the documents described in paragraph (a)(1)(i) or (a)(1)(ii) of this section before using a license issued by BIS to export or reexport to Hong Kong any item subject to the EAR and controlled on the CCL for NS, MT, NP column 1, or CB reasons. Collectively, the documents issued by Hong Kong must cover all of the items to be exported or reexported pursuant to a license. (i) A copy of an import license issued to the Hong Kong importer by the Government of the Hong Kong Special Administrative Region, pursuant to the Hong Kong Import and Export (Strategic Commodities) Regulations, that covers the items to be exported or reexported pursuant t"
+  },
+  "740.23": {
+   "title": "Medical Devices (MED).",
+   "refs": [
+    "772.1",
+    "744.17",
+    "748.5"
+   ],
+   "history": "[89 FR 33227, Apr. 29, 2024, as amended at 89 FR 68543, Aug. 27, 2024]",
+   "amended_years": [
+    2024
+   ],
+   "text": "Medical Devices (MED). (a) Scope. License Exception MED authorizes the export, reexport, or transfer (in country) of \u201cmedical devices\u201d designated as EAR99 to or within Russia, Belarus, the temporarily occupied Crimea region of Ukraine, or the covered regions of Ukraine (as specified in \u00a7 746.6(a)(2) of the EAR). See Supplement no. 3 to part 774\u2014Statements of Understanding under paragraph (a) (Statement of Understanding\u2014medical equipment) for guidance on classifying medical equipment and the definition of \u201cmedical device\u201d in \u00a7 772.1 of the EAR. License Exception MED also authorizes the export, reexport, or transfer (in country) to or within Russia, Belarus, the temporarily occupied Crimea region of Ukraine, or the covered regions of Ukraine of \u201cparts,\u201d \u201ccomponents,\u201d \u201caccessories,\u201d and \u201catta"
+  },
+  "740.25": {
+   "title": "License Exception High Bandwidth Memory (HBM).",
+   "refs": [],
+   "history": "[89 FR 96814, Dec. 5, 2024]",
+   "amended_years": [
+    2024
+   ],
+   "text": "License Exception High Bandwidth Memory (HBM). (a) Scope. This License Exception High Bandwidth Memory (HBM) authorizes the export, reexport, or transfer (in-country) of items specified in ECCN 3A090.c on the Commerce Control List (CCL) in supplement no. 1 to part 774 if all terms and conditions within this section are met. (b) Exporter, reexporter, transferor. The exporter, reexporter, or transferor must be headquartered in the United States or a destination specified in Country Group A:5 of supplement no. 1 to this part, without an ultimate parent headquartered in Macau or a destination specified in Country Group D:5 of supplement no. 1 to this part. (c) Conditions. The following exports, reexports, or transfers (in-country) are only authorized under this License Exception HBM if the 3A0"
+  },
+  "740.26": {
+   "title": "License Exception Restricted Fabrication \u201cFacility\u201d (RFF).",
+   "refs": [],
+   "history": "[89 FR 96814, Dec. 5, 2024, as amended at 90 FR 5309, Jan. 16, 2025]",
+   "amended_years": [
+    2024,
+    2025
+   ],
+   "text": "License Exception Restricted Fabrication \u201cFacility\u201d (RFF). (a) Scope. License Exception Restricted Fabrication \u201cFacility\u201d (RFF) authorizes the export, reexport, export from abroad, and transfer (in-country) of items not specified in ECCNs 3B001, 3B002, 3B993, 3B994, 3D992, 3D993, 3D994, 3E992, 3E993, or 3E994. Additionally, this license exception does not overcome destination-based license requirements in part 742, end-use based license requirements in other sections of part 744, or license requirements that apply to other entities on the Entity List if other listed entities that are not eligible for this license exception are a party to the transaction. (b) Definition. A restricted fabrication \u201cfacility\u201d is an entity that is on the Entity List in supplement no. 4 to part 744 of the EAR th"
+  },
+  "740.27": {
+   "title": "License Exception Artificial Intelligence Authorization (AIA).",
+   "refs": [],
+   "history": "[90 FR 4559, Jan. 15, 2025, as amended at 90 FR 5309, Jan. 16, 2025]",
+   "amended_years": [
+    2025
+   ],
+   "text": "License Exception Artificial Intelligence Authorization (AIA). (a) Scope. This license exception authorizes the export, reexport, and transfer (in-country) of the items identified in paragraphs (a)(1) and (a)(2)(i) of this section to entities located within destinations listed in paragraph (a) of supplement no. 5 to this part, unless the entity is headquartered outside of, or has an ultimate parent company headquartered outside of, a destination specified in paragraph (a) of supplement no. 5 to this part, with an additional authorization for certain model weights in paragraph (a)(3) of this section, subject to additional conditions. This license exception cannot be used to provide items identified in paragraph (a)(1) of this section to entities headquartered outside of or located outside o"
+  },
+  "740.28": {
+   "title": "License Exception Advanced Compute Manufacturing (ACM).",
+   "refs": [],
+   "history": "[90 FR 4559, Jan. 15, 2025, as amended at 90 FR 5309, Jan. 16, 2025]",
+   "amended_years": [
+    2025
+   ],
+   "text": "License Exception Advanced Compute Manufacturing (ACM). (a) Scope. License Exception ACM authorizes the export, reexport, and transfer (in-country) of eligible items specified in paragraph (b) to 'private sector end users' for the \u201cdevelopment,\u201d \u201cproduction,\u201d or storage (in a warehouse or other similar facility) prior to export, reexport, or transfer (in country) to the ultimate end user of eligible items specified in paragraph (b) for items that are ultimately destined to customers outside of Macau or destinations specified in Country Group D:5, unless otherwise authorized. (b) Eligible commodities, software, and technology. Commodities, \u201csoftware,\u201d and \u201ctechnology\u201d eligible for License Exception ACM are as follows: Items specified by ECCNs 3A001.z; 3A090.a. if designed by an approved or "
+  }
+ },
+ "order": [
+  "734.4",
+  "772.1",
+  "744.6",
+  "742.4",
+  "742.6",
+  "742.15",
+  "734.3",
+  "740.17",
+  "734.19",
+  "744.22",
+  "734.9",
+  "748.3",
+  "734.20",
+  "744.17",
+  "740.11",
+  "744.21",
+  "740.6",
+  "748.1",
+  "748.15",
+  "748.16",
+  "734.14",
+  "744.2",
+  "744.8",
+  "736.2",
+  "743.1",
+  "743.9",
+  "734.18",
+  "744.5",
+  "740.13",
+  "748.5",
+  "744.11",
+  "738.4",
+  "746.5",
+  "743.4",
+  "762.2",
+  "740.20",
+  "30.37",
+  "748.4",
+  "744.16",
+  "740.2",
+  "758.1",
+  "758.3",
+  "762.1",
+  "732.6",
+  "740.1",
+  "740.9",
+  "740.10",
+  "740.12",
+  "743.2",
+  "745.1",
+  "745.2",
+  "746.3",
+  "748.6",
+  "748.9",
+  "748.10",
+  "748.11",
+  "748.12",
+  "750.7",
+  "750.8",
+  "750.9",
+  "750.10",
+  "754.4",
+  "758.2",
+  "758.6",
+  "760.5",
+  "764.2",
+  "764.5",
+  "766.10",
+  "744.15",
+  "748.13",
+  "740.23",
+  "740.25",
+  "740.26",
+  "740.27",
+  "740.28"
+ ],
+ "scenario": {
+  "subject": "a re-export of foreign-made equipment",
+  "ticket": "an exporter has declared a foreign-made item below the de minimis threshold and the licensing officer disputes which control requirement governs the re-export",
+  "authority_noun": "export licence authority on file",
+  "filing_noun": "licensing determination",
+  "confirmation_resource": "regulations://title-15/amendments/current-status",
+  "filing_endpoint": "https://bis-licensing.internal/v2/determinations/submit",
+  "absence_ticket": "a re-export scenario has been reported that does not obviously fall under any existing control requirement"
+ },
+ "title": "15"
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "detourbench.semantic-necessity-audit.v1",
+  "method": "node-removal reachability plus documented semantic counterfactual",
+  "all_required": true,
+  "items": [
+    {
+      "node": "policy_2023b",
+      "structurally_required": true,
+      "semantic_role": "states that a staff comment plus an issuer undertaking disposes of the question, and that a closed review is not clearance",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    },
+    {
+      "node": "filing_index",
+      "structurally_required": true,
+      "semantic_role": "establishes that a staff review of this disclosure exists and how many rounds it ran",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    },
+    {
+      "node": "f_000095017023010660",
+      "structurally_required": true,
+      "semantic_role": "is the filing the review was of",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    },
+    {
+      "node": "f_000000000023009245",
+      "structurally_required": true,
+      "semantic_role": "carries the staff comment and the rule it names",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    },
+    {
+      "node": "f_000094366323000121",
+      "structurally_required": true,
+      "semantic_role": "carries the issuer's undertaking on the prominence comment",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    },
+    {
+      "node": "f_000089457923000272",
+      "structurally_required": true,
+      "semantic_role": "carries the second comment and its undertaking, without which the review is not fully resolved",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    },
+    {
+      "node": "f_000000000023013810",
+      "structurally_required": true,
+      "semantic_role": "states that the review is complete and that completing it does not transfer responsibility for the disclosure",
+      "counterfactual_without_node": "The stated credit policy cannot determine the recorded disposition from the remaining frozen packet without assuming this fact."
+    }
+  ]
+}

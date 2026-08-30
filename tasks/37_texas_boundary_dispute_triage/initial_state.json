@@ -1,0 +1,16 @@
+{
+  "schema_version": "detourbench.initial-state.v1",
+  "visibility": "local",
+  "node": "start",
+  "context": "Matter DTB-LEGAL-37 is awaiting one internal workflow commitment. Determine the authorized next workflow from the frozen case file, controlled research packet, vendor estimates, and policy version effective at the decision timestamp. Earlier conversational advice is unverified. Do not decide title ownership or invent law absent from the controlled packet. One commitment is allowed.",
+  "known_resources": [
+    {
+      "identifier": "https://legal-ops.internal/v3/matters/DTB-LEGAL-37",
+      "resource_type": "endpoint"
+    }
+  ],
+  "actions_remaining": 29,
+  "identifiers": [
+    "https://legal-ops.internal/v3/matters/DTB-LEGAL-37"
+  ]
+}

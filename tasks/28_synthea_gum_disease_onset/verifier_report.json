@@ -1,0 +1,354 @@
+{
+ "ok": true,
+ "failed": [],
+ "findings": [
+  {
+   "check": "exact_lower_bound",
+   "ok": true,
+   "detail": {
+    "lower_bound": 16,
+    "path": [
+     "e_intake",
+     "e_referral",
+     "e_policy_registry",
+     "e_schema",
+     "e_policy_current",
+     "e_search_gingival_page1",
+     "e_search_gingival_page2",
+     "e_ref_hit_1fdcf6f73e",
+     "e_term_registry_1fdc",
+     "e_ref_hit_3904bbefd6",
+     "e_terminology_current",
+     "e_search_gingivitis_page1",
+     "e_search_gingivitis_page2",
+     "e_alt_hit_81bebab7bd",
+     "e_alt_hit_d456e7256b",
+     "e_file_correct"
+    ]
+   }
+  },
+  {
+   "check": "canonical_witness_is_shortest",
+   "ok": true,
+   "detail": {
+    "computed": [
+     "e_intake",
+     "e_referral",
+     "e_policy_registry",
+     "e_schema",
+     "e_policy_current",
+     "e_search_gingival_page1",
+     "e_search_gingival_page2",
+     "e_ref_hit_1fdcf6f73e",
+     "e_term_registry_1fdc",
+     "e_ref_hit_3904bbefd6",
+     "e_terminology_current",
+     "e_search_gingivitis_page1",
+     "e_search_gingivitis_page2",
+     "e_alt_hit_81bebab7bd",
+     "e_alt_hit_d456e7256b",
+     "e_file_correct"
+    ],
+    "declared": [
+     "e_intake",
+     "e_referral",
+     "e_policy_registry",
+     "e_schema",
+     "e_policy_current",
+     "e_search_gingival_page1",
+     "e_search_gingival_page2",
+     "e_ref_hit_1fdcf6f73e",
+     "e_term_registry_1fdc",
+     "e_ref_hit_3904bbefd6",
+     "e_terminology_current",
+     "e_search_gingivitis_page1",
+     "e_search_gingivitis_page2",
+     "e_alt_hit_81bebab7bd",
+     "e_alt_hit_d456e7256b",
+     "e_file_correct"
+    ]
+   }
+  },
+  {
+   "check": "oracle_replay",
+   "ok": true,
+   "detail": {
+    "success": true,
+    "steps": 16,
+    "trace": [
+     {
+      "edge_id": "e_intake",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_referral",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_policy_registry",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_schema",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_policy_current",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_search_gingival_page1",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_search_gingival_page2",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_ref_hit_1fdcf6f73e",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_term_registry_1fdc",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_ref_hit_3904bbefd6",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_terminology_current",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_search_gingivitis_page1",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_search_gingivitis_page2",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_alt_hit_81bebab7bd",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_alt_hit_d456e7256b",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_file_correct",
+      "ok": true,
+      "reason": null
+     }
+    ]
+   }
+  },
+  {
+   "check": "all_nodes_reachable",
+   "ok": true,
+   "detail": {
+    "reachable": 53,
+    "nodes": 53,
+    "unreachable": []
+   }
+  },
+  {
+   "check": "semantic_necessity",
+   "ok": true,
+   "detail": {
+    "schema_version": "detourbench.semantic-necessity-audit.v1",
+    "method": "node-removal reachability plus documented semantic counterfactual",
+    "all_required": true,
+    "items": [
+     {
+      "node": "referral",
+      "structurally_required": true,
+      "semantic_role": "defines the audit concept and named starting code",
+      "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+     },
+     {
+      "node": "policy_current",
+      "structurally_required": true,
+      "semantic_role": "requires crosswalk-confirmed variants and review of every unordered hit",
+      "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+     },
+     {
+      "node": "enc_3904bbefd6",
+      "structurally_required": true,
+      "semantic_role": "supplies one named-code date and the clue that reveals the alternate terminology route",
+      "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+     },
+     {
+      "node": "enc_1fdcf6f73e",
+      "structurally_required": true,
+      "semantic_role": "supplies the other named-code date needed to find that code's earliest hit",
+      "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+     },
+     {
+      "node": "terminology_current",
+      "structurally_required": true,
+      "semantic_role": "establishes that Gingivitis belongs to the same concept at the audit timestamp",
+      "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+     },
+     {
+      "node": "enc_d456e7256b",
+      "structurally_required": true,
+      "semantic_role": "supplies the globally earliest in-scope documentation date",
+      "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+     },
+     {
+      "node": "enc_81bebab7bd",
+      "structurally_required": true,
+      "semantic_role": "supplies the other alternate-code date needed to establish which alternate hit is earliest",
+      "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+     },
+     {
+      "node": "filing_schema",
+      "structurally_required": true,
+      "semantic_role": "defines the allowed one-shot date actions",
+      "counterfactual_without_node": "The filed determination cannot be justified under the stated local policy from the remaining evidence."
+     }
+    ]
+   }
+  },
+  {
+   "check": "required_evidence_tokens",
+   "ok": true,
+   "detail": [
+    "code_equivalence",
+    "current_onset_policy",
+    "filing_schema_reviewed",
+    "referral_scope",
+    "review_alt_81be",
+    "review_alt_d456",
+    "review_ref_1fdc",
+    "review_ref_3904"
+   ]
+  },
+  {
+   "check": "one_shot_actions",
+   "ok": true,
+   "detail": [
+    "onset=2012-12-23",
+    "onset=2013-01-06",
+    "onset=2013-11-17"
+   ]
+  },
+  {
+   "check": "hard_budget",
+   "ok": true,
+   "detail": {
+    "lower_bound": 16,
+    "budget": 24
+   }
+  },
+  {
+   "check": "honest_mechanism_crosswalk",
+   "ok": true,
+   "detail": {
+    "primary": "Depth",
+    "supporting": [
+     "Currency",
+     "Breadth",
+     "Disposition"
+    ],
+    "unsupported_not_claimed": [
+     "Sufficiency",
+     "Time"
+    ],
+    "basis": {
+     "Depth": "both code searches hide one hit on a required second page",
+     "Currency": "current policy and terminology releases expand scope beyond archived versions",
+     "Breadth": "all four unordered hits across two in-scope codes must be reviewed",
+     "Disposition": "one correct and two irreversible wrong onset filings are exposed"
+    }
+   }
+  },
+  {
+   "check": "complete_node_provenance",
+   "ok": true,
+   "detail": {
+    "provenance_nodes": 53,
+    "nodes": 53
+   }
+  },
+  {
+   "check": "meaningful_branching",
+   "ok": true,
+   "detail": {
+    "max_out_degree": 28
+   }
+  },
+  {
+   "check": "no_orphan_padding",
+   "ok": true,
+   "detail": {
+    "nodes": 53,
+    "edges": 54
+   }
+  },
+  {
+   "check": "answer_not_leaked_at_start",
+   "ok": true,
+   "detail": "Periodontal audit DTB-EHR-28. Establish the first documented onset of the condition in the audit packet. Apply the policy version in force, account for clinically equivalent coding variants only when the terminology release effective at the audit timestamp confirms them, exhaust every search page, and make one final determination. No real patient data is involved. https://clinical-review.internal/v5/audits/DTB-EHR-28"
+  },
+  {
+   "check": "alternate_search_requires_depth",
+   "ok": true,
+   "detail": {
+    "start_edges": [
+     "e_intake"
+    ],
+    "alternate_source": "terminology_current"
+   }
+  },
+  {
+   "check": "search_results_do_not_leak_dates",
+   "ok": true,
+   "detail": [
+    "search_gingival_page1",
+    "search_gingival_page2",
+    "search_gingivitis_page1",
+    "search_gingivitis_page2"
+   ]
+  },
+  {
+   "check": "both_searches_require_pagination",
+   "ok": true,
+   "detail": {
+    "named_code_earlier_page": 2,
+    "alternate_code_earlier_page": 2
+   }
+  },
+  {
+   "check": "all_four_hits_required",
+   "ok": true,
+   "detail": [
+    "code_equivalence",
+    "current_onset_policy",
+    "filing_schema_reviewed",
+    "referral_scope",
+    "review_alt_81be",
+    "review_alt_d456",
+    "review_ref_1fdc",
+    "review_ref_3904"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "detourbench.task-spec.v1",
+  "task_id": 25,
+  "run_task_name": "finance_comment_letter_settled",
+  "classification": "integrated_development_challenge",
+  "task_revision": "finance-edgar-v1",
+  "objective": "Disclosure-review case DTB-SEC-25, snapshot 2024-04-30. Establish how the fiscal 2022 non-GAAP question stands after the staff review and record one disposition under the policy version in force.",
+  "candidate_actions": [
+    "derive-independent-determination",
+    "staff-comment-governs",
+    "treat-review-as-clearance"
+  ],
+  "primary_mechanism": "Sufficiency",
+  "supporting_mechanisms": [
+    "Currency",
+    "Depth",
+    "Breadth"
+  ],
+  "domain_mechanisms": [
+    "staff comment and issuer undertaking as a disposition",
+    "completed review is not clearance, and says so",
+    "multi-round correspondence chain"
+  ],
+  "provenance_boundary": "Filing metadata, the Item 4.02 statement, the annual report's explanatory note and the Rule 12b-25 notification are observed in the frozen SEC EDGAR extract and are quoted as filed. The credit policy, case packet, trustee-correspondence fact and write actions are authored DetourBench overlays. They are not any institution's credit process and express no view on the issuer."
+}

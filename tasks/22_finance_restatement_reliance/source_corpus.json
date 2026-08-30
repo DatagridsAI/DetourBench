@@ -1,0 +1,488 @@
+{
+  "schema_version": "detourbench.edgar-overlay.v1",
+  "task_name": "finance_restatement_reliance",
+  "upstream_dataset": "SEC EDGAR submissions API and Archives",
+  "upstream_endpoints": [
+    "https://data.sec.gov/submissions/CIK0001449792.json",
+    "https://www.sec.gov/Archives/edgar/data/1449792/"
+  ],
+  "extractor": "fetch_edgar_ppsi.py",
+  "retrieved_on": "2026-08-27",
+  "snapshot_date": "2024-08-20",
+  "frozen_local_corpus": "corpora_edgar_ppsi.json",
+  "frozen_local_corpus_sha256": "ca235aa3aa9f7a7e2d9e44b4a3c34a690b7c5b1f04a3ed2e7351cf9ed55bc8d2",
+  "issuer": {
+    "name": "PIONEER POWER SOLUTIONS, INC.",
+    "cik": "0001449792",
+    "tickers": [
+      "PPSI"
+    ],
+    "exchanges": [
+      "Nasdaq"
+    ],
+    "sic_description": "Miscellaneous Electrical Machinery, Equipment & Supplies",
+    "fiscal_year_end": "1231",
+    "state_of_incorporation": "DE"
+  },
+  "observed_filing_index": [
+    {
+      "accessionNumber": "0001839882-22-021196",
+      "filingDate": "2022-09-22",
+      "reportDate": "2022-09-21",
+      "form": "8-K",
+      "items": "5.03,9.01",
+      "primaryDocument": "ppsi-8k_092122.htm",
+      "primaryDocDescription": "CURRENT REPORT",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001839882-22-021733",
+      "filingDate": "2022-09-27",
+      "reportDate": "2022-11-17",
+      "form": "DEF 14A",
+      "items": "",
+      "primaryDocument": "ppsi-def14a_111722.htm",
+      "primaryDocDescription": "DEFINITIVE PROXY STATEMENT",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001839882-22-021738",
+      "filingDate": "2022-09-27",
+      "reportDate": "",
+      "form": "DEFA14A",
+      "items": "",
+      "primaryDocument": "ppsi-defa14a_092722.htm",
+      "primaryDocDescription": "DEFINITIVE ADDITIONAL MATERIALS",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001387131-22-010390",
+      "filingDate": "2022-10-12",
+      "reportDate": "2022-10-12",
+      "form": "8-K",
+      "items": "7.01,9.01",
+      "primaryDocument": "ppsi-8k_101222.htm",
+      "primaryDocDescription": "CURRENT REPORT",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001387131-22-010893",
+      "filingDate": "2022-10-28",
+      "reportDate": "2022-10-28",
+      "form": "8-K",
+      "items": "8.01,9.01",
+      "primaryDocument": "ppsi-8k_102822.htm",
+      "primaryDocDescription": "CURRENT REPORT",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001387131-22-011381",
+      "filingDate": "2022-11-14",
+      "reportDate": "2022-09-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "ppsi-10q_093022.htm",
+      "primaryDocDescription": "QUARTERLY REPORT",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001387131-22-011392",
+      "filingDate": "2022-11-14",
+      "reportDate": "2022-11-14",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "ppsi-8k_111422.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001387131-22-011560",
+      "filingDate": "2022-11-18",
+      "reportDate": "2022-11-17",
+      "form": "8-K",
+      "items": "5.02,5.07,9.01",
+      "primaryDocument": "ppsi-8k_111722.htm",
+      "primaryDocDescription": "CURRENT REPORT",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001387131-22-012038",
+      "filingDate": "2022-12-01",
+      "reportDate": "2022-12-01",
+      "form": "8-K",
+      "items": "7.01,9.01",
+      "primaryDocument": "ppsi-8k_120122.htm",
+      "primaryDocDescription": "CURRENT REPORT",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-22-036617",
+      "filingDate": "2022-12-28",
+      "reportDate": "2022-12-28",
+      "form": "8-K",
+      "items": "2.02,7.01,9.01",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-003957",
+      "filingDate": "2023-02-08",
+      "reportDate": "2023-02-08",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-009803",
+      "filingDate": "2023-03-30",
+      "reportDate": "2023-03-30",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-010642",
+      "filingDate": "2023-04-03",
+      "reportDate": "2022-12-31",
+      "form": "NT 10-K",
+      "items": "",
+      "primaryDocument": "formnt10-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-011850",
+      "filingDate": "2023-04-11",
+      "reportDate": "2022-12-31",
+      "form": "10-K",
+      "items": "",
+      "primaryDocument": "form10-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-017387",
+      "filingDate": "2023-05-15",
+      "reportDate": "2023-05-15",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-017462",
+      "filingDate": "2023-05-15",
+      "reportDate": "2023-03-31",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "form10-q.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-028464",
+      "filingDate": "2023-08-14",
+      "reportDate": "2023-06-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "form10-q.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-028542",
+      "filingDate": "2023-08-14",
+      "reportDate": "2023-08-14",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-030665",
+      "filingDate": "2023-08-30",
+      "reportDate": "",
+      "form": "S-3",
+      "items": "",
+      "primaryDocument": "forms-3.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "333-274266"
+    },
+    {
+      "accessionNumber": "0001493152-23-031617",
+      "filingDate": "2023-09-05",
+      "reportDate": "2023-09-05",
+      "form": "8-K",
+      "items": "7.01,9.01",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0000000000-23-009910",
+      "filingDate": "2023-09-07",
+      "reportDate": "",
+      "form": "UPLOAD",
+      "items": "",
+      "primaryDocument": "filename1.pdf",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "0001493152-23-031948",
+      "filingDate": "2023-09-07",
+      "reportDate": "",
+      "form": "CORRESP",
+      "items": "",
+      "primaryDocument": "filename1.htm",
+      "primaryDocDescription": "",
+      "fileNumber": ""
+    },
+    {
+      "accessionNumber": "9999999995-23-002614",
+      "filingDate": "2023-09-08",
+      "reportDate": "",
+      "form": "EFFECT",
+      "items": "S-3,,2023-09-08 16:30:00",
+      "primaryDocument": "xslEFFECTX01/primary_doc.xml",
+      "primaryDocDescription": "",
+      "fileNumber": "333-274266"
+    },
+    {
+      "accessionNumber": "0001493152-23-033370",
+      "filingDate": "2023-09-21",
+      "reportDate": "2023-09-21",
+      "form": "DEF 14A",
+      "items": "",
+      "primaryDocument": "formdef14a.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-033371",
+      "filingDate": "2023-09-21",
+      "reportDate": "",
+      "form": "DEFA14A",
+      "items": "",
+      "primaryDocument": "formdefa14a.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-033424",
+      "filingDate": "2023-09-22",
+      "reportDate": "2023-09-20",
+      "form": "8-K",
+      "items": "5.02,9.01",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-033592",
+      "filingDate": "2023-09-25",
+      "reportDate": "2022-12-31",
+      "form": "ARS",
+      "items": "",
+      "primaryDocument": "formars.pdf",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-040513",
+      "filingDate": "2023-11-13",
+      "reportDate": "2023-11-09",
+      "form": "8-K",
+      "items": "5.02,5.07",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-041076",
+      "filingDate": "2023-11-14",
+      "reportDate": "2023-09-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "form10q.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-23-041094",
+      "filingDate": "2023-11-14",
+      "reportDate": "2023-11-14",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-24-000098",
+      "filingDate": "2024-01-02",
+      "reportDate": "2023-12-26",
+      "form": "8-K",
+      "items": "5.02,9.01",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-24-012362",
+      "filingDate": "2024-04-01",
+      "reportDate": "2024-04-01",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-24-012853",
+      "filingDate": "2024-04-02",
+      "reportDate": "2023-12-31",
+      "form": "NT 10-K",
+      "items": "",
+      "primaryDocument": "formnt10-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-24-015648",
+      "filingDate": "2024-04-23",
+      "reportDate": "2024-04-18",
+      "form": "8-K",
+      "items": "3.01,8.01,9.01",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-24-020241",
+      "filingDate": "2024-05-16",
+      "reportDate": "2024-03-31",
+      "form": "NT 10-Q",
+      "items": "",
+      "primaryDocument": "formnt10-q.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-24-021992",
+      "filingDate": "2024-05-30",
+      "reportDate": "2024-05-24",
+      "form": "8-K",
+      "items": "3.01,8.01,9.01",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-24-022972",
+      "filingDate": "2024-06-06",
+      "reportDate": "2024-05-31",
+      "form": "8-K",
+      "items": "4.02",
+      "primaryDocument": "form8-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-24-029269",
+      "filingDate": "2024-07-26",
+      "reportDate": "2023-12-31",
+      "form": "10-K",
+      "items": "",
+      "primaryDocument": "form10-k.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001493152-24-032617",
+      "filingDate": "2024-08-15",
+      "reportDate": "2024-06-30",
+      "form": "NT 10-Q",
+      "items": "",
+      "primaryDocument": "formnt10-q.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    }
+  ],
+  "observed_excerpts": {
+    "item_402": "Item 4.02(a) Non-Reliance on Previously Issued Financial Statements or a Related Audit Report or Completed Interim Review. On May 31, 2024, the Audit Committee (the “Committee”) of the Board of Directors of Pioneer Power Solutions, Inc. (the “Company”) concluded that the Company’s previously issued (i) consolidated financial statements as of and for the year ended December 31, 2022 included in its Annual Report on Form 10-K for the year ended December 31, 2022 (the “Annual Period”) and (ii) unaudited condensed consolidated financial statements for the quarters ended March 31, 2022 through September 30, 2023 included in its Quarterly Reports on Form 10-Q for the periods ended March 31, 2023, June 30, 2023 and September 30, 2023 (the “Interim Periods” , which, together with the Annual Period, the “ Affected Periods” ) should no longer be relied upon due to errors in such consolidated financial statements. During 2022 and 2023, the Company recognized revenues associated with customer contracts with performance obligations satisfied over time (“Over Time Contracts”) using labor hours as the measure of progress. The Company’s underlying estimates of total labor hours required to complete Over Time Contracts were materially different from the actual labor hours required, which was determined to represent an error, and, as a result, the percentage of completion used to recognize revenue in the Affected Periods is materially different from the percentage of completion using actual labor hours incurred. As a result, the Company plans to restate revenues during the Affected Periods to adjust the percentage of completion based upon the actual labor hours incurred to complete each Over Time Contract (the “Revenues Adjustment”). Additionally, it has since been determined that costs",
+    "explanatory_note": "This Comprehensive Form 10-K contains our audited financial statements for the fiscal year ended December 31, 2023, as well as restatements of the following previously filed periods: (i) audited consolidated financial statements as of and for the fiscal year ended December 31, 2022, originally included in our Annual Report on Form 10-K for the fiscal year ended December 31, 2022 (the “2022 10-K”), and (ii) unaudited condensed consolidated financial statements for the quarterly periods ended March 31, 2022 through September 30, 2023, originally included in our Quarterly Reports on Form 10-Q for the periods ended March 31, 2023, June 30, 2023 and September 30, 2023 (collectively, the “Form 10-Qs” and together with the 2022 10-K, the “Prior Financial Statements”). Restatement Background As previously disclosed in our Current Report on Form 8-K filed with the Securities and Exchange Commission (the “SEC”) on June 6, 2024, in connection with the preparation of our consolidated financial statements for the fiscal year ended December 31, 2023, we, in consultation with the Audit Committee (the “Committee”) of our Board of Directors, concluded that the Prior Financial Statements should no longer be relied upon due to errors in such consolidated financial statements and should be restated to correct the misstatements therein. During 2022 and 2023, we recognized revenues associated with customer contracts with performance obligations satisfied over time (“Over Time Contracts”) using labor hours as the measure of progress. Our underlying estimates of total labor hours required to complete Over Time Contracts were materially different from the actual labor hours required, which was determined to represent an error, and, as a result, the percentage of completion used to recognize revenue in the Prior Financial Statements is materially different from the percentage of completion using actual labor hours incurred. As a result, we have restated revenues during the Prior Financial Statements to adjust the percentage of completion based upon the actual labor hours incurred to complete each Over Time Contract (the “Revenues Adjustment”). Additionally, we have determined that costs from Over Time Contracts should be recognized as incurred and, as a result, we have recorded an adjustment to our consolidated financial statements during the Prior Financial Statements (together with",
+    "no_amendments_sentence": "We have not filed, and do not intend to file, amendments to the previously filed Form 10-Qs, nor the previously filed 2022 10-K. Accordingly, investors should rely only on the financial information and other disclosures regarding the restated periods in this Comprehensive Form 10-K or in future filings with the SEC (as applicable), and not on any previously issued or filed reports, earnings releases or similar communications relating to these periods. Refer to Note 2 – Restatement of Previously Issued Consolidated",
+    "nt10q_q1": "SION Washington, D.C. 20549 FORM 12b-25 NOTIFICATION OF LATE FILING (Check one): ☐ Form 10-K ☐ Form 20-F ☐ Form 11-K ☒ Form 10-Q ☐ Form 10D ☐ Form N-CEN ☐ Form N-CSR For Period Ended: March 31, 2024 ☐ Transition Report on Form 10-K ☐ Transition Report on Form 20-F ☐ Transition Report on Form 11-K ☐ Transition Report on Form 10-Q For the Transition Period Ended:__________________________________________________ Read Instruction (on back page) Before Preparing Form. Please Print or Type. Nothing in this form shall be construed to imply that the Commission has verified any information contained herein. If the notification relates to a portion of the filing checked above, identify the Item(s) to which the notification relates: PART I – REGISTRANT INFORMATION Pioneer Power Solutions, Inc. Full Name of Registrant Former Name if Applicable 400 Kelby Street, 12 th Floor Address of Principal Executive Office (Street and Number) Fort Lee, New Jersey 07024 City, State and Zip Code PART II – RULES 12b-25(b) AND (c) If the subject report could not be filed without unreasonable effort or expense and the registrant seeks relief pursuant to Rule 12b-25(b), the following should be completed. (Check box if appropriate) ☐ (a) The reason described in reasonable detail in Part III of this form could not be eliminated without unreasonable effort or expense (b) The subject annual report, semi-annual report, transition report on Form 10-K, Form 20-F, Form 11-K, Form N-CEN or Form N-CSR, or portion thereof, will be filed on or before the fifteenth calendar day following the prescribed due date; or the subject quarterly report or transition report on Form 10-Q or subject distribution report on Form 10-D, or portion thereof, will be filed on or before the fifth calendar day following the prescribed due date; and (c) The accountant’s statement or other exhibit required by Rule 12b-25(c) has been attached if applicable. PART III – NARRATIVE State below in reasonable detail why Forms 10-K, 20-F, 11-K, 10-Q, 10-D, N-CEN, N-CSR, or the transition report or portion thereof, could not be filed within the prescribed time period. Pioneer Power Solutions, Inc. (the “Company”) is unable, without unreasonable effort or expense, to file its Quarterly Report on Form 10-Q for the quarterly period ended March 31, 2024 (the “Form 10-Q”), within the prescribed time period due to delays in compiling information required to be included in the Company’s Annual Report on Form 10-K for the year ended December 31, 2023 (the “Form 10-K”), including information relating to the preparation and audit of its financial statements. As a result of the delay in filing the Form 10-K, the Company will be delayed in filing its Form 10-Q. The Company intends to file the Form 10-Q as soon as practicable after the completion of the Company’s financial statements and disclosures review. PART IV – OTHER INFORMATION (1) Name and telephone number of person"
+  },
+  "observed_amendment_view": [
+    {
+      "accessionNumber": "0001521536-11-000243",
+      "filingDate": "2011-09-14",
+      "reportDate": "2011-06-30",
+      "form": "10-Q/A",
+      "items": "",
+      "primaryDocument": "q1100157_10qa-pioneer.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001521536-12-000931",
+      "filingDate": "2012-09-14",
+      "reportDate": "2012-06-30",
+      "form": "10-Q/A",
+      "items": "",
+      "primaryDocument": "q1100716_10qa-pioneer.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001144204-12-063434",
+      "filingDate": "2012-11-16",
+      "reportDate": "2012-09-30",
+      "form": "10-Q/A",
+      "items": "",
+      "primaryDocument": "v328776_10qa.htm",
+      "primaryDocDescription": "10-Q/A",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001449792-14-000044",
+      "filingDate": "2014-10-31",
+      "reportDate": "2014-06-30",
+      "form": "10-Q/A",
+      "items": "",
+      "primaryDocument": "ppsi-20140630x10qa.htm",
+      "primaryDocDescription": "10-Q/A",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001387131-16-005976",
+      "filingDate": "2016-07-08",
+      "reportDate": "2016-03-31",
+      "form": "10-Q/A",
+      "items": "",
+      "primaryDocument": "ppsi-10qa_033116.htm",
+      "primaryDocDescription": "AMENDMENT TO FORM 10-Q",
+      "fileNumber": "001-35212"
+    },
+    {
+      "accessionNumber": "0001387131-20-008918",
+      "filingDate": "2020-10-08",
+      "reportDate": "2019-12-31",
+      "form": "10-K/A",
+      "items": "",
+      "primaryDocument": "ppsi-10ka_123119.htm",
+      "primaryDocDescription": "AMENDMENT TO FORM 10-K",
+      "fileNumber": "001-35212"
+    }
+  ],
+  "authored_overlay": "Filing metadata, the Item 4.02 statement, the annual report's explanatory note and the Rule 12b-25 notification are observed in the frozen SEC EDGAR extract and are quoted as filed. The credit policy, case packet, trustee-correspondence fact and write actions are authored DetourBench overlays. They are not any institution's credit process and express no view on the issuer."
+}

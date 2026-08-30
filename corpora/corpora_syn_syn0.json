@@ -1,0 +1,1046 @@
+{
+ "seed": "b65d6ab6e8",
+ "sections": {
+  "cc912bae4d": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1969-04-20. Class: wellness. Reason: not stated. Conditions recorded: Only received primary school education (finding); Lack of access to transportation (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1969
+   ],
+   "history": "[encounter 1969-04-20 to 1969-04-20]"
+  },
+  "65b74c9a76": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1970-04-26. Class: wellness. Reason: not stated. Conditions recorded: Prediabetes (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1970
+   ],
+   "history": "[encounter 1970-04-26 to 1970-04-26]"
+  },
+  "80be13a541": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 1973-04-01. Class: outpatient. Reason: not stated. Conditions recorded: Anemia (disorder); Transport problem (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1973
+   ],
+   "history": "[encounter 1973-04-01 to 1973-04-01]"
+  },
+  "111506a43d": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1979-05-06. Class: wellness. Reason: not stated. Conditions recorded: Essential hypertension (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1979
+   ],
+   "history": "[encounter 1979-05-06 to 1979-05-06]"
+  },
+  "9fe825a435": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 1990-02-06. Class: emergency. Reason: Impacted molars (disorder). Conditions recorded: Impacted molars (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1990
+   ],
+   "history": "[encounter 1990-02-06 to 1990-02-06]"
+  },
+  "4b6209e2df": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 1990-05-15. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: Dependent drug abuse (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1990
+   ],
+   "history": "[encounter 1990-05-15 to 1990-05-15]"
+  },
+  "069025bfff": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1990-07-08. Class: wellness. Reason: not stated. Conditions recorded: Unhealthy alcohol drinking behavior (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1990
+   ],
+   "history": "[encounter 1990-07-08 to 1990-07-08]"
+  },
+  "48ea01e8d4": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 1990-12-06. Class: emergency. Reason: Overdose (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1990
+   ],
+   "history": "[encounter 1990-12-06 to 1990-12-06]"
+  },
+  "a843933a47": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 1993-01-24. Class: urgentcare. Reason: not stated. Conditions recorded: Chronic kidney disease stage 1 (disorder); Disorder of kidney due to diabetes mellitus (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1993
+   ],
+   "history": "[encounter 1993-01-24 to 1993-01-24]"
+  },
+  "2d4fa1f630": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 1996-05-05. Class: urgentcare. Reason: not stated. Conditions recorded: Body mass index 30+ - obesity (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1996
+   ],
+   "history": "[encounter 1996-05-05 to 1996-05-05]"
+  },
+  "df0d5b6a5f": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 1996-08-04. Class: urgentcare. Reason: not stated. Conditions recorded: Chronic kidney disease stage 2 (disorder); Microalbuminuria due to type 2 diabetes mellitus (disorder); Metabolic syndrome X (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1996
+   ],
+   "history": "[encounter 1996-08-04 to 1996-08-04]"
+  },
+  "2687e98c75": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 1997-05-25. Class: ambulatory. Reason: Loss of teeth (disorder). Conditions recorded: Loss of teeth (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1997
+   ],
+   "history": "[encounter 1997-05-25 to 1997-05-25]"
+  },
+  "d8cbb815b2": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2004-09-19. Class: outpatient. Reason: not stated. Conditions recorded: Ischemic heart disease (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2004
+   ],
+   "history": "[encounter 2004-09-19 to 2004-09-19]"
+  },
+  "71033c910a": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2004-09-26. Class: wellness. Reason: not stated. Conditions recorded: none. Medications: Clopidogrel 75 MG Oral Tablet; Simvastatin 20 MG Oral Tablet; 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet; Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2004
+   ],
+   "history": "[encounter 2004-09-26 to 2004-09-26]"
+  },
+  "cfe34a46be": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2004-10-23. Class: ambulatory. Reason: Ischemic heart disease (disorder). Conditions recorded: Abnormal findings diagnostic imaging heart+coronary circulat (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2004
+   ],
+   "history": "[encounter 2004-10-23 to 2004-10-24]"
+  },
+  "057a36cc14": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2008-12-07. Class: outpatient. Reason: not stated. Conditions recorded: Chronic kidney disease stage 3 (disorder); Proteinuria due to type 2 diabetes mellitus (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2008
+   ],
+   "history": "[encounter 2008-12-07 to 2008-12-07]"
+  },
+  "0ca293f142": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2010-02-21. Class: outpatient. Reason: not stated. Conditions recorded: Has a criminal record (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-02-21 to 2010-02-21]"
+  },
+  "bb5ab7fe0f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2014-02-04. Class: outpatient. Reason: Chronic pain (finding). Conditions recorded: Chronic pain (finding); Chronic neck pain (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-02-04 to 2014-02-04]"
+  },
+  "0b69e72a3d": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2015-03-29. Class: outpatient. Reason: not stated. Conditions recorded: Stress (finding). Medications: none. Procedures: none.",
+   "refs": [
+    "186b03168f",
+    "9e45d30a16"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-03-29 to 2015-03-29]"
+  },
+  "ee18dfb450": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2015-05-24. Class: outpatient. Reason: not stated. Conditions recorded: Full-time employment (finding). Medications: none. Procedures: none.",
+   "refs": [
+    "23a12fb0ab",
+    "9e45d30a16",
+    "b63ef6d26b"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-05-24 to 2015-05-24]"
+  },
+  "b65d6ab6e8": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2015-08-23. Class: outpatient. Reason: not stated. Conditions recorded: Reports of violence in the environment (finding). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: none.",
+   "refs": [
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "caa49193ea",
+    "81dcb5a18a",
+    "04c62aeb50",
+    "23a12fb0ab"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-08-23 to 2015-08-23]"
+  },
+  "6be3c58d99": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2015-10-25. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "b65d6ab6e8",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "caa49193ea",
+    "81dcb5a18a",
+    "04c62aeb50",
+    "23a12fb0ab"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-10-25 to 2015-10-25]"
+  },
+  "6fe89b2a2d": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2015-11-22. Class: urgentcare. Reason: not stated. Conditions recorded: Gingivitis (disorder). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "caa49193ea",
+    "81dcb5a18a",
+    "04c62aeb50",
+    "23a12fb0ab"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-11-22 to 2015-11-22]"
+  },
+  "349e59cbe6": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2015-12-06. Class: wellness. Reason: not stated. Conditions recorded: Social isolation (finding). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "bc5e61f0b5",
+    "caa49193ea",
+    "81dcb5a18a",
+    "04c62aeb50",
+    "23a12fb0ab"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-12-06 to 2015-12-06]"
+  },
+  "99728490bc": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2015-12-13. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Gingival disease (disorder). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "4ae1afbf5f",
+    "0f5fc0da85",
+    "4cfedcb746",
+    "dcceb2ee25"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-12-13 to 2015-12-13]"
+  },
+  "bc5e61f0b5": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2016-01-24. Class: urgentcare. Reason: not stated. Conditions recorded: none. Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "caa49193ea",
+    "81dcb5a18a",
+    "04c62aeb50",
+    "23a12fb0ab"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-01-24 to 2016-01-24]"
+  },
+  "a495eafca2": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-01-25. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-01-25 to 2016-01-25]"
+  },
+  "caa49193ea": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2016-02-21. Class: urgentcare. Reason: not stated. Conditions recorded: Gingivitis (disorder). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "81dcb5a18a",
+    "04c62aeb50",
+    "23a12fb0ab"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-02-21 to 2016-02-21]"
+  },
+  "14bd017c97": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2016-02-25. Class: ambulatory. Reason: Screening for malignant neoplasm of colon (procedure). Conditions recorded: none. Medications: none. Procedures: Colonoscopy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-02-25 to 2016-02-25]"
+  },
+  "ec0fe6f498": {
+   "title": "Hospital admission (procedure)",
+   "text": "Hospital admission (procedure) on 2016-02-28. Class: snf. Reason: Patient transfer to skilled nursing facility (procedure). Conditions recorded: none. Medications: none. Procedures: History AND physical examination (procedure); Initial patient assessment (procedure); Development of individualized plan of care (procedure); Nursing care/supplementary surveillance (regime/therapy); Nursing care/supplementary surveillance (regime/therapy); Physical therapy procedure (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-02-28 to 2016-03-08]"
+  },
+  "21dfc5704b": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-03-13. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-03-13 to 2016-03-13]"
+  },
+  "81dcb5a18a": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2016-03-27. Class: outpatient. Reason: not stated. Conditions recorded: none. Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "caa49193ea",
+    "04c62aeb50",
+    "23a12fb0ab"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-03-27 to 2016-03-27]"
+  },
+  "d5ea20603f": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2016-04-03. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Infection of tooth (disorder). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental surgical procedure (procedure); Dental application of desensitizing medicament (procedure).",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-04-03 to 2016-04-03]"
+  },
+  "b1f775cb8d": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-04-12. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-04-12 to 2016-04-12]"
+  },
+  "7e49cbc138": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-05-12. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-05-12 to 2016-05-12]"
+  },
+  "04c62aeb50": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2016-05-22. Class: outpatient. Reason: not stated. Conditions recorded: Part-time employment (finding); Limited social contact (finding); Victim of intimate partner abuse (finding). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Assessment using Morse Fall Scale (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "caa49193ea",
+    "81dcb5a18a",
+    "23a12fb0ab"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-05-22 to 2016-05-22]"
+  },
+  "4ae1afbf5f": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2016-06-05. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: Primary dental caries (disorder). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Restoration of tooth with coverage of all cusps using dental filling material (procedure).",
+   "refs": [
+    "99728490bc",
+    "0f5fc0da85",
+    "4cfedcb746",
+    "dcceb2ee25"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-06-05 to 2016-06-05]"
+  },
+  "23a12fb0ab": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2016-07-17. Class: outpatient. Reason: not stated. Conditions recorded: Full-time employment (finding). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Assessment using Morse Fall Scale (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "ee18dfb450",
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "caa49193ea",
+    "81dcb5a18a"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-07-17 to 2016-07-17]"
+  },
+  "156bb13692": {
+   "title": "Drug rehabilitation and detoxification (regime/therapy)",
+   "text": "Drug rehabilitation and detoxification (regime/therapy) on 2016-07-23. Class: inpatient. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-07-23 to 2016-07-29]"
+  },
+  "0f5fc0da85": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2016-08-07. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: none. Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Dental fluoride treatment (procedure).",
+   "refs": [
+    "99728490bc",
+    "4ae1afbf5f",
+    "4cfedcb746",
+    "dcceb2ee25"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-08-07 to 2016-08-07]"
+  },
+  "186b03168f": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2016-09-18. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation); Limited social contact (finding); Stress (finding). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "0b69e72a3d",
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "caa49193ea",
+    "81dcb5a18a"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-09-18 to 2016-09-18]"
+  },
+  "1763bdf829": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2016-10-16. Class: urgentcare. Reason: not stated. Conditions recorded: Not in labor force (finding); Gingivitis (disorder). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "caa49193ea",
+    "81dcb5a18a",
+    "04c62aeb50"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-16 to 2016-10-16]"
+  },
+  "4cfedcb746": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2016-10-30. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: none. Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Dental fluoride treatment (procedure).",
+   "refs": [
+    "99728490bc",
+    "4ae1afbf5f",
+    "0f5fc0da85",
+    "dcceb2ee25"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-30 to 2016-10-30]"
+  },
+  "9e45d30a16": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2016-11-20. Class: urgentcare. Reason: not stated. Conditions recorded: Medication review due (situation); Full-time employment (finding); Stress (finding); Victim of intimate partner abuse (finding). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "0b69e72a3d",
+    "ee18dfb450",
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "caa49193ea"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-11-20 to 2016-11-20]"
+  },
+  "3a1ecfc3ba": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2016-12-11. Class: wellness. Reason: not stated. Conditions recorded: Chronic kidney disease stage 4 (disorder); Part-time employment (finding); Limited social contact (finding). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "caa49193ea",
+    "81dcb5a18a",
+    "04c62aeb50"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-11 to 2016-12-11]"
+  },
+  "800dc5295b": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-14. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d",
+    "1fdd521d5a"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-14 to 2016-12-14]"
+  },
+  "99adddeab2": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-14. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-14 to 2016-12-14]"
+  },
+  "828aa07a04": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-17. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d",
+    "1fdd521d5a"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-17 to 2016-12-17]"
+  },
+  "df84844f5d": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-20. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d",
+    "1fdd521d5a"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-20 to 2016-12-21]"
+  },
+  "0d34b3f537": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-24. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d",
+    "1fdd521d5a"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-24 to 2016-12-24]"
+  },
+  "e190e1206f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-27. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d",
+    "1fdd521d5a"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-27 to 2016-12-27]"
+  },
+  "17e94a216c": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-30. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "df97201cad",
+    "565513d81d",
+    "1fdd521d5a"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-30 to 2016-12-30]"
+  },
+  "df97201cad": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-01-02. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "565513d81d",
+    "1fdd521d5a"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-02 to 2017-01-02]"
+  },
+  "565513d81d": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-01-05. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "1fdd521d5a"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-05 to 2017-01-05]"
+  },
+  "b63ef6d26b": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2017-01-15. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation); Full-time employment (finding); Gingivitis (disorder). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Assessment using Morse Fall Scale (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "ee18dfb450",
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "caa49193ea",
+    "81dcb5a18a"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-15 to 2017-01-15]"
+  },
+  "1fdd521d5a": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-01-22. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-22 to 2017-01-22]"
+  },
+  "35d6c74e3c": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-01-22. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-22 to 2017-01-22]"
+  },
+  "e77059880d": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-01-25. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-25 to 2017-01-25]"
+  },
+  "512fc5921d": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-01-28. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-28 to 2017-01-29]"
+  },
+  "dcceb2ee25": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2017-02-05. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: none. Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "99728490bc",
+    "4ae1afbf5f",
+    "0f5fc0da85",
+    "4cfedcb746"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-02-05 to 2017-02-05]"
+  },
+  "113ea9e7a8": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-02-12. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-02-12 to 2017-02-12]"
+  },
+  "1295ea34bd": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-02-15. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-02-15 to 2017-02-15]"
+  },
+  "5fce30b8eb": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-02-17. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-02-17 to 2017-02-17]"
+  },
+  "cd25bf319a": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-02-18. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-02-18 to 2017-02-19]"
+  },
+  "baf15998f0": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-02-22. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-02-22 to 2017-02-22]"
+  },
+  "c8c1386044": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-02-22. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-02-22 to 2017-02-22]"
+  },
+  "eaeae0fd70": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-02-25. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-02-25 to 2017-02-25]"
+  },
+  "cc8b0ec58f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-02-28. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-02-28 to 2017-02-28]"
+  },
+  "66986a49b7": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-03-03. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-03-03 to 2017-03-03]"
+  },
+  "ae0cc1afb5": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-03-06. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-03-06 to 2017-03-06]"
+  },
+  "00185312bc": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-03-09. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-03-09 to 2017-03-09]"
+  },
+  "4e1bfa7bea": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-03-11. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: Awaiting transplantation of kidney (situation). Medications: none. Procedures: Referral to transplant surgeon (procedure).",
+   "refs": [],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-03-11 to 2017-03-11]"
+  },
+  "94fd163ff7": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2017-03-19. Class: outpatient. Reason: not stated. Conditions recorded: none. Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; Hydrochlorothiazide 25 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "b65d6ab6e8",
+    "6be3c58d99",
+    "6fe89b2a2d",
+    "349e59cbe6",
+    "bc5e61f0b5",
+    "caa49193ea",
+    "81dcb5a18a",
+    "04c62aeb50"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-03-19 to 2017-03-19]"
+  },
+  "2e85e3e752": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-03-26. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "800dc5295b",
+    "828aa07a04",
+    "df84844f5d",
+    "0d34b3f537",
+    "e190e1206f",
+    "17e94a216c",
+    "df97201cad",
+    "565513d81d"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-03-26 to 2017-03-26]"
+  },
+  "92f362bba1": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-03-26. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-03-26 to 2017-03-26]"
+  }
+ },
+ "title": "synthea",
+ "scenario": {
+  "subject": "a patient's care episode",
+  "ticket": "a care episode is under retrospective review and the reviewer disputes which encounter governs the determination",
+  "authority_noun": "reviewing clinician sign-off on file",
+  "filing_noun": "episode determination",
+  "confirmation_resource": "record://encounters/status/current",
+  "filing_endpoint": "https://clinical-review.internal/v2/determinations/submit",
+  "absence_ticket": "a presentation has been recorded that does not obviously fall under any documented encounter"
+ }
+}

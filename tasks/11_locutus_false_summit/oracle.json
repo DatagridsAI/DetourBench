@@ -1,0 +1,30 @@
+{
+ "lower_bound_steps": 15,
+ "oracle_lower_bound": 15,
+ "informed_lower_bound": 15,
+ "oracle_edge_path": [
+  "e_ticket",
+  "e_ci",
+  "e_lock",
+  "e_index",
+  "e_initial",
+  "e_false_fix",
+  "e_false_release",
+  "e_conflict",
+  "e_followup",
+  "e_final_release",
+  "final_e_impl_commit",
+  "final_e_test_commit",
+  "final_e_test",
+  "final_e_impl",
+  "e_verify"
+ ],
+ "difficulty": "hard",
+ "step_budget": 23,
+ "difficulty_multiplier": 1.5,
+ "metric_version": "attainment-v2-success-weighted-oracle",
+ "theme": "software_dependency",
+ "topology": "integrated_evidence_conflict_case",
+ "n_nodes": 17,
+ "n_dead_end_nodes": 1
+}

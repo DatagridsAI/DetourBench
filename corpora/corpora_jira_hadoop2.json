@@ -1,0 +1,1349 @@
+{
+ "seed": "HADOOP-8645",
+ "sections": {
+  "HADOOP-8645": {
+   "title": "Stabilize branch-1-win ",
+   "text": "Stabilize branch-1-win  Status: Resolved. Priority: unset. Linked: Blocker: HADOOP-10206; Incorporates: HADOOP-8079; Incorporates: HADOOP-8420; Incorporates: HADOOP-8453; Incorporates: HADOOP-8455; Incorporates: HADOOP-8456. Most of the code changes to make Hadoop branch 1 work natively on Windows are done. This jira in intended to track the work needed to achieve 100% test pass for the dev tests.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Blocker: HADOOP-10206",
+    "Incorporates: HADOOP-8079",
+    "Incorporates: HADOOP-8420",
+    "Incorporates: HADOOP-8453",
+    "Incorporates: HADOOP-8455",
+    "Incorporates: HADOOP-8456"
+   ],
+   "amended_years": [
+    2012,
+    2015
+   ],
+   "history": "[created 2012-08-03, resolved unresolved]",
+   "refs": [
+    "HADOOP-10206",
+    "HADOOP-8079",
+    "HADOOP-8420",
+    "HADOOP-8453",
+    "HADOOP-8455",
+    "HADOOP-8456",
+    "HADOOP-8457",
+    "HADOOP-8487",
+    "HADOOP-8493",
+    "HADOOP-8516",
+    "HADOOP-8517",
+    "HADOOP-8536",
+    "HADOOP-8540",
+    "HADOOP-8564",
+    "HADOOP-8583",
+    "HADOOP-8601",
+    "HADOOP-8657",
+    "HADOOP-8664",
+    "HADOOP-8694",
+    "HADOOP-8731",
+    "HADOOP-8732",
+    "HADOOP-8733",
+    "HADOOP-8734",
+    "HADOOP-8739",
+    "HADOOP-8763",
+    "HADOOP-8836",
+    "HADOOP-8847",
+    "HADOOP-8868",
+    "HADOOP-8869",
+    "HADOOP-8872",
+    "HADOOP-8874",
+    "HADOOP-8879",
+    "HADOOP-8899",
+    "HADOOP-8900",
+    "HADOOP-8902",
+    "HADOOP-8903",
+    "HADOOP-8907",
+    "HADOOP-8908",
+    "HADOOP-8935",
+    "HADOOP-8936",
+    "HADOOP-8972",
+    "HADOOP-9006",
+    "HADOOP-9007",
+    "HADOOP-9026",
+    "HADOOP-9027",
+    "HADOOP-9036",
+    "HADOOP-9057",
+    "HADOOP-9061",
+    "HADOOP-9062",
+    "HADOOP-9074",
+    "HADOOP-9096",
+    "HADOOP-9177",
+    "HADOOP-9250",
+    "HADOOP-9452",
+    "HADOOP-9463",
+    "HADOOP-9472",
+    "HADOOP-9480",
+    "HADOOP-9507",
+    "HADOOP-9551",
+    "HADOOP-9552",
+    "HADOOP-9579",
+    "HADOOP-9609",
+    "HADOOP-9624",
+    "HADOOP-9677"
+   ]
+  },
+  "HADOOP-10206": {
+   "title": "Port WASB HBase support to Hadoop 2.0",
+   "text": "Port WASB HBase support to Hadoop 2.0 Status: Resolved. Priority: unset. Linked: Duplicate: HADOOP-10809; Blocker: HADOOP-8645. A series of changes for HBase support on Hadoop 2.0. These changes include support for page blobs, fixes to allows HBase logging to block blobs, and support for hsync and hflush methods in the Syncable interface.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Duplicate: HADOOP-10809",
+    "Blocker: HADOOP-8645"
+   ],
+   "amended_years": [
+    2014,
+    2015
+   ],
+   "history": "[created 2014-01-06, resolved unresolved]",
+   "refs": [
+    "HADOOP-10809",
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8079": {
+   "title": "Proposal for enhancements to Hadoop for Windows Server and Windows Azure development and runtime environments",
+   "text": "Proposal for enhancements to Hadoop for Windows Server and Windows Azure development and runtime environments Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8101; Reference: HADOOP-8139; Incorporates: HADOOP-8374; Incorporates: HADOOP-8409; Incorporates: HADOOP-8411; Incorporates: HADOOP-8412. This JIRA is intended to capture discussion around proposed work to enhance Apache Hadoop to run well on Windows. Apache Hadoop has worked on Microsoft Windows since its inception, but Windows support has never been a priority. Currently Windows works as a development and testing platform for Hadoop, but Hadoop is not natively integrated, full-featured or performance and scalability tuned for Windows Server or Windows Azure. We would like to change this and engage in a dialog with the broader community on the architectural design points for making Windows (enterprise and cloud) an excellent runtime and deployment environment for Hadoop. The Isotope team at Microsoft (names below) has developed an Apache Hadoop 1.0 patch set that addresses these performance, integration and feature gaps, allowing Apache Hadoop to be used with Azure and Windows Server without recourse to virtualization technologies such as Cygwin. We have significant interest in the deployment of Hadoop across many multi",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8101",
+    "Reference: HADOOP-8139",
+    "Incorporates: HADOOP-8374",
+    "Incorporates: HADOOP-8409",
+    "Incorporates: HADOOP-8411",
+    "Incorporates: HADOOP-8412"
+   ],
+   "amended_years": [
+    2012,
+    2014
+   ],
+   "history": "[created 2012-02-16, resolved unresolved]",
+   "refs": [
+    "HADOOP-8101",
+    "HADOOP-8139",
+    "HADOOP-8374",
+    "HADOOP-8409",
+    "HADOOP-8411",
+    "HADOOP-8412",
+    "HADOOP-8414",
+    "HADOOP-8421",
+    "HADOOP-8424",
+    "HADOOP-8645",
+    "HADOOP-8900"
+   ]
+  },
+  "HADOOP-8420": {
+   "title": "Hadoop Common creating package-info.java must not depend on sh",
+   "text": "Hadoop Common creating package-info.java must not depend on sh Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. This script is executed during build time to generate version number information for Hadoop core. This version number is consumed via API's by Hive etc to determine compatibility with Hadoop versions. Currently, because of dependency on awk, cut etc utilities, this script does not run successfully and version information is not available.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-05-21, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8453": {
+   "title": "Add unit tests for winutils",
+   "text": "Add unit tests for winutils Status: Resolved. Priority: unset. Linked: Reference: HADOOP-8601; Incorporates: HADOOP-8645. In [Hadoop-8235|https://issues.apache.org/jira/browse/HADOOP-8235], we created a Windows console program, named \u2018winutils\u2019, to emulate some Linux command line utilities used by Hadoop. However no tests are provided in the original patch. As this code is quite complicated, and the complexity may even grow up in the future. We think unit tests are necessary to ensure code quality, as well as smooth future development.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8601",
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-05-31, resolved unresolved]",
+   "refs": [
+    "HADOOP-8601",
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8455": {
+   "title": "Address user name format on domain joined Windows machines",
+   "text": "Address user name format on domain joined Windows machines Status: Open. Priority: unset. Linked: Incorporates: HADOOP-8645. For a domain joined Windows machine, user name along is not a unique identifier. User name plus domain name is need in order to unique identify the user. For example, we can have both \u2018Win1\\Alex\u2019 and \u2018Redmond\\Alex\u2019 on a computer named Win1 that joins Redmond domain. In order to avoid ambiguity, \u2018whoami\u2019 on Windows and the new \u2018winutils\u2019 created in [Hadoop-8235|https://issues.apache.org/jira/browse/HADOOP-8235] both return [domain]\\[username] as the username. In Hadoop, we only use user name right now. This may lead to some inconsistency, and production bugs if users of the same name exist on the machine.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-05-31, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8456": {
+   "title": "Support spaces in user names and group names in results returned via winutils",
+   "text": "Support spaces in user names and group names in results returned via winutils Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. When parsing results returned by \u2018ls\u2019, we made implicit assumption that user and group names cannot contain spaces. On Linux, spaces are not allowed in user names and group names. This is not the case for Windows. We need to find a way to fix the problem for Windows.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-05-31, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8457": {
+   "title": "Address file ownership issue for users in Administrators group on Windows.",
+   "text": "Address file ownership issue for users in Administrators group on Windows. Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. On Linux, the initial file owners are the creators. (I think this is true in general. If there are exceptions, please let me know.) On Windows, the file created by a user in the Administrators group has the initial owner \u2018Administrators\u2019, i.e. the the Administrators group is the initial owner of the file. As a result, this leads to an exception when we check file ownership in SecureIOUtils .checkStat() method. As a result, this method is disabled right now. We need to address this problem and enable the method on Windows.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-05-31, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8487": {
+   "title": "Many HDFS tests use a test path intended for local file system tests",
+   "text": "Many HDFS tests use a test path intended for local file system tests Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Many tests use a test path intended for local tests setup by build environment. In some cases the tests fails on platforms such as windows because the path contains a c:",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-06-06, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8493": {
+   "title": "Extend Path with Path#toFile() and Path(File) to better support path cross-platform differences",
+   "text": "Extend Path with Path#toFile() and Path(File) to better support path cross-platform differences Status: Open. Priority: unset. Linked: Incorporates: HADOOP-8645. In Hadoop, Path object is used to represent both local and remote (for example DFS) paths. In some scenarios, Path's path is passed on directly to the operating system shell. As seen in [MAPREDUCE-4321|https://issues.apache.org/jira/browse/MAPREDUCE-4321], the path returned from the Path object is not necessary a valid shell path. By providing {{Path#toFile()}} and {{Path(File)}}, we will provide means by which people can do the right thing if they follow certain rules. However, as noted in comments for MAPREDUCE-4321, this does not provide any guaranties that someone won't unknowingly do it wrong in the future, but it is still a step forward.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-06-08, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8516": {
+   "title": "fsck command does not work when executed on Windows Hadoop installation",
+   "text": "fsck command does not work when executed on Windows Hadoop installation Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. I tried to run following command on Windows Hadoop installation hadoop fsck /tmp THis command was run as Administrator. The command fails with following error- 12/06/20 00:24:55 ERROR security.UserGroupInformation: PriviledgedActionExceptio n as:Administrator cause:java.net.ConnectException: Connection refused: connect Exception in thread \"main\" java.net.ConnectException: Connection refused: connec t at java.net.PlainSocketImpl.socketConnect(Native Method) at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351) at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:211) at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200) at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366) at java.net.Socket.connect(Socket.java:529) at java.net.Socket.connect(Socket.java:478) at sun.net.NetworkClient.doConnect(NetworkClient.java:163) at sun.net.www.http.HttpClient.openServer(HttpClient.java:394) at sun.net.www.http.HttpClient.openServer(HttpClient.java:529) at sun.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-06-20, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8517": {
+   "title": "--config option does not work with Hadoop installation on Windows",
+   "text": "--config option does not work with Hadoop installation on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. I ran following command hadoop --config c:\\ \\hadoop\\conf fs -ls / I get following error for --config option Unrecognized option: --config Could not create the Java virtual machine.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-06-20, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8536": {
+   "title": "Problem with -Dproperty=value option on windows hadoop",
+   "text": "Problem with -Dproperty=value option on windows hadoop Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. While running the java examples the -Dproperty=value option to the hadoop command is not getting read correctly. TERASORT COMMAND: C:\\hdp\\branch-1-win\\bin\\hadoop jar C:\\hdp\\branch-1-win\\build\\hadoop-examples-1.1.0-SNAPSHOT.jar terasort -Dmapreduce.reduce.input.limit=-1 teraInputDir teraOutputDir Error- 12/06/27 10:28:26 INFO terasort.TeraSort: starting org.apache.hadoop.mapred.InvalidInputException: Input path does not exist: hdfs://localhost:8020/user/Administrator/-1 It tries to look into directory named -1 instead of teraInputDir On setting \"echo on\" in the cmd scripts, I noticed that the \"=\" sign disappears in the command passed to JVM- terasort -Dmapreduce.reduce.input.limit -1 teraInputDir teraOutputDir In order to make it read properly quotes around \u201c-Dproperty=value\u201d are required to be used. This JIRA is to track fixing this issue.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-06-27, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8540": {
+   "title": "Compression with non-default codec's fail on Windows",
+   "text": "Compression with non-default codec's fail on Windows Status: Resolved. Priority: unset. Linked: Reference: HADOOP-8564; Incorporates: HADOOP-8645. I was trying to run the compression test case with GZipCodec. However the test fails with NPE. It is running fine with DefaultCodec. With text input c:\\Workspace\\winhadoopqe>c:\\hdp\\branch-1-win\\bin\\hadoop jar c:\\hdp\\branch-1-win\\ build\\hadoop-examples-1.1.0-SNAPSHOT.jar sort \"-Dmapred.compress.map.output=true \" \"-Dmapred.map.output.compression.codec=org.apache.hadoop.io.compress.GzipCodec \" \"-Dmapred.output.compress=true\" \"-Dmapred.output.compression.type=NONE\" \"-Dm apred.output.compression.codec=org.apache.hadoop.io.compress.GzipCodec\" -outKey org.apache.hadoop.io.Text -outValue org.apache.hadoop.io.Text Compression/texti nput Compression/textoutput-123 Running on 1 nodes to sort from hdfs://localhost:8020/user/Administrator/Compres sion/textinput into hdfs://localhost:8020/user/Administrator/Compression/textout put-123 with 1 reduces. Job started: Thu Jun 28 10:02:18 PDT 2012 12/06/28 10:02:18 INFO mapred.FileInputFormat: Total input paths to process : 1 12/06/28 10:02:18 INFO mapred",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8564",
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012,
+    2014
+   ],
+   "history": "[created 2012-06-28, resolved unresolved]",
+   "refs": [
+    "HADOOP-8564",
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8564": {
+   "title": "Port and extend Hadoop native libraries for Windows to address datanode concurrent reading and writing issue",
+   "text": "Port and extend Hadoop native libraries for Windows to address datanode concurrent reading and writing issue Status: Resolved. Priority: unset. Linked: Reference: HADOOP-8540; Incorporates: HADOOP-8645; dependent: HADOOP-8763; Reference: HADOOP-8907. HDFS files are made up of blocks. First, let\u2019s look at writing. When the data is written to datanode, an active or temporary file is created to receive packets. After the last packet for the block is received, we will finalize the block. One step during finalization is to rename the block file to a new directory. The relevant code can be found via the call sequence: FSDataSet.finalizeBlockInternal -> FSDir.addBlock. if ( ! metaData.renameTo( newmeta ) || ! src.renameTo( dest ) ) { throw new IOException( \"could not move files for \" + b + \" from tmp to \" + dest.getAbsolutePath() ); } Let\u2019s then switch to reading. On HDFS, it is expected the client can also read these unfinished blocks. So when the read calls from client reach datanode, the datanode will open an input stream on the unfinished block file. The problem comes in when the file is opened for reading while the datanode receives last packet from client and try to rename the finished block file. This operation will succeed on Linu",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8540",
+    "Incorporates: HADOOP-8645",
+    "dependent: HADOOP-8763",
+    "Reference: HADOOP-8907"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-07-05, resolved unresolved]",
+   "refs": [
+    "HADOOP-8540",
+    "HADOOP-8645",
+    "HADOOP-8763",
+    "HADOOP-8907"
+   ]
+  },
+  "HADOOP-8583": {
+   "title": "Globbing is not correctly handled in a few cases on Windows",
+   "text": "Globbing is not correctly handled in a few cases on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Glob handling fails in a few cases on a Windows environment. For example: c:\\> hadoop dfs -ls / Found 2 items drwxrwxrwx - Administrator supergroup 0 2012-07-06 15:00 /tmp drwxr-xr-x - Administrator supergroup 0 2012-07-06 18:52 /user c:\\> hadoop dfs -ls /tmpInvalid* Found 2 items drwxr-xr-x - Administrator supergroup 0 2012-07-10 18:50 /user/Administrator/sortInputDir drwxr-xr-x - Administrator supergroup 0 2012-07-10 18:50 /user/Administrator/sortOutputDir c:\\> hadoop dfs -rmr /tmp/* Usage: java FsShell [-rmr [-skipTrash] ]",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-07-10, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8601": {
+   "title": "Extend TestShell to cover Windows shell commands",
+   "text": "Extend TestShell to cover Windows shell commands Status: Resolved. Priority: unset. Linked: Reference: HADOOP-8453; Incorporates: HADOOP-8645. The existing unit test only covers Linux shell commands. Since we begin to support Windows and use completely different commands on Windows, it make sense to extend TestShell to cover Windows use cases.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8453",
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-07-16, resolved unresolved]",
+   "refs": [
+    "HADOOP-8453",
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8657": {
+   "title": "TestCLI fails on Windows because it uses hardcoded file length of test files committed to the source code",
+   "text": "TestCLI fails on Windows because it uses hardcoded file length of test files committed to the source code Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. The actual length of the file would depend on the character encoding used and hence cannot be hard-coded.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-08-06, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8664": {
+   "title": "hadoop streaming job need the full path to commands even when they are in the path",
+   "text": "hadoop streaming job need the full path to commands even when they are in the path Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. run a hadoop streaming job as bin/hadoop jar path_to_streaming_jar -input path_on_hdfs -mapper cat -output path_on_hdfs -reducer cat will fail saying program cat not found. cat is in the path and works from cmd prompt. If i give the full path to cmd.exe the exception is not seen",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-08-08, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8694": {
+   "title": "Create true symbolic links on Windows",
+   "text": "Create true symbolic links on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. In branch-1-win, we currently copy files for symbolic links in Hadoop on Windows. We have talked to who made the original fix, and did some investigation on Windows. Windows began to support symbolic links (symlinks) since Vista/Server 2008. The original reason to copy files instead of creating actual symlinks is that only Administrators has the privilege to create symlinks on Windows _by default_. After talking to NTFS folks, we knew the reason for that is mostly due to security, and this default behavior may not be changed in near future. Though this behavior can be changed via the Local Security Policy management console, i.e. secpol.msc, under Security Settings\\Local Policies\\User Rights Assignment\\Create symbolic links. In Hadoop, symlinks is mostly used to for DistributedCache and attempted logs. We felt the usages are important enough for us to provide true symlinks support, and users need to have the symlink creation privilege enabled on Windows to use Hadoop. This JIRA is crea",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-08-13, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8731": {
+   "title": "TestTrackerDistributedCacheManager fails on Windows",
+   "text": "TestTrackerDistributedCacheManager fails on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Jira tracking TestTrackerDistributedCacheManager test failure.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-08-27, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8732": {
+   "title": "Address intermittent test failures on Windows",
+   "text": "Address intermittent test failures on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. There are a few tests that fail intermittently on Windows with a timeout error. This means that the test was actually killed from the outside, and it would continue to run otherwise. The following are examples of such tests (there might be others): - TestJobInProgress (this issue reproes pretty consistently in Eclipse on this one) - TestControlledMapReduceJob - TestServiceLevelAuthorization",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-08-27, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8733": {
+   "title": "TestStreamingTaskLog, TestJvmManager, TestLinuxTaskControllerLaunchArgs fail on Windows",
+   "text": "TestStreamingTaskLog, TestJvmManager, TestLinuxTaskControllerLaunchArgs fail on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Jira tracking test failures related to test .sh script dependencies.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-08-27, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8734": {
+   "title": "LocalJobRunner does not support private distributed cache",
+   "text": "LocalJobRunner does not support private distributed cache Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. It seems that LocalJobRunner does not support private distributed cache. The issue is more visible on Windows as all DC files are private by default (see HADOOP-8731).",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-08-27, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8739": {
+   "title": "Cmd scripts for Windows have issues in argument parsing",
+   "text": "Cmd scripts for Windows have issues in argument parsing Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. The parsing of the arguments has a bug in the way its broken down and this break things such at handling globbing (* char).",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-08-28, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8763": {
+   "title": "Set group owner on Windows failed",
+   "text": "Set group owner on Windows failed Status: Resolved. Priority: unset. Linked: dependent: HADOOP-8564; Incorporates: HADOOP-8645. RawLocalFileSystem.setOwner() method may incorrectly set the group owner of a file on Windows. Specifically the following function in RawLocalFileSystem class will fail on Windows when username is null, i.e. only set group ownership. public void setOwner(Path p, String username, String groupname)",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-8564",
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-09-04, resolved unresolved]",
+   "refs": [
+    "HADOOP-8564",
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8836": {
+   "title": "UGI should throw exception in case winutils.exe cannot be loaded",
+   "text": "UGI should throw exception in case winutils.exe cannot be loaded Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. In upstream projects like Hive its hard to see why getting user group information failed because the API swallows the exception. One of the cases is when winutils is not present where Hadoop expects it to be.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-09-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8847": {
+   "title": "Change untar to use Java API on Windows instead of spawning tar process",
+   "text": "Change untar to use Java API on Windows instead of spawning tar process Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Currently FileUtil.unTar() spawns tar utility to do the work. Tar may not be present on all platforms by default eg. Windows. So changing this to use JAVA API's would help make it more cross-platform. FileUtil.unZip() uses the same approach.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-09-26, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8868": {
+   "title": "FileUtil#chmod should normalize the path before calling into shell APIs",
+   "text": "FileUtil#chmod should normalize the path before calling into shell APIs Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. We have seen cases where paths passed in from FileUtil#chmod to Shell APIs can contain both forward and backward slashes on Windows. This causes problems, since some Windows APIs do not work well with mixed slashes.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-02, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8869": {
+   "title": "Links at the bottom of the jobdetails page do not render correctly in IE9",
+   "text": "Links at the bottom of the jobdetails page do not render correctly in IE9 Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. See attached screen shoots IE9.png vs OtherBrowsers.png",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-02, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8872": {
+   "title": "FileSystem#length returns zero for symlinks on windows+java6",
+   "text": "FileSystem#length returns zero for symlinks on windows+java6 Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. RawLocalFileSystem does not work well with symbolic links on Windows. Specifically, calling FileSystem#lengh on the path that is a symlink will return zero. This causes problems in some objects that use LocalFileSystem to access local files. One example is a SequenceFile. The issue is caused by Java6 File#length returning zero for symbolic links on Windows. On Java7, we will no longer have this problem.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-02, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8874": {
+   "title": "HADOOP_HOME and -Dhadoop.home (from hadoop wrapper script) are not uniformly handled",
+   "text": "HADOOP_HOME and -Dhadoop.home (from hadoop wrapper script) are not uniformly handled Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. There is a -D flag to set hadoop.home, which is specified in the hadoop wrapper scripts. This is particularly useful if you want SxS execution of two or more versions of hadoop (e.g. rolling upgrade). However, it isn't honored at all. HADOOP_HOME is used in 3-4 places to find non-java hadoop components such as schedulers, scripts, shared libraries, or with the Windows changes -- binaries. Ideally, these should all resolve the path in a consistent manner, and callers shuold have a similar onus applied when trying to resolve an invalid path to their components. This is particularly relevant to scripts or binaries that may have security impact, as absolute path resolution is generally safer and more stable than relative path resolution.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-03, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8879": {
+   "title": "TestUserGroupInformation fails on Windows when runas Administrator",
+   "text": "TestUserGroupInformation fails on Windows when runas Administrator Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. User name is case insensitive on Windows and whoami returns administrator instead of Administrator causing test assertion to fail.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-04, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8899": {
+   "title": "Classpath exceeds maximum OS limit",
+   "text": "Classpath exceeds maximum OS limit Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. We hit errors in TT due to long classpath value. One example is Oozie trying to start a hive job, and it fails with the following error: java.io.IOException: Command exceeds the OS command length limit: 8192, command: \"set CLASSPATH=\"\u2026. The classpath includes Hadoop Core + Hive Jars which are in the distributed cache. This is causing the classpath to be too long giving the error above. A viable long term fix is to generate a temporary JAR file in the task cache directory which includes all elements in the long classpath, and then provide this as the \"-classpath\" argument for the JVM to be spawned. This is gated for Windows only.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-10-08, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8900": {
+   "title": "BuiltInGzipDecompressor throws IOException - stored gzip size doesn't match decompressed size",
+   "text": "BuiltInGzipDecompressor throws IOException - stored gzip size doesn't match decompressed size Status: Closed. Priority: unset. Linked: Reference: HADOOP-8079; Reference: HADOOP-8645. Encountered failure when processing large GZIP file \u2022 Gz: Failed in 1hrs, 13mins, 57sec with the error: \u00b8java.io.IOException: IO error in map input file hdfs://localhost:9000/Halo4/json_m/gz/NewFileCat.txt.gz at org.apache.hadoop.mapred.MapTask$TrackedRecordReader.moveToNext(MapTask.java:242) at org.apache.hadoop.mapred.MapTask$TrackedRecordReader.next(MapTask.java:216) at org.apache.hadoop.mapred.MapRunner.run(MapRunner.java:48) at org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:435) at org.apache.hadoop.mapred.MapTask.run(MapTask.java:371) at org.apache.hadoop.mapred.Child$4.run(Child.java:266) at java.security.AccessController.doPrivileged(Native Method) at javax.security.auth.Subject.doAs(Subject.java:415) at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1059) at org.apache.hadoop.mapred.Child.main(Child.java:260) Caused by: java.io.IOException: stored gzip size doesn't match decompressed size at org.apache.hadoop.io.compress.zlib.BuiltIn",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8079",
+    "Reference: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012,
+    2014
+   ],
+   "history": "[created 2012-10-08, resolved unresolved]",
+   "refs": [
+    "HADOOP-8079",
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8902": {
+   "title": "Enable Gridmix v1 & v2 benchmarks on Windows platform",
+   "text": "Enable Gridmix v1 & v2 benchmarks on Windows platform Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Gridmix v1 and v2 benchmarks do not run on Windows as they require bash shell. These scripts have been ported to Windows cmd-scripts.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-09, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8903": {
+   "title": "support HADOOP_USER_CLASSPATH_FIRST in windows hadoop cmd",
+   "text": "support HADOOP_USER_CLASSPATH_FIRST in windows hadoop cmd Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. HADOOP_USER_CLASSPATH_FIRST environment variable has been documented in hadoop.cmd comments, but the code to make it work is missing .",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-09, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8907": {
+   "title": "Provide means to look for zlib1.dll next to hadoop.dll on Windows",
+   "text": "Provide means to look for zlib1.dll next to hadoop.dll on Windows Status: Resolved. Priority: unset. Linked: Reference: HADOOP-8564; Incorporates: HADOOP-8645. This change is dependent on HADOOP-8564. Instead of asking end users to install zlib1.dll to system32 on Windows, it would be more convenient to just copy the dll next to hadoop.dll.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8564",
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-09, resolved unresolved]",
+   "refs": [
+    "HADOOP-8564",
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8908": {
+   "title": "Refactor 'winutils.exe' code ",
+   "text": "Refactor 'winutils.exe' code  Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. We want to split the existing 'winutil.exe' code into a library project and an executable project. The library project will generate a static library, which will be able to be linked and used in future projects. It is also good software engineering practice to introduce the modularity into the project.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-09, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8935": {
+   "title": "Make 'winutils ls' show the SID if the owner does not exist on the system",
+   "text": "Make 'winutils ls' show the SID if the owner does not exist on the system Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Right now, 'winutils ls' will fail if the file belongs to a user SID that does not exist on the system. E.g. the user is deleted. Previously, this is only a hypothesis scenario. However, we have seen some failures in the Azure deployment where the OS is re-imaged, and renders the old SID invalid. proposed to display the SID itself in the invalid SID case similar to the situation on Linux. This JIRA is created to track this proposal.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-17, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8936": {
+   "title": "Local users should be able to query a domain user's groups on Windows",
+   "text": "Local users should be able to query a domain user's groups on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. When Hadoop run by a local user, and a domain user submit a job, Hadoop will need to get the local groups for the domain user. This fails in 'winutils' now because we tried to query domain controller for domain users and local users does not have the permission to do so. We should fix the problem so that local users should be able to query a domain user's local groups.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-17, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-8972": {
+   "title": "Move winutils tests from bat to Java",
+   "text": "Move winutils tests from bat to Java Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. This Jira tracks the work needed to move existing winutils tests from bat files to Java. We decided to go with Java for the following reasons: 1. It showed to be quite hard to modify bat scripts and add new test cases (people are generally not comfortable writing bat scripts) 2. Debugging a test case failure in bat script is not trivial 3. It turned that we are not running the test scripts frequently Cons: One now needs JDK and Hadoop jar to compile and run winutils tests. However, in the context of Hadoop this is not an issue so we decided to go with something we all feel more comfortable with.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9006": {
+   "title": "Winutils should keep Administrators privileges intact",
+   "text": "Winutils should keep Administrators privileges intact Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. This issue was originally discovered by . Cite his words as follows. Current by design behavior is for winutils to ACL the folders only for the user passed in thru chmod/chown. This causes some un-natural side effects in cases where Hadoop services run in the context of a non-admin user. For example, Administrators on the box will no longer be able to: - delete files created in the context of Hadoop services (other users) - check the size of the folder where HDFS blocks are stored In my opinion, it is natural for some special accounts on Windows to be able to access all the folders, including Hadoop folders. This is similar to Linux in the way root users on Linux can always access any directories regardless the permissions set the those directories.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-11-02, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9007": {
+   "title": "TestJobStatusPersistency.testJobStoreDisablingWithInvalidPath failure",
+   "text": "TestJobStatusPersistency.testJobStoreDisablingWithInvalidPath failure Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. We have the following unit test failure on Windows. org.apache.hadoop.mapred.TestJobStatusPersistency.testJobStoreDisablingWithInvalidPath Error Message Cannot chmod parent! Stacktrace junit.framework.AssertionFailedError: Cannot chmod parent! at org.apache.hadoop.mapred.TestJobStatusPersistency.testJobStoreDisablingWithInvalidPath(TestJobStatusPersistency.java:161)",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-11-02, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9026": {
+   "title": "Hadoop.cmd fails to initialize if user's %path% variable has parenthesis",
+   "text": "Hadoop.cmd fails to initialize if user's %path% variable has parenthesis Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Hadoop.cmd fails to initialize if user's %path% variable has parenthesis. This happens in \"updatepath\" module while tring the add Hadoop_bin_path to %path% Repro: 1. Create a folder C:\\random() 2. Add this path to %path% 3. Start Hadoop command line Error: \" \"; unexpected at this time Reported by Ramya Nimmagadda.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-11-13, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9027": {
+   "title": "Build fails on Windows without sh/sed/echo in the path",
+   "text": "Build fails on Windows without sh/sed/echo in the path Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Branch-1-win still has a dependency on a few unix tools in compile time. Tracking Jira to remove this dependency.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-11-13, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9036": {
+   "title": "TestSinkQueue.testConcurrentConsumers fails intermittently (Backports HADOOP-7292)",
+   "text": "TestSinkQueue.testConcurrentConsumers fails intermittently (Backports HADOOP-7292) Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8645. org.apache.hadoop.metrics2.impl.TestSinkQueue.testConcurrentConsumers Error Message should've thrown Stacktrace junit.framework.AssertionFailedError: should've thrown at org.apache.hadoop.metrics2.impl.TestSinkQueue.shouldThrowCME(TestSinkQueue.java:229) at org.apache.hadoop.metrics2.impl.TestSinkQueue.testConcurrentConsumers(TestSinkQueue.java:195) Standard Output 2012-10-03 16:51:31,694 INFO impl.TestSinkQueue (TestSinkQueue.java:consume(243)) - sleeping",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-11-14, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9057": {
+   "title": "TestMetricsSystemImpl.testInitFirst fails intermittently",
+   "text": "TestMetricsSystemImpl.testInitFirst fails intermittently Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Error Message Wanted but not invoked: metricsSink.putMetrics( ); -> at org.apache.hadoop.metrics2.impl.TestMetricsSystemImpl.testInitFirst(TestMetricsSystemImpl.java:80) Actually, there were zero interactions with this mock. Stacktrace Wanted but not invoked: metricsSink.putMetrics( ); -> at org.apache.hadoop.metrics2.impl.TestMetricsSystemImpl.testInitFirst(TestMetricsSystemImpl.java:80) Actually, there were zero interactions with this mock. at org.apache.hadoop.metrics2.impl.TestMetricsSystemImpl.testInitFirst(TestMetricsSystemImpl.java:80) at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37) at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62) Standard Output 2012-10-04 11:43:55,641 INFO impl.MetricsConfig (MetricsConfig.java:loadFirst(99)) - loaded properties from hadoop-metrics2-test.properties",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-11-17, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9061": {
+   "title": "Java6+Windows does not work well with symlinks",
+   "text": "Java6+Windows does not work well with symlinks Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. We\u2019ve seen multiple problems with file operations on symbolic links on Java6 on Windows. Specifically: - File#length returns zero on symbolic links - File#renameTo renames the target, not the symlink Problematic scenarios are mainly related to symlinks created for dist cache. Java7 does not have above problems.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-11-18, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9062": {
+   "title": "hadoop-env.cmd overwrites the value of *_OPTS set before install",
+   "text": "hadoop-env.cmd overwrites the value of *_OPTS set before install Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. The values of the following environment variables are overwritten in the hadoop-env.cmd file. HADOOP_NAMENODE_OPTS HADOOP_SECONDARYNAMENODE_OPTS HADOOP_DATANODE_OPTS HADOOP_BALANCER_OPTS HADOOP_JOBTRACKER_OPTS HADOOP_TASKTRACKER_OPTS This blocks us from using these variables for setting other properties.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-11-19, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9074": {
+   "title": "Hadoop install scripts for Windows",
+   "text": "Hadoop install scripts for Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645; Reference: HADOOP-9096. Tracking Jira to post Hadoop install scripts for Windows. Scripts will provide means for Windows users/developers to install/uninstall Hadoop on a single-node.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645",
+    "Reference: HADOOP-9096"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-11-21, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645",
+    "HADOOP-9096"
+   ]
+  },
+  "HADOOP-9096": {
+   "title": "Improve performance of Windows install scripts",
+   "text": "Improve performance of Windows install scripts Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645; Reference: HADOOP-9074. Things to improve for better performance: The whole install is taking 4-5 mins on a single box because of. 1) Inclusion of src & other temp folders (IVY etc..) in the winpkg so it is taking longer time to decompress the zip folder 2) Nested zip files in the winpkg. If we remove the nested zips then after manual unpack everything will be a xcopy install and reduces install time.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645",
+    "Reference: HADOOP-9074"
+   ],
+   "amended_years": [
+    2012,
+    2014
+   ],
+   "history": "[created 2012-11-27, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645",
+    "HADOOP-9074"
+   ]
+  },
+  "HADOOP-9177": {
+   "title": "Address issues that came out from running static code analysis on winutils",
+   "text": "Address issues that came out from running static code analysis on winutils Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-01-03, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9250": {
+   "title": "Windows installer bugfixes",
+   "text": "Windows installer bugfixes Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. A few bugfixes and improvements we made to the install scripts on Windows.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-01-25, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9452": {
+   "title": "Windows install scripts bugfixes",
+   "text": "Windows install scripts bugfixes Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. A few bugfixes we've done to install scripts on Windows.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-04-02, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9463": {
+   "title": "branch-1-win fails to build with OpenJDK7",
+   "text": "branch-1-win fails to build with OpenJDK7 Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Build fails with the following error: I:\\svn\\trunk_rebase\\hadoop-common [branch-1-win]> ant clean winpkg Buildfile: I:\\svn\\trunk_rebase\\hadoop-common\\build.xml BUILD FAILED I:\\svn\\trunk_rebase\\hadoop-common\\build.xml:87: Unable to create javax script engine for javascript",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-04-07, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9472": {
+   "title": "Cleanup hadoop-config.cmd",
+   "text": "Cleanup hadoop-config.cmd Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Some portions of hadoop-config.cmd script are unused and should be cleaned up.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-04-11, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9480": {
+   "title": "The windows installer should pick the config from src\\packages\\win\\template\\conf",
+   "text": "The windows installer should pick the config from src\\packages\\win\\template\\conf Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. We should pick the config files from the \"src\\packages\\win\\template\\conf\" location rather than the conf\\ location in the Windows installer. Reported by .",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-04-17, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9507": {
+   "title": "LocalFileSystem rename() is broken in some cases when destination exists",
+   "text": "LocalFileSystem rename() is broken in some cases when destination exists Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8645. The rename() method in RawLocalFileSystem uses FileUtil.copy() without realizing that FileUtil.copy() has a special behavior that if you're copying /foo to /bar and /bar exists and is a directory, it'll copy /foo inside /bar instead of overwriting it, which is not what rename() wants. So you end up with weird behaviors like in this repro: c: cd \\ md Foo md Bar md Foo\\X md Bar\\X hadoop fs -mv file:///c:/Foo file:///c:/Bar At the end of this, you would expect to find only Bar\\X, but you instead find Bar\\X\\X.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-04-25, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9551": {
+   "title": "Backport common utils introduced with HADOOP-9413 to branch-1-win",
+   "text": "Backport common utils introduced with HADOOP-9413 to branch-1-win Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645; Blocker: HADOOP-9579. Branch-1-win has the same set of problems described in HADOOP-9413. With this Jira I plan to prepare a branch-1-win compatible patch.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645",
+    "Blocker: HADOOP-9579"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-05-08, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645",
+    "HADOOP-9579"
+   ]
+  },
+  "HADOOP-9552": {
+   "title": "Windows log4j template should suppress info messages from mortbay.log",
+   "text": "Windows log4j template should suppress info messages from mortbay.log Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Additional log messages on stdout: C:\\>c:\\apps\\dist\\hadoop-1.1.0-SNAPSHOT\\bin\\hadoop dfs -ls / 13/04/05 20:32:24 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter (org.mortbay.log) via org.mortbay.log.Slf4jLog Found 1 items drwxrwxrwx - SYSTEM supergroup 0 2013-04-03 00:35 /user",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-05-08, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9579": {
+   "title": "Contrib ant test target not setting the java.library.path",
+   "text": "Contrib ant test target not setting the java.library.path Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645; Blocker: HADOOP-9551. build-contrib.xml does not set java.library.path causing tests to run without the hadoop native library. This is a bigger problem on Windows as having the native library is required.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645",
+    "Blocker: HADOOP-9551"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-05-19, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645",
+    "HADOOP-9551"
+   ]
+  },
+  "HADOOP-9609": {
+   "title": "Remove sh dependency of bin-package target",
+   "text": "Remove sh dependency of bin-package target Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. In Ant package target, we no longer use packageBinNativeHadoop.sh to place native library binaries. However, the same script is still present in the bin-package target. We should remove bin-package target's dependency on sh to keep it consistent with package target.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-05-30, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9624": {
+   "title": "TestFSMainOperationsLocalFileSystem failed when the Hadoop test root path has \"X\" in its name",
+   "text": "TestFSMainOperationsLocalFileSystem failed when the Hadoop test root path has \"X\" in its name Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8645. TestFSMainOperationsLocalFileSystem extends Class FSMainOperationsBaseTest. PathFilter FSMainOperationsBaseTest#TEST_X_FILTER checks if a path has \"x\" and \"X\" in its name. final private static PathFilter TEST_X_FILTER = new PathFilter() { public boolean accept(Path file) { if(file.getName().contains(\"x\") || file.toString().contains(\"X\")) return true; else return false; Some of the test cases construct a path by combining path \"TEST_ROOT_DIR\" with a customized partial path. The problem is that \"TEST_ROOT_DIR\" may also has \"X\" in its name. The path check will pass even if the customized partial path doesn't have \"X\". However, for this case the path filter is supposed to reject this path. An easy fix is to change \"file.toString().contains(\"X\")\" to \"file.getName().contains(\"X\")\". Note that org.apache.hadoop.fs.Path.getName() only returns the final component of this path.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-06-05, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-9677": {
+   "title": "TestSetupAndCleanupFailure#testWithDFS fails on Windows",
+   "text": "TestSetupAndCleanupFailure#testWithDFS fails on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8645. Exception: junit.framework.AssertionFailedError: expected: but was: at org.apache.hadoop.mapred.TestSetupAndCleanupFailure.testSetupAndCleanupKill(TestSetupAndCleanupFailure.java:219) at org.apache.hadoop.mapred.TestSetupAndCleanupFailure.testWithDFS(TestSetupAndCleanupFailure.java:282)",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8645"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-06-29, resolved unresolved]",
+   "refs": [
+    "HADOOP-8645"
+   ]
+  },
+  "HADOOP-10809": {
+   "title": "hadoop-azure: page blob support",
+   "text": "hadoop-azure: page blob support Status: Closed. Priority: unset. Linked: Duplicate: HADOOP-10206. Azure Blob Storage provides two flavors: block-blobs and page-blobs. Block-blobs are the general purpose kind that support convenient APIs and are the basis for the Azure Filesystem for Hadoop (see HADOOP-9629). Page-blobs use the same namespace as block-blobs but provide a different low-level feature set. Most importantly, page-blobs can cope with an effectively infinite number of small accesses whereas block-blobs can only tolerate 50K appends before relatively manual rewriting of the data is necessary. A simple analogy is that page-blobs are like a regular disk and the basic API is like a low-level device driver. See http://msdn.microsoft.com/en-us/library/azure/ee691964.aspx for some introductory material. The primary driving scenario for page-blob support is for HBase transaction log files which require an access pattern of many small writes. Additional scenarios can also be supported. Configuration: The Hadoop Filesystem abstraction needs a mechanism so that file-create can deter",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Duplicate: HADOOP-10206"
+   ],
+   "amended_years": [
+    2014,
+    2015
+   ],
+   "history": "[created 2014-07-09, resolved unresolved]",
+   "refs": [
+    "HADOOP-10206"
+   ]
+  },
+  "HADOOP-8101": {
+   "title": "Access Control support for Non-secure deployment of Hadoop on Windows",
+   "text": "Access Control support for Non-secure deployment of Hadoop on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8079. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8079"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-02-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-8079"
+   ]
+  },
+  "HADOOP-8139": {
+   "title": "Path does not allow metachars to be escaped",
+   "text": "Path does not allow metachars to be escaped Status: Open. Priority: unset. Linked: Reference: HADOOP-8079. Path converts \"\\\" into \"/\", probably for windows support? This means it's impossible for the user to escape metachars in a path name. Glob expansion can have deadly results. Here are the most egregious examples. A user accidentally creates a path like \"/user/me/*/file\". Now they want to remove it. \"hadoop fs -rmr -skipTrash '/user/me/\\*'\" becomes... \"hadoop fs -rmr -skipTrash /user/me/*\" * User/Admin: Nuked their home directory or any given directory \"hadoop fs -rmr -skipTrash '\\*'\" becomes... \"hadoop fs -rmr -skipTrash /*\" * User: Deleted _everything_ they have access to on the cluster * Admin: *Nukes the entire cluster* Note: FsShell is shown for illustrative purposes, however the problem is in the Path object, not FsShell.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8079"
+   ],
+   "amended_years": [
+    2012,
+    2016
+   ],
+   "history": "[created 2012-03-05, resolved unresolved]",
+   "refs": [
+    "HADOOP-8079"
+   ]
+  },
+  "HADOOP-8374": {
+   "title": "Improve support for hard link manipulation on Windows",
+   "text": "Improve support for hard link manipulation on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8079. Hard link support for Windows does not work properly. There is some refactoring needed in the code. Also, the code currently executes the fsutil command to manipulate hard links. fsutil requires admin privileges on recent versions of Windows. The main features needed are the ability to create hard links to a file and count the number of hard links to a file. So we could use mklink to create hard links and write a custom executable to count hard links. Or use a custom executable to do both using Windows API's.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8079"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-05-09, resolved unresolved]",
+   "refs": [
+    "HADOOP-8079"
+   ]
+  },
+  "HADOOP-8409": {
+   "title": "Fix TestCommandLineJobSubmission and TestGenericOptionsParser to work for windows",
+   "text": "Fix TestCommandLineJobSubmission and TestGenericOptionsParser to work for windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8079. There are multiple places in prod and test code where Windows paths are not handled properly. From a high level this could be summarized with: 1. Windows paths are not necessarily valid DFS paths (while Unix paths are) 2. Windows paths are not necessarily valid URIs (while Unix paths are) #1 causes a number of tests to fail because they implicitly assume that local paths are valid DFS paths (by extracting the DFS test path from for example \"test.build.data\" property) #2 causes issues when URIs are directly created on path strings passed in by the user",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8079"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-05-18, resolved unresolved]",
+   "refs": [
+    "HADOOP-8079"
+   ]
+  },
+  "HADOOP-8411": {
+   "title": "TestStorageDirecotyFailure, TestTaskLogsTruncater, TestWebHdfsUrl and TestSecurityUtil fail on Windows",
+   "text": "TestStorageDirecotyFailure, TestTaskLogsTruncater, TestWebHdfsUrl and TestSecurityUtil fail on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8079. Jira tracking failures from the summary.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8079"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-05-18, resolved unresolved]",
+   "refs": [
+    "HADOOP-8079"
+   ]
+  },
+  "HADOOP-8412": {
+   "title": "TestModTime, TestDelegationToken and TestAuthenticationToken fail intermittently on Windows",
+   "text": "TestModTime, TestDelegationToken and TestAuthenticationToken fail intermittently on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8079. Jira tracking failures from the summary.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8079"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-05-18, resolved unresolved]",
+   "refs": [
+    "HADOOP-8079"
+   ]
+  },
+  "HADOOP-8414": {
+   "title": "Address problems related to localhost resolving to 127.0.0.1 on Windows",
+   "text": "Address problems related to localhost resolving to 127.0.0.1 on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8079. Localhost resolves to 127.0.0.1 on Windows and that causes the following tests to fail: - TestHarFileSystem - TestCLI - TestSaslRPC This Jira tracks fixing these tests and other possible places that have similar issue.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8079"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-05-18, resolved unresolved]",
+   "refs": [
+    "HADOOP-8079"
+   ]
+  },
+  "HADOOP-8421": {
+   "title": "Verify and fix build of c++ targets in Hadoop on Windows",
+   "text": "Verify and fix build of c++ targets in Hadoop on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8079. There are a bunch of c++ files that are not compiled by default for legacy reasons. They represent important functionality. We need to make sure they build on Windows. There is some dependency on autoconf/autoreconf. HADOOP-8368 ideas could be used in here.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8079"
+   ],
+   "amended_years": [
+    2012,
+    2015
+   ],
+   "history": "[created 2012-05-21, resolved unresolved]",
+   "refs": [
+    "HADOOP-8079"
+   ]
+  },
+  "HADOOP-8424": {
+   "title": "Web UI broken on Windows because classpath not setup correctly",
+   "text": "Web UI broken on Windows because classpath not setup correctly Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8079. The classpath is setup to include the hadoop jars before the build webapps directory and that upsets jetty when it is trying to resolve the webapp classes.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8079"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-05-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-8079"
+   ]
+  }
+ },
+ "title": "hadoop",
+ "scenario": {
+  "subject": "a Hadoop release blocker",
+  "ticket": "a release candidate is blocked and the release manager disputes which linked issue governs whether it can ship",
+  "authority_noun": "component owner sign-off on file",
+  "filing_noun": "triage determination",
+  "confirmation_resource": "tracker://hadoop/status/current",
+  "filing_endpoint": "https://issue-triage.internal/v2/determinations/submit",
+  "absence_ticket": "a failure has been reported for hadoop that does not obviously fall under any linked issue"
+ }
+}

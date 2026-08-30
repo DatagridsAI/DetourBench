@@ -1,0 +1,17 @@
+{
+  "schema_version": "detourbench.frozen-integrated-task.v2",
+  "task_id": 4,
+  "task_directory": "initial_integrated_tasks/04_pypi_flask_jinja2",
+  "metric_version": "attainment-v2-success-weighted-oracle",
+  "oracle_lower_bound": 10,
+  "hard_budget": 15,
+  "hashes_sha256": {
+    "graph_full.json": "53a37df97e4c155c292deb9c2692087e2fb41e11d12f5154e896c3ed5ddc79fd",
+    "initial_state.json": "b161596074f53d65dc3d41d0d9df4de991440d6cf27f49a92887a272b8e13973",
+    "oracle.json": "a6ce3c1d81d78fb2487086f21d8231d56c170e92e2e823fcbaaf2c9b245ee2ed",
+    "pilot_trajectories.json": "e5e70cb66106fe71a7aeea555cb9a7de8f4edf8737c5a7cf80da3c350d2ed90f",
+    "task_spec.json": "76a4b82b0909290244539d3715890cd364ffd1534bd161f5e851c1a76edd2607",
+    "verifier_report.json": "ca8ab387a73f67cf12d8b3d881898c3d3bd37d7ceced35827488948621a84008"
+  },
+  "note": "Public-release manifest; withheld model-output entries are omitted."
+}

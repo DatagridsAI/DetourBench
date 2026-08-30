@@ -1,0 +1,26 @@
+{
+  "schema_version": "detourbench.task-spec.v1",
+  "task_id": 22,
+  "run_task_name": "finance_restatement_reliance",
+  "classification": "integrated_development_challenge",
+  "task_revision": "finance-edgar-v1",
+  "objective": "Credit review case DTB-SEC-22, snapshot 2024-08-20. Determine whether the periods on which the issuer withdrew reliance have been restated as of the snapshot, whether any periodic report is delinquent, and record one disposition under the credit policy version in force.",
+  "candidate_actions": [
+    "restore-rating",
+    "freeze-pending-restatement",
+    "freeze-pending-current-reporting"
+  ],
+  "primary_mechanism": "Disposition",
+  "supporting_mechanisms": [
+    "Currency",
+    "Depth",
+    "Breadth"
+  ],
+  "domain_mechanisms": [
+    "non-reliance and cure",
+    "comprehensive annual report in place of amendments",
+    "delinquency as an unfiled report behind a live notification",
+    "absent amendment with a real but off-period amendment history"
+  ],
+  "provenance_boundary": "Filing metadata, the Item 4.02 statement, the annual report's explanatory note and the Rule 12b-25 notification are observed in the frozen SEC EDGAR extract and are quoted as filed. The credit policy, case packet, trustee-correspondence fact and write actions are authored DetourBench overlays. They are not any institution's credit process and express no view on the issuer."
+}

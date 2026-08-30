@@ -1,0 +1,1111 @@
+{
+ "seed": "190.09",
+ "sections": {
+  "190.09": {
+   "title": "Allocation of property and allowance of claims.",
+   "refs": [
+    "190.01",
+    "190.04",
+    "1.30",
+    "1.17",
+    "1.11",
+    "1.20",
+    "190.06",
+    "190.16"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Allocation of property and allowance of claims. The property of the debtor's estate must be allocated among account classes and between customer classes as provided in this section. (Property connected with certain cross-margining arrangements is subject to the provisions of framework 1 in appendix B to this part.) The property so allocated will constitute a separate estate of the customer class and the account class to which it is allocated, and will be designated by reference to such customer class and account class. (a) Scope of customer property. (1) Customer property includes the following: (i) All cash, securities, or other property or the proceeds of such cash, securities, or other property received, acquired, or held by or for the account of the debtor, from or for the account of a"
+  },
+  "190.01": {
+   "title": "Definitions.",
+   "refs": [
+    "1.3",
+    "30.1",
+    "22.1",
+    "190.06",
+    "39.15"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Definitions. For purposes of this part: Account class: (1) Means one or more of each of the following types of accounts maintained by a futures commission merchant or clearing organization (as applicable), each type of which must be recognized as a separate account class by the trustee: (i) Futures account means: (A) With respect to public customers, the same definition as set forth in \u00a7 1.3 of this chapter. (B) With respect to non-public customers: ( 1 ) With respect to a futures commission merchant, an account maintained on the books and records of the futures commission merchant for the purpose of accounting for a person's transactions in futures or options on futures contracts executed on or subject to the rules of a designated contract market registered under the Act (and related cash"
+  },
+  "190.04": {
+   "title": "Operation of the debtor's estate\u2014customer property.",
+   "refs": [
+    "190.07"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Operation of the debtor's estate\u2014customer property. (a) Transfers \u2014(1) All cases. The trustee for a commodity broker shall promptly use its best efforts to effect a transfer in accordance with \u00a7 190.07(c) and (d) no later than the seventh calendar day after the order for relief of the open commodity contracts and property held by the commodity broker for or on behalf of its public customers. (2) Involuntary cases. A commodity broker against which an involuntary petition in bankruptcy is filed, or the trustee if a trustee has been appointed in such case, shall use its best efforts to effect a transfer in accordance with \u00a7 190.07(c) and (d) of all open commodity contracts and property held by the commodity broker for or on behalf of its public customers and such other property as the Commiss"
+  },
+  "1.30": {
+   "title": "Loans by futures commission merchants; treatment of proceeds.",
+   "refs": [],
+   "history": "[78 FR 68637, Nov. 14, 2013]",
+   "amended_years": [
+    2013
+   ],
+   "text": "Loans by futures commission merchants; treatment of proceeds. Nothing in the regulations in this chapter shall prevent a futures commission merchant from lending its own funds to customers on securities and property pledged by such customers, or from repledging or selling such securities and property pursuant to specific written agreement with such customers. The proceeds of such loans used to purchase, margin, guarantee, or secure the trades, contracts, or commodity options of customers shall be treated and dealt with by a futures commission merchant as belonging to such customers, in accordance with and subject to the provisions of the Act and these regulations. A futures commission merchant may not loan funds on an unsecured basis to finance customers' trading, nor may a futures commiss"
+  },
+  "1.17": {
+   "title": "Minimum financial requirements for futures commission merchants and introducing brokers.",
+   "refs": [
+    "1.52",
+    "1.10"
+   ],
+   "history": "[43 FR 39972, Sept. 8, 1978]",
+   "amended_years": [
+    1978
+   ],
+   "text": "Minimum financial requirements for futures commission merchants and introducing brokers. (a)(1)(i) Except as provided in paragraph (a)(2)(i) of this section, each person registered as a futures commission merchant must maintain adjusted net capital equal to or in excess of the greatest of: (A) $1,000,000, Provided, however, that if the futures commission merchant also is a swap dealer, the minimum amount shall be $20,000,000; (B) The futures commission merchant's risk-based capital requirement, computed as the sum of: ( 1 ) Eight percent of the total risk margin requirement (as defined in \u00a7 1.17(b)(8) of this section) for positions carried by the futures commission merchant in customer accounts and noncustomer accounts; and ( 2 ) For a futures commission merchant that is also a registered "
+  },
+  "1.11": {
+   "title": "Risk Management Program for futures commission merchants.",
+   "refs": [
+    "1.3",
+    "22.1",
+    "30.1",
+    "1.20",
+    "22.2",
+    "30.7"
+   ],
+   "history": "[78 FR 68620, Nov. 14, 2013]",
+   "amended_years": [
+    2013
+   ],
+   "text": "Risk Management Program for futures commission merchants. (a) Applicability. Nothing in this section shall apply to a futures commission merchant that does not accept any money, securities, or property (or extend credit in lieu thereof) to margin, guarantee, or secure any trades or contracts that result from soliciting or accepting orders for the purchase or sale of any commodity interest. (b) Definitions. For purposes of this section: (1) Business unit means any department, division, group, or personnel of a futures commission merchant or any of its affiliates, whether or not identified as such that: (i) Engages in soliciting or in accepting orders for the purchase or sale of any commodity interest and that, in or in connection with such solicitation or acceptance of orders, accepts any m"
+  },
+  "1.20": {
+   "title": "Futures customer funds to be segregated and separately accounted for.",
+   "refs": [
+    "1.11",
+    "1.49"
+   ],
+   "history": "[78 FR 68627, Nov. 14, 2013, as amended at 79 FR 26832, May 12, 2014; 81 FR 53267, Aug. 12, 2016; 85 FR 4850, Jan. 27, 2020; 90 FR 7867, 7933, Jan. 22, 2025]",
+   "amended_years": [
+    2013,
+    2014,
+    2016,
+    2020,
+    2025
+   ],
+   "text": "Futures customer funds to be segregated and separately accounted for. (a) General. A futures commission merchant must separately account for all futures customer funds and segregate such funds as belonging to its futures customers. A futures commission merchant shall deposit futures customer funds under an account name that clearly identifies them as futures customer funds and shows that such funds are segregated as required by sections 4d(a) and 4d(b) of the Act and by this part. A futures commission merchant must at all times maintain in the separate account or accounts money, securities and property in an amount at least sufficient in the aggregate to cover its total obligations to all futures customers as computed under paragraph (i) of this section. The futures commission merchant mus"
+  },
+  "190.06": {
+   "title": "Making and taking delivery under commodity contracts.",
+   "refs": [
+    "190.04",
+    "190.09"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Making and taking delivery under commodity contracts. (a) Deliveries \u2014(1) General. The provisions of this paragraph (a) apply to commodity contracts that settle upon expiration or exercise by making or taking delivery of physical delivery property, if such commodity contracts are in a delivery position on the filing date, or the trustee is unable to liquidate such commodity contracts in accordance with \u00a7 190.04(c) to prevent them from moving into a delivery position, i.e., before the debtor or its customer incurs bilateral contractual obligations to make or take delivery under such commodity contracts. (2) Delivery made or taken on behalf of a customer outside of the administration of the debtor's estate. (i) The trustee shall use reasonable efforts to allow a customer to deliver physical "
+  },
+  "190.16": {
+   "title": "Delivery.",
+   "refs": [
+    "190.06",
+    "190.00",
+    "190.19"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Delivery. (a) General. In the event that a commodity contract, cleared by the derivatives clearing organization, that settles upon expiration or exercise by making or taking delivery of physical delivery property, has moved into delivery position prior to the date and time of the order for relief, or moves into delivery position after that date and time, but before being terminated, liquidated, or transferred, then, in either such event, the trustee must use reasonable efforts to facilitate and cooperate with the completion of delivery on behalf of the clearing member or the clearing member's customer in a manner consistent with \u00a7 190.06(a) and the pro rata distribution principle addressed in \u00a7 190.00(c)(5). (b) Special provisions for delivery accounts. (1) Consistent with the separation o"
+  },
+  "1.3": {
+   "title": "Definitions.",
+   "refs": [
+    "31.4"
+   ],
+   "history": "[41 FR 3194, Jan. 21, 1976]",
+   "amended_years": [
+    1976
+   ],
+   "text": "Definitions. Words used in the singular form in the rules and regulations in this chapter shall be deemed to import the plural and vice versa, as the context may require. The following terms, as used in the Commodity Exchange Act, or in the rules and regulations in this chapter, shall have the meanings hereby assigned to them, unless the context otherwise requires: Agricultural commodity. This term means: (1) The following commodities specifically enumerated in the definition of a \u201ccommodity\u201d found in section 1a of the Act: Wheat, cotton, rice, corn, oats, barley, rye, flaxseed, grain sorghums, mill feeds, butter, eggs, Solanum tuberosum (Irish potatoes), wool, wool tops, fats and oils (including lard, tallow, cottonseed oil, peanut oil, soybean oil and all other fats and oils), cottonseed"
+  },
+  "30.1": {
+   "title": "Definitions.",
+   "refs": [
+    "1.3",
+    "30.6"
+   ],
+   "history": "[52 FR 28998, Aug. 5, 1987, as amended at 65 FR 47280, Aug. 2, 2000; 78 FR 68648, Nov. 14, 2013; 83 FR 7996, Feb. 23, 2018]",
+   "amended_years": [
+    1987,
+    2000,
+    2013,
+    2018
+   ],
+   "text": "Definitions. For the purposes of this part: (a) Foreign futures means any contract for the purchase or sale of any commodity for future delivery made, or to be made, on or subject to the rules of any foreign board of trade. (b) Foreign option means any transaction or agreement which is or is held out to be of the character of, or is commonly known to the trade as, an \u201coption\u201d, \u201cprivilege\u201d, \u201cindemnity\u201d, \u201cbid\u201d, \u201coffer\u201d, \u201cput\u201d, \u201ccall\u201d, \u201cadvance guaranty\u201d or \u201cdecline guaranty\u201d, made or to be made on or subject to the rules of any foreign board of trade. (c) Foreign futures or foreign options customer means any person located in the United States, its territories or possessions who trades in foreign futures or foreign options: Provided, That an owner or holder of a proprietary account as define"
+  },
+  "22.1": {
+   "title": "Definitions.",
+   "refs": [
+    "30.7",
+    "39.15"
+   ],
+   "history": "[77 FR 6371, Feb. 7, 2012, as amended at 77 FR 66334, Nov. 2, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Definitions. For the purposes of this part: Cleared Swap. This term refers to a transaction constituting a \u201ccleared swap\u201d within the meaning of section 1a(7) of the Act. (1) This term shall exclude any swap (along with money, securities, or other property received to margin, guarantee, or secure such a swap) that, pursuant to a Commission rule, regulation, or order, is (along with such money, securities, or other property) commingled with a commodity future or option (along with money, securities, or other property received to margin, guarantee, or secure such a future or option) that is segregated pursuant to section 4d(a) of the Act. (2) This term shall include any trade or contract (along with money, securities or other property received to margin, guarantee, or secure such a trade or c"
+  },
+  "39.15": {
+   "title": "Treatment of funds.",
+   "refs": [
+    "40.5",
+    "39.13",
+    "22.1",
+    "1.25"
+   ],
+   "history": "[76 FR 69430, Nov. 8, 2011, as amended at 85 FR 4856, Jan. 27, 2020; 88 FR 53683, Aug. 8, 2023]",
+   "amended_years": [
+    2011,
+    2020,
+    2023
+   ],
+   "text": "Treatment of funds. (a) Required standards and procedures. A derivatives clearing organization shall establish standards and procedures that are designed to protect and ensure the safety of funds and assets belonging to clearing members and their customers. (b) Customer funds \u2014 (1) Segregation. A derivatives clearing organization shall comply with the applicable segregation requirements of section 4d of the Act and Commission regulations in this part, or any other applicable Commission regulation in this chapter or order requiring that customer funds and assets, including money, securities, and property, be segregated, set aside, or held in a separate account. (2) Commingling. In order for a derivatives clearing organization and its clearing members to commingle customer positions in futur"
+  },
+  "190.07": {
+   "title": "Transfers.",
+   "refs": [
+    "1.17",
+    "190.01",
+    "1.65"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Transfers. (a) Transfer rules. No clearing organization or self-regulatory organization may adopt, maintain in effect, or enforce rules that: (1) Are inconsistent with the provisions of this part; (2) Interfere with the acceptance by its members of transfers of commodity contracts, and the property margining or securing such contracts, from futures commission merchants that are required to transfer accounts pursuant to \u00a7 1.17(a)(4) of this chapter; or (3) Interfere with the acceptance by its members of transfers of commodity contracts, and the property margining or securing such contracts, from a futures commission merchant that is a debtor as defined in \u00a7 190.01, if such transfers have been approved by the Commission, provided, however, that this paragraph (a)(3) shall not\u2014 (i) Limit the "
+  },
+  "1.52": {
+   "title": "Self-regulatory organization adoption and surveillance of minimum financial requirements.",
+   "refs": [
+    "1.3",
+    "1.10",
+    "5.7",
+    "1.17",
+    "1.11"
+   ],
+   "history": "[78 FR 68638, Nov. 14, 2013, as amended at 83 FR 7995, Feb. 23, 2018; 84 FR 12892, Apr. 3, 2019]",
+   "amended_years": [
+    2013,
+    2018,
+    2019
+   ],
+   "text": "Self-regulatory organization adoption and surveillance of minimum financial requirements. (a) For purposes of this section, the following terms are defined as follows: (1) Examinations expert is defined as a Nationally recognized accounting and auditing firm with substantial expertise in audits of futures commission merchants, risk assessment and internal control reviews, and is an accounting and auditing firm that is acceptable to the Commission; and (2) Self-regulatory organization means a contract market (as defined in \u00a7 1.3) or a registered futures association under section 17 of the Act. The term \u201cself-regulatory organization\u201d for purpose of this section does not include a swap execution facility (as defined in \u00a7 1.3). (b)(1) Each self-regulatory organization must adopt rules prescrib"
+  },
+  "1.10": {
+   "title": "Financial reports of futures commission merchants and introducing brokers.",
+   "refs": [
+    "1.16"
+   ],
+   "history": "[43 FR 39967, Sept. 8, 1978]",
+   "amended_years": [
+    1978
+   ],
+   "text": "Financial reports of futures commission merchants and introducing brokers. (a) Application for registration. (1) Except as otherwise provided, a futures commission merchant or an applicant for registration as a futures commission merchant, in order to satisfy any requirement in this part that it file a Form 1-FR, must file a Form 1-FR-FCM, and any reference in this part to Form 1-FR with respect to a futures commission merchant or applicant therefor shall be deemed to be a reference to Form 1-FR-FCM. Except as otherwise provided, an introducing broker or an applicant for registration as an introducing broker, in order to satisfy any requirement in this part that it file a Form 1-FR, must file a Form 1-FR-IB, and any reference in this part to Form 1-FR with respect to an introducing broker "
+  },
+  "22.2": {
+   "title": "Futures Commission Merchants: Treatment of Cleared Swaps and Associated Cleared Swaps Customer Collateral.",
+   "refs": [
+    "22.4",
+    "1.3",
+    "30.1",
+    "39.15",
+    "22.3",
+    "1.25"
+   ],
+   "history": "[77 FR 6371, Feb. 7, 2012, as amended at 77 FR 66334, Nov. 2, 2012; 78 FR 68645, Nov. 14, 2013; 90 FR 7873, 7937, Jan. 22, 2025]",
+   "amended_years": [
+    2012,
+    2013,
+    2025
+   ],
+   "text": "Futures Commission Merchants: Treatment of Cleared Swaps and Associated Cleared Swaps Customer Collateral. (a) General. A futures commission merchant shall treat and deal with the Cleared Swaps of Cleared Swaps Customers and associated Cleared Swaps Customer Collateral as belonging to Cleared Swaps Customers. (b) Location of Cleared Swaps Customer Collateral. (1) A futures commission merchant must segregate all Cleared Swaps Customer Collateral that it receives, and must either hold such Cleared Swaps Customer Collateral itself as set forth in paragraph (b)(2) of this section, or deposit such collateral into one or more Cleared Swaps Customer Accounts held at a Permitted Depository, as set forth in paragraph (b)(3) of this section. (2) If a futures commission merchant holds Cleared Swaps C"
+  },
+  "30.7": {
+   "title": "Treatment of foreign futures or foreign options secured amount.",
+   "refs": [
+    "1.25"
+   ],
+   "history": "[78 FR 68648, Nov. 14, 2013, as amended at 79 FR 44126, July 30, 2014; 89 FR 71811, Sept. 4, 2024; 90 FR 7873, 7938, Jan. 22, 2025]",
+   "amended_years": [
+    2013,
+    2014,
+    2024,
+    2025
+   ],
+   "text": "Treatment of foreign futures or foreign options secured amount. (a) General. Except as provided in this section, a futures commission merchant must at all times maintain in a separate account or accounts money, securities and property in an amount at least sufficient to cover or satisfy all of its obligations to 30.7 customers denominated as the foreign futures or foreign options secured amount. In computing the foreign futures or foreign options secured amount, a futures commission merchant may offset any net deficit in a particular 30.7 customer's account against the current market value of readily marketable securities held for the same particular 30.7 customer's account as provided for in paragraph (l) of this section. The amount that must be deposited in such separate account or accou"
+  },
+  "1.49": {
+   "title": "Denomination of customer funds and location of depositories.",
+   "refs": [
+    "1.20"
+   ],
+   "history": "[68 FR 5551, Feb. 4, 2003, as amended at 76 FR 44264, July 25, 2011; 77 FR 66330, Nov. 2, 2012]",
+   "amended_years": [
+    2003,
+    2011,
+    2012
+   ],
+   "text": "Denomination of customer funds and location of depositories. (a) Definitions. For purposes of this section: (1) Money center country. This term means Canada, France, Italy, Germany, Japan, and the United Kingdom. (2) Money center currency. This term means the currency of any money center country and the Euro. (b) Permissible denominations of obligations. (1) Subject to the terms and conditions set forth in this section, a futures commission merchant's obligations to a customer shall be denominated: (i) In the United States dollar; (ii) In a currency in which funds were deposited by the customer or were converted at the request of the customer, to the extent of such deposits and conversions; or (iii) In a currency in which funds have accrued to the customer as a result of trading conducted "
+  },
+  "190.00": {
+   "title": "Statutory authority, organization, core concepts, scope, and construction.",
+   "refs": [
+    "39.3",
+    "190.01"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Statutory authority, organization, core concepts, scope, and construction. (a) Statutory authority. The Commission has adopted the regulations in this part pursuant to its authority under sections 8a(5) and 20 of the Act. Section 8a(5) provides general rulemaking authority to effectuate the provisions and accomplish the purposes of the Act. Section 20 provides that the Commission may, notwithstanding title 11 of the United States Code, adopt certain rules or regulations governing a proceeding involving a commodity broker that is a debtor under subchapter IV of chapter 7 of the Bankruptcy Code. Specifically, the Commission is authorized to adopt rules or regulations specifying: (1) That certain cash, securities, or other property, or commodity contracts, are to be included in or excluded fr"
+  },
+  "190.19": {
+   "title": "Support of daily settlement.",
+   "refs": [
+    "39.14",
+    "39.16",
+    "39.35",
+    "39.39",
+    "39.19",
+    "1.3"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Support of daily settlement. (a) Notwithstanding any other provision of this part, funds received (whether from clearing members' house or customer accounts) by a debtor clearing organization as part of the daily settlement required pursuant to \u00a7 39.14 of this chapter shall, upon and after an order for relief, be included as customer property that is reserved for and traceable to, and promptly shall be distributed to, members entitled to payments of such funds with respect to such members' house and customer accounts as part of that same daily settlement. Such funds when received, other than deposits of initial margin described in \u00a7 39.14(a)(1)(iii) of this chapter, shall be considered member property and, separately, customer property other than member property, in proportion to the ratio"
+  },
+  "31.4": {
+   "title": "Definitions.",
+   "refs": [
+    "31.11"
+   ],
+   "history": "[49 FR 5527, Feb. 13, 1984, as amended at 49 FR 25428, June 21, 1984; 50 FR 26, Jan. 2, 1985; 50 FR 36414, Sept. 6, 1985; 54 FR 41078, Oct. 5, 1989]",
+   "amended_years": [
+    1984,
+    1985,
+    1989
+   ],
+   "text": "Definitions. For the purposes of this part: (a)-(b) [Reserved] (c) Promotional material includes: (1) Any text of a standard oral presentation, or any communication for publication in any newspaper, magazine or similar medium or for broadcast over television, radio, or other electronic medium which is disseminated or directed to a leverage customer or prospective leverage customer; (2) Any standardized form of report, letter, circular, memorandum, or publication which is disseminated or directed to a leverage customer or prospective leverage customer; or (3) Any other written literature or advice disseminated or directed to a leverage customer or prospective leverage customer for the purpose of soliciting the entry into a leverage contract; (d) Leverage customer means any person who, direc"
+  },
+  "30.6": {
+   "title": "Disclosure.",
+   "refs": [
+    "1.65",
+    "1.55",
+    "4.7",
+    "30.5",
+    "30.4",
+    "4.24",
+    "4.34",
+    "4.21",
+    "4.26",
+    "4.31",
+    "4.36",
+    "1.31",
+    "33.7"
+   ],
+   "history": "[52 FR 28998, Aug. 5, 1987, as amended at 58 FR 17505, Apr. 5, 1993; 60 FR 38193, July 25, 1995; 63 FR 8571, Feb. 20, 1998; 64 FR 28914, May 28, 1999; 65 FR 47859, Aug. 4, 2000; 89 FR 78814, Sept. 26, 2024]",
+   "amended_years": [
+    1987,
+    1993,
+    1995,
+    1998,
+    1999,
+    2000,
+    2024
+   ],
+   "text": "Disclosure. (a) Future commission merchants and introducing brokers. Except as provided in \u00a7 1.65 of this chapter, no futures commission merchant, or in the case of an introduced account no introducing broker, may open a foreign futures or option account for a foreign futures or option customer, other than for a customer specified in \u00a7 1.55(f) of this chapter, unless the futures commission merchant or introducing broker first furnishes the customer with a separate written disclosure statement containing only the language set forth in \u00a7 1.55(b) of this chapter or as otherwise approved under \u00a7 155(c) of this chapter (except for nonsubstantive additions such as captions), which has been acknowledged in accordance with \u00a7 1.55 of this chapter: Provided, however, that the risk disclosure stateme"
+  },
+  "40.5": {
+   "title": "Voluntary submission of rules for Commission review and approval.",
+   "refs": [
+    "40.2",
+    "40.8",
+    "40.4"
+   ],
+   "history": "[76 FR 44790, July 27, 2011, as amended at 89 FR 88625, Nov. 7, 2024; 89 FR 96897, Dec. 6, 2024]",
+   "amended_years": [
+    2011,
+    2024
+   ],
+   "text": "Voluntary submission of rules for Commission review and approval. (a) Request for approval of rules. Pursuant to section 5c(c) of the Act, a registered entity may request that the Commission approve a new rule or rule amendment prior to implementation of the rule, or if the rule or rule amendment was initially submitted under \u00a7 40.2 or 40.6, subsequent to implementation of the rule. A request for approval shall: (1) Be filed electronically in a format and manner specified by the Commission; (2) Include the information required by appendix D to this part; (3) Set forth the text of the rule or rule amendment (in the case of a rule amendment, deletions and additions must be indicated); (4) Describe the proposed effective date of the rule or rule amendment and any action taken or anticipated t"
+  },
+  "39.13": {
+   "title": "Risk management.",
+   "refs": [
+    "39.15"
+   ],
+   "history": "[76 FR 69430, Nov. 8, 2011, as amended at 85 FR 4855, Jan. 27, 2020; 85 FR 35805, June 12, 2020; 88 FR 53682, Aug. 8, 2023; 90 FR 7939, Jan. 22, 2025]",
+   "amended_years": [
+    2011,
+    2020,
+    2023,
+    2025
+   ],
+   "text": "Risk management. (a) General. A derivatives clearing organization shall ensure that it possesses the ability to manage the risks associated with discharging the responsibilities of the derivatives clearing organization through the use of appropriate tools and procedures. (b) Risk management framework. A derivatives clearing organization shall have and implement written policies, procedures, and controls, approved by its board of directors, that establish an appropriate risk management framework that, at a minimum, clearly identifies and documents the range of risks to which the derivatives clearing organization is exposed, addresses the monitoring and management of the entirety of those risks, and provides a mechanism for internal audit. The risk management framework shall be regularly rev"
+  },
+  "1.25": {
+   "title": "Investment of customer funds.",
+   "refs": [
+    "190.01"
+   ],
+   "history": "[76 FR 78798, Dec. 19, 2011, as amended at 77 FR 66322, Nov. 2, 2012; 78 FR 68633, Nov. 14, 2013; 86 FR 19419, Apr. 13, 2021; 90 FR 7867, Jan. 22, 2025]",
+   "amended_years": [
+    2011,
+    2012,
+    2013,
+    2021,
+    2025
+   ],
+   "text": "Investment of customer funds. (a) Permitted investments. (1) Subject to the terms and conditions set forth in this section, a futures commission merchant or a derivatives clearing organization may invest customer money in the following instruments (permitted investments): (i) Obligations of the United States and obligations fully guaranteed as to principal and interest by the United States (U.S. government securities); (ii) General obligations of any State or of any political subdivision thereof (municipal securities); (iii) Obligations of any United States government corporation or enterprise sponsored by the United States government (U.S. agency obligations); (iv) Interests in government money market funds as defined in \u00a7 270.2a-7 of this title, provided that the government money market "
+  },
+  "1.65": {
+   "title": "Notice of bulk transfers and disclosure obligations to customers.",
+   "refs": [
+    "1.55",
+    "33.7",
+    "1.10"
+   ],
+   "history": "[58 FR 17504, Apr. 5, 1993, as amended at 60 FR 49334, Sept. 25, 1995; 63 FR 8571, Feb. 20, 1998; 67 FR 62351, Oct. 7, 2002; 78 FR 22419, Apr. 16, 2013; 85 FR 57547, Sept. 15, 2020; 86 FR 19420, Apr. 13, 2021]",
+   "amended_years": [
+    1993,
+    1995,
+    1998,
+    2002,
+    2013,
+    2020,
+    2021
+   ],
+   "text": "Notice of bulk transfers and disclosure obligations to customers. (a) Notice and Disclosure to Customers. (1) Prior to transferring a customer account to another futures commission merchant or introducing broker other than at the request of the customer, a futures commission merchant or introducing broker must obtain the customer's specific consent to the transfer. (2) If the customer account agreement contains a valid consent by the customer to prospective transfers of the account, the transferor futures commission merchant or introducing broker may transfer the account if the customer is provided with written notice of, and a reasonable opportunity to object to, the transfer and the customer has not asserted an objection to the transfer or given other instructions as to the disposition o"
+  },
+  "5.7": {
+   "title": "Minimum financial requirements for retail foreign exchange dealers and futures commission merchants offering or engaging",
+   "refs": [
+    "1.17",
+    "1.49"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Minimum financial requirements for retail foreign exchange dealers and futures commission merchants offering or engaging in retail forex transactions. (a)(1)(i) Each futures commission merchant offering or engaging in retail forex transactions and each retail foreign exchange dealer must maintain adjusted net capital equal to or in excess of the greatest of: (A) $20,000,000; (B) $20,000,000 plus five percent of the futures commission merchant's or retail foreign exchange dealer's total retail forex obligation in excess of $10,000,000; (C) any amount required under \u00a7 1.17 of this chapter, as applicable; or (D) the amount of adjusted net capital required by a registered futures association of which the futures commission merchant or retail foreign exchange dealer is a member. (ii) Section 1."
+  },
+  "1.16": {
+   "title": "Qualifications and reports of accountants.",
+   "refs": [
+    "1.3",
+    "30.1"
+   ],
+   "history": "[43 FR 39970, Sept. 8, 1978, as amended at 46 FR 54516, Nov. 3, 1981; 46 FR 63035, Dec. 30, 1981; 48 FR 35284, Aug. 3, 1983; 49 FR 39526, Oct. 9, 1984; 52 FR 28995, Aug. 5, 1987; 53 FR 4612, Feb. 17, 1988; 69 FR 41426, July 9, 2004; 69 FR 49798, Aug. 12, 2004; 71 FR 5593, Feb. 2, 2006; 77 FR 66320, ",
+   "amended_years": [
+    1978,
+    1981,
+    1983,
+    1984,
+    1987,
+    1988,
+    2004,
+    2006
+   ],
+   "text": "Qualifications and reports of accountants. (a) Definitions\u2014 (1) Accountant's report. The term \u201caccountant's report,\u201d when used in regard to financial statements and schedules, means a document in which an independent licensed or certified public accountant indicates the scope of the audit (or examination) which he has made and sets forth his opinion regarding the financial statements and schedules taken as a whole or an assertion to the fact that an overall opinion cannot be expressed. When an overall opinion cannot be expressed, the reasons therefore must be stated. (2) Audit or examination. The terms \u201caudit\u201d and \u201cexamination,\u201d when used in regard to financial statements and schedules, mean an examination of the statements and schedules by an accountant in accordance with generally accept"
+  },
+  "22.4": {
+   "title": "Futures Commission Merchants and derivatives clearing organizations: Permitted Depositories.",
+   "refs": [
+    "22.9",
+    "22.5"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Futures Commission Merchants and derivatives clearing organizations: Permitted Depositories. In order for a depository to be a Permitted Depository: (a) The depository must (subject to \u00a7 22.9) be one of the following types of entities: (1) A bank located in the United States; (2) A trust company located in the United States; (3) A Collecting Futures Commission Merchant registered with the Commission (but only with respect to a Depositing Futures Commission Merchant providing Cleared Swaps Customer Collateral); or (4) A derivatives clearing organization registered with the Commission; and (b) The futures commission merchant or the derivatives clearing organization must hold a written acknowledgment letter from the depository as required by \u00a7 22.5 of this part."
+  },
+  "22.3": {
+   "title": "Derivatives clearing organizations: Treatment of cleared swaps customer collateral.",
+   "refs": [
+    "22.4",
+    "1.3",
+    "39.15",
+    "22.15",
+    "1.25"
+   ],
+   "history": "[77 FR 6371, Feb. 7, 2012, as amended at 77 FR 66334, Nov. 2, 2012; 90 FR 7873, Jan. 22, 2025]",
+   "amended_years": [
+    2012,
+    2025
+   ],
+   "text": "Derivatives clearing organizations: Treatment of cleared swaps customer collateral. (a) General. A derivatives clearing organization shall treat and deal with the Cleared Swaps Customer Collateral deposited by a futures commission merchant as belonging to the Cleared Swaps Customers of such futures commission merchant and not other persons, including, without limitation, the futures commission merchant. (b) Location of Cleared Swaps Customer Collateral. (1) The derivatives clearing organization must segregate all Cleared Swaps Customer Collateral that it receives from futures commission merchants, and must either hold such Cleared Swaps Customer Collateral itself as set forth in paragraph (b)(2) of this section, or deposit such collateral into one or more Cleared Swaps Customer Accounts he"
+  },
+  "39.3": {
+   "title": "Procedures for registration.",
+   "refs": [
+    "145.9"
+   ],
+   "history": "[76 FR 69430, Nov. 8, 2011, as amended at 85 FR 4851, Jan. 27, 2020; 85 FR 67186, Oct. 21, 2020]",
+   "amended_years": [
+    2011,
+    2020
+   ],
+   "text": "Procedures for registration. (a) Application for registration \u2014(1) General procedure. An entity seeking to register as a derivatives clearing organization shall file an application for registration with the Secretary of the Commission in the format and manner specified by the Commission. The Commission will review the application for registration as a derivatives clearing organization pursuant to the 180-day timeframe and procedures specified in section 6(a) of the Act, and may approve or deny the application. If the Commission approves the application, the Commission will register the applicant as a derivatives clearing organization subject to conditions as appropriate. (2) Application. Any entity seeking to register as a derivatives clearing organization shall submit to the Commission a "
+  },
+  "39.14": {
+   "title": "Settlement procedures.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Settlement procedures. (a) Definitions \u2014(1) Settlement. For purposes of this section, \u201csettlement\u201d means: (i) Payment and receipt of variation margin for futures, options, and swaps; (ii) Payment and receipt of option premiums; (iii) Deposit and withdrawal of initial margin for futures, options, and swaps; (iv) All payments due in final settlement of futures, options, and swaps on the final settlement date with respect to such positions; and (v) All other cash flows collected from or paid to each clearing member, including but not limited to, payments related to swaps such as coupon amounts. (2) Settlement bank. For purposes of this section, \u201csettlement bank\u201d means a bank that maintains an account either for the derivatives clearing organization or for any of its clearing members, which is"
+  },
+  "39.16": {
+   "title": "Default rules and procedures.",
+   "refs": [
+    "39.21"
+   ],
+   "history": "[76 FR 69430, Nov. 8, 2011, as amended at 85 FR 4857, Jan. 27, 2020]",
+   "amended_years": [
+    2011,
+    2020
+   ],
+   "text": "Default rules and procedures. (a) General. A derivatives clearing organization shall have rules and procedures designed to allow for the efficient, fair, and safe management of events during which clearing members become insolvent or default on the obligations of such clearing members to the derivatives clearing organization. (b) Default management plan. A derivatives clearing organization shall maintain a current written default management plan that delineates the roles and responsibilities of its board of directors, its risk management committee, any other committee that a derivatives clearing organization may have that has responsibilities for default management, and the derivatives clearing organization's management, in addressing a default, including any necessary coordination with, o"
+  },
+  "39.35": {
+   "title": "Default rules and procedures for uncovered credit losses or liquidity shortfalls (recovery) for systemically important d",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Default rules and procedures for uncovered credit losses or liquidity shortfalls (recovery) for systemically important derivatives clearing organizations and subpart C derivatives clearing organizations. (a) Allocation of uncovered credit losses. Each systemically important derivatives clearing organization and subpart C derivatives clearing organization shall adopt explicit rules and procedures that address fully any loss arising from any individual or combined default relating to any clearing members' obligations to the systemically important derivatives clearing organization or subpart C derivatives clearing organization. Such rules and procedures shall address how the systemically important derivatives clearing organization or subpart C derivatives clearing organization would: (1) Allo"
+  },
+  "39.39": {
+   "title": "Recovery and wind-down for systemically important derivatives clearing organizations and subpart C derivatives clearing ",
+   "refs": [
+    "39.11"
+   ],
+   "history": "[76 FR 69430, Nov. 8, 2011, as amended at 85 FR 4862, Jan. 27, 2020]",
+   "amended_years": [
+    2011,
+    2020
+   ],
+   "text": "Recovery and wind-down for systemically important derivatives clearing organizations and subpart C derivatives clearing organizations. (a) Definitions. For purposes of this section: (1) General business risk means any potential impairment of a systemically important derivatives clearing organization's or subpart C derivatives clearing organization's financial position, as a business concern, as a consequence of a decline in its revenues or an increase in its expenses, such that expenses exceed revenues and result in a loss that the derivatives clearing organization must charge against capital. (2) Wind-down means the actions of a systemically important derivatives clearing organization or subpart C derivatives clearing organization to effect the permanent cessation or sale or transfer of o"
+  },
+  "39.19": {
+   "title": "Reporting.",
+   "refs": [
+    "39.13",
+    "39.11",
+    "39.10",
+    "39.33"
+   ],
+   "history": "[76 FR 69430, Nov. 8, 2011, as amended at 85 FR 4858, Jan. 27, 2020; 88 FR 53683, Aug. 8, 2023]",
+   "amended_years": [
+    2011,
+    2020,
+    2023
+   ],
+   "text": "Reporting. (a) General. A derivatives clearing organization shall provide to the Commission the information specified in this section and any other information that the Commission determines to be necessary to conduct oversight of the derivatives clearing organization. (b) Submission of reports \u2014(1) General requirement. A derivatives clearing organization shall submit the information required by this section to the Commission in a format and manner specified by the Commission. (2) Certification. When making a submission pursuant to this section, an employee of the derivatives clearing organization must certify that he or she is duly authorized to make such a submission on behalf of the derivatives clearing organization. (3) Time zones. Unless otherwise specified by the Commission or its de"
+  },
+  "31.11": {
+   "title": "Disclosure.",
+   "refs": [],
+   "history": "[49 FR 5532, Feb. 13, 1984; 49 FR 25427, June 21, 1984, as amended at 50 FR 29, Jan. 2, 1985; 50 FR 36415, Sept. 6, 1985; 54 FR 41080, Oct. 5, 1989; 54 FR 46503, Nov. 3, 1989]",
+   "amended_years": [
+    1984,
+    1985,
+    1989
+   ],
+   "text": "Disclosure. (a) Except as provided in paragraph (i) of this section, prior to the opening of a leverage customer account, a leverage transaction merchant soliciting an order for any leverage contract shall furnish to the prospective leverage customer a dated Disclosure Document and receive from such prospective leverage customer a signed and dated copy of the risk disclosure statement contained in such document which acknowledges that the customer received and understood the Disclosure Document. The Disclosure Document shall contain then current information with respect to the leverage contract being offered by the person soliciting the order therefor, and shall contain: (1) The following bold-faced risk disclosure statement in at least ten-point type on the first page of the Disclosure Do"
+  },
+  "1.55": {
+   "title": "Public disclosures by futures commission merchants.",
+   "refs": [],
+   "history": "[43 FR 31890, July 24, 1978]",
+   "amended_years": [
+    1978
+   ],
+   "text": "Public disclosures by futures commission merchants. (a)(1) Except as provided in 1.65, no futures commission merchant, or in the case of an introduced account no introducing broker, may open a commodity futures account for a customer, other than for a customer specified in paragraph (f) of this section, unless the futures commission merchant or introducing broker first: (i) Furnishes the customer with a separate written disclosure statement containing only the language set forth in paragraph (b) of this section (except for nonsubstantive additions such as captions) or as otherwise approved under paragraph (c) of this section; Provided, however, that the disclosure statement may be attached to other documents as the cover page or the first page of such documents and as the only material on "
+  },
+  "4.7": {
+   "title": "Exemption from certain part 4 requirements for commodity pool operators with respect to offerings to qualified eligible ",
+   "refs": [
+    "5.1"
+   ],
+   "history": "[65 FR 47854, Aug. 4, 2000, as amended at 67 FR 77411, Dec. 18, 2002; 68 FR 47231, Aug. 8, 2003; 71 FR 8942, Feb. 22, 2006; 72 FR 1662, Jan. 16, 2007; 74 FR 57590, Nov. 9, 2009; 75 FR 55428, Sept. 10, 2010; 77 FR 11284, Feb. 24, 2012; 77 FR 17329, Mar. 26, 2012; 77 FR 54358, Sept. 5, 2012; 78 FR 523",
+   "amended_years": [
+    2000,
+    2002,
+    2003,
+    2006,
+    2007,
+    2009,
+    2010,
+    2012
+   ],
+   "text": "Exemption from certain part 4 requirements for commodity pool operators with respect to offerings to qualified eligible persons and for commodity trading advisors with respect to advising qualified eligible persons. This section is organized as follows: Paragraph (a) contains definitions for the purposes of \u00a7 4.7; paragraph (b) contains the relief available to commodity pool operators under \u00a7 4.7; paragraph (c) contains the relief available to commodity trading advisors under \u00a7 4.7; paragraph (d) concerns the Notice of Claim for Exemption under \u00a7 4.7; and paragraph (e) addresses the effect of an insignificant deviation from a term, condition or requirement of \u00a7 4.7. (a) Definitions. (1) Affiliate of, or a person affiliated with, a specified person means a person that directly or indirectly"
+  },
+  "30.5": {
+   "title": "Alternative procedures for non-domestic persons.",
+   "refs": [
+    "30.10",
+    "30.3",
+    "30.6",
+    "1.37"
+   ],
+   "history": "[52 FR 28998, Aug. 5, 1987, as amended at 64 FR 28914, May 28, 1999; 68 FR 40499, July 8, 2003]",
+   "amended_years": [
+    1987,
+    1999,
+    2003
+   ],
+   "text": "Alternative procedures for non-domestic persons. Any person not located in the United States, its territories or possessions, who is required in accordance with the provisions of this part to be registered with the Commission, other than a person required to be registered as a futures commission merchant, may apply for an exemption from registration under this part by filing with the National Futures Association a Form 7-R completed and filed in accordance with the instructions thereto and designating an agent for service of process, as specified below. A person who receives confirmation of an exemption pursuant to this section must engage in all transactions subject to regulation under part 30 through a registered futures commission merchant or a foreign broker who has received confirmati"
+  },
+  "30.4": {
+   "title": "Registration required.",
+   "refs": [
+    "30.5",
+    "30.1",
+    "1.3",
+    "30.10"
+   ],
+   "history": "[52 FR 28998, Aug. 5, 1987, as amended at 69 FR 49803, Aug. 12, 2004; 83 FR 7996, Feb. 23, 2018]",
+   "amended_years": [
+    1987,
+    2004,
+    2018
+   ],
+   "text": "Registration required. Except as provided in \u00a7 30.5 of this part, it shall be unlawful for any person, with respect to a foreign futures or foreign options customer: (a) To solicit or accept orders for or involving any foreign futures contract or foreign options transaction and, in connection therewith, to accept any money, securities or property (or extend credit in lieu thereof) to margin, guarantee or secure any trades or contracts that result or may result therefrom, unless such person shall have registered, under the Act, with the Commission as a futures commission merchant and such registration shall not have expired nor been suspended nor revoked; provided that, a foreign futures and options broker (as defined in \u00a7 30.1(e)) is not required to register as a futures commission merchan"
+  },
+  "4.24": {
+   "title": "General disclosures required.",
+   "refs": [],
+   "history": "[60 FR 38183, July 25, 1995, as amended at 63 FR 58303, Oct. 30, 1998; 66 FR 53522, Oct. 23, 2001; 75 FR 55429, Sept. 10, 2010; 76 FR 44264, July 25, 2011; 77 FR 11285, Feb. 24, 2012; 77 FR 17330, Mar. 26, 2012; 77 FR 54358, Sept. 5, 2012]",
+   "amended_years": [
+    1995,
+    1998,
+    2001,
+    2010,
+    2011,
+    2012
+   ],
+   "text": "General disclosures required. Except as otherwise provided herein, a Disclosure Document must include the following information. (a) Cautionary Statement. The following Cautionary Statement must be prominently displayed on the cover page of the Disclosure Document. THE COMMODITY FUTURES TRADING COMMISSION HAS NOT PASSED UPON THE MERITS OF PARTICIPATING IN THIS POOL NOR HAS THE COMMISSION PASSED ON THE ADEQUACY OR ACCURACY OF THIS DISCLOSURE DOCUMENT. (b) Risk Disclosure Statement. (1) The following Risk Disclosure Statement must be prominently displayed immediately following any disclosures required to appear on the cover page of the Disclosure Document as provided by the Commission, by any applicable federal or state securities laws and regulations or by any applicable laws of non-United "
+  },
+  "4.34": {
+   "title": "General disclosures required.",
+   "refs": [],
+   "history": "[60 FR 38189, July 25, 1995, as amended at 66 FR 53522, Oct. 23, 2001; 75 FR 55430, Sept. 10, 2010; 77 FR 11285, Feb. 24, 2012; 77 FR 17330, Mar. 26, 2012; 77 FR 54359, Sept. 5, 2012]",
+   "amended_years": [
+    1995,
+    2001,
+    2010,
+    2012
+   ],
+   "text": "General disclosures required. Except as otherwise provided herein, a Disclosure Document must include the following information. (a) Cautionary Statement. The following Cautionary Statement must be prominently displayed on the cover page of the Disclosure Document: THE COMMODITY FUTURES TRADING COMMISSION HAS NOT PASSED UPON THE MERITS OF PARTICIPATING IN THIS TRADING PROGRAM NOR HAS THE COMMISSION PASSED ON THE ADEQUACY OR ACCURACY OF THIS DISCLOSURE DOCUMENT. (b) Risk Disclosure Statement. (1) The following Risk Disclosure Statement must be prominently displayed immediately following any disclosures required to appear on the cover page of the Disclosure Document as provided by the Commission, by any applicable federal or state securities laws and regulations or by any applicable laws of "
+  },
+  "4.21": {
+   "title": "Required delivery of pool Disclosure Document.",
+   "refs": [
+    "4.24",
+    "4.7",
+    "4.12"
+   ],
+   "history": "[60 FR 38183, July 25, 1995, as amended at 62 FR 39115, July 22, 1997; 65 FR 58649, Oct. 2, 2000; 68 FR 47234, Aug. 8, 2003; 78 FR 52333, Aug. 22, 2013; 89 FR 78813, Sept. 26, 2024]",
+   "amended_years": [
+    1995,
+    1997,
+    2000,
+    2003,
+    2013,
+    2024
+   ],
+   "text": "Required delivery of pool Disclosure Document. (a)(1) Subject to the provisions of paragraph (a)(2) of this section, each commodity pool operator registered or required to be registered under the Act must deliver or cause to be delivered to a prospective participant in a pool that it operates or intends to operate a Disclosure Document for the pool prepared in accordance with \u00a7\u00a7 4.24 and 4.25 by no later than the time it delivers to the prospective participant a subscription agreement for the pool; Provided, That any information distributed in advance of the delivery of the Disclosure Document to a prospective participant is consistent with or amended by the information contained in the Disclosure Document and with the obligations of the commodity pool operator under the Act, the Commissio"
+  },
+  "4.26": {
+   "title": "Use, amendment and filing of Disclosure Document.",
+   "refs": [
+    "4.22",
+    "4.8"
+   ],
+   "history": "[60 FR 38188, July 25, 1995, as amended at 62 FR 18268, Apr. 15, 1997; 65 FR 58649, Oct. 2, 2000; 67 FR 42710, June 25, 2002; 67 FR 77411, Dec. 18, 2002; 68 FR 12584, Mar. 17, 2003; 74 FR 9569, Mar. 5, 2009; 78 FR 52335, Aug. 22, 2013]",
+   "amended_years": [
+    1995,
+    1997,
+    2000,
+    2002,
+    2003,
+    2009,
+    2013
+   ],
+   "text": "Use, amendment and filing of Disclosure Document. (a)(1) Subject to paragraph (c) of this section, all information contained in the Disclosure Document and, where used, profile document, must be current as of the date of the Document; Provided, however, that performance information may be current as of a date not more than three months prior to the date of the Document. (2) No commodity pool operator may use a Disclosure Document or profile document dated more than twelve months prior to the date of its use. (b) The commodity pool operator must attach to the Disclosure Document the most current Account Statement and Annual Report for the pool required to be distributed in accordance with \u00a7 4.22; provided, however, that in lieu of the most current Account Statement the commodity pool operat"
+  },
+  "4.31": {
+   "title": "Required delivery of Disclosure Document to prospective clients.",
+   "refs": [
+    "4.34",
+    "4.33"
+   ],
+   "history": "[60 FR 38189, July 25, 1995, as amended at 62 FR 39115, July 22, 1997; 68 FR 47235, Aug. 8, 2003; 68 FR 59114, Oct. 14, 2003]",
+   "amended_years": [
+    1995,
+    1997,
+    2003
+   ],
+   "text": "Required delivery of Disclosure Document to prospective clients. (a) Each commodity trading advisor registered or required to be registered under the Act must deliver or cause to be delivered to a prospective client a Disclosure Document containing the information set forth in \u00a7\u00a7 4.34 and 4.35 for the trading program pursuant to which the trading advisor seeks to direct the client's commodity interest account or to guide the client's commodity interest trading by means of a systematic program that recommends specific transactions by no later than the time the trading advisor delivers to the prospective client an advisory agreement to direct or guide the client's account; Provided, That any information distributed in advance of the delivery of the Disclosure Document to a prospective client"
+  },
+  "4.36": {
+   "title": "Use, amendment and filing of Disclosure Document.",
+   "refs": [],
+   "history": "[60 FR 38192, July 25, 1995, as amended at 62 FR 18268, Apr. 15, 1997; 65 FR 58650, Oct. 2, 2000; 67 FR 77411, Dec. 18, 2002; 74 FR 9569, Mar. 5, 2009; 78 FR 52335, Aug. 22, 2013]",
+   "amended_years": [
+    1995,
+    1997,
+    2000,
+    2002,
+    2009,
+    2013
+   ],
+   "text": "Use, amendment and filing of Disclosure Document. (a) Subject to paragraph (c) of this section, all information contained in the Disclosure Document must be current as of the date of the Document; Provided, however, that performance information must be current as of a date not more than three months preceding the date of the Document. (b) No commodity trading advisor may use a Disclosure Document dated more than twelve months prior to the date of its use. (c)(1) If the commodity trading advisor knows or should know that the Disclosure Document is materially inaccurate or incomplete in any respect, it must correct that defect and must distribute the correction to: (i) All existing clients in the trading program within 21 calendar days of the date upon which the trading advisor first knows o"
+  },
+  "1.31": {
+   "title": "Regulatory records; retention and production.",
+   "refs": [
+    "23.200",
+    "23.202"
+   ],
+   "history": "[82 FR 24486, May 30, 2017]",
+   "amended_years": [
+    2017
+   ],
+   "text": "Regulatory records; retention and production. (a) Definitions. For purposes of this section: Electronic regulatory records means all regulatory records other than regulatory records exclusively created and maintained by a records entity on paper. Records entity means any person required by the Act or Commission regulations in this chapter to keep regulatory records. Regulatory records means all books and records required to be kept by the Act or Commission regulations in this chapter, including any record of any correction or other amendment to such books and records, provided that, with respect to such books and records stored electronically, regulatory records shall also include: (i) Any data necessary to access, search, or display any such books and records; and (ii) All data produced a"
+  },
+  "33.7": {
+   "title": "Disclosure.",
+   "refs": [
+    "1.65",
+    "1.55",
+    "1.31"
+   ],
+   "history": "[46 FR 54529, Nov. 3, 1981, as amended at 46 FR 63036, Dec. 30, 1981; 48 FR 35302, Aug. 3, 1983; 49 FR 44893, Nov. 13, 1984; 51 FR 17475, May 13, 1986; 58 FR 17505, Apr. 5, 1993; 59 FR 34381, July 5, 1994; 63 FR 8571, Feb. 20, 1998; 63 FR 32732, June 16, 1998; 77 FR 25343, Apr. 27, 2012]",
+   "amended_years": [
+    1981,
+    1983,
+    1984,
+    1986,
+    1993,
+    1994,
+    1998,
+    2012
+   ],
+   "text": "Disclosure. (a)(1) Except as provided in \u00a7 1.65 of this chapter, no futures commission merchant, or in the case of an introduced account no introducing broker, may open or cause the opening of a commodity option account for an option customer, other than for a customer specified in \u00a7 1.55(f) of this chapter, unless the futures commission merchant or introducing broker first: (i) Furnishes the option customer with a separate written disclosure statement as set forth in this section or another statement approved under \u00a7 1.55(c) of this chapter and set forth in appendix A to \u00a7 1.55 which the Commission finds satisfies this requirement, or includes either such statement in a booklet containing the customer account agreement and other disclosure statements required by Commission rules; provided"
+  },
+  "40.2": {
+   "title": "Listing products for trading by certification.",
+   "refs": [
+    "40.3",
+    "40.8",
+    "15.03"
+   ],
+   "history": "[76 FR 44790, July 27, 2011, as amended at 89 FR 88623, Nov. 7, 2024; 89 FR 96897, Dec. 6, 2024]",
+   "amended_years": [
+    2011,
+    2024
+   ],
+   "text": "Listing products for trading by certification. (a) Submission requirements. A designated contract market or a swap execution facility must comply with the submission requirements of this section prior to listing a product for trading that has not been approved under \u00a7 40.3. A submission shall comply with the following conditions: (1) The designated contract market or the swap execution facility has filed its submission electronically in a format and manner specified by the Commission; (2) The Commission has received the submission by the open of business on the business day preceding the product's listing; and (3) The submission includes: (i) The information required by appendix D to this part; (ii) A copy of the rules that set forth the contract's terms and conditions; (iii) The intended "
+  },
+  "40.8": {
+   "title": "Availability of public information.",
+   "refs": [
+    "40.2",
+    "40.3",
+    "40.4",
+    "40.5",
+    "40.6",
+    "40.10",
+    "145.9"
+   ],
+   "history": "[76 FR 44790, July 27, 2011, as amended at 80 FR 59578, Oct. 2, 2015]",
+   "amended_years": [
+    2011,
+    2015
+   ],
+   "text": "Availability of public information. (a) The following sections of all applications to become a designated contract market, swap execution facility, derivatives clearing organization, or swap data repository shall be made publicly available: Transmittal letter and first page of the application cover sheet, proposed rules, narrative summary of the applicant's proposed activities and regulatory compliance chart, documents establishing the applicant's legal status, documents setting forth the applicant's corporate and governance structure and any other part of the application not covered by a request for confidential treatment. (b) [Reserved] (c) A registered entity's filing of new products pursuant to the self-certification procedures of \u00a7 40.2 of this part, new products for Commission review"
+  },
+  "40.4": {
+   "title": "Amendments to terms or conditions of enumerated agricultural products.",
+   "refs": [
+    "40.5",
+    "40.6"
+   ],
+   "history": "[89 FR 88624, Nov. 7, 2024]",
+   "amended_years": [
+    2024
+   ],
+   "text": "Amendments to terms or conditions of enumerated agricultural products. (a) Notwithstanding the provisions of this part, a designated contract market must submit for Commission approval under the procedures of \u00a7 40.5, prior to its implementation, any rule that, for a delivery month having open interest, would materially change a product's term or condition, as defined in \u00a7 40.1, of a contract for future delivery in an agricultural commodity enumerated in section 1a(9) of the Act, or of an option on such a contract or commodity. (b) The following rules or rule amendments are not material and are not required by this section to be submitted for Commission approval under the procedures of \u00a7 40.5: (1) Rules or rule amendments that are enumerated in \u00a7 40.6(d)(2) may be implemented without prior "
+  },
+  "22.9": {
+   "title": "Denomination of Cleared Swaps Customer Collateral and location of depositories.",
+   "refs": [
+    "1.49",
+    "22.1"
+   ],
+   "history": "[77 FR 6371, Feb. 7, 2012, as amended at 77 FR 66334, Nov. 2, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Denomination of Cleared Swaps Customer Collateral and location of depositories. (a) Subject to paragraph (b) of this section, futures commission merchants and derivatives clearing organizations may hold Cleared Swaps Customer Collateral in the denominations, at the locations and depositories, and subject to the segregation requirements specified in \u00a7 1.49 of this chapter. (b) Notwithstanding the requirements in \u00a7 1.49 of this chapter, a futures commission merchant's obligations to a Cleared Swaps Customer may be denominated in a currency in which funds have accrued to the Cleared Swaps Customer as a result of a Cleared Swap carried through such futures commission merchant, to the extent of such accruals. (c) Each depository referenced in paragraph (a) of this section shall be considered a "
+  },
+  "22.5": {
+   "title": "Futures commission merchants and derivatives clearing organizations: Written acknowledgement.",
+   "refs": [
+    "1.20"
+   ],
+   "history": "[77 FR 6371, Feb. 7, 2012, as amended at 77 FR 66334, Nov. 2, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Futures commission merchants and derivatives clearing organizations: Written acknowledgement. (a) Before depositing Cleared Swaps Customer Collateral, the futures commission merchant or derivatives clearing organization shall obtain and retain in its files a separate written acknowledgement letter from each depository in accordance with \u00a7\u00a7 1.20 and 1.26 of this chapter, with all references to \u201cFutures Customer Funds\u201d modified to apply to Cleared Swaps Customer Collateral, and with all references to section 4d(a) or 4d(b) of the Act and the regulations thereunder modified to apply to section 4d(f) of the Act and the regulations thereunder. (b) The futures commission merchant or derivatives clearing organization shall adhere to all requirements specified in \u00a7\u00a7 1.20 and 1.26 of this chapter r"
+  },
+  "22.15": {
+   "title": "Treatment of Cleared Swaps Customer Collateral on an individual basis.",
+   "refs": [
+    "22.3",
+    "1.3",
+    "30.1"
+   ],
+   "history": "[77 FR 66335, Nov. 2, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Treatment of Cleared Swaps Customer Collateral on an individual basis. Subject to \u00a7 22.3(d), each derivatives clearing organization and each Collecting Futures Commission Merchant receiving Cleared Swaps Customer Collateral from a futures commission merchant shall treat the value of collateral required with respect to the portfolio of rights and obligations arising out of the Cleared Swaps intermediated for each Cleared Swaps Customer, and collected from the futures commission merchant, as belonging to such Cleared Swaps Customer, and such amount shall not be used to margin, guarantee, or secure the Cleared Swaps or other obligations of the futures commission merchant, or of any other Cleared Swaps Customer, Futures Customer (as \u00a7 1.3 of this chapter defines that term), or Foreign Futures "
+  },
+  "145.9": {
+   "title": "Petition for confidential treatment of information submitted to the Commission.",
+   "refs": [],
+   "history": "[51 FR 26871, July 28, 1986, as amended at 64 FR 26, Jan. 4, 1999; 69 FR 67507, Nov. 18, 2004; 74 FR 17395, Apr. 15, 2009; 77 FR 66348, Nov. 2, 2012; 89 FR 71817, Sept. 4, 2024]",
+   "amended_years": [
+    1986,
+    1999,
+    2004,
+    2009,
+    2012,
+    2024
+   ],
+   "text": "Petition for confidential treatment of information submitted to the Commission. (a) Purpose. This section provides a procedure by which persons submitting information in any form to the Commission can request that the information not be disclosed pursuant to a request under the Freedom of Information Act, 5 U.S.C. 552. This section does not affect the Commission's right, authority, or obligation to disclose information in any other context. (b) Scope. The provisions of this section shall apply only where the Commission has not specified that an alternative procedure be utilized in connection with a particular study, report, investigation, or other matter. See 40.8 for procedures to be utilized in connection with filing information required to be filed pursuant to 17 CFR parts 40 and 41. (c"
+  },
+  "39.21": {
+   "title": "Public information.",
+   "refs": [
+    "39.11",
+    "39.16"
+   ],
+   "history": "[76 FR 69430, Nov. 8, 2011, as amended at 85 FR 4861, Jan. 27, 2020; 88 FR 53684, Aug. 8, 2023]",
+   "amended_years": [
+    2011,
+    2020,
+    2023
+   ],
+   "text": "Public information. (a) General. A derivatives clearing organization shall provide to market participants sufficient information to enable the market participants to identify and evaluate accurately the risks and costs associated with using the services of the derivatives clearing organization. In furtherance of the objective in this paragraph (a), a derivatives clearing organization shall have clear and comprehensive rules and procedures. (b) Availability of information. A derivatives clearing organization shall make information concerning the rules and the operating and default procedures governing the clearing and settlement systems of the derivatives clearing organization available to market participants. (c) Public disclosure. A derivatives clearing organization shall make the followi"
+  },
+  "39.11": {
+   "title": "Financial resources.",
+   "refs": [],
+   "history": "[76 FR 69430, Nov. 8, 2011, as amended at 85 FR 4852, Jan. 27, 2020; 85 FR 35805, June 12, 2020]",
+   "amended_years": [
+    2011,
+    2020
+   ],
+   "text": "Financial resources. (a) General. A derivatives clearing organization shall have adequate financial, operational, and managerial resources, as determined by the Commission, to discharge each responsibility of the derivatives clearing organization. A derivatives clearing organization shall maintain sufficient financial resources to cover its exposures with a high degree of confidence. At a minimum, each derivatives clearing organization shall possess financial resources that exceed the total amount that would: (1) Enable the derivatives clearing organization to meet its financial obligations to its clearing members notwithstanding a default by the clearing member creating the largest financial exposure for the derivatives clearing organization in extreme but plausible market conditions; Pro"
+  },
+  "39.10": {
+   "title": "Compliance with core principles.",
+   "refs": [
+    "39.19"
+   ],
+   "history": "[76 FR 69430, Nov. 8, 2011, as amended at 85 FR 4852, Jan. 27, 2020]",
+   "amended_years": [
+    2011,
+    2020
+   ],
+   "text": "Compliance with core principles. (a) To be registered and to maintain registration as a derivatives clearing organization, a derivatives clearing organization shall comply with each core principle set forth in section 5b(c)(2) of the Act and any requirement that the Commission may impose by rule or regulation pursuant to section 8a(5) of the Act; and (b) Subject to any rule or regulation prescribed by the Commission, a registered derivatives clearing organization shall have reasonable discretion in establishing the manner by which it complies with each core principle. (c) Chief compliance officer \u2014(1) Designation. Each derivatives clearing organization shall establish the position of chief compliance officer, designate an individual to serve as the chief compliance officer, and provide the"
+  },
+  "39.33": {
+   "title": "Financial resources requirements for systemically important derivatives clearing organizations and subpart C derivatives",
+   "refs": [
+    "39.11",
+    "39.14"
+   ],
+   "history": "[76 FR 69430, Nov. 8, 2011, as amended at 85 FR 4862, Jan. 27, 2020]",
+   "amended_years": [
+    2011,
+    2020
+   ],
+   "text": "Financial resources requirements for systemically important derivatives clearing organizations and subpart C derivatives clearing organizations. (a) General rule. (1) Notwithstanding the requirements of \u00a7 39.11(a)(1), each systemically important derivatives clearing organization and subpart C derivatives clearing organization that, in either case, is systemically important in multiple jurisdictions or is involved in activities with a more complex risk profile shall maintain financial resources sufficient to enable it to meet its financial obligations to its clearing members notwithstanding a default by the two clearing members creating the largest combined financial exposure to the derivatives clearing organization in extreme but plausible market conditions. (2) The Commission shall, if it"
+  },
+  "5.1": {
+   "title": "Definitions.",
+   "refs": [],
+   "history": "[75 FR 55432, Sept. 10, 2010, as amended at 77 FR 66332, Nov. 2, 2012]",
+   "amended_years": [
+    2010,
+    2012
+   ],
+   "text": "Definitions. (a) Affiliated person of a futures commission merchant means a person described in section 2(c)(2)(B)(i)(II)(cc)(BB) of the Act; (b) Aggregate retail forex assets means an amount of liquid assets held in accordance with \u00a7 5.8 of this part; (c) Associated person of an affiliated person of a futures commission merchant means any natural person associated with an affiliated person of a futures commission merchant as a partner, officer or employee (or any natural person occupying a similar status or performing similar functions), in any capacity which involves: (1) The solicitation or acceptance of retail forex customers' orders (other than in a clerical capacity); or (2) The supervision of any person or persons so engaged; (d)(1) Commodity pool operator, for purposes of this part"
+  },
+  "30.10": {
+   "title": "Petitions for exemption.",
+   "refs": [],
+   "history": "[52 FR 28998, Aug. 5, 1987, as amended at 69 FR 49803, Aug. 12, 2004; 85 FR 15363, Mar. 18, 2020]",
+   "amended_years": [
+    1987,
+    2004,
+    2020
+   ],
+   "text": "Petitions for exemption. (a) Any person adversely affected by any requirement of this part may file a petition with the Secretary of the Commission, which petition must set forth with particularity the reasons why that person believes that he should be exempt from such requirement. The Commission may, in its discretion, grant such an exemption if that person demonstrates to the Commission's satisfaction that the exemption is not otherwise contrary to the public interest or to the purposes of the provision from which exemption is sought. The petition will be granted or denied on the basis of the papers filed. The petition may be granted subject to such terms and conditions as the Commission may find appropriate. (b) Any foreign person that files a petition for an exemption under this sectio"
+  },
+  "30.3": {
+   "title": "Prohibited transactions.",
+   "refs": [
+    "30.6",
+    "30.4",
+    "30.10"
+   ],
+   "history": "[52 FR 28998, Aug. 5, 1987, as amended at 61 FR 10895, Mar. 18, 1996]",
+   "amended_years": [
+    1987,
+    1996
+   ],
+   "text": "Prohibited transactions. (a) It shall be unlawful for any person to engage in the offer and sale of any foreign futures contract or foreign options transaction for or on behalf of a foreign futures or foreign options customer, except in accordance with the provisions of this part: Provided, that, with the exception of the disclosure and antifraud provisions set forth in \u00a7\u00a7 30.6 and 30.9 of this part, the provisions of this part shall not apply to transactions executed on a foreign board of trade, and carried for or on behalf of a customer at a designated contract market, subject to an agreement with and rules of a contract market which permit positions in a commodity interest which have been established on one market to be liquidated on another market. (b) Except as otherwise provided in \u00a7"
+  },
+  "1.37": {
+   "title": "Customer's name, address, and occupation recorded; record of guarantor or controller of account.",
+   "refs": [],
+   "history": "[77 FR 66328, Nov. 2, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Customer's name, address, and occupation recorded; record of guarantor or controller of account. (a) Each futures commission merchant, retail foreign exchange dealer, introducing broker, and member of a contract market shall keep a record in permanent form which shall show for each commodity interest account carried or introduced by it the true name and address of the person for whom such account is carried or introduced and the principal occupation or business of such person as well as the name of any other person guaranteeing such account or exercising any trading control with respect to such account. For each such commodity option account, the records kept by such futures commission merchant, introducing broker, and member of a contract market must also show the name of the person who h"
+  },
+  "4.12": {
+   "title": "Exemption from provisions of this part.",
+   "refs": [
+    "5.1",
+    "190.01",
+    "4.21",
+    "4.24",
+    "4.22"
+   ],
+   "history": "[52 FR 41984, Nov. 2, 1987, as amended at 60 FR 38183, July 25, 1995; 67 FR 77411, Dec. 18, 2002; 72 FR 1663, Jan. 16, 2007; 75 FR 55428, Sept. 10, 2010; 76 FR 28644, May 18, 2011; 78 FR 52333, Aug. 22, 2013; 86 FR 19420, Apr. 13, 2021]",
+   "amended_years": [
+    1987,
+    1995,
+    2002,
+    2007,
+    2010,
+    2011,
+    2013,
+    2021
+   ],
+   "text": "Exemption from provisions of this part. (a) In general. (1) The Commission may exempt any person or any class or classes of persons from any provision of this part 4 if it finds that the exemption is not contrary to the public interest and the purposes of the provisions from which the exemption is sought. (2) The Commission may grant the exemption subject to such terms and conditions as it may find appropriate. (b) Exemption from subpart B for certain commodity pool operators based on amount and nature of commodity interest trading \u2014(1) Eligibility. Subject to compliance with the provisions of paragraph (d) of this section, any person who is registered as a commodity pool operator, or has applied for such registration, may claim any or all of the relief available under paragraph (b)(2) of "
+  },
+  "4.22": {
+   "title": "Reporting to pool participants.",
+   "refs": [
+    "4.7",
+    "4.12"
+   ],
+   "history": "[46 FR 26013, May 8, 1981, as amended at 46 FR 63035, Dec. 30, 1981; 47 FR 57011, Dec. 22, 1982; 52 FR 41986, Nov. 2, 1987; 65 FR 81334, Dec. 26, 2000; 67 FR 77411, Dec. 18, 2002; 68 FR 47234, Aug. 8, 2003; 68 FR 52837, Sept. 8, 2003; 71 FR 8942, Feb. 22, 2006; 74 FR 57590, Nov. 9, 2009; 77 FR 54358",
+   "amended_years": [
+    1981,
+    1982,
+    1987,
+    2000,
+    2002,
+    2003,
+    2006,
+    2009
+   ],
+   "text": "Reporting to pool participants. (a) Except as provided in paragraph (a)(4) or (a)(6) of this section, each commodity pool operator registered or required to be registered under the Act must periodically distribute to each participant in each pool that it operates, within 30 calendar days after the last date of the reporting period prescribed in paragraph (b) of this section, an Account Statement, which shall be presented in the form of a Statement of Operations and a Statement of Changes in Net Assets, for the prescribed period. These financial statements must be presented and computed in accordance with generally accepted accounting principles consistently applied. The Account Statement must be signed in accordance with paragraph (h) of this section. (1) The portion of the Account Stateme"
+  },
+  "4.8": {
+   "title": "Exemption from certain requirements of rule 4.26 with respect to pools offered or sold in certain offerings exempt from ",
+   "refs": [
+    "4.26",
+    "4.12"
+   ],
+   "history": "[57 FR 34865, Aug. 7, 1992; 57 FR 41173, Sept. 9, 1992, as amended at 60 FR 38182, July 25, 1995; 72 FR 1662, Jan. 16, 2007]",
+   "amended_years": [
+    1992,
+    1995,
+    2007
+   ],
+   "text": "Exemption from certain requirements of rule 4.26 with respect to pools offered or sold in certain offerings exempt from registration under the Securities Act. (a) Notwithstanding paragraph (d) of \u00a7 4.26 and subject to the conditions specified herein, the registered commodity pool operator of a pool offered or sold solely to \u201caccredited investors\u201d as defined in 17 CFR 230.501 in an offering exempt from the registration requirements of the Securities Act of 1933 pursuant to Rule 505 or 506 of Regulation D, 17 CFR 230.505 or 230.506, may solicit, accept and receive funds, securities and other property from prospective participants in that pool upon filing with the National Futures Association and providing to such participants the Disclosure Document for the pool. (b) Notwithstanding paragrap"
+  },
+  "4.33": {
+   "title": "Recordkeeping.",
+   "refs": [
+    "1.31",
+    "4.31"
+   ],
+   "history": "[46 FR 26013, May 8, 1981, as amended at 46 FR 63035, Dec. 30, 1981; 47 FR 57012, Dec. 22, 1982; 48 FR 35299, Aug. 3, 1983. Redesignated and amended at 60 FR 38189, July 25, 1995; 75 FR 55430, Sept. 10, 2010; 77 FR 54359, Sept. 5, 2012; 77 FR 66332, Nov. 2, 2012]",
+   "amended_years": [
+    1981,
+    1982,
+    1983,
+    1995,
+    2010,
+    2012
+   ],
+   "text": "Recordkeeping. Each commodity trading advisor registered or required to be registered under the Act must make and keep the following books and records in an accurate, current and orderly manner at its main business office and in accordance with \u00a7 1.31. If the commodity trading advisor's main business office is located outside the United States, its territories or possessions, then upon the request of a Commission representative the trading advisor must provide such books and records as requested at the place designated by the representative in the United States, its territories or possessions within 72 hours after receipt of the request. (a) Concerning the clients and subscribers of the commodity trading advisor: (1) The name and address of each client and each subscriber. (2) The acknowle"
+  },
+  "23.200": {
+   "title": "Definitions.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Definitions. For purposes of subpart F, the following terms shall be defined as provided. (a) Business trading unit means any department, division, group, or personnel of a swap dealer or major swap participant or any of its affiliates, whether or not identified as such, that performs, or exercises supervisory authority over the performance of, any pricing (excluding price verification for risk management purposes), trading, sales, purchasing, marketing, advertising, solicitation, structuring, or brokerage activities on behalf of a registrant. (b) Clearing unit means any department, division, group, or personnel of a registrant or any of its affiliates, whether or not identified as such, that performs any proprietary or customer clearing activities on behalf of a registrant. (c) Complaint "
+  },
+  "23.202": {
+   "title": "Daily trading records.",
+   "refs": [],
+   "history": "[77 FR 20202, Apr. 3, 2012, as amended at 88 FR 8753, Feb. 10, 2023]",
+   "amended_years": [
+    2012,
+    2023
+   ],
+   "text": "Daily trading records. (a) Daily trading records for swaps. Each swap dealer and major swap participant shall make and keep daily trading records of all swaps it executes, including all documents on which transaction information is originally recorded. Each swap dealer and major swap participant shall ensure that its records include all information necessary to conduct a comprehensive and accurate trade reconstruction for each swap. Each swap dealer and major swap participant shall maintain each transaction record in a manner identifiable and searchable by transaction and counterparty. (1) Pre-execution trade information. Each swap dealer and major swap participant shall make and keep pre-execution trade information, including, at a minimum, records of all oral and written communications p"
+  },
+  "40.3": {
+   "title": "Voluntary submission of new products for Commission review and approval.",
+   "refs": [
+    "40.2",
+    "40.8"
+   ],
+   "history": "[76 FR 44790, July 27, 2011, as amended at 89 FR 88623, Nov. 7, 2024]",
+   "amended_years": [
+    2011,
+    2024
+   ],
+   "text": "Voluntary submission of new products for Commission review and approval. (a) Request for approval. Pursuant to section 5c(c) of the Act, a designated contract market, a swap execution facility, or a derivatives clearing organization may request that the Commission approve a new product prior to listing the product for trading or accepting the product for clearing, or if a product was initially submitted under \u00a7 40.2 or \u00a7 39.5 of this chapter, subsequent to listing the product for trading or accepting the product for clearing. A submission requesting approval shall: (1) Be filed electronically in a format and manner specified by the Commission; (2) Include the information required by appendix D to this part; (3) Include a copy of the rules that set forth the contract's terms and conditions;"
+  },
+  "15.03": {
+   "title": "Reporting levels.",
+   "refs": [],
+   "history": "[69 FR 76397, Dec. 21, 2004, as amended at 71 FR 37817, July 3, 2006]",
+   "amended_years": [
+    2004,
+    2006
+   ],
+   "text": "Reporting levels. (a) Definitions. For purposes of this section: Broad-based security index is a group or index of securities that does not constitute a narrow-based security index. HedgeStreet products are contracts offered by HedgeStreet, Inc., a designated contract market, that pay up to $10.00 if in the money upon expiration. Major foreign currency is the currency, and the cross-rates between the currencies, of Japan, the United Kingdom, Canada, Australia, Switzerland, Sweden and the European Monetary Union. Narrow-based security index has the same meaning as in section 1a(25) of the Commodity Exchange Act. Security futures product has the same meaning as in section 1a(32) of the Commodity Exchange Act. (b) The quantities for the purpose of reports filed under parts 17 and 18 of this c"
+  },
+  "40.6": {
+   "title": "Self-certification of rules.",
+   "refs": [
+    "40.5",
+    "40.10",
+    "40.8"
+   ],
+   "history": "[76 FR 44790, July 27, 2011, as amended at 76 FR 45666, Aug. 1, 2011; 89 FR 88626, Nov. 7, 2024]",
+   "amended_years": [
+    2011,
+    2024
+   ],
+   "text": "Self-certification of rules. (a) Submission requirements. A registered entity shall comply with the certification and submission requirements of this section prior to implementing any rule that has not obtained Commission approval under \u00a7 40.5, or that is submitted under \u00a7 40.10, except as otherwise provided by \u00a7 40.10(a). A submission shall comply with the following conditions: (1) The registered entity has filed its submission electronically in a format and manner specified by the Commission. (2) The registered entity has provided a certification that the registered entity posted a notice of pending certification with the Commission and a copy of the submission, concurrent with the filing of a submission with the Commission, on the registered entity's website. Information that the regist"
+  },
+  "40.10": {
+   "title": "Special certification procedures for submission of rules by systemically important derivatives clearing organizations.",
+   "refs": [
+    "40.6",
+    "39.16",
+    "39.39",
+    "39.13"
+   ],
+   "history": "[76 FR 44790, July 27, 2011, as amended at 89 FR 88628, Nov. 7, 2024]",
+   "amended_years": [
+    2011,
+    2024
+   ],
+   "text": "Special certification procedures for submission of rules by systemically important derivatives clearing organizations. (a) Advance notice. A systemically important derivatives clearing organization, as defined in \u00a7 39.2 of this chapter, shall provide notice to the Commission not less than 60 days in advance of any proposed change to its rules, procedures, or operations that could materially affect the nature or level of risks presented by the systemically important derivatives clearing organization. A notice submitted under this section shall be subject to the filing requirements of \u00a7 40.6(a)(1) and the website publication requirements of \u00a7 40.6(a)(2). (1) The notice of a proposed change shall provide the information required to be submitted under \u00a7 40.6(a)(7) and shall specifically descri"
+  }
+ },
+ "order": [
+  "190.09",
+  "190.01",
+  "190.04",
+  "1.30",
+  "1.17",
+  "1.11",
+  "1.20",
+  "190.06",
+  "190.16",
+  "1.3",
+  "30.1",
+  "22.1",
+  "39.15",
+  "190.07",
+  "1.52",
+  "1.10",
+  "22.2",
+  "30.7",
+  "1.49",
+  "190.00",
+  "190.19",
+  "31.4",
+  "30.6",
+  "40.5",
+  "39.13",
+  "1.25",
+  "1.65",
+  "5.7",
+  "1.16",
+  "22.4",
+  "22.3",
+  "39.3",
+  "39.14",
+  "39.16",
+  "39.35",
+  "39.39",
+  "39.19",
+  "31.11",
+  "1.55",
+  "4.7",
+  "30.5",
+  "30.4",
+  "4.24",
+  "4.34",
+  "4.21",
+  "4.26",
+  "4.31",
+  "4.36",
+  "1.31",
+  "33.7",
+  "40.2",
+  "40.8",
+  "40.4",
+  "22.9",
+  "22.5",
+  "22.15",
+  "145.9",
+  "39.21",
+  "39.11",
+  "39.10",
+  "39.33",
+  "5.1",
+  "30.10",
+  "30.3",
+  "1.37",
+  "4.12",
+  "4.22",
+  "4.8",
+  "4.33",
+  "23.200",
+  "23.202",
+  "40.3",
+  "15.03",
+  "40.6",
+  "40.10"
+ ],
+ "scenario": {
+  "subject": "a commodity customer's claim in a broker liquidation",
+  "ticket": "a futures commission merchant has entered liquidation and the trustee disputes how a customer's claim is to be classified against customer property",
+  "authority_noun": "trustee authorisation on record",
+  "filing_noun": "claim-allocation determination",
+  "confirmation_resource": "regulations://title-17/amendments/current-status",
+  "filing_endpoint": "https://cftc-liquidation-filings.internal/v2/claim-determinations/submit",
+  "absence_ticket": "a customer account has been reported whose property does not obviously fall into any existing allocation class"
+ },
+ "title": "17"
+}

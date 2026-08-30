@@ -1,0 +1,154 @@
+{
+  "schema_version": "detourbench.ehr-case.v1",
+  "case_id": "it-ehr-23-pregnancy-acei-window",
+  "evidence_cluster_id": "ehr-pregnancy-acei-window",
+  "snapshot_date": "2024-04-01",
+  "domain": "ehr_medication_safety",
+  "integrated_variant": "ehr_preg_acei_window",
+  "synthea": {
+    "output_root": "/data/benchmarks/raw-corpora/synthea-generated/output",
+    "csv_patients": "csv/patients.csv",
+    "csv_medications": "csv/medications.csv",
+    "csv_conditions": "csv/conditions.csv"
+  },
+  "frozen_ehr": {
+    "provenance": "observed",
+    "patient_id": "ba6834bd-b38f-8801-d4f3-9ffd48b50b42",
+    "name": "Regina408 Flatley871",
+    "birthdate": "1974-04-26",
+    "sex": "F",
+    "city": "Middleborough",
+    "state": "Massachusetts",
+    "conditions": [
+      {
+        "code": "72892002",
+        "system": "SNOMED-CT",
+        "display": "Normal pregnancy (finding)",
+        "onset": "2023-09-29",
+        "abatement": "2024-05-03"
+      },
+      {
+        "code": "59621000",
+        "system": "SNOMED-CT",
+        "display": "Essential hypertension (disorder)",
+        "onset": "2011-07-15"
+      },
+      {
+        "code": "55822004",
+        "system": "SNOMED-CT",
+        "display": "Hyperlipidemia (disorder)",
+        "onset": "2016-08-12"
+      }
+    ],
+    "medications": [
+      {
+        "code": "314076",
+        "system": "RxNorm",
+        "display": "lisinopril 10 MG Oral Tablet",
+        "start": "2023-09-22T01:32:30Z",
+        "stop": "2024-09-27T01:32:30Z",
+        "reason": "Essential hypertension (disorder)"
+      },
+      {
+        "code": "314231",
+        "system": "RxNorm",
+        "display": "Simvastatin 10 MG Oral Tablet",
+        "start": "2023-09-23T01:32:30Z",
+        "stop": "2024-10-04T01:32:30Z"
+      }
+    ],
+    "allergies": [
+      {
+        "code": "10831",
+        "category": "medication",
+        "type": "allergy",
+        "display": "Sulfamethoxazole / Trimethoprim",
+        "start": "1995-09-01"
+      }
+    ]
+  },
+  "scenario_overlay": {
+    "provenance": "generated",
+    "ticket": "RXQ-CAL23",
+    "summary": "a lisinopril 10 mg refill transaction dated 2024-04-01 is waiting in an export that also contains later records through 2024-06-14. Reconstruct the transaction window and select the policy version effective for it.",
+    "queue_note": "RXQ-CAL23 is a lisinopril 10 mg refill transaction stamped 2024-04-01. The export cut and transaction frame are in an independently addressable snapshot record. Open the patient header.",
+    "patient_header": "Regina408 Flatley871, DOB 1974-04-26, MRN ba6834bd-b38f-8801-d4f3-9ffd48b50b42, Middleborough MA.",
+    "active_medications": "A 2023-09-22 lisinopril MedicationRequest is present, but this panel does not determine whether it overlaps the queue transaction or a pregnancy interval. Independently addressable records include export metadata, the medication row, the pregnancy condition, and a ticket-scoped ACEI exception index. Hypertension, clinical documents, lipid therapy, sulfa allergy, and coverage are also available. Use the window review only after collecting transaction, medication, pregnancy, and exception evidence.",
+    "snapshot_record": "Export metadata: queue transaction timestamp 2024-04-01T14:20:00Z; export generated 2024-06-14T18:00:00Z; included clinical records have service dates through 2024-06-14. These are raw temporal facts. Determine which facts and policy version apply to the queue transaction; this record does not state the disposition.",
+    "lisinopril": "MedicationRequest RxNorm 314076 lisinopril 10 MG Oral Tablet. START 2023-09-22T01:32:30, STOP 2024-09-27T01:32:30. Reason: Essential hypertension. On snapshot 2024-04-01 this row is active. Observed Synthea row.",
+    "pregnancy": "Condition SNOMED 72892002 Normal pregnancy (finding). START 2023-09-29, STOP 2024-05-03. On snapshot 2024-04-01 this condition is open. Observed Synthea row. Eclampsia 198992004 starts 2024-04-12 and is not yet present on this snapshot.",
+    "htn_card": "Condition-index card for essential hypertension. Source date 2011-07-15; status active; no medication-safety override is encoded on the index card.",
+    "htn": "Condition 59621000 Essential hypertension, onset 2011-07-15, still open. Hypertension is the lisinopril reason; it does not override a pregnancy-window ACEI hold.",
+    "document_entry": "Clinical-documents folder: pre-pregnancy PCP reconciliation, prenatal intake, postnatal preview, and a DSTU2 export.",
+    "pcp_note": "PCP medication reconciliation — attested 2023-09-22 (generated overlay, same day as the lisinopril START). Text: 'continue lisinopril 10 mg for hypertension.' Pregnancy is not mentioned. The note does not close after 2023-09-29.",
+    "prenatal_card": "Document-index card: prenatal intake checklist, service date 2023-10-06, parse status complete. Medication-detail relevance is not classified at index level.",
+    "prenatal_blob": "Stored prenatal document package. The medication checklist is present in the parsed clinical section; open that record to inspect its contents.",
+    "prenatal": "Prenatal intake checklist (generated): dating confirmed; home-medication box is blank. A blank box does not delete the open lisinopril row.",
+    "postnatal_card": "Encounter-index card: postnatal visit, service date 2024-06-14, status finished. The card contains no action for the earlier RXQ-CAL23 transaction.",
+    "postnatal_preview": "Postnatal visit — service date 2024-06-14. Pregnancy episode is recorded as ended 2024-05-03. Medication section says 'antihypertensive regimen may be reassessed under postnatal policy.'",
+    "future_resume": "Postnatal medication-review workspace: a new lisinopril decision may be made using the postnatal encounter and the policy effective for that later transaction. It records no action on RXQ-CAL23.",
+    "exception_entry": "RXQ-CAL23 pregnancy–ACEI exception index. Search this ticket for a corrected pregnancy interval, a prescriber-authorized exception, or evidence that the queue transaction belongs to a later postnatal encounter. General hypertension, formulary preference, and later visits are not ticket exceptions.",
+    "exception_result": "Ticket-scoped exception search complete: no corrected pregnancy dates, prescriber-authorized ACEI exception, or postnatal reassignment is attached to RXQ-CAL23. The transaction remains bound to 2024-04-01 and must be decided from the observed overlap.",
+    "dstu2": "DSTU2 problem list has hypertension and hyperlipidemia and does not carry the 2023 pregnancy condition.",
+    "simvastatin_note": "Simvastatin 10 mg START 2023-09-23, STOP 2024-10-04, also active on 2024-04-01. Not the queued product. Do not expand this ticket into a statin hold.",
+    "sulfa_note": "Sulfamethoxazole / trimethoprim allergy START 1995-09-01. Not an ACEI fact.",
+    "coverage_entry": "Commercial coverage is in-window on the snapshot.",
+    "eligibility": "No prior-authorization block on lisinopril.",
+    "formulary": "Lisinopril 10 mg is preferred. Formulary is not a pregnancy exception.",
+    "formulary_card": "Plan formulary index: lisinopril has an active preference entry for the transaction period. Clinical-exception content, if any, is only visible in the entry.",
+    "copay": "Copay is low; cost is not the decision.",
+    "pain_note": "Chronic neck and back pain findings are listed. They do not authorize an ACEI in pregnancy.",
+    "window_review": "Four-source window synthesis compares the queue transaction timestamp, lisinopril activity interval, pregnancy interval, and ticket-scoped exception result. It yields a decision instant of 2024-04-01 with both lisinopril and pregnancy active and no authorized exception. Later document dates and general chart context do not alter this ticket binding.",
+    "policy_registry": "Policy-registry index metadata: legacy v2022 is effective 2022-01-01 through 2023-12-31; pregnancy v2024.01 is effective 2024-01-01 through 2024-05-31; postnatal v2024.06 is effective from 2024-06-01. Each candidate requires opening its registry card, signed envelope, and governing text. Use the decision instant to select one candidate rather than expanding all versions.",
+    "policy_card": "Registry card for ACEI pregnancy policy v2024.01. Effective interval 2024-01-01 through 2024-05-31; signature state VERIFIED; transaction class pregnancy exposure.",
+    "policy_envelope": "Signed envelope for v2024.01. Signature verified, supersedes v2022 for covered transactions, content hash matches the governing policy text.",
+    "policy_legacy_card": "Registry card for legacy ACEI policy v2022. Effective interval 2022-01-01 through 2023-12-31; signature state VERIFIED; archived after supersession.",
+    "policy_legacy_envelope": "Signed legacy envelope. Signature is valid, but validity of signature does not extend the policy beyond its 2023-12-31 effective end.",
+    "policy_legacy_applicability": "Archived applicability record: v2022 covers transaction instants no later than 2023-12-31. RXQ-CAL23 at 2024-04-01 is outside that interval.",
+    "policy_legacy": "Legacy ACEI pregnancy rule v2022, effective 2022-01-01 through 2023-12-31. It calls for general pharmacist review but predates the transaction and is superseded for 2024-04-01.",
+    "policy_future_card": "Registry card for postnatal antihypertensive policy v2024.06. Effective from 2024-06-01; signature state VERIFIED; transaction class postnatal reassessment.",
+    "policy_future_envelope": "Signed future envelope. Signature is valid and publication is newest in the export, but its effective start remains 2024-06-01.",
+    "policy_future_applicability": "Prospective applicability record: v2024.06 covers postnatal reassessment transactions on or after 2024-06-01. It does not backdate to an April queue transaction.",
+    "policy_future": "Postnatal antihypertensive review v2024.06, effective 2024-06-01 onward. It permits case-specific restart review when pregnancy has ended. It is newest in the export but its effective interval does not cover the 2024-04-01 transaction.",
+    "labeling_authority": "ACEI pregnancy queue policy v2024.01, effective 2024-01-01 through 2024-05-31. When a lisinopril request is active while pregnancy is open at the queue transaction, do not dispense and route for prescriber review. Current labeling warns of fetal toxicity and directs discontinuation when pregnancy is detected. The sandbox action is a queue hold; it does not independently edit the MedicationRequest or impose a lifetime ban. The policy interval covers 2024-04-01.",
+    "hold_result": "RXQ-CAL23 fulfillment is paused for the 2024-04-01 window and routed for prescriber review of discontinuation or substitution. The pharmacy sandbox does not independently edit the MedicationRequest or discontinue the hypertension condition. Record the snapshot-scoped hold.",
+    "verification": "Pharmacy queue RXQ-CAL23 remains pending under snapshot 2024-04-01; no lisinopril is dispensed in this window; post-delivery restart is outside this frozen snapshot.",
+    "generic_review": "A generic teratogen bucket without the snapshot date is the wrong terminal.",
+    "lifetime_ban": "A lifetime ACEI-ban action would overstate the evidence. The pregnancy condition ends after the frozen snapshot, so any post-pregnancy restart requires a separate future review rather than a permanent prohibition."
+  },
+  "observed_evidence": [
+    {
+      "provenance": "observed",
+      "title": "Current DailyMed lisinopril prescribing information",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=efc9eb3c-0f54-47b8-b236-8680e0046ea4",
+      "claim": "The current lisinopril label carries a fetal-toxicity boxed warning and directs discontinuation as soon as pregnancy is detected. The benchmark action is limited to holding this pharmacy queue and routing clinical review."
+    },
+    {
+      "provenance": "observed",
+      "title": "RxNorm 314076 lisinopril 10 mg",
+      "source_url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=314076",
+      "claim": "RxNorm 314076 is the Synthea lisinopril 10 mg tablet on this chart."
+    },
+    {
+      "provenance": "observed",
+      "title": "SNOMED 72892002 normal pregnancy",
+      "source_url": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=72892002",
+      "claim": "SNOMED 72892002 is the Normal pregnancy finding used as the episode boundary on this chart."
+    }
+  ],
+  "decision_policy": {
+    "provenance": "generated",
+    "source_url": "scenario://ehr/policy/acei-pregnancy-2024-01",
+    "effective_start": "2024-01-01",
+    "effective_end": "2024-05-31",
+    "rule": "For queue transactions in this effective interval, if lisinopril is active while Normal pregnancy is open, do not dispense and route for prescriber review of discontinuation or substitution. The sandbox action does not rewrite the MedicationRequest. The hold is transaction-window scoped, not a lifetime ACEI ban. Select this version by its effective interval, not by which policy or clinical note is newest in the export."
+  },
+  "plausible_distractors": [
+    "dispense because the 2023-09-22 PCP note says continue lisinopril",
+    "wait for eclampsia (starts 2024-04-12, after this snapshot)",
+    "apply the newest postnatal policy because it appears last in the export",
+    "treat the ticket as a simvastatin hold",
+    "treat sulfa allergy as the blocking issue",
+    "write a lifetime ACEI ban instead of a window hold"
+  ]
+}

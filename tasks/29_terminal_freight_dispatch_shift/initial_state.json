@@ -1,0 +1,16 @@
+{
+  "schema_version": "detourbench.initial-state.v1",
+  "visibility": "local",
+  "node": "start",
+  "context": "Freight dispatch review case DTB-TERMINAL-FREIGHT-25, cutoff 09:00. Inspect the frozen request snapshot, selected route and fleet records, current controlled policies, submission schema, and all three plan bundles. Commit exactly one plan. Online routing, PBF access, random travel-time assumptions, and facts visible only after 09:00 are outside this decision.",
+  "known_resources": [
+    {
+      "identifier": "workflow://DTB-TERMINAL-FREIGHT-25",
+      "resource_type": "endpoint"
+    }
+  ],
+  "actions_remaining": 30,
+  "identifiers": [
+    "workflow://DTB-TERMINAL-FREIGHT-25"
+  ]
+}

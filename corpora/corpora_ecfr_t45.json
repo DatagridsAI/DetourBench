@@ -1,0 +1,1199 @@
+{
+ "seed": "155.500",
+ "sections": {
+  "155.500": {
+   "title": "Definitions.",
+   "refs": [
+    "155.20",
+    "155.740",
+    "155.310",
+    "155.330",
+    "155.335",
+    "155.610",
+    "155.715",
+    "155.716"
+   ],
+   "history": "[78 FR 54136, Aug. 30, 2013, as amended at 83 FR 17063, Apr. 17, 2018]",
+   "amended_years": [
+    2013,
+    2018
+   ],
+   "text": "Definitions. In addition to those definitions in \u00a7\u00a7 155.20 and 155.300, for purposes of this subpart and \u00a7 155.740 of subpart H, the following terms have the following meanings: Appeal record means the appeal decision, all papers and requests filed in the proceeding, and, if a hearing was held, the transcript or recording of hearing testimony or an official report containing the substance of what happened at the hearing, and any exhibits introduced at the hearing. Appeal request means a clear expression, either orally or in writing, by an applicant, enrollee, employer, or small business employer or employee to have any eligibility determination or redetermination contained in a notice issued in accordance with \u00a7 155.310(g), \u00a7 155.330(e)(1)(ii), \u00a7 155.335(h)(1)(ii), \u00a7 155.610(i), \u00a7 155.715("
+  },
+  "155.20": {
+   "title": "Definitions.",
+   "refs": [
+    "155.220",
+    "155.221",
+    "156.1230"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 15532, Mar. 11, 2013; 78 FR 39523, July 1, 2013; 78 FR 42313, July 15, 2013; 78 FR 54134, Aug. 30, 2013; 80 FR 10864, Feb. 27, 2015; 81 FR 12336, Mar. 8, 2016; 81 FR 94175, Dec. 22, 2016; 84 FR 17562, Apr. 25, 2019; 86 FR 24288, May 5, 2021; 89 FR 394",
+   "amended_years": [
+    2012,
+    2013,
+    2015,
+    2016,
+    2019,
+    2021
+   ],
+   "text": "Definitions. The following definitions apply to this part: Advance payments of the premium tax credit means payment of the tax credit authorized by 26 U.S.C. 36B and its implementing regulations, which are provided on an advance basis to an eligible individual enrolled in a QHP through an Exchange in accordance with section 1412 of the Affordable Care Act. Affordable Care Act means the Patient Protection and Affordable Care Act of 2010 (Pub. L. 111-148), as amended by the Health Care and Education Reconciliation Act of 2010 (Pub. L. 111-152). Agent or broker means a person or entity licensed by the State as an agent, broker or insurance producer. Agent or broker direct enrollment technology provider means a type of web-broker business entity that is not a licensed agent or broker under Sta"
+  },
+  "155.740": {
+   "title": "SHOP employer and employee eligibility appeals requirements for plan years beginning prior to January 1, 2018.",
+   "refs": [
+    "155.20",
+    "155.100",
+    "155.505",
+    "155.715",
+    "155.520",
+    "155.530",
+    "155.555",
+    "155.710"
+   ],
+   "history": "[78 FR 54141, Aug. 30, 2013, as amended at 79 FR 30350, May 27, 2014; 81 FR 12348, Mar. 8, 2016; 81 FR 94180, Dec. 22, 2016; 83 FR 17067, Apr. 17, 2018]",
+   "amended_years": [
+    2013,
+    2014,
+    2016,
+    2018
+   ],
+   "text": "SHOP employer and employee eligibility appeals requirements for plan years beginning prior to January 1, 2018. (a) Definitions. The definitions in \u00a7\u00a7 155.20, 155.300, and 155.500 apply to this section. (b) General requirements. (1) A State, establishing an Exchange that provides for the establishment of a SHOP pursuant to \u00a7 155.100 must provide an eligibility appeals process for the SHOP. Where a State has not established an Exchange that provides for the establishment of a SHOP pursuant to \u00a7 155.100, HHS will provide an eligibility appeals process for the SHOP that meets the requirements of this section and the requirements in paragraph (b)(2) of this section. (2) The appeals entity must conduct appeals in accordance with the requirements established in this section and \u00a7\u00a7 155.505(e) thro"
+  },
+  "155.310": {
+   "title": "Eligibility process.",
+   "refs": [
+    "155.405",
+    "155.305",
+    "155.320",
+    "155.410",
+    "155.330",
+    "155.350"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 42314, July 15, 2013; 78 FR 54136, Aug. 30, 2013; 81 FR 12341, Mar. 8, 2016]",
+   "amended_years": [
+    2012,
+    2013,
+    2016
+   ],
+   "text": "Eligibility process. (a) Application \u2014(1) Accepting applications. The Exchange must accept applications from individuals in the form and manner specified in \u00a7 155.405. (2) Information collection from non-applicants. The Exchange may not request information regarding citizenship, status as a national, or immigration status for an individual who is not seeking coverage for himself or herself on any application or supplemental form. (3) Collection of Social Security numbers. (i) The Exchange must require an applicant who has a Social Security number to provide such number to the Exchange. (ii) The Exchange may not require an individual who is not seeking coverage for himself or herself to provide a Social Security number, except as specified in \u00a7 155.305(f)(6). (b) Applicant choice for Exchan"
+  },
+  "155.330": {
+   "title": "Eligibility redetermination during a benefit year.",
+   "refs": [
+    "155.305",
+    "155.405",
+    "155.315",
+    "155.260",
+    "155.310"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 15533, Mar. 11, 2013; 78 FR 42318, July 15, 2013; 79 FR 30347, May 27, 2014; 79 FR 53005, Sept. 5, 2014; 81 FR 94177, Dec. 22, 2016; 84 FR 71710, Dec. 27, 2019; 85 FR 29259, May 14, 2020; 89 FR 26422, Apr. 15, 2024]",
+   "amended_years": [
+    2012,
+    2013,
+    2014,
+    2016,
+    2019,
+    2020,
+    2024
+   ],
+   "text": "Eligibility redetermination during a benefit year. (a) General requirement. The Exchange must redetermine the eligibility of an enrollee in a QHP through the Exchange during the benefit year if it receives and verifies new information reported by an enrollee or identifies updated information through the data matching described in paragraph (d) of this section. (b) Requirement for individuals to report changes. (1) Except as specified in paragraphs (b)(2) and (3) of this section, the Exchange must require an enrollee to report any change with respect to the eligibility standards specified in \u00a7 155.305 within 30 days of such change. (2) The Exchange must not require an enrollee who did not request an eligibility determination for insurance affordability programs to report changes that affect"
+  },
+  "155.335": {
+   "title": "Annual eligibility redetermination.",
+   "refs": [
+    "155.310",
+    "155.320",
+    "155.410",
+    "155.305",
+    "155.405",
+    "155.315"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 42319, July 15, 2013; 79 FR 53005, Sept. 5, 2014; 81 FR 12342, Mar. 8, 2016; 88 FR 25918, Apr. 27, 2023; 89 FR 26422, Apr. 15, 2024; 90 FR 27221, June 25, 2025]",
+   "amended_years": [
+    2012,
+    2013,
+    2014,
+    2016,
+    2023,
+    2024,
+    2025
+   ],
+   "text": "Annual eligibility redetermination. (a) General requirement. (1) Except as specified in paragraphs (l) and (m) of this section, the Exchange must redetermine the eligibility of a qualified individual on an annual basis. (2) The Exchange must conduct annual redeterminations required under paragraph (a)(1) of this section using one of the following: (i) The procedures described in paragraphs (b) through (m) of this section; (ii) Alternative procedures specified by the Secretary for the applicable benefit year; or (iii) Alternative procedures approved by the Secretary based on a showing by the Exchange that the alternative procedures would facilitate continued enrollment in coverage for which the enrollee remains eligible, provide clear information about the process to the qualified individua"
+  },
+  "155.610": {
+   "title": "Eligibility process for exemptions.",
+   "refs": [
+    "155.605",
+    "155.405",
+    "155.615"
+   ],
+   "history": "[78 FR 39523, July 1, 2013, as amended at 81 FR 12346, Mar. 8, 2016; 83 FR 17064, Apr. 17, 2018]",
+   "amended_years": [
+    2013,
+    2016,
+    2018
+   ],
+   "text": "Eligibility process for exemptions. (a) Application. Except as specified in paragraphs (b) and (c) of this section, the Exchange must use an application established by HHS to collect information necessary for determining eligibility for and granting certificates of exemption as described in \u00a7 155.605. (b) Alternative application. If the Exchange seeks to use an alternative application, such application, as approved by HHS, must request the minimum information necessary for the purposes identified in paragraph (a) of this section. (c) Exemptions through the eligibility process for coverage. If an individual submits the application described in \u00a7 155.405 and then requests an exemption, the Exchange must use information collected for purposes of the eligibility determination for enrollment in"
+  },
+  "155.715": {
+   "title": "Eligibility determination process for SHOP for plan years beginning prior to January 1, 2018.",
+   "refs": [
+    "155.710",
+    "155.730"
+   ],
+   "history": "[77 FR 18464, Mar. 27, 2012, as amended at 79 FR 13839, Mar. 11, 2014; 81 FR 12347, Mar. 8, 2016; 83 FR 17065, Apr. 17, 2018]",
+   "amended_years": [
+    2012,
+    2014,
+    2016,
+    2018
+   ],
+   "text": "Eligibility determination process for SHOP for plan years beginning prior to January 1, 2018. (a) General requirement. Before permitting the purchase of coverage in a QHP, the SHOP must determine that the employer or individual who requests coverage is eligible in accordance with the requirements of \u00a7 155.710. (b) Applications. The SHOP must accept a SHOP single employer application form from employers and the SHOP single employee application form from employees wishing to elect coverage through the SHOP, in accordance with the relevant standards of \u00a7 155.730. (c) Verification of eligibility. For the purpose of verifying employer and employee eligibility, the SHOP\u2014 (1) Must verify that an individual applicant is identified by the employer as an employee to whom the qualified employer has o"
+  },
+  "155.716": {
+   "title": "Eligibility determination process for SHOP for plan years beginning on or after January 1, 2018.",
+   "refs": [
+    "155.710",
+    "155.730"
+   ],
+   "history": "[83 FR 17065, Apr. 17, 2018]",
+   "amended_years": [
+    2018
+   ],
+   "text": "Eligibility determination process for SHOP for plan years beginning on or after January 1, 2018. (a) General requirement. The SHOP must determine whether an employer requesting a determination of eligibility to participate in a SHOP is eligible in accordance with the requirements of \u00a7 155.710. (b) Applications. The SHOP must accept a SHOP single employer application form from employers, in accordance with the relevant standards of \u00a7 155.730. (c) Verification of eligibility. For the purpose of verifying employer eligibility, the SHOP\u2014 (1) May establish, in addition to or in lieu of reliance on the application, additional methods to verify the information provided by the applicant on the applicable application; (2) Must collect only the minimum information necessary for verification of eligi"
+  },
+  "155.220": {
+   "title": "Ability of States to permit agents and brokers and web-brokers to assist qualified individuals, qualified employers, or ",
+   "refs": [
+    "155.405",
+    "155.400",
+    "155.205",
+    "156.230",
+    "155.310",
+    "155.221"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 15533, Mar. 11, 2013; 78 FR 54134, Aug. 30, 2013; 79 FR 13837, Mar. 11, 2014; 81 FR 12338, Mar. 8, 2016; 81 FR 94176, Dec. 22, 2016; 84 FR 17563, Apr. 25, 2019; 85 FR 37248, June 19, 2020; 86 FR 24288, May 5, 2021; 87 FR 27388, May 6, 2022; 88 FR 2591",
+   "amended_years": [
+    2012,
+    2013,
+    2014,
+    2016,
+    2019,
+    2020,
+    2021,
+    2022
+   ],
+   "text": "Ability of States to permit agents and brokers and web-brokers to assist qualified individuals, qualified employers, or qualified employees enrolling in QHPs. (a) General rule. A State may permit agents, brokers, and web-brokers to\u2014 (1) Enroll individuals, employers or employees in any QHP in the individual or small group market as soon as the QHP is offered through an Exchange in the State; (2) Subject to paragraphs (c), (d), and (e) of this section, enroll qualified individuals in a QHP in a manner that constitutes enrollment through the Exchange; and (3) Subject to paragraphs (d) and (e) of this section, assist individuals in applying for advance payments of the premium tax credit and cost-sharing reductions for QHPs. (b)(1) Web site disclosure. The Exchange or SHOP may elect to provide"
+  },
+  "155.221": {
+   "title": "Standards for direct enrollment entities and for third-parties to perform audits of direct enrollment entities.",
+   "refs": [
+    "156.1230",
+    "155.220",
+    "144.103",
+    "146.123",
+    "155.20"
+   ],
+   "history": "[83 FR 17061, Apr. 17, 2018, as amended at 84 FR 17566, Apr. 25, 2019; 86 FR 6176, Jan. 19, 2021; 86 FR 24289, May 5, 2021; 86 FR 53503, Sept. 27, 2021; 89 FR 26420, Apr. 15, 2024]",
+   "amended_years": [
+    2018,
+    2019,
+    2021,
+    2024
+   ],
+   "text": "Standards for direct enrollment entities and for third-parties to perform audits of direct enrollment entities. (a) Direct enrollment entities. All Exchanges may permit the following entities to assist consumers with direct enrollment in QHPs offered through the Exchange in a manner that is considered to be through the Exchange, to the extent permitted by applicable State law: (1) QHP issuers that meet the applicable requirements in this section and \u00a7 156.1230 of this subchapter; and (i) For purposes of applying the requirements of \u00a7 156.1230(b) of this subchapter to State Exchanges, all references to \u201cFederally-facilitated Exchange\u201d and \u201cHHS\u201d, and \u201cHealthCare.gov\u201d will be understood to mean \u201cthe applicable State Exchange\u201d, \u201cthe applicable State Exchange\u201d, and \u201cthe applicable State Exchang"
+  },
+  "156.1230": {
+   "title": "Direct enrollment with the QHP issuer in a manner considered to be through the Exchange.",
+   "refs": [
+    "156.265",
+    "155.205",
+    "155.310",
+    "155.221"
+   ],
+   "history": "[78 FR 54143, Aug. 30, 2013, as amended at 81 FR 94182, Dec. 22, 2016; 83 FR 17070, Apr. 17, 2018; 84 FR 17568, Apr. 25, 2019; 85 FR 37248, June 19, 2020; 89 FR 37703, May 6, 2024]",
+   "amended_years": [
+    2013,
+    2016,
+    2018,
+    2019,
+    2020,
+    2024
+   ],
+   "text": "Direct enrollment with the QHP issuer in a manner considered to be through the Exchange. (a) A QHP issuer that is directly contacted by a potential applicant may, at the Exchange's option, enroll such applicant in a QHP in a manner that is considered through the Exchange. In order for the enrollment to be made directly with the issuer in a manner that is considered to be through the Exchange, the QHP issuer needs to comply with at least the following requirements: (1) QHP issuer general requirements. (i) The QHP issuer follows the enrollment process for qualified individuals consistent with \u00a7 156.265. (ii) The QHP issuer's Web site provides applicants the ability to view QHPs offered by the issuer with the data elements listed in \u00a7 155.205(b)(1)(i) through (viii) of this subchapter. (iii) "
+  },
+  "155.100": {
+   "title": "Establishment of a State Exchange.",
+   "refs": [
+    "155.105",
+    "155.106",
+    "155.110"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 54134, Aug. 30, 2013]",
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "text": "Establishment of a State Exchange. (a) General requirements. Each State may elect to establish: (1) An Exchange that facilitates the purchase of health insurance coverage in QHPs in the individual market and that provides for the establishment of a SHOP; or (2) An Exchange that provides only for the establishment of a SHOP. (b) Timing. For plan years beginning before January 1, 2015, only States that provide reasonable assurances to CMS that they will be in a position to establish and operate only a SHOP for 2014 may elect to establish an Exchange that provides only for the establishment of a SHOP, pursuant to the process in \u00a7 155.105(c), (d), and/or (e), whichever is applicable. For plan years beginning on or after January 1, 2015, any State may elect to establish an Exchange that provide"
+  },
+  "155.505": {
+   "title": "General eligibility appeals requirements.",
+   "refs": [
+    "155.305",
+    "155.330",
+    "155.605",
+    "155.310",
+    "155.335",
+    "155.610",
+    "155.530",
+    "155.545",
+    "155.520",
+    "155.625",
+    "155.110",
+    "155.227",
+    "155.205",
+    "155.535"
+   ],
+   "history": "[78 FR 54136, Aug. 30, 2013, as amended at 79 FR 30349, May 27, 2014; 81 FR 12344, Mar. 8, 2016; 81 FR 94179, Dec. 22, 2016; 88 FR 25920, Apr. 27, 2023; 90 FR 4540, Jan. 15, 2025]",
+   "amended_years": [
+    2013,
+    2014,
+    2016,
+    2023,
+    2025
+   ],
+   "text": "General eligibility appeals requirements. (a) General requirements. Unless otherwise specified, the provisions of this subpart apply to Exchange eligibility appeals processes, regardless of whether the appeals process is provided by a State Exchange appeals entity or by the HHS appeals entity. (b) Right to appeal. An applicant, enrollee, or application filer must have the right to appeal: (1) An eligibility determination made in accordance with subpart D, including\u2014 (i) An initial determination of eligibility, including the amount of advance payments of the premium tax credit and level of cost-sharing reductions, made in accordance with the standards specified in \u00a7 155.305(a) through (h); and (ii) A redetermination of eligibility, including the amount of advance payments of the premium tax"
+  },
+  "155.520": {
+   "title": "Appeal requests.",
+   "refs": [
+    "155.505",
+    "155.525"
+   ],
+   "history": "[78 FR 54136, Aug. 30, 2013, as amended at 81 FR 12344, Mar. 8, 2016]",
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "text": "Appeal requests. (a) General standards for appeal requests. The Exchange and the appeals entity\u2014 (1) Must accept appeal requests submitted\u2014 (i) By telephone; (ii) By mail; (iii) In person, if the Exchange or the appeals entity, as applicable, is capable of receiving in-person appeal requests; and (iv) Via the Internet. (2) Must assist the applicant or enrollee in making the appeal request, if requested; (3) Must not limit or interfere with the applicant or enrollee's right to make an appeal request; and (4) Must consider an appeal request to be valid for the purpose of this subpart, if it is submitted in accordance with the requirements of paragraphs (b) and (c) of this section and \u00a7 155.505(b). (b) Appeal request. The Exchange and the appeals entity must allow an applicant or enrollee to "
+  },
+  "155.530": {
+   "title": "Dismissals.",
+   "refs": [
+    "155.520",
+    "155.525"
+   ],
+   "history": "[78 FR 54136, Aug. 30, 2013, as amended at 79 FR 30349, May 27, 2014; 81 FR 12344, Mar. 8, 2016]",
+   "amended_years": [
+    2013,
+    2014,
+    2016
+   ],
+   "text": "Dismissals. (a) Dismissal of appeal. The appeals entity must dismiss an appeal if the appellant\u2014 (1) Withdraws the appeal request in writing or by telephone, if the appeals entity is capable of accepting telephonic withdrawals. (i) Accepting telephonic withdrawals means the appeals entity\u2014 (A) Records in full the appellant's statement and telephonic signature made under penalty of perjury; and (B) Provides a written confirmation to the appellant documenting the telephonic interaction. (ii) [Reserved] (2) Fails to appear at a scheduled hearing without good cause; (3) Fails to submit a valid appeal request as specified in \u00a7 155.520(a)(4); or (4) Dies while the appeal is pending, except if the executor, administrator, or other duly authorized representative of the estate requests to continue "
+  },
+  "155.555": {
+   "title": "Employer appeals process.",
+   "refs": [
+    "155.310",
+    "155.505",
+    "155.520",
+    "155.530",
+    "155.305"
+   ],
+   "history": "[78 FR 54136, Aug. 30, 2013, as amended at 79 FR 30349, May 27, 2014; 81 FR 12345, Mar. 8, 2016; 81 FR 94179, Dec. 22, 2016]",
+   "amended_years": [
+    2013,
+    2014,
+    2016
+   ],
+   "text": "Employer appeals process. (a) General requirements. The provisions of this section apply to employer appeals processes through which an employer may, in response to a notice under \u00a7 155.310(h), appeal a determination that the employer does not provide minimum essential coverage through an employer-sponsored plan or that the employer does provide that coverage but it is not affordable coverage with respect to an employee. (b) Exchange employer appeals process. An Exchange may establish an employer appeals process in accordance with the requirements of this section and \u00a7\u00a7 155.505(f) through (h) and 155.510(a)(1) and (2) and (c). Where an Exchange has not established an employer appeals process, HHS will provide an employer appeals process that meets the requirements of this section and \u00a7\u00a7 15"
+  },
+  "155.710": {
+   "title": "Eligibility standards for SHOP.",
+   "refs": [],
+   "history": "[77 FR 18464, Mar. 27, 2012, as amended at 80 FR 10869, Feb. 27, 2015]",
+   "amended_years": [
+    2012,
+    2015
+   ],
+   "text": "Eligibility standards for SHOP. (a) General requirement. The SHOP must permit qualified employers to purchase coverage for qualified employees through the SHOP. (b) Employer eligibility requirements. An employer is a qualified employer eligible to purchase coverage through a SHOP if such employer\u2014 (1) Is a small employer; (2) Elects to offer, at a minimum, all full-time employees coverage in a QHP through a SHOP; and (3) Either\u2014 (i) Has its principal business address in the Exchange service area and offers coverage to all its full-time employees through that SHOP; or (ii) Offers coverage to each eligible employee through the SHOP serving that employee's primary worksite. (c) Participating in multiple SHOPs. If an employer meets the criteria in paragraph (b) of this section and makes the el"
+  },
+  "155.405": {
+   "title": "Single streamlined application.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Single streamlined application. (a) The application. The Exchange must use a single streamlined application to determine eligibility and to collect information necessary for: (1) Enrollment in a QHP; (2) Advance payments of the premium tax credit; (3) Cost-sharing reductions; and (4) Medicaid, CHIP, or the BHP, where applicable. (b) Alternative application. If the Exchange seeks to use an alternative application, such application, as approved by HHS, must request the minimum information necessary for the purposes identified in paragraph (a) of this section. (c) Filing the single streamlined application. The Exchange must\u2014 (1) Accept the single streamlined application from an application filer; (2) Provide the tools to file an application\u2014 (i) Via an Internet Web site; (ii) By telephone thr"
+  },
+  "155.305": {
+   "title": "Eligibility standards.",
+   "refs": [
+    "155.410"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 15533, Mar. 11, 2013; 78 FR 42315, July 15, 2013; 87 FR 27388, May 6, 2022; 88 FR 25918, Apr. 27, 2023; 89 FR 26421, Apr. 15, 2024; 90 FR 4540, Jan. 15, 2025; 90 FR 27221, June 25, 2025]",
+   "amended_years": [
+    2012,
+    2013,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "text": "Eligibility standards. (a) Eligibility for enrollment in a QHP through the Exchange. The Exchange must determine an applicant eligible for enrollment in a QHP through the Exchange if he or she meets the following requirements: (1) Citizenship, status as a national, or lawful presence. Is a citizen or national of the United States, or is a non-citizen who is lawfully present in the United States, and is reasonably expected to be a citizen, national, or a non-citizen who is lawfully present for the entire period for which enrollment is sought; (2) Incarceration. Is not incarcerated, other than incarceration pending the disposition of charges; and (3) Residency. Meets the applicable residency standard identified in this paragraph (a)(3). (i) For an individual who is age 21 and over, is not li"
+  },
+  "155.320": {
+   "title": "Verification process related to eligibility for insurance affordability programs.",
+   "refs": [
+    "155.310",
+    "155.315",
+    "164.512",
+    "160.103"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 42316, July 15, 2013; 78 FR 54136, Aug. 30, 2013; 79 FR 30347, May 27, 2014; 81 FR 12341, Mar. 8, 2016; 83 FR 17061, Apr. 17, 2018; 86 FR 24289, May 5, 2021; 87 FR 27389, May 6, 2022; 88 FR 25918, Apr. 27, 2023; 89 FR 26421, Apr. 15, 2024; 90 FR 27221",
+   "amended_years": [
+    2012,
+    2013,
+    2014,
+    2016,
+    2018,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "text": "Verification process related to eligibility for insurance affordability programs. (a) General requirements. (1) The Exchange must verify information in accordance with this section only for an applicant or tax filer who requested an eligibility determination for insurance affordability programs in accordance with \u00a7 155.310(b). (2) Unless a request for modification is granted in accordance with \u00a7 155.315(h), the Exchange must verify or obtain information in accordance with this section before making an eligibility determination for insurance affordability programs, and must use such information in such determination. (b) Verification of eligibility for minimum essential coverage other than through an eligible employer-sponsored plan. (1)(i) The Exchange must verify whether an applicant is e"
+  },
+  "155.410": {
+   "title": "Initial and annual open enrollment periods.",
+   "refs": [
+    "155.420"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 76218, Dec. 17, 2013; 79 FR 13838, Mar. 11, 2014; 79 FR 30348, May 27, 2014; 80 FR 10866, Feb. 27, 2015; 81 FR 12343, Mar. 8, 2016; 82 FR 18381, Apr. 18, 2017; 86 FR 53503, Sept. 27, 2021; 89 FR 26423, Apr. 15, 2024; 90 FR 27222, June 25, 2025]",
+   "amended_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2021,
+    2024,
+    2025
+   ],
+   "text": "Initial and annual open enrollment periods. (a) General requirements. (1) The Exchange must provide an initial open enrollment period and annual open enrollment periods consistent with this section, during which qualified individuals may enroll in a QHP and enrollees may change QHPs. (2) The Exchange may only permit a qualified individual to enroll in a QHP or an enrollee to change QHPs during the initial open enrollment period specified in paragraph (b) of this section, the annual open enrollment period specified in paragraph (e) of this section, or a special enrollment period described in \u00a7 155.420 of this subpart for which the qualified individual has been determined eligible. (b) Initial open enrollment period. The initial open enrollment period begins October 1, 2013 and extends throu"
+  },
+  "155.350": {
+   "title": "Special eligibility standards and process for Indians.",
+   "refs": [
+    "155.305",
+    "155.310",
+    "155.315"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 42321, July 15, 2013]",
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "text": "Special eligibility standards and process for Indians. (a) Eligibility for cost-sharing reductions. (1) The Exchange must determine an applicant who is an Indian eligible for cost-sharing reductions if he or she\u2014 (i) Meets the requirements specified in \u00a7 155.305(a) and \u00a7 155.305(f); (ii) Is expected to have a household income, as defined in 26 CFR 1.36B-1(e) that does not exceed 300 percent of the FPL for the benefit year for which coverage is requested. (2) The Exchange may only provide cost-sharing reductions to an individual who is an Indian if he or she is enrolled in a QHP through the Exchange. (b) Special cost-sharing rule for Indians regardless of income. The Exchange must determine an applicant eligible for the special cost-sharing rule described in section 1402(d)(2) of the Afford"
+  },
+  "155.315": {
+   "title": "Verification process related to eligibility for enrollment in a QHP through the Exchange.",
+   "refs": [
+    "155.305"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 77 FR 31515, May 29, 2012; 78 FR 42316, July 15, 2013; 88 FR 25918, Apr. 27, 2023; 89 FR 26421, Apr. 15, 2024; 90 FR 27221, June 25, 2025]",
+   "amended_years": [
+    2012,
+    2013,
+    2023,
+    2024,
+    2025
+   ],
+   "text": "Verification process related to eligibility for enrollment in a QHP through the Exchange. (a) General requirement. Unless a request for modification is granted in accordance with paragraph (h) of this section, the Exchange must verify or obtain information as provided in this section in order to determine that an applicant is eligible for enrollment in a QHP through the Exchange. (b) Validation of Social Security number. (1) For any individual who provides his or her Social Security number to the Exchange, the Exchange must transmit the Social Security number and other identifying information to HHS, which will submit it to the Social Security Administration. (2) To the extent that the Exchange is unable to validate an individual's Social Security number through the Social Security Adminis"
+  },
+  "155.260": {
+   "title": "Privacy and security of personally identifiable information.",
+   "refs": [
+    "155.300",
+    "155.200"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 77 FR 31515, May 29, 2012; 79 FR 13837, Mar. 11, 2014; 79 FR 30346, May 27, 2014; 81 FR 12341, Mar. 8, 2016; 81 FR 61581, Sept. 6, 2016]",
+   "amended_years": [
+    2012,
+    2014,
+    2016
+   ],
+   "text": "Privacy and security of personally identifiable information. (a) Creation, collection, use and disclosure. (1) Where the Exchange creates or collects personally identifiable information for the purposes of determining eligibility for enrollment in a qualified health plan; determining eligibility for other insurance affordability programs, as defined in \u00a7 155.300; or determining eligibility for exemptions from the individual shared responsibility provisions in section 5000A of the Code, the Exchange may only use or disclose such personally identifiable information to the extent such information is necessary: (i) For the Exchange to carry out the functions described in \u00a7 155.200; (ii) For the Exchange to carry out other functions not described in paragraph (a)(1)(i) of this section, which th"
+  },
+  "155.605": {
+   "title": "Eligibility standards for exemptions.",
+   "refs": [
+    "156.145"
+   ],
+   "history": "[78 FR 39523, July 1, 2013, as amended at 79 FR 30349, May 27, 2014; 80 FR 10868, Feb. 27, 2015; 81 FR 12345, Mar. 8, 2016; 83 FR 17063, Apr. 17, 2018; 84 FR 17567, Apr. 25, 2019]",
+   "amended_years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2018,
+    2019
+   ],
+   "text": "Eligibility standards for exemptions. (a) Eligibility for an exemption through the Exchange. Except as specified in paragraph (g) of this section, the Exchange must determine an applicant eligible for and issue a certificate of exemption for any month if the Exchange determines that he or she meets the requirements for one or more of the categories of exemptions described in this section for at least one day of the month. (b) Duration of single exemption. Except as specified in paragraphs (c)(2) and (d) of this section, the Exchange may provide a certificate of exemption only for the calendar year in which an applicant submitted an application for such exemption. (c) Religious conscience. (1) The Exchange must determine an applicant eligible for an exemption for any month if the applicant "
+  },
+  "155.615": {
+   "title": "Verification process related to eligibility for exemptions.",
+   "refs": [
+    "155.605",
+    "155.315",
+    "155.320",
+    "155.610"
+   ],
+   "history": "[78 FR 39523, July 1, 2013, as amended at 78 FR 42322, July 15, 2013; 81 FR 12346, Mar. 8, 2016]",
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "text": "Verification process related to eligibility for exemptions. (a) General rule. Unless a request for modification is granted under paragraph (i) of this section, the Exchange must verify or obtain information as provided in this section in order to determine that an applicant is eligible for an exemption. (b) Verification related to exemption for religious conscience. For any applicant who requests an exemption based on religious conscience, the Exchange must verify that he or she meets the standards specified in \u00a7 155.605(c) by\u2014 (1) Except as specified in paragraph (b)(2) of this section, accepting a form that reflects that he or she is exempt from Social Security and Medicare taxes under section 1402(g)(1) of the Code; (2) Except as specified in paragraphs (b)(3) and (4) of this section, a"
+  },
+  "155.730": {
+   "title": "Application standards for SHOP for plan year beginning prior to January 1, 2018.",
+   "refs": [],
+   "history": "[77 FR 18464, Mar. 27, 2012, as amended at 78 FR 54141, Aug. 30, 2013; 79 FR 13839, Mar. 11, 2014; 83 FR 17066, Apr. 17, 2018]",
+   "amended_years": [
+    2012,
+    2013,
+    2014,
+    2018
+   ],
+   "text": "Application standards for SHOP for plan year beginning prior to January 1, 2018. (a) General requirements. Application forms used by the SHOP must meet the requirements set forth in this section. (b) Single employer application. The SHOP must use a single application to determine employer eligibility and to collect information necessary for purchasing coverage. Such application must collect the following\u2014 (1) Employer name and address of employer's locations; (2) Number of employees; (3) Employer Identification Number (EIN); and (4) A list of qualified employees and their taxpayer identification numbers. (c) Single employee application. The SHOP must use a single application for eligibility determination, QHP selection and enrollment for qualified employees and their dependents. (d) Model "
+  },
+  "155.400": {
+   "title": "Enrollment of qualified individuals into QHPs.",
+   "refs": [
+    "156.1210",
+    "155.410",
+    "155.420"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 42321, July 15, 2013; 79 FR 30348, May 27, 2014; 80 FR 10866, Feb. 27, 2015; 81 FR 12343, Mar. 8, 2016; 81 FR 94177, Dec. 22, 2016; 82 FR 18381, Apr. 18, 2017; 85 FR 29260, May 14, 2020; 89 FR 26423, Apr. 15, 2024; 90 FR 4540, Jan. 15, 2025; 90 FR 272",
+   "amended_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2020,
+    2024,
+    2025
+   ],
+   "text": "Enrollment of qualified individuals into QHPs. (a) General requirements. The Exchange must accept a QHP selection from an applicant who is determined eligible for enrollment in a QHP in accordance with subpart D, and must\u2014 (1) Notify the issuer of the applicant's selected QHP; and (2) Transmit information necessary to enable the QHP issuer to enroll the applicant. (b) Timing of data exchange. The Exchange must: (1) Send eligibility and enrollment information to QHP issuers and HHS promptly and without undue delay; and (2) Establish a process by which a QHP issuer acknowledges the receipt of such information. (3) Send updated eligibility and enrollment information to HHS promptly and without undue delay, in a manner and timeframe as specified by HHS. (c) Records. The Exchange must maintain "
+  },
+  "155.205": {
+   "title": "Consumer assistance tools and programs of an Exchange.",
+   "refs": [
+    "155.405",
+    "155.1040",
+    "156.230",
+    "155.210"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 42859, July 17, 2013; 80 FR 10864, Feb. 27, 2015; 81 FR 12337, Mar. 8, 2016; 81 FR 94175, Dec. 22, 2016; 84 FR 17563, Apr. 25, 2019; 86 FR 24288, May 5, 2021; 89 FR 26419, Apr. 15, 2024]",
+   "amended_years": [
+    2012,
+    2013,
+    2015,
+    2016,
+    2019,
+    2021,
+    2024
+   ],
+   "text": "Consumer assistance tools and programs of an Exchange. (a) Call center. If the Exchange is not an Exchange described in paragraph (a)(1) or (2) of this section, the Exchange must provide for operation of a toll-free call center that addresses the needs of consumers requesting assistance and meets the requirements outlined in paragraphs (c)(1), (c)(2)(i), and (c)(3) of this section and at \u00a7 155.405(c)(2)(ii). At a minimum, the Exchange call center must provide consumers with access to a live call center representative during an Exchange's published hours of operation and a live call center representative who must be able to assist consumers with filing their Exchange application, including providing consumers with information on their eligibility for advance premium tax credits and cost-sha"
+  },
+  "156.230": {
+   "title": "Network adequacy standards.",
+   "refs": [
+    "156.235"
+   ],
+   "history": "[77 FR 18469, Mar. 27, 2012, as amended at 80 FR 10873, Feb. 27, 2015; 81 FR 12349, Mar. 8, 2016; 86 FR 6178, Jan. 19, 2021; 87 FR 27391, May 6, 2022; 88 FR 25922, Apr. 27, 2023]",
+   "amended_years": [
+    2012,
+    2015,
+    2016,
+    2021,
+    2022,
+    2023
+   ],
+   "text": "Network adequacy standards. (a) General requirement. (1) Each QHP issuer must use a provider network and ensure that the provider network consisting of in-network providers, as available to all enrollees, meets the following standards: (i) Includes essential community providers in accordance with \u00a7 156.235; (ii) Maintains a network that is sufficient in number and types of providers, including providers that specialize in mental health and substance use disorder services, to ensure that all services will be accessible without unreasonable delay; and (iii) Is consistent with the rules for network plans of section 2702(c) of the PHS Act. (2)(i) Standards. A QHP issuer on a Federally-facilitated Exchange must comply with the requirement in paragraph (a)(1)(ii) of this section by: (A) For plan"
+  },
+  "144.103": {
+   "title": "Definitions.",
+   "refs": [],
+   "history": "[69 FR 78781, Dec. 30, 2004]",
+   "amended_years": [
+    2004
+   ],
+   "text": "Definitions. For purposes of parts 146 (group market), 147 (group and individual market), 148 (individual market), 149 (surprise billing and transparency), and 150 (enforcement) of this subchapter, the following definitions apply unless otherwise provided: Affiliation period means a period of time that must expire before health insurance coverage provided by an HMO becomes effective, and during which the HMO is not required to provide benefits. Applicable State authority means, with respect to a health insurance issuer in a State, the State insurance commissioner or official or officials designated by the State to enforce the requirements of 45 CFR parts 146 and 148 for the State involved with respect to the issuer. Beneficiary has the meaning given the term under section 3(8) of the Emplo"
+  },
+  "146.123": {
+   "title": "Special rule allowing integration of Health Reimbursement Arrangements (HRAs) and other account-based group health plans",
+   "refs": [
+    "147.126",
+    "155.20",
+    "147.130"
+   ],
+   "history": "[84 FR 29014, June 20, 2019]",
+   "amended_years": [
+    2019
+   ],
+   "text": "Special rule allowing integration of Health Reimbursement Arrangements (HRAs) and other account-based group health plans with individual health insurance coverage and Medicare and prohibiting discrimination in HRAs and other account-based group health plans. (a) Scope. This section applies to health reimbursement arrangements (HRAs) and other account-based group health plans, as defined in \u00a7 147.126(d)(6)(i) of this subchapter. For ease of reference, the term \u201cHRA\u201d is used in this section to include other account-based group health plans. For related regulations, see 26 CFR 1.36B-2(c)(3)(i) and (c)(5), 29 CFR 2510.3-1(l), and 45 CFR 155.420. (b) Purpose. This section provides the conditions that an HRA must satisfy in order to be integrated with individual health insurance coverage for pur"
+  },
+  "156.265": {
+   "title": "Enrollment process for qualified individuals.",
+   "refs": [
+    "155.400",
+    "155.310",
+    "155.405",
+    "155.230",
+    "155.205",
+    "155.260",
+    "155.270",
+    "155.240"
+   ],
+   "history": "[77 FR 18469, Mar. 27, 2012, as amended at 78 FR 76218, Dec. 17, 2013; 79 FR 30351, May 27, 2014; 80 FR 10874, Feb. 27, 2015; 81 FR 12350, Mar. 8, 2016; 81 FR 94181, Dec. 22, 2016; 85 FR 29261, May 14, 2020]",
+   "amended_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2020
+   ],
+   "text": "Enrollment process for qualified individuals. (a) General requirement. A QHP issuer must process enrollment in accordance with this section. (b) Enrollment through the Exchange for the individual market. (1) A QHP issuer must enroll a qualified individual only if the Exchange\u2014 (i) Notifies the QHP issuer that the individual is a qualified individual; and (ii) Transmits information to the QHP issuer as provided in \u00a7 155.400(a) of this subchapter. (2) If an applicant initiates enrollment directly with the QHP issuer for enrollment through the Exchange, the QHP issuer must either\u2014 (i) Direct the individual to file an application with the Exchange in accordance with \u00a7 155.310, or (ii) Ensure the applicant's completion of an eligibility verification and enrollment application through the Exchan"
+  },
+  "155.105": {
+   "title": "Approval of a State Exchange.",
+   "refs": [
+    "155.106",
+    "155.100",
+    "155.140",
+    "155.200",
+    "155.120"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 42313, July 15, 2013; 78 FR 54134, Aug. 30, 2013; 89 FR 26419, Apr. 15, 2024]",
+   "amended_years": [
+    2012,
+    2013,
+    2024
+   ],
+   "text": "Approval of a State Exchange. (a) State Exchange approval requirement. Each State Exchange must be approved by HHS by no later than January 1, 2013 to offer QHPs on January 1, 2014, and thereafter required in accordance with \u00a7 155.106. HHS may consult with other Federal Government agencies in determining whether to approve an Exchange. (b) State Exchange approval standards. HHS will approve the operation of an Exchange established by a State provided that it meets the following standards: (1) The Exchange is able to carry out the required functions of an Exchange consistent with subparts C, D, E, F, G, H, and K of this part unless the State is approved to operate only a SHOP by HHS pursuant to \u00a7 155.100(a)(2), in which case the Exchange must perform the minimum functions described in subpa"
+  },
+  "155.106": {
+   "title": "Election to operate an Exchange after 2014.",
+   "refs": [
+    "155.105",
+    "155.200"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 79 FR 13837, Mar. 11, 2014; 81 FR 12336, Mar. 8, 2016; 83 FR 17060, Apr. 17, 2018; 88 FR 25917, Apr. 27, 2023; 89 FR 26419, Apr. 15, 2024]",
+   "amended_years": [
+    2012,
+    2014,
+    2016,
+    2018,
+    2023,
+    2024
+   ],
+   "text": "Election to operate an Exchange after 2014. (a) Election to operate an Exchange. Except as provided in paragraph (c) of this section, a State electing to seek approval of its Exchange must: (1) Comply with the State Exchange approval requirements and process set forth in \u00a7 155.105; (2) Submit an Exchange Blueprint application for HHS approval at least 15 months prior to the date on which the Exchange proposes to begin open enrollment as a State Exchange. HHS requires that a State submitting a Blueprint Application to operate a State Exchange provide, upon request, supplemental information to HHS detailing the State's implementation of its State Exchange functionality, including information on the ability to implement and comply with Federal requirements for operating an Exchange. (i) Publi"
+  },
+  "155.110": {
+   "title": "Entities eligible to carry out Exchange functions.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Entities eligible to carry out Exchange functions. (a) Eligible contracting entities. The State may elect to authorize an Exchange established by the State to enter into an agreement with an eligible entity to carry out one or more responsibilities of the Exchange. Eligible entities are: (1) An entity: (i) Incorporated under, and subject to the laws of, one or more States; (ii) That has demonstrated experience on a State or regional basis in the individual and small group health insurance markets and in benefits coverage; and (iii) Is not a health insurance issuer or treated as a health insurance issuer under subsection (a) or (b) of section 52 of the Code of 1986 as a member of the same controlled group of corporations (or under common control with) as a health insurance issuer; or (2) Th"
+  },
+  "155.545": {
+   "title": "Appeal decisions.",
+   "refs": [
+    "155.535",
+    "155.520",
+    "155.540",
+    "155.330",
+    "155.305"
+   ],
+   "history": "[78 FR 54136, Aug. 30, 2013, as amended at 81 FR 12345, Mar. 8, 2016]",
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "text": "Appeal decisions. (a) Appeal decisions. Appeal decisions must\u2014 (1) Be based exclusively on the information and evidence specified in \u00a7 155.535(e) and the eligibility requirements under subpart D or G of this part, as applicable, and if the Medicaid or CHIP agencies delegate authority to conduct the Medicaid fair hearing or CHIP review to the appeals entity in accordance with 42 CFR 431.10(c)(1)(ii) or 457.1120, the eligibility requirements under 42 CFR parts 435 and 457, as applicable; (2) State the decision, including a plain language description of the effect of the decision on the appellant's eligibility; (3) Summarize the facts relevant to the appeal; (4) Identify the legal basis, including the regulations that support the decision; (5) State the effective date of the decision; and (6)"
+  },
+  "155.625": {
+   "title": "Options for conducting eligibility determinations for exemptions.",
+   "refs": [
+    "155.110",
+    "155.605"
+   ],
+   "history": "[79 FR 30349, May 27, 2014, as amended at 81 FR 12346, Mar. 8, 2016]",
+   "amended_years": [
+    2014,
+    2016
+   ],
+   "text": "Options for conducting eligibility determinations for exemptions. (a) Options for conducting eligibility determinations. The Exchange may satisfy the requirements of this subpart\u2014 (1) Directly or through contracting arrangements in accordance with \u00a7 155.110(a); or (2) By use of the HHS service under paragraph (b) of this section. (b) Use of HHS service. Notwithstanding the requirements of this subpart, the Exchange may adopt an exemption eligibility determination made by HHS. (c) Administration of hardship exemption based on affordability. States may choose to administer the hardship exemption under \u00a7 155.605(d)(2) only and delegate to HHS all other exemption determinations generally administered by HHS. [79 FR 30349, May 27, 2014, as amended at 81 FR 12346, Mar. 8, 2016]"
+  },
+  "155.227": {
+   "title": "Authorized representatives.",
+   "refs": [
+    "155.405",
+    "155.330",
+    "155.335"
+   ],
+   "history": "[78 FR 42313, July 15, 2013]",
+   "amended_years": [
+    2013
+   ],
+   "text": "Authorized representatives. (a) General rule. (1) The Exchange must permit an applicant or enrollee in the individual or small group market, subject to applicable privacy and security requirements, to designate an individual person or organization to act on his or her behalf in applying for an eligibility determination or redetermination, under subpart D, G, or H of this part, and in carrying out other ongoing communications with the Exchange. (2) Designation of an authorized representative must be in a written document signed by the applicant or enrollee, or through another legally binding format subject to applicable authentication and data security standards. If submitted, legal documentation of authority to act on behalf of an applicant or enrollee under State law, such as a court orde"
+  },
+  "155.535": {
+   "title": "Informal resolution and hearing requirements.",
+   "refs": [
+    "155.540"
+   ],
+   "history": "[78 FR 54136, Aug. 30, 2013, as amended at 81 FR 12344, Mar. 8, 2016]",
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "text": "Informal resolution and hearing requirements. (a) Informal resolution. The HHS appeals process will provide an opportunity for informal resolution and a hearing in accordance with the requirements of this section. A State Exchange appeals entity may also provide an informal resolution process prior to a hearing. Any information resolution process must meet the following requirements: (1) The process complies with the scope of review specified in paragraph (e) of this section; (2) The appellant's right to a hearing is preserved in any case in which the appellant remains dissatisfied with the outcome of the informal resolution process; (3) If the appeal advances to hearing, the appellant is not asked to provide duplicative information or documentation that he or she previously provided durin"
+  },
+  "155.525": {
+   "title": "Eligibility pending appeal.",
+   "refs": [
+    "155.520",
+    "155.330",
+    "155.335"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Eligibility pending appeal. (a) General standards. After receipt of a valid appeal request or notice under \u00a7 155.520(d)(1)(ii) that concerns an appeal of a redetermination under \u00a7 155.330(e) or \u00a7 155.335(h), the Exchange or the Medicaid or CHIP agency, as applicable, must continue to consider the appellant eligible while the appeal is pending in accordance with standards set forth in paragraph (b) of this section or as determined by the Medicaid or CHIP agency consistent with 42 CFR parts 435 and 457, as applicable. (b) Implementation. If the tax filer or appellant, as applicable, accepts eligibility pending an appeal, the Exchange must continue the appellant's eligibility for enrollment in a QHP, advance payments of the premium tax credit, and cost-sharing reductions, as applicable, in ac"
+  },
+  "164.512": {
+   "title": "Uses and disclosures for which an authorization or opportunity to agree or object is not required.",
+   "refs": [
+    "164.502",
+    "164.508",
+    "164.510",
+    "164.509"
+   ],
+   "history": "[65 FR 82802, Dec. 28, 2000, as amended at 67 FR 53270, Aug. 14, 2002; 78 FR 5699, Jan. 25, 2013; 78 FR 34266, June 7, 2013; 81 FR 395, Jan. 6, 2016; 89 FR 33064, Apr. 26, 2024]",
+   "amended_years": [
+    2000,
+    2002,
+    2013,
+    2016,
+    2024
+   ],
+   "text": "Uses and disclosures for which an authorization or opportunity to agree or object is not required. Except as provided by \u00a7 164.502(a)(5)(iii), a covered entity may use or disclose protected health information without the written authorization of the individual, as described in \u00a7 164.508, or the opportunity for the individual to agree or object as described in \u00a7 164.510, in the situations covered by this section, subject to the applicable requirements of this section and \u00a7 164.509. When the covered entity is required by this section to inform the individual of, or when the individual may agree to, a use or disclosure permitted by this section, the covered entity's information and the individual's agreement may be given verbally. (a) Standard: Uses and disclosures required by law. (1) A cove"
+  },
+  "160.103": {
+   "title": "Definitions.",
+   "refs": [
+    "164.501",
+    "164.504",
+    "160.404"
+   ],
+   "history": "[65 FR 82798, Dec. 28, 2000, as amended at 67 FR 38019, May 31, 2002; 67 FR 53266, Aug. 14, 2002; 68 FR 8374, Feb. 20, 2003; 71 FR 8424, Feb. 16, 2006; 76 FR 40495, July 8, 2011; 77 FR 1589, Jan. 10, 2012; 78 FR 5687, Jan. 25, 2013; 89 FR 33062, Apr. 26, 2024]",
+   "amended_years": [
+    2000,
+    2002,
+    2003,
+    2006,
+    2011,
+    2012,
+    2013,
+    2024
+   ],
+   "text": "Definitions. Except as otherwise provided, the following definitions apply to this subchapter: Act means the Social Security Act. Administrative simplification provision means any requirement or prohibition established by: (1) 42 U.S.C. 1320d-1320d-4, 1320d-7, 1320d-8, and 1320d-9; (2) Section 264 of Pub. L. 104-191; (3) Sections 13400-13424 of Public Law 111-5; or (4) This subchapter. ALJ means Administrative Law Judge. ANSI stands for the American National Standards Institute. Business associate: (1) Except as provided in paragraph (4) of this definition, business associate means, with respect to a covered entity, a person who: (i) On behalf of such covered entity or of an organized health care arrangement (as defined in this section) in which the covered entity participates, but other t"
+  },
+  "155.420": {
+   "title": "Special enrollment periods.",
+   "refs": [
+    "156.140"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012]",
+   "amended_years": [
+    2012
+   ],
+   "text": "Special enrollment periods. (a) General requirements \u2014(1) General parameters. The Exchange must provide special enrollment periods consistent with this section, during which qualified individuals may enroll in QHPs and enrollees may change QHPs. (2) Definition of dependent. For the purpose of this section, \u201cdependent\u201d, has the same meaning as it does in 26 CFR 54.9801-2, referring to any individual who is or who may become eligible for coverage under the terms of a QHP because of a relationship to a qualified individual or enrollee. (3) Use of special enrollment periods. Except in the circumstances specified in paragraph (a)(4) of this section, the Exchange must allow a qualified individual or enrollee, and when specified in paragraph (d) of this section, his or her dependent to enroll in "
+  },
+  "155.300": {
+   "title": "Definitions and general standards for eligibility determinations.",
+   "refs": [
+    "155.20",
+    "155.410",
+    "156.145",
+    "155.345",
+    "155.310"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 42314, July 15, 2013]",
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "text": "Definitions and general standards for eligibility determinations. (a) Definitions. In addition to those definitions in \u00a7 155.20, for purposes of this subpart, the following terms have the following meaning: Applicable Children's Health Insurance Program (CHIP) MAGI-based income standard means the applicable income standard as defined at 42 CFR 457.310(b)(1), as applied under the State plan adopted in accordance with title XXI of the Act, or waiver of such plan and as certified by the State CHIP Agency in accordance with 42 CFR 457.348(d), for determining eligibility for child health assistance and enrollment in a separate child health program. Applicable Medicaid modified adjusted gross income (MAGI)-based income standard has the same meaning as \u201capplicable modified adjusted gross income s"
+  },
+  "155.200": {
+   "title": "Functions of an Exchange.",
+   "refs": [
+    "155.100",
+    "155.260",
+    "155.106",
+    "156.122",
+    "156.330",
+    "156.340",
+    "156.1010",
+    "156.815",
+    "155.706"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 39523, July 1, 2013; 78 FR 54134, Aug. 30, 2013; 81 FR 12337, Mar. 8, 2016; 81 FR 94175, Dec. 22, 2016; 83 FR 17060, Apr. 17, 2018; 84 FR 71710, Dec. 27, 2019]",
+   "amended_years": [
+    2012,
+    2013,
+    2016,
+    2018,
+    2019
+   ],
+   "text": "Functions of an Exchange. (a) General requirements. An Exchange must perform the functions described in this subpart and in subparts D, E, F, G, H, K, M, and O of this part unless the State is approved to operate only a SHOP by HHS under \u00a7 155.100(a)(2), in which case the Exchange operated by the State must perform the functions described in subpart H of this part and all applicable provisions of other subparts referenced in that subpart. In a State that is approved to operate only a SHOP, the individual market Exchange operated by HHS in that State will perform the functions described in this subpart and in subparts D, E, F, G, K, M, and O of this part. (b) Certificates of exemption. The Exchange must issue certificates of exemption consistent with sections 1311(d)(4)(H) and 1411 of the A"
+  },
+  "156.145": {
+   "title": "Determination of minimum value.",
+   "refs": [
+    "156.140"
+   ],
+   "history": "[78 FR 12866, Feb. 25, 2013, as amended at 80 FR 10872, Feb. 27, 2015]",
+   "amended_years": [
+    2013,
+    2015
+   ],
+   "text": "Determination of minimum value. (a) Acceptable methods for determining MV. An employer-sponsored plan provides minimum value (MV) only if the percentage of the total allowed costs of benefits provided under the plan is greater than or equal to 60 percent, and the benefits under the plan include substantial coverage of inpatient hospital services and physician services. An employer-sponsored plan may use one of the following methods to determine whether the percentage of the total allowed costs of benefits provided under the plan is not less than 60 percent. (1) The MV Calculator to be made available by HHS and the Internal Revenue Service. The result derived from the calculator may be modified under the rules in paragraph (b) of this section. (2) Any safe harbor established by HHS and the "
+  },
+  "156.1210": {
+   "title": "Dispute submission.",
+   "refs": [],
+   "history": "[85 FR 29262, May 14, 2020, as amended at 86 FR 24294, May 5, 2021; 88 FR 25923, Apr. 27, 2023]",
+   "amended_years": [
+    2020,
+    2021,
+    2023
+   ],
+   "text": "Dispute submission. (a) Responses to reports. Within 90 calendar days of the date of a payment and collections report from HHS, the issuer must, in a form and manner specified by HHS or the State Exchange describe to HHS or the State Exchange (as applicable) any inaccuracies it identifies in the report. (b) Inaccuracies identified after 90-day period. With respect to an inaccuracy described under paragraph (a) of this section that is identified and submitted to HHS or the State Exchange (as applicable) by the issuer after the end of the 90-day period described in such paragraph, HHS will consider and work with the issuer or the State Exchange (as applicable) to resolve the inaccuracy so long as\u2014 (1) The issuer promptly notifies HHS or the State Exchange (as applicable) upon identifying the"
+  },
+  "155.1040": {
+   "title": "Transparency in coverage.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Transparency in coverage. (a) General requirement. The Exchange must collect information relating to coverage transparency as described in \u00a7 156.220 of this subtitle from QHP issuers, and from multi-State plans in a time and manner determined by the U.S. Office of Personnel Management. (b) Use of plain language. The Exchange must determine whether the information required to be submitted and made available under paragraph (a) of this section is provided in plain language. (c) Transparency of cost-sharing information. The Exchange must monitor whether a QHP issuer has made cost-sharing information available in a timely manner upon the request of an individual as required by \u00a7 156.220(d) of this subtitle."
+  },
+  "155.210": {
+   "title": "Navigator program standards.",
+   "refs": [
+    "155.260"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 42859, July 17, 2013; 79 FR 30344, May 27, 2014; 79 FR 42986, July 24, 2014; 81 FR 12337, Mar. 8, 2016; 83 FR 17061, Apr. 17, 2018; 84 FR 17563, Apr. 25, 2019; 86 FR 53503, Sept. 27, 2021; 88 FR 25917, Apr. 27, 2023]",
+   "amended_years": [
+    2012,
+    2013,
+    2014,
+    2016,
+    2018,
+    2019,
+    2021,
+    2023
+   ],
+   "text": "Navigator program standards. (a) General requirements. The Exchange must establish a Navigator program consistent with this section through which it awards grants to eligible public or private entities or individuals described in paragraph (c) of this section. (b) Standards. The Exchange must develop and publicly disseminate\u2014 (1) A set of standards, to be met by all entities and individuals to be awarded Navigator grants, designed to prevent, minimize and mitigate any conflicts of interest, financial or otherwise, that may exist for an entity or individuals to be awarded a Navigator grant and to ensure that all entities and individuals carrying out Navigator functions have appropriate integrity; and (2) A set of training standards, to be met by all entities and individuals carrying out Nav"
+  },
+  "156.235": {
+   "title": "Essential community providers.",
+   "refs": [],
+   "history": "[80 FR 10873, Feb. 27, 2015, as amended at 88 FR 25922, Apr. 27, 2023]",
+   "amended_years": [
+    2015,
+    2023
+   ],
+   "text": "Essential community providers. (a) General ECP standard. (1) A QHP issuer must include in its provider network a sufficient number and geographic distribution of essential community providers (ECPs), where available, to ensure reasonable and timely access to a broad range of such providers for low-income individuals or individuals residing in Health Professional Shortage Areas within the QHP's service area, in accordance with the Exchange's network adequacy standards. (2) A plan applying for QHP certification to be offered through a Federally-facilitated Exchange has a sufficient number and geographic distribution of ECPs if it demonstrates in its QHP application that\u2014 (i) The QHP issuer's provider network includes as participating providers at least a minimum percentage, as specified by H"
+  },
+  "147.126": {
+   "title": "No lifetime or annual limits.",
+   "refs": [
+    "147.130"
+   ],
+   "history": "[80 FR 72276, Nov. 18, 2015, as amended at 81 FR 75326, Oct. 31, 2016; 84 FR 29025, June 20, 2019]",
+   "amended_years": [
+    2015,
+    2016,
+    2019
+   ],
+   "text": "No lifetime or annual limits. (a) Prohibition \u2014(1) Lifetime limits. Except as provided in paragraph (b) of this section, a group health plan, or a health insurance issuer offering group or individual health insurance coverage, may not establish any lifetime limit on the dollar amount of essential health benefits for any individual, whether provided in-network or out-of-network. (2) Annual limits \u2014(i) General rule. Except as provided in paragraphs (a)(2)(ii) and (b) of this section, a group health plan, or a health insurance issuer offering group or individual health insurance coverage, may not establish any annual limit on the dollar amount of essential health benefits for any individual, whether provided in-network or out-of-network. (ii) Exception for health flexible spending arrangement"
+  },
+  "147.130": {
+   "title": "Coverage of preventive health services.",
+   "refs": [],
+   "history": "[75 FR 41759, July 19, 2010, as amended at 76 FR 46626, Aug. 3, 2011; 78 FR 39896, July 2, 2013; 80 FR 41346, July 14, 2015; 82 FR 47833, 47861, Oct. 13, 2017; 85 FR 71202, Nov. 6, 2020]",
+   "amended_years": [
+    2010,
+    2011,
+    2013,
+    2015,
+    2017,
+    2020
+   ],
+   "text": "Coverage of preventive health services. (a) Services \u2014(1) In general. Beginning at the time described in paragraph (b) of this section and subject to \u00a7\u00a7 147.131, 147.132, and 147.133, a group health plan, or a health insurance issuer offering group or individual health insurance coverage, must provide coverage for and must not impose any cost-sharing requirements (such as a copayment, coinsurance, or a deductible) for\u2014 (i) Evidence-based items or services that have in effect a rating of A or B in the current recommendations of the United States Preventive Services Task Force with respect to the individual involved (except as otherwise provided in paragraph (c) of this section); (ii) Immunizations for routine use in children, adolescents, and adults that have in effect a recommendation from"
+  },
+  "155.230": {
+   "title": "General standards for Exchange notices.",
+   "refs": [
+    "155.405",
+    "155.335",
+    "155.205"
+   ],
+   "history": "[77 FR 11718, Feb. 27, 2012, as amended at 78 FR 42314, July 15, 2013; 81 FR 94177, Dec. 22, 2016]",
+   "amended_years": [
+    2012,
+    2013,
+    2016
+   ],
+   "text": "General standards for Exchange notices. (a) General requirement. Any notice required to be sent by the Exchange to individuals or employers must be written and include: (1) An explanation of the action reflected in the notice, including the effective date of the action. (2) Any factual findings relevant to the action. (3) Citations to, or identification of, the relevant regulations supporting the action. (4) Contact information for available customer service resources. (5) An explanation of appeal rights, if applicable. (b) Accessibility and readability requirements. All applications, forms, and notices, including the single, streamlined application described in \u00a7 155.405 and notice of annual redetermination described in \u00a7 155.335(c), must conform to the standards outlined in \u00a7 155.205(c)."
+  },
+  "155.270": {
+   "title": "Use of standards and protocols for electronic transactions.",
+   "refs": [],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 54135, Aug. 30, 2013]",
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "text": "Use of standards and protocols for electronic transactions. (a) HIPAA administrative simplification. To the extent that the Exchange performs electronic transactions with a covered entity, the Exchange must use standards, implementation specifications, operating rules, and code sets that are adopted by the Secretary in 45 CFR parts 160 and 162 or that are otherwise approved by HHS. (b) HIT enrollment standards and protocols. The Exchange must incorporate interoperable and secure standards and protocols developed by the Secretary in accordance with section 3021 of the PHS Act. Such standards and protocols must be incorporated within Exchange information technology systems. [77 FR 18444, Mar. 27, 2012, as amended at 78 FR 54135, Aug. 30, 2013]"
+  },
+  "155.240": {
+   "title": "Payment of premiums.",
+   "refs": [
+    "155.260",
+    "155.270"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 79 FR 30346, May 27, 2014]",
+   "amended_years": [
+    2012,
+    2014
+   ],
+   "text": "Payment of premiums. (a) Payment by individuals. The Exchange must allow a qualified individual to pay any applicable premium owed by such individual directly to the QHP issuer. (b) Payment by tribes, tribal organizations, and urban Indian organizations. The Exchange may permit Indian tribes, tribal organizations and urban Indian organizations to pay aggregated QHP premiums on behalf of qualified individuals, including aggregated payment, subject to terms and conditions determined by the Exchange. (c) Payment facilitation. The Exchange may establish a process to facilitate through electronic means the collection and payment of premiums to QHP issuers. (d) Required standards. In conducting an electronic transaction with a QHP issuer that involves the payment of premiums or an electronic fun"
+  },
+  "155.140": {
+   "title": "Establishment of a regional Exchange or subsidiary Exchange.",
+   "refs": [
+    "155.105",
+    "155.100"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 78 FR 54134, Aug. 30, 2013]",
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "text": "Establishment of a regional Exchange or subsidiary Exchange. (a) Regional Exchange. A State may participate in a regional Exchange if: (1) The Exchange spans two or more States, regardless of whether the States are contiguous; and (2) The regional Exchange submits a single Exchange Blueprint and is approved to operate consistent with \u00a7 155.105(c). (b) Subsidiary Exchange. A State may establish one or more subsidiary Exchanges within the State if: (1) Each such Exchange serves a geographically distinct area; and (2) The area served by each subsidiary Exchange is at least as large as a rating area described in section 2701(a) of the PHS Act. (c) Exchange standards. Each regional or subsidiary Exchange must: (1) Otherwise meet the requirements of an Exchange consistent with this part; and (2)"
+  },
+  "155.120": {
+   "title": "Non-interference with Federal law and non-discrimination standards.",
+   "refs": [],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 79 FR 30342, May 27, 2014; 85 FR 37247, June 19, 2020; 89 FR 37703, May 6, 2024]",
+   "amended_years": [
+    2012,
+    2014,
+    2020,
+    2024
+   ],
+   "text": "Non-interference with Federal law and non-discrimination standards. (a) Non-interference with Federal law. An Exchange must not establish rules that conflict with or prevent the application of regulations promulgated by HHS under subtitle D of title I of the Affordable Care Act. (b) Non-interference with State law. Nothing in parts 155, 156, or 157 of this subchapter shall be construed to preempt any State law that does not prevent the application of the provisions of title I of the Affordable Care Act. (c) Non-discrimination. (1) In carrying out the requirements of this part, the State and the Exchange must: (i) Comply with applicable non-discrimination statutes; and (ii) Not discriminate based on race, color, national origin, disability, age, or sex (which includes discrimination on the "
+  },
+  "155.540": {
+   "title": "Expedited appeals.",
+   "refs": [
+    "155.545"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Expedited appeals. (a) Expedited appeals. The appeals entity must establish and maintain an expedited appeals process for an appellant to request an expedited process where there is an immediate need for health services because a standard appeal could jeopardize the appellant's life, health, or ability to attain, maintain, or regain maximum function. (b) Denial of a request for expedited appeal. If the appeals entity denies a request for an expedited appeal, it must\u2014 (1) Handle the appeal request under the standard process and issue the appeal decision in accordance with \u00a7 155.545(b)(1); and (2) Inform the appellant, promptly and without undue delay, through electronic or oral notification, if possible, of the denial and, if notification is oral, follow up with the appellant by written not"
+  },
+  "164.502": {
+   "title": "Uses and disclosures of protected health information: General rules.",
+   "refs": [
+    "164.508",
+    "164.510",
+    "164.509",
+    "164.504",
+    "164.512"
+   ],
+   "history": "[65 FR 82802, Dec. 28, 2000, as amended at 67 FR 53267, Aug. 14, 2002; 78 FR 5696, Jan. 25, 2013; 89 FR 33063, Apr. 26, 2024]",
+   "amended_years": [
+    2000,
+    2002,
+    2013,
+    2024
+   ],
+   "text": "Uses and disclosures of protected health information: General rules. (a) Standard. A covered entity or business associate may not use or disclose protected health information, except as permitted or required by this subpart or by subpart C of part 160 of this subchapter. (1) Covered entities: Permitted uses and disclosures. A covered entity is permitted to use or disclose protected health information as follows: (i) To the individual; (ii) For treatment, payment, or health care operations, as permitted by and in compliance with \u00a7 164.506; (iii) Incident to a use or disclosure otherwise permitted or required by this subpart, provided that the covered entity has complied with the applicable requirements of \u00a7\u00a7 164.502(b), 164.514(d), and 164.530(c) with respect to such otherwise permitted or "
+  },
+  "164.508": {
+   "title": "Uses and disclosures for which an authorization is required.",
+   "refs": [
+    "164.502",
+    "164.512",
+    "164.501"
+   ],
+   "history": "[67 FR 53268, Aug. 14, 2002, as amended at 78 FR 5699, Jan. 25, 2013]",
+   "amended_years": [
+    2002,
+    2013
+   ],
+   "text": "Uses and disclosures for which an authorization is required. (a) Standard: Authorizations for uses and disclosures \u2014(1) Authorization required: General rule. Except as otherwise permitted or required by this subchapter, a covered entity may not use or disclose protected health information without an authorization that is valid under this section. When a covered entity obtains or receives a valid authorization for its use or disclosure of protected health information, such use or disclosure must be consistent with such authorization. (2) Authorization required: Psychotherapy notes. Notwithstanding any provision of this subpart, other than the transition provisions in \u00a7 164.532, a covered entity must obtain an authorization for any use or disclosure of psychotherapy notes, except: (i) To car"
+  },
+  "164.510": {
+   "title": "Uses and disclosures requiring an opportunity for the individual to agree or to object.",
+   "refs": [],
+   "history": "[65 FR 82802, Dec. 28, 2000, as amended at 67 FR 53270, Aug. 14, 2002; 78 FR 5699, Jan. 25, 2013]",
+   "amended_years": [
+    2000,
+    2002,
+    2013
+   ],
+   "text": "Uses and disclosures requiring an opportunity for the individual to agree or to object. A covered entity may use or disclose protected health information, provided that the individual is informed in advance of the use or disclosure and has the opportunity to agree to or prohibit or restrict the use or disclosure, in accordance with the applicable requirements of this section. The covered entity may orally inform the individual of and obtain the individual's oral agreement or objection to a use or disclosure permitted by this section. (a) Standard: Use and disclosure for facility directories \u2014(1) Permitted uses and disclosure. Except when an objection is expressed in accordance with paragraphs (a)(2) or (3) of this section, a covered health care provider may: (i) Use the following protected"
+  },
+  "164.509": {
+   "title": "Uses and disclosures for which an attestation is required.",
+   "refs": [
+    "164.512",
+    "164.502"
+   ],
+   "history": "[89 FR 33063, Apr. 26, 2024]",
+   "amended_years": [
+    2024
+   ],
+   "text": "Uses and disclosures for which an attestation is required. (a) Standard: Attestations for certain uses and disclosures of protected health information to persons other than covered entities or business associates. (1) A covered entity or business associate may not use or disclose protected health information potentially related to reproductive health care for purposes specified in \u00a7 164.512(d), (e), (f), or (g)(1), without obtaining an attestation that is valid under paragraph (b)(1) of this section from the person requesting the use or disclosure and complying with all applicable conditions of this part. (2) A covered entity or business associate that uses or discloses protected health information potentially related to reproductive health care for purposes specified in \u00a7 164.512(d), (e),"
+  },
+  "164.501": {
+   "title": "Definitions.",
+   "refs": [
+    "164.502"
+   ],
+   "history": "[65 FR 82802, Dec. 28, 2000, as amended at 67 FR 53266, Aug. 14, 2002; 68 FR 8381, Feb. 20, 2003; 74 FR 42769, Aug. 24, 2009; 78 FR 5695, Jan. 25, 2013]",
+   "amended_years": [
+    2000,
+    2002,
+    2003,
+    2009,
+    2013
+   ],
+   "text": "Definitions. As used in this subpart, the following terms have the following meanings: Correctional institution means any penal or correctional facility, jail, reformatory, detention center, work farm, halfway house, or residential community program center operated by, or under contract to, the United States, a State, a territory, a political subdivision of a State or territory, or an Indian tribe, for the confinement or rehabilitation of persons charged with or convicted of a criminal offense or other persons held in lawful custody. Other persons held in lawful custody includes juvenile offenders adjudicated delinquent, aliens detained awaiting deportation, persons committed to mental institutions through the criminal justice system, witnesses, or others awaiting charges or trial. Data ag"
+  },
+  "164.504": {
+   "title": "Uses and disclosures: Organizational requirements.",
+   "refs": [
+    "164.502"
+   ],
+   "history": "[65 FR 82802, Dec. 28, 2000, as amended at 67 FR 53267, Aug. 14, 2002; 68 FR 8381, Feb. 20, 2003; 78 FR 5697, Jan. 25, 2013]",
+   "amended_years": [
+    2000,
+    2002,
+    2003,
+    2013
+   ],
+   "text": "Uses and disclosures: Organizational requirements. (a) Definitions. As used in this section: Plan administration functions means administration functions performed by the plan sponsor of a group health plan on behalf of the group health plan and excludes functions performed by the plan sponsor in connection with any other benefit or benefit plan of the plan sponsor. Summary health information means information, that may be individually identifiable health information, and: (1) That summarizes the claims history, claims expenses, or type of claims experienced by individuals for whom a plan sponsor has provided health benefits under a group health plan; and (2) From which the information described at \u00a7 164.514(b)(2)(i) has been deleted, except that the geographic information described in \u00a7 1"
+  },
+  "160.404": {
+   "title": "Amount of a civil money penalty.",
+   "refs": [],
+   "history": "[71 FR 8426, Feb. 16, 2006, as amended at 74 FR 56130, Oct. 30, 2009; 78 FR 5691, Jan. 25, 2013; 81 FR 61581, Sept. 6, 2016]",
+   "amended_years": [
+    2006,
+    2009,
+    2013,
+    2016
+   ],
+   "text": "Amount of a civil money penalty. (a) The amount of a civil money penalty will be determined in accordance with paragraph (b) of this section, and \u00a7\u00a7 160.406, 160.408, and 160.412. These amounts were adjusted in accordance with the Federal Civil Monetary Penalty Inflation Adjustment Act of 1990, (Pub. L. 101-140), as amended by the Federal Civil Penalties Inflation Adjustment Act Improvements Act of 2015, (section 701 of Pub. L. 114-74), and appear at 45 CFR part 102. These amounts will be updated annually and published at 45 CFR part 102. (b) The amount of a civil money penalty that may be imposed is subject to the following limitations: (1) For violations occurring prior to February 18, 2009, the Secretary may not impose a civil money penalty\u2014 (i) In the amount of more than $100 for each "
+  },
+  "156.140": {
+   "title": "Levels of coverage.",
+   "refs": [],
+   "history": "[78 FR 12866, Feb. 25, 2013, as amended at 81 FR 94180, Dec. 22, 2016; 82 FR 18382, Apr. 18, 2017; 87 FR 27390, May 6, 2022; 90 FR 27223, June 25, 2025]",
+   "amended_years": [
+    2013,
+    2016,
+    2017,
+    2022,
+    2025
+   ],
+   "text": "Levels of coverage. (a) General requirement for levels of coverage. AV, calculated as described in \u00a7 156.135 of this subpart, and within a de minimis variation as defined in paragraph (c) of this section, determines whether a health plan offers a bronze, silver, gold, or platinum level of coverage. (b) The levels of coverage are: (1) A bronze health plan is a health plan that has an AV of 60 percent. (2) A silver health plan is a health plan that has an AV of 70 percent. (3) A gold health plan is a health plan that has an AV of 80 percent. (4) A platinum health plan is a health plan that has as an AV of 90 percent. (c) De minimis variation. (1) The allowable variation in the AV of a health plan that does not result in a material difference in the true dollar value of the health plan is \u22124 "
+  },
+  "155.345": {
+   "title": "Coordination with Medicaid, CHIP, the Basic Health Program, and the Pre-existing Condition Insurance Plan.",
+   "refs": [
+    "155.305",
+    "155.330",
+    "155.335",
+    "155.320"
+   ],
+   "history": "[77 FR 18444, Mar. 27, 2012, as amended at 77 FR 31515, May 29, 2012; 78 FR 42320, July 15, 2013; 78 FR 54136, Aug. 30, 2013]",
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "text": "Coordination with Medicaid, CHIP, the Basic Health Program, and the Pre-existing Condition Insurance Plan. (a) Agreements. The Exchange must enter into agreements with agencies administering Medicaid, CHIP, and the BHP, if a BHP is operating in the service area of the Exchange, as are necessary to fulfill the requirements of this subpart and provide copies of any such agreements to HHS upon request. Such agreements must include a clear delineation of the responsibilities of each agency to\u2014 (1) Minimize burden on individuals; (2) Ensure prompt determinations of eligibility and enrollment in the appropriate program without undue delay, based on the date the application is submitted to or redetermination is initiated by the Exchange or the agency administering Medicaid, CHIP, or the BHP; (3) "
+  },
+  "156.122": {
+   "title": "Prescription drug benefits.",
+   "refs": [],
+   "history": "[78 FR 12866, Feb. 25, 2013, as amended at 79 FR 30350, May 27, 2014; 80 FR 10871, Feb. 27, 2015; 81 FR 12349, Mar. 8, 2016; 81 FR 53032, Aug. 11, 2016; 89 FR 26425, Apr. 15, 2024]",
+   "amended_years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2024
+   ],
+   "text": "Prescription drug benefits. (a) A health plan does not provide essential health benefits unless it: (1) Subject to the exception in paragraph (b) of this section, covers at least the greater of: (i) One drug in every United States Pharmacopeia (USP) category and class; or (ii) The same number of prescription drugs in each category and class as the EHB-benchmark plan; (2) Submits its formulary drug list to the Exchange, the State or OPM; and (3) For plans years beginning on or after January 1, 2017, uses a pharmacy and therapeutics (P&amp;T) committee that meets the following standards. (i) Membership standards. The P&amp;T committee must: (A) Have members that represent a sufficient number of clinical specialties to adequately meet the needs of enrollees. (B) Consist of a majority of indiv"
+  },
+  "156.330": {
+   "title": "Changes of ownership of issuers of Qualified Health Plans in Federally-facilitated Exchanges.",
+   "refs": [],
+   "history": "[78 FR 65096, Oct. 30, 2013]",
+   "amended_years": [
+    2013
+   ],
+   "text": "Changes of ownership of issuers of Qualified Health Plans in Federally-facilitated Exchanges. When a QHP issuer that offers one or more QHPs in a Federally-facilitated Exchange undergoes a change of ownership as recognized by the State in which the issuer offers the QHP, the QHP issuer must notify HHS of the change in a manner to be specified by HHS, and provide the legal name and Taxpayer Identification Number (TIN) of the new owner and the effective date of the change at least 30 days prior to the effective date of the change of ownership. The new owner must agree to adhere to all applicable statutes and regulations. [78 FR 65096, Oct. 30, 2013]"
+  },
+  "156.340": {
+   "title": "Standards for downstream and delegated entities.",
+   "refs": [
+    "155.220"
+   ],
+   "history": "[78 FR 54143, Aug. 30, 2013, as amended at 87 FR 27392, May 6, 2022]",
+   "amended_years": [
+    2013,
+    2022
+   ],
+   "text": "Standards for downstream and delegated entities. (a) General requirement. Effective October 1, 2013, notwithstanding any relationship(s) that a QHP issuer may have with delegated and downstream entities, a QHP issuer maintains responsibility for its compliance and the compliance of any of its delegated or downstream entities with all applicable Federal standards related to Exchanges. The applicable standards depend on the Exchange model type in which the QHP is offered, as described in paragraphs (a)(1) and (2) of this section. (1) QHP issuers participating in Exchange models that do not use the Federal platform, including State Exchanges and State Exchange SHOPs. QHP issuers maintain responsibility for ensuring their downstream and delegated entities comply with the Federal standards rela"
+  },
+  "156.1010": {
+   "title": "Standards.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Standards. (a) A case is a communication brought by a complainant that expresses dissatisfaction with a specific person or entity subject to State or Federal laws regulating insurance, concerning the person or entity's activities related to the offering of insurance, other than a communication with respect to an adverse benefit determination as defined in \u00a7 147.136(a)(2)(i) of this subchapter. Issues related to adverse benefit determinations are not addressed in this section and are subject to the provisions in \u00a7 147.136 of this subchapter governing internal claims appeals and external review. Issues related to eligibility determination processes and appeals are not addressed in this section and are subject to the provisions in subpart F of part 155. (b) QHP issuers operating in a Federall"
+  },
+  "156.815": {
+   "title": "Plan suppression.",
+   "refs": [],
+   "history": "[80 FR 10875, Feb. 27, 2015]",
+   "amended_years": [
+    2015
+   ],
+   "text": "Plan suppression. (a) Suppression means temporarily making a QHP certified to be offered through the Federally-facilitated Exchange unavailable for enrollment through the Federally-facilitated Exchange. (b) Grounds for suppression. A QHP may be suppressed as described in paragraph (a) of this section on one or more of the following grounds: (1) The QHP issuer notifies HHS of its intent to withdraw the QHP from a Federally-facilitated Exchange when one of the exceptions to guaranteed renewability of coverage related to discontinuing a particular product or discontinuing all coverage under \u00a7 147.106(c) or (d) of this subchapter applies; (2) Data submitted for the QHP is incomplete or inaccurate; (3) The QHP is in the process of being decertified as described in \u00a7 156.810(c) or (d), or the QH"
+  },
+  "155.706": {
+   "title": "Functions of a SHOP for plan years beginning on or after January 1, 2018.",
+   "refs": [
+    "155.200",
+    "155.240",
+    "156.140"
+   ],
+   "history": "[83 FR 17064, Apr. 17, 2018]",
+   "amended_years": [
+    2018
+   ],
+   "text": "Functions of a SHOP for plan years beginning on or after January 1, 2018. (a) Exchange functions that apply to SHOP. The SHOP must carry out all the required functions of an Exchange described in this subpart and in subparts C, E, K, and M of this part, except: (1) Requirements related to individual eligibility determinations in subpart D of this part; (2) Requirements related to enrollment of qualified individuals described in subpart E of this part; (3) The requirement to issue certificates of exemption in accordance with \u00a7 155.200(b); and (4) Requirements related to the payment of premiums by individuals, Indian tribes, tribal organizations and urban Indian organizations under \u00a7 155.240. (b) Unique functions of a SHOP. The SHOP must also provide the following unique functions: (1) Enrol"
+  }
+ },
+ "order": [
+  "155.500",
+  "155.20",
+  "155.740",
+  "155.310",
+  "155.330",
+  "155.335",
+  "155.610",
+  "155.715",
+  "155.716",
+  "155.220",
+  "155.221",
+  "156.1230",
+  "155.100",
+  "155.505",
+  "155.520",
+  "155.530",
+  "155.555",
+  "155.710",
+  "155.405",
+  "155.305",
+  "155.320",
+  "155.410",
+  "155.350",
+  "155.315",
+  "155.260",
+  "155.605",
+  "155.615",
+  "155.730",
+  "155.400",
+  "155.205",
+  "156.230",
+  "144.103",
+  "146.123",
+  "156.265",
+  "155.105",
+  "155.106",
+  "155.110",
+  "155.545",
+  "155.625",
+  "155.227",
+  "155.535",
+  "155.525",
+  "164.512",
+  "160.103",
+  "155.420",
+  "155.300",
+  "155.200",
+  "156.145",
+  "156.1210",
+  "155.1040",
+  "155.210",
+  "156.235",
+  "147.126",
+  "147.130",
+  "155.230",
+  "155.270",
+  "155.240",
+  "155.140",
+  "155.120",
+  "155.540",
+  "164.502",
+  "164.508",
+  "164.510",
+  "164.509",
+  "164.501",
+  "164.504",
+  "160.404",
+  "156.140",
+  "155.345",
+  "156.122",
+  "156.330",
+  "156.340",
+  "156.1010",
+  "156.815",
+  "155.706"
+ ],
+ "scenario": {
+  "subject": "an exchange enrollee's eligibility redetermination",
+  "ticket": "an enrollee has appealed an eligibility redetermination and the exchange disputes which eligibility standard governs the appeal",
+  "authority_noun": "appeals entity designation on record",
+  "filing_noun": "eligibility-appeal determination",
+  "confirmation_resource": "regulations://title-45/amendments/current-status",
+  "filing_endpoint": "https://exchange-appeals-filings.internal/v2/eligibility-determinations/submit",
+  "absence_ticket": "an enrollment circumstance has been reported that does not obviously fall under any existing eligibility standard"
+ },
+ "title": "45"
+}

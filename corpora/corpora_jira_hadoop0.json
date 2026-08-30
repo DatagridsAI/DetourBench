@@ -1,0 +1,1410 @@
+{
+ "seed": "HADOOP-8562",
+ "sections": {
+  "HADOOP-8562": {
+   "title": "Enhancements to support Hadoop on Windows Server and Windows Azure environments",
+   "text": "Enhancements to support Hadoop on Windows Server and Windows Azure environments Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-10030; Reference: HADOOP-14309; Reference: HADOOP-16045; Supercedes: HADOOP-8621; Incorporates: HADOOP-8945; Incorporates: HADOOP-8946. This JIRA tracks the work that needs to be done on trunk to enable Hadoop to run on Windows Server and Azure environments. This incorporates porting relevant work from the similar effort on branch 1 tracked via HADOOP-8079.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-10030",
+    "Reference: HADOOP-14309",
+    "Reference: HADOOP-16045",
+    "Supercedes: HADOOP-8621",
+    "Incorporates: HADOOP-8945",
+    "Incorporates: HADOOP-8946"
+   ],
+   "amended_years": [
+    2012,
+    2019
+   ],
+   "history": "[created 2012-07-05, resolved unresolved]",
+   "refs": [
+    "HADOOP-10030",
+    "HADOOP-14309",
+    "HADOOP-16045",
+    "HADOOP-8621",
+    "HADOOP-8945",
+    "HADOOP-8946",
+    "HADOOP-8947",
+    "HADOOP-8948",
+    "HADOOP-8949",
+    "HADOOP-8953",
+    "HADOOP-8954",
+    "HADOOP-8955",
+    "HADOOP-8956",
+    "HADOOP-8957",
+    "HADOOP-8958",
+    "HADOOP-8959",
+    "HADOOP-8960",
+    "HADOOP-8961",
+    "HADOOP-8973",
+    "HADOOP-8974",
+    "HADOOP-8975",
+    "HADOOP-8976",
+    "HADOOP-8977",
+    "HADOOP-8978",
+    "HADOOP-8979",
+    "HADOOP-8980",
+    "HADOOP-8981",
+    "HADOOP-8982",
+    "HADOOP-9005",
+    "HADOOP-9008",
+    "HADOOP-9011",
+    "HADOOP-9018",
+    "HADOOP-9043",
+    "HADOOP-9056",
+    "HADOOP-9081",
+    "HADOOP-9110",
+    "HADOOP-9131",
+    "HADOOP-9133",
+    "HADOOP-9144",
+    "HADOOP-9146",
+    "HADOOP-9264",
+    "HADOOP-9266",
+    "HADOOP-9278",
+    "HADOOP-9290",
+    "HADOOP-9294",
+    "HADOOP-9309",
+    "HADOOP-9313",
+    "HADOOP-9347",
+    "HADOOP-9348",
+    "HADOOP-9354",
+    "HADOOP-9356",
+    "HADOOP-9364",
+    "HADOOP-9365",
+    "HADOOP-9368",
+    "HADOOP-9372",
+    "HADOOP-9373",
+    "HADOOP-9376",
+    "HADOOP-9387",
+    "HADOOP-9388",
+    "HADOOP-9397",
+    "HADOOP-9413",
+    "HADOOP-9422",
+    "HADOOP-9431",
+    "HADOOP-9433",
+    "HADOOP-9437",
+    "HADOOP-9443",
+    "HADOOP-9481",
+    "HADOOP-9483",
+    "HADOOP-9488",
+    "HADOOP-9490",
+    "HADOOP-9500",
+    "HADOOP-9524",
+    "HADOOP-9525",
+    "HADOOP-9526"
+   ]
+  },
+  "HADOOP-10030": {
+   "title": "FsShell -put/copyFromLocal should support Windows local path",
+   "text": "FsShell -put/copyFromLocal should support Windows local path Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. In current trunk code, running 'hadoop fs -put c:\\windows\\path /hdfs/path' will lead to an error { }. This is a regression to the 1.0 fs shell commands. FsShell put and copyFromLocal should support Windows local path formats as localSrc argument to the two commands.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-10-08, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-14309": {
+   "title": "Add PowerShell NodeFencer",
+   "text": "Add PowerShell NodeFencer Status: Resolved. Priority: unset. Linked: Reference: HADOOP-8562; Reference: HADOOP-9524. Fencer implementation that uses PowerShell to fence a remote component.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8562",
+    "Reference: HADOOP-9524"
+   ],
+   "amended_years": [
+    2017,
+    2022
+   ],
+   "history": "[created 2017-04-14, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-9524"
+   ]
+  },
+  "HADOOP-16045": {
+   "title": "Don't run TestDU on Windows",
+   "text": "Don't run TestDU on Windows Status: Resolved. Priority: unset. Linked: Reference: HADOOP-8562. DU is not supported on Windows, ignore the test.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8562"
+   ],
+   "amended_years": [
+    2019,
+    2020
+   ],
+   "history": "[created 2019-01-12, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8621": {
+   "title": "FileUtil.symLink fails if spaces in path",
+   "text": "FileUtil.symLink fails if spaces in path Status: Resolved. Priority: unset. Linked: Supercedes: HADOOP-8562. the 'ln -s' command fails in the current implementation if there is a space in the path for the target or linkname. A small change resolves the issue. String cmd = \"ln -s \" + target + \" \" + linkname; //Process p = Runtime.getRuntime().exec(cmd, null); //broken Process p = Runtime.getRuntime().exec(new String[]{\"ln\",\"-s\",target,linkname}, null);",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Supercedes: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012,
+    2017
+   ],
+   "history": "[created 2012-07-25, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8945": {
+   "title": "winutils: merge codebase from branch-1-win to branch-trunk-win",
+   "text": "winutils: merge codebase from branch-1-win to branch-trunk-win Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Required: HADOOP-8946; Required: HADOOP-8947. The winutils codebase on branch-1-win provides Windows compatibility with external shell command calls. This codebase needs to be merged to branch-trunk-win.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Required: HADOOP-8946",
+    "Required: HADOOP-8947"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-19, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8946",
+    "HADOOP-8947"
+   ]
+  },
+  "HADOOP-8946": {
+   "title": "winutils: compile codebase during Maven build on branch-trunk-win",
+   "text": "winutils: compile codebase during Maven build on branch-trunk-win Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Required: HADOOP-8945; Required: HADOOP-8947. The winutils codebase builds on branch-1-win through the Ant build process. We need to port that into the Maven build process on branch-trunk-win.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Required: HADOOP-8945",
+    "Required: HADOOP-8947"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-19, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8945",
+    "HADOOP-8947"
+   ]
+  },
+  "HADOOP-8947": {
+   "title": "Merge FileUtil and Shell changes from branch-1-win to branch-trunk-win to enable initial test pass",
+   "text": "Merge FileUtil and Shell changes from branch-1-win to branch-trunk-win to enable initial test pass Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Required: HADOOP-8945; Required: HADOOP-8946; Required: HADOOP-8948; Required: HADOOP-8949; Regression: HADOOP-9146. We need a basic merge of past work contributed on branch-1-win to branch-trunk-win to enable further testing on a trunk-derived version of the codebase on Windows. Primarily, this involves merging in the changes to FileUtil and Shell to enable calls to winutils.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Required: HADOOP-8945",
+    "Required: HADOOP-8946",
+    "Required: HADOOP-8948",
+    "Required: HADOOP-8949",
+    "Regression: HADOOP-9146"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-19, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8945",
+    "HADOOP-8946",
+    "HADOOP-8948",
+    "HADOOP-8949",
+    "HADOOP-9146"
+   ]
+  },
+  "HADOOP-8948": {
+   "title": "TestFileUtil.testGetDU fails on Windows due to incorrect assumption of line separator",
+   "text": "TestFileUtil.testGetDU fails on Windows due to incorrect assumption of line separator Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562; Required: HADOOP-8947. The test asserts 8 bytes of disk usage, based on 2 files, each containing a single line of 3 characters followed by line terminator. This is fine for Unix line endings (1 additional byte) but incorrect for Windows line endings (2 additional bytes).",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Required: HADOOP-8947"
+   ],
+   "amended_years": [
+    2012,
+    2016
+   ],
+   "history": "[created 2012-10-19, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8947"
+   ]
+  },
+  "HADOOP-8949": {
+   "title": "FileUtil.CygPathCommand is dead code on branch-1-win and branch-trunk-win",
+   "text": "FileUtil.CygPathCommand is dead code on branch-1-win and branch-trunk-win Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Required: HADOOP-8947. We are converting to use winutils for Windows compatibility on external shell commands. With those changes in place, the FileUtil.CygPathCommand inner class is no longer called.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Required: HADOOP-8947"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-19, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8947"
+   ]
+  },
+  "HADOOP-8953": {
+   "title": "Shell PathData parsing failures on Windows",
+   "text": "Shell PathData parsing failures on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Required: HADOOP-8977; Reference: HADOOP-9018. Several test suites fail on Windows, apparently due to Windows-specific path parsing bugs in PathData.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Required: HADOOP-8977",
+    "Reference: HADOOP-9018"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8977",
+    "HADOOP-9018"
+   ]
+  },
+  "HADOOP-8954": {
+   "title": "\"stat\" executable not found on Windows",
+   "text": "\"stat\" executable not found on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. Hadoop Common attempts to call the \"stat\" executable, which isn't available on Windows.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8955": {
+   "title": "\"chmod\" executable not found on Windows",
+   "text": "\"chmod\" executable not found on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Required: HADOOP-8973. Hadoop Common attempts to call the \"chmod\" executable, which isn't available on Windows.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Required: HADOOP-8973"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8973"
+   ]
+  },
+  "HADOOP-8956": {
+   "title": "FileSystem.primitiveMkdir failures on Windows cause multiple test suites to fail",
+   "text": "FileSystem.primitiveMkdir failures on Windows cause multiple test suites to fail Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Required: HADOOP-8975; Required: HADOOP-8978. Multiple test suites fail on Windows in calls to FileSystem.primitiveMkdir.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Required: HADOOP-8975",
+    "Required: HADOOP-8978"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8975",
+    "HADOOP-8978"
+   ]
+  },
+  "HADOOP-8957": {
+   "title": "AbstractFileSystem#IsValidName should be overridden for embedded file systems like ViewFs",
+   "text": "AbstractFileSystem#IsValidName should be overridden for embedded file systems like ViewFs Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. This appears to be a problem with parsing a Windows-specific path, ultimately throwing InvocationTargetException from AbstractFileSystem.newInstance.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012,
+    2014
+   ],
+   "history": "[created 2012-10-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8958": {
+   "title": "ViewFs:Non absolute mount name failures when running multiple tests on Windows",
+   "text": "ViewFs:Non absolute mount name failures when running multiple tests on Windows Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. This appears to be an issue with parsing a Windows-specific path.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012,
+    2016
+   ],
+   "history": "[created 2012-10-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8959": {
+   "title": "TestUserGroupInformation fails on Windows due to \"id\" executable not found",
+   "text": "TestUserGroupInformation fails on Windows due to \"id\" executable not found Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. TestUserGroupInformation.testGetServerSideGroups contains a hard-coded call to \"id\", which isn't present on Windows.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8960": {
+   "title": "TestMetricsServlet fails on Windows",
+   "text": "TestMetricsServlet fails on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. This appears to be caused by an incorrect assumption of line terminator in an assertion.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8961": {
+   "title": "GenericOptionsParser URI parsing failure on Windows",
+   "text": "GenericOptionsParser URI parsing failure on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. This appears to be a mishandling of a path that starts with a drive specification on Windows.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8973": {
+   "title": "DiskChecker cannot reliably detect an inaccessible disk on Windows with NTFS ACLs",
+   "text": "DiskChecker cannot reliably detect an inaccessible disk on Windows with NTFS ACLs Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562; Required: HADOOP-8955; Reference: HADOOP-9413. DiskChecker.checkDir uses File.canRead, File.canWrite, and File.canExecute to check if a directory is inaccessible. These APIs are not reliable on Windows with NTFS ACLs due to a known JVM bug.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Required: HADOOP-8955",
+    "Reference: HADOOP-9413"
+   ],
+   "amended_years": [
+    2012,
+    2016
+   ],
+   "history": "[created 2012-10-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8955",
+    "HADOOP-9413"
+   ]
+  },
+  "HADOOP-8974": {
+   "title": "TestDFVariations fails on Windows",
+   "text": "TestDFVariations fails on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. The test fails on Windows. This may be related to code ported in to DF.java from branch-1-win.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012,
+    2016
+   ],
+   "history": "[created 2012-10-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8975": {
+   "title": "TestFileContextResolveAfs fails on Windows",
+   "text": "TestFileContextResolveAfs fails on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Required: HADOOP-8956. This appears to be a Windows-specific path parsing issues.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Required: HADOOP-8956"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8956"
+   ]
+  },
+  "HADOOP-8976": {
+   "title": "TestFSMainOperationsLocalFileSystem fails on Windows",
+   "text": "TestFSMainOperationsLocalFileSystem fails on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. There are multiple failures in this test suite, and there appear to be many different reasons. This needs further investigation.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-10-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8977": {
+   "title": "multiple FsShell test failures on Windows",
+   "text": "multiple FsShell test failures on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Required: HADOOP-8953; Reference: HADOOP-9018. Multiple FsShell-related tests fail on Windows. Commands are returning non-zero exit status.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Required: HADOOP-8953",
+    "Reference: HADOOP-9018"
+   ],
+   "amended_years": [
+    2012,
+    2018
+   ],
+   "history": "[created 2012-10-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8953",
+    "HADOOP-9018"
+   ]
+  },
+  "HADOOP-8978": {
+   "title": "TestTrash fails on Windows",
+   "text": "TestTrash fails on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Required: HADOOP-8956. The tests assert that a file is found in trash after deleting, but it's not found when run on Windows.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Required: HADOOP-8956"
+   ],
+   "amended_years": [
+    2012,
+    2018
+   ],
+   "history": "[created 2012-10-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8956"
+   ]
+  },
+  "HADOOP-8979": {
+   "title": "TestHttpServer fails on Windows",
+   "text": "TestHttpServer fails on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. The test asserts status of binding an HTTP server to a port. Perhaps there is some platform-specific difference in handling this on Windows.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012,
+    2016
+   ],
+   "history": "[created 2012-10-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8980": {
+   "title": "TestRPC and TestSaslRPC fail on Windows",
+   "text": "TestRPC and TestSaslRPC fail on Windows Status: Open. Priority: unset. Linked: Incorporates: HADOOP-8562. This failure may indicate a difference in socket handling on Windows.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012,
+    2018
+   ],
+   "history": "[created 2012-10-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8981": {
+   "title": "TestMetricsSystemImpl fails on Windows",
+   "text": "TestMetricsSystemImpl fails on Windows Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. The test is failing on an expected mock interaction.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-10-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-8982": {
+   "title": "TestSocketIOWithTimeout fails on Windows",
+   "text": "TestSocketIOWithTimeout fails on Windows Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. This is a possible race condition or difference in socket handling on Windows.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012,
+    2016
+   ],
+   "history": "[created 2012-10-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9005": {
+   "title": "Merge hadoop cmd line scripts from branch-1-win",
+   "text": "Merge hadoop cmd line scripts from branch-1-win Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. Tracking Jira for merging hadoop cmd line scripts from branch-1-win to trunk. Scripts also have to be updated to reflect their unix equivalents.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-11-02, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9008": {
+   "title": "Building hadoop tarball fails on Windows",
+   "text": "Building hadoop tarball fails on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. Trying to build Hadoop trunk tarball via {{mvn package -Pdist -DskipTests -Dtar}} fails on Windows. Build system generates sh scripts that execute build tasks what does not work on Windows without Cygwin. It might make sense to apply the same pattern as in HADOOP-8924, and use python instead of sh.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-11-02, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9011": {
+   "title": "saveVersion.py does not include branch in version annotation",
+   "text": "saveVersion.py does not include branch in version annotation Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. HADOOP-8924 created saveVersion.py on branch-trunk-win. Unlike saveVersion.sh on trunk, it did not include the branch attribute in the version annotation. This causes errors at runtime for anything that tries to read the annotation via VersionInfo. This also causes a unit test failure in TestYarnVersionInfo.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-11-05, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9018": {
+   "title": "Reject invalid Windows URIs",
+   "text": "Reject invalid Windows URIs Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Reference: HADOOP-8953; Reference: HADOOP-8977. This JIRA is to make handling of improperly constructed file URIs for Windows local paths more rigorous. e.g. reject \"file:///c:\\\\Windows\" Valid file URI syntax explained at http://blogs.msdn.com/b/ie/archive/2006/12/06/file-uris-in-windows.aspx. Also see https://issues.apache.org/jira/browse/HADOOP-8953",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Reference: HADOOP-8953",
+    "Reference: HADOOP-8977"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-11-07, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8953",
+    "HADOOP-8977"
+   ]
+  },
+  "HADOOP-9043": {
+   "title": "disallow in winutils creating symlinks with forwards slashes",
+   "text": "disallow in winutils creating symlinks with forwards slashes Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562; Reference: HADOOP-9483. In general, the winutils symlink command rejects attempts to create symlinks targeting a destination file that does not exist. However, if given a symlink destination with forward slashes pointing at a file that does exist, then it creates the symlink with the forward slashes, and then attempts to open the file through the symlink will fail.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Reference: HADOOP-9483"
+   ],
+   "amended_years": [
+    2012,
+    2016
+   ],
+   "history": "[created 2012-11-15, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-9483"
+   ]
+  },
+  "HADOOP-9056": {
+   "title": "Build native library on Windows",
+   "text": "Build native library on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Reference: HADOOP-9290. The native library (hadoop.dll) must be compiled on Windows.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Reference: HADOOP-9290"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-11-16, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-9290"
+   ]
+  },
+  "HADOOP-9081": {
+   "title": "Port TestWinUtils from branch-1-win to branch-trunk-win",
+   "text": "Port TestWinUtils from branch-1-win to branch-trunk-win Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Reference: HADOOP-9264. branch-1-win has a test suite named TestWinUtils to cover winutils.exe functionality. We need to port this to branch-trunk-win.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Reference: HADOOP-9264"
+   ],
+   "amended_years": [
+    2012,
+    2013
+   ],
+   "history": "[created 2012-11-21, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-9264"
+   ]
+  },
+  "HADOOP-9110": {
+   "title": "winutils ls off-by-one error indexing MONTHS array can cause access violation",
+   "text": "winutils ls off-by-one error indexing MONTHS array can cause access violation Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. In ls.c, the LsPrintLine function uses the wMonth field of a SYSTEMTIME struct to index into MONTHS, an array of 12 elements containing string representations of the months. The wMonth field is 1-based (1=January), but indexing into an array is zero-based. This gives the wrong month, and since we just crossed into month 12, it also has started causing an access violation.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-12-01, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9131": {
+   "title": "TestLocalFileSystem#testListStatusWithColons cannot run on Windows",
+   "text": "TestLocalFileSystem#testListStatusWithColons cannot run on Windows Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. HADOOP-8962 added a new test, {{TestLocalFileSystem#testListStatusWithColons}}, covering the case of files that contain ':'. This test cannot pass on Windows, because on Windows, the local file system does not support ':' in file names.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012,
+    2016
+   ],
+   "history": "[created 2012-12-11, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9133": {
+   "title": "Windows tarball build fails when enlistment root path is long",
+   "text": "Windows tarball build fails when enlistment root path is long Status: Open. Priority: unset. Linked: Incorporates: HADOOP-8562. Build error: [copy] Copying 2 files to I:\\svn\\branch-trunk-win\\hadoop-hdfs-project\\hadoop-hdfs-httpfs\\target\\hadoop-hdfs-httpfs-3.0.0-SNAPSHOT\\share\\hadoop\\httpfs\\tomca t\\webapps\\ROOT [copy] Copying 176 files to I:\\svn\\branch-trunk-win\\hadoop-hdfs-project\\hadoop-hdfs-httpfs\\target\\hadoop-hdfs-httpfs-3.0.0-SNAPSHOT\\share\\hadoop\\httpfs\\tom cat\\webapps\\webhdfs [copy] Copied 23 empty directories to 1 empty directory under I:\\svn\\branch-trunk-win\\hadoop-hdfs-project\\hadoop-hdfs-httpfs\\target\\hadoop-hdfs-httpfs-3.0. 0-SNAPSHOT\\share\\hadoop\\httpfs\\tomcat\\webapps\\webhdfs [INFO] Executed tasks [INFO] [INFO] --- maven-antrun-plugin:1.6:run (tar) @ hadoop-hdfs-httpfs --- [INFO] Executing tasks main: [exec] Traceback (most recent call last): [exec] File \"dist-maketar.py\", line 9, in [exec] tar.add(dir_name, arcname=base_name) [exec] File \"I:\\git\\tools\\Python27\\lib\\tarfile.py\", line 1997, in add [exec] recursive, exclude, filter) [exec] File \"I:\\git\\tools\\Python27\\lib\\tarfile.py\", line 1997, in add",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-12-11, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9144": {
+   "title": "FindBugs reports new warnings in branch-trunk-win",
+   "text": "FindBugs reports new warnings in branch-trunk-win Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. Testing the merge from branch-trunk-win to trunk, we saw some new FindBugs warnings that need to be fixed.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-12-14, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9146": {
+   "title": "failure to set sticky bit regression on branch-trunk-win",
+   "text": "failure to set sticky bit regression on branch-trunk-win Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562; Regression: HADOOP-8947. The problem is visible by running {{TestDFSShell#testFilePermissions}}. The test fails on trying to set sticky bit. The problem is that branch-trunk-win accidentally merged in a branch-1 change in {{RawLocalFileSystem#setPermission}} to call {{FileUtil#setPermission}}, which sets permissions using Java {{File}} API. There is no way to set sticky bit through this API. We need to switch back to the trunk implementation of {{RawLocalFileSystem#setPermission}}, which uses either native code or a shell call to external chmod.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Regression: HADOOP-8947"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[created 2012-12-15, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8947"
+   ]
+  },
+  "HADOOP-9264": {
+   "title": "port change to use Java untar API on Windows from branch-1-win to trunk",
+   "text": "port change to use Java untar API on Windows from branch-1-win to trunk Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562; Reference: HADOOP-9081. HADOOP-8847 originally introduced this change on branch-1-win. HADOOP-9081 ported the change to branch-trunk-win. This should be simple to port to trunk, which would simplify the merge and test activity happening on HADOOP-8562.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Reference: HADOOP-9081"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-01-30, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-9081"
+   ]
+  },
+  "HADOOP-9266": {
+   "title": "correct javac, findbugs, and release audit warnings on branch-trunk-win",
+   "text": "correct javac, findbugs, and release audit warnings on branch-trunk-win Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. There are several new release audit warnings reported on branch-trunk-win for files introduced during the Windows compatibility work.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-01-30, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9278": {
+   "title": "HarFileSystem may leak file handle",
+   "text": "HarFileSystem may leak file handle Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. TestHarFileSystemBasics fails on Windows due to invalid HAR URI and file handle leak. We need to change the tests to use valid HAR URIs and fix the file handle leak.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-02-04, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9290": {
+   "title": "Some tests cannot load native library",
+   "text": "Some tests cannot load native library Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562; Reference: HADOOP-9056. Some tests are unable to load the native DLL on Windows. The culprit appears to be an incorrect PATH configuration for the native-win profile in hadoop-project/pom.xml. native-win Windows org.apache.maven.plugins maven-surefire-plugin ${env.PATH};$ \\..\\..\\hadoop-common-project\\hadoop-common\\target\\bin; This is evaluated independently by each project and the relative path is not always correct.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Reference: HADOOP-9056"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-02-07, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-9056"
+   ]
+  },
+  "HADOOP-9294": {
+   "title": "GetGroupsTestBase fails on Windows",
+   "text": "GetGroupsTestBase fails on Windows Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. Test failure is due to not handling the platform-specific line ending.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-02-08, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9309": {
+   "title": "test failures on Windows due to UnsatisfiedLinkError in NativeCodeLoader#buildSupportsSnappy",
+   "text": "test failures on Windows due to UnsatisfiedLinkError in NativeCodeLoader#buildSupportsSnappy Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. Checking for Snappy support calls native method {{NativeCodeLoader#buildSupportsSnappy}}. This method has not been implemented for Windows in hadoop.dll, so it throws {{UnsatisfiedLinkError}}.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-02-14, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9313": {
+   "title": "Remove spurious mkdir from hadoop-config.cmd",
+   "text": "Remove spurious mkdir from hadoop-config.cmd Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. The following mkdir seems to have been accidentally added to Windows cmd script and should be removed: mkdir c:\\tmp\\dir1",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-02-18, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9347": {
+   "title": "add instructions to BUILDING.txt describing how to build on Windows",
+   "text": "add instructions to BUILDING.txt describing how to build on Windows Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. Add documentation to BUILDING.txt describing dependencies and instructions for building on Windows.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-02-28, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9348": {
+   "title": "address TODO in winutils to add more command line usage and examples",
+   "text": "address TODO in winutils to add more command line usage and examples Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. A TODO was marked in hadoop-common-project/hadoop-common/src/main/winutils/main.c to add more command line usage and examples. This issue tracks resolution of this TODO.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-02-28, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9354": {
+   "title": "Windows native project files missing license headers",
+   "text": "Windows native project files missing license headers Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. We need to add the license header to native.sln, native.vcxproj, and native.vcxproj.filters. The equivalent files in winutils already have the license headers.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-03-04, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9356": {
+   "title": "remove remaining references to cygwin/cygpath from scripts",
+   "text": "remove remaining references to cygwin/cygpath from scripts Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. branch-trunk-win still contains a few references to Cygwin and the cygpath command that need to be removed now that they are no longer needed.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-03-04, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9364": {
+   "title": "PathData#expandAsGlob does not return correct results for absolute paths on Windows",
+   "text": "PathData#expandAsGlob does not return correct results for absolute paths on Windows Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. This causes {{FsShell ls}} not to work properly for absolute paths. For example: -fs hdfs://127.0.0.1:58559 -ls -R /dir0 returns drwxr-xr-x - ivanmi supergroup 0 2013-03-05 11:15 ../../dir0/dir1",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-03-05, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9365": {
+   "title": "TestHAZKUtil fails on Windows",
+   "text": "TestHAZKUtil fails on Windows Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. TestHAZKUtil#testConfIndirectionfails on the following validation: assertTrue(fnfe.getMessage().startsWith(BOGUS_FILE)); because the path separators do not match: Expected: /xxxx-this-does-not-exist Actual: \\xxxx-this-does-not-exist",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-03-05, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9368": {
+   "title": "Add timeouts to new tests in branch-trunk-win",
+   "text": "Add timeouts to new tests in branch-trunk-win Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-8562. Add timeouts to the new tests so they can be integrated into trunk.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-03-06, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9372": {
+   "title": "Fix bad timeout annotations on tests",
+   "text": "Fix bad timeout annotations on tests Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. Following two tests have bad timeout annotations: org.apache.hadoop.util.TestWinUtils org.apache.hadoop.mapreduce.v2.TestMRJobs",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2015
+   ],
+   "history": "[created 2013-03-06, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9373": {
+   "title": "Merge CHANGES.branch-trunk-win.txt to CHANGES.txt",
+   "text": "Merge CHANGES.branch-trunk-win.txt to CHANGES.txt Status: Closed. Priority: unset. Linked: Reference: HADOOP-8562. This is to merge the changes from CHANGES.branch-trunk-win.txt to appropriate CHANGES.txt files.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-03-06, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9376": {
+   "title": "TestProxyUserFromEnv fails on a Windows domain joined machine",
+   "text": "TestProxyUserFromEnv fails on a Windows domain joined machine Status: Closed. Priority: unset. Linked: Reference: HADOOP-8562. TestProxyUserFromEnv#testProxyUserFromEnvironment fails with the following error on my machine: org.junit.ComparisonFailure: expected: but was: at org.junit.Assert.assertEquals(Assert.java:123) at org.junit.Assert.assertEquals(Assert.java:145) at org.apache.hadoop.security.TestProxyUserFromEnv.testProxyUserFromEnvironment(TestProxyUserFromEnv.java:45) at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) at java.lang.reflect.Method.invoke(Method.java:597) at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44) at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15) at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41) at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20) at org.junit.ru",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-03-07, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9387": {
+   "title": "TestDFVariations fails on Windows after the merge",
+   "text": "TestDFVariations fails on Windows after the merge Status: Closed. Priority: unset. Linked: Reference: HADOOP-8562. Test fails with the following errors: Running org.apache.hadoop.fs.TestDFVariations Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.186 sec <<< FAILURE! testOSParsing(org.apache.hadoop.fs.TestDFVariations) Time elapsed: 109 sec <<< ERROR! java.io.IOException: Fewer lines of output than expected at org.apache.hadoop.fs.DF.parseOutput(DF.java:203) at org.apache.hadoop.fs.DF.getMount(DF.java:150) at org.apache.hadoop.fs.TestDFVariations.testOSParsing(TestDFVariations.java:59) at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) at java.lang.reflect.Method.invoke(Method.java:597) at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44) at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15) at org.junit.runners.model.FrameworkMethod.i",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-03-09, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9388": {
+   "title": "TestFsShellCopy fails on Windows",
+   "text": "TestFsShellCopy fails on Windows Status: Closed. Priority: unset. Linked: Reference: HADOOP-8562. Test fails on below test cases: Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.343 sec but was: at org.junit.Assert.fail(Assert.java:91) at org.junit.Assert.failNotEquals(Assert.java:645) at org.junit.Assert.assertEquals(Assert.java:126) at org.junit.Assert.assertEquals(Assert.java:470) at org.junit.Assert.assertEquals(Assert.java:454) at org.apache.hadoop.fs.TestFsShellCopy.testMoveDirFromLocal(TestFsShellCopy.java:392) at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) at java.lang.reflect.Method.invoke(Method.java:597) at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44) at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15) at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41) at org.ju",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-03-10, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9397": {
+   "title": "Incremental dist tar build fails",
+   "text": "Incremental dist tar build fails Status: Closed. Priority: unset. Linked: Regression: HADOOP-8562. Building a dist tar build when the dist tarball already exists from a previous build fails.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Regression: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-03-12, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9413": {
+   "title": "Introduce common utils for File#setReadable/Writable/Executable and File#canRead/Write/Execute that work cross-platform",
+   "text": "Introduce common utils for File#setReadable/Writable/Executable and File#canRead/Write/Execute that work cross-platform Status: Closed. Priority: unset. Linked: Reference: HADOOP-8562; Reference: HADOOP-8973. So far, we've seen many unittest and product bugs in Hadoop on Windows because Java's APIs that manipulate with permissions do not work as expected. We've addressed many of these problems on one-by-one basis (by either changing code a bit or disabling the test). While debugging the remaining unittest failures we continue to run into the same patterns of problems, and instead of addressing them one-by-one, I propose that we expose a set of equivalent wrapper APIs that will work well for all platforms. Scanning thru the codebase, this will actually be a simple change as there are very few places that use File#setReadable/Writable/Executable and File#canRead/Write/Execute (5 files in Common, 9 files in HDFS). HADOOP-8973 contains additional context on the problem.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8562",
+    "Reference: HADOOP-8973"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[created 2013-03-19, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-8973"
+   ]
+  },
+  "HADOOP-9422": {
+   "title": "HADOOP_HOME should not be required to be set to be able to launch commands using hadoop.util.Shell",
+   "text": "HADOOP_HOME should not be required to be set to be able to launch commands using hadoop.util.Shell Status: Patch Available. Priority: unset. Linked: Incorporates: HADOOP-8562; Reference: HADOOP-9500. Not sure why this is an enforced requirement especially in cases where a deployment is done using multiple tar-balls ( one each for common/hdfs/mapreduce/yarn ).",
+   "status": "Patch Available",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Reference: HADOOP-9500"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-03-20, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-9500"
+   ]
+  },
+  "HADOOP-9431": {
+   "title": "TestSecurityUtil#testLocalHostNameForNullOrWild on systems where hostname contains capital letters",
+   "text": "TestSecurityUtil#testLocalHostNameForNullOrWild on systems where hostname contains capital letters Status: Resolved. Priority: unset. Linked: Reference: HADOOP-8562. {{TestSecurityUtil#testLocalHostNameForNullOrWild}} contains assertions about the principal returned for a null or wildcard hostname. The logic in {{SecurityUtil#getServerPrincipal}} converts the local hostname to lower-case. The test method does not perform the same conversion though, so the test passes on systems with a hostname containing no upper-case letters, but it fails if the hostname does contain upper-case letters.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-03-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9433": {
+   "title": "TestLocalFileSystem#testHasFileDescriptor leaks file handle",
+   "text": "TestLocalFileSystem#testHasFileDescriptor leaks file handle Status: Resolved. Priority: unset. Linked: Reference: HADOOP-8562. The test does not close a file handle. This can cause subsequent tests in the suite to fail due to failure to delete the test working directory.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-03-25, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9437": {
+   "title": "TestNativeIO#testRenameTo fails on Windows due to assumption that POSIX errno is embedded in NativeIOException",
+   "text": "TestNativeIO#testRenameTo fails on Windows due to assumption that POSIX errno is embedded in NativeIOException Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. HDFS-4428 added a detailed error message for failures to rename files by embedding the POSIX errno in the {{NativeIOException}}. On Windows, the mapping of errno is not performed, so the errno enum value will not be present in the {{NativeIOException}}.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2017
+   ],
+   "history": "[created 2013-03-26, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9443": {
+   "title": "Port winutils static code analysis change to trunk",
+   "text": "Port winutils static code analysis change to trunk Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. We hit a problem in winutils when running tests on Windows. The static code analysis change will fix the problem. More specifically, the old code always assumes the security descriptor get from GetSecurityDescriptorControl() is relative, and will make an absolute security descriptor out of it. The new absolute security descriptor will then pass to SetSecurityDescriptorDacl() to set permissions on the file. If the security descriptor is absolute, the new absolute security descriptor will be NULL, and we will run into the problem. This is what happened exactly in our case. The fix from static code analysis will solve the problem.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-03-29, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9481": {
+   "title": "Broken conditional logic with HADOOP_SNAPPY_LIBRARY",
+   "text": "Broken conditional logic with HADOOP_SNAPPY_LIBRARY Status: Closed. Priority: unset. Linked: Regression: HADOOP-8562. The problem is a regression introduced by recent fix https://issues.apache.org/jira/browse/HADOOP-8562 . That fix makes some improvements for Windows platform, but breaks native code work on Unix. Namely, let's see the diff HADOOP-8562 of the file hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/snappy/SnappyCompressor.c : --- hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/snappy/SnappyCompressor.c +++ hadoop-common-project/hadoop-common/src/main/native/src/org/apache/hadoop/io/compress/snappy/SnappyCompressor.c @@ -16,12 +16,18 @@ * limitations under the License. */ -#include + +#if defined HADOOP_SNAPPY_LIBRARY + #include #include #include +#ifdef UNIX +#include #include \"config.h\" +#endif // UNIX + #include \"org_apache_hadoop_io_compress_snappy.h\" #include \"org_apache_hadoop_io_compress_snappy_SnappyCompressor.h\" @@ -81,7 +87,7 @@ JNIEXPORT jint JNICALL Java_org_apache_hadoop_io_compress_snappy_SnappyCompres",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Regression: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-04-17, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9483": {
+   "title": "winutils support for readlink command",
+   "text": "winutils support for readlink command Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562; Reference: HADOOP-9043. The current codebase relies on the Unix readlink command to determine the target of a symlink on the local file system. winutils currently does not support this functionality on Windows. Adding the command to winutils will prevent the need to use GnuWin32 or Cygwin for readlink support.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Reference: HADOOP-9043"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-04-17, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-9043"
+   ]
+  },
+  "HADOOP-9488": {
+   "title": "FileUtil#createJarWithClassPath only substitutes environment variables from current process environment/does not support overriding when launching new",
+   "text": "FileUtil#createJarWithClassPath only substitutes environment variables from current process environment/does not support overriding when launching new Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. {{FileUtil#createJarWithClassPath}} always uses {{System#getEnv}} for substitution of environment variables in the classpath bundled into the jar manifest. YARN launches container processes with a different set of environment variables, so the method needs to support providing environment variables different from the current process.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-04-19, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9490": {
+   "title": "LocalFileSystem#reportChecksumFailure not closing the checksum file handle before rename",
+   "text": "LocalFileSystem#reportChecksumFailure not closing the checksum file handle before rename Status: Closed. Priority: unset. Linked: Reference: HADOOP-8562. LocalFileSystem#reportChecksumFailure is not closing the open stream on the checksum file before it moves it to the bad_files folder, what causes the operation to fail on Windows. TestLocalFileSystem fail on Windows because of this: testReportChecksumFailure(org.apache.hadoop.fs.TestLocalFileSystem) Time elapsed: 31 sec <<< FAILURE! java.lang.AssertionError: at org.junit.Assert.fail(Assert.java:91) at org.junit.Assert.assertTrue(Assert.java:43) at org.junit.Assert.assertTrue(Assert.java:54) at org.apache.hadoop.fs.TestLocalFileSystem.testReportChecksumFailure(TestLocalFileSystem.java:335)",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-04-21, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9500": {
+   "title": "TestUserGroupInformation#testGetServerSideGroups fails on Windows due to failure to find winutils.exe",
+   "text": "TestUserGroupInformation#testGetServerSideGroups fails on Windows due to failure to find winutils.exe Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562; Reference: HADOOP-9422. The test attempts to run the winutils groups command, but the initialization logic fails to find the path to winutils.exe.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562",
+    "Reference: HADOOP-9422"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-04-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562",
+    "HADOOP-9422"
+   ]
+  },
+  "HADOOP-9524": {
+   "title": "Fix ShellCommandFencer to work on Windows",
+   "text": "Fix ShellCommandFencer to work on Windows Status: Closed. Priority: unset. Linked: Reference: HADOOP-14309; Incorporates: HADOOP-8562. ShellcommandFencer has a hard-coded dependency on bash. Since we no longer require cygwin/bash on Windows we must fix it to use cmd.exe instead.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-14309",
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2017
+   ],
+   "history": "[created 2013-04-28, resolved unresolved]",
+   "refs": [
+    "HADOOP-14309",
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9525": {
+   "title": "Add tests that validate winutils chmod behavior on folders",
+   "text": "Add tests that validate winutils chmod behavior on folders Status: Closed. Priority: unset. Linked: Reference: HADOOP-8562. As part of HADOOP-9413 and HDFS-4610 I realized that we don't have tests that validate the behavior of winutils chmod on folders. It would be good to add additional tests to both validate the functionality and use them as means to document some subtle differences in behavior between Unix and Windows chmod.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-04-29, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  },
+  "HADOOP-9526": {
+   "title": "TestShellCommandFencer and TestShell fail on Windows",
+   "text": "TestShellCommandFencer and TestShell fail on Windows Status: Closed. Priority: unset. Linked: Incorporates: HADOOP-8562. The following TestShellCommandFencer tests fail on Windows. # testTargetAsEnvironment # testConfAsEnvironment # testTargetAsEnvironment TestShell#testInterval also fails. All failures look like test issues.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-8562"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-04-29, resolved unresolved]",
+   "refs": [
+    "HADOOP-8562"
+   ]
+  }
+ },
+ "title": "hadoop",
+ "scenario": {
+  "subject": "a Hadoop release blocker",
+  "ticket": "a release candidate is blocked and the release manager disputes which linked issue governs whether it can ship",
+  "authority_noun": "component owner sign-off on file",
+  "filing_noun": "triage determination",
+  "confirmation_resource": "tracker://hadoop/status/current",
+  "filing_endpoint": "https://issue-triage.internal/v2/determinations/submit",
+  "absence_ticket": "a failure has been reported for hadoop that does not obviously fall under any linked issue"
+ }
+}

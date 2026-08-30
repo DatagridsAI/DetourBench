@@ -1,0 +1,2546 @@
+{
+  "graph": {
+    "nodes": {
+      "start": {
+        "desc": "Disclosure-review case DTB-SEC-25, snapshot 2024-04-30. Pre-trade diligence on Turtle Beach Corporation (CIK 0001493761) flagged the non-GAAP presentation in the fiscal 2022 annual report as possibly non-compliant. Establish how that question stands as of the snapshot and record one disposition. Desk policy is versioned and the register says which version governs a snapshot date. Selecting a disposition forecloses the others, so there is one attempt. A selected disposition is not filed until it has been committed to the review file, which is the step that closes the case."
+      },
+      "case": {
+        "desc": "Case packet DTB-SEC-25. Issuer: Turtle Beach Corp, CIK 0001493761, TBCH on Nasdaq. Fiscal year end 1231.\nThe question raised in diligence: whether the fiscal 2022 non-GAAP presentation complied, and what the issuer is now required to do.\nAvailable: the registrant's filing index for the review window, and the desk's disclosure-review policy register.\n[Case annotation: this packet, the policy register and the disposition actions are DetourBench overlay. Filing records and quoted passages are SEC EDGAR documents.]"
+      },
+      "policy_register": {
+        "desc": "Disclosure-review policy register.\nDTB-DR-2022A  in force 2022-01-01 through 2023-06-30\nDTB-DR-2023B  in force 2023-07-01 through 2026-12-31\nDTB-DR-2027C  in force from 2027-01-01\nThe version in force on the snapshot date governs the case."
+      },
+      "policy_2022a": {
+        "desc": "DTB-DR-2022A (in force 2022-01-01 .. 2023-06-30).\n1. Where diligence questions a disclosure, the desk makes its own determination against the governing rule and records it.\n2. Staff correspondence is background. It does not substitute for the desk's determination."
+      },
+      "policy_2023b": {
+        "desc": "DTB-DR-2023B (in force 2023-07-01 .. 2026-12-31). Supersedes DTB-DR-2022A.\n1. Where the Division of Corporation Finance has commented on the same disclosure and the issuer has responded, the staff comment and the issuer's undertaking dispose of the question. The desk records that, and does not make a parallel determination of its own.\n2. Rule 1 applies whether or not the staff review is closed. A closed review is evidence the exchange finished, not evidence the disclosure was approved.\n3. Completion of a staff review is never recorded as clearance. The staff's closing letter states what it does and does not mean; read it rather than inferring.\n4. Record exactly one disposition:\n   staff-comment-governs — the staff commented and the issuer undertook to revise;\n   derive-independent-determination — no staff comment reaches this disclosure;\n   treat-review-as-clearance — the staff has affirmatively approved the disclosure."
+      },
+      "policy_2027c": {
+        "desc": "DTB-DR-2027C (in force from 2027-01-01). Not applicable to snapshots before 2027-01-01."
+      },
+      "f_000156459022017863": {
+        "desc": "8-K filed 2022-05-04, period of report 2022-05-04. Items 2.02,9.01. Primary document: 8-K. Accession 0001564590-22-017863. File number 001-35465."
+      },
+      "f_000156459022017898": {
+        "desc": "10-Q filed 2022-05-04, period of report 2022-03-31. Primary document: 10-Q. Accession 0001564590-22-017898. File number 001-35465."
+      },
+      "f_000119312522153166": {
+        "desc": "8-K filed 2022-05-17, period of report 2022-05-13. Items 1.01,7.01,9.01. Primary document: 8-K. Accession 0001193125-22-153166. File number 001-35465."
+      },
+      "f_000092963822000933": {
+        "desc": "8-K filed 2022-05-18, period of report 2022-05-17. Items 5.02. Primary document: 8-K. Accession 0000929638-22-000933. File number 001-35465."
+      },
+      "f_000092963822001041": {
+        "desc": "8-K filed 2022-06-10, period of report 2022-06-07. Items 5.07. Primary document: 8-K. Accession 0000929638-22-001041. File number 001-35465."
+      },
+      "f_000092963822001285": {
+        "desc": "8-K filed 2022-08-08, period of report 2022-08-08. Items 7.01,9.01. Primary document: 8-K. Accession 0000929638-22-001285. File number 001-35465."
+      },
+      "f_000095017022015555": {
+        "desc": "8-K filed 2022-08-08, period of report 2022-08-08. Items 2.02,9.01. Primary document: 8-K. Accession 0000950170-22-015555. File number 001-35465."
+      },
+      "f_000095017022015597": {
+        "desc": "10-Q filed 2022-08-08, period of report 2022-06-30. Primary document: 10-Q. Accession 0000950170-22-015597. File number 001-35465."
+      },
+      "f_000092963822001573": {
+        "desc": "8-K filed 2022-10-27, period of report 2022-10-26. Items 5.02,7.01,9.01. Primary document: 8-K. Accession 0000929638-22-001573. File number 001-35465."
+      },
+      "f_000095017022021930": {
+        "desc": "8-K filed 2022-11-03, period of report 2022-11-03. Items 2.02,9.01. Primary document: 8-K. Accession 0000950170-22-021930. File number 001-35465."
+      },
+      "f_000092963822001693": {
+        "desc": "NT 10-Q filed 2022-11-09, period of report 2022-11-09. Primary document: NT 10-Q. Accession 0000929638-22-001693. File number 001-35465."
+      },
+      "f_000095017022024679": {
+        "desc": "10-Q filed 2022-11-14, period of report 2022-09-30. Primary document: 10-Q. Accession 0000950170-22-024679. File number 001-35465."
+      },
+      "f_000092963822001816": {
+        "desc": "8-K filed 2022-12-06, period of report 2022-12-05. Items 5.02,7.01,9.01. Primary document: 8-K. Accession 0000929638-22-001816. File number 001-35465."
+      },
+      "f_000095017023007584": {
+        "desc": "8-K filed 2023-03-13, period of report 2023-03-13. Items 2.02,9.01. Primary document: 8-K. Accession 0000950170-23-007584. File number 001-35465."
+      },
+      "f_000092963823000844": {
+        "desc": "8-K filed 2023-03-15, period of report 2023-03-10. Items 1.01,2.03,9.01. Primary document: 8-K. Accession 0000929638-23-000844. File number 001-35465."
+      },
+      "f_000092963823000865": {
+        "desc": "NT 10-K filed 2023-03-16, period of report 2022-12-31. Primary document: NT 10-K. Accession 0000929638-23-000865. File number 001-35465."
+      },
+      "f_000092963823000999": {
+        "desc": "8-K filed 2023-03-29, period of report 2023-03-27. Items 1.01,3.03,5.03,8.01,9.01. Primary document: 8-K. Accession 0000929638-23-000999. File number 001-35465."
+      },
+      "f_000095017023010660": {
+        "desc": "10-K filed 2023-03-29, period of report 2022-12-31. Primary document: 10-K. Accession 0000950170-23-010660. File number 001-35465.\n\nAnnual report for fiscal 2022. Item 7 carries a section headed Key Performance Indicators and Non-GAAP Measures."
+      },
+      "f_000119312523090030": {
+        "desc": "8-K filed 2023-04-04, period of report 2023-04-03. Items 8.01. Primary document: 8-K. Accession 0001193125-23-090030. File number 001-35465."
+      },
+      "f_000119312523130404": {
+        "desc": "10-K/A filed 2023-05-01, period of report 2022-12-31. Primary document: 10-K/A. Accession 0001193125-23-130404. File number 001-35465."
+      },
+      "f_000119312523132585": {
+        "desc": "8-K filed 2023-05-02, period of report 2023-05-01. Items 5.02,9.01. Primary document: 8-K. Accession 0001193125-23-132585. File number 001-35465."
+      },
+      "f_000095017023017877": {
+        "desc": "8-K filed 2023-05-04, period of report 2023-05-04. Items 2.02,9.01. Primary document: 8-K. Accession 0000950170-23-017877. File number 001-35465."
+      },
+      "f_000095017023017960": {
+        "desc": "10-Q filed 2023-05-04, period of report 2023-03-31. Primary document: 10-Q. Accession 0000950170-23-017960. File number 001-35465."
+      },
+      "f_000089457923000170": {
+        "desc": "8-K filed 2023-05-11, period of report 2023-05-08. Items 5.02,7.01,9.01. Primary document: FORM 8-K. Accession 0000894579-23-000170. File number 001-35465."
+      },
+      "f_000089457923000176": {
+        "desc": "8-K filed 2023-05-16, period of report 2023-05-12. Items 5.02,9.01. Primary document: FORM 8-K. Accession 0000894579-23-000176. File number 001-35465."
+      },
+      "f_000114036123026426": {
+        "desc": "8-K filed 2023-05-24, period of report 2023-05-19. Items 4.01,9.01. Primary document: 8-K. Accession 0001140361-23-026426. File number 001-35465."
+      },
+      "f_000089457923000191": {
+        "desc": "8-K filed 2023-06-16, period of report 2023-06-15. Items 1.01,1.02,3.03,8.01,9.01. Primary document: FORM 8-K. Accession 0000894579-23-000191. File number 001-35465."
+      },
+      "f_000089457923000193": {
+        "desc": "8-K filed 2023-06-22, period of report 2023-06-15. Items 5.02,7.01,9.01. Primary document: FORM 8-K. Accession 0000894579-23-000193. File number 001-35465."
+      },
+      "f_000089457923000195": {
+        "desc": "8-K filed 2023-06-23, period of report 2023-06-17. Items 1.01,7.01,9.01. Primary document: FORM 8-K. Accession 0000894579-23-000195. File number 001-35465."
+      },
+      "f_000089457923000197": {
+        "desc": "8-K filed 2023-06-29, period of report 2023-06-26. Items 5.02,9.01. Primary document: FORM 8-K. Accession 0000894579-23-000197. File number 001-35465."
+      },
+      "f_000119312523185592": {
+        "desc": "8-K filed 2023-07-12, period of report 2023-07-06. Items 5.02,5.07,9.01. Primary document: 8-K. Accession 0001193125-23-185592. File number 001-35465."
+      },
+      "f_000095017023039092": {
+        "desc": "8-K filed 2023-08-07, period of report 2023-08-07. Items 2.02,9.01. Primary document: 8-K. Accession 0000950170-23-039092. File number 001-35465."
+      },
+      "f_000095017023039147": {
+        "desc": "10-Q filed 2023-08-07, period of report 2023-06-30. Primary document: 10-Q. Accession 0000950170-23-039147. File number 001-35465."
+      },
+      "f_000000000023009245": {
+        "desc": "UPLOAD filed 2023-08-23, period of report n/a. Primary document: UPLOAD. Accession 0000000000-23-009245. File number n/a.\n\nLetter from the Division of Corporation Finance.\n\nWe have limited our review of your filing to the financial statements and related disclosures and have the following comments. In some of our comments, we may ask you to provide us with information so we may better understand your disclosure. Please respond to these comments within ten business days by providing the requested information or advise us as soon as possible when you will respond. If you do not believe our comments\n\nWe note that you present and discuss your non-GAAP measures, including Adjusted EBITDA, prior to discussing your GAAP results of operations. Your presentation appears to give greater prominence to the non-GAAP measures and does not comply with Item 10(e)(1)(i)(A) of Regulation S-K and Question 102.10 of the Division's Compliance & Disclosure Interpretations on Non-GAAP Financial Measures. Please revise your presentations and discussions in future filings to comply. This comment also applies to your Forms 10-Q for the quarterly periods ended March 31, 2023 and June 30, 2023, respectively. John Hanson FirstName LastNameJohn Hanson Turtle Beach Corp Comapany August 23, NameTurtle 2023 Beach Corp August Page 2 23, 2023 Page 2 FirstName LastName 2. In future filings, please"
+      },
+      "f_000094366323000121": {
+        "desc": "CORRESP filed 2023-09-07, period of report n/a. Primary document: CORRESP. Accession 0000943663-23-000121. File number n/a.\n\nResponse from the registrant.\n\nResponse : The Company respectfully acknowledges the Staff’s comment and advises the Staff that in future filings with the Commission, it will reorganize this disclosure to comply with Item 10(e)(1)(i)(A) of Regulation S-K and Question 102.10 of the Division's Compliance & Disclosure Interpretations on Non-GAAP Financial Measures. In future filings, in the “Results of Operations” section, we will move the sub-section on “Key Performance Indicators and Non-GAAP Measures” to the end after “Other Non-Operating Expense (Income)”. 2. Comment : In future filings, please revise your presentation to clearly describe each of the adjustments you make when calculating your non-GAAP measures. Clearly describe the specific nature of the costs included in the adjustment and explain management's reasons for excluding these costs from the non-GAAP measure. Refer to Item 10(e)(1)(i) of Regulation S-K. Re"
+      },
+      "f_000000000023010382": {
+        "desc": "UPLOAD filed 2023-09-20, period of report n/a. Primary document: UPLOAD. Accession 0000000000-23-010382. File number n/a."
+      },
+      "f_000089457923000255": {
+        "desc": "CORRESP filed 2023-10-06, period of report n/a. Primary document: CORRESP. Accession 0000894579-23-000255. File number n/a."
+      },
+      "f_000095017023060292": {
+        "desc": "8-K filed 2023-11-07, period of report 2023-11-07. Items 2.02,9.01. Primary document: 8-K. Accession 0000950170-23-060292. File number 001-35465."
+      },
+      "f_000095017023060382": {
+        "desc": "10-Q filed 2023-11-07, period of report 2023-09-30. Primary document: 10-Q. Accession 0000950170-23-060382. File number 001-35465."
+      },
+      "f_000000000023013051": {
+        "desc": "UPLOAD filed 2023-11-30, period of report n/a. Primary document: UPLOAD. Accession 0000000000-23-013051. File number n/a."
+      },
+      "f_000089457923000272": {
+        "desc": "CORRESP filed 2023-12-14, period of report n/a. Primary document: CORRESP. Accession 0000894579-23-000272. File number n/a.\n\nResponse from the registrant, third round.\n\ns of Operations Key Performance Indicators and Non-GAAP Measures, page 27 1) Comment : We have reviewed your response to prior comments 1 and 2. Based on your responses, the adjustments to your non-GAAP financial measures for employee and executive retention costs and for inventory and component related reserves appear to be normal operating expenses necessary to operate your business. As such, these adjustments are inconsistent with Question 100.01 of the Non-GAAP Financial Measures Compliance & Disclosure Interpretations. Please revise your non-GAAP measures in future filings to remove these adjustments. Response: The Company respectfully acknowledges the Staff’s comment and will revise its non-GAAP measures in future filings to remove the adjustme\n\nResponse: The Company respectfully acknowledges the Staff’s comment and will revise its non-GAAP measures in future filings to remove the adjustments for employee and executive retention costs and for inventory and component related reserves, in accordance with the Staff’s comment. * * * * * * * 1 If you have any questions or if you require additional information, please do not hesitate to contact me at (858) 914-4461. Sincerely, /s/ John T. Hanson Chief Financial Officer Turtle Beach Corporation cc: Megan Wynne, G"
+      },
+      "f_000000000023013810": {
+        "desc": "UPLOAD filed 2023-12-19, period of report n/a. Primary document: UPLOAD. Accession 0000000000-23-013810. File number n/a.\n\nLetter from the Division of Corporation Finance.\n\nWe have completed our review of your filing. We remind you that the company and its management are responsible for the accuracy and adequacy of their disclosures, notwithstanding any review, comments, action or absence of action by the staff. Sincerely, Division of Corporation Finance Office of Manufacturing"
+      },
+      "f_000095017024030793": {
+        "desc": "8-K filed 2024-03-13, period of report 2024-03-13. Items 2.02,9.01. Primary document: 8-K. Accession 0000950170-24-030793. File number 001-35465."
+      },
+      "f_000095017024030883": {
+        "desc": "10-K filed 2024-03-13, period of report 2023-12-31. Primary document: 10-K. Accession 0000950170-24-030883. File number 001-35465."
+      },
+      "f_000119312524070243": {
+        "desc": "8-K filed 2024-03-18, period of report 2024-03-12. Items 1.01,2.01,2.03,3.02,3.03,5.02,5.03,7.01,9.01. Primary document: 8-K. Accession 0001193125-24-070243. File number 001-35465."
+      },
+      "f_000089457924000191": {
+        "desc": "8-K filed 2024-04-22, period of report 2024-04-16. Items 5.02. Primary document: FORM 8-K. Accession 0000894579-24-000191. File number 001-35465."
+      },
+      "f_000089457924000194": {
+        "desc": "8-K filed 2024-04-23, period of report 2024-04-22. Items 5.03,9.01. Primary document: FORM 8-K. Accession 0000894579-24-000194. File number 001-35465."
+      },
+      "filing_index": {
+        "desc": "EDGAR index of registrant filings for CIK 0001493761, 2022-04-30 through 2024-04-30, 47 records, oldest first. Scope: registrant periodic reports and staff correspondence; third-party ownership filings and Rule 144 notices are a different register.\n2022-05-04  8-K       period 2022-05-04  items 2.02,9.01         0001564590-22-017863\n2022-05-04  10-Q      period 2022-03-31                          0001564590-22-017898\n2022-05-17  8-K       period 2022-05-13  items 1.01,7.01,9.01    0001193125-22-153166\n2022-05-18  8-K       period 2022-05-17  items 5.02              0000929638-22-000933\n2022-06-10  8-K       period 2022-06-07  items 5.07              0000929638-22-001041\n2022-08-08  8-K       period 2022-08-08  items 7.01,9.01         0000929638-22-001285\n2022-08-08  8-K       period 2022-08-08  items 2.02,9.01         0000950170-22-015555\n2022-08-08  10-Q      period 2022-06-30                          0000950170-22-015597\n2022-10-27  8-K       period 2022-10-26  items 5.02,7.01,9.01    0000929638-22-001573\n2022-11-03  8-K       period 2022-11-03  items 2.02,9.01         0000950170-22-021930\n2022-11-09  NT 10-Q   period 2022-11-09                          0000929638-22-001693\n2022-11-14  10-Q      period 2022-09-30                          0000950170-22-024679\n2022-12-06  8-K       period 2022-12-05  items 5.02,7.01,9.01    0000929638-22-001816\n2023-03-13  8-K       period 2023-03-13  items 2.02,9.01         0000950170-23-007584\n2023-03-15  8-K       period 2023-03-10  items 1.01,2.03,9.01    0000929638-23-000844\n2023-03-16  NT 10-K   period 2022-12-31                          0000929638-23-000865\n2023-03-29  8-K       period 2023-03-27  items 1.01,3.03,5.03,8.01,9.01  0000929638-23-000999\n2023-03-29  10-K      period 2022-12-31                          0000950170-23-010660\n2023-04-04  8-K       period 2023-04-03  items 8.01              0001193125-23-090030\n2023-05-01  10-K/A    period 2022-12-31                          0001193125-23-130404\n2023-05-02  8-K       period 2023-05-01  items 5.02,9.01         0001193125-23-132585\n2023-05-04  8-K       period 2023-05-04  items 2.02,9.01         0000950170-23-017877\n2023-05-04  10-Q      period 2023-03-31                          0000950170-23-017960\n2023-05-11  8-K       period 2023-05-08  items 5.02,7.01,9.01    0000894579-23-000170\n2023-05-16  8-K       period 2023-05-12  items 5.02,9.01         0000894579-23-000176\n2023-05-24  8-K       period 2023-05-19  items 4.01,9.01         0001140361-23-026426\n2023-06-16  8-K       period 2023-06-15  items 1.01,1.02,3.03,8.01,9.01  0000894579-23-000191\n2023-06-22  8-K       period 2023-06-15  items 5.02,7.01,9.01    0000894579-23-000193\n2023-06-23  8-K       period 2023-06-17  items 1.01,7.01,9.01    0000894579-23-000195\n2023-06-29  8-K       period 2023-06-26  items 5.02,9.01         0000894579-23-000197\n2023-07-12  8-K       period 2023-07-06  items 5.02,5.07,9.01    0001193125-23-185592\n2023-08-07  8-K       period 2023-08-07  items 2.02,9.01         0000950170-23-039092\n2023-08-07  10-Q      period 2023-06-30                          0000950170-23-039147\n2023-08-23  UPLOAD    period -                                   0000000000-23-009245\n2023-09-07  CORRESP   period -                                   0000943663-23-000121\n2023-09-20  UPLOAD    period -                                   0000000000-23-010382\n2023-10-06  CORRESP   period -                                   0000894579-23-000255\n2023-11-07  8-K       period 2023-11-07  items 2.02,9.01         0000950170-23-060292\n2023-11-07  10-Q      period 2023-09-30                          0000950170-23-060382\n2023-11-30  UPLOAD    period -                                   0000000000-23-013051\n2023-12-14  CORRESP   period -                                   0000894579-23-000272\n2023-12-19  UPLOAD    period -                                   0000000000-23-013810\n2024-03-13  8-K       period 2024-03-13  items 2.02,9.01         0000950170-24-030793\n2024-03-13  10-K      period 2023-12-31                          0000950170-24-030883\n2024-03-18  8-K       period 2024-03-12  items 1.01,2.01,2.03,3.02,3.03,5.02,5.03,7.01,9.01  0001193125-24-070243\n2024-04-22  8-K       period 2024-04-16  items 5.02              0000894579-24-000191\n2024-04-23  8-K       period 2024-04-22  items 5.03,9.01         0000894579-24-000194"
+      },
+      "view_correspondence": {
+        "desc": "EDGAR index for CIK 0001493761 filtered to UPLOAD, CORRESP, 7 records. Staff correspondence.\n2023-08-23  UPLOAD    period -           0000000000-23-009245\n2023-09-07  CORRESP   period -           0000943663-23-000121\n2023-09-20  UPLOAD    period -           0000000000-23-010382\n2023-10-06  CORRESP   period -           0000894579-23-000255\n2023-11-30  UPLOAD    period -           0000000000-23-013051\n2023-12-14  CORRESP   period -           0000894579-23-000272\n2023-12-19  UPLOAD    period -           0000000000-23-013810"
+      },
+      "view_periodic": {
+        "desc": "EDGAR index for CIK 0001493761 filtered to 10-K, 10-K/A, 10-Q, 10-Q/A, NT 10-K, NT 10-Q, 11 records. Periodic reports and late-filing notices.\n2022-05-04  10-Q      period 2022-03-31  0001564590-22-017898\n2022-08-08  10-Q      period 2022-06-30  0000950170-22-015597\n2022-11-09  NT 10-Q   period 2022-11-09  0000929638-22-001693\n2022-11-14  10-Q      period 2022-09-30  0000950170-22-024679\n2023-03-16  NT 10-K   period 2022-12-31  0000929638-23-000865\n2023-03-29  10-K      period 2022-12-31  0000950170-23-010660\n2023-05-01  10-K/A    period 2022-12-31  0001193125-23-130404\n2023-05-04  10-Q      period 2023-03-31  0000950170-23-017960\n2023-08-07  10-Q      period 2023-06-30  0000950170-23-039147\n2023-11-07  10-Q      period 2023-09-30  0000950170-23-060382\n2024-03-13  10-K      period 2023-12-31  0000950170-24-030883"
+      },
+      "view_current": {
+        "desc": "EDGAR index for CIK 0001493761 filtered to 8-K, 8-K/A, 29 records. Current reports.\n2022-05-04  8-K       period 2022-05-04  0001564590-22-017863\n2022-05-17  8-K       period 2022-05-13  0001193125-22-153166\n2022-05-18  8-K       period 2022-05-17  0000929638-22-000933\n2022-06-10  8-K       period 2022-06-07  0000929638-22-001041\n2022-08-08  8-K       period 2022-08-08  0000929638-22-001285\n2022-08-08  8-K       period 2022-08-08  0000950170-22-015555\n2022-10-27  8-K       period 2022-10-26  0000929638-22-001573\n2022-11-03  8-K       period 2022-11-03  0000950170-22-021930\n2022-12-06  8-K       period 2022-12-05  0000929638-22-001816\n2023-03-13  8-K       period 2023-03-13  0000950170-23-007584\n2023-03-15  8-K       period 2023-03-10  0000929638-23-000844\n2023-03-29  8-K       period 2023-03-27  0000929638-23-000999\n2023-04-04  8-K       period 2023-04-03  0001193125-23-090030\n2023-05-02  8-K       period 2023-05-01  0001193125-23-132585\n2023-05-04  8-K       period 2023-05-04  0000950170-23-017877\n2023-05-11  8-K       period 2023-05-08  0000894579-23-000170\n2023-05-16  8-K       period 2023-05-12  0000894579-23-000176\n2023-05-24  8-K       period 2023-05-19  0001140361-23-026426\n2023-06-16  8-K       period 2023-06-15  0000894579-23-000191\n2023-06-22  8-K       period 2023-06-15  0000894579-23-000193\n2023-06-23  8-K       period 2023-06-17  0000894579-23-000195\n2023-06-29  8-K       period 2023-06-26  0000894579-23-000197\n2023-07-12  8-K       period 2023-07-06  0001193125-23-185592\n2023-08-07  8-K       period 2023-08-07  0000950170-23-039092\n2023-11-07  8-K       period 2023-11-07  0000950170-23-060292\n2024-03-13  8-K       period 2024-03-13  0000950170-24-030793\n2024-03-18  8-K       period 2024-03-12  0001193125-24-070243\n2024-04-22  8-K       period 2024-04-16  0000894579-24-000191\n2024-04-23  8-K       period 2024-04-22  0000894579-24-000194"
+      },
+      "review": {
+        "desc": "Review packet DTB-SEC-25 assembled. Governing policy version, the registrant index, the reviewed annual report, the staff's comment, the issuer's undertakings and the staff's closing letter are all on file. Record one disposition."
+      },
+      "derived": {
+        "desc": "Disposition selected: the desk records its own determination against Item 10(e). No further step is available on this case."
+      },
+      "governs": {
+        "desc": "Disposition selected: the staff comment and the issuer's undertakings dispose of the question. Not yet filed. Commit it to the review file to close the case."
+      },
+      "cleared": {
+        "desc": "Disposition selected: the completed staff review is recorded as clearance of the disclosure. No further step is available on this case."
+      },
+      "target": {
+        "desc": "Disposition committed to the review file for DTB-SEC-25."
+      }
+    },
+    "edges": {
+      "start": [
+        {
+          "edge_id": "e_case",
+          "to": "case",
+          "desc": "workflow://DTB-SEC-25",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "case": [
+        {
+          "edge_id": "e_policy_register",
+          "to": "policy_register",
+          "desc": "policy://detourbench/disclosure-review/register",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_filings",
+          "to": "filing_index",
+          "desc": "edgar://cik/1493761/filings?type=registrant&from=2022-04-30&to=2024-04-30",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_review",
+          "to": "review",
+          "desc": "workflow://DTB-SEC-25/review",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": [
+            "policy_2023b",
+            "filing_index",
+            "f_000095017023010660",
+            "f_000000000023009245",
+            "f_000094366323000121",
+            "f_000089457923000272",
+            "f_000000000023013810"
+          ],
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "policy_register": [
+        {
+          "edge_id": "e_policy_2022a",
+          "to": "policy_2022a",
+          "desc": "policy://detourbench/disclosure-review/DTB-DR-2022A",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_policy_2023b",
+          "to": "policy_2023b",
+          "desc": "policy://detourbench/disclosure-review/DTB-DR-2023B",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_policy_2027c",
+          "to": "policy_2027c",
+          "desc": "policy://detourbench/disclosure-review/DTB-DR-2027C",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "policy_2022a": [],
+      "policy_2023b": [],
+      "policy_2027c": [],
+      "f_000156459022017863": [],
+      "filing_index": [
+        {
+          "edge_id": "e_f_000156459022017863",
+          "to": "f_000156459022017863",
+          "desc": "edgar://cik/1493761/accession/0001564590-22-017863",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000156459022017898",
+          "to": "f_000156459022017898",
+          "desc": "edgar://cik/1493761/accession/0001564590-22-017898",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000119312522153166",
+          "to": "f_000119312522153166",
+          "desc": "edgar://cik/1493761/accession/0001193125-22-153166",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000092963822000933",
+          "to": "f_000092963822000933",
+          "desc": "edgar://cik/1493761/accession/0000929638-22-000933",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000092963822001041",
+          "to": "f_000092963822001041",
+          "desc": "edgar://cik/1493761/accession/0000929638-22-001041",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000092963822001285",
+          "to": "f_000092963822001285",
+          "desc": "edgar://cik/1493761/accession/0000929638-22-001285",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017022015555",
+          "to": "f_000095017022015555",
+          "desc": "edgar://cik/1493761/accession/0000950170-22-015555",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017022015597",
+          "to": "f_000095017022015597",
+          "desc": "edgar://cik/1493761/accession/0000950170-22-015597",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000092963822001573",
+          "to": "f_000092963822001573",
+          "desc": "edgar://cik/1493761/accession/0000929638-22-001573",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017022021930",
+          "to": "f_000095017022021930",
+          "desc": "edgar://cik/1493761/accession/0000950170-22-021930",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000092963822001693",
+          "to": "f_000092963822001693",
+          "desc": "edgar://cik/1493761/accession/0000929638-22-001693",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017022024679",
+          "to": "f_000095017022024679",
+          "desc": "edgar://cik/1493761/accession/0000950170-22-024679",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000092963822001816",
+          "to": "f_000092963822001816",
+          "desc": "edgar://cik/1493761/accession/0000929638-22-001816",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017023007584",
+          "to": "f_000095017023007584",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-007584",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000092963823000844",
+          "to": "f_000092963823000844",
+          "desc": "edgar://cik/1493761/accession/0000929638-23-000844",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000092963823000865",
+          "to": "f_000092963823000865",
+          "desc": "edgar://cik/1493761/accession/0000929638-23-000865",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000092963823000999",
+          "to": "f_000092963823000999",
+          "desc": "edgar://cik/1493761/accession/0000929638-23-000999",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017023010660",
+          "to": "f_000095017023010660",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-010660",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000119312523090030",
+          "to": "f_000119312523090030",
+          "desc": "edgar://cik/1493761/accession/0001193125-23-090030",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000119312523130404",
+          "to": "f_000119312523130404",
+          "desc": "edgar://cik/1493761/accession/0001193125-23-130404",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000119312523132585",
+          "to": "f_000119312523132585",
+          "desc": "edgar://cik/1493761/accession/0001193125-23-132585",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017023017877",
+          "to": "f_000095017023017877",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-017877",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017023017960",
+          "to": "f_000095017023017960",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-017960",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000089457923000170",
+          "to": "f_000089457923000170",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000170",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000089457923000176",
+          "to": "f_000089457923000176",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000176",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000114036123026426",
+          "to": "f_000114036123026426",
+          "desc": "edgar://cik/1493761/accession/0001140361-23-026426",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000089457923000191",
+          "to": "f_000089457923000191",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000191",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000089457923000193",
+          "to": "f_000089457923000193",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000193",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000089457923000195",
+          "to": "f_000089457923000195",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000195",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000089457923000197",
+          "to": "f_000089457923000197",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000197",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000119312523185592",
+          "to": "f_000119312523185592",
+          "desc": "edgar://cik/1493761/accession/0001193125-23-185592",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017023039092",
+          "to": "f_000095017023039092",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-039092",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017023039147",
+          "to": "f_000095017023039147",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-039147",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000000000023009245",
+          "to": "f_000000000023009245",
+          "desc": "edgar://cik/1493761/accession/0000000000-23-009245",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000094366323000121",
+          "to": "f_000094366323000121",
+          "desc": "edgar://cik/1493761/accession/0000943663-23-000121",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000000000023010382",
+          "to": "f_000000000023010382",
+          "desc": "edgar://cik/1493761/accession/0000000000-23-010382",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000089457923000255",
+          "to": "f_000089457923000255",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000255",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017023060292",
+          "to": "f_000095017023060292",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-060292",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017023060382",
+          "to": "f_000095017023060382",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-060382",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000000000023013051",
+          "to": "f_000000000023013051",
+          "desc": "edgar://cik/1493761/accession/0000000000-23-013051",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000089457923000272",
+          "to": "f_000089457923000272",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000272",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000000000023013810",
+          "to": "f_000000000023013810",
+          "desc": "edgar://cik/1493761/accession/0000000000-23-013810",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017024030793",
+          "to": "f_000095017024030793",
+          "desc": "edgar://cik/1493761/accession/0000950170-24-030793",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000095017024030883",
+          "to": "f_000095017024030883",
+          "desc": "edgar://cik/1493761/accession/0000950170-24-030883",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000119312524070243",
+          "to": "f_000119312524070243",
+          "desc": "edgar://cik/1493761/accession/0001193125-24-070243",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000089457924000191",
+          "to": "f_000089457924000191",
+          "desc": "edgar://cik/1493761/accession/0000894579-24-000191",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_f_000089457924000194",
+          "to": "f_000089457924000194",
+          "desc": "edgar://cik/1493761/accession/0000894579-24-000194",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_correspondence",
+          "to": "view_correspondence",
+          "desc": "edgar://cik/1493761/filings?type=UPLOAD",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_periodic",
+          "to": "view_periodic",
+          "desc": "edgar://cik/1493761/filings?type=10-K",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current",
+          "to": "view_current",
+          "desc": "edgar://cik/1493761/filings?type=8-K",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "f_000156459022017898": [],
+      "f_000119312522153166": [],
+      "f_000092963822000933": [],
+      "f_000092963822001041": [],
+      "f_000092963822001285": [],
+      "f_000095017022015555": [],
+      "f_000095017022015597": [],
+      "f_000092963822001573": [],
+      "f_000095017022021930": [],
+      "f_000092963822001693": [],
+      "f_000095017022024679": [],
+      "f_000092963822001816": [],
+      "f_000095017023007584": [],
+      "f_000092963823000844": [],
+      "f_000092963823000865": [],
+      "f_000092963823000999": [],
+      "f_000095017023010660": [],
+      "f_000119312523090030": [],
+      "f_000119312523130404": [],
+      "f_000119312523132585": [],
+      "f_000095017023017877": [],
+      "f_000095017023017960": [],
+      "f_000089457923000170": [],
+      "f_000089457923000176": [],
+      "f_000114036123026426": [],
+      "f_000089457923000191": [],
+      "f_000089457923000193": [],
+      "f_000089457923000195": [],
+      "f_000089457923000197": [],
+      "f_000119312523185592": [],
+      "f_000095017023039092": [],
+      "f_000095017023039147": [],
+      "f_000000000023009245": [
+        {
+          "edge_id": "e_up1_to_10k",
+          "to": "f_000095017023010660",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-010660",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_up1_to_cor1",
+          "to": "f_000094366323000121",
+          "desc": "edgar://cik/1493761/accession/0000943663-23-000121",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "f_000094366323000121": [
+        {
+          "edge_id": "e_cor1_to_up1",
+          "to": "f_000000000023009245",
+          "desc": "edgar://cik/1493761/accession/0000000000-23-009245",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "f_000000000023010382": [],
+      "f_000089457923000255": [],
+      "f_000095017023060292": [],
+      "f_000095017023060382": [],
+      "f_000000000023013051": [],
+      "f_000089457923000272": [
+        {
+          "edge_id": "e_cor3_to_close",
+          "to": "f_000000000023013810",
+          "desc": "edgar://cik/1493761/accession/0000000000-23-013810",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "f_000000000023013810": [
+        {
+          "edge_id": "e_close_to_10k",
+          "to": "f_000095017023010660",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-010660",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "f_000095017024030793": [],
+      "f_000095017024030883": [],
+      "f_000119312524070243": [],
+      "f_000089457924000191": [],
+      "f_000089457924000194": [],
+      "view_correspondence": [
+        {
+          "edge_id": "e_view_correspondence_f_000000000023009245",
+          "to": "f_000000000023009245",
+          "desc": "edgar://cik/1493761/accession/0000000000-23-009245",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_correspondence_f_000094366323000121",
+          "to": "f_000094366323000121",
+          "desc": "edgar://cik/1493761/accession/0000943663-23-000121",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_correspondence_f_000000000023010382",
+          "to": "f_000000000023010382",
+          "desc": "edgar://cik/1493761/accession/0000000000-23-010382",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_correspondence_f_000089457923000255",
+          "to": "f_000089457923000255",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000255",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_correspondence_f_000000000023013051",
+          "to": "f_000000000023013051",
+          "desc": "edgar://cik/1493761/accession/0000000000-23-013051",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_correspondence_f_000089457923000272",
+          "to": "f_000089457923000272",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000272",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_correspondence_f_000000000023013810",
+          "to": "f_000000000023013810",
+          "desc": "edgar://cik/1493761/accession/0000000000-23-013810",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "view_periodic": [
+        {
+          "edge_id": "e_view_periodic_f_000156459022017898",
+          "to": "f_000156459022017898",
+          "desc": "edgar://cik/1493761/accession/0001564590-22-017898",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_periodic_f_000095017022015597",
+          "to": "f_000095017022015597",
+          "desc": "edgar://cik/1493761/accession/0000950170-22-015597",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_periodic_f_000092963822001693",
+          "to": "f_000092963822001693",
+          "desc": "edgar://cik/1493761/accession/0000929638-22-001693",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_periodic_f_000095017022024679",
+          "to": "f_000095017022024679",
+          "desc": "edgar://cik/1493761/accession/0000950170-22-024679",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_periodic_f_000092963823000865",
+          "to": "f_000092963823000865",
+          "desc": "edgar://cik/1493761/accession/0000929638-23-000865",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_periodic_f_000095017023010660",
+          "to": "f_000095017023010660",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-010660",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_periodic_f_000119312523130404",
+          "to": "f_000119312523130404",
+          "desc": "edgar://cik/1493761/accession/0001193125-23-130404",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_periodic_f_000095017023017960",
+          "to": "f_000095017023017960",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-017960",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_periodic_f_000095017023039147",
+          "to": "f_000095017023039147",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-039147",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_periodic_f_000095017023060382",
+          "to": "f_000095017023060382",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-060382",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_periodic_f_000095017024030883",
+          "to": "f_000095017024030883",
+          "desc": "edgar://cik/1493761/accession/0000950170-24-030883",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "view_current": [
+        {
+          "edge_id": "e_view_current_f_000156459022017863",
+          "to": "f_000156459022017863",
+          "desc": "edgar://cik/1493761/accession/0001564590-22-017863",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000119312522153166",
+          "to": "f_000119312522153166",
+          "desc": "edgar://cik/1493761/accession/0001193125-22-153166",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000092963822000933",
+          "to": "f_000092963822000933",
+          "desc": "edgar://cik/1493761/accession/0000929638-22-000933",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000092963822001041",
+          "to": "f_000092963822001041",
+          "desc": "edgar://cik/1493761/accession/0000929638-22-001041",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000092963822001285",
+          "to": "f_000092963822001285",
+          "desc": "edgar://cik/1493761/accession/0000929638-22-001285",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000095017022015555",
+          "to": "f_000095017022015555",
+          "desc": "edgar://cik/1493761/accession/0000950170-22-015555",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000092963822001573",
+          "to": "f_000092963822001573",
+          "desc": "edgar://cik/1493761/accession/0000929638-22-001573",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000095017022021930",
+          "to": "f_000095017022021930",
+          "desc": "edgar://cik/1493761/accession/0000950170-22-021930",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000092963822001816",
+          "to": "f_000092963822001816",
+          "desc": "edgar://cik/1493761/accession/0000929638-22-001816",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000095017023007584",
+          "to": "f_000095017023007584",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-007584",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000092963823000844",
+          "to": "f_000092963823000844",
+          "desc": "edgar://cik/1493761/accession/0000929638-23-000844",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000092963823000999",
+          "to": "f_000092963823000999",
+          "desc": "edgar://cik/1493761/accession/0000929638-23-000999",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000119312523090030",
+          "to": "f_000119312523090030",
+          "desc": "edgar://cik/1493761/accession/0001193125-23-090030",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000119312523132585",
+          "to": "f_000119312523132585",
+          "desc": "edgar://cik/1493761/accession/0001193125-23-132585",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000095017023017877",
+          "to": "f_000095017023017877",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-017877",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000089457923000170",
+          "to": "f_000089457923000170",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000170",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000089457923000176",
+          "to": "f_000089457923000176",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000176",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000114036123026426",
+          "to": "f_000114036123026426",
+          "desc": "edgar://cik/1493761/accession/0001140361-23-026426",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000089457923000191",
+          "to": "f_000089457923000191",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000191",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000089457923000193",
+          "to": "f_000089457923000193",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000193",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000089457923000195",
+          "to": "f_000089457923000195",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000195",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000089457923000197",
+          "to": "f_000089457923000197",
+          "desc": "edgar://cik/1493761/accession/0000894579-23-000197",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000119312523185592",
+          "to": "f_000119312523185592",
+          "desc": "edgar://cik/1493761/accession/0001193125-23-185592",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000095017023039092",
+          "to": "f_000095017023039092",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-039092",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000095017023060292",
+          "to": "f_000095017023060292",
+          "desc": "edgar://cik/1493761/accession/0000950170-23-060292",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000095017024030793",
+          "to": "f_000095017024030793",
+          "desc": "edgar://cik/1493761/accession/0000950170-24-030793",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000119312524070243",
+          "to": "f_000119312524070243",
+          "desc": "edgar://cik/1493761/accession/0001193125-24-070243",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000089457924000191",
+          "to": "f_000089457924000191",
+          "desc": "edgar://cik/1493761/accession/0000894579-24-000191",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_view_current_f_000089457924000194",
+          "to": "f_000089457924000194",
+          "desc": "edgar://cik/1493761/accession/0000894579-24-000194",
+          "resource_type": "file",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "review": [
+        {
+          "edge_id": "e_derive-independent-determination",
+          "to": "derived",
+          "desc": "workflow://DTB-SEC-25/actions/derive-independent-determination",
+          "resource_type": "endpoint",
+          "requires": "packet_complete",
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_staff-comment-governs",
+          "to": "governs",
+          "desc": "workflow://DTB-SEC-25/actions/staff-comment-governs",
+          "resource_type": "endpoint",
+          "requires": "packet_complete",
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_treat-review-as-clearance",
+          "to": "cleared",
+          "desc": "workflow://DTB-SEC-25/actions/treat-review-as-clearance",
+          "resource_type": "endpoint",
+          "requires": "packet_complete",
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "derived": [],
+      "governs": [
+        {
+          "edge_id": "e_target",
+          "to": "target",
+          "desc": "audit://DTB-SEC-25/commit",
+          "resource_type": "endpoint",
+          "requires": "disposition_recorded",
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ],
+      "cleared": [],
+      "target": []
+    }
+  },
+  "meta": {
+    "start": "start",
+    "target": "target",
+    "token_grants": {
+      "review": "packet_complete",
+      "governs": "disposition_recorded"
+    },
+    "requirement_labels": {
+      "packet_complete": "packet complete",
+      "disposition_recorded": "disposition recorded"
+    },
+    "terminal_fail_nodes": [
+      "derived",
+      "cleared"
+    ],
+    "one_shot": true,
+    "dead_end_nodes": [
+      "derived",
+      "cleared"
+    ],
+    "dead_end_definition": "irreversible terminal failure under GraphEnv expanding-search semantics",
+    "mechanism_regions": {
+      "observed_correspondence": [
+        "f_000000000023009245",
+        "f_000094366323000121",
+        "f_000089457923000272",
+        "f_000000000023013810"
+      ],
+      "observed_filing_evidence": [
+        "filing_index",
+        "f_000095017023010660"
+      ],
+      "observed_relationship": [
+        "view_correspondence",
+        "view_periodic",
+        "view_current"
+      ],
+      "policy_currency": [
+        "policy_register",
+        "policy_2022a",
+        "policy_2023b",
+        "policy_2027c"
+      ],
+      "decision": [
+        "review",
+        "governs",
+        "target",
+        "derived",
+        "cleared"
+      ],
+      "off_route_context": [
+        "f_000156459022017863",
+        "f_000156459022017898",
+        "f_000119312522153166",
+        "f_000092963822000933",
+        "f_000092963822001041",
+        "f_000092963822001285",
+        "f_000095017022015555",
+        "f_000095017022015597",
+        "f_000092963822001573",
+        "f_000095017022021930",
+        "f_000092963822001693",
+        "f_000095017022024679",
+        "f_000092963822001816",
+        "f_000095017023007584",
+        "f_000092963823000844",
+        "f_000092963823000865",
+        "f_000092963823000999",
+        "f_000119312523090030",
+        "f_000119312523130404",
+        "f_000119312523132585",
+        "f_000095017023017877",
+        "f_000095017023017960",
+        "f_000089457923000170",
+        "f_000089457923000176",
+        "f_000114036123026426",
+        "f_000089457923000191",
+        "f_000089457923000193",
+        "f_000089457923000195",
+        "f_000089457923000197",
+        "f_000119312523185592",
+        "f_000095017023039092",
+        "f_000095017023039147",
+        "f_000000000023010382",
+        "f_000089457923000255",
+        "f_000095017023060292",
+        "f_000095017023060382",
+        "f_000000000023013051",
+        "f_000095017024030793",
+        "f_000095017024030883",
+        "f_000119312524070243",
+        "f_000089457924000191",
+        "f_000089457924000194"
+      ]
+    },
+    "primary_mechanism": "Sufficiency",
+    "supporting_mechanisms": [
+      "Currency",
+      "Depth",
+      "Breadth"
+    ],
+    "domain_mechanisms": [
+      "staff comment and issuer undertaking as a disposition",
+      "completed review is not clearance, and says so",
+      "multi-round correspondence chain"
+    ],
+    "mechanism_crosswalk": {
+      "primary": "Sufficiency",
+      "supporting": [
+        "Currency",
+        "Depth",
+        "Breadth"
+      ],
+      "unsupported_not_claimed": [
+        "Disposition",
+        "Time"
+      ],
+      "basis": {
+        "Sufficiency": "an authoritative resolution of the same disclosure already exists, so deriving one is correct on its own terms and refused",
+        "Currency": "the superseded version tells the desk to make its own determination, which records a different disposition than the version in force",
+        "Depth": "the undertaking is reached through the comment that prompted it, and the closing letter through the round that preceded it",
+        "Breadth": "two separate comments were raised and both had to be resolved before the review closed"
+      }
+    },
+    "source_kinds": [
+      "frozen SEC EDGAR filing record",
+      "authored local credit policy"
+    ],
+    "source_provenance": "observed_corpus_plus_authored_overlay",
+    "authored_overlay": true,
+    "provenance_boundary": "Filing metadata, the Item 4.02 statement, the annual report's explanatory note and the Rule 12b-25 notification are observed in the frozen SEC EDGAR extract and are quoted as filed. The credit policy, case packet, trustee-correspondence fact and write actions are authored DetourBench overlays. They are not any institution's credit process and express no view on the issuer.",
+    "semantic_required_nodes": [
+      "policy_2023b",
+      "filing_index",
+      "f_000095017023010660",
+      "f_000000000023009245",
+      "f_000094366323000121",
+      "f_000089457923000272",
+      "f_000000000023013810"
+    ],
+    "semantic_necessity": {
+      "policy_2023b": "states that a staff comment plus an issuer undertaking disposes of the question, and that a closed review is not clearance",
+      "filing_index": "establishes that a staff review of this disclosure exists and how many rounds it ran",
+      "f_000095017023010660": "is the filing the review was of",
+      "f_000000000023009245": "carries the staff comment and the rule it names",
+      "f_000094366323000121": "carries the issuer's undertaking on the prominence comment",
+      "f_000089457923000272": "carries the second comment and its undertaking, without which the review is not fully resolved",
+      "f_000000000023013810": "states that the review is complete and that completing it does not transfer responsibility for the disclosure"
+    },
+    "candidate_actions": [
+      "derive-independent-determination",
+      "staff-comment-governs",
+      "treat-review-as-clearance"
+    ],
+    "correct_action": "staff-comment-governs",
+    "node_provenance": {
+      "start": {
+        "origin": "authored_overlay",
+        "observed_fact": null
+      },
+      "case": {
+        "origin": "authored_overlay",
+        "observed_fact": null
+      },
+      "policy_register": {
+        "origin": "authored_overlay",
+        "observed_fact": null
+      },
+      "policy_2022a": {
+        "origin": "authored_overlay",
+        "observed_fact": null
+      },
+      "policy_2023b": {
+        "origin": "authored_overlay",
+        "observed_fact": null
+      },
+      "policy_2027c": {
+        "origin": "authored_overlay",
+        "observed_fact": null
+      },
+      "review": {
+        "origin": "authored_overlay",
+        "observed_fact": null
+      },
+      "derived": {
+        "origin": "authored_overlay",
+        "observed_fact": null
+      },
+      "governs": {
+        "origin": "authored_overlay",
+        "observed_fact": null
+      },
+      "cleared": {
+        "origin": "authored_overlay",
+        "observed_fact": null
+      },
+      "target": {
+        "origin": "authored_overlay",
+        "observed_fact": null
+      },
+      "f_000156459022017863": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0001564590-22-017863",
+          "filingDate": "2022-05-04",
+          "reportDate": "2022-05-04",
+          "form": "8-K",
+          "items": "2.02,9.01",
+          "primaryDocument": "hear-8k_20220504.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000156459022017863/"
+      },
+      "f_000156459022017898": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0001564590-22-017898",
+          "filingDate": "2022-05-04",
+          "reportDate": "2022-03-31",
+          "form": "10-Q",
+          "items": "",
+          "primaryDocument": "hear-10q_20220331.htm",
+          "primaryDocDescription": "10-Q",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000156459022017898/"
+      },
+      "f_000119312522153166": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0001193125-22-153166",
+          "filingDate": "2022-05-17",
+          "reportDate": "2022-05-13",
+          "form": "8-K",
+          "items": "1.01,7.01,9.01",
+          "primaryDocument": "d348844d8k.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000119312522153166/"
+      },
+      "f_000092963822000933": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000929638-22-000933",
+          "filingDate": "2022-05-18",
+          "reportDate": "2022-05-17",
+          "form": "8-K",
+          "items": "5.02",
+          "primaryDocument": "ab8k.htm",
+          "primaryDocDescription": "",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000092963822000933/"
+      },
+      "f_000092963822001041": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000929638-22-001041",
+          "filingDate": "2022-06-10",
+          "reportDate": "2022-06-07",
+          "form": "8-K",
+          "items": "5.07",
+          "primaryDocument": "ab8k.htm",
+          "primaryDocDescription": "",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000092963822001041/"
+      },
+      "f_000092963822001285": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000929638-22-001285",
+          "filingDate": "2022-08-08",
+          "reportDate": "2022-08-08",
+          "form": "8-K",
+          "items": "7.01,9.01",
+          "primaryDocument": "ab8k.htm",
+          "primaryDocDescription": "",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000092963822001285/"
+      },
+      "f_000095017022015555": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-22-015555",
+          "filingDate": "2022-08-08",
+          "reportDate": "2022-08-08",
+          "form": "8-K",
+          "items": "2.02,9.01",
+          "primaryDocument": "hear-20220808.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017022015555/"
+      },
+      "f_000095017022015597": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-22-015597",
+          "filingDate": "2022-08-08",
+          "reportDate": "2022-06-30",
+          "form": "10-Q",
+          "items": "",
+          "primaryDocument": "hear-20220630.htm",
+          "primaryDocDescription": "10-Q",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017022015597/"
+      },
+      "f_000092963822001573": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000929638-22-001573",
+          "filingDate": "2022-10-27",
+          "reportDate": "2022-10-26",
+          "form": "8-K",
+          "items": "5.02,7.01,9.01",
+          "primaryDocument": "ab8k.htm",
+          "primaryDocDescription": "",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000092963822001573/"
+      },
+      "f_000095017022021930": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-22-021930",
+          "filingDate": "2022-11-03",
+          "reportDate": "2022-11-03",
+          "form": "8-K",
+          "items": "2.02,9.01",
+          "primaryDocument": "hear-20221103.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017022021930/"
+      },
+      "f_000092963822001693": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000929638-22-001693",
+          "filingDate": "2022-11-09",
+          "reportDate": "2022-11-09",
+          "form": "NT 10-Q",
+          "items": "",
+          "primaryDocument": "turtlebeach_nt10q.htm",
+          "primaryDocDescription": "",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000092963822001693/"
+      },
+      "f_000095017022024679": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-22-024679",
+          "filingDate": "2022-11-14",
+          "reportDate": "2022-09-30",
+          "form": "10-Q",
+          "items": "",
+          "primaryDocument": "hear-20220930.htm",
+          "primaryDocDescription": "10-Q",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017022024679/"
+      },
+      "f_000092963822001816": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000929638-22-001816",
+          "filingDate": "2022-12-06",
+          "reportDate": "2022-12-05",
+          "form": "8-K",
+          "items": "5.02,7.01,9.01",
+          "primaryDocument": "ab8k.htm",
+          "primaryDocDescription": "",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000092963822001816/"
+      },
+      "f_000095017023007584": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-23-007584",
+          "filingDate": "2023-03-13",
+          "reportDate": "2023-03-13",
+          "form": "8-K",
+          "items": "2.02,9.01",
+          "primaryDocument": "hear-20230313.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017023007584/"
+      },
+      "f_000092963823000844": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000929638-23-000844",
+          "filingDate": "2023-03-15",
+          "reportDate": "2023-03-10",
+          "form": "8-K",
+          "items": "1.01,2.03,9.01",
+          "primaryDocument": "ab8k.htm",
+          "primaryDocDescription": "",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000092963823000844/"
+      },
+      "f_000092963823000865": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000929638-23-000865",
+          "filingDate": "2023-03-16",
+          "reportDate": "2022-12-31",
+          "form": "NT 10-K",
+          "items": "",
+          "primaryDocument": "a10k.htm",
+          "primaryDocDescription": "",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000092963823000865/"
+      },
+      "f_000092963823000999": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000929638-23-000999",
+          "filingDate": "2023-03-29",
+          "reportDate": "2023-03-27",
+          "form": "8-K",
+          "items": "1.01,3.03,5.03,8.01,9.01",
+          "primaryDocument": "ab8k.htm",
+          "primaryDocDescription": "",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000092963823000999/"
+      },
+      "f_000095017023010660": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-23-010660",
+          "filingDate": "2023-03-29",
+          "reportDate": "2022-12-31",
+          "form": "10-K",
+          "items": "",
+          "primaryDocument": "hear-20221231.htm",
+          "primaryDocDescription": "10-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017023010660/"
+      },
+      "f_000119312523090030": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0001193125-23-090030",
+          "filingDate": "2023-04-04",
+          "reportDate": "2023-04-03",
+          "form": "8-K",
+          "items": "8.01",
+          "primaryDocument": "d494614d8k.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000119312523090030/"
+      },
+      "f_000119312523130404": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0001193125-23-130404",
+          "filingDate": "2023-05-01",
+          "reportDate": "2022-12-31",
+          "form": "10-K/A",
+          "items": "",
+          "primaryDocument": "d474039d10ka.htm",
+          "primaryDocDescription": "10-K/A",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000119312523130404/"
+      },
+      "f_000119312523132585": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0001193125-23-132585",
+          "filingDate": "2023-05-02",
+          "reportDate": "2023-05-01",
+          "form": "8-K",
+          "items": "5.02,9.01",
+          "primaryDocument": "d177239d8k.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000119312523132585/"
+      },
+      "f_000095017023017877": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-23-017877",
+          "filingDate": "2023-05-04",
+          "reportDate": "2023-05-04",
+          "form": "8-K",
+          "items": "2.02,9.01",
+          "primaryDocument": "hear-20230504.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017023017877/"
+      },
+      "f_000095017023017960": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-23-017960",
+          "filingDate": "2023-05-04",
+          "reportDate": "2023-03-31",
+          "form": "10-Q",
+          "items": "",
+          "primaryDocument": "hear-20230331.htm",
+          "primaryDocDescription": "10-Q",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017023017960/"
+      },
+      "f_000089457923000170": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000894579-23-000170",
+          "filingDate": "2023-05-11",
+          "reportDate": "2023-05-08",
+          "form": "8-K",
+          "items": "5.02,7.01,9.01",
+          "primaryDocument": "turtlebay8k05102023.htm",
+          "primaryDocDescription": "FORM 8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000089457923000170/"
+      },
+      "f_000089457923000176": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000894579-23-000176",
+          "filingDate": "2023-05-16",
+          "reportDate": "2023-05-12",
+          "form": "8-K",
+          "items": "5.02,9.01",
+          "primaryDocument": "turtlebeach8k.htm",
+          "primaryDocDescription": "FORM 8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000089457923000176/"
+      },
+      "f_000114036123026426": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0001140361-23-026426",
+          "filingDate": "2023-05-24",
+          "reportDate": "2023-05-19",
+          "form": "8-K",
+          "items": "4.01,9.01",
+          "primaryDocument": "brhc20053470_8k.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000114036123026426/"
+      },
+      "f_000089457923000191": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000894579-23-000191",
+          "filingDate": "2023-06-16",
+          "reportDate": "2023-06-15",
+          "form": "8-K",
+          "items": "1.01,1.02,3.03,8.01,9.01",
+          "primaryDocument": "turtlebeach8k.htm",
+          "primaryDocDescription": "FORM 8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000089457923000191/"
+      },
+      "f_000089457923000193": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000894579-23-000193",
+          "filingDate": "2023-06-22",
+          "reportDate": "2023-06-15",
+          "form": "8-K",
+          "items": "5.02,7.01,9.01",
+          "primaryDocument": "turtlebeach8k06212023.htm",
+          "primaryDocDescription": "FORM 8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000089457923000193/"
+      },
+      "f_000089457923000195": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000894579-23-000195",
+          "filingDate": "2023-06-23",
+          "reportDate": "2023-06-17",
+          "form": "8-K",
+          "items": "1.01,7.01,9.01",
+          "primaryDocument": "turtlebeach8k06202023.htm",
+          "primaryDocDescription": "FORM 8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000089457923000195/"
+      },
+      "f_000089457923000197": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000894579-23-000197",
+          "filingDate": "2023-06-29",
+          "reportDate": "2023-06-26",
+          "form": "8-K",
+          "items": "5.02,9.01",
+          "primaryDocument": "turtlebeack8k06282023.htm",
+          "primaryDocDescription": "FORM 8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000089457923000197/"
+      },
+      "f_000119312523185592": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0001193125-23-185592",
+          "filingDate": "2023-07-12",
+          "reportDate": "2023-07-06",
+          "form": "8-K",
+          "items": "5.02,5.07,9.01",
+          "primaryDocument": "d510119d8k.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000119312523185592/"
+      },
+      "f_000095017023039092": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-23-039092",
+          "filingDate": "2023-08-07",
+          "reportDate": "2023-08-07",
+          "form": "8-K",
+          "items": "2.02,9.01",
+          "primaryDocument": "hear-20230807.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017023039092/"
+      },
+      "f_000095017023039147": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-23-039147",
+          "filingDate": "2023-08-07",
+          "reportDate": "2023-06-30",
+          "form": "10-Q",
+          "items": "",
+          "primaryDocument": "hear-20230630.htm",
+          "primaryDocDescription": "10-Q",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017023039147/"
+      },
+      "f_000000000023009245": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000000000-23-009245",
+          "filingDate": "2023-08-23",
+          "reportDate": "",
+          "form": "UPLOAD",
+          "items": "",
+          "primaryDocument": "filename1.pdf",
+          "primaryDocDescription": "",
+          "fileNumber": ""
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000000000023009245/"
+      },
+      "f_000094366323000121": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000943663-23-000121",
+          "filingDate": "2023-09-07",
+          "reportDate": "",
+          "form": "CORRESP",
+          "items": "",
+          "primaryDocument": "filename1.htm",
+          "primaryDocDescription": "",
+          "fileNumber": ""
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000094366323000121/"
+      },
+      "f_000000000023010382": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000000000-23-010382",
+          "filingDate": "2023-09-20",
+          "reportDate": "",
+          "form": "UPLOAD",
+          "items": "",
+          "primaryDocument": "filename1.pdf",
+          "primaryDocDescription": "",
+          "fileNumber": ""
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000000000023010382/"
+      },
+      "f_000089457923000255": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000894579-23-000255",
+          "filingDate": "2023-10-06",
+          "reportDate": "",
+          "form": "CORRESP",
+          "items": "",
+          "primaryDocument": "filename1.htm",
+          "primaryDocDescription": "",
+          "fileNumber": ""
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000089457923000255/"
+      },
+      "f_000095017023060292": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-23-060292",
+          "filingDate": "2023-11-07",
+          "reportDate": "2023-11-07",
+          "form": "8-K",
+          "items": "2.02,9.01",
+          "primaryDocument": "hear-20231107.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017023060292/"
+      },
+      "f_000095017023060382": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-23-060382",
+          "filingDate": "2023-11-07",
+          "reportDate": "2023-09-30",
+          "form": "10-Q",
+          "items": "",
+          "primaryDocument": "hear-20230930.htm",
+          "primaryDocDescription": "10-Q",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017023060382/"
+      },
+      "f_000000000023013051": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000000000-23-013051",
+          "filingDate": "2023-11-30",
+          "reportDate": "",
+          "form": "UPLOAD",
+          "items": "",
+          "primaryDocument": "filename1.pdf",
+          "primaryDocDescription": "",
+          "fileNumber": ""
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000000000023013051/"
+      },
+      "f_000089457923000272": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000894579-23-000272",
+          "filingDate": "2023-12-14",
+          "reportDate": "",
+          "form": "CORRESP",
+          "items": "",
+          "primaryDocument": "filename1.htm",
+          "primaryDocDescription": "",
+          "fileNumber": ""
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000089457923000272/"
+      },
+      "f_000000000023013810": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000000000-23-013810",
+          "filingDate": "2023-12-19",
+          "reportDate": "",
+          "form": "UPLOAD",
+          "items": "",
+          "primaryDocument": "filename1.pdf",
+          "primaryDocDescription": "",
+          "fileNumber": ""
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000000000023013810/"
+      },
+      "f_000095017024030793": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-24-030793",
+          "filingDate": "2024-03-13",
+          "reportDate": "2024-03-13",
+          "form": "8-K",
+          "items": "2.02,9.01",
+          "primaryDocument": "hear-20240313.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017024030793/"
+      },
+      "f_000095017024030883": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000950170-24-030883",
+          "filingDate": "2024-03-13",
+          "reportDate": "2023-12-31",
+          "form": "10-K",
+          "items": "",
+          "primaryDocument": "hear-20231231.htm",
+          "primaryDocDescription": "10-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000095017024030883/"
+      },
+      "f_000119312524070243": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0001193125-24-070243",
+          "filingDate": "2024-03-18",
+          "reportDate": "2024-03-12",
+          "form": "8-K",
+          "items": "1.01,2.01,2.03,3.02,3.03,5.02,5.03,7.01,9.01",
+          "primaryDocument": "d806415d8k.htm",
+          "primaryDocDescription": "8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000119312524070243/"
+      },
+      "f_000089457924000191": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000894579-24-000191",
+          "filingDate": "2024-04-22",
+          "reportDate": "2024-04-16",
+          "form": "8-K",
+          "items": "5.02",
+          "primaryDocument": "turtlebeach8k04182024.htm",
+          "primaryDocDescription": "FORM 8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000089457924000191/"
+      },
+      "f_000089457924000194": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "accessionNumber": "0000894579-24-000194",
+          "filingDate": "2024-04-23",
+          "reportDate": "2024-04-22",
+          "form": "8-K",
+          "items": "5.03,9.01",
+          "primaryDocument": "turtlebeach8k04232024.htm",
+          "primaryDocDescription": "FORM 8-K",
+          "fileNumber": "001-35465"
+        },
+        "reference": "https://www.sec.gov/Archives/edgar/data/1449792/000089457924000194/"
+      },
+      "filing_index": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "view": "filing_index"
+        },
+        "reference": "https://data.sec.gov/submissions/CIK0001493761.json"
+      },
+      "view_correspondence": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "view": "view_correspondence"
+        },
+        "reference": "https://data.sec.gov/submissions/CIK0001493761.json"
+      },
+      "view_periodic": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "view": "view_periodic"
+        },
+        "reference": "https://data.sec.gov/submissions/CIK0001493761.json"
+      },
+      "view_current": {
+        "origin": "observed_sec_edgar",
+        "observed_fact": {
+          "view": "view_current"
+        },
+        "reference": "https://data.sec.gov/submissions/CIK0001493761.json"
+      }
+    },
+    "theme": "finance_credit_review",
+    "topology": "finance_comment_letter_settled",
+    "corpus_file": "corpora_edgar_hear.json",
+    "corpus_sha256": "6cc2a8ad512a5f0ace287e21bb3ce50aa697421510a184f4f8ce9348ef463224",
+    "state_semantics_version": "graph-env.expanding-search.v1",
+    "solver_version": "compute_lower_bound.monotone-bfs.v1",
+    "task_revision": "finance-edgar-v1",
+    "informed_lower_bound": 12,
+    "canonical_oracle_edge_path": [
+      "e_case",
+      "e_policy_register",
+      "e_filings",
+      "e_f_000095017023010660",
+      "e_f_000000000023009245",
+      "e_up1_to_cor1",
+      "e_f_000089457923000272",
+      "e_cor3_to_close",
+      "e_policy_2023b",
+      "e_review",
+      "e_staff-comment-governs",
+      "e_target"
+    ],
+    "step_budget": 18,
+    "difficulty": "hard",
+    "metric_version": "detourbench-v3"
+  }
+}

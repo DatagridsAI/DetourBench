@@ -1,0 +1,29 @@
+{
+  "schema_version": "detourbench.task-spec.v1",
+  "task_id": 26,
+  "run_task_name": "osv_tensorflow_pinned_upgrade",
+  "classification": "integrated_development_challenge",
+  "task_revision": "osv-pinned-upgrade-v3",
+  "objective": "Dependency-review case DTB-OSV-26. Determine the deployed TensorFlow-family distribution and pinned version, select and combine the relevant unranked frozen-corpus query packets under the declared GHSA range policy, then file the lowest compliant prebuilt remediation bundle.",
+  "scope_rule": "Only OSV records whose identifiers begin GHSA- are in scope.",
+  "primary_mechanism": "Breadth",
+  "supporting_mechanisms": [
+    "Sufficiency",
+    "Disposition"
+  ],
+  "domain_mechanisms": [
+    "parallel mixed-candidate interval packets",
+    "half-open affected-range comparison",
+    "fixed-version intersection across unequal range widths",
+    "distribution-preserving remediation",
+    "lowest-safe release rather than highest available release",
+    "opaque one-shot bundle disposition"
+  ],
+  "candidate_actions": [
+    "bundle=K2",
+    "bundle=M7",
+    "bundle=Q4",
+    "bundle=T9"
+  ],
+  "provenance_boundary": "GHSA identifiers, titles, affected distributions, release ranges, fixed versions and histories are observed in the frozen OSV extract. Normalized query packets only rearrange those observed fields. The deployment, policy, bundle inventory and filing workflow are authored DetourBench overlays and describe no real service."
+}

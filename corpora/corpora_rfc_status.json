@@ -1,0 +1,884 @@
+{
+  "schema_version": "detourbench.rfc-index.v1",
+  "task_name": "protocol_spec_status",
+  "upstream_dataset": "IETF RFC index",
+  "upstream_endpoints": [
+    "https://www.rfc-editor.org/rfc-index.xml"
+  ],
+  "local_extract": "/data/benchmarks/raw-corpora/rules-and-sops/ietf-rfcs",
+  "extractor": "fetch_rfc_index.py",
+  "retrieved_on": "2026-08-28",
+  "seeds": [
+    "RFC6749",
+    "RFC7540"
+  ],
+  "observed_index": {
+    "RFC6749": {
+      "doc_id": "RFC6749",
+      "title": "The OAuth 2.0 Authorization Framework",
+      "date": "October 2012",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [
+        "RFC5849"
+      ],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC8252",
+        "RFC8996",
+        "RFC9700"
+      ],
+      "abstract": "The OAuth 2.0 authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf. This specification replaces and obsoletes the OAuth 1.0 protocol described in RFC 5849. [STANDARDS-TRACK]"
+    },
+    "RFC8252": {
+      "doc_id": "RFC8252",
+      "title": "OAuth 2.0 for Native Apps",
+      "date": "October 2017",
+      "current_status": "BEST CURRENT PRACTICE",
+      "obsoletes": [],
+      "obsoleted_by": [],
+      "updates": [
+        "RFC6749"
+      ],
+      "updated_by": [],
+      "abstract": "OAuth 2.0 authorization requests from native apps should only be made through external user-agents, primarily the user's browser. This specification details the security and usability reasons why this is the case and how native apps and authorization servers can implement this best practice."
+    },
+    "RFC8996": {
+      "doc_id": "RFC8996",
+      "title": "Deprecating TLS 1.0 and TLS 1.1",
+      "date": "March 2021",
+      "current_status": "BEST CURRENT PRACTICE",
+      "obsoletes": [
+        "RFC5469",
+        "RFC7507"
+      ],
+      "obsoleted_by": [],
+      "updates": [
+        "RFC3261",
+        "RFC3329",
+        "RFC3436",
+        "RFC3470",
+        "RFC3501",
+        "RFC3552",
+        "RFC3568",
+        "RFC3656",
+        "RFC3749",
+        "RFC3767",
+        "RFC3856",
+        "RFC3871",
+        "RFC3887",
+        "RFC3903",
+        "RFC3943",
+        "RFC3983",
+        "RFC4097",
+        "RFC4111",
+        "RFC4162",
+        "RFC4168",
+        "RFC4217",
+        "RFC4235",
+        "RFC4261",
+        "RFC4279",
+        "RFC4497",
+        "RFC4513",
+        "RFC4531",
+        "RFC4540",
+        "RFC4582",
+        "RFC4616",
+        "RFC4642",
+        "RFC4680",
+        "RFC4681",
+        "RFC4712",
+        "RFC4732",
+        "RFC4743",
+        "RFC4744",
+        "RFC4785",
+        "RFC4791",
+        "RFC4823",
+        "RFC4851",
+        "RFC4964",
+        "RFC4975",
+        "RFC4976",
+        "RFC4992",
+        "RFC5018",
+        "RFC5019",
+        "RFC5023",
+        "RFC5024",
+        "RFC5049",
+        "RFC5054",
+        "RFC5091",
+        "RFC5158",
+        "RFC5216",
+        "RFC5238",
+        "RFC5263",
+        "RFC5281",
+        "RFC5364",
+        "RFC5415",
+        "RFC5422",
+        "RFC5456",
+        "RFC5734",
+        "RFC5878",
+        "RFC5953",
+        "RFC6012",
+        "RFC6042",
+        "RFC6083",
+        "RFC6084",
+        "RFC6176",
+        "RFC6347",
+        "RFC6353",
+        "RFC6367",
+        "RFC6460",
+        "RFC6614",
+        "RFC6739",
+        "RFC6749",
+        "RFC6750",
+        "RFC7030",
+        "RFC7465",
+        "RFC7525",
+        "RFC7562",
+        "RFC7568",
+        "RFC8261",
+        "RFC8422"
+      ],
+      "updated_by": [],
+      "abstract": "This document formally deprecates Transport Layer Security (TLS) versions 1.0 (RFC 2246) and 1.1 (RFC 4346). Accordingly, those documents have been moved to Historic status. These versions lack support for current and recommended cryptographic algorithms and mechanisms, and various government and industry profiles of applications using TLS now mandate avoiding these old TLS versions. TLS version 1.2 became the recommended version for IETF protocols in 2008 (subsequently being obsoleted by TLS version 1.3 in 2018), providing sufficient time to transition away from older versions. Removing support for older versions from implementations reduces the attack surface, reduces opportunity for misco"
+    },
+    "RFC9700": {
+      "doc_id": "RFC9700",
+      "title": "Best Current Practice for OAuth 2.0 Security",
+      "date": "January 2025",
+      "current_status": "BEST CURRENT PRACTICE",
+      "obsoletes": [],
+      "obsoleted_by": [],
+      "updates": [
+        "RFC6749",
+        "RFC6750",
+        "RFC6819"
+      ],
+      "updated_by": [],
+      "abstract": "This document describes best current security practice for OAuth 2.0. It updates and extends the threat model and security advice given in RFCs 6749, 6750, and 6819 to incorporate practical experiences gathered since OAuth 2.0 was published and covers new threats relevant due to the broader application of OAuth 2.0. Further, it deprecates some modes of operation that are deemed less secure or even insecure."
+    },
+    "RFC5849": {
+      "doc_id": "RFC5849",
+      "title": "The OAuth 1.0 Protocol",
+      "date": "April 2010",
+      "current_status": "INFORMATIONAL",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC6749"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "OAuth provides a method for clients to access server resources on behalf of a resource owner (such as a different client or an end-user). It also provides a process for end-users to authorize third-party access to their server resources without sharing their credentials (typically, a username and password pair), using user-agent redirections. This document is not an Internet Standards Track specification; it is published for informational purposes."
+    },
+    "RFC7540": {
+      "doc_id": "RFC7540",
+      "title": "Hypertext Transfer Protocol Version 2 (HTTP/2)",
+      "date": "May 2015",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC9113"
+      ],
+      "updates": [],
+      "updated_by": [
+        "RFC8740"
+      ],
+      "abstract": "This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP), referred to as HTTP version 2 (HTTP/2). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients. This specification is an alternative to, but does not obsolete, the HTTP/1.1 message syntax. HTTP's existing semantics remain unchanged."
+    },
+    "RFC9113": {
+      "doc_id": "RFC9113",
+      "title": "HTTP/2",
+      "date": "June 2022",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [
+        "RFC7540",
+        "RFC8740"
+      ],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP), referred to as HTTP version 2 (HTTP/2). HTTP/2 enables a more efficient use of network resources and a reduced latency by introducing field compression and allowing multiple concurrent exchanges on the same connection. This document obsoletes RFCs 7540 and 8740."
+    },
+    "RFC8740": {
+      "doc_id": "RFC8740",
+      "title": "Using TLS 1.3 with HTTP/2",
+      "date": "February 2020",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC9113"
+      ],
+      "updates": [
+        "RFC7540"
+      ],
+      "updated_by": [],
+      "abstract": "This document updates RFC 7540 by forbidding TLS 1.3 post-handshake authentication, as an analog to the existing TLS 1.2 renegotiation restriction."
+    },
+    "RFC698": {
+      "doc_id": "RFC698",
+      "title": "Telnet extended ASCII option",
+      "date": "July 1975",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC5198"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "Describes an option to allow transmission of a special kind of extended ASCII used at the Stanford AI and MIT AI Labs."
+    },
+    "RFC768": {
+      "doc_id": "RFC768",
+      "title": "User Datagram Protocol",
+      "date": "August 1980",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC9868"
+      ],
+      "abstract": ""
+    },
+    "RFC791": {
+      "doc_id": "RFC791",
+      "title": "Internet Protocol",
+      "date": "September 1981",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [
+        "RFC760"
+      ],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC1349",
+        "RFC2474",
+        "RFC6864"
+      ],
+      "abstract": ""
+    },
+    "RFC792": {
+      "doc_id": "RFC792",
+      "title": "Internet Control Message Protocol",
+      "date": "September 1981",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [
+        "RFC777"
+      ],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC950",
+        "RFC4884",
+        "RFC6633",
+        "RFC6918"
+      ],
+      "abstract": ""
+    },
+    "RFC793": {
+      "doc_id": "RFC793",
+      "title": "Transmission Control Protocol",
+      "date": "September 1981",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [
+        "RFC761"
+      ],
+      "obsoleted_by": [
+        "RFC9293"
+      ],
+      "updates": [],
+      "updated_by": [
+        "RFC1122",
+        "RFC3168",
+        "RFC6093",
+        "RFC6528"
+      ],
+      "abstract": ""
+    },
+    "RFC821": {
+      "doc_id": "RFC821",
+      "title": "Simple Mail Transfer Protocol",
+      "date": "August 1982",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [
+        "RFC788"
+      ],
+      "obsoleted_by": [
+        "RFC2821"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "The objective of Simple Mail Transfer Protocol (SMTP) is to transfer mail reliably and efficiently. SMTP is independent of the particular transmission subsystem and requires only a reliable ordered data stream channel. Obsoletes RFC 788, 780, and 772."
+    },
+    "RFC822": {
+      "doc_id": "RFC822",
+      "title": "STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES",
+      "date": "August 1982",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [
+        "RFC733"
+      ],
+      "obsoleted_by": [
+        "RFC2822"
+      ],
+      "updates": [],
+      "updated_by": [
+        "RFC1123",
+        "RFC1138",
+        "RFC1148",
+        "RFC1327",
+        "RFC2156"
+      ],
+      "abstract": "This document revises the specifications in RFC 733, in order to serve the needs of the larger and more complex ARPA Internet. Some of RFC 733's features failed to gain adequate acceptance. In order to simplify the standard and the software that follows it, these features have been removed. A different addressing scheme is used, to handle the case of internetwork mail; and the concept of re-transmission has been introduced. Obsoletes RFC 733, NIC 41952."
+    },
+    "RFC826": {
+      "doc_id": "RFC826",
+      "title": "An Ethernet Address Resolution Protocol: Or Converting Network Protocol Addresses to 48.bit Ethernet Address for Transmission on Ethernet Hardware",
+      "date": "November 1982",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC5227",
+        "RFC5494"
+      ],
+      "abstract": "The purpose of this RFC is to present a method of Converting Protocol Addresses (e.g., IP addresses) to Local Network Addresses (e.g., Ethernet addresses). This is an issue of general concern in the ARPA Internet Community at this time. The method proposed here is presented for your consideration and comment. This is not the specification of an Internet Standard."
+    },
+    "RFC854": {
+      "doc_id": "RFC854",
+      "title": "Telnet Protocol Specification",
+      "date": "May 1983",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [
+        "RFC764"
+      ],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC5198"
+      ],
+      "abstract": "This is the specification of the Telnet protocol used for remote terminal access in the ARPA Internet. The purpose of the TELNET Protocol is to provide a fairly general, bi-directional, eight-bit byte oriented communications facility. Its primary goal is to allow a standard method of interfacing terminal devices and terminal-oriented processes to each other. It is envisioned that the protocol may also be used for terminal-terminal communication (\"linking\") and process-process communication (distributed computation). This RFC specifies a standard for the ARPA Internet community. Hosts on the ARPA Internet are expected to adopt and implement this standard. Obsoletes NIC 18639."
+    },
+    "RFC907": {
+      "doc_id": "RFC907",
+      "title": "Host Access Protocol specification",
+      "date": "July 1984",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC1221"
+      ],
+      "abstract": "This document specifies the Host Access Protocol (HAP). Although HAP was originally designed as the network-access level protocol for the DARPA/DCA sponsored Wideband Packet Satellite Network, it is intended that it evolve into a standard interface SATNET and TACNET (aka MATNET) as well as the Wideband Network. HAP is an experimental protocol, and will undergo further revision as new capabilities are added and/or different satellite networks are suported. Implementations of HAP should be performed in coordination with satellite network development and operations personnel."
+    },
+    "RFC950": {
+      "doc_id": "RFC950",
+      "title": "Internet Standard Subnetting Procedure",
+      "date": "August 1985",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [],
+      "updates": [
+        "RFC792"
+      ],
+      "updated_by": [
+        "RFC6918"
+      ],
+      "abstract": "This memo discusses the utility of \"subnets\" of Internet networks, which are logically visible sub-sections of a single Internet network. For administrative or technical reasons, many organizations have chosen to divide one Internet network into several subnets, instead of acquiring a set of Internet network numbers. This memo specifies procedures for the use of subnets. These procedures are for hosts (e.g., workstations). The procedures used in and between subnet gateways are not fully described. Important motivation and background information for a subnetting standard is provided in RFC-940. This RFC specifies a protocol for the ARPA-Internet community. If subnetting is implemented it is s"
+    },
+    "RFC959": {
+      "doc_id": "RFC959",
+      "title": "File Transfer Protocol",
+      "date": "October 1985",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [
+        "RFC765"
+      ],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC2228",
+        "RFC2640",
+        "RFC2773",
+        "RFC3659",
+        "RFC5797",
+        "RFC7151"
+      ],
+      "abstract": "This memo is the official specification of the File Transfer Protocol (FTP) for the DARPA Internet community. The primary intent is to clarify and correct the documentation of the FTP specification, not to change the protocol. The following new optional commands are included in this edition of the specification: Change to Parent Directory (CDUP), Structure Mount (SMNT), Store Unique (STOU), Remove Directory (RMD), Make Directory (MKD), Print Directory (PWD), and System (SYST). Note that this specification is compatible with the previous edition."
+    },
+    "RFC977": {
+      "doc_id": "RFC977",
+      "title": "Network News Transfer Protocol",
+      "date": "February 1986",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC3977"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "NNTP specifies a protocol for the distribution, inquiry, retrieval, and posting of news articles using a reliable stream-based transmission of news among the ARPA-Internet community. NNTP is designed so that news articles are stored in a central database allowing a subscriber to select only those items he wishes to read. Indexing, cross-referencing, and expiration of aged messages are also provided. This RFC suggests a proposed protocol for the ARPA-Internet community, and requests discussion and suggestions for improvements."
+    },
+    "RFC1006": {
+      "doc_id": "RFC1006",
+      "title": "ISO Transport Service on top of the TCP Version: 3",
+      "date": "May 1987",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [
+        "RFC983"
+      ],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC2126"
+      ],
+      "abstract": "This memo specifies a standard for the Internet community. Hosts on the Internet that choose to implement ISO transport services on top of the TCP are expected to adopt and implement this standard. TCP port 102 is reserved for hosts which implement this standard. This memo specifies version 3 of the protocol and supersedes RFC-983. Changes between the protocol is described in RFC-983 and this memo are minor, but unfortunately incompatible."
+    },
+    "RFC1034": {
+      "doc_id": "RFC1034",
+      "title": "Domain names - concepts and facilities",
+      "date": "November 1987",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [
+        "RFC882",
+        "RFC883",
+        "RFC973"
+      ],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC1101",
+        "RFC1183",
+        "RFC1348",
+        "RFC1876",
+        "RFC1982",
+        "RFC2065",
+        "RFC2181",
+        "RFC2308",
+        "RFC2535",
+        "RFC4033",
+        "RFC4034",
+        "RFC4035",
+        "RFC4343",
+        "RFC4592",
+        "RFC5936",
+        "RFC8020",
+        "RFC8482",
+        "RFC8767",
+        "RFC9471"
+      ],
+      "abstract": "This RFC is the revised basic definition of The Domain Name System. It obsoletes RFC-882. This memo describes the domain style names and their used for host address look up and electronic mail forwarding. It discusses the clients and servers in the domain name system and the protocol used between them."
+    },
+    "RFC1035": {
+      "doc_id": "RFC1035",
+      "title": "Domain names - implementation and specification",
+      "date": "November 1987",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [
+        "RFC882",
+        "RFC883",
+        "RFC973"
+      ],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC1101",
+        "RFC1183",
+        "RFC1348",
+        "RFC1876",
+        "RFC1982",
+        "RFC1995",
+        "RFC1996",
+        "RFC2065",
+        "RFC2136",
+        "RFC2137",
+        "RFC2181",
+        "RFC2308",
+        "RFC2535",
+        "RFC2673",
+        "RFC2845",
+        "RFC3425",
+        "RFC3658",
+        "RFC4033",
+        "RFC4034",
+        "RFC4035",
+        "RFC4343",
+        "RFC5936",
+        "RFC5966",
+        "RFC6604",
+        "RFC7766",
+        "RFC8482",
+        "RFC8490",
+        "RFC8767",
+        "RFC9619"
+      ],
+      "abstract": "This RFC is the revised specification of the protocol and format used in the implementation of the Domain Name System. It obsoletes RFC-883. This memo documents the details of the domain name client - server communication."
+    },
+    "RFC1044": {
+      "doc_id": "RFC1044",
+      "title": "Internet Protocol on Network System's HYPERchannel: Protocol Specification",
+      "date": "February 1988",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC5494"
+      ],
+      "abstract": "This memo intends to provide a complete discussion of the protocols and techniques used to embed DoD standard Internet Protocol datagrams (and its associated higher level protocols) on Network Systems Corporation's HYPERchannel equipment. This document is directed toward network planners and implementors who are already familiar with the TCP/IP protocol suite and the techniques used to carry TCP/IP traffic on common networks such as the DDN or the Ethernet. No great familiarity with NSC products is assumed; an appendix is devoted to a review of NSC technologies and protocols."
+    },
+    "RFC1065": {
+      "doc_id": "RFC1065",
+      "title": "Structure and identification of management information for TCP/IP-based internets",
+      "date": "August 1988",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1155"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This RFC provides the common definitions for the structure and identification of management information for TCP/IP-based internets. In particular, together with its companion memos, which describe the initial management information base along with the initial network management protocol, these documents provide a simple, working architecture and system for managing TCP/IP-based internets and in particular, the Internet. This memo specifies a draft standard for the Internet community. TCP/IP implementation in the Internet which are network manageable are expected to adopt and implement this specification."
+    },
+    "RFC1112": {
+      "doc_id": "RFC1112",
+      "title": "Host extensions for IP multicasting",
+      "date": "August 1989",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [
+        "RFC988",
+        "RFC1054"
+      ],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC2236"
+      ],
+      "abstract": "This memo specifies the extensions required of a host implementation of the Internet Protocol (IP) to support multicasting. Recommended procedure for IP multicasting in the Internet. This RFC obsoletes RFCs 998 and 1054. [STANDARDS-TRACK]"
+    },
+    "RFC1116": {
+      "doc_id": "RFC1116",
+      "title": "Telnet Linemode option",
+      "date": "August 1989",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1184"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "Hosts on the Internet that support Linemode within the Telnet protocol are expected to adopt and implement this protocol. Obsoleted by RFC 1184. [STANDARDS-TRACK]"
+    },
+    "RFC1122": {
+      "doc_id": "RFC1122",
+      "title": "Requirements for Internet Hosts - Communication Layers",
+      "date": "October 1989",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [],
+      "updates": [
+        "RFC793"
+      ],
+      "updated_by": [
+        "RFC1349",
+        "RFC4379",
+        "RFC5884",
+        "RFC6093",
+        "RFC6298",
+        "RFC6633",
+        "RFC6864",
+        "RFC8029",
+        "RFC9293"
+      ],
+      "abstract": "This RFC is an official specification for the Internet community. It incorporates by reference, amends, corrects, and supplements the primary protocol standards documents relating to hosts. [STANDARDS-TRACK]"
+    },
+    "RFC1123": {
+      "doc_id": "RFC1123",
+      "title": "Requirements for Internet Hosts - Application and Support",
+      "date": "October 1989",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [],
+      "updates": [
+        "RFC822",
+        "RFC952"
+      ],
+      "updated_by": [
+        "RFC1349",
+        "RFC2181",
+        "RFC5321",
+        "RFC5966",
+        "RFC7766",
+        "RFC9210"
+      ],
+      "abstract": "This RFC is an official specification for the Internet community. It incorporates by reference, amends, corrects, and supplements the primary protocol standards documents relating to hosts. [STANDARDS-TRACK]"
+    },
+    "RFC1131": {
+      "doc_id": "RFC1131",
+      "title": "OSPF specification",
+      "date": "October 1989",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1247"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This RFC is the specification of the Open Shortest Path First (OSPF) Internet routing protocol. OSPF is in the class of Internal Gateway Protocols (IGPs) for distributing routing information between gateways of a single Autonomous System. This routing protocol is based on the link-state approach (in contrast to the distance-vector approach). This specification was developed by the OSPF Working Group of the Internet Engineering Task Force. [STANDARDS-TRACK]"
+    },
+    "RFC1134": {
+      "doc_id": "RFC1134",
+      "title": "Point-to-Point Protocol: A proposal for multi-protocol transmission of datagrams over Point-to-Point links",
+      "date": "November 1989",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1171"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This proposal is the product of the Point-to-Point Protocol Working Group of the Internet Engineering Task Force (IETF). Comments on this memo should be submitted to the IETF Point-to-Point Protocol Working Group chair by January 15, 1990. Comments will be reviewed at the February 1990 IETF meeting, with the goal of advancing PPP to draft standard status. [STANDARDS-TRACK]"
+    },
+    "RFC1139": {
+      "doc_id": "RFC1139",
+      "title": "Echo function for ISO 8473",
+      "date": "January 1990",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1574",
+        "RFC1575"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This memo defines an echo function for the connection-less network layer protocol. Two mechanisms are introduced that may be used to implement the echo function. The first mechanism is recommended as an interim solution for the Internet community. The second mechanism will be progressed to the ANSI X3S3.3 working group for consideration as a work item. When an ISO standard is adopted that provides functionality similar to that described by this memo, then this memo will become obsolete and superceded by the ISO standard. This memo is not intended to compete with an ISO standard. [STANDARDS-TRACK]"
+    },
+    "RFC1158": {
+      "doc_id": "RFC1158",
+      "title": "Management Information Base for network management of TCP/IP-based internets: MIB-II",
+      "date": "May 1990",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1213"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This memo defines the second version of the Management Information Base (MIB-II) for use with network management protocols in TCP/IP- based internets. In particular, together with its companion memos which describe the structure of management information (RFC 1155) along with the network management protocol (RFC 1157) for TCP/IP- based internets, these documents provide a simple, workable architecture and system for managing TCP/IP-based internets and in particular the Internet community. This document on MIB-II incorporates all of the technical content of RFC 1156 on MIB-I and extends it, without loss of compatibilty. [STANDARDS-TRACK]"
+    },
+    "RFC1172": {
+      "doc_id": "RFC1172",
+      "title": "Point-to-Point Protocol (PPP) initial configuration options",
+      "date": "July 1990",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1331",
+        "RFC1332"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This memo specifies the Point-to-Point Protocol (PPP) Initial Configuration Options as a Proposed Standard Protocol for the Internet community. When it becomes a full Standard, this protocol will be recommended for all TCP/IP implementations that communicate over serial links."
+    },
+    "RFC1195": {
+      "doc_id": "RFC1195",
+      "title": "Use of OSI IS-IS for routing in TCP/IP and dual environments",
+      "date": "December 1990",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC1349",
+        "RFC5302",
+        "RFC5304"
+      ],
+      "abstract": "This memo specifies an integrated routing protocol, based on the OSI Intra-Domain IS-IS Routing Protocol, which may be used as an interior gateway protocol (IGP) to support TCP/IP as well as OSI. This allows a single routing protocol to be used to support pure IP environments, pure OSI environments, and dual environments. This specification was developed by the IS-IS working group of the Internet Engineering Task Force. [STANDARDS-TRACK]"
+    },
+    "RFC1213": {
+      "doc_id": "RFC1213",
+      "title": "Management Information Base for Network Management of TCP/IP-based internets: MIB-II",
+      "date": "March 1991",
+      "current_status": "INTERNET STANDARD",
+      "obsoletes": [
+        "RFC1158"
+      ],
+      "obsoleted_by": [],
+      "updates": [],
+      "updated_by": [
+        "RFC2011",
+        "RFC2012",
+        "RFC2013"
+      ],
+      "abstract": "This memo defines the second version of the Management Information Base (MIB-II) for use with network management protocols in TCP/IP-based internets. [STANDARDS-TRACK]"
+    },
+    "RFC1220": {
+      "doc_id": "RFC1220",
+      "title": "Point-to-Point Protocol extensions for bridging",
+      "date": "April 1991",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1638"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This document defines an extension of the Internet Point-to-Point Protocol (PPP) described in RFC 1171, targeting the use of Point-to- Point lines for Remote Bridging. [STANDARDS-TRACK]"
+    },
+    "RFC1229": {
+      "doc_id": "RFC1229",
+      "title": "Extensions to the generic-interface MIB",
+      "date": "May 1991",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1573"
+      ],
+      "updates": [],
+      "updated_by": [
+        "RFC1239"
+      ],
+      "abstract": "This RFC contains definitions of managed objects used as experimental extensions to the generic interfaces structure of MIB-II. [STANDARDS-TRACK]"
+    },
+    "RFC1231": {
+      "doc_id": "RFC1231",
+      "title": "IEEE 802.5 Token Ring MIB",
+      "date": "May 1991",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1743",
+        "RFC1748"
+      ],
+      "updates": [],
+      "updated_by": [
+        "RFC1239"
+      ],
+      "abstract": "This memo defines an experimental portion of the Management Information Base (MIB) for use with network management protocols in TCP/IP-based internets. In particular, this memo defines managed objects used for managing subnetworks which use the IEEE 802.5 Token Ring technology described in 802.5 Token Ring Access Method and Physical Layer Specifications, IEEE Standard 802.5-1989. [STANDARDS-TRACK]"
+    },
+    "RFC1232": {
+      "doc_id": "RFC1232",
+      "title": "Definitions of managed objects for the DS1 Interface type",
+      "date": "May 1991",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1406"
+      ],
+      "updates": [],
+      "updated_by": [
+        "RFC1239"
+      ],
+      "abstract": "This memo defines an experimental portion of the Management Information Base (MIB) for use with network management protocols in TCP/IP-based internets. In particular, it defines objects for managing DS1 Interface objects. Note to implementors: a companion document describes DS3 Managed Objects; implementors looking at this one should also reference that."
+    },
+    "RFC1233": {
+      "doc_id": "RFC1233",
+      "title": "Definitions of managed objects for the DS3 Interface type",
+      "date": "May 1991",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1407"
+      ],
+      "updates": [],
+      "updated_by": [
+        "RFC1239"
+      ],
+      "abstract": "This memo defines objects for managing DS3 Interface objects for use with the SNMP protocol. [STANDARDS-TRACK]"
+    },
+    "RFC1237": {
+      "doc_id": "RFC1237",
+      "title": "Guidelines for OSI NSAP Allocation in the Internet",
+      "date": "July 1991",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1629"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This paper provides guidelines for allocating NSAPs in the Internet.[STANDARDS-TRACK]"
+    },
+    "RFC1243": {
+      "doc_id": "RFC1243",
+      "title": "AppleTalk Management Information Base",
+      "date": "July 1991",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1742"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This memo defines objects for managing AppleTalk objects for use with the SNMP protocol. [STANDARDS-TRACK]"
+    },
+    "RFC1248": {
+      "doc_id": "RFC1248",
+      "title": "OSPF Version 2 Management Information Base",
+      "date": "July 1991",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC1252"
+      ],
+      "updates": [],
+      "updated_by": [
+        "RFC1349"
+      ],
+      "abstract": "This memo defines an experimental portion of the Management Information Base (MIB) for use with network management protocols in TCP/IP-based internets. In particular, it defines objects for managing OSPF Version 2. [STANDARDS-TRACK]"
+    },
+    "RFC1252": {
+      "doc_id": "RFC1252",
+      "title": "OSPF Version 2 Management Information Base",
+      "date": "August 1991",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [
+        "RFC1248"
+      ],
+      "obsoleted_by": [
+        "RFC1253"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This memo defines a portion of the Management Information Base (MIB) for use with network management protocols in TCP/IP-based internets. In particular, it defines objects for managing OSPF Version 2. [STANDARDS-TRACK]"
+    },
+    "RFC1253": {
+      "doc_id": "RFC1253",
+      "title": "OSPF Version 2 Management Information Base",
+      "date": "August 1991",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [
+        "RFC1252"
+      ],
+      "obsoleted_by": [
+        "RFC1850"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This memo defines a portion of the Management Information Base (MIB) for use with network management protocols in TCP/IP-based internets. In particular, it defines objects for managing OSPF Version 2. [STANDARDS-TRACK]"
+    },
+    "RFC1269": {
+      "doc_id": "RFC1269",
+      "title": "Definitions of Managed Objects for the Border Gateway Protocol: Version 3",
+      "date": "October 1991",
+      "current_status": "PROPOSED STANDARD",
+      "obsoletes": [],
+      "obsoleted_by": [
+        "RFC4273"
+      ],
+      "updates": [],
+      "updated_by": [],
+      "abstract": "This memo defines a portion of the Management Information Base (MIB) for use with network management protocols in TCP/IP-based internets. In particular, it defines objects for managing the Border Gateway Protocol. [STANDARDS-TRACK]"
+    }
+  },
+  "observed_excerpts": {
+    "RFC6749": "Internet Engineering Task Force (IETF) D. Hardt, Ed. Request for Comments: 6749 Microsoft Obsoletes: 5849 October 2012 Category: Standards Track ISSN: 2070-1721 The OAuth 2.0 Authorization Framework Abstract The OAuth 2.0 authorization framework enables a third-party application to obtain limited access to an HTTP service, either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP service, or by allowing the third-party application to obtain access on its own behalf. This specification replaces and obsoletes the OAuth 1.0 protocol described in RFC 5849. Status of This Memo This is an Internet Standards Track document. This document is a product of the Internet Engineering Task Force (IETF). It represents the consensus of the IETF community. It has received public review and has been approved for publication by the Internet Engineering Steering Group (IESG). Further information on Internet Standards is available in Section 2 of RFC 5741. Information about the current status of this document, any errata, and how to provide feedback on it may be obtained at http://www.rfc-editor.org/info/rfc6749. Copyright Notice Copyright (c) 2012 IETF Trust and the persons identified as the document authors. All rights reserved. This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (http://trustee.ietf.org/license-info) in effect on the date of publication of this document. Please review these documents carefully, as they describe your rights and restrictions with respect to this document. Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described in the Simplified BSD License. Hardt Standards Track [Page 1] RFC 6749 OAuth 2.0 October 2012 Table of Contents 1. Introduction ....................................................4 1.1. Roles ......................................................6 1.2. Protocol Flow ..............................................7 1.3. Authorization Grant ........................................8 1.3.1. Authorization Code ..................................8 1.3.2",
+    "RFC7540": "Internet Engineering Task Force (IETF) M. Belshe Request for Comments: 7540 BitGo Category: Standards Track R. Peon ISSN: 2070-1721 Google, Inc M. Thomson, Ed. Mozilla May 2015 Hypertext Transfer Protocol Version 2 (HTTP/2) Abstract This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP), referred to as HTTP version 2 (HTTP/2). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients. This specification is an alternative to, but does not obsolete, the HTTP/1.1 message syntax. HTTP's existing semantics remain unchanged. Status of This Memo This is an Internet Standards Track document. This document is a product of the Internet Engineering Task Force (IETF). It represents the consensus of the IETF community. It has received public review and has been approved for publication by the Internet Engineering Steering Group (IESG). Further information on Internet Standards is available in Section 2 of RFC 5741. Information about the current status of this document, any errata, and how to provide feedback on it may be obtained at http://www.rfc-editor.org/info/rfc7540. Belshe, et al. Standards Track [Page 1] RFC 7540 HTTP/2 May 2015 Copyright Notice Copyright (c) 2015 IETF Trust and the persons identified as the document authors. All rights reserved. This document is subject to BCP 78 and the IETF Trust's Legal Provisions Relating to IETF Documents (http://trustee.ietf.org/license-info) in effect on the date of publication of this document. Please review these documents carefully, as they describe your rights and restrictions with respect to this document. Code Components extracted from this document must include Simplified BSD License text as described in Section 4.e of the Trust Legal Provisions and are provided without warranty as described"
+  },
+  "counts": {
+    "entries_in_index": 9831,
+    "neighbours_kept": 40
+  }
+}

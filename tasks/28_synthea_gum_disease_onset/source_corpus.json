@@ -1,0 +1,223 @@
+{
+ "schema_version": "detourbench.synthea-overlay.v1",
+ "task_name": "synthea_gum_disease_onset",
+ "upstream_dataset": "Synthea synthetic health records",
+ "frozen_local_corpus": "corpora_syn_syn5.json",
+ "frozen_local_corpus_sha256": "c65eaf65b2119915928964f74b8f3b23c8c8ddee3cb3b32a1bfa12fd58d762fe",
+ "synthetic_record_notice": "No real patient data is present.",
+ "observed_encounter_records": {
+  "01913d31f5": {
+   "encounter_id": "01913d31f5",
+   "title": "Encounter for problem (procedure)",
+   "history": "[encounter 2010-08-11 to 2010-08-11]",
+   "text": "Encounter for problem (procedure) on 2010-08-11. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy)."
+  },
+  "074f121838": {
+   "encounter_id": "074f121838",
+   "title": "General examination of patient (procedure)",
+   "history": "[encounter 1996-09-22 to 1996-09-22]",
+   "text": "General examination of patient (procedure) on 1996-09-22. Class: wellness. Reason: not stated. Conditions recorded: Ischemic heart disease (disorder). Medications: Simvastatin 20 MG Oral Tablet; 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet; Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray. Procedures: none."
+  },
+  "1f92ab1129": {
+   "encounter_id": "1f92ab1129",
+   "title": "Encounter for problem (procedure)",
+   "history": "[encounter 2010-06-12 to 2010-06-12]",
+   "text": "Encounter for problem (procedure) on 2010-06-12. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy)."
+  },
+  "1fdcf6f73e": {
+   "encounter_id": "1fdcf6f73e",
+   "title": "Encounter for check up (procedure)",
+   "history": "[encounter 2013-12-01 to 2013-12-01]",
+   "text": "Encounter for check up (procedure) on 2013-12-01. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Gingival disease (disorder). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure)."
+  },
+  "2ad493b6d4": {
+   "encounter_id": "2ad493b6d4",
+   "title": "General examination of patient (procedure)",
+   "history": "[encounter 2007-11-25 to 2007-11-25]",
+   "text": "General examination of patient (procedure) on 2007-11-25. Class: wellness. Reason: not stated. Conditions recorded: Stress (finding). Medications: none. Procedures: none."
+  },
+  "34a0f1b600": {
+   "encounter_id": "34a0f1b600",
+   "title": "Ophthalmic examination and evaluation (procedure)",
+   "history": "[encounter 2010-06-12 to 2010-06-12]",
+   "text": "Ophthalmic examination and evaluation (procedure) on 2010-06-12. Class: ambulatory. Reason: not stated. Conditions recorded: none. Medications: tropicamide 5 MG/ML Ophthalmic Solution. Procedures: Visual acuity testing (procedure); Intraocular pressure test (procedure); Ocular slit lamp examination (procedure); Indirect gonioscopy (procedure); Camera fundoscopy (procedure); Diabetic retinal eye exam (procedure)."
+  },
+  "35dc15cd78": {
+   "encounter_id": "35dc15cd78",
+   "title": "Encounter for problem (procedure)",
+   "history": "[encounter 2010-07-12 to 2010-07-12]",
+   "text": "Encounter for problem (procedure) on 2010-07-12. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy)."
+  },
+  "38eacab8db": {
+   "encounter_id": "38eacab8db",
+   "title": "Ophthalmic examination and evaluation (procedure)",
+   "history": "[encounter 2007-08-27 to 2007-08-27]",
+   "text": "Ophthalmic examination and evaluation (procedure) on 2007-08-27. Class: ambulatory. Reason: not stated. Conditions recorded: Nonproliferative diabetic retinopathy due to type II diabetes mellitus. Medications: none. Procedures: none."
+  },
+  "3904bbefd6": {
+   "encounter_id": "3904bbefd6",
+   "title": "Encounter for check up (procedure)",
+   "history": "[encounter 2013-01-06 to 2013-01-06]",
+   "text": "Encounter for check up (procedure) on 2013-01-06. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Gingival disease (disorder); Primary dental caries (disorder). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure)."
+  },
+  "4ac3900ee2": {
+   "encounter_id": "4ac3900ee2",
+   "title": "Well child visit (procedure)",
+   "history": "[encounter 1968-04-14 to 1968-04-14]",
+   "text": "Well child visit (procedure) on 1968-04-14. Class: wellness. Reason: not stated. Conditions recorded: Risk activity involvement (finding). Medications: none. Procedures: none."
+  },
+  "4b70593605": {
+   "encounter_id": "4b70593605",
+   "title": "Encounter for problem (procedure)",
+   "history": "[encounter 1996-10-16 to 1996-10-16]",
+   "text": "Encounter for problem (procedure) on 1996-10-16. Class: ambulatory. Reason: Ischemic heart disease (disorder). Conditions recorded: Abnormal findings diagnostic imaging heart+coronary circulat (finding). Medications: none. Procedures: none."
+  },
+  "5101e482eb": {
+   "encounter_id": "5101e482eb",
+   "title": "Encounter for check up (procedure)",
+   "history": "[encounter 2014-01-12 to 2014-01-12]",
+   "text": "Encounter for check up (procedure) on 2014-01-12. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: Primary dental caries (disorder). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Application of composite dental filling material to dentin of tooth following fracture of tooth (procedure)."
+  },
+  "52c2889fb0": {
+   "encounter_id": "52c2889fb0",
+   "title": "Encounter for problem (procedure)",
+   "history": "[encounter 2002-01-04 to 2002-01-04]",
+   "text": "Encounter for problem (procedure) on 2002-01-04. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: Dependent drug abuse (disorder). Medications: none. Procedures: none."
+  },
+  "6098149b13": {
+   "encounter_id": "6098149b13",
+   "title": "General examination of patient (procedure)",
+   "history": "[encounter 1971-05-02 to 1971-05-02]",
+   "text": "General examination of patient (procedure) on 1971-05-02. Class: wellness. Reason: not stated. Conditions recorded: Asthma (disorder). Medications: none. Procedures: none."
+  },
+  "6e2ec0cb12": {
+   "encounter_id": "6e2ec0cb12",
+   "title": "General examination of patient (procedure)",
+   "history": "[encounter 2006-11-19 to 2006-11-19]",
+   "text": "General examination of patient (procedure) on 2006-11-19. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: none. Procedures: none."
+  },
+  "70ab8bc183": {
+   "encounter_id": "70ab8bc183",
+   "title": "General examination of patient (procedure)",
+   "history": "[encounter 2009-12-06 to 2009-12-06]",
+   "text": "General examination of patient (procedure) on 2009-12-06. Class: wellness. Reason: not stated. Conditions recorded: Part-time employment (finding). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: none."
+  },
+  "78f9e1caf2": {
+   "encounter_id": "78f9e1caf2",
+   "title": "Emergency hospital admission (procedure)",
+   "history": "[encounter 1990-09-30 to 1990-09-30]",
+   "text": "Emergency hospital admission (procedure) on 1990-09-30. Class: emergency. Reason: Chronic pain (finding). Conditions recorded: Chronic pain (finding). Medications: none. Procedures: none."
+  },
+  "7fd2da460b": {
+   "encounter_id": "7fd2da460b",
+   "title": "Encounter for problem (procedure)",
+   "history": "[encounter 2010-09-10 to 2010-09-10]",
+   "text": "Encounter for problem (procedure) on 2010-09-10. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy)."
+  },
+  "81bebab7bd": {
+   "encounter_id": "81bebab7bd",
+   "title": "Urgent care clinic (environment)",
+   "history": "[encounter 2013-11-17 to 2013-11-17]",
+   "text": "Urgent care clinic (environment) on 2013-11-17. Class: urgentcare. Reason: not stated. Conditions recorded: Part-time employment (finding); Gingivitis (disorder). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure)."
+  },
+  "89e04b9f47": {
+   "encounter_id": "89e04b9f47",
+   "title": "Hospital admission (procedure)",
+   "history": "[encounter 1996-12-24 to 1996-12-24]",
+   "text": "Hospital admission (procedure) on 1996-12-24. Class: ambulatory. Reason: Abnormal findings diagnostic imaging heart+coronary circulat (finding). Conditions recorded: History of coronary artery bypass grafting (situation). Medications: none. Procedures: none."
+  },
+  "8dc6b20a08": {
+   "encounter_id": "8dc6b20a08",
+   "title": "Encounter for problem (procedure)",
+   "history": "[encounter 2010-10-10 to 2010-10-10]",
+   "text": "Encounter for problem (procedure) on 2010-10-10. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy)."
+  },
+  "92f12fa474": {
+   "encounter_id": "92f12fa474",
+   "title": "Encounter for symptom (procedure)",
+   "history": "[encounter 1953-04-08 to 1953-04-08]",
+   "text": "Encounter for symptom (procedure) on 1953-04-08. Class: ambulatory. Reason: Childhood asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none."
+  },
+  "97a8dd87a7": {
+   "encounter_id": "97a8dd87a7",
+   "title": "General examination of patient (procedure)",
+   "history": "[encounter 1999-10-10 to 1999-10-10]",
+   "text": "General examination of patient (procedure) on 1999-10-10. Class: wellness. Reason: not stated. Conditions recorded: Body mass index 30+ - obesity (finding). Medications: none. Procedures: none."
+  },
+  "9cf8c516f1": {
+   "encounter_id": "9cf8c516f1",
+   "title": "Asthma follow-up (regime/therapy)",
+   "history": "[encounter 2010-04-16 to 2010-04-16]",
+   "text": "Asthma follow-up (regime/therapy) on 2010-04-16. Class: ambulatory. Reason: Asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none."
+  },
+  "af2a98fba3": {
+   "encounter_id": "af2a98fba3",
+   "title": "Emergency room admission (procedure)",
+   "history": "[encounter 1990-08-24 to 1990-08-24]",
+   "text": "Emergency room admission (procedure) on 1990-08-24. Class: emergency. Reason: Impacted molars (disorder). Conditions recorded: Impacted molars (disorder). Medications: none. Procedures: none."
+  },
+  "afb9ad274a": {
+   "encounter_id": "afb9ad274a",
+   "title": "Emergency room admission (procedure)",
+   "history": "[encounter 2001-12-21 to 2001-12-21]",
+   "text": "Emergency room admission (procedure) on 2001-12-21. Class: emergency. Reason: Overdose (disorder). Conditions recorded: none. Medications: none. Procedures: none."
+  },
+  "b70821c8ed": {
+   "encounter_id": "b70821c8ed",
+   "title": "General examination of patient (procedure)",
+   "history": "[encounter 2004-11-07 to 2004-11-07]",
+   "text": "General examination of patient (procedure) on 2004-11-07. Class: wellness. Reason: not stated. Conditions recorded: Essential hypertension (disorder); Hyperglycemia (disorder); Hypertriglyceridemia (disorder); Metabolic syndrome X (disorder); Victim of intimate partner abuse (finding). Medications: none. Procedures: none."
+  },
+  "c3a835532f": {
+   "encounter_id": "c3a835532f",
+   "title": "Emergency room admission (procedure)",
+   "history": "[encounter 1990-04-07 to 1990-04-07]",
+   "text": "Emergency room admission (procedure) on 1990-04-07. Class: emergency. Reason: Chronic intractable migraine without aura (disorder). Conditions recorded: Chronic intractable migraine without aura (disorder). Medications: none. Procedures: none."
+  },
+  "cdcfd92a29": {
+   "encounter_id": "cdcfd92a29",
+   "title": "General examination of patient (procedure)",
+   "history": "[encounter 1978-06-11 to 1978-06-11]",
+   "text": "General examination of patient (procedure) on 1978-06-11. Class: wellness. Reason: not stated. Conditions recorded: Prediabetes (finding); Anemia (disorder). Medications: none. Procedures: none."
+  },
+  "d456e7256b": {
+   "encounter_id": "d456e7256b",
+   "title": "General examination of patient (procedure)",
+   "history": "[encounter 2012-12-23 to 2012-12-23]",
+   "text": "General examination of patient (procedure) on 2012-12-23. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation); Gingivitis (disorder). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure)."
+  },
+  "db2072c25b": {
+   "encounter_id": "db2072c25b",
+   "title": "Encounter for problem (procedure)",
+   "history": "[encounter 2010-05-13 to 2010-05-13]",
+   "text": "Encounter for problem (procedure) on 2010-05-13. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy)."
+  },
+  "dbfd14688b": {
+   "encounter_id": "dbfd14688b",
+   "title": "General examination of patient (procedure)",
+   "history": "[encounter 1969-04-20 to 1969-04-20]",
+   "text": "General examination of patient (procedure) on 1969-04-20. Class: wellness. Reason: not stated. Conditions recorded: Only received primary school education (finding). Medications: none. Procedures: none."
+  },
+  "fe4adffc80": {
+   "encounter_id": "fe4adffc80",
+   "title": "General examination of patient (procedure)",
+   "history": "[encounter 2003-11-02 to 2003-11-02]",
+   "text": "General examination of patient (procedure) on 2003-11-02. Class: wellness. Reason: not stated. Conditions recorded: Diabetes mellitus type 2 (disorder). Medications: none. Procedures: none."
+  }
+ },
+ "authored_overlay": {
+  "policy_scope": "DetourBench local audit rule only",
+  "terminology_crosswalk": {
+   "gum disease": [
+    "Gingival disease (disorder)",
+    "Gingivitis (disorder)"
+   ]
+  },
+  "candidate_actions": [
+   "onset=2012-12-23",
+   "onset=2013-01-06",
+   "onset=2013-11-17"
+  ],
+  "correct_action_under_local_rule": "onset=2012-12-23"
+ }
+}

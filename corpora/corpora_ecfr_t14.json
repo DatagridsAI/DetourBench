@@ -1,0 +1,1016 @@
+{
+ "seed": "36.1",
+ "sections": {
+  "36.1": {
+   "title": "Applicability and definitions.",
+   "refs": [
+    "137.3",
+    "36.1583",
+    "133.1",
+    "36.0",
+    "21.93",
+    "36.7",
+    "21.183",
+    "21.185"
+   ],
+   "history": "[Doc. No. 13243, Amdt. 36-4, 40 FR 1034, Jan. 6, 1975]",
+   "amended_years": [
+    1975
+   ],
+   "text": "Applicability and definitions. (a) This part prescribes noise standards for the issue of the following certificates: (1) Type certificates, and changes to those certificates, and standard airworthiness certificates, for subsonic transport category large airplanes, and for subsonic jet airplanes regardless of category. (2) Type certificates and changes to those certificates, standard airworthiness certificates, and restricted category airworthiness certificates, for propeller-driven, small airplanes, and for propeller-driven, commuter category airplanes except those airplanes that are designed for \u201cagricultural aircraft operations\u201d (as defined in \u00a7 137.3 of this chapter, as effective on January 1, 1966) or for dispersing fire fighting materials to which \u00a7 36.1583 of this part does not apply"
+  },
+  "137.3": {
+   "title": "Definition of terms.",
+   "refs": [],
+   "history": "[Docket 1464, 30 FR 8106, June 24, 1965, as amended by Amdt. 137-3, 33 FR 9601, July 2, 1968]",
+   "amended_years": [
+    1965,
+    1968
+   ],
+   "text": "Definition of terms. For the purposes of this part\u2014 Agricultural aircraft operation means the operation of an aircraft for the purpose of (1) dispensing any economic poison, (2) dispensing any other substance intended for plant nourishment, soil treatment, propagation of plant life, or pest control, or (3) engaging in dispensing activities directly affecting agriculture, horticulture, or forest preservation, but not including the dispensing of live insects. Economic poison means (1) any substance or mixture of substances intended for preventing, destroying, repelling, or mitigating any insects, rodents, nematodes, fungi, weeds, and other forms of plant or animal life or viruses, except viruses on or in living man or other animals, which the Secretary of Agriculture shall declare to be a pe"
+  },
+  "36.1583": {
+   "title": "Noncomplying agricultural and fire fighting airplanes.",
+   "refs": [
+    "137.3",
+    "36.1581",
+    "91.815",
+    "36.101",
+    "36.6"
+   ],
+   "history": "[Amdt. 36-11, 45 FR 67066, Oct. 9, 1980. Redesignated by Amdt. 36-14, 53 FR 3540, Feb. 5, 1988; Amdt. 36-18, 54 FR 34330, Aug. 18, 1989]",
+   "amended_years": [
+    1980,
+    1988,
+    1989
+   ],
+   "text": "Noncomplying agricultural and fire fighting airplanes. (a) This section applies to propeller-driven, small airplanes that\u2014 (1) Are designed for \u201cagricultural aircraft operations\u201d (as defined in \u00a7 137.3 of this chapter, effective on January 1, 1966) or for dispensing fire fighting materials; and (2) Have not been shown to comply with the noise levels prescribed under appendix F of this part\u2014 (i) For which application is made for the original issue of a standard airworthiness certificate and that do not have any flight time before January 1, 1980; or (ii) For which application is made for an acoustical change approval, for airplanes which have a standard airworthiness certificate after the change in the type design, and that do not have any flight time in the changed configuration before Jan"
+  },
+  "133.1": {
+   "title": "Applicability.",
+   "refs": [],
+   "history": "[Docket 15176, 42 FR 24198, May 12, 1977, as amended by Amdt. 133-9, 51 FR 40707, Nov. 7, 1986; Docket FAA-2015-0150, Amdt. 133-15, 81 FR 42214, June 28, 2016]",
+   "amended_years": [
+    1977,
+    1986,
+    2015,
+    2016
+   ],
+   "text": "Applicability. Except for aircraft subject to part 107 of this chapter, this part prescribes\u2014 (a) Airworthiness certification rules for rotorcraft used in; and (b) Operating and certification rules governing the conduct of rotorcraft external-load operations in the United States by any person. (c) The certification rules of this part do not apply to\u2014 (1) Rotorcraft manufacturers when developing external-load attaching means; (2) Rotorcraft manufacturers demonstrating compliance of equipment utilized under this part or appropriate portions of part 27 or 29 of this chapter; (3) Operations conducted by a person demonstrating compliance for the issuance of a certificate or authorization under this part; (4) Training flights conducted in preparation for the demonstration of compliance with this"
+  },
+  "36.0": {
+   "title": "Applicability and statements of compliance for aircraft that do not conform to a type certificate.",
+   "refs": [
+    "21.190",
+    "21.191",
+    "36.1"
+   ],
+   "history": "[Amdt. No. 36-55, 90 FR 35210, July 24, 2025]",
+   "amended_years": [
+    2025
+   ],
+   "text": "Applicability and statements of compliance for aircraft that do not conform to a type certificate. (a) General applicability. This part may be used by persons seeking to show compliance with noise standards for aircraft described in \u00a7 21.190, \u00a7 21.191(k), or \u00a7 21.191(l) of this chapter that do not conform to a type certificate. (b) Compliance requirements. A person seeking to comply with this part for an aircraft described in paragraph (a) of this section must meet one of the following requirements. (1) Use of a noise consensus standard. An aircraft described in paragraph (a) of this section may demonstrate compliance using a noise consensus standard that meets the following conditions: (i) The noise consensus standard has been approved by the FAA; and (ii) The noise consensus standard has"
+  },
+  "21.93": {
+   "title": "Classification of changes in type design.",
+   "refs": [
+    "137.3",
+    "36.1583",
+    "133.1"
+   ],
+   "history": "[Amdt. 21-27, 34 FR 18363, Nov. 18, 1969]",
+   "amended_years": [
+    1969
+   ],
+   "text": "Classification of changes in type design. (a) In addition to changes in type design specified in paragraph (b) of this section, changes in type design are classified as minor and major. A \u201cminor change\u201d is one that has no appreciable effect on the weight, balance, structural strength, reliability, operational characteristics, or other characteristics affecting the airworthiness of the product. All other changes are \u201cmajor changes\u201d (except as provided in paragraph (b) of this section). (b) For the purpose of complying with Part 36 of this chapter, and except as provided in paragraphs (b)(2), (b)(3), and (b)(4) of this section, any voluntary change in the type design of an aircraft that may increase the noise levels of that aircraft is an \u201cacoustical change\u201d (in addition to being a minor or "
+  },
+  "36.7": {
+   "title": "Acoustical change: Transport category large airplanes and jet airplanes.",
+   "refs": [
+    "21.93"
+   ],
+   "history": "[Amdt. 36-7, 42 FR 12371, Mar. 3, 1977; Amdt. 36-8, 43 FR 8730, Mar. 2, 1978; Amdt. 36-10, 43 FR 28420, June 29, 1978; Amdt. 36-12, 46 FR 33464, June 29, 1981; Amdt. 36-15, 53 FR 16366, May 6, 1988; 53 FR 18950, May 25, 1988; Amdt. 36-17, 54 FR 21042, May 15, 1989; Amdt. 36-54, 67 FR 45212, July 8, ",
+   "amended_years": [
+    1977,
+    1978,
+    1981,
+    1988,
+    1989
+   ],
+   "text": "Acoustical change: Transport category large airplanes and jet airplanes. (a) Applicability. This section applies to all transport category large airplanes and jet airplanes for which an acoustical change approval is applied for under \u00a7 21.93(b) of this chapter. (b) General requirements. Except as otherwise specifically provided, for each airplane covered by this section, the acoustical change approval requirements are as follows: (1) In showing compliance, noise levels must be measured and evaluated in accordance with the applicable procedures and conditions prescribed in Appendix A of this part. (2) Compliance with the noise limits prescribed in section B36.5 of appendix B must be shown in accordance with the applicable provisions of sections B36.7 and B36.8 of appendix B of this part. (c"
+  },
+  "21.183": {
+   "title": "Issue of standard airworthiness certificates for normal, utility, acrobatic, commuter, and transport category aircraft; ",
+   "refs": [
+    "21.130",
+    "21.21",
+    "21.29",
+    "43.15",
+    "36.1",
+    "137.3",
+    "36.1583"
+   ],
+   "history": "[Amdt. 21-17, 32 FR 14927, Oct. 28, 1967]",
+   "amended_years": [
+    1967
+   ],
+   "text": "Issue of standard airworthiness certificates for normal, utility, acrobatic, commuter, and transport category aircraft; manned free balloons; and special classes of aircraft. (a) New aircraft manufactured under a production certificate. An applicant for a standard airworthiness certificate for a new aircraft manufactured under a production certificate is entitled to a standard airworthiness certificate without further showing, except that the FAA may inspect the aircraft to determine conformity to the type design and condition for safe operation. (b) New aircraft manufactured under type certificate. An applicant for a standard airworthiness certificate for a new aircraft manufactured under a type certificate is entitled to a standard airworthiness certificate upon presentation, by the hold"
+  },
+  "21.185": {
+   "title": "Issue of airworthiness certificates for restricted category aircraft.",
+   "refs": [
+    "21.183",
+    "21.25",
+    "21.29",
+    "137.3"
+   ],
+   "history": "[Amdt. 21-10, 31 FR 9211, July 6, 1966, as amended by Amdt. 21-32, 35 FR 10202, June 23, 1970; Amdt. 21-42, 40 FR 1034, Jan. 6, 1975; Amdt. 21-92, 74 FR 53389, Oct. 16, 2009; Amdt. 21-92, 74 FR 53389, Oct. 16, 2009; Amdt. 21-92A, 75 FR 9095, Mar. 1, 2010; Amdt. 21-109, 90 FR 35206, July 24, 2025]",
+   "amended_years": [
+    1966,
+    1970,
+    1975,
+    2009,
+    2010,
+    2025
+   ],
+   "text": "Issue of airworthiness certificates for restricted category aircraft. (a) Aircraft manufactured under a production certificate or type certificate. An applicant for a restricted category airworthiness certificate for an aircraft type certificated in the restricted category, that was not previously type certificated in any other category, must comply with \u00a7 21.183(a) or (b), as applicable. A used aircraft must conform to its type certificate and be in a condition for safe operation. (b) Other aircraft. An applicant for an airworthiness certificate in the restricted category is entitled to an airworthiness certificate if\u2014 (1) The aircraft is type certificated for a special purpose operation in the restricted category; (2) The aircraft was\u2014 (i) Manufactured in accordance with the requirements"
+  },
+  "36.1581": {
+   "title": "Manuals, markings, and placards.",
+   "refs": [
+    "36.1583",
+    "27.25",
+    "29.25"
+   ],
+   "history": "[Doc. No. 13243, 40 FR 1035, Jan. 6, 1975]",
+   "amended_years": [
+    1975
+   ],
+   "text": "Manuals, markings, and placards. (a) If an Airplane Flight Manual or Rotorcraft Flight Manual is approved, the approved portion of the Airplane Flight Manual or Rotorcraft Flight Manual must contain the following information, in addition to that specified under \u00a7 36.1583 of this part. If an Airplane Flight Manual or Rotorcraft Flight Manual is not approved, the procedures and information must be furnished in any combination of approved manual material, markings, and placards. (1) For transport category large airplanes and jet airplanes, the noise level information must be one value for each flyover, lateral, and approach as defined and required by appendix B of this part, along with the maximum takeoff weight, maximum landing weight, and configuration. (2) For propeller driven small airpla"
+  },
+  "91.815": {
+   "title": "Agricultural and fire fighting airplanes: Noise operating limitations.",
+   "refs": [
+    "137.3",
+    "137.29"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Agricultural and fire fighting airplanes: Noise operating limitations. (a) This section applies to propeller-driven, small airplanes having standard airworthiness certificates that are designed for \u201cagricultural aircraft operations\u201d (as defined in \u00a7 137.3 of this chapter, as effective on January 1, 1966) or for dispensing fire fighting materials. (b) If the Airplane Flight Manual, or other approved manual material information, markings, or placards for the airplane indicate that the airplane has not been shown to comply with the noise limits under part 36 of this chapter, no person may operate that airplane, except\u2014 (1) To the extent necessary to accomplish the work activity directly associated with the purpose for which it is designed; (2) To provide flight crewmember training in the spec"
+  },
+  "36.101": {
+   "title": "Noise measurement and evaluation.",
+   "refs": [],
+   "history": "[Amdt. 36-54, 67 FR 45212, July 8, 2002]",
+   "amended_years": [
+    2002
+   ],
+   "text": "Noise measurement and evaluation. For transport category large airplanes and jet airplanes, the noise generated by the airplane must be measured and evaluated under appendix A of this part or under an approved equivalent procedure. [Amdt. 36-54, 67 FR 45212, July 8, 2002]"
+  },
+  "36.6": {
+   "title": "Incorporation by reference.",
+   "refs": [
+    "36.1"
+   ],
+   "history": "[Doc. No. FAA-2015-3782, Amdt. No. 36-31, 82 FR 46129, Oct. 4, 2017]",
+   "amended_years": [
+    2015,
+    2017
+   ],
+   "text": "Incorporation by reference. (a) Certain material is incorporated by reference into this part with the approval of the Director of the Federal Register under 5 U.S.C. 552(a) and 1 CFR part 51. All approved material is available for inspection at the locations in this paragraph (a) and may be obtained from the sources detailed in paragraphs (a)(1) through (12) of this section. (1) The U.S. Department of Transportation, Docket Operations, West Building Ground Floor, Room W12-140, 1200 New Jersey Avenue SE., Washington, DC 20590. (2) Federal Aviation Administration New England Regional Headquarters, 12 New England Executive Park, Burlington, MA 01801. (3) Federal Aviation Administration Eastern Region Headquarters, Federal Building, John F. Kennedy International Airport, Jamaica, NY 11430. (4)"
+  },
+  "21.190": {
+   "title": "Issue of a special airworthiness certificate for a light-sport category aircraft.",
+   "refs": [
+    "22.100",
+    "22.180",
+    "22.185"
+   ],
+   "history": "[Amdt. No. 21-109, 90 FR 35206, July 24, 2025]",
+   "amended_years": [
+    2025
+   ],
+   "text": "Issue of a special airworthiness certificate for a light-sport category aircraft. (a) Purpose. The FAA issues a special airworthiness certificate in the light-sport category to operate an aircraft, other than an unmanned aircraft, that meets the requirements of this section. (b) Eligibility. To be eligible for a special airworthiness certificate in the light-sport category, an aircraft must meet the applicable requirements of \u00a7 22.100 of this chapter. (c) Application for special airworthiness certificate in the light-sport category. Except as provided in paragraph (e) of this section, an applicant for a special airworthiness certificate under this section must provide the FAA with: (1) The manufacturer's statement of compliance as described in paragraph (d) of this section. (2) A pilot's o"
+  },
+  "21.191": {
+   "title": "Issue of experimental airworthiness certificates.",
+   "refs": [
+    "21.195",
+    "21.24",
+    "21.184",
+    "103.1",
+    "21.190"
+   ],
+   "history": "[Amdt. 21-21, 38 FR 6858, May 7, 1968, as amended by Amdt. 21-57, 49 FR 39651, Oct. 9, 1984; Amdt. 21-70, 57 FR 41369, Sept. 9, 1992; Amdt. 21-85, 69 FR 44862, July 27, 2004; Amdt. 21-85, 69 FR 53336, Sept. 1, 2004; Amdt. 21-109, 90 FR 35207, July 24, 2025; Amdt. No. 21-109, 90 FR 35207, July 24, 20",
+   "amended_years": [
+    1968,
+    1984,
+    1992,
+    2004,
+    2025
+   ],
+   "text": "Issue of experimental airworthiness certificates. Experimental airworthiness certificates are issued for the following experimental purposes: (a) Research and development. Testing new aircraft design concepts, new aircraft equipment, new aircraft installations, new aircraft operating techniques, or new uses for aircraft. (b) Showing compliance with regulations. Conducting flight tests and other operations to show compliance with the airworthiness regulations including flights to show compliance for issuance of type and supplemental type certificates, flights to substantiate major design changes, and flights to show compliance with the function and reliability requirements of the regulations. (c) Crew training. Training of the applicant's flight crews. (d) Exhibition. Exhibiting the aircraf"
+  },
+  "21.130": {
+   "title": "Statement of conformity.",
+   "refs": [],
+   "history": "[Doc. No. FAA-2006-25877, Amdt. 21-92, 74 FR 53387, Oct. 16, 2009]",
+   "amended_years": [
+    2006,
+    2009
+   ],
+   "text": "Statement of conformity. Each holder or licensee of a type certificate who manufactures a product under this subpart must provide, in a form and manner acceptable to the FAA, a statement that the product for which the type certificate has been issued conforms to its type certificate and is in a condition for safe operation. [Doc. No. FAA-2006-25877, Amdt. 21-92, 74 FR 53387, Oct. 16, 2009] Subpart G\u2014Production Certificates Source: Docket No. FAA-2006-25877, Amdt. 21-92, 74 FR 53387, Oct. 16, 2009, unless otherwise noted."
+  },
+  "21.21": {
+   "title": "Issue of type certificate: normal, utility, acrobatic, commuter, and transport category aircraft; manned free balloons; ",
+   "refs": [
+    "21.27"
+   ],
+   "history": "[Doc. No. 5085, 29 FR 14564, Oct. 24, 1964, as amended by Amdt. 21-15, 32 FR 3735, Mar. 4, 1967; Amdt. 21-27, 34 FR 18368, Nov. 18, 1969; Amdt. 21-60, 52 FR 8042, Mar. 13, 1987; Amdt. 21-68, 55 FR 32860, Aug. 10, 1990; Amdt. 21-92, 74 FR 53385, Oct. 16, 2009; Amdt. No. 21-107, 89 FR 12653, Feb. 16, ",
+   "amended_years": [
+    1964,
+    1967,
+    1969,
+    1987,
+    1990,
+    2009
+   ],
+   "text": "Issue of type certificate: normal, utility, acrobatic, commuter, and transport category aircraft; manned free balloons; special classes of aircraft; aircraft engines; propellers. An applicant is entitled to a type certificate for an aircraft in the normal, utility, acrobatic, commuter, or transport category, or for a manned free balloon, special class of aircraft, or an aircraft engine or propeller, if\u2014 (a) The product qualifies under \u00a7 21.27; or (b) The applicant submits the type design, test reports, and computations necessary to show that the product to be certificated meets the applicable airworthiness, aircraft noise, fuel venting, exhaust emission, and fuel efficiency requirements of this subchapter and any special conditions prescribed by the FAA, and the FAA finds\u2014 (1) Upon examina"
+  },
+  "21.29": {
+   "title": "Issue of type certificate: import products.",
+   "refs": [
+    "21.17"
+   ],
+   "history": "[Amdt. 21-92, 74 FR 53386, Oct. 16, 2009, as amended by Amdt. No. 21-107, 89 FR 12653, Feb. 16, 2024]",
+   "amended_years": [
+    2009,
+    2024
+   ],
+   "text": "Issue of type certificate: import products. (a) The FAA may issue a type certificate for a product that is manufactured in a foreign country or jurisdiction with which the United States has an agreement for the acceptance of these products for export and import and that is to be imported into the United States if\u2014 (1) The applicable State of Design certifies that the product has been examined, tested, and found to meet\u2014 (i) The applicable aircraft noise, fuel venting, exhaust emissions, and fuel efficiency requirements of this subchapter as designated in \u00a7 21.17, or the applicable aircraft noise, fuel venting, exhaust emissions, and fuel efficiency requirements of the State of Design, and any other requirements the FAA may prescribe to provide noise, fuel venting, exhaust emission, and fue"
+  },
+  "43.15": {
+   "title": "Additional performance rules for inspections.",
+   "refs": [
+    "91.409"
+   ],
+   "history": "[Doc. No. 1993, 29 FR 5451, Apr. 23, 1964, as amended by Amdt. 43-23, 47 FR 41086, Sept. 16, 1982; Amdt. 43-25, 51 FR 40702, Nov. 7, 1986; Amdt. 43-31, 54 FR 34330, Aug. 18, 1989; 71 FR 44188, Aug. 4, 2006]",
+   "amended_years": [
+    1964,
+    1982,
+    1986,
+    1989,
+    1993,
+    2006
+   ],
+   "text": "Additional performance rules for inspections. (a) General. Each person performing an inspection required by part 91, 125, or 135 of this chapter, shall\u2014 (1) Perform the inspection so as to determine whether the aircraft, or portion(s) thereof under inspection, meets all applicable airworthiness requirements; and (2) If the inspection is one provided for in part 125, 135, or \u00a7 91.409(e) of this chapter, perform the inspection in accordance with the instructions and procedures set forth in the inspection program for the aircraft being inspected. (b) Rotorcraft. Each person performing an inspection required by Part 91 on a rotorcraft shall inspect the following systems in accordance with the maintenance manual or Instructions for Continued Airworthiness of the manufacturer concerned: (1) The "
+  },
+  "21.25": {
+   "title": "Issue of type certificate: restricted category aircraft.",
+   "refs": [],
+   "history": "[Docket No. FAA-2023-1377, Amdt. No. 21-109, 90 FR 35204, July 24, 2025]",
+   "amended_years": [
+    2023,
+    2025
+   ],
+   "text": "Issue of type certificate: restricted category aircraft. (a) An applicant is entitled to a type certificate for an aircraft in the restricted category for special purpose operations if the applicant shows compliance with the applicable noise requirements of part 36 of this chapter, and if the applicant shows that no feature or characteristic of the aircraft makes it unsafe when it is operated under the limitations prescribed for its intended use, and that aircraft\u2014 (1) Meets the airworthiness requirements of an aircraft category, other than primary category or light-sport category, except those requirements that the FAA finds inappropriate for the special purpose operation for which the aircraft is to be used; or (2) Is of a type that\u2014 (i) Has been manufactured in accordance with the requi"
+  },
+  "27.25": {
+   "title": "Weight limits.",
+   "refs": [
+    "27.87",
+    "27.29",
+    "27.865"
+   ],
+   "history": "[Doc. No. 5074, 29 FR 15695, Nov. 29, 1964, as amended by Amdt. 27-11, 41 FR 55468, Dec. 20, 1976; Amdt. 25-42, 43 FR 2324, Jan. 16, 1978; Amdt. 27-36, 64 FR 43019, Aug. 6, 1999; Amdt. 27-44, 73 FR 10998, Feb. 29, 2008; 73 FR 33876, June 16, 2008]",
+   "amended_years": [
+    1964,
+    1976,
+    1978,
+    1999,
+    2008
+   ],
+   "text": "Weight limits. (a) Maximum weight. The maximum weight (the highest weight at which compliance with each applicable requirement of this part is shown) must be established so that it is\u2014 (1) Not more than\u2014 (i) The highest weight selected by the applicant; (ii) The design maximum weight (the highest weight at which compliance with each applicable structural loading condition of this part is shown); (iii) The highest weight at which compliance with each applicable flight requirement of this part is shown; or (iv) The highest weight in which the provisions of \u00a7\u00a7 27.87 or 27.143(c)(1), or combinations thereof, are demonstrated if the weights and operating conditions (altitude and temperature) prescribed by those requirements cannot be met; and (2) Not less than the sum of\u2014 (i) The empty weight d"
+  },
+  "29.25": {
+   "title": "Weight limits.",
+   "refs": [
+    "29.143",
+    "29.865"
+   ],
+   "history": "[Doc. No. 5084, 29 FR 16150, Dec. 3, 1964, as amended by Amdt. 29-12, 41 FR 55471, Dec. 20, 1976; Amdt. 29-43, 64 FR 43020, Aug. 6, 1999; Amdt. 29-51, 73 FR 11001, Feb. 29, 2008]",
+   "amended_years": [
+    1964,
+    1976,
+    1999,
+    2008
+   ],
+   "text": "Weight limits. (a) Maximum weight. The maximum weight (the highest weight at which compliance with each applicable requirement of this part is shown) or, at the option of the applicant, the highest weight for each altitude and for each practicably separable operating condition, such as takeoff, enroute operation, and landing, must be established so that it is not more than\u2014 (1) The highest weight selected by the applicant; (2) The design maximum weight (the highest weight at which compliance with each applicable structural loading condition of this part is shown); or (3) The highest weight at which compliance with each applicable flight requirement of this part is shown. (4) For Category B rotorcraft with 9 or less passenger seats, the maximum weight, altitude, and temperature at which the"
+  },
+  "137.29": {
+   "title": "General.",
+   "refs": [
+    "137.41",
+    "137.39",
+    "137.43"
+   ],
+   "history": "[Docket 1464, 30 FR 8106, June 24, 1965, as amended by Amdt. 137-3, 33 FR 9601, July 2, 1968; Amdt. 137-6, 41 FR 35060, Aug. 19, 1976]",
+   "amended_years": [
+    1965,
+    1968,
+    1976
+   ],
+   "text": "General. (a) Except as provided in paragraphs (d) and (e) of this section, this subpart prescribes rules that apply to persons and aircraft used in agricultural aircraft operations conducted under this part. (b) [Reserved] (c) The holder of an agricultural aircraft operator certificate may deviate from the provisions of part 91 of this chapter without a certificate of waiver, as authorized in this subpart for dispensing operations, when conducting nondispensing aerial work operations related to agriculture, horticulture, or forest preservation in accordance with the operating rules of this subpart. (d) Sections 137.31 through 137.35, \u00a7\u00a7 137.41, and 137.53 through 137.59 do not apply to persons and aircraft used in agricultural aircraft operations conducted with public aircraft. (e) Section"
+  },
+  "22.100": {
+   "title": "Eligibility.",
+   "refs": [
+    "21.190"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Eligibility. (a) To be eligible for a special airworthiness certificate in the light-sport category issued under \u00a7 21.190 of this chapter, an aircraft must\u2014 (1) Except for an airplane, have a maximum seating capacity of not more than two persons, including the pilot. (2) For an airplane, have a maximum seating capacity of not more than four persons, including the pilot. (3) Have a maximum stalling speed or minimum steady flight speed at the aircraft's maximum takeoff weight and most critical center of gravity of 61 knots CAS V S0 for an airplane, 45 knots CAS V S0 for a glider, or 45 knots CAS without the use of lift-enhancing devices, V S1 , for a weight-shift-control aircraft. (4) Have a maximum speed of 250 knots CAS in level flight with maximum continuous power (V H ) under standard at"
+  },
+  "22.180": {
+   "title": "Special requirements for light-sport category aircraft with simplified flight controls.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Special requirements for light-sport category aircraft with simplified flight controls. An aircraft that meets the following requirements may be designated by the manufacturer as having simplified flight controls\u2014 (a) The aircraft's flight path and available power are automated, allowing the pilot to only intervene without the availability of primary flight controls; (b) The aircraft is designed to inherently prevent loss of control under likely circumstances, regardless of pilot input; and (c) The aircraft has a means to enable the pilot to quickly and safely discontinue or alter the flight and prevent any inadvertent activation of these functions."
+  },
+  "22.185": {
+   "title": "Quality assurance system.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Quality assurance system. The aircraft must have been designed, produced, and tested under a documented quality assurance system to ensure each product and article conforms to its design and is in a condition for safe operation."
+  },
+  "21.195": {
+   "title": "Experimental airworthiness certificates: Aircraft to be used for market surveys, sales demonstrations, and customer crew",
+   "refs": [
+    "21.193"
+   ],
+   "history": "[Docket No. FAA-2023-1377, Amdt. 21-109, 90 FR 35208, July 24, 2025]",
+   "amended_years": [
+    2023,
+    2025
+   ],
+   "text": "Experimental airworthiness certificates: Aircraft to be used for market surveys, sales demonstrations, and customer crew training. (a) A manufacturer of aircraft manufactured within the United States may apply for an experimental airworthiness certificate for an aircraft that is to be used for market surveys, sales demonstrations, or customer crew training. (b) A manufacturer of an aircraft engine manufactured by him within the United States, that has altered a type certificated aircraft by installing an engine it has manufactured, may apply for an experimental airworthiness certificate for that aircraft to be used for market surveys, sales demonstrations, or customer crew training, if the basic aircraft, before alteration, was type certificated in the normal, utility, acrobatic, commuter,"
+  },
+  "21.24": {
+   "title": "Issuance of type certificate: primary category aircraft.",
+   "refs": [
+    "21.17",
+    "21.5",
+    "21.50",
+    "21.49"
+   ],
+   "history": "[Doc. No. 23345, 57 FR 41367, Sept. 9, 1992, as amended by Amdt. 21-75, 62 FR 62808, Nov. 25, 1997; Doc. No. FAA-2015-1621, Amdt. 21-100, 81 FR 96689, Dec. 30, 2016]",
+   "amended_years": [
+    1992,
+    1997,
+    2015,
+    2016
+   ],
+   "text": "Issuance of type certificate: primary category aircraft. (a) The applicant is entitled to a type certificate for an aircraft in the primary category if\u2014 (1) The aircraft\u2014 (i) Is unpowered; is an airplane powered by a single, naturally aspirated engine with a 61-knot or less V so stall speed as determined under part 23 of this chapter; or is a rotorcraft with a 6-pound per square foot main rotor disc loading limitation, under sea level standard day conditions; (ii) Weighs not more than 2,700 pounds; or, for seaplanes, not more than 3,375 pounds; (iii) Has a maximum seating capacity of not more than four persons, including the pilot; and (iv) Has an unpressurized cabin. (2) The applicant has submitted\u2014 (i) Except as provided by paragraph (c) of this section, a statement, in a form and manner"
+  },
+  "21.184": {
+   "title": "Issue of special airworthiness certificates for primary category aircraft.",
+   "refs": [
+    "21.24",
+    "21.29",
+    "91.409"
+   ],
+   "history": "[Doc. No. 23345, 57 FR 41368, Sept. 9, 1992, as amended by Amdt. 21-70, 57 FR 43776, Sept. 22, 1992]",
+   "amended_years": [
+    1992
+   ],
+   "text": "Issue of special airworthiness certificates for primary category aircraft. (a) New primary category aircraft manufactured under a production certificate. An applicant for an original, special airworthiness certificate-primary category for a new aircraft that meets the criteria of \u00a7 21.24(a)(1), manufactured under a production certificate, including aircraft assembled by another person from a kit provided by the holder of the production certificate and under the supervision and quality control of that holder, is entitled to a special airworthiness certificate without further showing, except that the FAA may inspect the aircraft to determine conformity to the type design and condition for safe operation. (b) Imported aircraft. An applicant for a special airworthiness certificate-primary cate"
+  },
+  "103.1": {
+   "title": "Applicability.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Applicability. This part prescribes rules governing the operation of ultralight vehicles in the United States. For the purposes of this part, an ultralight vehicle is a vehicle that: (a) Is used or intended to be used for manned operation in the air by a single occupant; (b) Is used or intended to be used for recreation or sport purposes only; (c) Does not have any U.S. or foreign airworthiness certificate; and (d) If unpowered, weighs less than 155 pounds; or (e) If powered: (1) Weighs less than 254 pounds empty weight, excluding floats and safety devices which are intended for deployment in a potentially catastrophic situation; (2) Has a fuel capacity not exceeding 5 U.S. gallons; (3) Is not capable of more than 55 knots calibrated airspeed at full power in level flight; and (4) Has a po"
+  },
+  "21.27": {
+   "title": "Issue of type certificate: surplus aircraft of the Armed Forces.",
+   "refs": [],
+   "history": "[Doc. No. 5085, 29 FR 14564, Oct. 24, 1964, as amended by Amdt. 21-59, 52 FR 1835, Jan. 15, 1987; 52 FR 7262, Mar. 9, 1987; 70 FR 2325, Jan. 13, 2005; Amdt. 21-92, 74 FR 53386, Oct. 16, 2009]",
+   "amended_years": [
+    1964,
+    1987,
+    2005,
+    2009
+   ],
+   "text": "Issue of type certificate: surplus aircraft of the Armed Forces. (a) Except as provided in paragraph (b) of this section an applicant is entitled to a type certificate for an aircraft in the normal, utility, acrobatic, commuter, or transport category that was designed and constructed in the United States, accepted for operational use, and declared surplus by, an Armed Force of the United States, and that is shown to comply with the applicable certification requirements in paragraph (f) of this section. (b) An applicant is entitled to a type certificate for a surplus aircraft of the Armed Forces of the United States that is a counterpart of a previously type certificated civil aircraft, if he shows compliance with the regulations governing the original civil aircraft type certificate. (c) A"
+  },
+  "21.17": {
+   "title": "Designation of applicable regulations.",
+   "refs": [
+    "25.2"
+   ],
+   "history": "[Doc. No. 5085, 29 FR 14564, Oct. 24, 1964, as amended by Amdt. 21-19, 32 FR 17851, Dec. 13, 1967; Amdt. 21-24, 34 FR 364, Jan. 10, 1969; Amdt. 21-42, 40 FR 1033, Jan. 6, 1975; Amdt. 21-58, 50 FR 46877, Nov. 13, 1985; Amdt. 21-60, 52 FR 8042, Mar. 13, 1987; Amdt. 21-68, 55 FR 32860, Aug. 10, 1990; A",
+   "amended_years": [
+    1964,
+    1967,
+    1969,
+    1975,
+    1985,
+    1987,
+    1990
+   ],
+   "text": "Designation of applicable regulations. (a) Except as provided in \u00a7\u00a7 25.2, 27.2, and 29.2 of this subchapter, and in parts 26, 34, 36, and 38 of this subchapter, an applicant for a type certificate must show that the aircraft, aircraft engine, or propeller concerned meets\u2014 (1) The applicable requirements of this subchapter that are effective on the date of application for that certificate unless\u2014 (i) Otherwise specified by the FAA; or (ii) Compliance with later effective amendments is elected or required under this section; and (2) Any special conditions prescribed by the FAA. (b) For special classes of aircraft, including the engines and propellers installed thereon (e.g., gliders, airships, and other nonconventional aircraft), for which airworthiness standards have not been issued under t"
+  },
+  "91.409": {
+   "title": "Inspections.",
+   "refs": [
+    "43.7"
+   ],
+   "history": "[Docket 18334, 54 FR 34311, Aug. 18, 1989; Amdt. 91-211, 54 FR 41211, Oct. 5, 1989; Amdt. 91-267, 66 FR 21066, Apr. 27, 2001; Amdt. 91-282, 69 FR 44882, July 27, 2004; Docket FAA-2018-0119, Amdt. 91-350, 83 FR 9171, Mar. 5, 2018; Docket FAA-2023-1377, Amdt. 91-381, 90 FR 35222, July 24, 2025]",
+   "amended_years": [
+    1989,
+    2001,
+    2004,
+    2018,
+    2023,
+    2025
+   ],
+   "text": "Inspections. (a) Except as provided in paragraph (c) of this section, no person may operate an aircraft unless, within the preceding 12 calendar months, it has had\u2014 (1) An annual inspection in accordance with part 43 of this chapter and has been approved for return to service by a person authorized by \u00a7 43.7 of this chapter; or (2) An inspection for the issuance of an airworthiness certificate in accordance with part 21 of this chapter. No inspection performed under paragraph (b) of this section may be substituted for any inspection required by this paragraph unless it is performed by a person authorized to perform annual inspections and is entered as an \u201cannual\u201d inspection in the required maintenance records. (b) Except as provided in paragraph (c) of this section, no person may operate a"
+  },
+  "27.87": {
+   "title": "Height-velocity envelope.",
+   "refs": [],
+   "history": "[Doc. No. 5074, 29 FR 15695, Nov. 24, 1964, as amended by Amdt. 27-14, 43 FR 2324, Jan. 16, 1978; Amdt. 27-21, 49 FR 44433, Nov. 6, 1984; Amdt. 27-44, 73 FR 10999, Feb. 29, 2008; Amdt. 27-51, 88 FR 8737, Feb. 10, 2023]",
+   "amended_years": [
+    1964,
+    1978,
+    1984,
+    2008,
+    2023
+   ],
+   "text": "Height-velocity envelope. (a) If there is any combination of height and forward velocity (including hover) under which a safe landing cannot be made under the applicable power failure condition in paragraph (b) of this section, a limiting height-velocity envelope must be established (including all pertinent information) for that condition, throughout the ranges of\u2014 (1) Altitude, from standard sea level conditions to the maximum altitude capability of the rotorcraft, or 7000 feet density altitude, whichever is less; and (2) Weight, from the maximum weight at sea level to the weight selected by the applicant for each altitude covered by paragraph (a)(1) of this section. For helicopters, the weight at altitudes above sea level may not be less than the maximum weight or the highest weight allo"
+  },
+  "27.29": {
+   "title": "Empty weight and corresponding center of gravity.",
+   "refs": [],
+   "history": "[Doc. No. 5074, 29 FR 15695, Nov. 24, 1964, as amended by Amdt. 27-14, 43 FR 2324, Jan. 16, 1978]",
+   "amended_years": [
+    1964,
+    1978
+   ],
+   "text": "Empty weight and corresponding center of gravity. (a) The empty weight and corresponding center of gravity must be determined by weighing the rotorcraft without the crew and payload, but with\u2014 (1) Fixed ballast; (2) Unusable fuel; and (3) Full operating fluids, including\u2014 (i) Oil; (ii) Hydraulic fluid; and (iii) Other fluids required for normal operation of roto-craft systems, except water intended for injection in the engines. (b) The condition of the rotorcraft at the time of determining empty weight must be one that is well defined and can be easily repeated, particularly with respect to the weights of fuel, oil, coolant, and installed equipment. (Secs. 313(a), 601, 603, 604, and 605 of the Federal Aviation Act of 1958 (49 U.S.C. 1354(a), 1421, 1423, 1424, and 1425); and sec. 6(c) of th"
+  },
+  "27.865": {
+   "title": "External loads.",
+   "refs": [
+    "27.337",
+    "27.25",
+    "27.571"
+   ],
+   "history": "[Amdt. 27-11, 41 FR 55469, Dec. 20, 1976, as amended by Amdt. 27-26, 55 FR 8001, Mar. 6, 1990; Amdt. 27-36, 64 FR 43019, Aug. 6, 1999]",
+   "amended_years": [
+    1976,
+    1990,
+    1999
+   ],
+   "text": "External loads. (a) It must be shown by analysis, test, or both, that the rotorcraft external load attaching means for rotorcraft-load combinations to be used for nonhuman external cargo applications can withstand a limit static load equal to 2.5, or some lower load factor approved under \u00a7\u00a7 27.337 through 27.341, multiplied by the maximum external load for which authorization is requested. It must be shown by analysis, test, or both that the rotorcraft external load attaching means and corresponding personnel carrying device system for rotorcraft-load combinations to be used for human external cargo applications can withstand a limit static load equal to 3.5 or some lower load factor, not less than 2.5, approved under \u00a7\u00a7 27.337 through 27.341, multiplied by the maximum external load for wh"
+  },
+  "29.143": {
+   "title": "Controllability and maneuverability.",
+   "refs": [
+    "29.1505"
+   ],
+   "history": "[Doc. No. 5084, 29 FR 16150, Dec. 3, 1964, as amended by Amdt. 29-3, 33 FR 965, Jan. 26, 1968; Amdt. 29-15, 43 FR 2326, Jan. 16, 1978; Amdt. 29-24, 49 FR 44436, Nov. 6, 1984; Amdt. 29-51, 73 FR 11001, Feb. 29, 2008]",
+   "amended_years": [
+    1964,
+    1968,
+    1978,
+    1984,
+    2008
+   ],
+   "text": "Controllability and maneuverability. (a) The rotorcraft must be safely controllable and maneuverable\u2014 (1) During steady flight; and (2) During any maneuver appropriate to the type, including\u2014 (i) Takeoff; (ii) Climb; (iii) Level flight; (iv) Turning flight; (v) Autorotation; and (vi) Landing (power on and power off). (b) The margin of cyclic control must allow satisfactory roll and pitch control at V NE with\u2014 (1) Critical weight; (2) Critical center of gravity; (3) Critical rotor r.p.m.; and (4) Power off (except for helicopters demonstrating compliance with paragraph (f) of this section) and power on. (c) Wind velocities from zero to at least 17 knots, from all azimuths, must be established in which the rotorcraft can be operated without loss of control on or near the ground in any maneuv"
+  },
+  "29.865": {
+   "title": "External loads.",
+   "refs": [
+    "29.337",
+    "29.25",
+    "29.571"
+   ],
+   "history": "[Amdt. 29-12, 41 FR 55472, Dec. 20, 1976, as amended by Amdt. 27-26, 55 FR 8005, Mar. 6, 1990; Amdt. 29-43, 64 FR 43020, Aug. 6, 1999]",
+   "amended_years": [
+    1976,
+    1990,
+    1999
+   ],
+   "text": "External loads. (a) It must be shown by analysis, test, or both, that the rotorcraft external load attaching means for rotorcraft-load combinations to be used for nonhuman external cargo applications can withstand a limit static load equal to 2.5, or some lower load factor approved under \u00a7\u00a7 29.337 through 29.341, multiplied by the maximum external load for which authorization is requested. It must be shown by analysis, test, or both that the rotorcraft external load attaching means and corresponding personnel carrying device system for rotorcraft-load combinations to be used for human external cargo applications can withstand a limit static load equal to 3.5 or some lower load factor, not less than 2.5, approved under \u00a7\u00a7 29.337 through 29.341, multiplied by the maximum external load for wh"
+  },
+  "137.41": {
+   "title": "Personnel.",
+   "refs": [
+    "137.19"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Personnel. (a) Information. The holder of an agricultural aircraft operator certificate shall insure that each person used in the holder's agricultural aircraft operation is informed of that person's duties and responsibilities for the operation. (b) Supervisors. No person may supervise an agricultural aircraft operation unless he has met the knowledge and skill requirements of \u00a7 137.19(e). (c) Pilot in command. No person may act as pilot in command of an aircraft unless he holds a pilot certificate and rating prescribed by \u00a7 137.19 (b) or (c), as appropriate to the type of operation conducted. In addition, he must demonstrate to the holder of the Agricultural Aircraft Operator Certificate conducting the operation that he has met the knowledge and skill requirements of \u00a7 137.19(e). If the "
+  },
+  "137.39": {
+   "title": "Economic poison dispensing.",
+   "refs": [],
+   "history": "[Amdt. 137-2, 31 FR 6686, May 5, 1966]",
+   "amended_years": [
+    1966
+   ],
+   "text": "Economic poison dispensing. (a) Except as provided in paragraph (b) of this section, no person may dispense or cause to be dispensed from an aircraft, any economic poison that is registered with the U.S. Department of Agriculture under the Federal Insecticide, Fungicide, and Rodenticide Act (7 U.S.C. 135-135k)\u2014 (1) For a use other than that for which it is registered; (2) Contrary to any safety instructions or use limitations on its label; or (3) In violation of any law or regulation of the United States. (b) This section does not apply to any person dispensing economic poisons for experimental purposes under\u2014 (1) The supervision of a Federal or State agency authorized by law to conduct research in the field of economic poisons; or (2) A permit from the U.S. Department of Agriculture issue"
+  },
+  "137.43": {
+   "title": "Operations in controlled airspace designated for an airport.",
+   "refs": [
+    "91.157"
+   ],
+   "history": "[Amdt. 137-14, 56 FR 65664, Dec. 17, 1991, as amended by Amdt. 137-14, 58 FR 32840, June 14, 1993; 74 FR 13099, Mar. 26, 2009]",
+   "amended_years": [
+    1991,
+    1993,
+    2009
+   ],
+   "text": "Operations in controlled airspace designated for an airport. (a) Except for flights to and from a dispensing area, no person may operate an aircraft within the lateral boundaries of the surface area of Class D airspace designated for an airport unless authorization for that operation has been obtained from the ATC facility having jurisdiction over that area. (b) No person may operate an aircraft in weather conditions below VFR minimums within the lateral boundaries of a Class E airspace area that extends upward from the surface unless authorization for that operation has been obtained from the ATC facility having jurisdiction over that area. (c) Notwithstanding \u00a7 91.157(b)(4) of this chapter, an aircraft may be operated under the special VFR weather minimums without meeting the requirement"
+  },
+  "21.193": {
+   "title": "Application for special airworthiness certificates issued for experimental purposes.",
+   "refs": [
+    "21.191",
+    "21.190",
+    "22.195"
+   ],
+   "history": "[Amdt. No. 21-109, 90 FR 35207, July 24, 2025]",
+   "amended_years": [
+    2025
+   ],
+   "text": "Application for special airworthiness certificates issued for experimental purposes. An applicant for an experimental airworthiness certificate must submit the following information in a form and manner prescribed by the FAA: (a) The experimental purpose for which the aircraft is to be used. (b) Enough information to describe the operation, equipment, or test as applicable. (c) The estimated time or number of flights required for the operation, for an applicant seeking issuance of an experimental airworthiness certificate for those experimental purposes specified in \u00a7 21.191(a) through (f). (d) The areas over which flights will be conducted. (e) Enough data to identify the aircraft. (f) Except for a previously type certificated aircraft without an appreciable change in its external configu"
+  },
+  "21.5": {
+   "title": "Airplane or Rotorcraft Flight Manual.",
+   "refs": [
+    "38.11",
+    "38.17"
+   ],
+   "history": "[Amdt. 21-46, 43 FR 2316, Jan. 16, 1978, as amended by Amdt. 21-92, 74 FR 53385, Oct. 16, 2009; Admt. 21-107, 89 FR 12653, Feb. 16, 2024]",
+   "amended_years": [
+    1978,
+    2009,
+    2024
+   ],
+   "text": "Airplane or Rotorcraft Flight Manual. (a) With each airplane or rotorcraft not type certificated with an Airplane or Rotorcraft Flight Manual and having no flight time before March 1, 1979, the holder of a type certificate (including amended or supplemental type certificates) or the licensee of a type certificate must make available to the owner at the time of delivery of the aircraft a current approved Airplane or Rotorcraft Flight Manual. (b) The Airplane or Rotorcraft Flight Manual required by paragraph (a) of this section must contain the following information: (1) The operating limitations and information required to be furnished in an Airplane or Rotorcraft Flight Manual or in manual material, markings, and placards, by the applicable regulations under which the airplane or rotorcraf"
+  },
+  "21.50": {
+   "title": "Instructions for continued airworthiness and manufacturer's maintenance manuals having airworthiness limitations section",
+   "refs": [
+    "27.1529",
+    "29.1529",
+    "23.1529",
+    "21.17"
+   ],
+   "history": "[Amdt. 21-23, 33 FR 14105, Sept. 18, 1968, as amended by Amdt. 21-51, 45 FR 60170, Sept. 11, 1980; Amdt. 21-60, 52 FR 8042, Mar. 13, 1987; Amdt. 21-90, 72 FR 63404, Nov. 8, 2007; Amdt. 21-92, 74 FR 53386, Oct. 16, 2009; Doc. No. FAA-2015-1621, Amdt. 21-100, 81 FR 96689, Dec. 30, 2016]",
+   "amended_years": [
+    1968,
+    1980,
+    1987,
+    2007,
+    2009,
+    2015,
+    2016
+   ],
+   "text": "Instructions for continued airworthiness and manufacturer's maintenance manuals having airworthiness limitations sections. (a) The holder of a type certificate for a rotorcraft for which a Rotorcraft Maintenance Manual containing an \u201cAirworthiness Limitations\u201d section has been issued under \u00a7 27.1529 (a)(2) or \u00a7 29.1529 (a)(2) of this chapter, and who obtains approval of changes to any replacement time, inspection interval, or related procedure in that section of the manual, must make those changes available upon request to any operator of the same type of rotorcraft. (b) The holder of a design approval, including either a type certificate or supplemental type certificate for an aircraft, aircraft engine, or propeller for which application was made after January 28, 1981, must furnish at le"
+  },
+  "21.49": {
+   "title": "Availability.",
+   "refs": [],
+   "history": "[Doc. No. 5085, 29 FR 14564, Oct. 24, 1964, as amended by Doc. No. 8084, 32 FR 5769, Apr. 11, 1967]",
+   "amended_years": [
+    1964,
+    1967
+   ],
+   "text": "Availability. The holder of a type certificate must make the certificate available for examination upon the request of the FAA or the National Transportation Safety Board. [Doc. No. 5085, 29 FR 14564, Oct. 24, 1964, as amended by Doc. No. 8084, 32 FR 5769, Apr. 11, 1967]"
+  },
+  "25.2": {
+   "title": "Special retroactive requirements.",
+   "refs": [
+    "25.807",
+    "21.101"
+   ],
+   "history": "[Amdt. 25-72, 55 FR 29773, July 20, 1990, as amended by Amdt. 25-99, 65 FR 36266, June 7, 2000]",
+   "amended_years": [
+    1990,
+    2000
+   ],
+   "text": "Special retroactive requirements. The following special retroactive requirements are applicable to an airplane for which the regulations referenced in the type certificate predate the sections specified below\u2014 (a) Irrespective of the date of application, each applicant for a supplemental type certificate (or an amendment to a type certificate) involving an increase in passenger seating capacity to a total greater than that for which the airplane has been type certificated must show that the airplane concerned meets the requirements of: (1) Sections 25.721(d), 25.783(g), 25.785(c), 25.803(c)(2) through (9), 25.803 (d) and (e), 25.807 (a), (c), and (d), 25.809 (f) and (h), 25.811, 25.812, 25.813 (a), (b), and (c), 25.815, 25.817, 25.853 (a) and (b), 25.855(a), 25.993(f), and 25.1359(c) in ef"
+  },
+  "43.7": {
+   "title": "Persons authorized to approve aircraft, airframes, aircraft engines, propellers, appliances, or component parts for retu",
+   "refs": [
+    "43.17",
+    "43.3"
+   ],
+   "history": "[Amdt. 43-23, 47 FR 41084, Sept. 16, 1982, as amended by Amdt. 43-36, 61 FR 19501, May 1, 1996; Amdt. 43-37, 66 FR 21066, Apr. 27, 2001; Amdt. 43-39, 69 FR 44863, July 27, 2004]",
+   "amended_years": [
+    1982,
+    1996,
+    2001,
+    2004
+   ],
+   "text": "Persons authorized to approve aircraft, airframes, aircraft engines, propellers, appliances, or component parts for return to service after maintenance, preventive maintenance, rebuilding, or alteration. (a) Except as provided in this section and \u00a7 43.17, no person, other than the Administrator, may approve an aircraft, airframe, aircraft engine, propeller, appliance, or component part for return to service after it has undergone maintenance, preventive maintenance, rebuilding, or alteration. (b) The holder of a mechanic certificate or an inspection authorization may approve an aircraft, airframe, aircraft engine, propeller, appliance, or component part for return to service as provided in Part 65 of this chapter. (c) The holder of a repair station certificate may approve an aircraft, airf"
+  },
+  "27.337": {
+   "title": "Limit maneuvering load factor.",
+   "refs": [],
+   "history": "[Amdt. 27-26, 55 FR 7999, Mar. 6, 1990]",
+   "amended_years": [
+    1990
+   ],
+   "text": "Limit maneuvering load factor. The rotorcraft must be designed for\u2014 (a) A limit maneuvering load factor ranging from a positive limit of 3.5 to a negative limit of \u22121.0; or (b) Any positive limit maneuvering load factor not less than 2.0 and any negative limit maneuvering load factor of not less than \u22120.5 for which\u2014 (1) The probability of being exceeded is shown by analysis and flight tests to be extremely remote; and (2) The selected values are appropriate to each weight condition between the design maximum and design minimum weights. [Amdt. 27-26, 55 FR 7999, Mar. 6, 1990]"
+  },
+  "27.571": {
+   "title": "Fatigue evaluation of flight structure.",
+   "refs": [
+    "27.309"
+   ],
+   "history": "[Amdt. 27-3, 33 FR 14106, Sept. 18, 1968, as amended by Amdt. 27-12, 42 FR 15044, Mar. 17, 1977; Amdt. 27-18, 45 FR 60177, Sept. 11, 1980; Amdt. 27-26, 55 FR 8000, Mar. 6, 1990]",
+   "amended_years": [
+    1968,
+    1977,
+    1980,
+    1990
+   ],
+   "text": "Fatigue evaluation of flight structure. (a) General. Each portion of the flight structure (the flight structure includes rotors, rotor drive systems between the engines and the rotor hubs, controls, fuselage, landing gear, and their related primary attachments), the failure of which could be catastrophic, must be identified and must be evaluated under paragraph (b), (c), (d), or (e) of this section. The following apply to each fatigue evaluation: (1) The procedure for the evaluation must be approved. (2) The locations of probable failure must be determined. (3) Inflight measurement must be included in determining the following: (i) Loads or stresses in all critical conditions throughout the range of limitations in \u00a7 27.309, except that maneuvering load factors need not exceed the maximum v"
+  },
+  "29.1505": {
+   "title": "Never-exceed speed.",
+   "refs": [
+    "29.309",
+    "29.251",
+    "29.67",
+    "29.65"
+   ],
+   "history": "[Amdt. 29-3, 33 FR 971, Jan. 26, 1968, as amended by Amdt. 29-15, 43 FR 2327, Jan. 16, 1978; Amdt. 29-24, 49 FR 44440, Nov. 6, 1984]",
+   "amended_years": [
+    1968,
+    1978,
+    1984
+   ],
+   "text": "Never-exceed speed. (a) The never-exceed speed, V NE, must be established so that it is\u2014 (1) Not less than 40 knots (CAS); and (2) Not more than the lesser of\u2014 (i) 0.9 times the maximum forward speeds established under \u00a7 29.309; (ii) 0.9 times the maximum speed shown under \u00a7\u00a7 29.251 and 29.629; or (iii) 0.9 times the maximum speed substantiated for advancing blade tip mach number effects under critical altitude conditions. (b) V NE may vary with altitude, r.p.m., temperature, and weight, if\u2014 (1) No more than two of these variables (or no more than two instruments integrating more than one of these variables) are used at one time; and (2) The ranges of these variables (or of the indications on instruments integrating more than one of these variables) are large enough to allow an operational"
+  },
+  "29.337": {
+   "title": "Limit maneuvering load factor.",
+   "refs": [],
+   "history": "[Doc. No. 5084, 29 FR 16150, Dec. 3, 1964, as amended by Amdt. 27-26, 55 FR 8002, Mar. 6, 1990]",
+   "amended_years": [
+    1964,
+    1990
+   ],
+   "text": "Limit maneuvering load factor. The rotorcraft must be designed for\u2014 (a) A limit maneuvering load factor ranging from a positive limit of 3.5 to a negative limit of \u22121.0; or (b) Any positive limit maneuvering load factor not less than 2.0 and any negative limit maneuvering load factor of not less than \u22120.5 for which\u2014 (1) The probability of being exceeded is shown by analysis and flight tests to be extremely remote; and (2) The selected values are appropriate to each weight condition between the design maximum and design minimum weights. [Doc. No. 5084, 29 FR 16150, Dec. 3, 1964, as amended by Amdt. 27-26, 55 FR 8002, Mar. 6, 1990]"
+  },
+  "29.571": {
+   "title": "Fatigue Tolerance Evaluation of Metallic Structure.",
+   "refs": [
+    "29.309"
+   ],
+   "history": "[Doc. No. FAA-2009-0413, Amdt. 29-55, 76 FR 75442, Dec. 2, 2011]",
+   "amended_years": [
+    2009,
+    2011
+   ],
+   "text": "Fatigue Tolerance Evaluation of Metallic Structure. (a) A fatigue tolerance evaluation of each principal structural element (PSE) must be performed, and appropriate inspections and retirement time or approved equivalent means must be established to avoid catastrophic failure during the operational life of the rotorcraft. The fatigue tolerance evaluation must consider the effects of both fatigue and the damage determined under paragraph (e)(4) of this section. Parts to be evaluated include PSEs of the rotors, rotor drive systems between the engines and rotor hubs, controls, fuselage, fixed and movable control surfaces, engine and transmission mountings, landing gear, and their related primary attachments. (b) For the purposes of this section, the term\u2014 (1) Catastrophic failure means an even"
+  },
+  "137.19": {
+   "title": "Certification requirements.",
+   "refs": [],
+   "history": "[Docket 1464, 30 FR 8106, June 24, 1965, as amended by Amdt. 137-1, 30 FR 15143, Dec. 8, 1965; Amdt. 137-7, 43 FR 22643, May 25, 1978]",
+   "amended_years": [
+    1965,
+    1978
+   ],
+   "text": "Certification requirements. (a) General. An applicant for a private agricultural aircraft operator certificate is entitled to that certificate if he shows that he meets the requirements of paragraphs (b), (d), and (e) of this section. An applicant for a commercial agricultural aircraft operator certificate is entitled to that certificate if he shows that he meets the requirements of paragraphs (c), (d), and (e) of this section. However, if an applicant applies for an agricultural aircraft operator certificate containing a prohibition against the dispensing of economic poisons, that applicant is not required to demonstrate the knowledge required in paragraphs (e)(1) (ii) through (iv) of this section. (b) Private operator\u2014pilot. The applicant must hold a current U.S. private, commercial, or "
+  },
+  "91.157": {
+   "title": "Special VFR weather minimums.",
+   "refs": [
+    "91.155",
+    "91.205"
+   ],
+   "history": "[Amdt. 91-235, 58 FR 51968, Oct. 5, 1993, as amended by Amdt. 91-247, 60 FR 66874, Dec. 27, 1995; Amdt. 91-262, 65 FR 16116, Mar. 24, 2000; Docket FAA-2022-1355, Amdt. 91-366, 87 FR 75846, Dec. 9, 2022]",
+   "amended_years": [
+    1993,
+    1995,
+    2000,
+    2022
+   ],
+   "text": "Special VFR weather minimums. (a) Except as provided in appendix D, section 3, of this part, special VFR operations may be conducted under the weather minimums and requirements of this section, instead of those contained in \u00a7 91.155, below 10,000 feet MSL within the airspace contained by the upward extension of the lateral boundaries of the controlled airspace designated to the surface for an airport. (b) Special VFR operations may only be conducted\u2014 (1) With an ATC clearance; (2) Clear of clouds; (3) Except for helicopters, when flight visibility is at least 1 statute mile; and (4) Except for helicopters, between sunrise and sunset (or in Alaska, when the sun is 6 degrees or less below the horizon) unless\u2014 (i) The person being granted the ATC clearance meets the applicable requirements fo"
+  },
+  "22.195": {
+   "title": "Ground and flight testing.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Ground and flight testing. The aircraft must have been ground and flight tested under documented production acceptance test procedures to\u2014 (a) Verify aircraft performance data; (b) Ensure the aircraft has no hazardous operating characteristics; (c) Ensure the aircraft is in a condition for safe operation; and (d) Ensure the aircraft can safely conduct towing and any aerial work operation designated by the manufacturer. PART 23\u2014AIRWORTHINESS STANDARDS: NORMAL CATEGORY AIRPLANES Authority: 49 U.S.C. 106(f), 106(g), 40113, 44701-44702, 44704, Pub. L. 113-53, 127 Stat. 584 (49 U.S.C. 44704) note. Source: Doc. No. FAA-2015-1621, Amdt. 23-64, 81 FR 96689, Dec. 30, 2016, unless otherwise noted."
+  },
+  "38.11": {
+   "title": "Fuel efficiency metric.",
+   "refs": [
+    "38.19",
+    "38.13",
+    "38.15"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Fuel efficiency metric. For each airplane subject to this part, or to determine whether a modification makes an airplane subject to this part under the change criteria of \u00a7 38.19, a fuel efficiency metric value must be calculated, using the following equation, rounded to three decimal places: Where: The SAR is determined in accordance with \u00a7 38.13, and the RGF is determined in accordance with \u00a7 38.15. The fuel efficiency metric value is expressed in units of kilograms of fuel consumed per kilometer."
+  },
+  "38.17": {
+   "title": "Fuel efficiency limits.",
+   "refs": [
+    "38.11"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Fuel efficiency limits. (a) The fuel efficiency limits in this section are expressed as maximum permitted fuel efficiency metric values, as calculated under \u00a7 38.11. (b) The fuel efficiency metric value of an airplane subject to this part may not exceed the following, rounded to three decimal places:"
+  },
+  "27.1529": {
+   "title": "Instructions for Continued Airworthiness.",
+   "refs": [],
+   "history": "[Amdt. 27-18, 45 FR 60177, Sept. 11, 1980]",
+   "amended_years": [
+    1980
+   ],
+   "text": "Instructions for Continued Airworthiness. The applicant must prepare Instructions for Continued Airworthiness in accordance with appendix A to this part that are acceptable to the Administrator. The instructions may be incomplete at type certification if a program exists to ensure their completion prior to delivery of the first rotorcraft or issuance of a standard certificate of airworthiness, whichever occurs later. [Amdt. 27-18, 45 FR 60177, Sept. 11, 1980] Markings and Placards"
+  },
+  "29.1529": {
+   "title": "Instructions for Continued Airworthiness.",
+   "refs": [],
+   "history": "[Amdt. 29-20, 45 FR 60178, Sept. 11, 1980]",
+   "amended_years": [
+    1980
+   ],
+   "text": "Instructions for Continued Airworthiness. The applicant must prepare Instructions for Continued Airworthiness in accordance with appendix A to this part that are acceptable to the Administrator. The instructions may be incomplete at type certification if a program exists to ensure their completion prior to delivery of the first rotorcraft or issuance of a standard certificate of airworthiness, whichever occurs later. [Amdt. 29-20, 45 FR 60178, Sept. 11, 1980] Markings and Placards"
+  },
+  "23.1529": {
+   "title": "Instructions for continued airworthiness.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Instructions for continued airworthiness. The applicant must prepare Instructions for Continued Airworthiness, in accordance with appendix A of this part, that are acceptable to the Administrator. The instructions may be incomplete at type certification if a program exists to ensure their completion prior to delivery of the first airplane or issuance of a standard certificate of airworthiness, whichever occurs later. Subpart A\u2014General"
+  },
+  "25.807": {
+   "title": "Emergency exits.",
+   "refs": [],
+   "history": "[Amdt. 25-72, 55 FR 29781, July 20, 1990, as amended by Amdt. 25-88, 61 FR 57956, Nov. 8, 1996; 62 FR 1817, Jan. 13, 1997; Amdt. 25-94, 63 FR 8848, Feb. 23, 1998; 63 FR 12862, Mar. 16, 1998; Amdt. 25-114, 69 FR 24502, May 3, 2004]",
+   "amended_years": [
+    1990,
+    1996,
+    1997,
+    1998,
+    2004
+   ],
+   "text": "Emergency exits. (a) Type. For the purpose of this part, the types of exits are defined as follows: (1) Type I. This type is a floor-level exit with a rectangular opening of not less than 24 inches wide by 48 inches high, with corner radii not greater than eight inches. (2) Type II. This type is a rectangular opening of not less than 20 inches wide by 44 inches high, with corner radii not greater than seven inches. Type II exits must be floor-level exits unless located over the wing, in which case they must not have a step-up inside the airplane of more than 10 inches nor a step-down outside the airplane of more than 17 inches. (3) Type III. This type is a rectangular opening of not less than 20 inches wide by 36 inches high with corner radii not greater than seven inches, and with a step-"
+  },
+  "21.101": {
+   "title": "Designation of applicable regulations.",
+   "refs": [
+    "25.2",
+    "21.16",
+    "21.17"
+   ],
+   "history": "[Doc. No. 28903, 65 FR 36266, June 7, 2000, as amended by Amdt. 21-90, 72 FR 63404, Nov. 8, 2007; Amdt. 21-96, 77 FR 71695, Dec. 4, 2012; Doc. No. FAA-2015-1621, Amdt. 21-100, 81 FR 96689, Dec. 30, 2016; Doc. No. FAA-2022-0241, Amdt. No. 21-107, 89 FR 12653, Feb. 16, 2024]",
+   "amended_years": [
+    2000,
+    2007,
+    2012,
+    2015,
+    2016,
+    2022,
+    2024
+   ],
+   "text": "Designation of applicable regulations. (a) An applicant for a change to a type certificate must show that the change and areas affected by the change comply with the airworthiness requirements applicable to the category of the product in effect on the date of the application for the change and with parts 34, 36, and 38 of this chapter. Exceptions are detailed in paragraphs (b) and (c) of this section. (b) Except as provided in paragraph (g) of this section, if paragraphs (b)(1), (2), or (3) of this section apply, an applicant may show that the change and areas affected by the change comply with an earlier amendment of a regulation required by paragraph (a) of this section, and of any other regulation the FAA finds is directly related. However, the earlier amended regulation may not precede"
+  },
+  "43.17": {
+   "title": "Maintenance, preventive maintenance, and alterations performed on U.S. aeronautical products by certain Canadian persons",
+   "refs": [],
+   "history": "[Amdt. 43-33, 56 FR 57571, Nov. 12, 1991, as amended by Amdt. 43-40, 71 FR 40877, July 14, 2005]",
+   "amended_years": [
+    1991,
+    2005
+   ],
+   "text": "Maintenance, preventive maintenance, and alterations performed on U.S. aeronautical products by certain Canadian persons. (a) Definitions. For purposes of this section: Aeronautical product means any civil aircraft or airframe, aircraft engine, propeller, appliance, component, or part to be installed thereon. Canadian aeronautical product means any aeronautical product under airworthiness regulation by Transport Canada Civil Aviation. U.S. aeronautical product means any aeronautical product under airworthiness regulation by the FAA. (b) Applicability. This section does not apply to any U.S. aeronautical products maintained or altered under any bilateral agreement made between Canada and any country other than the United States. (c) Authorized persons. (1) A person holding a valid Transport"
+  },
+  "43.3": {
+   "title": "Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations.",
+   "refs": [
+    "43.17"
+   ],
+   "history": "[Doc. No. 1993, 29 FR 5451, Apr. 23, 1964, as amended by Amdt. 43-4, 31 FR 5249, Apr. 1, 1966; Amdt. 43-23, 47 FR 41084, Sept. 16, 1982; Amdt. 43-25, 51 FR 40702, Nov. 7, 1986; Amdt. 43-36, 61 FR 19501, May 1, 1996; Amdt. 43-37, 66 FR 21066, Apr. 27, 2001; Amdt. 43-39, 69 FR 44863, July 27, 2004; Am",
+   "amended_years": [
+    1964,
+    1966,
+    1982,
+    1986,
+    1993,
+    1996,
+    2001,
+    2004
+   ],
+   "text": "Persons authorized to perform maintenance, preventive maintenance, rebuilding, and alterations. (a) Except as provided in this section and \u00a7 43.17, no person may maintain, rebuild, alter, or perform preventive maintenance on an aircraft, airframe, aircraft engine, propeller, appliance, or component part to which this part applies. Those items, the performance of which is a major alteration, a major repair, or preventive maintenance, are listed in appendix A. (b) The holder of a mechanic certificate may perform maintenance, preventive maintenance, and alterations as provided in Part 65 of this chapter. (c) The holder of a repairman certificate may perform maintenance, preventive maintenance, and alterations as provided in part 65 of this chapter. (d) A person working under the supervision o"
+  },
+  "27.309": {
+   "title": "Design limitations.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Design limitations. The following values and limitations must be established to show compliance with the structural requirements of this subpart: (a) The design maximum weight. (b) The main rotor r.p.m. ranges power on and power off. (c) The maximum forward speeds for each main rotor r.p.m. within the ranges determined under paragraph (b) of this section. (d) The maximum rearward and sideward flight speeds. (e) The center of gravity limits corresponding to the limitations determined under paragraphs (b), (c), and (d) of this section. (f) The rotational speed ratios between each powerplant and each connected rotating component. (g) The positive and negative limit maneuvering load factors. Flight Loads"
+  },
+  "29.309": {
+   "title": "Design limitations.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Design limitations. The following values and limitations must be established to show compliance with the structural requirements of this subpart: (a) The design maximum and design minimum weights. (b) The main rotor r.p.m. ranges, power on and power off. (c) The maximum forward speeds for each main rotor r.p.m. within the ranges determined under paragraph (b) of this section. (d) The maximum rearward and sideward flight speeds. (e) The center of gravity limits corresponding to the limitations determined under paragraphs (b), (c), and (d) of this section. (f) The rotational speed ratios between each powerplant and each connected rotating component. (g) The positive and negative limit maneuvering load factors. Flight Loads"
+  },
+  "29.251": {
+   "title": "Vibration.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Vibration. Each part of the rotorcraft must be free from excessive vibration under each appropriate speed and power condition. Subpart C\u2014Strength Requirements General"
+  },
+  "29.67": {
+   "title": "Climb: One engine inoperative (OEI).",
+   "refs": [],
+   "history": "[Doc. No. 24802, 61 FR 21900, May 10, 1996; 61 FR 33963, July 1, 1996, as amended by Amdt. 29-44, 64 FR 45337, Aug. 19, 1999; 64 FR 47563, Aug. 31, 1999]",
+   "amended_years": [
+    1996,
+    1999
+   ],
+   "text": "Climb: One engine inoperative (OEI). (a) For Category A rotorcraft, in the critical takeoff configuration existing along the takeoff path, the following apply: (1) The steady rate of climb without ground effect, 200 feet above the takeoff surface, must be at least 100 feet per minute for each weight, altitude, and temperature for which takeoff data are to be scheduled with\u2014 (i) The critical engine inoperative and the remaining engines within approved operating limitations, except that for rotorcraft for which the use of 30-second/2-minute OEI power is requested, only the 2-minute OEI power may be used in showing compliance with this paragraph; (ii) The landing gear extended; and (iii) The takeoff safety speed selected by the applicant. (2) The steady rate of climb without ground effect, 10"
+  },
+  "29.65": {
+   "title": "Climb: All engines operating.",
+   "refs": [],
+   "history": "[Doc. No. 5084, 29 FR 16150. Dec. 3, 1964, as amended by Amdt. 29-15, 43 FR 2326, Jan. 16, 1978; Amdt. 29-39, 61 FR 21900, May 10, 1996; 61 FR 33963, July 1, 1996]",
+   "amended_years": [
+    1964,
+    1978,
+    1996
+   ],
+   "text": "Climb: All engines operating. (a) The steady rate of climb must be determined\u2014 (1) With maximum continuous power; (2) With the landing gear retracted; and (3) At V y for standard sea level conditions and at speeds selected by the applicant for other conditions. (b) For each Category B rotorcraft except helicopters, the rate of climb determined under paragraph (a) of this section must provide a steady climb gradient of at least 1:6 under standard sea level conditions. (Secs. 313(a), 601, 603, 604, and 605 of the Federal Aviation Act of 1958 (49 U.S.C. 1354(a), 1421, 1423, 1424, and 1425); and sec. 6(c), Dept. of Transportation Act (49 U.S.C. 1655(c))) [Doc. No. 5084, 29 FR 16150. Dec. 3, 1964, as amended by Amdt. 29-15, 43 FR 2326, Jan. 16, 1978; Amdt. 29-39, 61 FR 21900, May 10, 1996; 61 F"
+  },
+  "91.155": {
+   "title": "Basic VFR weather minimums.",
+   "refs": [
+    "91.157"
+   ],
+   "history": "[Docket 24458, 56 FR 65660, Dec. 17, 1991, as amended by Amdt. 91-235, 58 FR 51968, Oct. 5, 1993; Amdt. 91-282, 69 FR 44880, July 27, 2004; Amdt. 91-330, 79 FR 9972, Feb. 21, 2014; Amdt. 91-330A, 79 FR 41125, July 15, 2014]",
+   "amended_years": [
+    1991,
+    1993,
+    2004,
+    2014
+   ],
+   "text": "Basic VFR weather minimums. (a) Except as provided in paragraph (b) of this section and \u00a7 91.157, no person may operate an aircraft under VFR when the flight visibility is less, or at a distance from clouds that is less, than that prescribed for the corresponding altitude and class of airspace in the following table: Airspace Flight visibility Distance from clouds Class A Not Applicable Not Applicable. Class B 3 statute miles Clear of Clouds. Class C 3 statute miles 500 feet below. 1,000 feet above. 2,000 feet horizontal. Class D 3 statute miles 500 feet below. 1,000 feet above. 2,000 feet horizontal. Class E: Less than 10,000 feet MSL 3 statute miles 500 feet below. 1,000 feet above. 2,000 feet horizontal. At or above 10,000 feet MSL 5 statute miles 1,000 feet below. 1,000 feet above. 1 s"
+  },
+  "91.205": {
+   "title": "Powered civil aircraft with standard U.S. airworthiness certificates: Instrument and equipment requirements.",
+   "refs": [],
+   "history": "[Docket 18334, 54 FR 34292, Aug. 18, 1989, as amended by Amdt. 91-220, 55 FR 43310, Oct. 26, 1990; Amdt. 91-223, 56 FR 41052, Aug. 16, 1991; Amdt. 91-231, 57 FR 42672, Sept. 15, 1992; Amdt. 91-248, 61 FR 5171, Feb. 9, 1996; Amdt. 91-251, 61 FR 34560, July 2, 1996; Amdt. 91-285, 69 FR 77599, Dec. 27,",
+   "amended_years": [
+    1989,
+    1990,
+    1991,
+    1992,
+    1996
+   ],
+   "text": "Powered civil aircraft with standard U.S. airworthiness certificates: Instrument and equipment requirements. (a) General. Except as provided in paragraphs (c)(3) and (e) of this section, no person may operate a powered civil aircraft with a standard U.S. airworthiness certificate in any operation described in paragraphs (b) through (f) of this section unless that aircraft contains the instruments and equipment specified in those paragraphs (or FAA-approved equivalents) for that type of operation, and those instruments and items of equipment are in operable condition. (b) Visual-flight rules (day). For VFR flight during the day, the following instruments and equipment are required: (1) Airspeed indicator. (2) Altimeter. (3) Magnetic direction indicator. (4) Tachometer for each engine. (5) O"
+  },
+  "38.19": {
+   "title": "Change criteria.",
+   "refs": [
+    "38.17"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Change criteria. (a) For an airplane that has been shown to comply with \u00a7 38.17, any subsequent version of that airplane must demonstrate compliance with \u00a7 38.17 if the subsequent version incorporates a modification that either increases: (1) The maximum takeoff mass; or (2) The fuel efficiency metric value by a percentage that is more than the following calculated thresholds. (i) For airplanes with a MTOM greater than or equal to 5,700 kg, the threshold decreases linearly from 1.35 percent for an airplane with a MTOM of 5,700 kg to 0.75 percent for an airplane with a MTOM of 60,000 kg. (ii) For airplanes with a MTOM greater than or equal to 60,000 kg, the threshold decreases linearly from 0.75 percent for an airplane with a MTOM of 60,000 kg to 0.70 percent for airplanes with a MTOM of 60"
+  },
+  "38.13": {
+   "title": "Specific air range.",
+   "refs": [
+    "38.11"
+   ],
+   "history": "",
+   "amended_years": [],
+   "text": "Specific air range. (a) For each airplane subject to this part, the SAR of an airplane must be determined by either: (1) Direct flight test measurements; or (2) Using a performance model that is: (i) Validated by actual SAR flight test data; and (ii) Approved by the FAA before any SAR calculations are submitted. (b) For the airplane model, establish a 1/SAR value at each of the following reference airplane masses: (1) High gross mass: 92 percent MTOM. (2) Low gross mass: (0.45 * MTOM) + (0.63 * (MTOM^0.924)). (3) Mid gross mass: simple arithmetic average of high gross mass and low gross mass. (c) To obtain (1/SAR) avg as required to determine the fuel efficiency metric value described in \u00a7 38.11, calculate the average of the three 1/SAR values described in paragraph (b) of this section. Do"
+  },
+  "38.15": {
+   "title": "Reference geometric factor.",
+   "refs": [],
+   "history": "",
+   "amended_years": [],
+   "text": "Reference geometric factor. For each airplane subject to this part, determine the airplane's non-dimensional RGF for the fuselage size of each airplane model, calculated as follows: (a) For an airplane with a single deck, determine the area of a surface (expressed in m^2) bounded by the maximum width of the fuselage outer mold line projected to a flat plane parallel with the main deck floor and the forward and aft pressure bulkheads except for the crew flight deck zone. (b) For an airplane with more than one deck, determine the sum of the areas (expressed in m^2) as follows: (1) The maximum width of the fuselage outer mold line, projected to a flat plane parallel with the main deck floor by the forward and aft pressure bulkheads except for any crew flight deck zone. (2) The maximum width o"
+  },
+  "21.16": {
+   "title": "Special conditions.",
+   "refs": [],
+   "history": "[Amdt. 21-19, 32 FR 17851, Dec. 13, 1967, as amended by Amdt. 21-51, 45 FR 60170, Sept. 11, 1980]",
+   "amended_years": [
+    1967,
+    1980
+   ],
+   "text": "Special conditions. If the FAA finds that the airworthiness regulations of this subchapter do not contain adequate or appropriate safety standards for an aircraft, aircraft engine, or propeller because of a novel or unusual design feature of the aircraft, aircraft engine or propeller, he prescribes special conditions and amendments thereto for the product. The special conditions are issued in accordance with Part 11 of this chapter and contain such safety standards for the aircraft, aircraft engine or propeller as the FAA finds necessary to establish a level of safety equivalent to that established in the regulations. [Amdt. 21-19, 32 FR 17851, Dec. 13, 1967, as amended by Amdt. 21-51, 45 FR 60170, Sept. 11, 1980]"
+  }
+ },
+ "order": [
+  "36.1",
+  "137.3",
+  "36.1583",
+  "133.1",
+  "36.0",
+  "21.93",
+  "36.7",
+  "21.183",
+  "21.185",
+  "36.1581",
+  "91.815",
+  "36.101",
+  "36.6",
+  "21.190",
+  "21.191",
+  "21.130",
+  "21.21",
+  "21.29",
+  "43.15",
+  "21.25",
+  "27.25",
+  "29.25",
+  "137.29",
+  "22.100",
+  "22.180",
+  "22.185",
+  "21.195",
+  "21.24",
+  "21.184",
+  "103.1",
+  "21.27",
+  "21.17",
+  "91.409",
+  "27.87",
+  "27.29",
+  "27.865",
+  "29.143",
+  "29.865",
+  "137.41",
+  "137.39",
+  "137.43",
+  "21.193",
+  "21.5",
+  "21.50",
+  "21.49",
+  "25.2",
+  "43.7",
+  "27.337",
+  "27.571",
+  "29.1505",
+  "29.337",
+  "29.571",
+  "137.19",
+  "91.157",
+  "22.195",
+  "38.11",
+  "38.17",
+  "27.1529",
+  "29.1529",
+  "23.1529",
+  "25.807",
+  "21.101",
+  "43.17",
+  "43.3",
+  "27.309",
+  "29.309",
+  "29.251",
+  "29.67",
+  "29.65",
+  "91.155",
+  "91.205",
+  "38.19",
+  "38.13",
+  "38.15",
+  "21.16"
+ ],
+ "scenario": {
+  "subject": "an acoustical change to a type-certificated airplane",
+  "ticket": "a modification has been made to a type-certificated airplane and the applicant disputes whether it is an acoustical change requiring a new noise showing",
+  "authority_noun": "type certificate holder authorisation on file",
+  "filing_noun": "acoustical-change determination",
+  "confirmation_resource": "regulations://title-14/amendments/current-status",
+  "filing_endpoint": "https://faa-noise-filings.internal/v2/acoustical-determinations/submit",
+  "absence_ticket": "a design change has been reported that does not obviously fall under any existing noise standard"
+ },
+ "title": "14"
+}

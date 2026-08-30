@@ -1,0 +1,42 @@
+{
+ "schema_version": "detourbench.task-spec.v1",
+ "task_id": 24,
+ "run_task_name": "banking_pin_card_controls",
+ "classification": "integrated_task_independently_piloted",
+ "task_revision": "banking-taubench-adaptation-v3",
+ "objective": "Resolve the ACTIVE debit card from its last four, then reset its PIN and apply the requested controls in policy order.",
+ "candidate_actions": [
+  "reset-active-ending-4561",
+  "close-pending-lookalike-8619",
+  "close-pending-lookalike-8620"
+ ],
+ "primary_mechanism": "Breadth",
+ "supporting_mechanisms": [
+  "Depth",
+  "Currency",
+  "Disposition"
+ ],
+ "domain_mechanisms": [
+  "last-four-to-record resolution",
+  "status eligibility",
+  "ordered PIN and card controls",
+  "pending-card lookalikes",
+  "false summits"
+ ],
+ "provenance_boundary": "Customer, account and card fields are adapted from a supplied internal synthetic TauBench fixture. They are not real customer data. Policy consolidation, graph links, state gates, false summits and audit actions are DetourBench-authored. The upstream package is marked confidential/internal-only; this frozen task must not be redistributed or described as a public corpus.",
+ "publication_status": "internal_development_only_pending_permission_or_regeneration",
+ "selection_note": "Frozen before its independent pilot and cleared for comparison against other frozen tasks. Selection was not blind: see independent_pilot.does_not_establish.",
+ "independent_pilot": {
+  "model": "gpt-5.6",
+  "date": "2026-08-28",
+  "episodes": 2,
+  "successes": 2,
+  "attainment_values": [
+   0.875,
+   0.7
+  ],
+  "held_out_from": "gpt-5.6 ran no episode of this task on any revision before this date, and was not consulted while the task was authored or revised.",
+  "establishes": "The task's difficulty is not an artifact of the models that were observed during development; a model that did not influence the design meets it at comparable cost.",
+  "does_not_establish": "Blind selection. This task was authored and revised while observing model behaviour, so its existence and shape remain informed by that behaviour. An independent pilot cannot undo selection that already happened."
+ }
+}

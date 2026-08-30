@@ -1,0 +1,25 @@
+{
+ "lower_bound_steps": 10,
+ "oracle_lower_bound": 10,
+ "informed_lower_bound": 10,
+ "oracle_edge_path": [
+  "e_ticket",
+  "e_ci",
+  "e_lock",
+  "e_deps",
+  "e_dep",
+  "e_osv",
+  "e_commit",
+  "e_impl",
+  "e_test",
+  "e_verify"
+ ],
+ "difficulty": "hard",
+ "step_budget": 15,
+ "difficulty_multiplier": 1.5,
+ "metric_version": "attainment-v2-success-weighted-oracle",
+ "theme": "software_dependency",
+ "topology": "integrated_software_case",
+ "n_nodes": 17,
+ "n_dead_end_nodes": 6
+}

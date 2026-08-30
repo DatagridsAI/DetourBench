@@ -1,0 +1,657 @@
+{
+  "schema_version": "detourbench.edgar-overlay.v1",
+  "task_name": "finance_registration_effectiveness",
+  "upstream_dataset": "SEC EDGAR",
+  "upstream_endpoints": [
+    "https://data.sec.gov/submissions/CIK0001506492.json",
+    "https://www.sec.gov/Archives/edgar/data/1506492/"
+  ],
+  "extractor": "fetch_edgar_nuwe.py",
+  "retrieved_on": "2026-08-28",
+  "snapshot_date": "2024-09-20",
+  "index_window_start": "2023-09-20",
+  "index_scope": "registrant periodic, current and registration filings, and the Commission's orders of effectiveness",
+  "issuer": {
+    "name": "Nuwellis, Inc.",
+    "cik": "0001506492",
+    "tickers": [
+      "NUWE"
+    ],
+    "exchanges": [
+      "Nasdaq"
+    ],
+    "sic_description": "Electromedical & Electrotherapeutic Apparatus",
+    "fiscal_year_end": "1231"
+  },
+  "observed_filing_index": [
+    {
+      "accessionNumber": "0001140361-23-044639",
+      "filingDate": "2023-09-21",
+      "reportDate": "",
+      "form": "S-1",
+      "items": "",
+      "primaryDocument": "ny20010661x1_s1.htm",
+      "primaryDocDescription": "S-1",
+      "fileNumber": "333-274610"
+    },
+    {
+      "accessionNumber": "0001140361-23-045868",
+      "filingDate": "2023-09-29",
+      "reportDate": "",
+      "form": "S-1/A",
+      "items": "",
+      "primaryDocument": "ny20010661x2_s1a.htm",
+      "primaryDocDescription": "S-1/A",
+      "fileNumber": "333-274610"
+    },
+    {
+      "accessionNumber": "9999999995-23-002907",
+      "filingDate": "2023-09-29",
+      "reportDate": "",
+      "form": "EFFECT",
+      "items": "S-1,,2023-09-29 16:01:00",
+      "primaryDocument": "xslEFFECTX01/primary_doc.xml",
+      "primaryDocDescription": "",
+      "fileNumber": "333-274610"
+    },
+    {
+      "accessionNumber": "0001140361-23-046996",
+      "filingDate": "2023-10-04",
+      "reportDate": "",
+      "form": "POS AM",
+      "items": "",
+      "primaryDocument": "ny20010661x5_posam.htm",
+      "primaryDocDescription": "POS AM",
+      "fileNumber": "333-274610"
+    },
+    {
+      "accessionNumber": "0001140361-23-047520",
+      "filingDate": "2023-10-10",
+      "reportDate": "2023-10-10",
+      "form": "8-K",
+      "items": "8.01,9.01",
+      "primaryDocument": "ef20012198_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-23-048227",
+      "filingDate": "2023-10-16",
+      "reportDate": "",
+      "form": "424B4",
+      "items": "",
+      "primaryDocument": "ny20012552x1_424b4.htm",
+      "primaryDocDescription": "424B4",
+      "fileNumber": "333-274610"
+    },
+    {
+      "accessionNumber": "0001140361-23-048531",
+      "filingDate": "2023-10-17",
+      "reportDate": "2023-10-12",
+      "form": "8-K",
+      "items": "1.01,3.03,5.03,8.01,9.01",
+      "primaryDocument": "ny20012552x2_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-23-050839",
+      "filingDate": "2023-11-01",
+      "reportDate": "2023-10-30",
+      "form": "8-K",
+      "items": "5.02,9.01",
+      "primaryDocument": "ef20013762_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-23-051737",
+      "filingDate": "2023-11-07",
+      "reportDate": "2023-11-07",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "ef20014069_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-23-051814",
+      "filingDate": "2023-11-07",
+      "reportDate": "2023-09-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "ef20012450_10q.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-23-057477",
+      "filingDate": "2023-12-13",
+      "reportDate": "2023-12-07",
+      "form": "8-K",
+      "items": "3.01",
+      "primaryDocument": "ef20016446_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-001215",
+      "filingDate": "2024-01-08",
+      "reportDate": "2024-01-08",
+      "form": "8-K",
+      "items": "7.01,9.01",
+      "primaryDocument": "ny20017086x2_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-001564",
+      "filingDate": "2024-01-09",
+      "reportDate": "2024-01-09",
+      "form": "8-K/A",
+      "items": "7.01,9.01",
+      "primaryDocument": "ny20017086x3_8ka.htm",
+      "primaryDocDescription": "FORM 8-K/A",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-002619",
+      "filingDate": "2024-01-18",
+      "reportDate": "",
+      "form": "S-1",
+      "items": "",
+      "primaryDocument": "ny20017086x1_s1.htm",
+      "primaryDocDescription": "S-1",
+      "fileNumber": "333-276562"
+    },
+    {
+      "accessionNumber": "0001140361-24-004664",
+      "filingDate": "2024-01-31",
+      "reportDate": "",
+      "form": "S-1/A",
+      "items": "",
+      "primaryDocument": "ny20017086x4_s1a.htm",
+      "primaryDocDescription": "S-1/A",
+      "fileNumber": "333-276562"
+    },
+    {
+      "accessionNumber": "0001140361-24-005711",
+      "filingDate": "2024-02-05",
+      "reportDate": "",
+      "form": "S-1/A",
+      "items": "",
+      "primaryDocument": "ny20017086x6_s1a.htm",
+      "primaryDocDescription": "S-1/A",
+      "fileNumber": "333-276562"
+    },
+    {
+      "accessionNumber": "0001140361-24-005784",
+      "filingDate": "2024-02-06",
+      "reportDate": "2024-02-06",
+      "form": "8-K",
+      "items": "8.01,9.01",
+      "primaryDocument": "ny20017086x5_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-006462",
+      "filingDate": "2024-02-08",
+      "reportDate": "",
+      "form": "S-1/A",
+      "items": "",
+      "primaryDocument": "ny20017086x9_s1a.htm",
+      "primaryDocDescription": "S-1/A",
+      "fileNumber": "333-276562"
+    },
+    {
+      "accessionNumber": "0001140361-24-011633",
+      "filingDate": "2024-03-06",
+      "reportDate": "2024-03-05",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "ef20023378_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-012644",
+      "filingDate": "2024-03-11",
+      "reportDate": "2023-12-31",
+      "form": "10-K",
+      "items": "",
+      "primaryDocument": "ef20015266_10k.htm",
+      "primaryDocDescription": "10-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-012922",
+      "filingDate": "2024-03-13",
+      "reportDate": "",
+      "form": "S-1/A",
+      "items": "",
+      "primaryDocument": "ny20023644x1_s1a.htm",
+      "primaryDocDescription": "",
+      "fileNumber": "333-276562"
+    },
+    {
+      "accessionNumber": "0001140361-24-015313",
+      "filingDate": "2024-03-26",
+      "reportDate": "2024-03-26",
+      "form": "8-K",
+      "items": "8.01",
+      "primaryDocument": "ef20025124_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-020212",
+      "filingDate": "2024-04-17",
+      "reportDate": "",
+      "form": "S-1/A",
+      "items": "",
+      "primaryDocument": "ny20023644x2_s1a.htm",
+      "primaryDocDescription": "S-1/A",
+      "fileNumber": "333-276562"
+    },
+    {
+      "accessionNumber": "9999999995-24-001148",
+      "filingDate": "2024-04-26",
+      "reportDate": "",
+      "form": "EFFECT",
+      "items": "S-1,,2024-04-26 09:00:00",
+      "primaryDocument": "xslEFFECTX01/primary_doc.xml",
+      "primaryDocDescription": "",
+      "fileNumber": "333-276562"
+    },
+    {
+      "accessionNumber": "0001140361-24-023072",
+      "filingDate": "2024-04-29",
+      "reportDate": "",
+      "form": "424B4",
+      "items": "",
+      "primaryDocument": "ny20023644x5_424b4.htm",
+      "primaryDocDescription": "424B4",
+      "fileNumber": "333-276562"
+    },
+    {
+      "accessionNumber": "0001140361-24-023484",
+      "filingDate": "2024-05-01",
+      "reportDate": "2024-04-26",
+      "form": "8-K",
+      "items": "1.01,8.01,9.01",
+      "primaryDocument": "ny20023644x11_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001539497-24-000930",
+      "filingDate": "2024-05-01",
+      "reportDate": "2024-06-06",
+      "form": "DEF 14A",
+      "items": "",
+      "primaryDocument": "n4127_x2-def14a.htm",
+      "primaryDocDescription": "DEF 14A",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-024646",
+      "filingDate": "2024-05-07",
+      "reportDate": "2024-05-07",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "ef20028479_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-024996",
+      "filingDate": "2024-05-08",
+      "reportDate": "2024-03-31",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "ef20026284_10q.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-027914",
+      "filingDate": "2024-05-29",
+      "reportDate": "2024-05-23",
+      "form": "8-K",
+      "items": "3.01,8.01",
+      "primaryDocument": "ef20030226_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-029069",
+      "filingDate": "2024-06-06",
+      "reportDate": "2024-05-31",
+      "form": "8-K",
+      "items": "1.01,8.01,9.01",
+      "primaryDocument": "ef20030547_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-029567",
+      "filingDate": "2024-06-10",
+      "reportDate": "2024-06-05",
+      "form": "8-K",
+      "items": "3.01,5.07",
+      "primaryDocument": "ef20030740_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-031389",
+      "filingDate": "2024-06-26",
+      "reportDate": "2024-06-26",
+      "form": "8-K",
+      "items": "3.03,5.03,7.01,9.01",
+      "primaryDocument": "ef20031638_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-032001",
+      "filingDate": "2024-07-01",
+      "reportDate": "",
+      "form": "S-3",
+      "items": "",
+      "primaryDocument": "ny20031859x1_s3.htm",
+      "primaryDocDescription": "S-3",
+      "fileNumber": "333-280647"
+    },
+    {
+      "accessionNumber": "0001140361-24-032403",
+      "filingDate": "2024-07-03",
+      "reportDate": "2024-07-01",
+      "form": "8-K",
+      "items": "1.02",
+      "primaryDocument": "ny20031859x2_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "9999999995-24-002111",
+      "filingDate": "2024-07-09",
+      "reportDate": "",
+      "form": "EFFECT",
+      "items": "S-3,,2024-07-09 16:30:00",
+      "primaryDocument": "xslEFFECTX01/primary_doc.xml",
+      "primaryDocDescription": "",
+      "fileNumber": "333-280647"
+    },
+    {
+      "accessionNumber": "0001140361-24-033343",
+      "filingDate": "2024-07-17",
+      "reportDate": "2024-07-16",
+      "form": "8-K",
+      "items": "8.01,9.01",
+      "primaryDocument": "ef20032513_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-033362",
+      "filingDate": "2024-07-17",
+      "reportDate": "2024-07-17",
+      "form": "8-K",
+      "items": "7.01,8.01,9.01",
+      "primaryDocument": "ef20032543_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-033392",
+      "filingDate": "2024-07-17",
+      "reportDate": "2024-07-16",
+      "form": "8-K/A",
+      "items": "8.01,9.01",
+      "primaryDocument": "ef20032557_8ka.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-034104",
+      "filingDate": "2024-07-25",
+      "reportDate": "2024-07-24",
+      "form": "8-K",
+      "items": "1.01,3.02,7.01,9.01",
+      "primaryDocument": "ef20032962_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-034116",
+      "filingDate": "2024-07-25",
+      "reportDate": "",
+      "form": "424B5",
+      "items": "",
+      "primaryDocument": "ny20033034x1_424b5.htm",
+      "primaryDocDescription": "424B5",
+      "fileNumber": "333-280647"
+    },
+    {
+      "accessionNumber": "0001140361-24-036718",
+      "filingDate": "2024-08-12",
+      "reportDate": "2024-08-08",
+      "form": "8-K",
+      "items": "3.01",
+      "primaryDocument": "ny20033942x2_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-036995",
+      "filingDate": "2024-08-13",
+      "reportDate": "2024-08-13",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "primaryDocument": "ef20033985_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-037113",
+      "filingDate": "2024-08-13",
+      "reportDate": "2024-06-30",
+      "form": "10-Q",
+      "items": "",
+      "primaryDocument": "ef20029700_10q.htm",
+      "primaryDocDescription": "10-Q",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-037382",
+      "filingDate": "2024-08-15",
+      "reportDate": "",
+      "form": "S-1",
+      "items": "",
+      "primaryDocument": "ny20033942x1_s1.htm",
+      "primaryDocDescription": "FORM S-1",
+      "fileNumber": "333-281563"
+    },
+    {
+      "accessionNumber": "0001140361-24-038108",
+      "filingDate": "2024-08-22",
+      "reportDate": "2024-08-21",
+      "form": "8-K",
+      "items": "1.02,9.01",
+      "primaryDocument": "ef20034497_8k.htm",
+      "primaryDocDescription": "8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-038439",
+      "filingDate": "2024-08-26",
+      "reportDate": "",
+      "form": "424B5",
+      "items": "",
+      "primaryDocument": "ny20034687x1_424b5.htm",
+      "primaryDocDescription": "424B5",
+      "fileNumber": "333-280647"
+    },
+    {
+      "accessionNumber": "0001140361-24-038578",
+      "filingDate": "2024-08-26",
+      "reportDate": "2024-08-23",
+      "form": "8-K",
+      "items": "1.01,3.02,7.01,9.01",
+      "primaryDocument": "ny20034687x2_8k.htm",
+      "primaryDocDescription": "FORM 8-K",
+      "fileNumber": "001-35312"
+    },
+    {
+      "accessionNumber": "0001140361-24-039018",
+      "filingDate": "2024-08-29",
+      "reportDate": "",
+      "form": "S-1/A",
+      "items": "",
+      "primaryDocument": "ny20033942x3_s1a.htm",
+      "primaryDocDescription": "S-1/A",
+      "fileNumber": "333-281563"
+    },
+    {
+      "accessionNumber": "0001140361-24-040479",
+      "filingDate": "2024-09-06",
+      "reportDate": "",
+      "form": "424B3",
+      "items": "",
+      "primaryDocument": "ny20033942x5_424b3.htm",
+      "primaryDocDescription": "424B3",
+      "fileNumber": "333-281563"
+    },
+    {
+      "accessionNumber": "9999999995-24-002740",
+      "filingDate": "2024-09-06",
+      "reportDate": "",
+      "form": "EFFECT",
+      "items": "S-1,,2024-09-06 16:30:00",
+      "primaryDocument": "xslEFFECTX01/primary_doc.xml",
+      "primaryDocDescription": "",
+      "fileNumber": "333-281563"
+    }
+  ],
+  "observed_chains_by_file_number": {
+    "333-274610": [
+      {
+        "filingDate": "2023-09-21",
+        "form": "S-1",
+        "accessionNumber": "0001140361-23-044639"
+      },
+      {
+        "filingDate": "2023-09-29",
+        "form": "S-1/A",
+        "accessionNumber": "0001140361-23-045868"
+      },
+      {
+        "filingDate": "2023-09-29",
+        "form": "EFFECT",
+        "accessionNumber": "9999999995-23-002907"
+      },
+      {
+        "filingDate": "2023-10-04",
+        "form": "POS AM",
+        "accessionNumber": "0001140361-23-046996"
+      },
+      {
+        "filingDate": "2023-10-16",
+        "form": "424B4",
+        "accessionNumber": "0001140361-23-048227"
+      }
+    ],
+    "333-276562": [
+      {
+        "filingDate": "2024-01-18",
+        "form": "S-1",
+        "accessionNumber": "0001140361-24-002619"
+      },
+      {
+        "filingDate": "2024-01-31",
+        "form": "S-1/A",
+        "accessionNumber": "0001140361-24-004664"
+      },
+      {
+        "filingDate": "2024-02-05",
+        "form": "S-1/A",
+        "accessionNumber": "0001140361-24-005711"
+      },
+      {
+        "filingDate": "2024-02-08",
+        "form": "S-1/A",
+        "accessionNumber": "0001140361-24-006462"
+      },
+      {
+        "filingDate": "2024-03-13",
+        "form": "S-1/A",
+        "accessionNumber": "0001140361-24-012922"
+      },
+      {
+        "filingDate": "2024-04-17",
+        "form": "S-1/A",
+        "accessionNumber": "0001140361-24-020212"
+      },
+      {
+        "filingDate": "2024-04-26",
+        "form": "EFFECT",
+        "accessionNumber": "9999999995-24-001148"
+      },
+      {
+        "filingDate": "2024-04-29",
+        "form": "424B4",
+        "accessionNumber": "0001140361-24-023072"
+      }
+    ],
+    "333-280647": [
+      {
+        "filingDate": "2024-07-01",
+        "form": "S-3",
+        "accessionNumber": "0001140361-24-032001"
+      },
+      {
+        "filingDate": "2024-07-09",
+        "form": "EFFECT",
+        "accessionNumber": "9999999995-24-002111"
+      },
+      {
+        "filingDate": "2024-07-25",
+        "form": "424B5",
+        "accessionNumber": "0001140361-24-034116"
+      },
+      {
+        "filingDate": "2024-08-26",
+        "form": "424B5",
+        "accessionNumber": "0001140361-24-038439"
+      }
+    ],
+    "333-281563": [
+      {
+        "filingDate": "2024-08-15",
+        "form": "S-1",
+        "accessionNumber": "0001140361-24-037382"
+      },
+      {
+        "filingDate": "2024-08-29",
+        "form": "S-1/A",
+        "accessionNumber": "0001140361-24-039018"
+      },
+      {
+        "filingDate": "2024-09-06",
+        "form": "424B3",
+        "accessionNumber": "0001140361-24-040479"
+      },
+      {
+        "filingDate": "2024-09-06",
+        "form": "EFFECT",
+        "accessionNumber": "9999999995-24-002740"
+      }
+    ]
+  },
+  "seed_accession": "0001140361-24-038439",
+  "observed_excerpts": {
+    "supplement_head": "Prospectus Supplement ​ ​ About This Prospectus Supplement ​ ​ S- ii Special Note Regarding Forward-Looking Statements ​ ​ S- iv Prospectus Supplement Summary ​ ​ S- 1 The Offering ​ ​ S- 2 Risk Factors ​ ​ S- 4 Use of Proceeds ​ ​ S- 9 Dilution ​ ​ S-10 Concurrent Private Placement of Warrants ​ ​ S-12 Plan of Distribution ​ ​ S-14 Legal Matters ​ ​ S-16 Experts ​ ​ S-16 Where You Can Find More Information ​ ​ S-16 Incorporation of Certain Information by Reference ​ ​ S-17 Prospectus ​ ​ About This Prospectus ​ ​ ii Prospectus Summary ​ ​ 1 Risk Factors ​ ​ 8 Special Note Regarding Forward-Looking Statements ​ ​ 9 Use of Proceeds ​ ​ 10 Description of Common Stock ​ ​ 11 Description of"
+  }
+}

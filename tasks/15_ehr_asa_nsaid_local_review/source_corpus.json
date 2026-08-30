@@ -1,0 +1,133 @@
+{
+  "schema_version": "detourbench.ehr-case.v1",
+  "case_id": "it-ehr-21-asa-nsaid-class",
+  "evidence_cluster_id": "ehr-asa-nsaid-class-crosswalk",
+  "snapshot_date": "2026-08-24",
+  "domain": "ehr_medication_safety",
+  "integrated_variant": "ehr_asa_nsaid_class",
+  "synthea": {
+    "output_root": "/data/benchmarks/raw-corpora/synthea-generated/output",
+    "csv_patients": "csv/patients.csv",
+    "csv_medications": "csv/medications.csv",
+    "csv_allergies": "csv/allergies.csv"
+  },
+  "frozen_ehr": {
+    "provenance": "observed",
+    "patient_id": "db600f8b-7bb1-fb8c-7f14-02b16e7c9a34",
+    "name": "Elvin140 Bergnaum523",
+    "birthdate": "1968-03-16",
+    "sex": "M",
+    "city": "Beverly",
+    "state": "Massachusetts",
+    "conditions": [
+      {
+        "code": "239873007",
+        "system": "SNOMED-CT",
+        "display": "Osteoarthritis of knee (disorder)",
+        "onset": "2015-03-17"
+      },
+      {
+        "code": "55822004",
+        "system": "SNOMED-CT",
+        "display": "Hyperlipidemia (disorder)",
+        "onset": "2024-04-20"
+      }
+    ],
+    "medications": [
+      {
+        "code": "849574",
+        "system": "RxNorm",
+        "display": "Naproxen sodium 220 MG Oral Tablet",
+        "start": "2015-03-17T11:34:50Z",
+        "stop": null,
+        "reason": "Osteoarthritis of knee (disorder)"
+      },
+      {
+        "code": "314231",
+        "system": "RxNorm",
+        "display": "Simvastatin 10 MG Oral Tablet",
+        "start": "2026-05-23T11:34:50Z",
+        "stop": null
+      }
+    ],
+    "allergies": [
+      {
+        "code": "1191",
+        "category": "medication",
+        "type": "allergy",
+        "display": "Aspirin",
+        "start": "1993-10-18"
+      },
+      {
+        "code": "84489001",
+        "category": "environment",
+        "type": "allergy",
+        "display": "Mold (organism)",
+        "start": "1993-10-18"
+      }
+    ]
+  },
+  "scenario_overlay": {
+    "provenance": "generated",
+    "ticket": "RXQ-CAL21",
+    "summary": "a 90-day naproxen sodium 220 mg refill is waiting after the 2026-05-23 lipid follow-up. Review the available chart materials and determine the appropriate safe disposition for this refill request.",
+    "queue_note": "RXQ-CAL21 is a refill of naproxen sodium 220 mg tablets, 90-day supply. Supporting chart material is listed from the patient header.",
+    "patient_header": "Elvin140 Bergnaum523, DOB 1968-03-16, MRN db600f8b-7bb1-fb8c-7f14-02b16e7c9a34, Beverly MA.",
+    "active_medications": "The naproxen MedicationRequest remains active. Supporting chart material includes an allergy folder, clinical-documents folder, an allergy-exception registry, lipid therapy, coverage records, and a pain-diagnosis panel. Use the ticket safety synthesis after gathering the governing allergy, class, and exception evidence. Clinical notes may be inspected for conflicting claims but are not prerequisites for the governing class decision.",
+    "allergy_entry": "Allergy folder charted 1993-10-18. Open the medication-class allergy and the environmental entries as needed. This folder does not itself authorize or block dispense.",
+    "allergy_asa": "AllergyIntolerance: Aspirin, category medication, type allergy, code 1191, START 1993-10-18, STOP none. Observed Synthea row. The record does not name naproxen.",
+    "class_label": "Local pharmacy queue monograph (generated overlay, not a Synthea row): when a medication-category aspirin allergy lacks a documented reaction phenotype, an outpatient naproxen refill is routed to pending allergy review unless an allergist exception is on file. This is a conservative local workflow trigger, not a claim that every aspirin allergy is the same FDA-labeled contraindication. The monograph does not establish whether RXQ-CAL21 has an exception; that is a ticket-specific registry fact.",
+    "allergy_mold": "AllergyIntolerance: Mold (organism), category environment, START 1993-10-18. Observed Synthea row. Environmental mold is not an NSAID-class fact.",
+    "document_entry": "Clinical-documents folder: orthopedic follow-up note, dental referral, DSTU2 problem export, and prior ibuprofen fill commentary.",
+    "ortho_note": "Orthopedic follow-up note — attested 2026-05-20T09:00:00Z (generated overlay). Assessment: 'OA knee, continue naproxen as needed. No drug allergy documented on this note.' The note does not open the 1993 AllergyIntolerance list.",
+    "dental_note": "Dental referral 2026-05-16: leaking filling / gingivitis. No NSAID decision.",
+    "dstu2": "FHIR DSTU2 Condition export lists osteoarthritis of the knee and has no AllergyIntolerance resources.",
+    "old_ibuprofen": "Commentary (generated): a 2016–2017 ibuprofen 400 mg row is stopped. Prior NSAID exposure does not erase the aspirin allergy.",
+    "exception_entry": "Allergy-exception registry for RXQ-CAL21. Search the ticket-specific entries before treating the class rule as final; the registry index alone does not establish whether an exception exists.",
+    "exception_result": "Ticket-specific exception search: no active allergist exception, graded challenge clearance, or prescriber override is attached to RXQ-CAL21. This result applies only to this refill review.",
+    "synthesis": "Medication-safety synthesis requires the active aspirin AllergyIntolerance, the aspirin-to-NSAID class mapping, and the ticket-specific exception search. The evidence set is now complete. A specialty note that merely omits the allergy list is a recoverable conflicting-evidence detour, not a prerequisite.",
+    "simvastatin_note": "Simvastatin 10 mg START 2026-05-23, OPEN. Lipid therapy is out of scope for RXQ-CAL21.",
+    "fibro_note": "Fibromyalgia and chronic low back pain are on the problem list. They do not create a PDMP or 2-of-3 monitoring pack for this naproxen ticket.",
+    "coverage_entry": "Medicare member window 2026-03-21/2027-03-16. Coverage does not decide NSAID class safety.",
+    "eligibility": "Part D eligibility is in-window for naproxen OTC-equivalent tablets.",
+    "formulary": "Plan preferred NSAID list includes naproxen sodium 220 mg.",
+    "copay": "Estimated copay is low; cost is not the blocking issue.",
+    "sepsis_note": "Sepsis condition START 2025-08-11 remains listed. It does not authorize an NSAID refill.",
+    "labeling_authority": "For this local queue, a medication-category aspirin AllergyIntolerance with no documented reaction phenotype is not cleared by an informal 'no drug allergy documented' line on a later specialty note. Current naproxen labeling specifically warns about aspirin-sensitive asthma and cross-reactivity; it does not establish that every generic aspirin-allergy entry has that phenotype. Under the conservative local workflow, when the allergy remains uncharacterized and no allergist exception is on file, do not label or dispense the refill. Place the request in pending-allergy-review, notify the prescriber, and do not discontinue the osteoarthritis plan.",
+    "hold_result": "RXQ-CAL21 fulfillment is paused with status pending-allergy-review; this is not a medication discontinuation order. Record the handoff.",
+    "verification": "Pharmacy queue RXQ-CAL21 remains open in pending-allergy-review status; no naproxen bottles are labeled or dispensed, and therapy is not discontinued.",
+    "generic_review": "A generic pharmacist-review bucket is selectable but does not apply the NSAID-class rule."
+  },
+  "observed_evidence": [
+    {
+      "provenance": "observed",
+      "title": "FDA-approved 2024 naproxen labeling",
+      "source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/017581s117%2C018164s067%2C020067s026lbl.pdf",
+      "claim": "The label identifies cross-reactivity risk and a contraindication for aspirin-sensitive asthma. It does not convert an uncharacterized aspirin-allergy entry into that phenotype; the broader pending-review trigger is explicitly local policy."
+    },
+    {
+      "provenance": "observed",
+      "title": "RxNorm 849574 naproxen sodium 220 mg",
+      "source_url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=849574",
+      "claim": "RxNorm 849574 is the Synthea code for naproxen sodium 220 MG Oral Tablet on this chart."
+    },
+    {
+      "provenance": "observed",
+      "title": "FHIR AllergyIntolerance clinical status",
+      "source_url": "https://hl7.org/fhir/R4/allergyintolerance.html",
+      "claim": "An AllergyIntolerance is an independently addressable record; a later note that does not reference it does not delete it."
+    }
+  ],
+  "decision_policy": {
+    "provenance": "generated",
+    "source_url": "scenario://ehr/policy/nsaid-class-allergy",
+    "rule": "Local queue rule: if a medication-category aspirin AllergyIntolerance is active, its reaction phenotype is not documented, the queued product is naproxen, and no ticket-specific allergist exception is found, do not dispense from this queue. Route to pending allergy review and notify the prescriber. A specialty note that merely omits the allergy list does not clear the record. This workflow does not assert aspirin-sensitive asthma, and it does not discontinue osteoarthritis therapy."
+  },
+  "plausible_distractors": [
+    "dispense because the 2026 orthopedic note says no drug allergy",
+    "treat mold allergy as the blocking issue",
+    "attribute the hold to simvastatin interaction",
+    "apply a fibromyalgia 2-of-3 / PDMP pack from Task 14",
+    "treat Medicare formulary preferred status as authorization"
+  ]
+}

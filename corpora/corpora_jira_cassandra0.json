@@ -1,0 +1,1439 @@
+{
+ "seed": "CASSANDRA-9012",
+ "sections": {
+  "CASSANDRA-9012": {
+   "title": "Triage missing test coverage",
+   "text": "Triage missing test coverage Status: Open. Priority: unset. Linked: Container: CASSANDRA-10080; Container: CASSANDRA-10825; Container: CASSANDRA-8252; Container: CASSANDRA-8263; Container: CASSANDRA-8454; dependent: CASSANDRA-9009. Review, sort, prioritize. Discuss resulting order and refine as necessary.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-10080",
+    "Container: CASSANDRA-10825",
+    "Container: CASSANDRA-8252",
+    "Container: CASSANDRA-8263",
+    "Container: CASSANDRA-8454",
+    "dependent: CASSANDRA-9009"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-19, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-10080",
+    "CASSANDRA-10825",
+    "CASSANDRA-8252",
+    "CASSANDRA-8263",
+    "CASSANDRA-8454",
+    "CASSANDRA-9009",
+    "CASSANDRA-9010",
+    "CASSANDRA-9011",
+    "CASSANDRA-9038",
+    "CASSANDRA-9039",
+    "CASSANDRA-9040",
+    "CASSANDRA-9100",
+    "CASSANDRA-9101",
+    "CASSANDRA-9102",
+    "CASSANDRA-9103",
+    "CASSANDRA-9105",
+    "CASSANDRA-9108",
+    "CASSANDRA-9109",
+    "CASSANDRA-9152",
+    "CASSANDRA-9154",
+    "CASSANDRA-9159",
+    "CASSANDRA-9160",
+    "CASSANDRA-9161",
+    "CASSANDRA-9163",
+    "CASSANDRA-9169",
+    "CASSANDRA-9171",
+    "CASSANDRA-9172",
+    "CASSANDRA-9178",
+    "CASSANDRA-9210",
+    "CASSANDRA-9215",
+    "CASSANDRA-9221",
+    "CASSANDRA-9305",
+    "CASSANDRA-9306",
+    "CASSANDRA-9311",
+    "CASSANDRA-9344",
+    "CASSANDRA-9346",
+    "CASSANDRA-9349",
+    "CASSANDRA-9354",
+    "CASSANDRA-9377"
+   ]
+  },
+  "CASSANDRA-10080": {
+   "title": "CommitLogReplayer direct unit coverage is poor",
+   "text": "CommitLogReplayer direct unit coverage is poor Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. While reviewing CASSANDRA-9749 I found that the unit test coverage is very poor. I combined CommitLogTest, CommitLogUpgradeTest, and CommitLogFailurePolicyTest to assess coverage.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-08-14, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-10825": {
+   "title": "OverloadedException is untested",
+   "text": "OverloadedException is untested Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. If you grep test/src and cassandra-dtest you will find that the string OverloadedException doesn't appear anywhere. In CASSANDRA-10477 it was found that there were cases where Paxos should back-pressure and throw OverloadedException but didn't. If OverloadedException is used for functional purposes then we should test that it is thrown under expected conditions. If there are behaviors driven by catching or tracking OverloadedException we should test those as well.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-12-07, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-8252": {
+   "title": "dtests that involve topology changes should verify system.peers on all nodes",
+   "text": "dtests that involve topology changes should verify system.peers on all nodes Status: Open. Priority: unset. Linked: dependent: CASSANDRA-8304; Container: CASSANDRA-9012; Reference: CASSANDRA-9180. This is especially true for replace where I've discovered it's wrong in 1.2.19, which is sad because now it's too late to fix. We've had a lot of problems with incorrect/null system.peers, so after any topology change we should verify it on every live node when everything is finished.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "dependent: CASSANDRA-8304",
+    "Container: CASSANDRA-9012",
+    "Reference: CASSANDRA-9180"
+   ],
+   "amended_years": [
+    2014,
+    2021
+   ],
+   "history": "[created 2014-11-04, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8304",
+    "CASSANDRA-9012",
+    "CASSANDRA-9180"
+   ]
+  },
+  "CASSANDRA-8263": {
+   "title": "Cqlshlib tests are mostly stubs",
+   "text": "Cqlshlib tests are mostly stubs Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012; Reference: CASSANDRA-9125; Incorporates: CASSANDRA-9248. Most of the tests in cqlshlib/tests are just stubs that look like: def test_parse_create_index(self): pass def test_parse_drop_index(self): pass These tests need implemented.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012",
+    "Reference: CASSANDRA-9125",
+    "Incorporates: CASSANDRA-9248"
+   ],
+   "amended_years": [
+    2014,
+    2019
+   ],
+   "history": "[created 2014-11-05, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012",
+    "CASSANDRA-9125",
+    "CASSANDRA-9248"
+   ]
+  },
+  "CASSANDRA-8454": {
+   "title": "Convert cql_tests from cassandra-dtest to CQLTester unit tests",
+   "text": "Convert cql_tests from cassandra-dtest to CQLTester unit tests Status: Resolved. Priority: unset. Linked: Container: CASSANDRA-9012; Duplicate: CASSANDRA-9160. See the discussion at [this mail|http://mail-archives.apache.org/mod_mbox/cassandra-dev/201405.mbox/%3CCAAam9sva7vMXJ5SbyyB6aorLtU6sSsg3riFO42+hEdaFrXxyWw@mail.gmail.com%3E#archives].",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012",
+    "Duplicate: CASSANDRA-9160"
+   ],
+   "amended_years": [
+    2014,
+    2019
+   ],
+   "history": "[created 2014-12-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012",
+    "CASSANDRA-9160"
+   ]
+  },
+  "CASSANDRA-9009": {
+   "title": "Identify, triage, and address missing test coverage",
+   "text": "Identify, triage, and address missing test coverage Status: Open. Priority: unset. Linked: dependent: CASSANDRA-9010; dependent: CASSANDRA-9011; dependent: CASSANDRA-9012; Blocker: CASSANDRA-9042. Identify what is covered and how Triage for priority and what we are going to address explicitly rather then addressing incrementally over time as developers touch the code. Create and link JIRAs for adding coverage",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "dependent: CASSANDRA-9010",
+    "dependent: CASSANDRA-9011",
+    "dependent: CASSANDRA-9012",
+    "Blocker: CASSANDRA-9042"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-19, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9010",
+    "CASSANDRA-9011",
+    "CASSANDRA-9012",
+    "CASSANDRA-9042"
+   ]
+  },
+  "CASSANDRA-9010": {
+   "title": "Identify missing test coverage by documented functionality",
+   "text": "Identify missing test coverage by documented functionality Status: Resolved. Priority: unset. Linked: dependent: CASSANDRA-9009; Blocker: CASSANDRA-9012. The output of this is a spreadsheet that is already being worked on. you can assign to me once you are done and I can do another pass and review things like unit test coverage.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: CASSANDRA-9009",
+    "Blocker: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-19, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9009",
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9011": {
+   "title": "Identify missing test coverage by component",
+   "text": "Identify missing test coverage by component Status: Open. Priority: unset. Linked: dependent: CASSANDRA-9009; Blocker: CASSANDRA-9012. Identify components that have bad/missing coverage (could be whitebox or blackbox). Make suggestions for what kind of test would provide the necessary coverage for each component.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "dependent: CASSANDRA-9009",
+    "Blocker: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-19, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9009",
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9038": {
+   "title": "Atomic batches and single row atomicity appear to have no test coverage",
+   "text": "Atomic batches and single row atomicity appear to have no test coverage Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. Leaving the solution to this up to the assignee. It seems like this is a guarantee that should be checked.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-25, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9039": {
+   "title": "CommitLog compressed configuration not run in several unit tests",
+   "text": "CommitLog compressed configuration not run in several unit tests Status: Resolved. Priority: unset. Linked: Container: CASSANDRA-9012. CommitLogTest, RecoveryManagerTest, RecoveryManagerTruncateTest, RecoveryManager2Test, RecoveryManager3Test Some or all of these should be run with a commit log configured to use compression.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-25, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9040": {
+   "title": "o.a.c.net.* has no unit test coverage and no coverage with compression",
+   "text": "o.a.c.net.* has no unit test coverage and no coverage with compression Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. I think the unit test issue is minor since this code is validated as part of running everything on a regular basis. I think we do need a quick test that shows that the database starts and runs data correctly with compression enabled and that the config options for none, intradc, all work. Further validation would be done in a harness test that validates the kitchen sink against the different compression configurations.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-25, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9100": {
+   "title": "Gossip is inadequately tested",
+   "text": "Gossip is inadequately tested Status: Open. Priority: unset. Linked: Reference: CASSANDRA-7816; Container: CASSANDRA-9012. We found a few unit tests, but nothing that exercises Gossip under challenging conditions. Maybe consider a long test that hooks up some gossipers over a fake network and then do fault injection on that fake network. Uni-directional and bi-directional partitions, delayed delivery, out of order delivery if that is something that they can see in practice. Connects/disconnects. Also play with bad clocks.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-7816",
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-02, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-7816",
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9101": {
+   "title": "Commitlog replay could use a more thorough dtest that covers a cluster",
+   "text": "Commitlog replay could use a more thorough dtest that covers a cluster Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. Coverage is quite good for everything but the behavior of replay with a multi-node cluster. A dtest that covers this and maybe attempts to hit some variety in terms of kinds of involved mutations in the replay would be good. So cover counters, atomic batches, LWT.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-02, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9102": {
+   "title": "Consistency levels such as non-local quorum need better tests",
+   "text": "Consistency levels such as non-local quorum need better tests Status: Resolved. Priority: unset. Linked: Container: CASSANDRA-9012; Reference: CASSANDRA-9852. We didn't catch unit testing for this functionality. There is dtest consistency_test but it doesn't cover non-local functionality.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012",
+    "Reference: CASSANDRA-9852"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-02, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012",
+    "CASSANDRA-9852"
+   ]
+  },
+  "CASSANDRA-9103": {
+   "title": "Multi-dc topology seems inadequately tested",
+   "text": "Multi-dc topology seems inadequately tested Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. The only test we found was multidc_putget_test which is minimal. Validate some core set of behaviors in a multi-dc topology and validate supported operations against a multi-dc topology (adding DCs, removing DCs)",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-02, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9105": {
+   "title": "JMX APIs appear untested",
+   "text": "JMX APIs appear untested Status: Open. Priority: unset. Linked: Reference: CASSANDRA-8862; Container: CASSANDRA-9012. Anything supported via JMX is part of the public API of the database. Node tool uses JMX but doesn't seem to have its own unit test and the dtest nodetool_test.py is pretty sparse. For values returned by JMX for the purposes of reporting we should test as best we can that we are getting \"real\" values end to end. Occasionally metrics end up with no values, or values in the wrong units. For commands going the other direction they should be exercised. There is probably a lot of coverage of commands since they may be used when testing the features those commands are a part of so no need for duplication there.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-8862",
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-02, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8862",
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9108": {
+   "title": "SSL appears to be untested",
+   "text": "SSL appears to be untested Status: Resolved. Priority: unset. Linked: Container: CASSANDRA-9012. Need to test that you can set up a cluster with SSL node -> node and client -> node. A dtest for this would be really useful to make sure it's always working at a basic level.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-02, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9109": {
+   "title": "Repair appears to have some of untested behaviors",
+   "text": "Repair appears to have some of untested behaviors Status: Open. Priority: unset. Linked: Reference: CASSANDRA-8316; Reference: CASSANDRA-8366; Container: CASSANDRA-9012. There is AntiCompactionTest and a few single process unit tests, but they aren't very convincing. Looking at the docs to nodetool it looks like there are a few different ways that repair could operate that aren't explored. dtest wise there is repair_test and incremental_repair test which do give some useful coverage, but don't do everything. It's also the kind of thing you might like to see tested with some concurrent load to catch interactions with everything else moving about, but a dtest may not be the right place to do that.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-8316",
+    "Reference: CASSANDRA-8366",
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-02, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8316",
+    "CASSANDRA-8366",
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9152": {
+   "title": "Offline tools tests",
+   "text": "Offline tools tests Status: Resolved. Priority: unset. Linked: Container: CASSANDRA-9012; Reference: CASSANDRA-9082. we need more tests of our offline tools, sstablescrubber, sstablelevelreset, sstableofflinerelevel, sstablerepairedset, sstabeloader",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012",
+    "Reference: CASSANDRA-9082"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-09, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012",
+    "CASSANDRA-9082"
+   ]
+  },
+  "CASSANDRA-9154": {
+   "title": "Tests for compaction when running out of disk",
+   "text": "Tests for compaction when running out of disk Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. We need dtests (or similar) for compaction where we run out of disk space make sure we test both JBOD and single data directory",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-09, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9159": {
+   "title": "Randomize some table parameters for CQL unit tests",
+   "text": "Randomize some table parameters for CQL unit tests Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012; Reference: CASSANDRA-9203. CQL tests should ideally be run with as much different parameters as possible (compact storage or not, compaction strategies, compressions, ...) and we can make {{CQLTester}} do that more or less automatically for us since most of those parameters shouldn't influence the results of most CQL tests. One reasonably simple idea would be to randomize the choice of parameters (to some extend at least) every time the tests are ran so we get a variety of testing over time. One minor difficulty is that for some parameters like compact storage, some tests won't make sense, but it shouldn't be too hard to allow marking those tests (with an annotation for instance) so that such parameter is not used for those specific test.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012",
+    "Reference: CASSANDRA-9203"
+   ],
+   "amended_years": [
+    2015,
+    2026
+   ],
+   "history": "[created 2015-04-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012",
+    "CASSANDRA-9203"
+   ]
+  },
+  "CASSANDRA-9160": {
+   "title": "Migrate CQL dtests to unit tests",
+   "text": "Migrate CQL dtests to unit tests Status: Resolved. Priority: unset. Linked: Duplicate: CASSANDRA-8454; Container: CASSANDRA-9012; Reference: CASSANDRA-9649. We have CQL tests in 2 places: dtests and unit tests. The unit tests are actually somewhat better in the sense that they have the ability to test both prepared and unprepared statements at the flip of a switch. It's also better to have all those tests in the same place so we can improve the test framework in only one place (CASSANDRA-7959, CASSANDRA-9159, etc...). So we should move the CQL dtests to the unit tests (which will be a good occasion to organize them better).",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Duplicate: CASSANDRA-8454",
+    "Container: CASSANDRA-9012",
+    "Reference: CASSANDRA-9649"
+   ],
+   "amended_years": [
+    2015,
+    2025
+   ],
+   "history": "[created 2015-04-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8454",
+    "CASSANDRA-9012",
+    "CASSANDRA-9649"
+   ]
+  },
+  "CASSANDRA-9161": {
+   "title": "Add random interleaving for flush/compaction when running CQL unit tests",
+   "text": "Add random interleaving for flush/compaction when running CQL unit tests Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. Most CQL tests don't bother flushing, which means that they overwhelmingly test the memtable path and not the sstables one. A simple way to improve on that would be to make {{CQLTester}} issue flushes and compactions randomly between statements.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9163": {
+   "title": "Randomized subsystem correctness testing",
+   "text": "Randomized subsystem correctness testing Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012; Container: CASSANDRA-9042; Reference: CASSANDRA-9162; Container: CASSANDRA-9164. Whilst we are aiming to introduce a test harness that will be validated by stress and test non-conflicting subsystem interactions, many bugs could be caught with isolated randomized testing of a given component, or pair of components, and more complex and rigorous testing is possible since in this case we _do_ expect the subsystems to interact with each other, and by isolating the components we can test more iterations more rapidly. Subsystems that would certainly benefit: commitlog/memtables, cqlsstablewriter(s), gossip... This is catch-all placeholder ticket to bridge CASSANDRA-9042 with specific tickets for each subsystem",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012",
+    "Container: CASSANDRA-9042",
+    "Reference: CASSANDRA-9162",
+    "Container: CASSANDRA-9164"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012",
+    "CASSANDRA-9042",
+    "CASSANDRA-9162",
+    "CASSANDRA-9164"
+   ]
+  },
+  "CASSANDRA-9169": {
+   "title": "Cover all keyspace, table, and index options in DESCRIBE tests",
+   "text": "Cover all keyspace, table, and index options in DESCRIBE tests Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. To prevent bugs like CASSANDRA-8288, we should improve the tests for the code used to generate DESCRIBE output. These tests exist in the python driver at https://github.com/datastax/python-driver/blob/master/tests/integration/standard/test_metadata.py.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9171": {
+   "title": "Add deletions to paging dtests",
+   "text": "Add deletions to paging dtests Status: Resolved. Priority: unset. Linked: Container: CASSANDRA-9012. Deletions can easily impact paging (see CASSANDRA-8490 for an example). We should improve the paging dtests to include various kinds of deletions: partition-level, row-level, and cell-level. The tests should also exercise deleting enough contiguous partitions/rows/levels to fill an entire page. Assigning to for now since he created the original paging tests, but I can reassign this if needed.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9172": {
+   "title": "Test cqlsh against degraded clusters",
+   "text": "Test cqlsh against degraded clusters Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. To prevent bugs like CASSANDRA-8512, cqlsh should be tested against degraded clusters (down nodes, schema disagreements) as part of the regular testing process. As suggested by Ariel, this probably makes the most sense as one component in the \"kitchen sink\" test harness.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9178": {
+   "title": "Test exposed JMX methods",
+   "text": "Test exposed JMX methods Status: Open. Priority: unset. Linked: Reference: CASSANDRA-8028; Reference: CASSANDRA-8122; Container: CASSANDRA-9012. added support for JMX testing in dtests, and we have seen issues related to nodetool testing in various different stages of execution. Tests which exercise the different methods which nodetool calls should be added to catch those issues early.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-8028",
+    "Reference: CASSANDRA-8122",
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-13, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8028",
+    "CASSANDRA-8122",
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9210": {
+   "title": "CQL Tests Should Operate Over All Types (etc)",
+   "text": "CQL Tests Should Operate Over All Types (etc) Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. With some refactoring our CQL tests could cover all possible types for a given operation, and potentially different positions in the clustering component of a primary key, as well as differing adjacent items of data in the table being queried.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-17, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9215": {
+   "title": "Test with degraded or unreliable networks",
+   "text": "Test with degraded or unreliable networks Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. I have tried to test WAN replication using routing nodes with various configurations to simulate a bad network and not had good results with realistically reproducing a WAN performance. The fake WAN performed better than the real one. I think we need to do at least some of our testing over a link between data centers that are at least as distance as US East US West.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2021
+   ],
+   "history": "[created 2015-04-20, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9221": {
+   "title": "No test coverage for TombstoneOverwhelmingException",
+   "text": "No test coverage for TombstoneOverwhelmingException Status: Resolved. Priority: unset. Linked: Container: CASSANDRA-9012; Reference: CASSANDRA-9299. While investigating CASSANDRA-8798 discovered there were no unit tests for TombstoneOverwhelmingException.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012",
+    "Reference: CASSANDRA-9299"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-21, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012",
+    "CASSANDRA-9299"
+   ]
+  },
+  "CASSANDRA-9305": {
+   "title": "Test display of all types in cqlsh",
+   "text": "Test display of all types in cqlsh Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012. Although we have cqlsh tests for displaying a lot of types, we don't have full coverage. It looks like we need to add tests for the following types: * map, set, list * frozen (and nested) map, set, list * tuples (including nested) * time and date types (CASSANDRA-7523) * timeuuid * CompositeType (needs to be created as a custom type, like {{mycol 'org.apache.cassandra.db.marshal.CompositeType(AsciiType, Int32Type)'}}, see CASSANDRA-8919)",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-05-05, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9306": {
+   "title": "Test coverage for cqlsh COPY",
+   "text": "Test coverage for cqlsh COPY Status: Resolved. Priority: unset. Linked: Container: CASSANDRA-9012. We need much more thorough test coverage for cqlsh's COPY TO/FROM commands. There is one existing basic dtest ({{cqlsh_tests.py:TestCqlsh.test_copy_to}}) that we can use as a starting point for new tests. The following things need to be tested: * Non-default delimiters * Null fields and non-default null markers * Skipping a header line * Explicit column ordering * Column names that need to be quoted * Every supported C* data type * Data that fails validation server-side * Wrong number of columns * Node going down during COPY operation In the non-failure cases, the tests should generally inserted data into Cassandra, run COPY TO to dump the data to CSV, truncate, run COPY FROM to reimport the data, and then verify that the reloaded data matches the originally inserted data.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-05-05, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9311": {
+   "title": "Hadoop and pig are inadequately tested",
+   "text": "Hadoop and pig are inadequately tested Status: Open. Priority: unset. Linked: Reference: CASSANDRA-8358; Container: CASSANDRA-9012. CASSANDRA-8358 revealed we are missing a lot of test coverage related to the Hadoop integration. The pig tests are also missing coverage, especially related to authentication.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-8358",
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-05-05, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8358",
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9344": {
+   "title": "Test with IPv6",
+   "text": "Test with IPv6 Status: Open. Priority: unset. Linked: dependent: CASSANDRA-8036; Container: CASSANDRA-9012. Based on CASSANDRA-9027 it seems like we don't test with IPv6. We should test relevant configurations.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "dependent: CASSANDRA-8036",
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-05-11, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8036",
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9346": {
+   "title": "Expand upgrade testing for commitlog changes",
+   "text": "Expand upgrade testing for commitlog changes Status: Resolved. Priority: unset. Linked: Container: CASSANDRA-9012. It seems that the current upgrade dtests always flush/drain a node before upgrading it, meaning we have no coverage of reading the commitlog files from a previous version. We should add (unless they exist somewhere I am not aware of ) a suite of tests that specifically target upgrading with a significant amount of data left in the commitlog files, that needs to be read by the upgraded node.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2025
+   ],
+   "history": "[created 2015-05-11, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9349": {
+   "title": "nodetool is not explicitly tested",
+   "text": "nodetool is not explicitly tested Status: Open. Priority: unset. Linked: Reference: CASSANDRA-8741; Reference: CASSANDRA-8776; Reference: CASSANDRA-8950; Container: CASSANDRA-9012; Reference: CASSANDRA-9031. There is quite a bit of implicit testing, but nothing that probes the entire documented UI and validates output formatting and result codes.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-8741",
+    "Reference: CASSANDRA-8776",
+    "Reference: CASSANDRA-8950",
+    "Container: CASSANDRA-9012",
+    "Reference: CASSANDRA-9031"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-05-11, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8741",
+    "CASSANDRA-8776",
+    "CASSANDRA-8950",
+    "CASSANDRA-9012",
+    "CASSANDRA-9031"
+   ]
+  },
+  "CASSANDRA-9354": {
+   "title": "Validate repair efficiency",
+   "text": "Validate repair efficiency Status: Open. Priority: unset. Linked: Reference: CASSANDRA-8979; Container: CASSANDRA-9012. Repair is expected to have a certain degree of efficiency in terms of how much data it streams when there is nothing that actually needs repairing. We should be validating this expectation since repair performance is something people care about. We should validate the expectation across a range of relevant configuration (data, compaction strategy, actual data needing repair).",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-8979",
+    "Container: CASSANDRA-9012"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-05-11, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8979",
+    "CASSANDRA-9012"
+   ]
+  },
+  "CASSANDRA-9377": {
+   "title": "Untested commit log code found via code coverage",
+   "text": "Untested commit log code found via code coverage Status: Open. Priority: unset. Linked: Container: CASSANDRA-9012; Reference: CASSANDRA-9162. It took some doing but I was finally able to extract coverage for just the unit tests that test the commit log. Attached is the jacoco output as well as the build.xml I used to get test-compression and test to run just the commit log tests. This includes CommitLogTest CommitLogFailurePolicyTest RecoveryManagerTest RecoveryManager2Test RecoveryManager3Test CommitLogStressTest All tests were run with and without test-compression. Coverage is pretty good for some things with the missing coverage being exceptional paths for things like files that aren't doing anything exceptional in the tests. ReplayPosition implements equals and hashCode but has no coverage. CommitLogSegment.waitForFinalSync has no coverage. CommitLogDescriptor.fromFileName and fromHeader. CommitLogDescriptor implements several equals methods that are not fully tested and also doesn't implement hashCode to match the equality changes. CommitLog does not cover handleCommitError, nor forceRecyle* CommitLogReplayer is not wel",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9012",
+    "Reference: CASSANDRA-9162"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-05-13, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9012",
+    "CASSANDRA-9162"
+   ]
+  },
+  "CASSANDRA-8304": {
+   "title": "Explore evicting replacement state sooner",
+   "text": "Explore evicting replacement state sooner Status: Open. Priority: unset. Linked: Reference: CASSANDRA-18319; dependent: CASSANDRA-8252; dependent: CASSANDRA-8260. As a follow-up to CASSANDRA-8260 Tyler suggests we evict and quarantine in step 2. I don't want to change any core gossip logic in 2.0 at this point, but his theory seems feasible and we should explore it for 3.0.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-18319",
+    "dependent: CASSANDRA-8252",
+    "dependent: CASSANDRA-8260"
+   ],
+   "amended_years": [
+    2014,
+    2026
+   ],
+   "history": "[created 2014-11-12, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-18319",
+    "CASSANDRA-8252",
+    "CASSANDRA-8260"
+   ]
+  },
+  "CASSANDRA-9180": {
+   "title": "Failed bootstrap/replace attempts persist entries in system.peers",
+   "text": "Failed bootstrap/replace attempts persist entries in system.peers Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-8252. In working on CASSANDRA-8336, I discovered vanilla C* has this problem. Just start a bootstrap or replace and kill it during the ring info gathering phase. System.peers, the gift that keeps on giving.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-8252"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-13, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8252"
+   ]
+  },
+  "CASSANDRA-9125": {
+   "title": "cqlsh: add tests for INSERT and UPDATE completion",
+   "text": "cqlsh: add tests for INSERT and UPDATE completion Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-8263. I've added tests for cqlsh completion for INSERT and UPDATE statements. In the process, I also refactored { } and removed old datatypes from the keyspace initialization script. The changes are on GitHub here: https://github.com/mambocab/cassandra/tree/cqlsh-completion-tests The diff for review is here: https://github.com/apache/cassandra/compare/trunk...mambocab:cqlsh-completion-tests Happy to prepare a patch; let me know what to do.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-8263"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-06, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8263"
+   ]
+  },
+  "CASSANDRA-9248": {
+   "title": "Tests for cqlsh parser",
+   "text": "Tests for cqlsh parser Status: Resolved. Priority: unset. Linked: Incorporates: CASSANDRA-8263. Adds tests for the cqlsh parser in isolation. There are still more to write, but it's a start. Branch here: https://github.com/mambocab/cassandra/tree/cqlsh-parser-tests And changes for review here: https://github.com/apache/cassandra/compare/trunk...mambocab:cqlsh-parser-tests",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: CASSANDRA-8263"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-27, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8263"
+   ]
+  },
+  "CASSANDRA-9042": {
+   "title": "Make trunk always releasable",
+   "text": "Make trunk always releasable Status: Open. Priority: unset. Linked: Blocker: CASSANDRA-8996; Blocker: CASSANDRA-9000; Blocker: CASSANDRA-9003; Blocker: CASSANDRA-9007; Blocker: CASSANDRA-9009; Blocker: CASSANDRA-9093. ",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Blocker: CASSANDRA-8996",
+    "Blocker: CASSANDRA-9000",
+    "Blocker: CASSANDRA-9003",
+    "Blocker: CASSANDRA-9007",
+    "Blocker: CASSANDRA-9009",
+    "Blocker: CASSANDRA-9093"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-25, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8996",
+    "CASSANDRA-9000",
+    "CASSANDRA-9003",
+    "CASSANDRA-9007",
+    "CASSANDRA-9009",
+    "CASSANDRA-9093",
+    "CASSANDRA-9163",
+    "CASSANDRA-9165",
+    "CASSANDRA-9170",
+    "CASSANDRA-9320"
+   ]
+  },
+  "CASSANDRA-7816": {
+   "title": "Duplicate DOWN/UP Events Pushed with Native Protocol",
+   "text": "Duplicate DOWN/UP Events Pushed with Native Protocol Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-9100. Added \"MOVED_NODE\" as a possible type of topology change and also specified that it is possible to receive the same event multiple times.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9100"
+   ],
+   "amended_years": [
+    2014,
+    2019
+   ],
+   "history": "[created 2014-08-21, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9100"
+   ]
+  },
+  "CASSANDRA-9852": {
+   "title": "Complete test coverage for StorageProxy",
+   "text": "Complete test coverage for StorageProxy Status: Open. Priority: unset. Linked: Reference: CASSANDRA-9102; dependent: CASSANDRA-9165. Run relevant unit and dtests under code coverage to find out which parts of StorageProxy and auxiliary classes are still not tested. Below is an old analysis which should be repeated now that CASSANDRA-8099 is integrated into trunk. Then add more unit or distributed tests to complete code coverage. The framework provided by CASSANDRA-9165 will most likely be required to inject failures and time outs.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9102",
+    "dependent: CASSANDRA-9165"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-07-21, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9102",
+    "CASSANDRA-9165"
+   ]
+  },
+  "CASSANDRA-8862": {
+   "title": "Commit log pending tasks incremented during getPendingTasks",
+   "text": "Commit log pending tasks incremented during getPendingTasks Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-9105. After upgrading from Cassandra 2.0.8 to 2.1.2 our monitoring based on JMX metrics shows increasing number of commit log pending tasks. From what we found out, this value is now incremented every time it is fetched. It is easy to reproduce using tool like JConsole by refreshing value of PendingTasks attribute. Quick look at the code shows that this behavior was probably introduced in 2.1 with CASSANDRA-3578 where getPendingTasks in AbstractCommitLogService was changed from returning queue.size() to returning pending.incrementAndGet(). As a result this counter is incremented when getting value of Commitlog.PendingTasks from org.apache.cassandra.db (now deprecated) or CommitLog.PendingTasks from org.apache.cassandra.metrics. Could you please clarify if this is expected behavior? This was already mentioned in CASSANDRA-8531.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9105"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-02-25, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9105"
+   ]
+  },
+  "CASSANDRA-8316": {
+   "title": "\"Did not get positive replies from all endpoints\" error on incremental repair",
+   "text": "\"Did not get positive replies from all endpoints\" error on incremental repair Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-8366; Reference: CASSANDRA-9109. Hi, I've got an issue with incremental repairs on our production 15 nodes 2.1.2 (new cluster, not yet loaded, RF=3) After having successfully performed an incremental repair (-par -inc) on 3 nodes, I started receiving \"Repair failed with error Did not get positive replies from all endpoints.\" from nodetool on all remaining nodes : [2014-11-14 09:12:36,488] Starting repair command #3, repairing 108 ranges for keyspace xxxx (seq=false, full=false) [2014-11-14 09:12:47,919] Repair failed with error Did not get positive replies from all endpoints. All the nodes are up and running and the local system log shows that the repair commands got started and that's it. I've also noticed that soon after the repair, several nodes started having more cpu load indefinitely without any particular reason (no tasks / queries, nothing in the logs). I then restarted C* on these nodes and retried the repair on several nodes, which were successful until facing the issue again. I tried to repro on our 3 nodes",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-8366",
+    "Reference: CASSANDRA-9109"
+   ],
+   "amended_years": [
+    2014,
+    2019
+   ],
+   "history": "[created 2014-11-14, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8366",
+    "CASSANDRA-9109"
+   ]
+  },
+  "CASSANDRA-8366": {
+   "title": "Repair grows data on nodes, causes load to become unbalanced",
+   "text": "Repair grows data on nodes, causes load to become unbalanced Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-8316; Reference: CASSANDRA-9109. There seems to be something weird going on when repairing data. I have a program that runs 2 hours which inserts 250 random numbers and reads 250 times per second. It creates 2 keyspaces with SimpleStrategy and RF of 3. I use size-tiered compaction for my cluster. After those 2 hours I run a repair and the load of all nodes goes up. If I run incremental repair the load goes up alot more. I saw the load shoot up 8 times the original size multiple times with incremental repair. (from 2G to 16G) with node 9 8 7 and 6 the repro procedure looked like this: (Note that running full repair first is not a requirement to reproduce.) After 2 hours of 250 reads + 250 writes per second: UN 9 583.39 MB 256 ? 28220962-26ae-4eeb-8027-99f96e377406 rack1 UN 8 584.01 MB 256 ? f2de6ea1-de88-4056-8fde-42f9c476a090 rack1 UN 7 583.72 MB 256 ? 2b6b5d66-13c8-43d8-855c-290c0f3c3a0b rack1 UN 6 583.84 MB 256 ? b8bd67f1-a816-46ff-b4a4-136ad5af6d4b rack1 Repair -pr -par on all nodes sequentially UN 9 746.29 MB 256 ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-8316",
+    "Reference: CASSANDRA-9109"
+   ],
+   "amended_years": [
+    2014,
+    2019
+   ],
+   "history": "[created 2014-11-24, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8316",
+    "CASSANDRA-9109"
+   ]
+  },
+  "CASSANDRA-9082": {
+   "title": "sstableloader error on trunk due to loading read meter",
+   "text": "sstableloader error on trunk due to loading read meter Status: Resolved. Priority: unset. Linked: Incorporates: CASSANDRA-8996; Reference: CASSANDRA-9152. If you try to run sstableloader on trunk, you'll get an error like the following: Exception: sstableloader command '/tmp/dtest-p5eSr3/test/node1/bin/sstableloader -d 127.0.0.1 /tmp/tmpzd5CCh/ks/cf' failed; exit status: 1'; stdout: Established connection to initial hosts Opening sstables and calculating sections to stream ; stderr: null java.lang.AssertionError org.apache.cassandra.exceptions.ConfigurationException at org.apache.cassandra.locator.AbstractReplicationStrategy.createInternal(AbstractReplicationStrategy.java:249) at org.apache.cassandra.locator.AbstractReplicationStrategy.createReplicationStrategy(AbstractReplicationStrategy.java:264) at org.apache.cassandra.db.Keyspace.createReplicationStrategy(Keyspace.java:279) at org.apache.cassandra.db.Keyspace. (Keyspace.java:267) at org.apache.cassandra.db.Keyspace.open(Keyspace.java:115) at org.apache.cassandra.db.Keyspace.open(Keyspace.java:92) at org.apache.cassandra.cql3.restrictions.StatementRestrictions. (StatementRestrictions.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: CASSANDRA-8996",
+    "Reference: CASSANDRA-9152"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-31, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8996",
+    "CASSANDRA-9152"
+   ]
+  },
+  "CASSANDRA-9203": {
+   "title": "Removing cold_reads_to_omit is not backwards compatible",
+   "text": "Removing cold_reads_to_omit is not backwards compatible Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-9159. While doing some tests on cassandra-2.1.5-tentative I found the cold_reads_to_omit parameter in SizeTieredCompactionStrategy was removed, this breaks our CREATE TABLE statements. This was done in CASSANDRA-8860 and if I understand Marcus comment in that JIRA, the intention was to keep the parameter in 2.1 but ignore it to avoid breaking existing code. But the patch actually removes the parameter.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9159"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-16, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9159"
+   ]
+  },
+  "CASSANDRA-9649": {
+   "title": "Paxos ballot in StorageProxy could clash",
+   "text": "Paxos ballot in StorageProxy could clash Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-9160. This code in {{StorageProxy.beginAndRepairPaxos()}} takes a timestamp in microseconds but divides it by 1000 before adding one. So if the summary is null, ballotMillis would be the same for up to 1000 possible state timestamp values: long currentTime = (state.getTimestamp() / 1000) + 1; long ballotMillis = summary == null ? currentTime : Math.max(currentTime, 1 + UUIDGen.unixTimestamp(summary.mostRecentInProgressCommit.ballot)); UUID ballot = UUIDGen.getTimeUUID(ballotMillis); {{state.getTimestamp()}} returns the time in micro seconds and it ensures to add one microsecond to any previously used timestamp if the client sends the same or an older timestamp. Initially I used this code in {{ModificationStatement.casInternal()}}, introduced by CASSANDRA-9160 to support cas unit tests, but occasionally these tests were failing. It was only when I ensured uniqueness of the ballot that the tests started to pass reliably. I wonder if we could ever have the same issue in StorageProxy? cc and for",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9160"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-06-25, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9160"
+   ]
+  },
+  "CASSANDRA-9162": {
+   "title": "Randomized correctness testing for commit log subsystem, and memtable interaction",
+   "text": "Randomized correctness testing for commit log subsystem, and memtable interaction Status: Open. Priority: unset. Linked: Reference: CASSANDRA-9163; Reference: CASSANDRA-9377. ",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9163",
+    "Reference: CASSANDRA-9377"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9163",
+    "CASSANDRA-9377"
+   ]
+  },
+  "CASSANDRA-9164": {
+   "title": "Randomized correctness testing of CQLSSTableWriter (and friends)",
+   "text": "Randomized correctness testing of CQLSSTableWriter (and friends) Status: Open. Priority: unset. Linked: Container: CASSANDRA-9163. ",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9163"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9163"
+   ]
+  },
+  "CASSANDRA-8028": {
+   "title": "Unable to compute when histogram overflowed",
+   "text": "Unable to compute when histogram overflowed Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-9178. It seems like with 2.1.0 histograms can't be computed most of the times: $ nodetool cfhistograms draios top_files_by_agent1 nodetool: Unable to compute when histogram overflowed See 'nodetool help' or 'nodetool help '. I can probably find a way to attach a .cql script to reproduce it, but I suspect it must be obvious to replicate it as it happens on more than 50% of my column families.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9178"
+   ],
+   "amended_years": [
+    2014,
+    2025
+   ],
+   "history": "[created 2014-09-30, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9178"
+   ]
+  },
+  "CASSANDRA-8122": {
+   "title": "Undeclare throwable exception while executing 'nodetool netstats localhost'",
+   "text": "Undeclare throwable exception while executing 'nodetool netstats localhost' Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-9178. *Steps* # Stop cassandra service # Check netstats of nodetool using 'nodetool netstats localhost' # Start cassandra service # Again check netstats of nodetool using 'nodetool netstats localhost' *Expected output* Mode: STARTING Not sending any streams. (End of output - no further exceptions) *Observed output* nodetool netstats localhost Mode: STARTING Not sending any streams. Exception in thread \"main\" java.lang.reflect.UndeclaredThrowableException at com.sun.proxy.$Proxy6.getReadRepairAttempted(Unknown Source) at org.apache.cassandra.tools.NodeProbe.getReadRepairAttempted(NodeProbe.java:897) at org.apache.cassandra.tools.NodeCmd.printNetworkStats(NodeCmd.java:726) at org.apache.cassandra.tools.NodeCmd.main(NodeCmd.java:1281) Caused by: javax.management.InstanceNotFoundException: org.apache.cassandra.db:type=StorageProxy at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1095) at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.get",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9178"
+   ],
+   "amended_years": [
+    2014,
+    2019
+   ],
+   "history": "[created 2014-10-14, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9178"
+   ]
+  },
+  "CASSANDRA-9299": {
+   "title": "Fix counting of tombstones towards TombstoneOverwhelmingException",
+   "text": "Fix counting of tombstones towards TombstoneOverwhelmingException Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-9221. CASSANDRA-6042 introduced warning on too many tombstones scanned, then CASSANDRA-6117 introduced a hard TombstoneOverwhelmingException condition. However, at least {{SliceQuerFilter.collectReducedColumn()}} seems to have the logic wrong. Cells that are covered by a range tombstone or a partition high level deletion, still count towards {{ColumnCounter}}'s { } register. Thus it's possible to have an otherwise healthy (though large) dropped partition read cause an exception that shouldn't be there. The only things that should count towards the exception are cell tombstones and range tombstones (CASSANDRA-8527), but never ever live cells shadowed by any kind of tombstone.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9221"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-05-05, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9221"
+   ]
+  },
+  "CASSANDRA-8358": {
+   "title": "Bundled tools shouldn't be using Thrift API",
+   "text": "Bundled tools shouldn't be using Thrift API Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-9311. In 2.1, we switched cqlsh to the python-driver. In 3.0, we got rid of cassandra-cli. Yet there is still code that's using legacy Thrift API. We want to convert it all to use the java-driver instead. 1. BulkLoader uses Thrift to query the schema tables. It should be using java-driver metadata APIs directly instead. 2. o.a.c.hadoop.cql3.CqlRecordWriter is using Thrift 3. o.a.c.hadoop.ColumnFamilyRecordReader is using Thrift 4. o.a.c.hadoop.AbstractCassandraStorage is using Thrift 5. o.a.c.hadoop.pig.CqlStorage is using Thrift Some of the things listed above use Thrift to get the list of partition key columns or clustering columns. Those should be converted to use the Metadata API of the java-driver. Somewhat related to that, we also have badly ported code from Thrift in o.a.c.hadoop.cql3.CqlRecordReader (see fetchKeys()) that manually fetches columns from schema tables instead of properly using the driver's Metadata API. We need all of it fixed. One exception, for now, is o.a.c.hadoop.Ab",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9311"
+   ],
+   "amended_years": [
+    2014,
+    2025
+   ],
+   "history": "[created 2014-11-21, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9311"
+   ]
+  },
+  "CASSANDRA-8036": {
+   "title": "Add dtest for ipv6 functionality",
+   "text": "Add dtest for ipv6 functionality Status: Open. Priority: unset. Linked: dependent: CASSANDRA-9344. Cassandra can run with ipv6 addresses, and cqlsh should be able to connect via ipv6. We need a dtest to verify this.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "dependent: CASSANDRA-9344"
+   ],
+   "amended_years": [
+    2014,
+    2019
+   ],
+   "history": "[created 2014-10-01, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9344"
+   ]
+  },
+  "CASSANDRA-8741": {
+   "title": "Running a drain before a decommission apparently the wrong thing to do",
+   "text": "Running a drain before a decommission apparently the wrong thing to do Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-9349. This might simply be a documentation issue. It appears that running \"nodetool drain\" is a very wrong thing to do before running a \"nodetool decommission\". The idea was that I was going to safely shut off writes and flush everything to disk before beginning the decommission. What happens is the \"decommission\" call appears to fail very early on after starting, and afterwards, the node in question is stuck in state LEAVING, but all other nodes in the ring see that node as NORMAL, but down. No streams are ever sent from the node being decommissioned to other nodes. The drain command does indeed shut down the \"BatchlogTasks\" executor (org/apache/cassandra/service/StorageService.java, line 3445 in git tag \"cassandra-2.0.11\") but the decommission process tries using that executor when calling the \"startBatchlogReplay\" function (org/apache/cassandra/db/BatchlogManager.java, line 123) called through org.apache.cassandra.service.StorageService.unbootstrap (see the stack trace pasted below). This",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9349"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-02-04, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9349"
+   ]
+  },
+  "CASSANDRA-8776": {
+   "title": "nodetool status reports success for missing keyspace",
+   "text": "nodetool status reports success for missing keyspace Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-9349. 'nodetool status somethinginvalid' will correctly output an error message that the keyspace does not exist, but still returns a 'success' code of 0.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9349"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-02-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9349"
+   ]
+  },
+  "CASSANDRA-8950": {
+   "title": "NullPointerException in nodetool getendpoints with non-existent keyspace or table",
+   "text": "NullPointerException in nodetool getendpoints with non-existent keyspace or table Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-9349. If {{nodetool getendpoints}} is run with a non-existent keyspace or table table, a NullPointerException will occur: ~/cassandra $ bin/nodetool getendpoints badkeyspace badtable mykey error: null -- StackTrace -- java.lang.NullPointerException at org.apache.cassandra.service.StorageService.getNaturalEndpoints(StorageService.java:2914) at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) at java.lang.reflect.Method.invoke(Method.java:606) at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:75) at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source) at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) at java.lang.reflect.Method.invoke(Method.java:606) at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:279) at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invok",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9349"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-11, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9349"
+   ]
+  },
+  "CASSANDRA-9031": {
+   "title": "nodetool info -T throws ArrayOutOfBounds when the node has not joined the cluster",
+   "text": "nodetool info -T throws ArrayOutOfBounds when the node has not joined the cluster Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-9349. To reproduce, bring up a node that does not join the cluster, either using -Dcassandra.write_survey=true or -Dcassandra.join_ring=false, then run 'nodetool info -T'. You'll get the following stack trace: ID : e384209f-f7a9-4cff-8fd5-03adfaa0d846 Gossip active : true Thrift active : true Native Transport active: true Load : 76.69 KB Generation No : 1427229938 Uptime (seconds) : 728 Heap Memory (MB) : 109.93 / 826.00 Off Heap Memory (MB) : 0.01 Exception in thread \"main\" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0 at java.util.ArrayList.rangeCheck(ArrayList.java:635) at java.util.ArrayList.get(ArrayList.java:411) at org.apache.cassandra.tools.NodeProbe.getEndpoint(NodeProbe.java:676) at org.apache.cassandra.tools.NodeProbe.getDataCenter(NodeProbe.java:694) at org.apache.cassandra.tools.NodeCmd.printInfo(NodeCmd.java:666) at org.apache.cassandra.tools.NodeCmd.main(NodeCmd.java:1277) After applying the attached patch, the new error is: ID : a7d76a2a-82d2-4faa-94e1-a30df6663ebb G",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-9349"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-24, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9349"
+   ]
+  },
+  "CASSANDRA-8979": {
+   "title": "MerkleTree mismatch for deleted and non-existing rows",
+   "text": "MerkleTree mismatch for deleted and non-existing rows Status: Resolved. Priority: unset. Linked: Incorporates: CASSANDRA-8996; Reference: CASSANDRA-9354. Validation compaction will currently create different hashes for rows that have been deleted compared to nodes that have not seen the rows at all or have already compacted them away. In case this sounds familiar to you, see CASSANDRA-4905 which was supposed to prevent hashing of expired tombstones. This still seems to be in place, but does not address the issue completely. Or there was a change in 2.0 that rendered the patch ineffective. The problem is that rowHash() in the Validator will return a new hash in any case, whether the PrecompactedRow did actually update the digest or not. This will lead to the case that a purged, PrecompactedRow will not change the digest, but we end up with a different tree compared to not having rowHash called at all (such as in case the row already doesn't exist). As an implication, repair jobs will constantly detect mismatches between older sstables containing purgable rows and nodes that have already compacted these rows. After transfering the reporte",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: CASSANDRA-8996",
+    "Reference: CASSANDRA-9354"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-17, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8996",
+    "CASSANDRA-9354"
+   ]
+  },
+  "CASSANDRA-18319": {
+   "title": "Cassandra in Kubernetes: IP switch decommission issue",
+   "text": "Cassandra in Kubernetes: IP switch decommission issue Status: Open. Priority: unset. Linked: Reference: CASSANDRA-8260; Reference: CASSANDRA-8304. We have recently encountered a recurring old IP reappearance issue while testing decommissions on some of our Kubernetes Cassandra staging clusters. *Issue Description* In Kubernetes, a Cassandra node can change IP at each pod bounce. We have noticed that this behavior, associated with a decommission operation, can get the cluster into an erroneous state. Consider the following situation: a Cassandra node {{node1}} , with {{{}hostId1{}}}, owning 20.5% of the token ring, bounces and switches IP ({{{}old_IP{}}} \u2192 {{{}new_IP{}}}). After a couple gossip iterations, all other nodes\u2019 nodetool status output includes a {{new_IP}} UN entry owning 20.5% of the token ring and no {{old_IP}} entry. Shortly after the bounce, {{node1}} gets decommissioned. Our cluster does not have a lot of data, and the decommission operation completes pretty quickly. Logs on other nodes start showing acknowledgment that {{node1}} has left and soon, nodetool status\u2019 {{new_IP}} UL entry disappears. {{node1}} \u2018s pod i",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-8260",
+    "Reference: CASSANDRA-8304"
+   ],
+   "amended_years": [
+    2023,
+    2026
+   ],
+   "history": "[created 2023-03-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8260",
+    "CASSANDRA-8304"
+   ]
+  },
+  "CASSANDRA-8260": {
+   "title": "Replacing a node can leave the old node in system.peers on the replacement",
+   "text": "Replacing a node can leave the old node in system.peers on the replacement Status: Resolved. Priority: unset. Linked: Reference: CASSANDRA-18319; dependent: CASSANDRA-8304. Here's what happens: Nodes: X, Y, Z. Z replaces Y which is dead. 0. Replacement finishes 1. Z removes Y, quarantines and evicts (that is, removes the state) 2. X sees the replacement, quarantines, but keeps state 3. 60s elapses 4. quarantine on Z expires 5. X sends syn to Z, repopulates Y endpoint state and persists to system.peers, but Z sees the conflict and does not update tMD for Y. 6. FatClient timer on Z starts counting. 7. quarantine on X expires, fat client has been idle, evicts and re-quarantines 8. 30s elapses 9. Fat client timeout occurs on Z, evicts and re-quarantines 10. 30s elapses 11. quarantine on X expires, so it never gets repopulated with Y since Z already removed it It's important to note here that there is a small but relevant gap between steps 1 and 2, which then correlates to steps 4 and 5, and step 5 is where the problem occurs. This also explains why it looks related to RING_DELAY, since the quarantine is RING_DELAY * 2, but Y never quarantines and the fat clie",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: CASSANDRA-18319",
+    "dependent: CASSANDRA-8304"
+   ],
+   "amended_years": [
+    2014,
+    2023
+   ],
+   "history": "[created 2014-11-05, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-18319",
+    "CASSANDRA-8304"
+   ]
+  },
+  "CASSANDRA-8996": {
+   "title": "dtests should pass on trunk",
+   "text": "dtests should pass on trunk Status: Resolved. Priority: unset. Linked: Incorporates: CASSANDRA-8979; Blocker: CASSANDRA-9042; Incorporates: CASSANDRA-9082. Not having the dtests reporting that they pass make it non-obvious when a new one breaks. Either fix the tests so that they pass or exclude the known failures from success criteria. For excluded tests, make sure there is a JIRA covering them so we can make sure someone is following up shortly.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: CASSANDRA-8979",
+    "Blocker: CASSANDRA-9042",
+    "Incorporates: CASSANDRA-9082"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-19, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-8979",
+    "CASSANDRA-9042",
+    "CASSANDRA-9082"
+   ]
+  },
+  "CASSANDRA-9000": {
+   "title": "utests should pass on trunk",
+   "text": "utests should pass on trunk Status: Resolved. Priority: unset. Linked: Blocker: CASSANDRA-9042. Not having the dtests reporting that they pass make it non-obvious when a new one breaks. Either fix the tests so that they pass or exclude the known failures from success criteria. For excluded tests, make sure there is a JIRA covering them so we can make sure someone is following up shortly. Looking at http://cassci.datastax.com/job/CTOOL_trunk_utest/ it isn't clear if the issue is flapping tests or things being broken and then fixed. Without test history from",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Blocker: CASSANDRA-9042"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-19, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9042"
+   ]
+  },
+  "CASSANDRA-9003": {
+   "title": "Run dtests and utests on every commit",
+   "text": "Run dtests and utests on every commit Status: Resolved. Priority: unset. Linked: Blocker: CASSANDRA-9042. It doesn't have to be every individual commit. If the job to run the tests finishes and there are multiple commits waiting do all of them at once. The goal is to run directly out of the github fork for all the developers we add without them having to manually request the tests be run.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Blocker: CASSANDRA-9042"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-19, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9042"
+   ]
+  },
+  "CASSANDRA-9007": {
+   "title": "Run stress nightly against trunk in a way that validates",
+   "text": "Run stress nightly against trunk in a way that validates Status: Resolved. Priority: unset. Linked: Blocker: CASSANDRA-9042. Stress has some very basic validation functionality when used without workload profiles. It found a bug on trunk when I first ran it so it has value even though the validation is basic. As a beachhead for the kind of blackbox validation that we are missing we can start by running stress nightly or 24/7 in some rotation. There should be two jobs. One job has inverted success criteria (C* should lose some data) and the job should only \"pass\" if the failure is detected. This is just to prove that the harness reports failure if failure occurs. Another would be the real job that runs stress, parses and parses the output for reports of missing data. This job is the first pass and basis of what we can point to when a developer makes a change, implements a feature, or fixes a bug, and say \"go add validation to this job.\" Follow on tickets to link to this * Test multiple configurations * Get stress to validate more query functionality and APIs (counters, LWT, batches) * Parse logs and fail test",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Blocker: CASSANDRA-9042"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-03-19, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9042"
+   ]
+  },
+  "CASSANDRA-9093": {
+   "title": "testall should pass on trunk",
+   "text": "testall should pass on trunk Status: Resolved. Priority: unset. Linked: Blocker: CASSANDRA-9042. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Blocker: CASSANDRA-9042"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-01, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9042"
+   ]
+  },
+  "CASSANDRA-9165": {
+   "title": "improve error pathway test coverage, including fault injection testing",
+   "text": "improve error pathway test coverage, including fault injection testing Status: Open. Priority: unset. Linked: Container: CASSANDRA-9042; dependent: CASSANDRA-9852. ",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Container: CASSANDRA-9042",
+    "dependent: CASSANDRA-9852"
+   ],
+   "amended_years": [
+    2015,
+    2026
+   ],
+   "history": "[created 2015-04-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9042",
+    "CASSANDRA-9852"
+   ]
+  },
+  "CASSANDRA-9170": {
+   "title": "Validate the performance of trunk nightly",
+   "text": "Validate the performance of trunk nightly Status: Open. Priority: unset. Linked: Blocker: CASSANDRA-9042. ",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Blocker: CASSANDRA-9042"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-04-10, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9042"
+   ]
+  },
+  "CASSANDRA-9320": {
+   "title": "test-burn target should be run occasionally",
+   "text": "test-burn target should be run occasionally Status: Resolved. Priority: unset. Linked: Blocker: CASSANDRA-9042. The tests are all concurrency tests right now so they need to run on the largest # of cores we have available. The tests are not configured to run very long right now, but the intent is that they run for longer periods (days even). They aren't described as high value right now because the code under test hasn't change since first introduced so we can defer setting this job up until higher priority things are done. I think we should still run them at some low frequency so they don't rot or some change doesn't sneak in that effects them.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Blocker: CASSANDRA-9042"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-05-06, resolved unresolved]",
+   "refs": [
+    "CASSANDRA-9042"
+   ]
+  }
+ },
+ "title": "cassandra",
+ "scenario": {
+  "subject": "a Cassandra upgrade path",
+  "ticket": "an operator is planning a version upgrade and the committer disputes which linked issue governs the upgrade order",
+  "authority_noun": "component owner sign-off on file",
+  "filing_noun": "triage determination",
+  "confirmation_resource": "tracker://cassandra/status/current",
+  "filing_endpoint": "https://issue-triage.internal/v2/determinations/submit",
+  "absence_ticket": "a failure has been reported for cassandra that does not obviously fall under any linked issue"
+ }
+}

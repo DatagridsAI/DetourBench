@@ -1,0 +1,10 @@
+{
+ "schema_version": "detourbench.initial-state.v1",
+ "start": "start",
+ "visited": [
+  "start"
+ ],
+ "inventory": [],
+ "step_budget": 20,
+ "derived": "the declared start node and its seed grants"
+}

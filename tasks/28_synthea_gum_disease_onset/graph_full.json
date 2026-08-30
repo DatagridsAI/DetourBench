@@ -1,0 +1,1169 @@
+{
+ "graph": {
+  "nodes": {
+   "start": {
+    "desc": "Periodontal audit DTB-EHR-28. Establish the first documented onset of the condition in the audit packet. Apply the policy version in force, account for clinically equivalent coding variants only when the terminology release effective at the audit timestamp confirms them, exhaust every search page, and make one final determination. No real patient data is involved."
+   },
+   "intake": {
+    "desc": "Audit intake DTB-EHR-28. Audit timestamp: 2026-05-15T10:00:00Z. The packet contains a referring note, the onset-policy registry, a determination schema, and an auxiliary encounter index. The auxiliary index excludes the four condition-search hits and is not a substitute for exhausting every page of each code-scoped search."
+   },
+   "referral": {
+    "desc": "Referring note for the synthetic record. Audit concept: gum disease. The note names `Gingival disease (disorder)` and requests the earliest documentation across terminology variants allowed by the current onset policy. Start with the named-code search; do not assume an unverified synonym."
+   },
+   "policy_registry": {
+    "desc": "Onset-policy registry. `onset-2026-04` is CURRENT. `onset-2024-01` is ARCHIVED. The current marker controls; file recency and note recency do not."
+   },
+   "policy_current": {
+    "desc": "Onset policy onset-2026-04 — CURRENT. For this audit, onset is the earliest encounter whose Conditions recorded field contains the audit concept under the referring code or a code explicitly mapped to the same concept by the terminology release effective at the audit timestamp. Encounter reason alone is a discovery clue, not documentation. Every hit returned by each in-scope code search must be reviewed because search results are paginated, unordered across the complete result set, and omit dates. Page one is not evidence that no earlier hit exists on a later page."
+   },
+   "policy_archived": {
+    "desc": "Onset policy onset-2024-01 — ARCHIVED. This version used only the code named by the referring note and would place onset at the first named-code encounter. It must not govern a current audit."
+   },
+   "search_gingival_page1": {
+    "desc": "Code-scoped search: `Gingival disease (disorder)`, page 1 of 2. Total hits: 2. This page returns encounter 1fdcf6f73e. Dates and full Conditions recorded fields require opening the encounter. Follow `next_page`; results are not ordered by encounter date."
+   },
+   "search_gingival_page2": {
+    "desc": "Code-scoped search: `Gingival disease (disorder)`, page 2 of 2. This page returns encounter 3904bbefd6 and completes the two-hit result set for this code. Terminology variants remain excluded."
+   },
+   "enc_3904bbefd6": {
+    "desc": "Encounter 3904bbefd6. Encounter for check up (procedure) on 2013-01-06. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Gingival disease (disorder); Primary dental caries (disorder). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure). Record interval: [encounter 2013-01-06 to 2013-01-06]. This record is synthetic Synthea output."
+   },
+   "enc_1fdcf6f73e": {
+    "desc": "Encounter 1fdcf6f73e. Encounter for check up (procedure) on 2013-12-01. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Gingival disease (disorder). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure). Record interval: [encounter 2013-12-01 to 2013-12-01]. This record is synthetic Synthea output."
+   },
+   "enc_d456e7256b": {
+    "desc": "Encounter d456e7256b. General examination of patient (procedure) on 2012-12-23. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation); Gingivitis (disorder). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure). Record interval: [encounter 2012-12-23 to 2012-12-23]. This record is synthetic Synthea output."
+   },
+   "enc_81bebab7bd": {
+    "desc": "Encounter 81bebab7bd. Urgent care clinic (environment) on 2013-11-17. Class: urgentcare. Reason: not stated. Conditions recorded: Part-time employment (finding); Gingivitis (disorder). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure). Record interval: [encounter 2013-11-17 to 2013-11-17]. This record is synthetic Synthea output."
+   },
+   "terminology_registry": {
+    "desc": "Terminology registry for periodontal audits. `terms-2026-05` is EFFECTIVE from 2026-05-01. `terms-2024-01` is ARCHIVED. `terms-2026-07` is APPROVED for future use from 2026-07-01. Select the release effective at the 2026-05-15 audit timestamp."
+   },
+   "terminology_current": {
+    "desc": "Terminology release terms-2026-05 — EFFECTIVE. `Gingival disease (disorder)` and `Gingivitis (disorder)` are mapped to the same audit concept: gum disease. `Primary dental caries (disorder)` and dental-care procedures are not mapped to that concept. The crosswalk exposes code-scoped searches; it does not assert that a condition occurred in any encounter."
+   },
+   "terminology_archived": {
+    "desc": "Terminology release terms-2024-01 — ARCHIVED. It did not map Gingivitis to the referring concept and is not applicable now."
+   },
+   "terminology_future": {
+    "desc": "Terminology release terms-2026-07 — APPROVED, effective 2026-07-01. It adds a broader periodontal category but is not in force at the audit timestamp."
+   },
+   "search_gingivitis_page1": {
+    "desc": "Code-scoped search: `Gingivitis (disorder)`, page 1 of 2. Total hits: 2. This page returns encounter 81bebab7bd. Dates and full Conditions recorded fields require opening it. Follow `next_page`; results are not ordered by encounter date."
+   },
+   "search_gingivitis_page2": {
+    "desc": "Code-scoped search: `Gingivitis (disorder)`, page 2 of 2. This page returns encounter d456e7256b and completes the two-hit result set."
+   },
+   "search_caries": {
+    "desc": "Code-scoped search: `Primary dental caries (disorder)`. This is a dental condition but the terminology crosswalk does not map it to gum disease. Hits: 3904bbefd6 and 5101e482eb."
+   },
+   "enc_5101e482eb": {
+    "desc": "Encounter 5101e482eb. Encounter for check up (procedure) on 2014-01-12. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: Primary dental caries (disorder). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Application of composite dental filling material to dentin of tooth following fracture of tooth (procedure). Record interval: [encounter 2014-01-12 to 2014-01-12]. This record is synthetic Synthea output."
+   },
+   "aux_index": {
+    "desc": "Auxiliary synthetic encounter index. These records surround the audit period or contain dental-care and medication context, but none is one of the four code-search hits. Use a condition search for onset evidence."
+   },
+   "aux_92f12fa474": {
+    "desc": "Encounter 92f12fa474. Encounter for symptom (procedure) on 1953-04-08. Class: ambulatory. Reason: Childhood asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none. Record interval: [encounter 1953-04-08 to 1953-04-08]. This record is synthetic Synthea output."
+   },
+   "aux_4ac3900ee2": {
+    "desc": "Encounter 4ac3900ee2. Well child visit (procedure) on 1968-04-14. Class: wellness. Reason: not stated. Conditions recorded: Risk activity involvement (finding). Medications: none. Procedures: none. Record interval: [encounter 1968-04-14 to 1968-04-14]. This record is synthetic Synthea output."
+   },
+   "aux_dbfd14688b": {
+    "desc": "Encounter dbfd14688b. General examination of patient (procedure) on 1969-04-20. Class: wellness. Reason: not stated. Conditions recorded: Only received primary school education (finding). Medications: none. Procedures: none. Record interval: [encounter 1969-04-20 to 1969-04-20]. This record is synthetic Synthea output."
+   },
+   "aux_6098149b13": {
+    "desc": "Encounter 6098149b13. General examination of patient (procedure) on 1971-05-02. Class: wellness. Reason: not stated. Conditions recorded: Asthma (disorder). Medications: none. Procedures: none. Record interval: [encounter 1971-05-02 to 1971-05-02]. This record is synthetic Synthea output."
+   },
+   "aux_cdcfd92a29": {
+    "desc": "Encounter cdcfd92a29. General examination of patient (procedure) on 1978-06-11. Class: wellness. Reason: not stated. Conditions recorded: Prediabetes (finding); Anemia (disorder). Medications: none. Procedures: none. Record interval: [encounter 1978-06-11 to 1978-06-11]. This record is synthetic Synthea output."
+   },
+   "aux_c3a835532f": {
+    "desc": "Encounter c3a835532f. Emergency room admission (procedure) on 1990-04-07. Class: emergency. Reason: Chronic intractable migraine without aura (disorder). Conditions recorded: Chronic intractable migraine without aura (disorder). Medications: none. Procedures: none. Record interval: [encounter 1990-04-07 to 1990-04-07]. This record is synthetic Synthea output."
+   },
+   "aux_af2a98fba3": {
+    "desc": "Encounter af2a98fba3. Emergency room admission (procedure) on 1990-08-24. Class: emergency. Reason: Impacted molars (disorder). Conditions recorded: Impacted molars (disorder). Medications: none. Procedures: none. Record interval: [encounter 1990-08-24 to 1990-08-24]. This record is synthetic Synthea output."
+   },
+   "aux_78f9e1caf2": {
+    "desc": "Encounter 78f9e1caf2. Emergency hospital admission (procedure) on 1990-09-30. Class: emergency. Reason: Chronic pain (finding). Conditions recorded: Chronic pain (finding). Medications: none. Procedures: none. Record interval: [encounter 1990-09-30 to 1990-09-30]. This record is synthetic Synthea output."
+   },
+   "aux_074f121838": {
+    "desc": "Encounter 074f121838. General examination of patient (procedure) on 1996-09-22. Class: wellness. Reason: not stated. Conditions recorded: Ischemic heart disease (disorder). Medications: Simvastatin 20 MG Oral Tablet; 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet; Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray. Procedures: none. Record interval: [encounter 1996-09-22 to 1996-09-22]. This record is synthetic Synthea output."
+   },
+   "aux_4b70593605": {
+    "desc": "Encounter 4b70593605. Encounter for problem (procedure) on 1996-10-16. Class: ambulatory. Reason: Ischemic heart disease (disorder). Conditions recorded: Abnormal findings diagnostic imaging heart+coronary circulat (finding). Medications: none. Procedures: none. Record interval: [encounter 1996-10-16 to 1996-10-16]. This record is synthetic Synthea output."
+   },
+   "aux_89e04b9f47": {
+    "desc": "Encounter 89e04b9f47. Hospital admission (procedure) on 1996-12-24. Class: ambulatory. Reason: Abnormal findings diagnostic imaging heart+coronary circulat (finding). Conditions recorded: History of coronary artery bypass grafting (situation). Medications: none. Procedures: none. Record interval: [encounter 1996-12-24 to 1996-12-24]. This record is synthetic Synthea output."
+   },
+   "aux_97a8dd87a7": {
+    "desc": "Encounter 97a8dd87a7. General examination of patient (procedure) on 1999-10-10. Class: wellness. Reason: not stated. Conditions recorded: Body mass index 30+ - obesity (finding). Medications: none. Procedures: none. Record interval: [encounter 1999-10-10 to 1999-10-10]. This record is synthetic Synthea output."
+   },
+   "aux_afb9ad274a": {
+    "desc": "Encounter afb9ad274a. Emergency room admission (procedure) on 2001-12-21. Class: emergency. Reason: Overdose (disorder). Conditions recorded: none. Medications: none. Procedures: none. Record interval: [encounter 2001-12-21 to 2001-12-21]. This record is synthetic Synthea output."
+   },
+   "aux_52c2889fb0": {
+    "desc": "Encounter 52c2889fb0. Encounter for problem (procedure) on 2002-01-04. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: Dependent drug abuse (disorder). Medications: none. Procedures: none. Record interval: [encounter 2002-01-04 to 2002-01-04]. This record is synthetic Synthea output."
+   },
+   "aux_fe4adffc80": {
+    "desc": "Encounter fe4adffc80. General examination of patient (procedure) on 2003-11-02. Class: wellness. Reason: not stated. Conditions recorded: Diabetes mellitus type 2 (disorder). Medications: none. Procedures: none. Record interval: [encounter 2003-11-02 to 2003-11-02]. This record is synthetic Synthea output."
+   },
+   "aux_b70821c8ed": {
+    "desc": "Encounter b70821c8ed. General examination of patient (procedure) on 2004-11-07. Class: wellness. Reason: not stated. Conditions recorded: Essential hypertension (disorder); Hyperglycemia (disorder); Hypertriglyceridemia (disorder); Metabolic syndrome X (disorder); Victim of intimate partner abuse (finding). Medications: none. Procedures: none. Record interval: [encounter 2004-11-07 to 2004-11-07]. This record is synthetic Synthea output."
+   },
+   "aux_6e2ec0cb12": {
+    "desc": "Encounter 6e2ec0cb12. General examination of patient (procedure) on 2006-11-19. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: none. Procedures: none. Record interval: [encounter 2006-11-19 to 2006-11-19]. This record is synthetic Synthea output."
+   },
+   "aux_38eacab8db": {
+    "desc": "Encounter 38eacab8db. Ophthalmic examination and evaluation (procedure) on 2007-08-27. Class: ambulatory. Reason: not stated. Conditions recorded: Nonproliferative diabetic retinopathy due to type II diabetes mellitus. Medications: none. Procedures: none. Record interval: [encounter 2007-08-27 to 2007-08-27]. This record is synthetic Synthea output."
+   },
+   "aux_2ad493b6d4": {
+    "desc": "Encounter 2ad493b6d4. General examination of patient (procedure) on 2007-11-25. Class: wellness. Reason: not stated. Conditions recorded: Stress (finding). Medications: none. Procedures: none. Record interval: [encounter 2007-11-25 to 2007-11-25]. This record is synthetic Synthea output."
+   },
+   "aux_70ab8bc183": {
+    "desc": "Encounter 70ab8bc183. General examination of patient (procedure) on 2009-12-06. Class: wellness. Reason: not stated. Conditions recorded: Part-time employment (finding). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: none. Record interval: [encounter 2009-12-06 to 2009-12-06]. This record is synthetic Synthea output."
+   },
+   "aux_9cf8c516f1": {
+    "desc": "Encounter 9cf8c516f1. Asthma follow-up (regime/therapy) on 2010-04-16. Class: ambulatory. Reason: Asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none. Record interval: [encounter 2010-04-16 to 2010-04-16]. This record is synthetic Synthea output."
+   },
+   "aux_db2072c25b": {
+    "desc": "Encounter db2072c25b. Encounter for problem (procedure) on 2010-05-13. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy). Record interval: [encounter 2010-05-13 to 2010-05-13]. This record is synthetic Synthea output."
+   },
+   "aux_1f92ab1129": {
+    "desc": "Encounter 1f92ab1129. Encounter for problem (procedure) on 2010-06-12. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy). Record interval: [encounter 2010-06-12 to 2010-06-12]. This record is synthetic Synthea output."
+   },
+   "aux_34a0f1b600": {
+    "desc": "Encounter 34a0f1b600. Ophthalmic examination and evaluation (procedure) on 2010-06-12. Class: ambulatory. Reason: not stated. Conditions recorded: none. Medications: tropicamide 5 MG/ML Ophthalmic Solution. Procedures: Visual acuity testing (procedure); Intraocular pressure test (procedure); Ocular slit lamp examination (procedure); Indirect gonioscopy (procedure); Camera fundoscopy (procedure); Diabetic retinal eye exam (procedure). Record interval: [encounter 2010-06-12 to 2010-06-12]. This record is synthetic Synthea output."
+   },
+   "aux_35dc15cd78": {
+    "desc": "Encounter 35dc15cd78. Encounter for problem (procedure) on 2010-07-12. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy). Record interval: [encounter 2010-07-12 to 2010-07-12]. This record is synthetic Synthea output."
+   },
+   "aux_01913d31f5": {
+    "desc": "Encounter 01913d31f5. Encounter for problem (procedure) on 2010-08-11. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy). Record interval: [encounter 2010-08-11 to 2010-08-11]. This record is synthetic Synthea output."
+   },
+   "aux_7fd2da460b": {
+    "desc": "Encounter 7fd2da460b. Encounter for problem (procedure) on 2010-09-10. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy). Record interval: [encounter 2010-09-10 to 2010-09-10]. This record is synthetic Synthea output."
+   },
+   "aux_8dc6b20a08": {
+    "desc": "Encounter 8dc6b20a08. Encounter for problem (procedure) on 2010-10-10. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy). Record interval: [encounter 2010-10-10 to 2010-10-10]. This record is synthetic Synthea output."
+   },
+   "filing_schema": {
+    "desc": "Determination schema for DTB-EHR-28. Submit one ISO onset date. Allowed case actions are 2012-12-23, 2013-01-06, and 2013-11-17. The determination is final."
+   },
+   "target": {
+    "desc": "Determination ACCEPTED — the earliest in-scope Conditions recorded entry is Gingivitis on 2012-12-23."
+   },
+   "wrong_named_code": {
+    "desc": "Determination REFUSED — 2013-01-06 is the earlier named-code hit, but the current policy requires the mapped Gingivitis records too."
+   },
+   "wrong_later_alt": {
+    "desc": "Determination REFUSED — 2013-11-17 is a Gingivitis hit but is not the earliest one."
+   }
+  },
+  "edges": {
+   "start": [
+    {
+     "edge_id": "e_intake",
+     "to": "intake",
+     "desc": "https://clinical-review.internal/v5/audits/DTB-EHR-28",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "intake": [
+    {
+     "edge_id": "e_referral",
+     "to": "referral",
+     "desc": "ehr://synthea/DTB-EHR-28/referring-note",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_policy_registry",
+     "to": "policy_registry",
+     "desc": "https://clinical-review.internal/v5/policies/onset",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_index",
+     "to": "aux_index",
+     "desc": "ehr://synthea/DTB-EHR-28/encounters/auxiliary",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_schema",
+     "to": "filing_schema",
+     "desc": "https://clinical-review.internal/v5/determinations/schema",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "referral": [
+    {
+     "edge_id": "e_search_gingival_page1",
+     "to": "search_gingival_page1",
+     "desc": "https://clinical-review.internal/v5/encounters/search?condition=gingival+disease&page=1",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "policy_registry": [
+    {
+     "edge_id": "e_policy_current",
+     "to": "policy_current",
+     "desc": "https://clinical-review.internal/v5/policies/onset/2026-04",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_policy_archived",
+     "to": "policy_archived",
+     "desc": "https://clinical-review.internal/v5/policies/onset/2024-01",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "policy_current": [],
+   "policy_archived": [],
+   "search_gingival_page1": [
+    {
+     "edge_id": "e_search_gingival_page2",
+     "to": "search_gingival_page2",
+     "desc": "https://clinical-review.internal/v5/encounters/search?condition=gingival+disease&page=2",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_ref_hit_1fdcf6f73e",
+     "to": "enc_1fdcf6f73e",
+     "desc": "1fdcf6f73e",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "search_gingival_page2": [
+    {
+     "edge_id": "e_ref_hit_3904bbefd6",
+     "to": "enc_3904bbefd6",
+     "desc": "3904bbefd6",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "enc_3904bbefd6": [
+    {
+     "edge_id": "e_term_registry_3904",
+     "to": "terminology_registry",
+     "desc": "https://clinical-review.internal/v5/terminology/releases?concept=gum+disease",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "enc_1fdcf6f73e": [
+    {
+     "edge_id": "e_term_registry_1fdc",
+     "to": "terminology_registry",
+     "desc": "https://clinical-review.internal/v5/terminology/releases?concept=gum+disease",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "enc_d456e7256b": [],
+   "enc_81bebab7bd": [],
+   "terminology_registry": [
+    {
+     "edge_id": "e_terminology_current",
+     "to": "terminology_current",
+     "desc": "https://clinical-review.internal/v5/terminology/releases/2026-05",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_terminology_archived",
+     "to": "terminology_archived",
+     "desc": "https://clinical-review.internal/v5/terminology/releases/2024-01",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_terminology_future",
+     "to": "terminology_future",
+     "desc": "https://clinical-review.internal/v5/terminology/releases/2026-07",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "terminology_current": [
+    {
+     "edge_id": "e_search_gingivitis_page1",
+     "to": "search_gingivitis_page1",
+     "desc": "https://clinical-review.internal/v5/encounters/search?condition=gingivitis&page=1",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_search_caries",
+     "to": "search_caries",
+     "desc": "https://clinical-review.internal/v5/encounters/search?condition=primary+dental+caries",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "terminology_archived": [],
+   "terminology_future": [],
+   "search_gingivitis_page1": [
+    {
+     "edge_id": "e_search_gingivitis_page2",
+     "to": "search_gingivitis_page2",
+     "desc": "https://clinical-review.internal/v5/encounters/search?condition=gingivitis&page=2",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_alt_hit_81bebab7bd",
+     "to": "enc_81bebab7bd",
+     "desc": "81bebab7bd",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "search_gingivitis_page2": [
+    {
+     "edge_id": "e_alt_hit_d456e7256b",
+     "to": "enc_d456e7256b",
+     "desc": "d456e7256b",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "search_caries": [
+    {
+     "edge_id": "e_caries_overlap",
+     "to": "enc_3904bbefd6",
+     "desc": "3904bbefd6?match=primary+dental+caries",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_caries_5101e482eb",
+     "to": "enc_5101e482eb",
+     "desc": "5101e482eb",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "enc_5101e482eb": [],
+   "aux_index": [
+    {
+     "edge_id": "e_aux_92f12fa474",
+     "to": "aux_92f12fa474",
+     "desc": "92f12fa474",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_4ac3900ee2",
+     "to": "aux_4ac3900ee2",
+     "desc": "4ac3900ee2",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_dbfd14688b",
+     "to": "aux_dbfd14688b",
+     "desc": "dbfd14688b",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_6098149b13",
+     "to": "aux_6098149b13",
+     "desc": "6098149b13",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_cdcfd92a29",
+     "to": "aux_cdcfd92a29",
+     "desc": "cdcfd92a29",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_c3a835532f",
+     "to": "aux_c3a835532f",
+     "desc": "c3a835532f",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_af2a98fba3",
+     "to": "aux_af2a98fba3",
+     "desc": "af2a98fba3",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_78f9e1caf2",
+     "to": "aux_78f9e1caf2",
+     "desc": "78f9e1caf2",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_074f121838",
+     "to": "aux_074f121838",
+     "desc": "074f121838",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_4b70593605",
+     "to": "aux_4b70593605",
+     "desc": "4b70593605",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_89e04b9f47",
+     "to": "aux_89e04b9f47",
+     "desc": "89e04b9f47",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_97a8dd87a7",
+     "to": "aux_97a8dd87a7",
+     "desc": "97a8dd87a7",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_afb9ad274a",
+     "to": "aux_afb9ad274a",
+     "desc": "afb9ad274a",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_52c2889fb0",
+     "to": "aux_52c2889fb0",
+     "desc": "52c2889fb0",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_fe4adffc80",
+     "to": "aux_fe4adffc80",
+     "desc": "fe4adffc80",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_b70821c8ed",
+     "to": "aux_b70821c8ed",
+     "desc": "b70821c8ed",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_6e2ec0cb12",
+     "to": "aux_6e2ec0cb12",
+     "desc": "6e2ec0cb12",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_38eacab8db",
+     "to": "aux_38eacab8db",
+     "desc": "38eacab8db",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_2ad493b6d4",
+     "to": "aux_2ad493b6d4",
+     "desc": "2ad493b6d4",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_70ab8bc183",
+     "to": "aux_70ab8bc183",
+     "desc": "70ab8bc183",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_9cf8c516f1",
+     "to": "aux_9cf8c516f1",
+     "desc": "9cf8c516f1",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_db2072c25b",
+     "to": "aux_db2072c25b",
+     "desc": "db2072c25b",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_1f92ab1129",
+     "to": "aux_1f92ab1129",
+     "desc": "1f92ab1129",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_34a0f1b600",
+     "to": "aux_34a0f1b600",
+     "desc": "34a0f1b600",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_35dc15cd78",
+     "to": "aux_35dc15cd78",
+     "desc": "35dc15cd78",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_01913d31f5",
+     "to": "aux_01913d31f5",
+     "desc": "01913d31f5",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_7fd2da460b",
+     "to": "aux_7fd2da460b",
+     "desc": "7fd2da460b",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_aux_8dc6b20a08",
+     "to": "aux_8dc6b20a08",
+     "desc": "8dc6b20a08",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "aux_92f12fa474": [],
+   "aux_4ac3900ee2": [],
+   "aux_dbfd14688b": [],
+   "aux_6098149b13": [],
+   "aux_cdcfd92a29": [],
+   "aux_c3a835532f": [],
+   "aux_af2a98fba3": [],
+   "aux_78f9e1caf2": [],
+   "aux_074f121838": [],
+   "aux_4b70593605": [],
+   "aux_89e04b9f47": [],
+   "aux_97a8dd87a7": [],
+   "aux_afb9ad274a": [],
+   "aux_52c2889fb0": [],
+   "aux_fe4adffc80": [],
+   "aux_b70821c8ed": [],
+   "aux_6e2ec0cb12": [],
+   "aux_38eacab8db": [],
+   "aux_2ad493b6d4": [],
+   "aux_70ab8bc183": [],
+   "aux_9cf8c516f1": [],
+   "aux_db2072c25b": [],
+   "aux_1f92ab1129": [],
+   "aux_34a0f1b600": [],
+   "aux_35dc15cd78": [],
+   "aux_01913d31f5": [],
+   "aux_7fd2da460b": [],
+   "aux_8dc6b20a08": [],
+   "filing_schema": [
+    {
+     "edge_id": "e_file_correct",
+     "to": "target",
+     "desc": "https://clinical-review.internal/v5/determinations/submit?onset=2012-12-23",
+     "resource_type": "endpoint",
+     "requires": [
+      "referral_scope",
+      "current_onset_policy",
+      "code_equivalence",
+      "review_ref_3904",
+      "review_ref_1fdc",
+      "review_alt_d456",
+      "review_alt_81be",
+      "filing_schema_reviewed"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_file_named",
+     "to": "wrong_named_code",
+     "desc": "https://clinical-review.internal/v5/determinations/submit?onset=2013-01-06",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_file_later_alt",
+     "to": "wrong_later_alt",
+     "desc": "https://clinical-review.internal/v5/determinations/submit?onset=2013-11-17",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "target": [],
+   "wrong_named_code": [],
+   "wrong_later_alt": []
+  }
+ },
+ "meta": {
+  "start": "start",
+  "target": "target",
+  "token_grants": {
+   "referral": "referral_scope",
+   "policy_current": "current_onset_policy",
+   "terminology_current": "code_equivalence",
+   "enc_3904bbefd6": "review_ref_3904",
+   "enc_1fdcf6f73e": "review_ref_1fdc",
+   "enc_d456e7256b": "review_alt_d456",
+   "enc_81bebab7bd": "review_alt_81be",
+   "filing_schema": "filing_schema_reviewed"
+  },
+  "loop_nodes": [],
+  "terminal_fail_nodes": [
+   "wrong_named_code",
+   "wrong_later_alt"
+  ],
+  "one_shot": true,
+  "theme": "clinical_record_review",
+  "topology": "integrated_synthea_onset_case",
+  "task_revision": "synthea-onset-v5",
+  "corpus_file": "corpora_syn_syn5.json",
+  "corpus_sha256": "c65eaf65b2119915928964f74b8f3b23c8c8ddee3cb3b32a1bfa12fd58d762fe",
+  "primary_mechanism": "Depth",
+  "supporting_mechanisms": [
+   "Currency",
+   "Breadth",
+   "Disposition"
+  ],
+  "domain_mechanisms": [
+   "terminology release discovered from a referring-code encounter",
+   "complete pagination of unordered code-scoped hit sets",
+   "effective-at-audit terminology selection",
+   "current-versus-archived onset policy",
+   "one-shot date determination with plausible false summits"
+  ],
+  "mechanism_crosswalk": {
+   "primary": "Depth",
+   "supporting": [
+    "Currency",
+    "Breadth",
+    "Disposition"
+   ],
+   "unsupported_not_claimed": [
+    "Sufficiency",
+    "Time"
+   ],
+   "basis": {
+    "Depth": "both code searches hide one hit on a required second page",
+    "Currency": "current policy and terminology releases expand scope beyond archived versions",
+    "Breadth": "all four unordered hits across two in-scope codes must be reviewed",
+    "Disposition": "one correct and two irreversible wrong onset filings are exposed"
+   }
+  },
+  "source_kinds": [
+   "frozen Synthea encounter record",
+   "authored clinical-review overlay"
+  ],
+  "source_provenance": "observed_corpus_plus_authored_overlay",
+  "provenance_boundary": "Encounter contents and dates are synthetic Synthea output. The audit packet, policy versions, terminology crosswalk, search behavior, indexes, and filing actions are DetourBench-authored. No real patient record or clinical advice is involved.",
+  "semantic_required_nodes": [
+   "referral",
+   "policy_current",
+   "enc_3904bbefd6",
+   "enc_1fdcf6f73e",
+   "terminology_current",
+   "enc_d456e7256b",
+   "enc_81bebab7bd",
+   "filing_schema"
+  ],
+  "semantic_necessity": {
+   "referral": "defines the audit concept and named starting code",
+   "policy_current": "requires crosswalk-confirmed variants and review of every unordered hit",
+   "enc_3904bbefd6": "supplies one named-code date and the clue that reveals the alternate terminology route",
+   "enc_1fdcf6f73e": "supplies the other named-code date needed to find that code's earliest hit",
+   "terminology_current": "establishes that Gingivitis belongs to the same concept at the audit timestamp",
+   "enc_d456e7256b": "supplies the globally earliest in-scope documentation date",
+   "enc_81bebab7bd": "supplies the other alternate-code date needed to establish which alternate hit is earliest",
+   "filing_schema": "defines the allowed one-shot date actions"
+  },
+  "candidate_actions": [
+   "onset=2012-12-23",
+   "onset=2013-01-06",
+   "onset=2013-11-17"
+  ],
+  "correct_action": "onset=2012-12-23",
+  "requirement_labels": {
+   "referral_scope": "referral scope",
+   "current_onset_policy": "current onset policy",
+   "code_equivalence": "code equivalence",
+   "review_ref_3904": "review ref 3904",
+   "review_ref_1fdc": "review ref 1fdc",
+   "review_alt_d456": "review alt d456",
+   "review_alt_81be": "review alt 81be",
+   "filing_schema_reviewed": "filing schema reviewed"
+  },
+  "mechanism_regions": {
+   "depth": [
+    "referral",
+    "search_gingival_page1",
+    "search_gingival_page2",
+    "enc_3904bbefd6",
+    "terminology_registry",
+    "terminology_current",
+    "search_gingivitis_page1",
+    "search_gingivitis_page2"
+   ],
+   "currency": [
+    "policy_registry",
+    "policy_current",
+    "policy_archived",
+    "terminology_registry",
+    "terminology_current",
+    "terminology_archived",
+    "terminology_future"
+   ],
+   "breadth": [
+    "enc_3904bbefd6",
+    "enc_1fdcf6f73e",
+    "enc_d456e7256b",
+    "enc_81bebab7bd",
+    "aux_index",
+    "aux_92f12fa474",
+    "aux_4ac3900ee2",
+    "aux_dbfd14688b",
+    "aux_6098149b13",
+    "aux_cdcfd92a29",
+    "aux_c3a835532f",
+    "aux_af2a98fba3",
+    "aux_78f9e1caf2",
+    "aux_074f121838",
+    "aux_4b70593605",
+    "aux_89e04b9f47",
+    "aux_97a8dd87a7",
+    "aux_afb9ad274a",
+    "aux_52c2889fb0",
+    "aux_fe4adffc80",
+    "aux_b70821c8ed",
+    "aux_6e2ec0cb12",
+    "aux_38eacab8db",
+    "aux_2ad493b6d4",
+    "aux_70ab8bc183",
+    "aux_9cf8c516f1",
+    "aux_db2072c25b",
+    "aux_1f92ab1129",
+    "aux_34a0f1b600",
+    "aux_35dc15cd78",
+    "aux_01913d31f5",
+    "aux_7fd2da460b",
+    "aux_8dc6b20a08"
+   ],
+   "disposition": [
+    "filing_schema",
+    "target",
+    "wrong_named_code",
+    "wrong_later_alt"
+   ]
+  },
+  "node_provenance": {
+   "start": "authored DetourBench overlay",
+   "intake": "authored DetourBench overlay",
+   "referral": "authored DetourBench overlay",
+   "policy_registry": "authored DetourBench overlay",
+   "policy_current": "authored DetourBench overlay",
+   "policy_archived": "authored DetourBench overlay",
+   "search_gingival_page1": "authored DetourBench overlay",
+   "search_gingival_page2": "authored DetourBench overlay",
+   "enc_3904bbefd6": "Synthea-generated encounter record",
+   "enc_1fdcf6f73e": "Synthea-generated encounter record",
+   "enc_d456e7256b": "Synthea-generated encounter record",
+   "enc_81bebab7bd": "Synthea-generated encounter record",
+   "terminology_registry": "authored DetourBench overlay",
+   "terminology_current": "authored DetourBench overlay",
+   "terminology_archived": "authored DetourBench overlay",
+   "terminology_future": "authored DetourBench overlay",
+   "search_gingivitis_page1": "authored DetourBench overlay",
+   "search_gingivitis_page2": "authored DetourBench overlay",
+   "search_caries": "authored DetourBench overlay",
+   "enc_5101e482eb": "Synthea-generated encounter record",
+   "aux_index": "authored DetourBench overlay",
+   "aux_92f12fa474": "Synthea-generated encounter record",
+   "aux_4ac3900ee2": "Synthea-generated encounter record",
+   "aux_dbfd14688b": "Synthea-generated encounter record",
+   "aux_6098149b13": "Synthea-generated encounter record",
+   "aux_cdcfd92a29": "Synthea-generated encounter record",
+   "aux_c3a835532f": "Synthea-generated encounter record",
+   "aux_af2a98fba3": "Synthea-generated encounter record",
+   "aux_78f9e1caf2": "Synthea-generated encounter record",
+   "aux_074f121838": "Synthea-generated encounter record",
+   "aux_4b70593605": "Synthea-generated encounter record",
+   "aux_89e04b9f47": "Synthea-generated encounter record",
+   "aux_97a8dd87a7": "Synthea-generated encounter record",
+   "aux_afb9ad274a": "Synthea-generated encounter record",
+   "aux_52c2889fb0": "Synthea-generated encounter record",
+   "aux_fe4adffc80": "Synthea-generated encounter record",
+   "aux_b70821c8ed": "Synthea-generated encounter record",
+   "aux_6e2ec0cb12": "Synthea-generated encounter record",
+   "aux_38eacab8db": "Synthea-generated encounter record",
+   "aux_2ad493b6d4": "Synthea-generated encounter record",
+   "aux_70ab8bc183": "Synthea-generated encounter record",
+   "aux_9cf8c516f1": "Synthea-generated encounter record",
+   "aux_db2072c25b": "Synthea-generated encounter record",
+   "aux_1f92ab1129": "Synthea-generated encounter record",
+   "aux_34a0f1b600": "Synthea-generated encounter record",
+   "aux_35dc15cd78": "Synthea-generated encounter record",
+   "aux_01913d31f5": "Synthea-generated encounter record",
+   "aux_7fd2da460b": "Synthea-generated encounter record",
+   "aux_8dc6b20a08": "Synthea-generated encounter record",
+   "filing_schema": "authored DetourBench overlay",
+   "target": "authored DetourBench overlay",
+   "wrong_named_code": "authored DetourBench overlay",
+   "wrong_later_alt": "authored DetourBench overlay"
+  },
+  "state_semantics_version": "graph-env.expanding-search.v1",
+  "solver_version": "compute_lower_bound.monotone-bfs.v1",
+  "dead_end_nodes": [
+   "aux_01913d31f5",
+   "aux_074f121838",
+   "aux_1f92ab1129",
+   "aux_2ad493b6d4",
+   "aux_34a0f1b600",
+   "aux_35dc15cd78",
+   "aux_38eacab8db",
+   "aux_4ac3900ee2",
+   "aux_4b70593605",
+   "aux_52c2889fb0",
+   "aux_6098149b13",
+   "aux_6e2ec0cb12",
+   "aux_70ab8bc183",
+   "aux_78f9e1caf2",
+   "aux_7fd2da460b",
+   "aux_89e04b9f47",
+   "aux_8dc6b20a08",
+   "aux_92f12fa474",
+   "aux_97a8dd87a7",
+   "aux_9cf8c516f1",
+   "aux_af2a98fba3",
+   "aux_afb9ad274a",
+   "aux_b70821c8ed",
+   "aux_c3a835532f",
+   "aux_cdcfd92a29",
+   "aux_db2072c25b",
+   "aux_dbfd14688b",
+   "aux_fe4adffc80",
+   "aux_index",
+   "enc_5101e482eb",
+   "policy_archived",
+   "terminology_archived",
+   "terminology_future",
+   "wrong_later_alt",
+   "wrong_named_code"
+  ],
+  "dead_end_definition": "nodes that can reach neither the target nor a credential under the declared expanding-search semantics",
+  "informed_lower_bound": 16,
+  "canonical_oracle_edge_path": [
+   "e_intake",
+   "e_referral",
+   "e_policy_registry",
+   "e_schema",
+   "e_policy_current",
+   "e_search_gingival_page1",
+   "e_search_gingival_page2",
+   "e_ref_hit_1fdcf6f73e",
+   "e_term_registry_1fdc",
+   "e_ref_hit_3904bbefd6",
+   "e_terminology_current",
+   "e_search_gingivitis_page1",
+   "e_search_gingivitis_page2",
+   "e_alt_hit_81bebab7bd",
+   "e_alt_hit_d456e7256b",
+   "e_file_correct"
+  ],
+  "step_budget": 24,
+  "difficulty": "hard",
+  "metric_version": "detourbench-v3"
+ }
+}

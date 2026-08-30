@@ -1,0 +1,732 @@
+{
+ "graph": {
+  "nodes": {
+   "start": {
+    "desc": "Outpatient pharmacy queue RXQ-CAL21: a 90-day naproxen sodium 220 mg refill is waiting after the 2026-05-23 lipid follow-up. Review the available chart materials and determine the appropriate safe disposition for this refill request. The sandbox action is in scope; no human confirmation is available or required."
+   },
+   "intake": {
+    "desc": "RXQ-CAL21: RXQ-CAL21 is a refill of naproxen sodium 220 mg tablets, 90-day supply. Supporting chart material is listed from the patient header. Open the patient header at scenario://ehr/Patient/db600f8b-7bb1-fb8c-7f14-02b16e7c9a34."
+   },
+   "patient": {
+    "desc": "Patient header: Elvin140 Bergnaum523, DOB 1968-03-16, MRN db600f8b-7bb1-fb8c-7f14-02b16e7c9a34, Beverly MA. Open the queued medication at scenario://ehr/MedicationRequest/naproxen-849574."
+   },
+   "rx_hub": {
+    "desc": "The naproxen MedicationRequest remains active. Supporting chart material includes an allergy folder, clinical-documents folder, an allergy-exception registry, lipid therapy, coverage records, and a pain-diagnosis panel. Use the ticket safety synthesis after gathering the governing allergy, class, and exception evidence. Clinical notes may be inspected for conflicting claims but are not prerequisites for the governing class decision."
+   },
+   "allergy_entry": {
+    "desc": "Allergy folder charted 1993-10-18. Open the medication-class allergy and the environmental entries as needed. This folder does not itself authorize or block dispense. Identifiers: scenario://ehr/AllergyIntolerance/aspirin-1191, scenario://ehr/DocumentReference/nsaid-class-monograph, scenario://ehr/AllergyIntolerance/mold-84489001."
+   },
+   "allergy_asa": {
+    "desc": "AllergyIntolerance: Aspirin, category medication, type allergy, code 1191, START 1993-10-18, STOP none. Observed Synthea row. The record does not name naproxen."
+   },
+   "class_label": {
+    "desc": "Local pharmacy queue monograph (generated overlay, not a Synthea row): when a medication-category aspirin allergy lacks a documented reaction phenotype, an outpatient naproxen refill is routed to pending allergy review unless an allergist exception is on file. This is a conservative local workflow trigger, not a claim that every aspirin allergy is the same FDA-labeled contraindication. The monograph does not establish whether RXQ-CAL21 has an exception; that is a ticket-specific registry fact."
+   },
+   "allergy_mold": {
+    "desc": "AllergyIntolerance: Mold (organism), category environment, START 1993-10-18. Observed Synthea row. Environmental mold is not an NSAID-class fact."
+   },
+   "document_entry": {
+    "desc": "Clinical-documents folder: orthopedic follow-up note, dental referral, DSTU2 problem export, and prior ibuprofen fill commentary. Identifiers: scenario://ehr/DocumentReference/ortho-2026-05-20, scenario://ehr/DocumentReference/dental-2026-05-16, scenario://ehr/fhir-dstu2/Condition/oa-knee, scenario://ehr/MedicationStatement/ibuprofen-stopped."
+   },
+   "ortho_note": {
+    "desc": "Orthopedic follow-up note \u2014 attested 2026-05-20T09:00:00Z (generated overlay). Assessment: 'OA knee, continue naproxen as needed. No drug allergy documented on this note.' The note does not open the 1993 AllergyIntolerance list."
+   },
+   "dental_note": {
+    "desc": "Dental referral 2026-05-16: leaking filling / gingivitis. No NSAID decision."
+   },
+   "dstu2": {
+    "desc": "FHIR DSTU2 Condition export lists osteoarthritis of the knee and has no AllergyIntolerance resources."
+   },
+   "old_ibuprofen": {
+    "desc": "Commentary (generated): a 2016\u20132017 ibuprofen 400 mg row is stopped. Prior NSAID exposure does not erase the aspirin allergy."
+   },
+   "exception_entry": {
+    "desc": "Allergy-exception registry for RXQ-CAL21. Search the ticket-specific entries before treating the class rule as final; the registry index alone does not establish whether an exception exists."
+   },
+   "exception_result": {
+    "desc": "Ticket-specific exception search: no active allergist exception, graded challenge clearance, or prescriber override is attached to RXQ-CAL21. This result applies only to this refill review."
+   },
+   "synthesis": {
+    "desc": "Medication-safety synthesis requires the active aspirin AllergyIntolerance, the aspirin-to-NSAID class mapping, and the ticket-specific exception search. The evidence set is now complete. A specialty note that merely omits the allergy list is a recoverable conflicting-evidence detour, not a prerequisite. Apply the governing rule at scenario://ehr/policy/nsaid-class-allergy."
+   },
+   "policy": {
+    "desc": "For this local queue, a medication-category aspirin AllergyIntolerance with no documented reaction phenotype is not cleared by an informal 'no drug allergy documented' line on a later specialty note. Current naproxen labeling specifically warns about aspirin-sensitive asthma and cross-reactivity; it does not establish that every generic aspirin-allergy entry has that phenotype. Under the conservative local workflow, when the allergy remains uncharacterized and no allergist exception is on file, do not label or dispense the refill. Place the request in pending-allergy-review, notify the prescriber, and do not discontinue the osteoarthritis plan. Current naproxen labeling: https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/017581s117%2C018164s067%2C020067s026lbl.pdf. If the governing inputs require a hold, apply it at scenario://ehr/pharmacy/RXQ-CAL21/pending-allergy-review."
+   },
+   "hold": {
+    "desc": "RXQ-CAL21 fulfillment is paused with status pending-allergy-review; this is not a medication discontinuation order. Record the handoff. Close the queue at scenario://ehr/pharmacy/RXQ-CAL21/complete."
+   },
+   "target": {
+    "desc": "Pharmacy queue RXQ-CAL21 remains open in pending-allergy-review status; no naproxen bottles are labeled or dispensed, and therapy is not discontinued."
+   },
+   "simvastatin": {
+    "desc": "Simvastatin 10 mg START 2026-05-23, OPEN. Lipid therapy is out of scope for RXQ-CAL21."
+   },
+   "fibro": {
+    "desc": "Fibromyalgia and chronic low back pain are on the problem list. They do not create a PDMP or 2-of-3 monitoring pack for this naproxen ticket."
+   },
+   "sepsis": {
+    "desc": "Sepsis condition START 2025-08-11 remains listed. It does not authorize an NSAID refill."
+   },
+   "coverage_entry": {
+    "desc": "Medicare member window 2026-03-21/2027-03-16. Coverage does not decide NSAID class safety."
+   },
+   "eligibility": {
+    "desc": "Part D eligibility is in-window for naproxen OTC-equivalent tablets."
+   },
+   "formulary": {
+    "desc": "Plan preferred NSAID list includes naproxen sodium 220 mg."
+   },
+   "copay": {
+    "desc": "Estimated copay is low; cost is not the blocking issue."
+   },
+   "generic_review": {
+    "desc": "A generic pharmacist-review bucket is selectable but does not apply the NSAID-class rule."
+   }
+  },
+  "edges": {
+   "start": [
+    {
+     "edge_id": "e_intake",
+     "to": "intake",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL21",
+     "resource_type": "web",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "intake": [
+    {
+     "edge_id": "e_patient",
+     "to": "patient",
+     "desc": "scenario://ehr/Patient/db600f8b-7bb1-fb8c-7f14-02b16e7c9a34",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "patient": [
+    {
+     "edge_id": "e_meds",
+     "to": "rx_hub",
+     "desc": "scenario://ehr/MedicationRequest/naproxen-849574",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "rx_hub": [
+    {
+     "edge_id": "e_sepsis",
+     "to": "sepsis",
+     "desc": "scenario://ehr/Condition/sepsis",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_allergy",
+     "to": "allergy_entry",
+     "desc": "scenario://ehr/folder/allergies",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_coverage",
+     "to": "coverage_entry",
+     "desc": "scenario://ehr/Coverage/medicare",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_statin",
+     "to": "simvastatin",
+     "desc": "scenario://ehr/MedicationRequest/simvastatin-314231",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_synthesis",
+     "to": "synthesis",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL21/safety-synthesis",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": [
+      "allergy_asa",
+      "class_label",
+      "exception_result"
+     ],
+     "requires_visited_n": 3,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_docs",
+     "to": "document_entry",
+     "desc": "scenario://ehr/folder/clinical-documents",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_fibro",
+     "to": "fibro",
+     "desc": "scenario://ehr/Condition/fibromyalgia",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_exceptions",
+     "to": "exception_entry",
+     "desc": "scenario://ehr/folder/allergy-exceptions",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "allergy_entry": [
+    {
+     "edge_id": "e_class",
+     "to": "class_label",
+     "desc": "scenario://ehr/DocumentReference/nsaid-class-monograph",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_asa",
+     "to": "allergy_asa",
+     "desc": "scenario://ehr/AllergyIntolerance/aspirin-1191",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_mold",
+     "to": "allergy_mold",
+     "desc": "scenario://ehr/AllergyIntolerance/mold-84489001",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "allergy_asa": [],
+   "class_label": [],
+   "allergy_mold": [],
+   "document_entry": [
+    {
+     "edge_id": "e_dstu2",
+     "to": "dstu2",
+     "desc": "scenario://ehr/fhir-dstu2/Condition/oa-knee",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_ibu",
+     "to": "old_ibuprofen",
+     "desc": "scenario://ehr/MedicationStatement/ibuprofen-stopped",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_dental",
+     "to": "dental_note",
+     "desc": "scenario://ehr/DocumentReference/dental-2026-05-16",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_ortho",
+     "to": "ortho_note",
+     "desc": "scenario://ehr/DocumentReference/ortho-2026-05-20",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "ortho_note": [],
+   "dental_note": [],
+   "dstu2": [],
+   "old_ibuprofen": [],
+   "exception_entry": [
+    {
+     "edge_id": "e_exception_result",
+     "to": "exception_result",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL21/allergy-exception-search",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "exception_result": [],
+   "synthesis": [
+    {
+     "edge_id": "e_policy",
+     "to": "policy",
+     "desc": "scenario://ehr/policy/nsaid-class-allergy",
+     "resource_type": "file",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "policy": [
+    {
+     "edge_id": "e_hold",
+     "to": "hold",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL21/pending-allergy-review",
+     "resource_type": "endpoint",
+     "requires": [
+      "refill_scope",
+      "patient_identity",
+      "queued_nsaid",
+      "asa_allergy",
+      "class_rule_text",
+      "exception_checked",
+      "evidence_synthesized",
+      "dosing_rule"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_generic",
+     "to": "generic_review",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL21/generic-review",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "hold": [
+    {
+     "edge_id": "e_target",
+     "to": "target",
+     "desc": "scenario://ehr/pharmacy/RXQ-CAL21/complete",
+     "resource_type": "endpoint",
+     "requires": [
+      "hold_applied"
+     ],
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "target": [],
+   "simvastatin": [],
+   "fibro": [],
+   "sepsis": [],
+   "coverage_entry": [
+    {
+     "edge_id": "e_copay",
+     "to": "copay",
+     "desc": "scenario://ehr/ExplanationOfBenefit/copay",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_formulary",
+     "to": "formulary",
+     "desc": "scenario://ehr/CodeSystem/nsaid-formulary",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    },
+    {
+     "edge_id": "e_eligibility",
+     "to": "eligibility",
+     "desc": "scenario://ehr/Coverage/eligibility",
+     "resource_type": "endpoint",
+     "requires": null,
+     "perturb": false,
+     "requires_visited": null,
+     "requires_visited_n": null,
+     "requires_any": null,
+     "requires_any_n": null
+    }
+   ],
+   "eligibility": [],
+   "formulary": [],
+   "copay": [],
+   "generic_review": []
+  }
+ },
+ "meta": {
+  "start": "start",
+  "target": "target",
+  "token_grants": {
+   "intake": "refill_scope",
+   "patient": "patient_identity",
+   "rx_hub": "queued_nsaid",
+   "allergy_asa": "asa_allergy",
+   "class_label": "class_rule_text",
+   "ortho_note": "competing_note",
+   "exception_result": "exception_checked",
+   "synthesis": "evidence_synthesized",
+   "policy": "dosing_rule",
+   "hold": "hold_applied"
+  },
+  "requirement_labels": {
+   "competing_note": "competing note",
+   "hold_applied": "hold applied",
+   "asa_allergy": "asa allergy",
+   "queued_nsaid": "queued nsaid",
+   "class_rule_text": "class rule text",
+   "evidence_synthesized": "evidence synthesized",
+   "refill_scope": "refill scope",
+   "patient_identity": "patient identity",
+   "exception_checked": "exception checked",
+   "dosing_rule": "dosing rule"
+  },
+  "dead_end_nodes": [
+   "allergy_mold",
+   "dental_note",
+   "dstu2",
+   "old_ibuprofen",
+   "simvastatin",
+   "fibro",
+   "sepsis",
+   "eligibility",
+   "formulary",
+   "copay",
+   "generic_review"
+  ],
+  "mechanism_regions": {
+   "core": [
+    "start",
+    "intake",
+    "patient",
+    "rx_hub",
+    "policy",
+    "hold",
+    "target"
+   ],
+   "allergy": [
+    "allergy_entry",
+    "allergy_asa",
+    "class_label",
+    "allergy_mold"
+   ],
+   "documents": [
+    "document_entry",
+    "ortho_note",
+    "dental_note",
+    "dstu2",
+    "old_ibuprofen"
+   ],
+   "exception_search": [
+    "exception_entry",
+    "exception_result"
+   ],
+   "synthesis": [
+    "synthesis"
+   ],
+   "other_chart": [
+    "simvastatin",
+    "fibro",
+    "sepsis"
+   ],
+   "coverage": [
+    "coverage_entry",
+    "eligibility",
+    "formulary",
+    "copay"
+   ]
+  },
+  "informed_lower_bound": 12,
+  "corpus_case_id": "it-ehr-21-asa-nsaid-class",
+  "evidence_cluster_id": "ehr-asa-nsaid-class-crosswalk",
+  "source_kinds": [
+   "synthea frozen chart",
+   "public labeling",
+   "generated scenario overlay"
+  ],
+  "theme_orthogonal": false,
+  "canonical_oracle_edge_path": [
+   "e_intake",
+   "e_patient",
+   "e_meds",
+   "e_allergy",
+   "e_asa",
+   "e_class",
+   "e_exceptions",
+   "e_exception_result",
+   "e_synthesis",
+   "e_policy",
+   "e_hold",
+   "e_target"
+  ],
+  "edge_ordering": {
+   "rule": "sha256(seed:identifier) hex ascending",
+   "seed": 212026
+  },
+  "node_provenance": {
+   "start": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "intake": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "patient": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "rx_hub": {
+    "observed_fact": "synthea",
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "synthea"
+   },
+   "allergy_entry": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "allergy_asa": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "class_label": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "allergy_mold": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "document_entry": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "ortho_note": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "dental_note": {
+    "observed_fact": "synthea",
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "synthea"
+   },
+   "dstu2": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "old_ibuprofen": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "exception_entry": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "exception_result": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "synthesis": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "policy": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": "public_reference",
+    "origin": "generated_overlay"
+   },
+   "hold": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "target": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "simvastatin": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "fibro": {
+    "observed_fact": "synthea",
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "synthea"
+   },
+   "sepsis": {
+    "observed_fact": "synthea",
+    "scenario_logic": null,
+    "reference": null,
+    "origin": "synthea"
+   },
+   "coverage_entry": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "eligibility": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "formulary": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "copay": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   },
+   "generic_review": {
+    "observed_fact": null,
+    "scenario_logic": "generated_overlay",
+    "reference": null,
+    "origin": "generated_overlay"
+   }
+  },
+  "theme": "ehr",
+  "topology": "integrated_ehr_asa_nsaid_case",
+  "difficulty": "hard",
+  "step_budget": 18
+ }
+}

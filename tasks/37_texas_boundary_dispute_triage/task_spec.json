@@ -1,0 +1,33 @@
+{
+ "schema_version": "detourbench.task-spec.v1",
+ "task_id": 37,
+ "run_task_name": "texas_boundary_dispute_triage",
+ "classification": "integrated_development_challenge",
+ "task_revision": "texas-boundary-triage-v3.1",
+ "objective": "At the frozen decision timestamp, select the single internal next-step workflow authorized for a Texas boundary-dispute matter by the controlled facts, authority limits, complete cost scopes, current triage SOP, and evidence-risk appendix.",
+ "candidate_actions": [
+  "code=A",
+  "code=B",
+  "code=C"
+ ],
+ "primary_mechanism": "Sufficiency",
+ "supporting_mechanisms": [
+  "Currency",
+  "Depth",
+  "Disposition",
+  "Breadth",
+  "Time"
+ ],
+ "domain_mechanisms": [
+  "unverified prior-answer false summit",
+  "current-versus-archived research packet",
+  "duration threshold versus merits sufficiency",
+  "conditional recording-statute application",
+  "record-owner versus threatening-tenant mismatch",
+  "shared-private-utility intervention risk",
+  "complete scoped-path cost comparison",
+  "conjunctive evidence-risk exception",
+  "three-way irreversible workflow commitment"
+ ],
+ "provenance_boundary": "The consultation facts, deed excerpt, statutory excerpts, source-limit note, and vendor estimates are copied or faithfully summarized from the frozen GDPVal/PRBench package. Research version labels, internal SOPs, exception predicates, workflow codes, graph links, and filing outcomes are DetourBench-authored. The task selects an internal workflow and does not establish Texas title, tenant standing, utility liability, or legal advice."
+}

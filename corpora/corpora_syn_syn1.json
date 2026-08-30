@@ -1,0 +1,999 @@
+{
+ "seed": "780db283ea",
+ "sections": {
+  "e296d2deeb": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1969-04-20. Class: wellness. Reason: not stated. Conditions recorded: Only received primary school education (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1969
+   ],
+   "history": "[encounter 1969-04-20 to 1969-04-20]"
+  },
+  "e4a2e7bafc": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1988-05-15. Class: wellness. Reason: not stated. Conditions recorded: Body mass index 30+ - obesity (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1988
+   ],
+   "history": "[encounter 1988-05-15 to 1988-05-15]"
+  },
+  "82a9d54740": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 1990-02-06. Class: emergency. Reason: Chronic intractable migraine without aura (disorder). Conditions recorded: Chronic intractable migraine without aura (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1990
+   ],
+   "history": "[encounter 1990-02-06 to 1990-02-06]"
+  },
+  "1a8628decc": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 1990-04-19. Class: emergency. Reason: Impacted molars (disorder). Conditions recorded: Impacted molars (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1990
+   ],
+   "history": "[encounter 1990-04-19 to 1990-04-19]"
+  },
+  "a7ce49d27c": {
+   "title": "Emergency hospital admission (procedure)",
+   "text": "Emergency hospital admission (procedure) on 1990-05-17. Class: emergency. Reason: Chronic pain (finding). Conditions recorded: Chronic pain (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1990
+   ],
+   "history": "[encounter 1990-05-17 to 1990-05-17]"
+  },
+  "ad20767ea8": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 1991-07-23. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: Dependent drug abuse (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1991
+   ],
+   "history": "[encounter 1991-07-23 to 1991-07-23]"
+  },
+  "a84752b8ea": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 1993-11-14. Class: emergency. Reason: Overdose (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1993
+   ],
+   "history": "[encounter 1993-11-14 to 1993-11-14]"
+  },
+  "8340480e1f": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 1998-10-16. Class: emergency. Reason: Myocardial infarction (disorder). Conditions recorded: Acute non-ST segment elevation myocardial infarction (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1998
+   ],
+   "history": "[encounter 1998-10-16 to 1998-10-16]"
+  },
+  "74d63ddab7": {
+   "title": "Hospital admission (procedure)",
+   "text": "Hospital admission (procedure) on 1998-10-16. Class: inpatient. Reason: Acute non-ST segment elevation myocardial infarction (disorder). Conditions recorded: History of myocardial infarction (situation). Medications: aspirin 81 MG Oral Tablet; metoprolol tartrate 25 MG Oral Tablet; rosuvastatin calcium 10 MG Oral Tablet; lisinopril 5 MG Oral Tablet; prasugrel 10 MG Oral Tablet. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1998
+   ],
+   "history": "[encounter 1998-10-16 to 1998-10-18]"
+  },
+  "298d1c39ee": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2006-03-26. Class: wellness. Reason: not stated. Conditions recorded: Social isolation (finding). Medications: none. Procedures: none.",
+   "refs": [
+    "8c891877a4",
+    "c5bc0b9c95",
+    "fc9c9b82c0"
+   ],
+   "amended_years": [
+    2006
+   ],
+   "history": "[encounter 2006-03-26 to 2006-03-26]"
+  },
+  "780db283ea": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2007-04-01. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: none. Procedures: none.",
+   "refs": [
+    "f4c1378e80",
+    "1bfcd46b26",
+    "49a41cc6a2",
+    "768aebc4aa",
+    "7b78792d28",
+    "11bbbb0a5f",
+    "2bb77287ac",
+    "3b7a27ce58"
+   ],
+   "amended_years": [
+    2007
+   ],
+   "history": "[encounter 2007-04-01 to 2007-04-01]"
+  },
+  "d8a1774f99": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2008-04-06. Class: wellness. Reason: not stated. Conditions recorded: Part-time employment (finding). Medications: none. Procedures: none.",
+   "refs": [
+    "1bfcd46b26",
+    "0c06099700",
+    "7a200aa78c"
+   ],
+   "amended_years": [
+    2008
+   ],
+   "history": "[encounter 2008-04-06 to 2008-04-06]"
+  },
+  "bdf4943b9a": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 2009-02-16. Class: emergency. Reason: Overdose (disorder). Conditions recorded: Overdose (disorder). Medications: none. Procedures: none.",
+   "refs": [
+    "5cb31b4b97"
+   ],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-02-16 to 2009-02-17]"
+  },
+  "dadcb6c21e": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2009-04-12. Class: wellness. Reason: not stated. Conditions recorded: Not in labor force (finding); Limited social contact (finding); Stress (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "1bfcd46b26",
+    "c492e5c408",
+    "768aebc4aa",
+    "ace7791a6f",
+    "7b78792d28",
+    "4dacd5a2f6",
+    "7bb3d2cca5",
+    "0c06099700"
+   ],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-04-12 to 2009-04-12]"
+  },
+  "801e7c45d0": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2009-04-26. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: none. Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "b251efddfa",
+    "23f652895c",
+    "efb562191e",
+    "4b8eb4dbe0",
+    "68227fe1cf",
+    "55ac538983"
+   ],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-04-26 to 2009-04-26]"
+  },
+  "9c5ec010fd": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2009-05-03. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-05-03 to 2009-05-03]"
+  },
+  "b7770cc2f7": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2009-06-02. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-06-02 to 2009-06-02]"
+  },
+  "53844047c6": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2009-07-02. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-07-02 to 2009-07-02]"
+  },
+  "ce4f8f86dc": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2009-08-01. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-08-01 to 2009-08-01]"
+  },
+  "28657bc717": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2009-08-31. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-08-31 to 2009-08-31]"
+  },
+  "7eb9c14b3c": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2009-11-29. Class: outpatient. Reason: not stated. Conditions recorded: Chronic kidney disease stage 2 (disorder); Disorder of kidney due to diabetes mellitus (disorder); Microalbuminuria due to type 2 diabetes mellitus (disorder); Full-time employment (finding); Gingivitis (disorder). Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "1bfcd46b26",
+    "c492e5c408",
+    "768aebc4aa",
+    "11bbbb0a5f",
+    "fab376d651",
+    "3dbba70657",
+    "4ccd599f30",
+    "8c891877a4"
+   ],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-11-29 to 2009-11-29]"
+  },
+  "e191e05236": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2009-12-13. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: none. Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Oral health education (procedure).",
+   "refs": [],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-12-13 to 2009-12-13]"
+  },
+  "f4c1378e80": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2010-01-24. Class: urgentcare. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "780db283ea",
+    "1bfcd46b26",
+    "49a41cc6a2",
+    "768aebc4aa",
+    "7b78792d28",
+    "11bbbb0a5f",
+    "2bb77287ac",
+    "3b7a27ce58"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-01-24 to 2010-01-24]"
+  },
+  "1bfcd46b26": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2010-02-28. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation); Part-time employment (finding); Limited social contact (finding); Reports of violence in the environment (finding); Gingivitis (disorder). Medications: none. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "780db283ea",
+    "d8a1774f99",
+    "dadcb6c21e",
+    "7eb9c14b3c",
+    "f4c1378e80",
+    "c492e5c408",
+    "49a41cc6a2",
+    "768aebc4aa"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-02-28 to 2010-02-28]"
+  },
+  "b251efddfa": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2010-03-14. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: none. Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Dental fluoride treatment (procedure).",
+   "refs": [
+    "801e7c45d0",
+    "23f652895c",
+    "efb562191e",
+    "4b8eb4dbe0",
+    "68227fe1cf",
+    "55ac538983"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-03-14 to 2010-03-14]"
+  },
+  "c492e5c408": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2010-03-28. Class: outpatient. Reason: not stated. Conditions recorded: Stress (finding); Victim of intimate partner abuse (finding); Gingivitis (disorder). Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "dadcb6c21e",
+    "7eb9c14b3c",
+    "1bfcd46b26",
+    "11bbbb0a5f",
+    "4dacd5a2f6",
+    "fab376d651",
+    "7bb3d2cca5",
+    "0c06099700"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-03-28 to 2010-03-28]"
+  },
+  "23f652895c": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2010-04-11. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Leaking dental filling (finding). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Application of composite dental filling material to dentin of tooth following fracture of tooth (procedure).",
+   "refs": [
+    "801e7c45d0",
+    "b251efddfa",
+    "efb562191e",
+    "4b8eb4dbe0",
+    "68227fe1cf",
+    "55ac538983"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-04-11 to 2010-04-11]"
+  },
+  "49a41cc6a2": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2010-04-25. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "780db283ea",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "768aebc4aa",
+    "7b78792d28",
+    "11bbbb0a5f",
+    "2bb77287ac",
+    "3b7a27ce58"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-04-25 to 2010-04-25]"
+  },
+  "768aebc4aa": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2010-05-30. Class: urgentcare. Reason: not stated. Conditions recorded: Medication review due (situation); Full-time employment (finding); Limited social contact (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "780db283ea",
+    "dadcb6c21e",
+    "7eb9c14b3c",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "49a41cc6a2",
+    "7b78792d28",
+    "11bbbb0a5f"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-05-30 to 2010-05-30]"
+  },
+  "ace7791a6f": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2010-08-22. Class: urgentcare. Reason: not stated. Conditions recorded: Not in labor force (finding). Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "dadcb6c21e",
+    "b3d5d42b1a",
+    "cd59daf445"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-08-22 to 2010-08-22]"
+  },
+  "0ce54c6668": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2010-09-05. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: Dental filling lost (finding). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Restoration of tooth with coverage of all cusps using dental filling material (procedure).",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-09-05 to 2010-09-05]"
+  },
+  "7b78792d28": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2010-09-26. Class: urgentcare. Reason: not stated. Conditions recorded: Medication review due (situation); Limited social contact (finding). Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "780db283ea",
+    "dadcb6c21e",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "49a41cc6a2",
+    "768aebc4aa",
+    "11bbbb0a5f",
+    "2bb77287ac"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-09-26 to 2010-09-26]"
+  },
+  "5cb31b4b97": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 2010-10-06. Class: emergency. Reason: Overdose (disorder). Conditions recorded: Overdose (disorder). Medications: none. Procedures: none.",
+   "refs": [
+    "bdf4943b9a"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-10-06 to 2010-10-07]"
+  },
+  "11bbbb0a5f": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2010-10-24. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation); Full-time employment (finding); Gingivitis (disorder). Medications: none. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure); Depression screening using Patient Health Questionnaire Nine Item score (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "780db283ea",
+    "7eb9c14b3c",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "c492e5c408",
+    "49a41cc6a2",
+    "768aebc4aa",
+    "7b78792d28"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-10-24 to 2010-10-24]"
+  },
+  "efb562191e": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2010-11-07. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: none. Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Dental fluoride treatment (procedure).",
+   "refs": [
+    "801e7c45d0",
+    "b251efddfa",
+    "23f652895c",
+    "4b8eb4dbe0",
+    "68227fe1cf",
+    "55ac538983"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-11-07 to 2010-11-07]"
+  },
+  "fc1bba61f7": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2010-11-14. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-11-14 to 2010-11-14]"
+  },
+  "4dacd5a2f6": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2010-11-28. Class: outpatient. Reason: not stated. Conditions recorded: Unemployed (finding); Stress (finding). Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "dadcb6c21e",
+    "c492e5c408",
+    "7bb3d2cca5",
+    "0c06099700",
+    "8c891877a4",
+    "b3d5d42b1a",
+    "fc9c9b82c0"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-11-28 to 2010-11-28]"
+  },
+  "75ed13d493": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2010-12-14. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-12-14 to 2010-12-14]"
+  },
+  "2bb77287ac": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2010-12-26. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation); Chronic kidney disease stage 3 (disorder); Proteinuria due to type 2 diabetes mellitus (disorder). Medications: none. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "780db283ea",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "49a41cc6a2",
+    "768aebc4aa",
+    "7b78792d28",
+    "11bbbb0a5f",
+    "3b7a27ce58"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-12-26 to 2010-12-26]"
+  },
+  "457c37f77a": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-01-13. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-01-13 to 2011-01-13]"
+  },
+  "fab376d651": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-01-23. Class: outpatient. Reason: not stated. Conditions recorded: Gingivitis (disorder). Medications: none. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "7eb9c14b3c",
+    "1bfcd46b26",
+    "c492e5c408",
+    "11bbbb0a5f",
+    "c5ac939d0f"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-01-23 to 2011-01-23]"
+  },
+  "8bd49705c5": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-02-06. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Gingival disease (disorder); Loose dental filling (finding). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "2bbe4dccdc"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-02-06 to 2011-02-06]"
+  },
+  "88940bd36f": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-03-04. Class: ambulatory. Reason: Screening for malignant neoplasm of colon (procedure). Conditions recorded: none. Medications: none. Procedures: Colonoscopy (procedure).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-03-04 to 2011-03-04]"
+  },
+  "b9f2065569": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2011-03-20. Class: urgentcare. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-03-20 to 2011-03-20]"
+  },
+  "3b7a27ce58": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-03-27. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: none. Procedures: Medication reconciliation (procedure).",
+   "refs": [
+    "780db283ea",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "49a41cc6a2",
+    "768aebc4aa",
+    "7b78792d28",
+    "11bbbb0a5f",
+    "2bb77287ac"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-03-27 to 2011-03-27]"
+  },
+  "7bb3d2cca5": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-04-24. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation); Stress (finding). Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure).",
+   "refs": [
+    "780db283ea",
+    "dadcb6c21e",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "c492e5c408",
+    "49a41cc6a2",
+    "768aebc4aa",
+    "7b78792d28"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-04-24 to 2011-04-24]"
+  },
+  "65b47b189d": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2011-05-01. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: none. Procedures: none.",
+   "refs": [
+    "780db283ea",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "49a41cc6a2",
+    "768aebc4aa",
+    "7b78792d28",
+    "11bbbb0a5f",
+    "2bb77287ac"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-05-01 to 2011-05-01]"
+  },
+  "3dbba70657": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-05-22. Class: outpatient. Reason: not stated. Conditions recorded: Full-time employment (finding). Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Screening for domestic abuse (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "7eb9c14b3c",
+    "768aebc4aa",
+    "11bbbb0a5f",
+    "4ccd599f30",
+    "8c891877a4",
+    "c5bc0b9c95",
+    "fc9c9b82c0"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-05-22 to 2011-05-22]"
+  },
+  "2bbe4dccdc": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-06-05. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: Gingival disease (disorder). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "8bd49705c5"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-06-05 to 2011-06-05]"
+  },
+  "bb8d941423": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2011-06-19. Class: urgentcare. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "780db283ea",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "49a41cc6a2",
+    "768aebc4aa",
+    "7b78792d28",
+    "11bbbb0a5f",
+    "2bb77287ac"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-06-19 to 2011-06-19]"
+  },
+  "0c06099700": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-07-24. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation); Part-time employment (finding); Stress (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "780db283ea",
+    "d8a1774f99",
+    "dadcb6c21e",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "c492e5c408",
+    "49a41cc6a2",
+    "768aebc4aa"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-07-24 to 2011-07-24]"
+  },
+  "4b8eb4dbe0": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-08-07. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: Primary dental caries (disorder). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Restoration of tooth with coverage of all cusps using dental filling material (procedure).",
+   "refs": [
+    "801e7c45d0",
+    "b251efddfa",
+    "23f652895c",
+    "efb562191e",
+    "68227fe1cf",
+    "55ac538983"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-08-07 to 2011-08-07]"
+  },
+  "4ccd599f30": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2011-08-21. Class: urgentcare. Reason: not stated. Conditions recorded: Full-time employment (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "7eb9c14b3c",
+    "768aebc4aa",
+    "11bbbb0a5f",
+    "3dbba70657",
+    "8c891877a4",
+    "c5bc0b9c95",
+    "fc9c9b82c0"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-08-21 to 2011-08-21]"
+  },
+  "e5b4c3becf": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-09-04. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: none. Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-09-04 to 2011-09-04]"
+  },
+  "fa74cc518c": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-09-18. Class: outpatient. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-09-18 to 2011-09-18]"
+  },
+  "7a200aa78c": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-10-16. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation); Part-time employment (finding); Limited social contact (finding). Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "780db283ea",
+    "d8a1774f99",
+    "dadcb6c21e",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "49a41cc6a2",
+    "768aebc4aa",
+    "7b78792d28"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-10-16 to 2011-10-16]"
+  },
+  "68227fe1cf": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-10-30. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: none. Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Dental fluoride treatment (procedure).",
+   "refs": [
+    "801e7c45d0",
+    "b251efddfa",
+    "23f652895c",
+    "efb562191e",
+    "4b8eb4dbe0",
+    "55ac538983"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-10-30 to 2011-10-30]"
+  },
+  "8c891877a4": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-11-20. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation); Full-time employment (finding); Social isolation (finding); Stress (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "298d1c39ee",
+    "780db283ea",
+    "dadcb6c21e",
+    "7eb9c14b3c",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "c492e5c408",
+    "49a41cc6a2"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-11-20 to 2011-11-20]"
+  },
+  "e84bd5b2fa": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2011-12-18. Class: urgentcare. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-12-18 to 2011-12-18]"
+  },
+  "cb34bf2b86": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2012-01-15. Class: urgentcare. Reason: not stated. Conditions recorded: Medication review due (situation); Has a criminal record (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "780db283ea",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "49a41cc6a2",
+    "768aebc4aa",
+    "7b78792d28",
+    "11bbbb0a5f",
+    "2bb77287ac"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-01-15 to 2012-01-15]"
+  },
+  "c5ac939d0f": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2012-02-19. Class: outpatient. Reason: not stated. Conditions recorded: Reports of violence in the environment (finding); Gingivitis (disorder). Medications: none. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "7eb9c14b3c",
+    "1bfcd46b26",
+    "c492e5c408",
+    "11bbbb0a5f",
+    "fab376d651"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-02-19 to 2012-02-19]"
+  },
+  "42e19fd37e": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2012-03-04. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: none. Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-03-04 to 2012-03-04]"
+  },
+  "b3d5d42b1a": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2012-03-18. Class: outpatient. Reason: not stated. Conditions recorded: Not in labor force (finding); Stress (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "dadcb6c21e",
+    "c492e5c408",
+    "ace7791a6f",
+    "4dacd5a2f6",
+    "7bb3d2cca5",
+    "0c06099700",
+    "8c891877a4",
+    "cd59daf445"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-03-18 to 2012-03-18]"
+  },
+  "81dffffbe6": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2012-05-06. Class: wellness. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: Assessment of health and social care needs (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-05-06 to 2012-05-06]"
+  },
+  "5614c3ac0b": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2012-05-13. Class: urgentcare. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: Medication reconciliation (procedure).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-05-13 to 2012-05-13]"
+  },
+  "55ac538983": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2012-05-20. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: none. Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "801e7c45d0",
+    "b251efddfa",
+    "23f652895c",
+    "efb562191e",
+    "4b8eb4dbe0",
+    "68227fe1cf"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-05-20 to 2012-05-20]"
+  },
+  "450f16e047": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-05-27. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-05-27 to 2012-05-27]"
+  },
+  "7b58a46d93": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-06-26. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-06-26 to 2012-06-26]"
+  },
+  "c5bc0b9c95": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2012-07-15. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation); Full-time employment (finding); Social isolation (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "298d1c39ee",
+    "780db283ea",
+    "7eb9c14b3c",
+    "f4c1378e80",
+    "1bfcd46b26",
+    "49a41cc6a2",
+    "768aebc4aa",
+    "7b78792d28"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-07-15 to 2012-07-15]"
+  },
+  "d8c8ae642f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-07-26. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-07-26 to 2012-07-26]"
+  },
+  "cd59daf445": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2012-08-12. Class: outpatient. Reason: not stated. Conditions recorded: Not in labor force (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "dadcb6c21e",
+    "ace7791a6f",
+    "b3d5d42b1a"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-08-12 to 2012-08-12]"
+  },
+  "ad3335292d": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-08-25. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-08-25 to 2012-08-25]"
+  },
+  "fc9c9b82c0": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2012-09-16. Class: outpatient. Reason: not stated. Conditions recorded: Full-time employment (finding); Social isolation (finding); Stress (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "298d1c39ee",
+    "dadcb6c21e",
+    "7eb9c14b3c",
+    "c492e5c408",
+    "768aebc4aa",
+    "11bbbb0a5f",
+    "4dacd5a2f6",
+    "7bb3d2cca5"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-09-16 to 2012-09-16]"
+  },
+  "ed32e6381f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-09-24. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-09-24 to 2012-09-24]"
+  },
+  "9db0c1e580": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2012-10-14. Class: outpatient. Reason: not stated. Conditions recorded: Victim of intimate partner abuse (finding). Medications: none. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "c492e5c408"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-10-14 to 2012-10-14]"
+  }
+ },
+ "title": "synthea",
+ "scenario": {
+  "subject": "a patient's care episode",
+  "ticket": "a care episode is under retrospective review and the reviewer disputes which encounter governs the determination",
+  "authority_noun": "reviewing clinician sign-off on file",
+  "filing_noun": "episode determination",
+  "confirmation_resource": "record://encounters/status/current",
+  "filing_endpoint": "https://clinical-review.internal/v2/determinations/submit",
+  "absence_ticket": "a presentation has been recorded that does not obviously fall under any documented encounter"
+ }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "detourbench.initial-state.v1",
+  "visibility": "local",
+  "node": "start",
+  "context": "Periodontal audit DTB-EHR-28. Establish the first documented onset of the condition in the audit packet. Apply the policy version in force, account for clinically equivalent coding variants only when the terminology release effective at the audit timestamp confirms them, exhaust every search page, and make one final determination. No real patient data is involved.",
+  "known_resources": [
+    {
+      "identifier": "https://clinical-review.internal/v5/audits/DTB-EHR-28",
+      "resource_type": "endpoint"
+    }
+  ],
+  "actions_remaining": 24,
+  "identifiers": [
+    "https://clinical-review.internal/v5/audits/DTB-EHR-28"
+  ]
+}

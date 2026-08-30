@@ -1,0 +1,1126 @@
+{
+ "seed": "451dbf9c3d",
+ "sections": {
+  "6d5996dc98": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1952-09-13. Class: wellness. Reason: not stated. Conditions recorded: Educated to high school level (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1952
+   ],
+   "history": "[encounter 1952-09-13 to 1952-09-13]"
+  },
+  "aad7cbd988": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1959-09-26. Class: wellness. Reason: not stated. Conditions recorded: Recurrent urinary tract infection (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1959
+   ],
+   "history": "[encounter 1959-09-26 to 1959-09-26]"
+  },
+  "9d240df571": {
+   "title": "Prenatal visit (regime/therapy)",
+   "text": "Prenatal visit (regime/therapy) on 1968-08-10. Class: ambulatory. Reason: Complete miscarriage (disorder). Conditions recorded: Past pregnancy history of miscarriage (situation). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1968
+   ],
+   "history": "[encounter 1968-08-10 to 1968-08-10]"
+  },
+  "323d30df9f": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1974-07-27. Class: wellness. Reason: not stated. Conditions recorded: Body mass index 30+ - obesity (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1974
+   ],
+   "history": "[encounter 1974-07-27 to 1974-07-27]"
+  },
+  "44d9e15ebf": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1976-07-31. Class: wellness. Reason: not stated. Conditions recorded: Essential hypertension (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1976
+   ],
+   "history": "[encounter 1976-07-31 to 1976-07-31]"
+  },
+  "16501e9b8c": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1989-10-21. Class: wellness. Reason: not stated. Conditions recorded: Prediabetes (finding); Anemia (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1989
+   ],
+   "history": "[encounter 1989-10-21 to 1989-10-21]"
+  },
+  "eacfb46ce0": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1992-11-07. Class: wellness. Reason: not stated. Conditions recorded: Metabolic syndrome X (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1992
+   ],
+   "history": "[encounter 1992-11-07 to 1992-11-07]"
+  },
+  "f454ac5c50": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1999-12-18. Class: wellness. Reason: not stated. Conditions recorded: Ischemic heart disease (disorder). Medications: Clopidogrel 75 MG Oral Tablet; Simvastatin 20 MG Oral Tablet; 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet; Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1999
+   ],
+   "history": "[encounter 1999-12-18 to 1999-12-18]"
+  },
+  "44e955e121": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 1999-12-29. Class: ambulatory. Reason: Ischemic heart disease (disorder). Conditions recorded: Abnormal findings diagnostic imaging heart+coronary circulat (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1999
+   ],
+   "history": "[encounter 1999-12-29 to 1999-12-29]"
+  },
+  "bfdacdab95": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2000-09-16. Class: urgentcare. Reason: not stated. Conditions recorded: Chronic kidney disease stage 1 (disorder); Disorder of kidney due to diabetes mellitus (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2000
+   ],
+   "history": "[encounter 2000-09-16 to 2000-09-16]"
+  },
+  "43fff6c111": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2006-01-21. Class: wellness. Reason: not stated. Conditions recorded: Chronic kidney disease stage 2 (disorder); Microalbuminuria due to type 2 diabetes mellitus (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2006
+   ],
+   "history": "[encounter 2006-01-21 to 2006-01-21]"
+  },
+  "a26bd1e335": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2010-08-28. Class: outpatient. Reason: not stated. Conditions recorded: Chronic kidney disease stage 3 (disorder); Proteinuria due to type 2 diabetes mellitus (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-08-28 to 2010-08-28]"
+  },
+  "d8336e57c4": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2011-02-19. Class: wellness. Reason: not stated. Conditions recorded: Victim of intimate partner abuse (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-02-19 to 2011-02-19]"
+  },
+  "e26a40ffbb": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2013-10-08. Class: ambulatory. Reason: not stated. Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-10-08 to 2013-10-08]"
+  },
+  "00b2fffbb7": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2014-01-03. Class: ambulatory. Reason: not stated. Conditions recorded: Awaiting transplantation of kidney (situation). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-01-03 to 2014-01-03]"
+  },
+  "fe0b45f9aa": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2014-03-08. Class: wellness. Reason: not stated. Conditions recorded: Chronic kidney disease stage 4 (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-03-08 to 2014-03-08]"
+  },
+  "0837c763d3": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2015-03-14. Class: wellness. Reason: not stated. Conditions recorded: Unhealthy alcohol drinking behavior (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-03-14 to 2015-03-14]"
+  },
+  "529d050bf8": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2015-06-06. Class: outpatient. Reason: not stated. Conditions recorded: Full-time employment (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-06-06 to 2015-06-06]"
+  },
+  "9fa823b2ef": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2016-03-19. Class: wellness. Reason: not stated. Conditions recorded: Limited social contact (finding); Stress (finding); Reports of violence in the environment (finding). Medications: insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin]; lisinopril 10 MG Oral Tablet. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-03-19 to 2016-03-19]"
+  },
+  "451dbf9c3d": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-08-25. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c",
+    "638ea57cd4"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-08-25 to 2016-08-25]"
+  },
+  "5c7d3f60da": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-08-28. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c",
+    "638ea57cd4"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-08-28 to 2016-08-28]"
+  },
+  "a57656c023": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-08-31. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c",
+    "638ea57cd4"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-08-31 to 2016-08-31]"
+  },
+  "013203d3d5": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-09-03. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c",
+    "638ea57cd4"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-09-03 to 2016-09-03]"
+  },
+  "065b9b0e60": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-09-06. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c",
+    "638ea57cd4"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-09-06 to 2016-09-06]"
+  },
+  "21e01b6223": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-09-09. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "c5f172164a",
+    "c2fb44911c",
+    "638ea57cd4"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-09-09 to 2016-09-10]"
+  },
+  "c5f172164a": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-09-13. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c2fb44911c",
+    "638ea57cd4"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-09-13 to 2016-09-13]"
+  },
+  "c2fb44911c": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-09-16. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "638ea57cd4"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-09-16 to 2016-09-16]"
+  },
+  "638ea57cd4": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-09-19. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-09-19 to 2016-09-19]"
+  },
+  "c61175b8cd": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-09-19. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-09-19 to 2016-09-19]"
+  },
+  "d52a7fe973": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-09-22. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-09-22 to 2016-09-22]"
+  },
+  "6821d74515": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-09-25. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-09-25 to 2016-09-25]"
+  },
+  "b6244c8c11": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-09-28. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-09-28 to 2016-09-28]"
+  },
+  "229d167022": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-10-01. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-01 to 2016-10-01]"
+  },
+  "7b120f66ac": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-10-04. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-04 to 2016-10-04]"
+  },
+  "1c25143bf2": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-10-07. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-07 to 2016-10-08]"
+  },
+  "2aad304aeb": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-10-11. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-11 to 2016-10-11]"
+  },
+  "917253b172": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-10-14. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-14 to 2016-10-14]"
+  },
+  "40d651b285": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-10-17. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-17 to 2016-10-17]"
+  },
+  "78a18ad0b0": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-10-20. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-20 to 2016-10-20]"
+  },
+  "832ddf37f3": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-10-20. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-20 to 2016-10-20]"
+  },
+  "27e7624f76": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-10-23. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-23 to 2016-10-23]"
+  },
+  "54c24c5154": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-10-26. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-26 to 2016-10-26]"
+  },
+  "0edaf5fa98": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-10-29. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-10-29 to 2016-10-29]"
+  },
+  "058d52df3f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-11-01. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-11-01 to 2016-11-02]"
+  },
+  "f33a6fbe32": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-11-05. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-11-05 to 2016-11-05]"
+  },
+  "8bae599a4a": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-11-08. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-11-08 to 2016-11-08]"
+  },
+  "25c6fb9ad2": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-11-11. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-11-11 to 2016-11-11]"
+  },
+  "fcf742c4b6": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-11-14. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-11-14 to 2016-11-14]"
+  },
+  "05c8a6c490": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-11-17. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-11-17 to 2016-11-17]"
+  },
+  "57dc179605": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-11-20. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-11-20 to 2016-11-20]"
+  },
+  "107fccc494": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-11-20. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-11-20 to 2016-11-20]"
+  },
+  "d341ba413a": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-11-23. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-11-23 to 2016-11-23]"
+  },
+  "54cbc7f5eb": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-11-26. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-11-26 to 2016-11-27]"
+  },
+  "c289022a77": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-11-30. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-11-30 to 2016-11-30]"
+  },
+  "67ea62b2be": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-03. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-03 to 2016-12-03]"
+  },
+  "3e25b53ec7": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-06. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-06 to 2016-12-06]"
+  },
+  "402b977653": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-09. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-09 to 2016-12-09]"
+  },
+  "98b69473e3": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-12. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-12 to 2016-12-12]"
+  },
+  "e5fcb462f6": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-15. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-15 to 2016-12-15]"
+  },
+  "8b1fa97ba1": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-18. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-18 to 2016-12-18]"
+  },
+  "dfe27913d0": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-21. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-21 to 2016-12-21]"
+  },
+  "fe284b25ab": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-21. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-21 to 2016-12-21]"
+  },
+  "4258cff11e": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-24. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-24 to 2016-12-25]"
+  },
+  "043cf15ff2": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-28. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-28 to 2016-12-28]"
+  },
+  "f7842d8915": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2016-12-31. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-12-31 to 2016-12-31]"
+  },
+  "a36e2f153c": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-01-03. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-03 to 2017-01-03]"
+  },
+  "f2096bd4f7": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-01-06. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-06 to 2017-01-06]"
+  },
+  "7b8d9bbd64": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2017-01-14. Class: ambulatory. Reason: Awaiting transplantation of kidney (situation). Conditions recorded: none. Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-14 to 2017-01-14]"
+  },
+  "7ff0b4dbdf": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-01-21. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-21 to 2017-01-21]"
+  },
+  "a79f7f797f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-01-21. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-21 to 2017-01-21]"
+  },
+  "b62b426059": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-01-24. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-24 to 2017-01-24]"
+  },
+  "d197e183d1": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-01-27. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-27 to 2017-01-27]"
+  },
+  "cace873eb6": {
+   "title": "Admission to surgical transplant department (procedure)",
+   "text": "Admission to surgical transplant department (procedure) on 2017-01-28. Class: inpatient. Reason: Awaiting transplantation of kidney (situation). Conditions recorded: History of renal transplant (situation). Medications: 1 ML tacrolimus 5 MG/ML Injection [Prograf]; 1 ML tacrolimus 5 MG/ML Injection [Prograf]; 24 HR tacrolimus 1 MG Extended Release Oral Tablet [Envarsus]. Procedures: Pretransplant evaluation of kidney recipient (procedure); Transplant of kidney (procedure); Transplantation of kidney regime (regime/therapy).",
+   "refs": [
+    "c3cf6d87dc"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-01-28 to 2017-01-29]"
+  },
+  "3a9e70cd52": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2017-02-11. Class: ambulatory. Reason: Chronic kidney disease stage 4 (disorder). Conditions recorded: none. Medications: 1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]. Procedures: Renal dialysis (procedure).",
+   "refs": [
+    "451dbf9c3d",
+    "5c7d3f60da",
+    "a57656c023",
+    "013203d3d5",
+    "065b9b0e60",
+    "21e01b6223",
+    "c5f172164a",
+    "c2fb44911c"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-02-11 to 2017-02-11]"
+  },
+  "c3cf6d87dc": {
+   "title": "Postoperative follow-up visit (procedure)",
+   "text": "Postoperative follow-up visit (procedure) on 2017-02-18. Class: ambulatory. Reason: History of renal transplant (situation). Conditions recorded: none. Medications: 1 ML tacrolimus 5 MG/ML Injection [Prograf]. Procedures: Renal disorder medication review (procedure); Transplantation of kidney regime (regime/therapy).",
+   "refs": [
+    "cace873eb6"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[encounter 2017-02-18 to 2017-02-18]"
+  }
+ },
+ "title": "synthea",
+ "scenario": {
+  "subject": "a patient's care episode",
+  "ticket": "a care episode is under retrospective review and the reviewer disputes which encounter governs the determination",
+  "authority_noun": "reviewing clinician sign-off on file",
+  "filing_noun": "episode determination",
+  "confirmation_resource": "record://encounters/status/current",
+  "filing_endpoint": "https://clinical-review.internal/v2/determinations/submit",
+  "absence_ticket": "a presentation has been recorded that does not obviously fall under any documented encounter"
+ }
+}

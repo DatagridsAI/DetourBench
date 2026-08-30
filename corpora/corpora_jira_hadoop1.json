@@ -1,0 +1,1451 @@
+{
+ "seed": "HADOOP-9991",
+ "sections": {
+  "HADOOP-9991": {
+   "title": "Fix up Hadoop POMs, roll up JARs to latest versions",
+   "text": "Fix up Hadoop POMs, roll up JARs to latest versions Status: Open. Priority: unset. Linked: Reference: HADOOP-10067; dependent: HADOOP-10075; dependent: HADOOP-10076; Reference: HADOOP-10100; dependent: HADOOP-10101; Reference: HADOOP-10105. If you try using Hadoop downstream with a classpath shared with HBase and Accumulo, you soon discover how messy the dependencies are. Hadoop's side of this problem is # not being up to date with some of the external releases of common JARs # not locking down/excluding inconsistent versions of artifacts provided down the dependency graph",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-10067",
+    "dependent: HADOOP-10075",
+    "dependent: HADOOP-10076",
+    "Reference: HADOOP-10100",
+    "dependent: HADOOP-10101",
+    "Reference: HADOOP-10105"
+   ],
+   "amended_years": [
+    2013,
+    2023
+   ],
+   "history": "[created 2013-09-23, resolved unresolved]",
+   "refs": [
+    "HADOOP-10067",
+    "HADOOP-10075",
+    "HADOOP-10076",
+    "HADOOP-10100",
+    "HADOOP-10101",
+    "HADOOP-10105",
+    "HADOOP-10147",
+    "HADOOP-10384",
+    "HADOOP-10530",
+    "HADOOP-10783",
+    "HADOOP-10814",
+    "HADOOP-11086",
+    "HADOOP-11492",
+    "HADOOP-11515",
+    "HADOOP-11755",
+    "HADOOP-11946",
+    "HADOOP-12064",
+    "HADOOP-12232",
+    "HADOOP-12281",
+    "HADOOP-12427",
+    "HADOOP-12527",
+    "HADOOP-12577",
+    "HADOOP-12767",
+    "HADOOP-12809",
+    "HADOOP-12927",
+    "HADOOP-12928",
+    "HADOOP-13050",
+    "HADOOP-13332",
+    "HADOOP-13363",
+    "HADOOP-13541",
+    "HADOOP-13545",
+    "HADOOP-13659",
+    "HADOOP-13660",
+    "HADOOP-13661",
+    "HADOOP-13866",
+    "HADOOP-13994",
+    "HADOOP-14040",
+    "HADOOP-14043",
+    "HADOOP-14061",
+    "HADOOP-14100",
+    "HADOOP-14126",
+    "HADOOP-14283",
+    "HADOOP-14290",
+    "HADOOP-14401",
+    "HADOOP-14414",
+    "HADOOP-14419",
+    "HADOOP-14420",
+    "HADOOP-14471",
+    "HADOOP-14490",
+    "HADOOP-14536",
+    "HADOOP-14647",
+    "HADOOP-14662",
+    "HADOOP-14670",
+    "HADOOP-14692",
+    "HADOOP-14775",
+    "HADOOP-14824",
+    "HADOOP-14890",
+    "HADOOP-14930",
+    "HADOOP-15040",
+    "HADOOP-15054",
+    "HADOOP-15072",
+    "HADOOP-15214",
+    "HADOOP-15218",
+    "HADOOP-15261",
+    "HADOOP-15299",
+    "HADOOP-15482",
+    "HADOOP-15642",
+    "HADOOP-15960",
+    "HADOOP-15960",
+    "HADOOP-15993",
+    "HADOOP-15994",
+    "HADOOP-16075",
+    "HADOOP-16076",
+    "HADOOP-16152",
+    "HADOOP-16227"
+   ]
+  },
+  "HADOOP-10067": {
+   "title": "Missing POM dependency on jsr305",
+   "text": "Missing POM dependency on jsr305 Status: Closed. Priority: unset. Linked: Reference: HADOOP-10101; Reference: HADOOP-9991. Compiling for Fedora revels a missing declaration for javax.annotation.Nullable. This is the result of a missing explicit dependency on jsr305.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-10101",
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2013,
+    2014
+   ],
+   "history": "[created 2013-10-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-10101",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-10075": {
+   "title": "Update jetty dependency to version 9",
+   "text": "Update jetty dependency to version 9 Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. Jetty6 is no longer maintained. Update the dependency to jetty9.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2013,
+    2020
+   ],
+   "history": "[created 2013-10-28, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-10076": {
+   "title": "Update tomcat/jasper dependency to version 7",
+   "text": "Update tomcat/jasper dependency to version 7 Status: Open. Priority: unset. Linked: Reference: HADOOP-12809; dependent: HADOOP-9991. Tomcat 6 is no longer maintained. Update to use tomcat/jasper 7.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-12809",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2013,
+    2016
+   ],
+   "history": "[created 2013-10-28, resolved unresolved]",
+   "refs": [
+    "HADOOP-12809",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-10100": {
+   "title": "MiniKDC shouldn't use apacheds-all artifact",
+   "text": "MiniKDC shouldn't use apacheds-all artifact Status: Closed. Priority: unset. Linked: Reference: HADOOP-9991. The MiniKDC currently depends on the {{apacheds-all}} artifact: org.apache.directory.server apacheds-all 2.0.0-M15 compile However, this artifact includes, inside of itself, a lot of other packages, including antlr, ehcache, apache commons, and mina (you can see a full list of the packages in the jar [here|http://mvnrepository.com/artifact/org.apache.directory.server/apacheds-all/2.0.0-M15]). This can be problematic if other projects (e.g. Oozie) try to use MiniKDC and have a different version of one of those dependencies (in my case, ehcache). Because the packages are included inside the {{apacheds-all}} jar, we can't override their version. Instead, we should remove {{apacheds-all}} and use dependencies that only include org.apache.directory.* packages; the other necessary dependencies should be included normally.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2013,
+    2014
+   ],
+   "history": "[created 2013-11-14, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-10101": {
+   "title": "Update guava dependency to the latest version",
+   "text": "Update guava dependency to the latest version Status: Resolved. Priority: unset. Linked: Reference: HADOOP-10067; Reference: HADOOP-12064; Reference: HADOOP-15960; dependent: HADOOP-9991. The existing guava version is 11.0.2 which is quite old. This issue tries to update the version to as latest version as possible.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-10067",
+    "Reference: HADOOP-12064",
+    "Reference: HADOOP-15960",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2013,
+    2019
+   ],
+   "history": "[created 2013-11-14, resolved unresolved]",
+   "refs": [
+    "HADOOP-10067",
+    "HADOOP-12064",
+    "HADOOP-15960",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-10105": {
+   "title": "remove httpclient dependency",
+   "text": "remove httpclient dependency Status: Resolved. Priority: unset. Linked: Reference: HADOOP-12767; Reference: HADOOP-9991. httpclient is now end-of-life and is no longer being developed. Now that we have a dependency on { }, we should phase out our use of the old discontinued { } library in Hadoop. This will allow us to reduce {{CLASSPATH}} bloat and get updated code.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-12767",
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2013,
+    2017
+   ],
+   "history": "[created 2013-11-15, resolved unresolved]",
+   "refs": [
+    "HADOOP-12767",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-10147": {
+   "title": "Upgrade to commons-logging 1.1.3 to avoid potential deadlock in MiniDFSCluster",
+   "text": "Upgrade to commons-logging 1.1.3 to avoid potential deadlock in MiniDFSCluster Status: Closed. Priority: unset. Linked: dependent: HADOOP-9991. There is a deadlock in commons-logging 1.1.1 (see LOGGING-119) that can manifest itself while running {{MiniDFSCluster}} JUnit tests. This deadlock has been fixed in commons-logging 1.1.2. The latest version available is commons-logging 1.1.3, and Hadoop should upgrade to that in order to address this deadlock.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2013,
+    2014
+   ],
+   "history": "[created 2013-12-06, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-10384": {
+   "title": "CLONE - Upgrade servlet-api dependency from version 2.5 to 3.0.",
+   "text": "CLONE - Upgrade servlet-api dependency from version 2.5 to 3.0. Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. Please update the servlet-api jar from 2.5 to javax.servlet 3.0 via Maven: javax.servlet javax.servlet-api 3.0.1 provided I am running a 2.0.3 dev-cluster and can confirm compatibility. I have removed the servlet-api-2.5.jar file and replaced it with javax.servlet-3.0.jar file. I am using javax.servlet-3.0 because it implements methods that I use for a filter, namely the HttpServletResponse.getStatus() method. I believe it is a gain to have this dependency as it allows more functionality and has so far proven to be backwards compatible.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2014,
+    2016
+   ],
+   "history": "[created 2014-03-05, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-10530": {
+   "title": "Make hadoop trunk build on Java7+ only",
+   "text": "Make hadoop trunk build on Java7+ only Status: Closed. Priority: unset. Linked: Reference: HADOOP-9991. As discussed on hadoop-common, hadoop 3 is envisaged to be Java7+ *only* -this JIRA covers switching the build for this # maven enforcer plugin to set Java version = {{[1.7)}} # compiler to set language to java 1.7",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2014,
+    2016
+   ],
+   "history": "[created 2014-04-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-10783": {
+   "title": "apache-commons-lang.jar 2.6 does not support FreeBSD -upgrade to 3.x needed",
+   "text": "apache-commons-lang.jar 2.6 does not support FreeBSD -upgrade to 3.x needed Status: Resolved. Priority: unset. Linked: Reference: HADOOP-9991. Hadoop-2.4.1 ships with apache-commons.jar version 2.6. It does not support FreeBSD (IS_OS_UNIX returns False). This is fixed in recent versions of apache-commons.jar Please update apache-commons.jar to recent version so it correctly recognizes FreeBSD as UNIX-like system. Right now I get in datanode's log: 2014-07-04 11:58:10,459 DEBUG org.apache.hadoop.hdfs.server.datanode.ShortCircui tRegistry: Disabling ShortCircuitRegistry java.io.IOException: The OS is not UNIX. at org.apache.hadoop.io.nativeio.SharedFileDescriptorFactory.create(SharedFileDescriptorFactory.java:77) at org.apache.hadoop.hdfs.server.datanode.ShortCircuitRegistry. (ShortCircuitRegistry.java:169) at org.apache.hadoop.hdfs.server.datanode.DataNode.initDataXceiver(DataNode.java:583) at org.apache.hadoop.hdfs.server.datanode.DataNode.startDataNode(DataNode.java:771) at org.apache.hadoop.hdfs.server.datanode.DataNode. (DataNode.java:289) at org.apache.hadoop.hdfs.server.datanode.DataNode.makeInstance(DataNode.java:1931) ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2014,
+    2018
+   ],
+   "history": "[created 2014-07-04, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-10814": {
+   "title": "Update Tomcat version used by HttpFS and KMS to latest 6.x version",
+   "text": "Update Tomcat version used by HttpFS and KMS to latest 6.x version Status: Closed. Priority: unset. Linked: dependent: HADOOP-9991. KMS and HttpFS are using Tomcat 6.0.37, we should move it to 6.0.41 to get bug fixes and security fixes. We should add a property with the tomcat version in the hadoop-project POM and use that property from KMS and HttpFS.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2014
+   ],
+   "history": "[created 2014-07-10, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-11086": {
+   "title": "Upgrade jets3t to 0.9.4",
+   "text": "Upgrade jets3t to 0.9.4 Status: Resolved. Priority: unset. Linked: Duplicate: HADOOP-11946; dependent: HADOOP-9991. jets3t 0.9.2 contains a fix that caused failure of multi-part uploads with service-side encryption. http://jets3t.s3.amazonaws.com/RELEASE_NOTES.html (it also removes an exception thrown from the RestS3Service constructor which requires removing the try/catch around that code)",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Duplicate: HADOOP-11946",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2014,
+    2023
+   ],
+   "history": "[created 2014-09-11, resolved unresolved]",
+   "refs": [
+    "HADOOP-11946",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-11492": {
+   "title": "Bump up curator version to 2.7.1",
+   "text": "Bump up curator version to 2.7.1 Status: Closed. Priority: unset. Linked: Reference: HADOOP-9991. Curator 2.7.1 got released recently and contains CURATOR-111 that YARN-2716 requires. PS: Filing a common JIRA so folks from other sub-projects also notice this change and shout out if there are any reservations.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2015,
+    2016
+   ],
+   "history": "[created 2015-01-20, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-11515": {
+   "title": "Upgrade jsch lib to jsch-0.1.51 to avoid problems running on java7",
+   "text": "Upgrade jsch lib to jsch-0.1.51 to avoid problems running on java7 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-14100; dependent: HADOOP-9991. We had an application sitting on top of Hadoop and got problems using jsch once we switched to java 7. Got this exception: com.jcraft.jsch.JSchException: verify: false at com.jcraft.jsch.Session.connect(Session.java:330) at com.jcraft.jsch.Session.connect(Session.java:183) Upgrading to jsch-0.1.51 from jsch-0.1.49 fixed the issue for us, but then it got in conflict with hadoop's jsch version (we fixed this for us by jarjar'ing our jsch version). So i think jsch got introduce by namenode HA (HDFS-1623). So you guys should check if the ssh part is properly working for java7 or preventively upgrade the jsch lib to jsch-0.1.51! Some references to problems reported: - http://sourceforge.net/p/jsch/mailman/jsch-users/thread/loom.20131009T211650-749@post.gmane.org/ - https://issues.apache.org/bugzilla/show_bug.cgi?id=53437",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-14100",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2014,
+    2017
+   ],
+   "history": "[created 2014-11-07, resolved unresolved]",
+   "refs": [
+    "HADOOP-14100",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-11755": {
+   "title": "Update avro version to have PowerPC supported Snappy-java ",
+   "text": "Update avro version to have PowerPC supported Snappy-java  Status: Open. Priority: unset. Linked: Reference: HADOOP-12527; Blocker: HADOOP-9991. Hadoop downloads Snappy-java 1.0.4.1 version (which don't have PowerPC native libraries) through avro 1.7.4 dependency. Current Avro development version ( 1.8.0-SNAPSHOT) has updated the snappy-java version to 1.1.1.3 which has ppc64 & ppc64le native libraries.So Hadoop needs to update the avro version to the upcoming release ( probably 1.7.8) to have PowerPC supported snappy-java in its lib.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-12527",
+    "Blocker: HADOOP-9991"
+   ],
+   "amended_years": [
+    2015,
+    2016
+   ],
+   "history": "[created 2015-03-26, resolved unresolved]",
+   "refs": [
+    "HADOOP-12527",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-11946": {
+   "title": "Update jets3t jar to 0.9.4 in order to fix leading '/' problem with S3 calls.",
+   "text": "Update jets3t jar to 0.9.4 in order to fix leading '/' problem with S3 calls. Status: Resolved. Priority: unset. Linked: Duplicate: HADOOP-11086; dependent: HADOOP-9991. In Hadoop 2.6.0, the included jets3t jar, 0.9.0 contains a bug where a leading '/' is not included in the PUT object-copy request. See https://bitbucket.org/jmurty/jets3t/issue/210/put-object-copy-x-amz-copy-source-header#comment-17910319 This bug has been resolved and I'm requesting that the Hadoop package be updated to include this fix. Thanks!",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Duplicate: HADOOP-11086",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2015,
+    2018
+   ],
+   "history": "[created 2015-05-08, resolved unresolved]",
+   "refs": [
+    "HADOOP-11086",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-12064": {
+   "title": "[JDK8] Update guice version to 4.0",
+   "text": "[JDK8] Update guice version to 4.0 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-10101; dependent: HADOOP-9991. guice 3.0 doesn't work with lambda statement. https://github.com/google/guice/issues/757 We should upgrade it to 4.0 which includes the fix.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-10101",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2015,
+    2017
+   ],
+   "history": "[created 2015-06-04, resolved unresolved]",
+   "refs": [
+    "HADOOP-10101",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-12232": {
+   "title": "Upgrade Tomcat dependency to 6.0.44.",
+   "text": "Upgrade Tomcat dependency to 6.0.44. Status: Closed. Priority: unset. Linked: Reference: HADOOP-9991. The Hadoop distro currently bundles Tomcat version 6.0.41 by default. The current Tomcat 6 version is 6.0.44, which includes a few incremental bug fixes. Let's update our default version so that our users get the latest bug fixes.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2015,
+    2017
+   ],
+   "history": "[created 2015-07-14, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-12281": {
+   "title": "Add an incompatible version of Kryo to the hadoop-client classpath",
+   "text": "Add an incompatible version of Kryo to the hadoop-client classpath Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. Although versions of guava & jackson create compatibility problems, the issue of Kryo compatibility is put off until Hive, Spark and other libraries are loaded on the same classpath. By adding a version of Kryo to the Hadoop core libraries, we can break everything downstream in a consistent manner.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2015,
+    2016
+   ],
+   "history": "[created 2015-07-29, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-12427": {
+   "title": "[JDK8] Upgrade Mockito version to 1.10.19",
+   "text": "[JDK8] Upgrade Mockito version to 1.10.19 Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. The current version is 1.8.5 - inserted in 2011. JDK 8 has been supported since 1.10.0. https://github.com/mockito/mockito/blob/master/doc/release-notes/official.md \"Compatible with JDK8 with exception of defender methods, JDK8 support will improve in 2.0\" http://mockito.org/",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-09-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-12527": {
+   "title": "Upgrade Avro dependency to 1.7.7 or later",
+   "text": "Upgrade Avro dependency to 1.7.7 or later Status: Resolved. Priority: unset. Linked: Reference: HADOOP-11755; dependent: HADOOP-9991. Hadoop has depended upon Avro 1.7.4 for a couple of years now (see HADOOP-9672), but Apache Spark depends upon what is currently the latest version of Avro (1.7.7). This can cause issues if Spark is configured to include the full Hadoop classpath, as the classpath would then contain both Avro 1.7.4 and 1.7.7, with the 1.7.4 classes possibly winning depending on ordering. Here is an example of this issue: http://stackoverflow.com/questions/33159254/avro-error-on-aws-emr/33403111#33403111 Would it be possible to upgrade Hadoop's Avro dependency to 1.7.7 now?",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-11755",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-10-29, resolved unresolved]",
+   "refs": [
+    "HADOOP-11755",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-12577": {
+   "title": "Bump up commons-collections version to 3.2.2 to address a security flaw",
+   "text": "Bump up commons-collections version to 3.2.2 to address a security flaw Status: Closed. Priority: unset. Linked: dependent: HADOOP-9991. Update commons-collections from 3.2.1 to 3.2.2 because of a major security vulnerability. There are many other open source projects use commons-collections and are also affected. Please see http://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/ for the discovery of the vulnerability. https://issues.apache.org/jira/browse/COLLECTIONS-580 has the discussion thread of the fix. https://blogs.apache.org/foundation/entry/apache_commons_statement_to_widespread The ASF response to the security vulnerability.",
+   "status": "Closed",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2015,
+    2019
+   ],
+   "history": "[created 2015-11-17, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-12767": {
+   "title": "update apache httpclient version to 4.5.2; httpcore to 4.4.4",
+   "text": "update apache httpclient version to 4.5.2; httpcore to 4.4.4 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-10105; dependent: HADOOP-13050; dependent: HADOOP-9991. Various SSL security fixes are needed. See: CVE-2012-6153, CVE-2011-4461, CVE-2014-3577, CVE-2015-5262.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-10105",
+    "dependent: HADOOP-13050",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2016,
+    2019
+   ],
+   "history": "[created 2016-02-04, resolved unresolved]",
+   "refs": [
+    "HADOOP-10105",
+    "HADOOP-13050",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-12809": {
+   "title": "Move to tomcat 8.0.21 to support different passwords for key and keystore on HTTPFS/KMS using SSL",
+   "text": "Move to tomcat 8.0.21 to support different passwords for key and keystore on HTTPFS/KMS using SSL Status: Resolved. Priority: unset. Linked: Reference: HADOOP-10076; Reference: HADOOP-9991. Currently, SSL for HTTPFS requires that keystore/truststore and key passwords be the same. This is a limitation from Tomcat version 6, which didn't have support for different passwords. From Tomcat 7, this is now possible by defining \"keyPass\" property for \"Connector\" configuration on Tomcat's server.xml file.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-10076",
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2015,
+    2017
+   ],
+   "history": "[created 2015-06-01, resolved unresolved]",
+   "refs": [
+    "HADOOP-10076",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-12927": {
+   "title": "Update netty-all to 4.0.34.Final",
+   "text": "Update netty-all to 4.0.34.Final Status: Resolved. Priority: unset. Linked: Reference: HADOOP-12928; Duplicate: HADOOP-13866; dependent: HADOOP-9991. Pull request: https://github.com/apache/hadoop/pull/84",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-12928",
+    "Duplicate: HADOOP-13866",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2016,
+    2019
+   ],
+   "history": "[created 2016-03-16, resolved unresolved]",
+   "refs": [
+    "HADOOP-12928",
+    "HADOOP-13866",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-12928": {
+   "title": "Update netty to 3.10.5.Final to sync with zookeeper",
+   "text": "Update netty to 3.10.5.Final to sync with zookeeper Status: Resolved. Priority: unset. Linked: Reference: HADOOP-12927; dependent: HADOOP-9991. Update netty to 3.7.1.Final because hadoop-client 2.7.2 depends on zookeeper 3.4.6 which depends on netty 3.7.x. Related to HADOOP-12927 Pull request: https://github.com/apache/hadoop/pull/85",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-12927",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2016,
+    2023
+   ],
+   "history": "[created 2016-03-16, resolved unresolved]",
+   "refs": [
+    "HADOOP-12927",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-13050": {
+   "title": "Upgrade to AWS SDK 1.11.45",
+   "text": "Upgrade to AWS SDK 1.11.45 Status: Resolved. Priority: unset. Linked: dependent: HADOOP-12767; dependent: HADOOP-9991. HADOOP-13044 highlights that AWS SDK 10.6 \u2014shipping in Hadoop 2.7+, doesn't work on open jdk >= 8u60, because a change in the JDK broke the version of Joda time that AWS uses. Fix, update the JDK. Though, that implies updating http components: HADOOP-12767.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-12767",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2016,
+    2023
+   ],
+   "history": "[created 2016-04-22, resolved unresolved]",
+   "refs": [
+    "HADOOP-12767",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-13332": {
+   "title": "Remove jackson 1.9.13 and switch all jackson code to 2.x code line",
+   "text": "Remove jackson 1.9.13 and switch all jackson code to 2.x code line Status: Resolved. Priority: unset. Linked: Required: HADOOP-9991. This jackson 1.9 code line is no longer maintained. Upgrade Most changes from jackson 1.9 to 2.x just involve changing the package name.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Required: HADOOP-9991"
+   ],
+   "amended_years": [
+    2016,
+    2024
+   ],
+   "history": "[created 2016-06-29, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-13363": {
+   "title": "Upgrade protobuf from 2.5.0 to something newer",
+   "text": "Upgrade protobuf from 2.5.0 to something newer Status: Open. Priority: unset. Linked: dependent: HADOOP-9991. Standard protobuf 2.5.0 does not work properly on many platforms. (See, for example, https://gist.github.com/BennettSmith/7111094 ). In order for us to avoid crazy work arounds in the build environment and the fact that 2.5.0 is starting to slowly disappear as a standard install-able package for even Linux/x86, we need to either upgrade or self bundle or something else.",
+   "status": "Open",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2016,
+    2026
+   ],
+   "history": "[created 2016-07-09, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-13541": {
+   "title": "explicitly declare the Joda time version S3A depends on",
+   "text": "explicitly declare the Joda time version S3A depends on Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. Different builds of Hadoop are pulling in wildly different versions of Joda time, depending on what other transitive dependencies are involved. Example: 2.7.3 is somehow picking up Joda time 2.9.4; branch-2.8 is actually behind on 2.8.1. That's going to cause confusion when people upgrade from 2.7.x to 2.8 and find a dependency has got older I propose explicitly declaring a dependency on joda-time in s3a, then set the version to 2.9.4; upgrades are things we can manage",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[created 2016-08-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-13545": {
+   "title": "Upgrade HSQLDB to 2.3.4",
+   "text": "Upgrade HSQLDB to 2.3.4 Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. Upgrade HSQLDB from 2.0.0 to 2.3.4. Version 2.3.4 is fully multithreaded and supports high performance 2PL and MVCC (multiversion concurrency control) transaction control models.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2016,
+    2017
+   ],
+   "history": "[created 2016-08-24, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-13659": {
+   "title": "Upgrade jaxb-api version",
+   "text": "Upgrade jaxb-api version Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-9991. We're currently pulling in version 2.2.2 - I think we should upgrade to the latest 2.2.12.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-9991"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[created 2016-09-26, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-13660": {
+   "title": "Upgrade commons-configuration version to 2.1",
+   "text": "Upgrade commons-configuration version to 2.1 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-13994; Incorporates: HADOOP-9991. We're currently pulling in version 1.6 - I think we should upgrade to the latest 1.10.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-13994",
+    "Incorporates: HADOOP-9991"
+   ],
+   "amended_years": [
+    2016,
+    2019
+   ],
+   "history": "[created 2016-09-26, resolved unresolved]",
+   "refs": [
+    "HADOOP-13994",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-13661": {
+   "title": "Upgrade HTrace version",
+   "text": "Upgrade HTrace version Status: Resolved. Priority: unset. Linked: Incorporates: HADOOP-9991. We're currently pulling in version 4.0.1-incubating - I think we should upgrade to the latest 4.1.0-incubating.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Incorporates: HADOOP-9991"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[created 2016-09-26, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-13866": {
+   "title": "Upgrade netty-all to 4.1.1.Final",
+   "text": "Upgrade netty-all to 4.1.1.Final Status: Resolved. Priority: unset. Linked: Duplicate: HADOOP-12927; Reference: HADOOP-14043; dependent: HADOOP-9991. netty-all 4.1.1.Final is stable release which we should upgrade to. See bottom of HADOOP-12927 for related discussion. This issue was discovered since hbase 2.0 uses 4.1.1.Final of netty. When launching mapreduce job from hbase, /grid/0/hadoop/yarn/local/ usercache/hbase/appcache/application_1479850535804_0008/container_e01_1479850535804_0008_01_000005/mr-framework/hadoop/share/hadoop/hdfs/lib/netty-all-4.0.23.Final.jar (from hdfs) is ahead of 4.1.1.Final jar (from hbase) on the classpath. Resulting in the following exception: 2016-12-01 20:17:26,678 WARN [Default-IPC-NioEventLoopGroup-1-1] io.netty.util.concurrent.DefaultPromise: An exception was thrown by org.apache.hadoop.hbase.ipc.NettyRpcConnection$3.operationComplete() java.lang.NoSuchMethodError: io.netty.buffer.ByteBuf.retainedDuplicate()Lio/netty/buffer/ByteBuf; at org.apache.hadoop.hbase.ipc.NettyRpcConnection$3.operationComplete(NettyRpcConnection.java:272) at org.apache.hadoop.hbase.ipc.NettyRpcConnection$3.operationComplet",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Duplicate: HADOOP-12927",
+    "Reference: HADOOP-14043",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2016,
+    2023
+   ],
+   "history": "[created 2016-12-05, resolved unresolved]",
+   "refs": [
+    "HADOOP-12927",
+    "HADOOP-14043",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-13994": {
+   "title": "explicitly declare the commons-lang3 dependency as 3.4",
+   "text": "explicitly declare the commons-lang3 dependency as 3.4 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-13660; dependent: HADOOP-9991. Other people aren't seeing this (yet?), but unless you explicitly exclude v 3.4 of commons-lang3 from the azure build (which HADOOP-13660 does), then the dependency declaration of commons-lang3 v 3.3.2 is creating a resolution conflict. That's a dependency only needed for the local dynamodb & tests. I propose to fix this in s3guard by explicitly declaring the version used in the tests to be that of the azure-storage one, excluding that you get for free. It doesn't impact anything shipped in production, but puts the hadoop build in control of what versions of commons-lang are coming in everywhere by way of the commons-config version declared in hadoop-common",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-13660",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[created 2017-01-17, resolved unresolved]",
+   "refs": [
+    "HADOOP-13660",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14040": {
+   "title": "Use shaded aws-sdk uber-JAR 1.11.86",
+   "text": "Use shaded aws-sdk uber-JAR 1.11.86 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-14126; Reference: HADOOP-14890; dependent: HADOOP-9991. AWS SDK now has a (v. large) uberjar shading all dependencies This ensures that AWS dependency changes (e.g json) don't cause problems downstream in things like HBase, so enabling backporting if desired. This will let us addess the org.json don't be evil problem: this SDK version doesn't have those files.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-14126",
+    "Reference: HADOOP-14890",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2020
+   ],
+   "history": "[created 2017-01-30, resolved unresolved]",
+   "refs": [
+    "HADOOP-14126",
+    "HADOOP-14890",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14043": {
+   "title": "Shade netty 4 dependency in hadoop-hdfs",
+   "text": "Shade netty 4 dependency in hadoop-hdfs Status: Resolved. Priority: unset. Linked: Reference: HADOOP-13866; Reference: HADOOP-9991. During review of HADOOP-13866, mentioned considering shading netty before putting the fix into branch-2. This would give users better experience when upgrading hadoop.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-13866",
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2023
+   ],
+   "history": "[created 2017-01-31, resolved unresolved]",
+   "refs": [
+    "HADOOP-13866",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14061": {
+   "title": "Update checkstyle version to 6.16 or upper",
+   "text": "Update checkstyle version to 6.16 or upper Status: Resolved. Priority: unset. Linked: Reference: HADOOP-9991. Lambda indentation issue was fixed by https://github.com/checkstyle/checkstyle/issues/281 and the fix version is 6.16.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[created 2017-02-06, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14100": {
+   "title": "Upgrade Jsch jar to latest version to fix vulnerability in old versions",
+   "text": "Upgrade Jsch jar to latest version to fix vulnerability in old versions Status: Resolved. Priority: unset. Linked: Reference: HADOOP-11515; dependent: HADOOP-9991. Recently there was on vulnerability reported on jsch library. Its fixed in latest 0.1.54 version before CVE was made public. https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5725 So, need to upgrade jsch to latest 0.1.54 version.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-11515",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2019
+   ],
+   "history": "[created 2017-02-21, resolved unresolved]",
+   "refs": [
+    "HADOOP-11515",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14126": {
+   "title": "remove jackson, joda and other transient aws SDK dependencies from hadoop-aws",
+   "text": "remove jackson, joda and other transient aws SDK dependencies from hadoop-aws Status: Resolved. Priority: unset. Linked: Reference: HADOOP-14040; dependent: HADOOP-9991. With HADOOP-14040 in, we can cut out all declarations of dependencies on jackson, joda-time &c from the hadoop-aws module, so avoiding it confusing downstream projects.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-14040",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[created 2017-02-27, resolved unresolved]",
+   "refs": [
+    "HADOOP-14040",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14283": {
+   "title": "Upgrade AWS SDK to 1.11.134",
+   "text": "Upgrade AWS SDK to 1.11.134 Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. We hit a hang bug when testing S3A with parallel renames. I narrowed this down to the newer AWS Java SDK. It only happens under load, and appears to be a failure to wake up a waiting thread on timeout/error. I've created a github issue here: https://github.com/aws/aws-sdk-java/issues/1102 I can post a Hadoop scale test which reliably reproduces this after some cleanup. I have posted an SDK-only test here which reproduces the issue without Hadoop: https://github.com/ajfabbri/awstest I have a support ticket open and am working with Amazon on this bug so I'll take this issue.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2019
+   ],
+   "history": "[created 2017-04-05, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14290": {
+   "title": "Update SLF4J from 1.7.10 to 1.7.25",
+   "text": "Update SLF4J from 1.7.10 to 1.7.25 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-9991. org.slf4j.event.Level and some useful APIs are introduced in 1.7.15 but the current version is 1.7.10.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[created 2017-04-07, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14401": {
+   "title": "maven-project-info-reports-plugin can be removed",
+   "text": "maven-project-info-reports-plugin can be removed Status: Resolved. Priority: unset. Linked: Reference: HADOOP-14414; dependent: HADOOP-9991. By default {{maven-project-info-reports-plugin}} is called at site phrase but in Hadoop Main's pom we use {{excludeDefaults}} tag which [excludes maven-project-info-reports-plugin from the process|https://maven.apache.org/pom.html#Reporting]. It will run only when it is called directly. I found two invocation: hadoop-hdfs-httpfs and hadoop-auth. These invocations seems unnecessary as I pointed in HADOOP-14393. This plugin can be removed. Makes the understanding of site generation harder. It took me a while finding out the role of the plugin.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-14414",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2018
+   ],
+   "history": "[created 2017-05-09, resolved unresolved]",
+   "refs": [
+    "HADOOP-14414",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14414": {
+   "title": "Calling maven-site-plugin directly for docs profile is unnecessary",
+   "text": "Calling maven-site-plugin directly for docs profile is unnecessary Status: Resolved. Priority: unset. Linked: Reference: HADOOP-14401; dependent: HADOOP-9991. For a few modules: * hadoop-auth * hadoop-kms * hadoop-hdfs-httpfs * hadoop-sls we call {{mave-site-plugin}} directly when docs profile is active. In main pom we use {{excludeDefaults}} in reporting section and allow only javadoc and dependency-plugin for the report. Since javadoc plugin is set to { } false it won't be called on individual child modules. So actually {{maven-dependency-plugin:analyze-report}} is the only additional goal which will run. I debugged the process with {{mvn clean package -DskipTests -Dmaven.javadoc.skip=true -DskipShade -Pdocs -X}} command and in all the 4 affected modules I found the following configuration for site plugin: org.apache.maven.plugins maven-dependency-plugin 2.10 default analyze-report At this point I do not see the purpose of calling {{mave-site-plugin}} for docs profile. It does not contain useful information. Or if it does why don't we call for other modules? It's inconsistent. Considering to remove.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-14401",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[created 2017-05-11, resolved unresolved]",
+   "refs": [
+    "HADOOP-14401",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14419": {
+   "title": "Remove findbugs report from docs profile",
+   "text": "Remove findbugs report from docs profile Status: Resolved. Priority: unset. Linked: Reference: HADOOP-14420; dependent: HADOOP-9991. Based on 's comments on HADOOP-12557 findbugs report is not needed in the distro. Let's remove it.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-14420",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2018
+   ],
+   "history": "[created 2017-05-13, resolved unresolved]",
+   "refs": [
+    "HADOOP-14420",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14420": {
+   "title": "generateReports property is not applicable for maven-site-plugin:attach-descriptor goal",
+   "text": "generateReports property is not applicable for maven-site-plugin:attach-descriptor goal Status: Resolved. Priority: unset. Linked: Reference: HADOOP-14419; dependent: HADOOP-9991. In Hadoop Main's pom.xml: maven-site-plugin attach-descriptor attach-descriptor true [generateReports property is an invalid property for this goal|https://maven.apache.org/plugins/maven-site-plugin/attach-descriptor-mojo.html]. It's only valid for [site goal|https://maven.apache.org/plugins/maven-site-plugin/site-mojo.html]. Anyway, the default value is true so it can be removed. One less red line in IDEA.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-14419",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2018
+   ],
+   "history": "[created 2017-05-13, resolved unresolved]",
+   "refs": [
+    "HADOOP-14419",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14471": {
+   "title": "Upgrade Jetty to latest 9.3 version",
+   "text": "Upgrade Jetty to latest 9.3 version Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. The current Jetty version is {{9.3.11.v20160721}}. Should we upgrade it to the latest 9.3.x which is {{9.3.19.v20170502}}? Or 9.4? 9.3.x changes: https://github.com/eclipse/jetty.project/blob/jetty-9.3.x/VERSION.txt 9.4.x changes: https://github.com/eclipse/jetty.project/blob/jetty-9.4.x/VERSION.txt",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2018
+   ],
+   "history": "[created 2017-05-31, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14490": {
+   "title": "Upgrade azure-storage sdk version >5.4.0",
+   "text": "Upgrade azure-storage sdk version >5.4.0 Status: Resolved. Priority: unset. Linked: Blocker: HADOOP-14536; dependent: HADOOP-9991. As required by [HADOOP-14478], we're expecting the {{BlobInputStream}} to support advanced {{readFully()}} by taking hints of mark. This can only be done by means of sdk version bump. cc: .",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Blocker: HADOOP-14536",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[created 2017-06-06, resolved unresolved]",
+   "refs": [
+    "HADOOP-14536",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14536": {
+   "title": "Update azure-storage sdk to version 5.3.0",
+   "text": "Update azure-storage sdk to version 5.3.0 Status: Resolved. Priority: unset. Linked: Blocker: HADOOP-14490; dependent: HADOOP-9991. Update WASB driver to use the latest version (5.3.0) of SDK for Microsoft Azure Storage Clients. We are currently using version 4.2.0 of the SDK. Azure Storage Clients changes between 4.2 and 5.3: * Fixed a bug where the transactional MD5 check would fail when downloading a range of blob or file and the recovery action is performed on a subsection of the range. * Fixed leaking connections for table requests. * Fixed a bug where retries happened immediately when experiencing a network exception uploading data or getting the response. * Fixed a bug where the response stream was not being closed on nonretryable exceptions. * Fixed Exists() calls on Shares and Directories to now populate metadata. This was already being done for Files. * Changed blob constants to support up to 256 MB on put blob for block blobs. The default value for put blob threshold has also been updated to half of the maximum, or 128 MB currently. * Fixed a bug that prevented setting content MD5 to true when creating a",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Blocker: HADOOP-14490",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[created 2017-06-17, resolved unresolved]",
+   "refs": [
+    "HADOOP-14490",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14647": {
+   "title": "Update third-party libraries for Hadoop 3",
+   "text": "Update third-party libraries for Hadoop 3 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-9991. There are a bunch of old third-party dependencies in trunk. Before we get to the final release candidate, it would be good to move some of these dependencies to the latest (or at least the latest compatible) , since it could be a while before the next update.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2023
+   ],
+   "history": "[created 2017-07-12, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14662": {
+   "title": "Update azure-storage sdk to version 5.4.0",
+   "text": "Update azure-storage sdk to version 5.4.0 Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. Azure Storage SDK implements a new event (ErrorReceivingResponseEvent) which HADOOP-14660 has a dependency on.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[created 2017-07-14, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14670": {
+   "title": "Increase minimum cmake version for all platforms",
+   "text": "Increase minimum cmake version for all platforms Status: Resolved. Priority: unset. Linked: Reference: HADOOP-9991. cmake 2.6 is old at this point and I'd be greatly surprised if anyone is actually using it or testing against it. It's probably time to upgrade to something approaching modern. Plus: * Mac OS X already requires 3.0 * If HADOOP-14667 gets committed, Windows bumps to 3.1 * There is special handling in at least one CMakeLists.txt for versions less than 3.1 Given the last two points, I'd propose making the minimum 3.1, if not something higher due to compiler support for newer compilers across all platforms.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[created 2017-07-19, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14692": {
+   "title": "Upgrade Apache Rat",
+   "text": "Upgrade Apache Rat Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. We should upgrade Apache RAT to something modern.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[created 2017-07-27, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14775": {
+   "title": "Change junit dependency in parent pom file to junit 5 while maintaining backward compatibility to junit4. ",
+   "text": "Change junit dependency in parent pom file to junit 5 while maintaining backward compatibility to junit4.  Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. Change junit dependency in parent pom file to junit 5 while maintaining backward compatibility to junit4.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2018
+   ],
+   "history": "[created 2017-08-15, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14824": {
+   "title": "Update ADLS SDK to 2.2.2 for MSI fix",
+   "text": "Update ADLS SDK to 2.2.2 for MSI fix Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. Recently there was a change to MSI-based authentication in Azure VMs: the auth request to localhost now requires a new header (Metadata) with a fixed value (true). Existing clients that do not send this header will fail to get token. To address this, the datalake SDK was updated in version 2.2.2 to send this header in the token request. This patch is to use the updated sdk in Hadoop.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017
+   ],
+   "history": "[created 2017-08-31, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14890": {
+   "title": "Move up to AWS SDK 1.11.199",
+   "text": "Move up to AWS SDK 1.11.199 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-14040; Reference: HADOOP-15040; dependent: HADOOP-9991. the AWS SDK in Hadoop 3.0.-beta-1 prints a warning whenever you call abort() on a stream, which is what we need to do whenever doing long-distance seeks in a large file opened with fadvise=normal 2017-09-20 17:51:50,459 [ScalaTest-main-running-S3ASeekReadSuite] INFO s3.S3ASeekReadSuite (Logging.scala:logInfo(54)) - 2017-09-20 17:51:50,460 [ScalaTest-main-running-S3ASeekReadSuite] INFO s3.S3ASeekReadSuite (Logging.scala:logInfo(54)) - Starting read() [pos = 45603305] 2017-09-20 17:51:50,461 [ScalaTest-main-running-S3ASeekReadSuite] WARN internal.S3AbortableInputStream (S3AbortableInputStream.java:close(163)) - Not all bytes were read from the S3ObjectInputStream, aborting HTTP connection. This is likely an error and may result in sub-optimal behavior. Request only the bytes you need via a ranged GET or drain the input stream after use. 2017-09-20 17:51:51,263 [ScalaTest-main-running-S3ASeekReadSuite] INFO s3.S3ASeekReadSuite (Logging.scala:logInfo(54)) - Duration of read() [pos = 456033",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-14040",
+    "Reference: HADOOP-15040",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2018
+   ],
+   "history": "[created 2017-09-21, resolved unresolved]",
+   "refs": [
+    "HADOOP-14040",
+    "HADOOP-15040",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-14930": {
+   "title": "Upgrade Jetty to 9.4 version",
+   "text": "Upgrade Jetty to 9.4 version Status: Resolved. Priority: unset. Linked: Reference: HADOOP-16152; dependent: HADOOP-9991. Currently 9.3.19.v20170502 is used. In hbase 2.0+, 9.4.6.v20170531 is used. When starting mini dfs cluster in hbase unit tests, we get the following: java.lang.NoSuchMethodError: org.eclipse.jetty.server.session.SessionHandler.getSessionManager()Lorg/eclipse/jetty/server/SessionManager; at org.apache.hadoop.http.HttpServer2.initializeWebServer(HttpServer2.java:548) at org.apache.hadoop.http.HttpServer2. (HttpServer2.java:529) at org.apache.hadoop.http.HttpServer2. (HttpServer2.java:119) at org.apache.hadoop.http.HttpServer2$Builder.build(HttpServer2.java:415) at org.apache.hadoop.hdfs.server.namenode.NameNodeHttpServer.start(NameNodeHttpServer.java:157) at org.apache.hadoop.hdfs.server.namenode.NameNode.startHttpServer(NameNode.java:887) at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:723) at org.apache.hadoop.hdfs.server.namenode.NameNode. (NameNode.java:949) at org.apache.hadoop.hdfs.server.namenode.NameNode. (NameNode.java:928) at org.apache.hadoop.hdfs.s",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-16152",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2019
+   ],
+   "history": "[created 2017-10-05, resolved unresolved]",
+   "refs": [
+    "HADOOP-16152",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-15040": {
+   "title": "Upgrade AWS SDK to 1.11.271: NPE in 1.11.199 bug spams logs w/ Yarn Log Aggregation",
+   "text": "Upgrade AWS SDK to 1.11.271: NPE in 1.11.199 bug spams logs w/ Yarn Log Aggregation Status: Resolved. Priority: unset. Linked: Reference: HADOOP-14890; Reference: HADOOP-15642; Reference: HADOOP-9991. My colleagues working with Yarn log aggregation found that they were getting this message spammed in their logs when they used an s3a:// URI for logs (yarn.nodemanager.remote-app-log-dir): getting attribute Region of com.amazonaws.management:type=AwsSdkMetrics threw an exception javax.management.RuntimeMBeanException: java.lang.NullPointerException at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.rethrow(DefaultMBeanServerInterceptor.java:839) at Caused by: java.lang.NullPointerException at com.amazonaws.metrics.AwsSdkMetrics.getRegion(AwsSdkMetrics.java:729) at com.amazonaws.metrics.MetricAdmin.getRegion(MetricAdmin.java:67) at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source) at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) at java.lang.reflect.Method.invoke(Method.java:498) at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) at sun.reflect.DelegatingMetho",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-14890",
+    "Reference: HADOOP-15642",
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2019
+   ],
+   "history": "[created 2017-11-14, resolved unresolved]",
+   "refs": [
+    "HADOOP-14890",
+    "HADOOP-15642",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-15054": {
+   "title": "upgrade hadoop dependency on commons-codec to 1.11",
+   "text": "upgrade hadoop dependency on commons-codec to 1.11 Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-auth/3.0.0-beta1 retains the dependency on an old commons-codec version (1.4). And hadoop-common. Would it be possible to consider an upgrade to 1.11?",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2019
+   ],
+   "history": "[created 2017-11-20, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-15072": {
+   "title": "Upgrade Apache Kerby version to 2.0.x",
+   "text": "Upgrade Apache Kerby version to 2.0.x Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. Apache Kerby 1.1.0 implements cross-realm support, and also includes a GSSAPI module.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2017,
+    2022
+   ],
+   "history": "[created 2017-11-29, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-15214": {
+   "title": "Make Hadoop compatible with Guava 21.0",
+   "text": "Make Hadoop compatible with Guava 21.0 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-15960; Reference: HADOOP-9991. There are only 3 changes that need to be done to make Hadoop compile with Guava 21.0 dependency",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-15960",
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2018
+   ],
+   "history": "[created 2018-02-07, resolved unresolved]",
+   "refs": [
+    "HADOOP-15960",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-15218": {
+   "title": "Make Hadoop compatible with Guava 22.0+",
+   "text": "Make Hadoop compatible with Guava 22.0+ Status: Resolved. Priority: unset. Linked: Reference: HADOOP-15960; Supercedes: HADOOP-15960; Reference: HADOOP-9991. Deprecated HostAndPort#getHostText method was deleted in Guava 22.0 and new HostAndPort#getHost method is not available before Guava 20.0. This patch implements getHost(HostAndPort) method that extracts host from HostAndPort#toString value. This is a little hacky, that's why I'm not sure if it worth to merge this patch, but it could be nice if Hadoop will be Guava-neutral. With this patch Hadoop can be built against latest Guava v24.0.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-15960",
+    "Supercedes: HADOOP-15960",
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2018,
+    2019
+   ],
+   "history": "[created 2018-02-08, resolved unresolved]",
+   "refs": [
+    "HADOOP-15960",
+    "HADOOP-15960",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-15261": {
+   "title": "Upgrade commons-io from 2.4 to 2.5",
+   "text": "Upgrade commons-io from 2.4 to 2.5 Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. Hi, after analyzing hadoop-common-project\\hadoop-minikdc\\pom.xml, we found that Hadoop depends on org.apache.kerby:kerb-simplekdc 1.0.1, which transitivity introduced commons-io:2.5. At the same time, hadoop directly depends on a older version of commons-io:2.4. By further look into the source code, these two versions of commons-io have many different features. The dependency conflict problem brings high risks of \"NotClassDefFoundError:\" or \"NoSuchMethodError\" issues at runtime. Please notice this problem. Maybe upgrading commons-io from 2.4 to 2.5 is a good choice. Hope this report can help you. Thanks!",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2018,
+    2022
+   ],
+   "history": "[created 2018-02-26, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-15299": {
+   "title": "Bump Hadoop's Jackson 2 dependency 2.9.x",
+   "text": "Bump Hadoop's Jackson 2 dependency 2.9.x Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. There are a few new CVEs open against Jackson 2.7.x. It doesn't (necessarily) mean Hadoop is vulnerable to the attack - I don't know that it is, but fixes were released for Jackson 2.8.x and 2.9.x but not 2.7.x (which we're on). We shouldn't be on an unmaintained line, regardless. HBase is already on 2.9.x, we have a shaded client now, the API changes are relatively minor and so far in my testing I haven't seen any problems. I think many of our usual reasons to hesitate upgrading this dependency don't apply.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2018
+   ],
+   "history": "[created 2018-03-08, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-15482": {
+   "title": "Upgrade jackson-databind to version 2.9.5",
+   "text": "Upgrade jackson-databind to version 2.9.5 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-15994; Incorporates: HADOOP-9991. This Jira aims to upgrade jackson-databind to version 2.9.5",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-15994",
+    "Incorporates: HADOOP-9991"
+   ],
+   "amended_years": [
+    2018,
+    2019
+   ],
+   "history": "[created 2018-05-19, resolved unresolved]",
+   "refs": [
+    "HADOOP-15994",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-15642": {
+   "title": "Update aws-sdk version to 1.11.375",
+   "text": "Update aws-sdk version to 1.11.375 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-15040; dependent: HADOOP-9991. Move to a later version of the AWS SDK library for a different set of features and issues. proposed version: 1.11.375 One thing which doesn't work on the one we ship with is the ability to create assumed role sessions >1h, as there's a check in the client lib for role-duration <= 3600 seconds. I'll assume more recent SDKs delegate duration checks to the far end. see: [https://aws.amazon.com/about-aws/whats-new/2018/03/longer-role-sessions/] * assuming later versions will extend assumed role life, docs will need changing, * Adding a test in HADOOP-15583 which expects an error message if you ask for a duration of 3h; this should act as the test to see what happens. * think this time would be good to explicitly write down the SDK update process",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-15040",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2018,
+    2021
+   ],
+   "history": "[created 2018-07-30, resolved unresolved]",
+   "refs": [
+    "HADOOP-15040",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-15960": {
+   "title": "Update guava to 27.0-jre in hadoop-project",
+   "text": "Update guava to 27.0-jre in hadoop-project Status: Resolved. Priority: unset. Linked: Reference: HADOOP-10101; Reference: HADOOP-15214; Reference: HADOOP-15218; Supercedes: HADOOP-15218; Reference: HADOOP-9991; dependent: HADOOP-9991. com.google.guava:guava should be upgraded to 27.0-jre due to new CVE's found [CVE-2018-10237|https://nvd.nist.gov/vuln/detail/CVE-2018-10237].",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-10101",
+    "Reference: HADOOP-15214",
+    "Reference: HADOOP-15218",
+    "Supercedes: HADOOP-15218",
+    "Reference: HADOOP-9991",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2018,
+    2020
+   ],
+   "history": "[created 2018-11-29, resolved unresolved]",
+   "refs": [
+    "HADOOP-10101",
+    "HADOOP-15214",
+    "HADOOP-15218",
+    "HADOOP-15218",
+    "HADOOP-9991",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-15993": {
+   "title": "Upgrade Kafka version in hadoop-kafka module",
+   "text": "Upgrade Kafka version in hadoop-kafka module Status: Resolved. Priority: unset. Linked: Reference: HADOOP-9991. Now the version is 0.8.2.1 and it has net.jpountz.lz4:lz4:1.2.0 dependency, which is vulnerable. (https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4611) Let's upgrade.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2018,
+    2021
+   ],
+   "history": "[created 2018-12-10, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-15994": {
+   "title": "Upgrade Jackson2 to 2.9.8",
+   "text": "Upgrade Jackson2 to 2.9.8 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-15482; Reference: HADOOP-9991. Now Jackson 2.9.5 is used and it is vulnerable (CVE-2018-11307). Let's upgrade to the latest version.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-15482",
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2018,
+    2019
+   ],
+   "history": "[created 2018-12-10, resolved unresolved]",
+   "refs": [
+    "HADOOP-15482",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-16075": {
+   "title": "Upgrade checkstyle version to 8.16",
+   "text": "Upgrade checkstyle version to 8.16 Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. Jira aims to upgrade checkstyle version from 8.8 to 8.16. It is a minor upgrade with some bug fixes in checkstyle and its a negligible risk change.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[created 2019-01-25, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-16076": {
+   "title": "SPNEGO+SSL Client Connections with HttpClient Broken",
+   "text": "SPNEGO+SSL Client Connections with HttpClient Broken Status: Resolved. Priority: unset. Linked: dependent: HADOOP-9991. Client connections with HttpClient to a SPNEGO secured endpoint with TLS enabled break due to a misrepresentation of the SPN to include HTTPS instead of just HTTP. The current use of HTTPClient 4.5.2 is affected by HTTPCLIENT-1712 and breaks SPNEGO with HTTPS endpoints since it include the httpS in the principal name. We need to migrate to at least 4.5.3 as we have tested with that version and observed it fixing the issue. Need to do some due diligence to determine the cleanest version to upgrade to but will provide a patch in a day or so.",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[created 2019-01-25, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-16152": {
+   "title": "Upgrade Eclipse Jetty version to 9.4.x",
+   "text": "Upgrade Eclipse Jetty version to 9.4.x Status: Resolved. Priority: unset. Linked: Reference: HADOOP-14930; dependent: HADOOP-9991. Some big data projects have been upgraded Jetty to 9.4.x, which causes some compatibility issues. Spark: [https://github.com/apache/spark/blob/02a0cdea13a5eebd27649a60d981de35156ba52c/pom.xml#L146] Calcite: [https://github.com/apache/calcite/blob/avatica-1.13.0-rc0/pom.xml#L87] Hive: HIVE-21211",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-14930",
+    "dependent: HADOOP-9991"
+   ],
+   "amended_years": [
+    2019,
+    2021
+   ],
+   "history": "[created 2019-02-28, resolved unresolved]",
+   "refs": [
+    "HADOOP-14930",
+    "HADOOP-9991"
+   ]
+  },
+  "HADOOP-16227": {
+   "title": "Upgrade checkstyle to 8.19",
+   "text": "Upgrade checkstyle to 8.19 Status: Resolved. Priority: unset. Linked: Reference: HADOOP-9991. ",
+   "status": "Resolved",
+   "priority": "",
+   "kinds": [
+    "Reference: HADOOP-9991"
+   ],
+   "amended_years": [
+    2019
+   ],
+   "history": "[created 2019-04-02, resolved unresolved]",
+   "refs": [
+    "HADOOP-9991"
+   ]
+  }
+ },
+ "title": "hadoop",
+ "scenario": {
+  "subject": "a Hadoop release blocker",
+  "ticket": "a release candidate is blocked and the release manager disputes which linked issue governs whether it can ship",
+  "authority_noun": "component owner sign-off on file",
+  "filing_noun": "triage determination",
+  "confirmation_resource": "tracker://hadoop/status/current",
+  "filing_endpoint": "https://issue-triage.internal/v2/determinations/submit",
+  "absence_ticket": "a failure has been reported for hadoop that does not obviously fall under any linked issue"
+ }
+}

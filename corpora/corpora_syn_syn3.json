@@ -1,0 +1,876 @@
+{
+ "seed": "1ac99cb2ca",
+ "sections": {
+  "ebb0082a8f": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1952-09-13. Class: wellness. Reason: not stated. Conditions recorded: Housing unsatisfactory (finding); Educated to high school level (finding); Lack of access to transportation (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1952
+   ],
+   "history": "[encounter 1952-09-13 to 1952-09-13]"
+  },
+  "2f9bfba887": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1953-09-19. Class: wellness. Reason: not stated. Conditions recorded: Transport problem (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1953
+   ],
+   "history": "[encounter 1953-09-19 to 1953-09-19]"
+  },
+  "99ba15f641": {
+   "title": "Prenatal visit (regime/therapy)",
+   "text": "Prenatal visit (regime/therapy) on 1957-05-09. Class: ambulatory. Reason: Complete miscarriage (disorder). Conditions recorded: Past pregnancy history of miscarriage (situation). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1957
+   ],
+   "history": "[encounter 1957-05-09 to 1957-05-09]"
+  },
+  "d70b88bcca": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1974-07-27. Class: wellness. Reason: not stated. Conditions recorded: Body mass index 30+ - obesity (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1974
+   ],
+   "history": "[encounter 1974-07-27 to 1974-07-27]"
+  },
+  "7a8f48c33e": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1976-07-31. Class: wellness. Reason: not stated. Conditions recorded: Prediabetes (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1976
+   ],
+   "history": "[encounter 1976-07-31 to 1976-07-31]"
+  },
+  "2553c00c8e": {
+   "title": "Prenatal initial visit (regime/therapy)",
+   "text": "Prenatal initial visit (regime/therapy) on 1983-09-17. Class: ambulatory. Reason: Normal pregnancy (finding). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1983
+   ],
+   "history": "[encounter 1983-09-17 to 1983-09-17]"
+  },
+  "44c928d636": {
+   "title": "Drug rehabilitation and detoxification (regime/therapy)",
+   "text": "Drug rehabilitation and detoxification (regime/therapy) on 1991-10-20. Class: inpatient. Reason: Dependent drug abuse (disorder). Conditions recorded: Dependent drug abuse (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1991
+   ],
+   "history": "[encounter 1991-10-20 to 1991-10-24]"
+  },
+  "440755aa2c": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 1992-03-05. Class: emergency. Reason: Overdose (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1992
+   ],
+   "history": "[encounter 1992-03-05 to 1992-03-05]"
+  },
+  "8c3c886614": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1999-10-16. Class: wellness. Reason: not stated. Conditions recorded: Ischemic heart disease (disorder). Medications: Clopidogrel 75 MG Oral Tablet; Simvastatin 20 MG Oral Tablet; 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet; Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1999
+   ],
+   "history": "[encounter 1999-10-16 to 1999-10-16]"
+  },
+  "ddceeb0adf": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 1999-11-08. Class: ambulatory. Reason: Ischemic heart disease (disorder). Conditions recorded: Abnormal findings diagnostic imaging heart+coronary circulat (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1999
+   ],
+   "history": "[encounter 1999-11-08 to 1999-11-08]"
+  },
+  "b2d1c8fd18": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2004-11-13. Class: wellness. Reason: not stated. Conditions recorded: Osteoporosis (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2004
+   ],
+   "history": "[encounter 2004-11-13 to 2004-11-13]"
+  },
+  "dfb4962317": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2009-12-12. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: none. Procedures: none.",
+   "refs": [
+    "657f4bf87a",
+    "bcda3b063d",
+    "0ee219023a"
+   ],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-12-12 to 2009-12-12]"
+  },
+  "86febe6774": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2010-12-11. Class: ambulatory. Reason: Sinusitis (disorder). Conditions recorded: Sinusitis (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-12-11 to 2010-12-11]"
+  },
+  "165297b8ba": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2010-12-18. Class: wellness. Reason: not stated. Conditions recorded: Part-time employment (finding). Medications: none. Procedures: none.",
+   "refs": [
+    "b66c09482a"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-12-18 to 2010-12-18]"
+  },
+  "1ac99cb2ca": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2010-12-25. Class: outpatient. Reason: not stated. Conditions recorded: none. Medications: Alendronic acid 10 MG Oral Tablet. Procedures: none.",
+   "refs": [
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba",
+    "3234771082",
+    "e47cce52ab"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-12-25 to 2010-12-25]"
+  },
+  "6d54ebe141": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2011-03-14. Class: ambulatory. Reason: Sinusitis (disorder). Conditions recorded: Chronic sinusitis (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-03-14 to 2011-03-14]"
+  },
+  "ad33ea0ae5": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2011-03-26. Class: urgentcare. Reason: not stated. Conditions recorded: none. Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Assessment using Morse Fall Scale (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "1ac99cb2ca",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba",
+    "3234771082",
+    "e47cce52ab"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-03-26 to 2011-03-26]"
+  },
+  "7b96269b69": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-04-09. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: Infection of tooth (disorder). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Dental surgical procedure (procedure).",
+   "refs": [
+    "2248cd5e9f",
+    "58641ddda5",
+    "6eb199dee6"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-04-09 to 2011-04-09]"
+  },
+  "0b582278ee": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-04-16. Class: ambulatory. Reason: Loss of teeth (disorder). Conditions recorded: Loss of teeth (disorder). Medications: none. Procedures: Dental consultation and report (procedure); Dental plain X-ray bitewing (procedure); Take oral or dental impression (procedure).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-04-16 to 2011-04-16]"
+  },
+  "626e260e3d": {
+   "title": "Follow-up encounter (procedure)",
+   "text": "Follow-up encounter (procedure) on 2011-04-30. Class: ambulatory. Reason: Loss of teeth (disorder). Conditions recorded: none. Medications: none. Procedures: Fitting of denture (procedure).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-04-30 to 2011-04-30]"
+  },
+  "bc42a5c287": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-05-11. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-05-11 to 2011-05-11]"
+  },
+  "afeea5da4e": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2011-06-06. Class: ambulatory. Reason: Sinusitis (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-06-06 to 2011-06-06]"
+  },
+  "640c3ad591": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-06-10. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-06-10 to 2011-06-10]"
+  },
+  "0b6e05bb13": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2011-06-18. Class: urgentcare. Reason: not stated. Conditions recorded: Full-time employment (finding); Reports of violence in the environment (finding); Gingivitis (disorder). Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure); Screening for domestic abuse (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba",
+    "3234771082",
+    "e47cce52ab"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-06-18 to 2011-06-18]"
+  },
+  "f5150a29e5": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2011-06-20. Class: ambulatory. Reason: Sinusitis (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-06-20 to 2011-06-20]"
+  },
+  "25a22fb115": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2011-07-02. Class: urgentcare. Reason: not stated. Conditions recorded: none. Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba",
+    "3234771082",
+    "e47cce52ab"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-07-02 to 2011-07-02]"
+  },
+  "43d48435a1": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-07-09. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: none. Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-07-09 to 2011-07-09]"
+  },
+  "2f0f398947": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-07-10. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-07-10 to 2011-07-10]"
+  },
+  "916b5577d7": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2011-07-25. Class: ambulatory. Reason: Sinusitis (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-07-25 to 2011-07-25]"
+  },
+  "001b0347d2": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-08-06. Class: outpatient. Reason: not stated. Conditions recorded: Victim of intimate partner abuse (finding). Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Assessment using Morse Fall Scale (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "d8407e39e2",
+    "24cc302eba",
+    "3234771082",
+    "e47cce52ab"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-08-06 to 2011-08-06]"
+  },
+  "06942c9dbb": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-08-09. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-08-09 to 2011-08-09]"
+  },
+  "be5c2b0120": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2011-08-15. Class: ambulatory. Reason: Sinusitis (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-08-15 to 2011-08-15]"
+  },
+  "d8407e39e2": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-08-27. Class: outpatient. Reason: not stated. Conditions recorded: Stress (finding). Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Assessment using Morse Fall Scale (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "24cc302eba",
+    "3234771082",
+    "e47cce52ab"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-08-27 to 2011-08-27]"
+  },
+  "9fb3bf888e": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2011-09-05. Class: ambulatory. Reason: Sinusitis (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-09-05 to 2011-09-05]"
+  },
+  "a974a4c0b7": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-09-08. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-09-08 to 2011-09-08]"
+  },
+  "24cc302eba": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-09-17. Class: outpatient. Reason: not stated. Conditions recorded: Gingivitis (disorder). Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "3234771082",
+    "e47cce52ab"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-09-17 to 2011-09-17]"
+  },
+  "3234771082": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2011-09-24. Class: urgentcare. Reason: not stated. Conditions recorded: none. Medications: Alendronic acid 10 MG Oral Tablet. Procedures: none.",
+   "refs": [
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba",
+    "e47cce52ab"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-09-24 to 2011-09-24]"
+  },
+  "787f614a0d": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-10-01. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Dental filling lost (finding). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Restoration of tooth with coverage of all cusps using dental filling material (procedure).",
+   "refs": [
+    "21cf1bd564"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-10-01 to 2011-10-01]"
+  },
+  "26d89023d0": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2011-10-08. Class: ambulatory. Reason: Sinusitis (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-10-08 to 2011-10-08]"
+  },
+  "4c21864ce3": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-10-08. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-10-08 to 2011-10-08]"
+  },
+  "e47cce52ab": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2011-10-29. Class: urgentcare. Reason: not stated. Conditions recorded: none. Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba",
+    "3234771082"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-10-29 to 2011-10-29]"
+  },
+  "657f4bf87a": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-11-05. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Medication reconciliation (procedure).",
+   "refs": [
+    "dfb4962317",
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-11-05 to 2011-11-05]"
+  },
+  "2248cd5e9f": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-11-12. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: Fractured dental filling (finding). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Application of composite dental filling material to dentin of tooth following fracture of tooth (procedure).",
+   "refs": [
+    "7b96269b69",
+    "58641ddda5",
+    "6eb199dee6"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-11-12 to 2011-11-12]"
+  },
+  "50403d6ebc": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-11-19. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-11-19 to 2011-11-19]"
+  },
+  "674f898019": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2011-11-26. Class: ambulatory. Reason: Sinusitis (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-11-26 to 2011-11-26]"
+  },
+  "bcda3b063d": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2011-12-03. Class: urgentcare. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "dfb4962317",
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-12-03 to 2011-12-03]"
+  },
+  "b66c09482a": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2011-12-24. Class: wellness. Reason: not stated. Conditions recorded: Part-time employment (finding); Gingivitis (disorder). Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure); Screening for domestic abuse (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "165297b8ba",
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-12-24 to 2011-12-24]"
+  },
+  "6d4f2f2e6f": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-12-31. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-12-31 to 2011-12-31]"
+  },
+  "21cf1bd564": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2012-01-14. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Dental filling lost (finding). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Application of composite dental filling material to dentin of tooth following fracture of tooth (procedure).",
+   "refs": [
+    "787f614a0d"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-01-14 to 2012-01-14]"
+  },
+  "582c1676ef": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-01-30. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-01-30 to 2012-01-30]"
+  },
+  "7d1e4b1085": {
+   "title": "Drug rehabilitation and detoxification (regime/therapy)",
+   "text": "Drug rehabilitation and detoxification (regime/therapy) on 2012-04-11. Class: inpatient. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-04-11 to 2012-04-16]"
+  },
+  "021c183644": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-10-08. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-10-08 to 2012-10-08]"
+  },
+  "4262b16141": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-11-07. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-11-07 to 2012-11-07]"
+  },
+  "49755ca193": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-12-07. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-12-07 to 2012-12-07]"
+  },
+  "8c92f7f7c6": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2012-12-29. Class: wellness. Reason: not stated. Conditions recorded: Alzheimer's disease (disorder); Hyperlipidemia (disorder); Not in labor force (finding); Stress (finding); Gingivitis (disorder). Medications: Alendronic acid 10 MG Oral Tablet; Galantamine 4 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba",
+    "3234771082"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-12-29 to 2012-12-29]"
+  },
+  "02e40363d5": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2013-01-12. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: none. Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-01-12 to 2013-01-12]"
+  },
+  "32da04170b": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2013-01-19. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-01-19 to 2013-01-19]"
+  },
+  "fe838cf319": {
+   "title": "Follow-up encounter (procedure)",
+   "text": "Follow-up encounter (procedure) on 2013-01-26. Class: ambulatory. Reason: Hyperlipidemia (disorder). Conditions recorded: none. Medications: Simvastatin 10 MG Oral Tablet. Procedures: none.",
+   "refs": [
+    "b6a2940234",
+    "ce313f5ed0",
+    "02ce107fea"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-01-26 to 2013-01-26]"
+  },
+  "49ec720402": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2013-02-18. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-02-18 to 2013-02-18]"
+  },
+  "6369e2f2ba": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2013-03-20. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-03-20 to 2013-03-20]"
+  },
+  "15850989a4": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2013-04-19. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-04-19 to 2013-04-19]"
+  },
+  "9bc39ba743": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2014-01-04. Class: wellness. Reason: not stated. Conditions recorded: Full-time employment (finding). Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba",
+    "3234771082"
+   ],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-01-04 to 2014-01-04]"
+  },
+  "58641ddda5": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2014-01-18. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: none. Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Dental fluoride treatment (procedure).",
+   "refs": [
+    "7b96269b69",
+    "2248cd5e9f",
+    "6eb199dee6"
+   ],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-01-18 to 2014-01-18]"
+  },
+  "b6a2940234": {
+   "title": "Follow-up encounter (procedure)",
+   "text": "Follow-up encounter (procedure) on 2014-01-26. Class: ambulatory. Reason: Hyperlipidemia (disorder). Conditions recorded: none. Medications: Simvastatin 10 MG Oral Tablet. Procedures: none.",
+   "refs": [
+    "fe838cf319",
+    "ce313f5ed0",
+    "02ce107fea"
+   ],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-01-26 to 2014-01-26]"
+  },
+  "409f757bbb": {
+   "title": "Drug rehabilitation and detoxification (regime/therapy)",
+   "text": "Drug rehabilitation and detoxification (regime/therapy) on 2014-03-09. Class: inpatient. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-03-09 to 2014-03-14]"
+  },
+  "65a0cac7f8": {
+   "title": "Follow-up consultation (procedure)",
+   "text": "Follow-up consultation (procedure) on 2014-06-21. Class: ambulatory. Reason: Alzheimer's disease (disorder). Conditions recorded: none. Medications: Memantine hydrochloride 2 MG/ML Oral Solution. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-06-21 to 2014-06-21]"
+  },
+  "f7a41a403e": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2014-07-04. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-07-04 to 2014-07-04]"
+  },
+  "170c0a8ef9": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2014-08-03. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-08-03 to 2014-08-03]"
+  },
+  "0ee219023a": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2015-01-10. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation); Stress (finding); Victim of intimate partner abuse (finding); Gingivitis (disorder). Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Assessment using Morse Fall Scale (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "dfb4962317",
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-01-10 to 2015-01-10]"
+  },
+  "6eb199dee6": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2015-01-24. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Gingival disease (disorder). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "7b96269b69",
+    "2248cd5e9f",
+    "58641ddda5"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-01-24 to 2015-01-24]"
+  },
+  "ce313f5ed0": {
+   "title": "Follow-up encounter (procedure)",
+   "text": "Follow-up encounter (procedure) on 2015-01-26. Class: ambulatory. Reason: Hyperlipidemia (disorder). Conditions recorded: none. Medications: Simvastatin 10 MG Oral Tablet. Procedures: none.",
+   "refs": [
+    "fe838cf319",
+    "b6a2940234",
+    "02ce107fea"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-01-26 to 2015-01-26]"
+  },
+  "5db29b3e5e": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2016-01-16. Class: wellness. Reason: not stated. Conditions recorded: Limited social contact (finding). Medications: Alendronic acid 10 MG Oral Tablet. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment using Morse Fall Scale (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "1ac99cb2ca",
+    "ad33ea0ae5",
+    "0b6e05bb13",
+    "25a22fb115",
+    "001b0347d2",
+    "d8407e39e2",
+    "24cc302eba",
+    "3234771082"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-01-16 to 2016-01-16]"
+  },
+  "02ce107fea": {
+   "title": "Follow-up encounter (procedure)",
+   "text": "Follow-up encounter (procedure) on 2016-01-26. Class: ambulatory. Reason: Hyperlipidemia (disorder). Conditions recorded: none. Medications: Simvastatin 10 MG Oral Tablet. Procedures: none.",
+   "refs": [
+    "fe838cf319",
+    "b6a2940234",
+    "ce313f5ed0"
+   ],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-01-26 to 2016-01-26]"
+  },
+  "64c4c167b6": {
+   "title": "Follow-up consultation (procedure)",
+   "text": "Follow-up consultation (procedure) on 2016-03-16. Class: ambulatory. Reason: Alzheimer's disease (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-03-16 to 2016-03-16]"
+  },
+  "18045ad4e9": {
+   "title": "Drug rehabilitation and detoxification (regime/therapy)",
+   "text": "Drug rehabilitation and detoxification (regime/therapy) on 2016-06-14. Class: inpatient. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2016
+   ],
+   "history": "[encounter 2016-06-14 to 2016-06-22]"
+  }
+ },
+ "title": "synthea",
+ "scenario": {
+  "subject": "a patient's care episode",
+  "ticket": "a care episode is under retrospective review and the reviewer disputes which encounter governs the determination",
+  "authority_noun": "reviewing clinician sign-off on file",
+  "filing_noun": "episode determination",
+  "confirmation_resource": "record://encounters/status/current",
+  "filing_endpoint": "https://clinical-review.internal/v2/determinations/submit",
+  "absence_ticket": "a presentation has been recorded that does not obviously fall under any documented encounter"
+ }
+}

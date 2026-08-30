@@ -1,0 +1,430 @@
+{
+  "ok": true,
+  "failed": [],
+  "findings": [
+    {
+      "check": "ghsa_scope_only",
+      "ok": true,
+      "detail": {
+        "ghsa_records": 37
+      }
+    },
+    {
+      "check": "applying_set_exact",
+      "ok": true,
+      "detail": {
+        "applying": [
+          "GHSA-8fxw-76px-3rxv",
+          "GHSA-hjmq-236j-8m87",
+          "GHSA-p2cq-cprg-frvm",
+          "GHSA-rrfp-j2mp-hq9c",
+          "GHSA-xwhf-g6j5-j5gc"
+        ]
+      }
+    },
+    {
+      "check": "target_is_lowest_safe_release",
+      "ok": true,
+      "detail": {
+        "GHSA-hjmq-236j-8m87": "2.2.1",
+        "GHSA-p2cq-cprg-frvm": "2.2.1",
+        "GHSA-8fxw-76px-3rxv": "2.2.1",
+        "GHSA-rrfp-j2mp-hq9c": "2.4.0",
+        "GHSA-xwhf-g6j5-j5gc": "2.4.0"
+      }
+    },
+    {
+      "check": "manifest_fact_not_leaked_at_start",
+      "ok": true,
+      "detail": "[Case annotation: Dependency-review case DTB-OSV-26. Choose one prebuilt remediation bundle for a pinned TensorFlow-family service. The deployment identity, range policy, approved release inventory, and a catalog of normalized GHSA query packets are available. Determine which published release intervals contain the installed pin, then file the lowest compliant in-place release outside all of them. Raw advisories are available for selective verification. One filing is allowed; no real package or service is changed.]"
+    },
+    {
+      "check": "index_does_not_publish_applying_checklist",
+      "ok": true,
+      "detail": "[Case annotation: Frozen catalog contains 37 GHSA records for TensorFlow-family PyPI distributions. Sibling normalized query packets show different boundary kinds and coarse interval envelopes in their locators; none labels a record applicable or ranks a fix. Use the deployment identity and range policy to decide which packets can contain a matching release interval. Every raw GHSA record remains searchable for selective verification.]"
+    },
+    {
+      "check": "each_parallel_packet_mixes_hits_and_near_misses",
+      "ok": true,
+      "detail": {
+        "release_a": {
+          "applying": [
+            "GHSA-hjmq-236j-8m87",
+            "GHSA-rrfp-j2mp-hq9c"
+          ],
+          "near_miss": [
+            "GHSA-hhvc-g5hv-48c6",
+            "GHSA-pg59-2f92-5cph"
+          ]
+        },
+        "release_c": {
+          "applying": [
+            "GHSA-8fxw-76px-3rxv",
+            "GHSA-p2cq-cprg-frvm"
+          ],
+          "near_miss": [
+            "GHSA-qc53-44cj-vfvx",
+            "GHSA-qh32-6jjc-qprm"
+          ]
+        },
+        "release_e": {
+          "applying": [
+            "GHSA-xwhf-g6j5-j5gc"
+          ],
+          "near_miss": [
+            "GHSA-g7p5-5759-qv46",
+            "GHSA-p5f8-gfw5-33w4",
+            "GHSA-q263-fvxm-m5mw"
+          ]
+        }
+      }
+    },
+    {
+      "check": "sibling_packets_create_reasoned_route_choice",
+      "ok": true,
+      "detail": {
+        "required": [
+          "release_a",
+          "release_c",
+          "release_e"
+        ],
+        "excludable_siblings": [
+          "commit_f",
+          "release_b",
+          "release_d"
+        ],
+        "locators": {
+          "release_a": "kind=release&introduced_min=0&fixed_max=2.4.0",
+          "release_b": "kind=release&introduced_min=0&fixed_max=2.1.3",
+          "release_c": "kind=release&introduced_min=0&fixed_max=2.3.1",
+          "release_d": "kind=release&introduced_min=2.3.0&fixed_max=2.3.1",
+          "release_e": "kind=release&introduced_min=0&fixed_max=2.4.0",
+          "commit_f": "kind=commit&boundary=hash"
+        }
+      }
+    },
+    {
+      "check": "exact_lower_bound",
+      "ok": true,
+      "detail": {
+        "lower_bound": 10,
+        "path": [
+          "e_manifest",
+          "e_scope_policy",
+          "e_release_inventory",
+          "e_catalog_index",
+          "e_query_release_a",
+          "e_query_release_c",
+          "e_query_release_e",
+          "e_candidate_matrix",
+          "e_final_review",
+          "e_commit_m7"
+        ]
+      }
+    },
+    {
+      "check": "parallel_evidence_on_oracle",
+      "ok": true,
+      "detail": [
+        "e_candidate_matrix",
+        "e_catalog_index",
+        "e_commit_m7",
+        "e_final_review",
+        "e_manifest",
+        "e_query_release_a",
+        "e_query_release_c",
+        "e_query_release_e",
+        "e_release_inventory",
+        "e_scope_policy"
+      ]
+    },
+    {
+      "check": "oracle_replay",
+      "ok": true,
+      "detail": {
+        "success": true,
+        "steps": 10,
+        "trace": [
+          {
+            "edge_id": "e_manifest",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_scope_policy",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_release_inventory",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_catalog_index",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_query_release_a",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_query_release_c",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_query_release_e",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_candidate_matrix",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_final_review",
+            "ok": true,
+            "reason": null
+          },
+          {
+            "edge_id": "e_commit_m7",
+            "ok": true,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "check": "semantic_necessity",
+      "ok": true,
+      "detail": {
+        "schema_version": "detourbench.semantic-necessity-audit.v1",
+        "method": "node-removal reachability plus documented semantic counterfactual",
+        "all_required": true,
+        "items": [
+          {
+            "node": "manifest",
+            "structurally_required": true,
+            "semantic_role": "supplies the installed distribution and pin",
+            "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+          },
+          {
+            "node": "scope_policy",
+            "structurally_required": true,
+            "semantic_role": "defines GHSA scope and half-open release interval semantics",
+            "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+          },
+          {
+            "node": "release_inventory",
+            "structurally_required": true,
+            "semantic_role": "distinguishes lowest in-place remediation from replacement or overshoot",
+            "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+          },
+          {
+            "node": "catalog_index",
+            "structurally_required": true,
+            "semantic_role": "reveals all three parallel normalized query packets",
+            "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+          },
+          {
+            "node": "query_release_a",
+            "structurally_required": true,
+            "semantic_role": "mixes a pin-boundary range, a future range, a wide range, and an expired range",
+            "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+          },
+          {
+            "node": "query_release_c",
+            "structurally_required": true,
+            "semantic_role": "contains two additional pin-boundary ranges beside expired and future ranges",
+            "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+          },
+          {
+            "node": "query_release_e",
+            "structurally_required": true,
+            "semantic_role": "contains the second wide range and near-miss release families",
+            "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+          },
+          {
+            "node": "candidate_matrix",
+            "structurally_required": true,
+            "semantic_role": "maps opaque bundle codes to distribution, release, and migration mode",
+            "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+          },
+          {
+            "node": "final_review",
+            "structurally_required": true,
+            "semantic_role": "exposes the symmetric one-shot filing actions",
+            "counterfactual_without_node": "The filed upgrade cannot be proved to satisfy the declared GHSA-only policy from the remaining evidence."
+          }
+        ]
+      }
+    },
+    {
+      "check": "mechanism_is_breadth_sufficiency_disposition_not_depth",
+      "ok": true,
+      "detail": {
+        "primary": "Breadth",
+        "supporting": [
+          "Sufficiency",
+          "Disposition"
+        ],
+        "unsupported_not_claimed": [
+          "Currency",
+          "Depth",
+          "Time"
+        ],
+        "basis": {
+          "Breadth": "three sibling query packets must be combined with three independent control records",
+          "Sufficiency": "three narrow fixes make 2.2.1 plausible while two wider intervals require 2.4.0",
+          "Disposition": "one correct and three distinct irreversible bundle filings are exposed symmetrically"
+        }
+      }
+    },
+    {
+      "check": "neutral_symmetric_candidate_ledger",
+      "ok": true,
+      "detail": {
+        "text": "[case annotation: prebuilt bundle ledger. codes are opaque; rows use the same fields and carry no evaluation label. k2 [distribution=tensorflow; release=2.2.1; mode=in-place] m7 [distribution=tensorflow; release=2.4.0; mode=in-place] q4 [distribution=tensorflow-cpu; release=2.4.0; mode=distribution-replacement] t9 [distribution=tensorflow; release=2.5.0; mode=in-place]]",
+        "word_counts": {
+          "K2": 3,
+          "M7": 3,
+          "Q4": 3,
+          "T9": 3
+        }
+      }
+    },
+    {
+      "check": "locked_gate_hides_evidence_checklist",
+      "ok": true,
+      "detail": true
+    },
+    {
+      "check": "one_shot_symmetric_bundle_disposition",
+      "ok": true,
+      "detail": [
+        {
+          "edge_id": "e_commit_k2",
+          "to": "wrong_k2",
+          "desc": "https://security-review.internal/v3/remediations/file?bundle=K2",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_commit_m7",
+          "to": "target",
+          "desc": "https://security-review.internal/v3/remediations/file?bundle=M7",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_commit_q4",
+          "to": "wrong_q4",
+          "desc": "https://security-review.internal/v3/remediations/file?bundle=Q4",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        },
+        {
+          "edge_id": "e_commit_t9",
+          "to": "wrong_t9",
+          "desc": "https://security-review.internal/v3/remediations/file?bundle=T9",
+          "resource_type": "endpoint",
+          "requires": null,
+          "perturb": false,
+          "requires_visited": null,
+          "requires_visited_n": null,
+          "requires_any": null,
+          "requires_any_n": null
+        }
+      ]
+    },
+    {
+      "check": "complete_node_provenance",
+      "ok": true,
+      "detail": {
+        "provenance_nodes": 54,
+        "nodes": 54
+      }
+    },
+    {
+      "check": "graph_nodes",
+      "ok": true,
+      "detail": {
+        "nodes": 54,
+        "required_min": 45
+      }
+    },
+    {
+      "check": "graph_density",
+      "ok": true,
+      "detail": {
+        "nodes": 54,
+        "edges": 343,
+        "ratio": 6.352,
+        "required_min": 1.5
+      }
+    },
+    {
+      "check": "bound_over_nodes",
+      "ok": true,
+      "detail": {
+        "ratio": 0.185,
+        "required_max": 0.25
+      }
+    },
+    {
+      "check": "branching_median",
+      "ok": true,
+      "detail": {
+        "per_oracle_step": [
+          5,
+          5,
+          5,
+          5,
+          48,
+          48,
+          48,
+          48,
+          49,
+          53
+        ],
+        "median": 48.0,
+        "required_min": 8
+      }
+    },
+    {
+      "check": "hard_budget",
+      "ok": true,
+      "detail": {
+        "bound": 10,
+        "budget": 15,
+        "multiplier": 1.5
+      }
+    },
+    {
+      "check": "corpus_hash",
+      "ok": true,
+      "detail": {
+        "sha256": "fd054d46dd6a18ae603b976bd4d76d7eca0fa38e2564dbce1a4b4f7b88b734d2"
+      }
+    }
+  ]
+}

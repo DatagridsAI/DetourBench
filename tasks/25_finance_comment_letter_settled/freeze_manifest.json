@@ -1,0 +1,35 @@
+{
+  "schema_version": "detourbench.frozen-integrated-task.v2",
+  "frozen_on": "2026-08-27",
+  "task_id": 25,
+  "task_directory": "initial_integrated_tasks/25_finance_comment_letter_settled",
+  "run_task_name": "finance_comment_letter_settled",
+  "classification": "integrated_development_challenge",
+  "task_revision": "finance-edgar-v1",
+  "selection_note": "SEC-EDGAR-grounded domain-expansion prototype; exclude from confirmatory ranking until prospectively frozen.",
+  "evidence_cluster_id": "edgar-hear-2023-nongaap-review",
+  "metric_version": "detourbench-v3",
+  "solver_version": "compute_lower_bound.monotone-bfs.v1",
+  "state_semantics_version": "graph-env.expanding-search.v1",
+  "n_nodes": 62,
+  "n_edges": 113,
+  "oracle_lower_bound": 12,
+  "informed_lower_bound": 12,
+  "hard_budget": 18,
+  "primary_mechanism": "Sufficiency",
+  "supporting_mechanisms": [
+    "Currency",
+    "Depth",
+    "Breadth"
+  ],
+  "episode_count": 0,
+  "hashes_sha256": {
+    "graph_full.json": "eb11981030d0dc89b975024c3cc26e40fb19fd0f575bedeb3c4a20b0c2996bc6",
+    "oracle.json": "d9c79f7ae5fe9b5d2ffbabbbcc8f7fbdd1cde47857f841c3ab186f3f5a58f5b1",
+    "verifier_report.json": "aa7fa0e17af14e01fe20e1220a76641a3e31de0f64ed6052b7e2b8b6f7abba3f",
+    "source_corpus.json": "69802fd61ddb4deec19cb6d8b1f91d444840d6f541c3722780f48972d5f4cbea",
+    "necessity_audit.json": "a6b6de0d4d5c72987259a43896fc29fe3a181022c6fbca05d6071f169733bf1e",
+    "task_spec.json": "c30b68f906e760b92e6b8cee1dcac667b4faf542d7da4ad349dfa6a61caf6234",
+    "initial_state.json": "dc53ed74ef9b9a56097cf0cc77d064cd0096c3e9d65454fd2bef3884a7907b65"
+  }
+}

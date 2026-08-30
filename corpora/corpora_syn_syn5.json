@@ -1,0 +1,875 @@
+{
+ "seed": "70ab8bc183",
+ "sections": {
+  "92f12fa474": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 1953-04-08. Class: ambulatory. Reason: Childhood asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1953
+   ],
+   "history": "[encounter 1953-04-08 to 1953-04-08]"
+  },
+  "4ac3900ee2": {
+   "title": "Well child visit (procedure)",
+   "text": "Well child visit (procedure) on 1968-04-14. Class: wellness. Reason: not stated. Conditions recorded: Risk activity involvement (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1968
+   ],
+   "history": "[encounter 1968-04-14 to 1968-04-14]"
+  },
+  "dbfd14688b": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1969-04-20. Class: wellness. Reason: not stated. Conditions recorded: Only received primary school education (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1969
+   ],
+   "history": "[encounter 1969-04-20 to 1969-04-20]"
+  },
+  "6098149b13": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1971-05-02. Class: wellness. Reason: not stated. Conditions recorded: Asthma (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1971
+   ],
+   "history": "[encounter 1971-05-02 to 1971-05-02]"
+  },
+  "cdcfd92a29": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1978-06-11. Class: wellness. Reason: not stated. Conditions recorded: Prediabetes (finding); Anemia (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1978
+   ],
+   "history": "[encounter 1978-06-11 to 1978-06-11]"
+  },
+  "c3a835532f": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 1990-04-07. Class: emergency. Reason: Chronic intractable migraine without aura (disorder). Conditions recorded: Chronic intractable migraine without aura (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1990
+   ],
+   "history": "[encounter 1990-04-07 to 1990-04-07]"
+  },
+  "af2a98fba3": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 1990-08-24. Class: emergency. Reason: Impacted molars (disorder). Conditions recorded: Impacted molars (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1990
+   ],
+   "history": "[encounter 1990-08-24 to 1990-08-24]"
+  },
+  "78f9e1caf2": {
+   "title": "Emergency hospital admission (procedure)",
+   "text": "Emergency hospital admission (procedure) on 1990-09-30. Class: emergency. Reason: Chronic pain (finding). Conditions recorded: Chronic pain (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1990
+   ],
+   "history": "[encounter 1990-09-30 to 1990-09-30]"
+  },
+  "074f121838": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1996-09-22. Class: wellness. Reason: not stated. Conditions recorded: Ischemic heart disease (disorder). Medications: Simvastatin 20 MG Oral Tablet; 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet; Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1996
+   ],
+   "history": "[encounter 1996-09-22 to 1996-09-22]"
+  },
+  "4b70593605": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 1996-10-16. Class: ambulatory. Reason: Ischemic heart disease (disorder). Conditions recorded: Abnormal findings diagnostic imaging heart+coronary circulat (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1996
+   ],
+   "history": "[encounter 1996-10-16 to 1996-10-16]"
+  },
+  "89e04b9f47": {
+   "title": "Hospital admission (procedure)",
+   "text": "Hospital admission (procedure) on 1996-12-24. Class: ambulatory. Reason: Abnormal findings diagnostic imaging heart+coronary circulat (finding). Conditions recorded: History of coronary artery bypass grafting (situation). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1996
+   ],
+   "history": "[encounter 1996-12-24 to 1996-12-24]"
+  },
+  "97a8dd87a7": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 1999-10-10. Class: wellness. Reason: not stated. Conditions recorded: Body mass index 30+ - obesity (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    1999
+   ],
+   "history": "[encounter 1999-10-10 to 1999-10-10]"
+  },
+  "afb9ad274a": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 2001-12-21. Class: emergency. Reason: Overdose (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2001
+   ],
+   "history": "[encounter 2001-12-21 to 2001-12-21]"
+  },
+  "52c2889fb0": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2002-01-04. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: Dependent drug abuse (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2002
+   ],
+   "history": "[encounter 2002-01-04 to 2002-01-04]"
+  },
+  "fe4adffc80": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2003-11-02. Class: wellness. Reason: not stated. Conditions recorded: Diabetes mellitus type 2 (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2003
+   ],
+   "history": "[encounter 2003-11-02 to 2003-11-02]"
+  },
+  "b70821c8ed": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2004-11-07. Class: wellness. Reason: not stated. Conditions recorded: Essential hypertension (disorder); Hyperglycemia (disorder); Hypertriglyceridemia (disorder); Metabolic syndrome X (disorder); Victim of intimate partner abuse (finding). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2004
+   ],
+   "history": "[encounter 2004-11-07 to 2004-11-07]"
+  },
+  "6e2ec0cb12": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2006-11-19. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: none. Procedures: none.",
+   "refs": [
+    "9071aee21d",
+    "d456e7256b",
+    "3f3d1b5f41",
+    "5c971e5ea2",
+    "b6b0b74232"
+   ],
+   "amended_years": [
+    2006
+   ],
+   "history": "[encounter 2006-11-19 to 2006-11-19]"
+  },
+  "38eacab8db": {
+   "title": "Ophthalmic examination and evaluation (procedure)",
+   "text": "Ophthalmic examination and evaluation (procedure) on 2007-08-27. Class: ambulatory. Reason: not stated. Conditions recorded: Nonproliferative diabetic retinopathy due to type II diabetes mellitus. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2007
+   ],
+   "history": "[encounter 2007-08-27 to 2007-08-27]"
+  },
+  "2ad493b6d4": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2007-11-25. Class: wellness. Reason: not stated. Conditions recorded: Stress (finding). Medications: none. Procedures: none.",
+   "refs": [
+    "3f3d1b5f41",
+    "b6b0b74232"
+   ],
+   "amended_years": [
+    2007
+   ],
+   "history": "[encounter 2007-11-25 to 2007-11-25]"
+  },
+  "70ab8bc183": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2009-12-06. Class: wellness. Reason: not stated. Conditions recorded: Part-time employment (finding). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: none.",
+   "refs": [
+    "6fbe985804",
+    "d1a73c4629",
+    "9071aee21d",
+    "d456e7256b",
+    "81bebab7bd",
+    "3f3d1b5f41",
+    "c03f8f19b8",
+    "b7c8e1526b"
+   ],
+   "amended_years": [
+    2009
+   ],
+   "history": "[encounter 2009-12-06 to 2009-12-06]"
+  },
+  "9cf8c516f1": {
+   "title": "Asthma follow-up (regime/therapy)",
+   "text": "Asthma follow-up (regime/therapy) on 2010-04-16. Class: ambulatory. Reason: Asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-04-16 to 2010-04-16]"
+  },
+  "db2072c25b": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2010-05-13. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-05-13 to 2010-05-13]"
+  },
+  "1f92ab1129": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2010-06-12. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-06-12 to 2010-06-12]"
+  },
+  "34a0f1b600": {
+   "title": "Ophthalmic examination and evaluation (procedure)",
+   "text": "Ophthalmic examination and evaluation (procedure) on 2010-06-12. Class: ambulatory. Reason: not stated. Conditions recorded: none. Medications: tropicamide 5 MG/ML Ophthalmic Solution. Procedures: Visual acuity testing (procedure); Intraocular pressure test (procedure); Ocular slit lamp examination (procedure); Indirect gonioscopy (procedure); Camera fundoscopy (procedure); Diabetic retinal eye exam (procedure).",
+   "refs": [
+    "48e133f2e1",
+    "5b77d41761",
+    "623184a29d",
+    "aeeb60765c",
+    "abd3b0e8c7",
+    "ab1054fb77"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-06-12 to 2010-06-12]"
+  },
+  "35dc15cd78": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2010-07-12. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-07-12 to 2010-07-12]"
+  },
+  "01913d31f5": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2010-08-11. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-08-11 to 2010-08-11]"
+  },
+  "7fd2da460b": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2010-09-10. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-09-10 to 2010-09-10]"
+  },
+  "8dc6b20a08": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2010-10-10. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-10-10 to 2010-10-10]"
+  },
+  "2c39c782a0": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2010-11-09. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-11-09 to 2010-11-09]"
+  },
+  "6fbe985804": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2010-12-12. Class: wellness. Reason: not stated. Conditions recorded: Full-time employment (finding). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "70ab8bc183",
+    "d1a73c4629",
+    "9071aee21d",
+    "d456e7256b",
+    "81bebab7bd",
+    "3f3d1b5f41",
+    "c03f8f19b8",
+    "b7c8e1526b"
+   ],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-12-12 to 2010-12-12]"
+  },
+  "9c27992db9": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2010-12-19. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2010
+   ],
+   "history": "[encounter 2010-12-19 to 2010-12-19]"
+  },
+  "3b9e7dc99c": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-01-02. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: none. Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "1fdcf6f73e"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-01-02 to 2011-01-02]"
+  },
+  "e25bc3f468": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-02-25. Class: ambulatory. Reason: Screening for malignant neoplasm of colon (procedure). Conditions recorded: Polyp of colon (disorder). Medications: none. Procedures: Colonoscopy (procedure); Screening for occult blood in feces (procedure); Rectal polypectomy (procedure); Biopsy of colon (procedure).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-02-25 to 2011-02-25]"
+  },
+  "cf4c8be30e": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-03-03. Class: ambulatory. Reason: Polyp of colon (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-03-03 to 2011-03-03]"
+  },
+  "10e2b41e93": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-03-07. Class: ambulatory. Reason: Primary malignant neoplasm of colon (disorder). Conditions recorded: Primary malignant neoplasm of colon (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-03-07 to 2011-03-07]"
+  },
+  "d1a73c4629": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2011-04-03. Class: outpatient. Reason: not stated. Conditions recorded: none. Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure).",
+   "refs": [
+    "70ab8bc183",
+    "6fbe985804",
+    "9071aee21d",
+    "d456e7256b",
+    "81bebab7bd",
+    "3f3d1b5f41",
+    "c03f8f19b8",
+    "b7c8e1526b"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-04-03 to 2011-04-03]"
+  },
+  "defd407af7": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2011-04-10. Class: ambulatory. Reason: Viral sinusitis (disorder). Conditions recorded: Viral sinusitis (disorder). Medications: none. Procedures: none.",
+   "refs": [
+    "3a826bafe8",
+    "7bd5f34154"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-04-10 to 2011-04-10]"
+  },
+  "48e133f2e1": {
+   "title": "Ophthalmic examination and evaluation (procedure)",
+   "text": "Ophthalmic examination and evaluation (procedure) on 2011-05-08. Class: ambulatory. Reason: not stated. Conditions recorded: none. Medications: tropicamide 5 MG/ML Ophthalmic Solution. Procedures: Visual acuity testing (procedure); Intraocular pressure test (procedure); Ocular slit lamp examination (procedure); Indirect gonioscopy (procedure); Camera fundoscopy (procedure); Diabetic retinal eye exam (procedure).",
+   "refs": [
+    "34a0f1b600",
+    "5b77d41761",
+    "623184a29d",
+    "aeeb60765c",
+    "abd3b0e8c7",
+    "ab1054fb77"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-05-08 to 2011-05-08]"
+  },
+  "a66c99684e": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-10-25. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-10-25 to 2011-10-25]"
+  },
+  "8c03f0855a": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-11-24. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-11-24 to 2011-11-24]"
+  },
+  "5b77d41761": {
+   "title": "Ophthalmic examination and evaluation (procedure)",
+   "text": "Ophthalmic examination and evaluation (procedure) on 2011-12-04. Class: ambulatory. Reason: not stated. Conditions recorded: none. Medications: tropicamide 5 MG/ML Ophthalmic Solution. Procedures: Visual acuity testing (procedure); Intraocular pressure test (procedure); Ocular slit lamp examination (procedure); Indirect gonioscopy (procedure); Camera fundoscopy (procedure); Diabetic retinal eye exam (procedure).",
+   "refs": [
+    "34a0f1b600",
+    "48e133f2e1",
+    "623184a29d",
+    "aeeb60765c",
+    "abd3b0e8c7",
+    "ab1054fb77"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-12-04 to 2011-12-04]"
+  },
+  "9071aee21d": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2011-12-18. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "6e2ec0cb12",
+    "70ab8bc183",
+    "6fbe985804",
+    "d1a73c4629",
+    "d456e7256b",
+    "81bebab7bd",
+    "3f3d1b5f41",
+    "c03f8f19b8"
+   ],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-12-18 to 2011-12-18]"
+  },
+  "ddf4434be3": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2011-12-24. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2011
+   ],
+   "history": "[encounter 2011-12-24 to 2011-12-24]"
+  },
+  "b5fa3418bb": {
+   "title": "Emergency room admission (procedure)",
+   "text": "Emergency room admission (procedure) on 2012-03-26. Class: emergency. Reason: Overdose (disorder). Conditions recorded: Overdose (disorder). Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-03-26 to 2012-03-27]"
+  },
+  "62a4163c6d": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-04-03. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-04-03 to 2012-04-03]"
+  },
+  "bca4a780ae": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-05-03. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-05-03 to 2012-05-03]"
+  },
+  "1cfac0c289": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-06-02. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-06-02 to 2012-06-02]"
+  },
+  "ebe82b2768": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-07-02. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-07-02 to 2012-07-02]"
+  },
+  "623184a29d": {
+   "title": "Ophthalmic examination and evaluation (procedure)",
+   "text": "Ophthalmic examination and evaluation (procedure) on 2012-07-31. Class: ambulatory. Reason: not stated. Conditions recorded: none. Medications: tropicamide 5 MG/ML Ophthalmic Solution. Procedures: Visual acuity testing (procedure); Intraocular pressure test (procedure); Ocular slit lamp examination (procedure); Indirect gonioscopy (procedure); Camera fundoscopy (procedure); Diabetic retinal eye exam (procedure).",
+   "refs": [
+    "34a0f1b600",
+    "48e133f2e1",
+    "5b77d41761",
+    "aeeb60765c",
+    "abd3b0e8c7",
+    "ab1054fb77"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-07-31 to 2012-07-31]"
+  },
+  "b9bfa1599a": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-08-01. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-08-01 to 2012-08-01]"
+  },
+  "13732df8cc": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-08-31. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-08-31 to 2012-08-31]"
+  },
+  "ce4e9dfb93": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-09-30. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-09-30 to 2012-09-30]"
+  },
+  "82b9613880": {
+   "title": "Asthma follow-up (regime/therapy)",
+   "text": "Asthma follow-up (regime/therapy) on 2012-10-02. Class: ambulatory. Reason: Asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-10-02 to 2012-10-02]"
+  },
+  "047211d817": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-10-30. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-10-30 to 2012-10-30]"
+  },
+  "6d6a968442": {
+   "title": "Encounter for problem (procedure)",
+   "text": "Encounter for problem (procedure) on 2012-11-29. Class: ambulatory. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: Rehabilitation therapy (regime/therapy).",
+   "refs": [],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-11-29 to 2012-11-29]"
+  },
+  "d456e7256b": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2012-12-23. Class: wellness. Reason: not stated. Conditions recorded: Medication review due (situation); Gingivitis (disorder). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "6e2ec0cb12",
+    "70ab8bc183",
+    "6fbe985804",
+    "d1a73c4629",
+    "9071aee21d",
+    "81bebab7bd",
+    "3f3d1b5f41",
+    "c03f8f19b8"
+   ],
+   "amended_years": [
+    2012
+   ],
+   "history": "[encounter 2012-12-23 to 2012-12-23]"
+  },
+  "3904bbefd6": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2013-01-06. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Gingival disease (disorder); Primary dental caries (disorder). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "1fdcf6f73e",
+    "5101e482eb"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-01-06 to 2013-01-06]"
+  },
+  "038356af01": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2013-01-19. Class: ambulatory. Reason: Primary malignant neoplasm of colon (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-01-19 to 2013-01-19]"
+  },
+  "aeeb60765c": {
+   "title": "Ophthalmic examination and evaluation (procedure)",
+   "text": "Ophthalmic examination and evaluation (procedure) on 2013-03-28. Class: ambulatory. Reason: not stated. Conditions recorded: none. Medications: tropicamide 5 MG/ML Ophthalmic Solution. Procedures: Visual acuity testing (procedure); Intraocular pressure test (procedure); Ocular slit lamp examination (procedure); Indirect gonioscopy (procedure); Camera fundoscopy (procedure); Diabetic retinal eye exam (procedure).",
+   "refs": [
+    "34a0f1b600",
+    "48e133f2e1",
+    "5b77d41761",
+    "623184a29d",
+    "abd3b0e8c7",
+    "ab1054fb77"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-03-28 to 2013-03-28]"
+  },
+  "d0e07f44dc": {
+   "title": "Asthma follow-up (regime/therapy)",
+   "text": "Asthma follow-up (regime/therapy) on 2013-03-31. Class: ambulatory. Reason: Asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-03-31 to 2013-03-31]"
+  },
+  "2081b22ed7": {
+   "title": "Drug rehabilitation and detoxification (regime/therapy)",
+   "text": "Drug rehabilitation and detoxification (regime/therapy) on 2013-04-06. Class: inpatient. Reason: Dependent drug abuse (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-04-06 to 2013-04-07]"
+  },
+  "266c175a73": {
+   "title": "Asthma follow-up (regime/therapy)",
+   "text": "Asthma follow-up (regime/therapy) on 2013-09-27. Class: ambulatory. Reason: Asthma (disorder). Conditions recorded: none. Medications: none. Procedures: none.",
+   "refs": [],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-09-27 to 2013-09-27]"
+  },
+  "81bebab7bd": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2013-11-17. Class: urgentcare. Reason: not stated. Conditions recorded: Part-time employment (finding); Gingivitis (disorder). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "70ab8bc183",
+    "6fbe985804",
+    "d1a73c4629",
+    "9071aee21d",
+    "d456e7256b",
+    "3f3d1b5f41",
+    "c03f8f19b8",
+    "b7c8e1526b"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-11-17 to 2013-11-17]"
+  },
+  "3a826bafe8": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2013-11-24. Class: ambulatory. Reason: Viral sinusitis (disorder). Conditions recorded: Viral sinusitis (disorder). Medications: none. Procedures: none.",
+   "refs": [
+    "defd407af7",
+    "7bd5f34154"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-11-24 to 2013-11-24]"
+  },
+  "1fdcf6f73e": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2013-12-01. Class: ambulatory. Reason: Gingivitis (disorder). Conditions recorded: Gingival disease (disorder). Medications: sodium fluoride 0.0272 MG/MG Oral Gel. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Dental plain X-ray bitewing (procedure); Examination of gingivae (procedure).",
+   "refs": [
+    "3b9e7dc99c",
+    "3904bbefd6"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-12-01 to 2013-12-01]"
+  },
+  "3f3d1b5f41": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2013-12-15. Class: outpatient. Reason: not stated. Conditions recorded: Medication review due (situation); Full-time employment (finding); Social isolation (finding); Stress (finding). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure); Depression screening using Patient Health Questionnaire Nine Item score (procedure).",
+   "refs": [
+    "6e2ec0cb12",
+    "2ad493b6d4",
+    "70ab8bc183",
+    "6fbe985804",
+    "d1a73c4629",
+    "9071aee21d",
+    "d456e7256b",
+    "81bebab7bd"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-12-15 to 2013-12-15]"
+  },
+  "c03f8f19b8": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2013-12-29. Class: wellness. Reason: not stated. Conditions recorded: none. Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "70ab8bc183",
+    "6fbe985804",
+    "d1a73c4629",
+    "9071aee21d",
+    "d456e7256b",
+    "81bebab7bd",
+    "3f3d1b5f41",
+    "b7c8e1526b"
+   ],
+   "amended_years": [
+    2013
+   ],
+   "history": "[encounter 2013-12-29 to 2013-12-29]"
+  },
+  "5101e482eb": {
+   "title": "Encounter for check up (procedure)",
+   "text": "Encounter for check up (procedure) on 2014-01-12. Class: ambulatory. Reason: Patient referral for dental care (procedure). Conditions recorded: Primary dental caries (disorder). Medications: none. Procedures: Dental consultation and report (procedure); Dental care (regime/therapy); Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure); Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure); Examination of gingivae (procedure); Application of composite dental filling material to dentin of tooth following fracture of tooth (procedure).",
+   "refs": [
+    "3904bbefd6"
+   ],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-01-12 to 2014-01-12]"
+  },
+  "abd3b0e8c7": {
+   "title": "Ophthalmic examination and evaluation (procedure)",
+   "text": "Ophthalmic examination and evaluation (procedure) on 2014-01-22. Class: ambulatory. Reason: not stated. Conditions recorded: none. Medications: tropicamide 5 MG/ML Ophthalmic Solution. Procedures: Visual acuity testing (procedure); Intraocular pressure test (procedure); Ocular slit lamp examination (procedure); Indirect gonioscopy (procedure); Camera fundoscopy (procedure); Diabetic retinal eye exam (procedure).",
+   "refs": [
+    "34a0f1b600",
+    "48e133f2e1",
+    "5b77d41761",
+    "623184a29d",
+    "aeeb60765c",
+    "ab1054fb77"
+   ],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-01-22 to 2014-01-22]"
+  },
+  "ab1054fb77": {
+   "title": "Ophthalmic examination and evaluation (procedure)",
+   "text": "Ophthalmic examination and evaluation (procedure) on 2014-11-18. Class: ambulatory. Reason: not stated. Conditions recorded: none. Medications: tropicamide 5 MG/ML Ophthalmic Solution. Procedures: Visual acuity testing (procedure); Intraocular pressure test (procedure); Ocular slit lamp examination (procedure); Indirect gonioscopy (procedure); Camera fundoscopy (procedure); Diabetic retinal eye exam (procedure).",
+   "refs": [
+    "34a0f1b600",
+    "48e133f2e1",
+    "5b77d41761",
+    "623184a29d",
+    "aeeb60765c",
+    "abd3b0e8c7"
+   ],
+   "amended_years": [
+    2014
+   ],
+   "history": "[encounter 2014-11-18 to 2014-11-18]"
+  },
+  "b7c8e1526b": {
+   "title": "General examination of patient (procedure)",
+   "text": "General examination of patient (procedure) on 2015-01-04. Class: wellness. Reason: not stated. Conditions recorded: none. Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Medication reconciliation (procedure); Assessment of health and social care needs (procedure); Assessment of anxiety (procedure).",
+   "refs": [
+    "70ab8bc183",
+    "6fbe985804",
+    "d1a73c4629",
+    "9071aee21d",
+    "d456e7256b",
+    "81bebab7bd",
+    "3f3d1b5f41",
+    "c03f8f19b8"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-01-04 to 2015-01-04]"
+  },
+  "5c971e5ea2": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2015-01-18. Class: urgentcare. Reason: not stated. Conditions recorded: Medication review due (situation). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Assessment of anxiety (procedure); Depression screening (procedure); Depression screening (procedure).",
+   "refs": [
+    "6e2ec0cb12",
+    "70ab8bc183",
+    "6fbe985804",
+    "d1a73c4629",
+    "9071aee21d",
+    "d456e7256b",
+    "81bebab7bd",
+    "3f3d1b5f41"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-01-18 to 2015-01-18]"
+  },
+  "b04312b693": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2015-01-25. Class: urgentcare. Reason: not stated. Conditions recorded: none. Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Medication reconciliation (procedure).",
+   "refs": [
+    "70ab8bc183",
+    "6fbe985804",
+    "d1a73c4629",
+    "9071aee21d",
+    "d456e7256b",
+    "81bebab7bd",
+    "3f3d1b5f41",
+    "c03f8f19b8"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-01-25 to 2015-01-25]"
+  },
+  "b6b0b74232": {
+   "title": "Urgent care clinic (environment)",
+   "text": "Urgent care clinic (environment) on 2015-02-01. Class: urgentcare. Reason: not stated. Conditions recorded: Medication review due (situation); Social isolation (finding); Stress (finding). Medications: Hydrochlorothiazide 25 MG Oral Tablet; 120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]; 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet; lisinopril 10 MG Oral Tablet; NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]; amLODIPine 2.5 MG Oral Tablet. Procedures: Assessment of health and social care needs (procedure); Screening for domestic abuse (procedure); Depression screening (procedure); Depression screening (procedure); Patient referral for dental care (procedure).",
+   "refs": [
+    "6e2ec0cb12",
+    "2ad493b6d4",
+    "70ab8bc183",
+    "6fbe985804",
+    "d1a73c4629",
+    "9071aee21d",
+    "d456e7256b",
+    "81bebab7bd"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-02-01 to 2015-02-01]"
+  },
+  "7bd5f34154": {
+   "title": "Encounter for symptom (procedure)",
+   "text": "Encounter for symptom (procedure) on 2015-02-08. Class: ambulatory. Reason: Viral sinusitis (disorder). Conditions recorded: Viral sinusitis (disorder). Medications: none. Procedures: none.",
+   "refs": [
+    "defd407af7",
+    "3a826bafe8"
+   ],
+   "amended_years": [
+    2015
+   ],
+   "history": "[encounter 2015-02-08 to 2015-02-08]"
+  }
+ },
+ "title": "synthea",
+ "scenario": {
+  "subject": "a patient's care episode",
+  "ticket": "a care episode is under retrospective review and the reviewer disputes which encounter governs the determination",
+  "authority_noun": "reviewing clinician sign-off on file",
+  "filing_noun": "episode determination",
+  "confirmation_resource": "record://encounters/status/current",
+  "filing_endpoint": "https://clinical-review.internal/v2/determinations/submit",
+  "absence_ticket": "a presentation has been recorded that does not obviously fall under any documented encounter"
+ }
+}

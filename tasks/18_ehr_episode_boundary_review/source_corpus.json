@@ -1,0 +1,123 @@
+{
+  "schema_version": "detourbench.ehr-case.v1",
+  "case_id": "it-ehr-24-episode-boundary-review",
+  "evidence_cluster_id": "ehr-episode-boundary-post-acute-review",
+  "snapshot_date": "2014-09-01",
+  "domain": "ehr_medication_safety",
+  "integrated_variant": "ehr_episode_boundary_review",
+  "synthea": {
+    "output_root": "/data/benchmarks/raw-corpora/synthea-samples/ehr-samples/csv_1k",
+    "csv_patients": "csv/patients.csv",
+    "csv_medications": "csv/medications.csv",
+    "csv_encounters": "csv/encounters.csv",
+    "csv_procedures": "csv/procedures.csv"
+  },
+  "frozen_ehr": {
+    "provenance": "observed",
+    "patient_id": "4e65c7b6-abda-fcae-ffb1-31c700e03afd",
+    "name": "Tiana543 Fay398",
+    "birthdate": "1970-06-22",
+    "sex": "F",
+    "city": "Peabody",
+    "state": "Massachusetts",
+    "conditions": [
+      {
+        "code": "59621000",
+        "system": "SNOMED-CT",
+        "display": "Essential hypertension (disorder)",
+        "onset": "2013-06-10"
+      }
+    ],
+    "medications": [
+      {
+        "code": "316049",
+        "system": "RxNorm",
+        "display": "Hydrochlorothiazide 25 MG Oral Tablet",
+        "start": "2014-01-06T05:22:14Z",
+        "stop": "2015-01-12T05:22:14Z"
+      },
+      {
+        "code": "314076",
+        "system": "RxNorm",
+        "display": "lisinopril 10 MG Oral Tablet",
+        "start": "2014-01-06T05:22:14Z",
+        "stop": "2015-01-12T05:22:14Z"
+      },
+      {
+        "code": "310965",
+        "system": "RxNorm",
+        "display": "Ibuprofen 200 MG Oral Tablet",
+        "start": "2014-06-14T06:34:06Z",
+        "stop": "2014-08-09T08:45:06Z"
+      },
+      {
+        "code": "1049621",
+        "system": "RxNorm",
+        "display": "Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet",
+        "start": "2014-06-21T08:45:06Z",
+        "stop": "2014-08-19T05:22:14Z"
+      }
+    ],
+    "encounters": [
+      {
+        "start": "2014-06-14T06:34:06Z",
+        "class": "emergency",
+        "display": "Emergency room admission (procedure)"
+      },
+      {
+        "start": "2014-06-21T06:34:06Z",
+        "class": "inpatient",
+        "display": "Non-urgent orthopedic admission"
+      }
+    ]
+  },
+  "scenario_overlay": {
+    "provenance": "generated",
+    "ticket": "RXQ-24",
+    "summary": "a post-discharge outpatient medication reconciliation is waiting after a June 2014 knee episode. The queue asks which medication states govern the outpatient plan on snapshot 2014-09-01—not the acute inpatient medication window.",
+    "queue_note": "RXQ-24 was opened after orthopedic discharge. Open the patient header, then separate acute-episode encounters from chronic home medications. A discharge summary and a January wellness reconciliation are available but are not interchangeable episode authorities.",
+    "active_medications": "Medication panel for snapshot 2014-09-01. Chronic hypertension rows use the 2014-01-06 segment. Acute analgesic rows have STOP dates before the snapshot. Episode encounters (ER and inpatient ortho) bound the June 2014 acute window. A ticket-scoped acute-analgesic exception search must be checked because an authorized continuation would change the review. Discharge prose, prior hypertension segments, imaging, and coverage remain available as competing context. Episode review stays locked until governing evidence is collected.",
+    "patient_header": "Tiana543 Fay398, DOB 1970-06-22, F, MRN 4e65c7b6-abda-fcae-ffb1-31c700e03afd, Peabody MA.",
+    "encounter_entry": "Encounter index for the June 2014 episode. Open the emergency admission first, then the inpatient orthopedic admission. Outpatient wellness visits are a different care context.",
+    "er_encounter": "Encounter 2014-06-14T06:34:06Z, class emergency, Emergency room admission (procedure). Observed Synthea row. Ibuprofen starts the same calendar day.",
+    "inpatient_encounter": "Encounter 2014-06-21T06:34:06Z, class inpatient, Non-urgent orthopedic admission. Observed Synthea row. Oxycodone/APAP starts during this stay.",
+    "med_entry": "Active-medication panel for snapshot 2014-09-01. Chronic hypertension rows use the 2014-01-06 segment. Acute analgesic rows have STOP dates before the snapshot.",
+    "hctz": "MedicationRequest RxNorm 316049 Hydrochlorothiazide 25 MG Oral Tablet. START 2014-01-06, STOP 2015-01-12. Active on snapshot. Essential hypertension. Chronic home medication.",
+    "lisinopril": "MedicationRequest RxNorm 314076 lisinopril 10 MG Oral Tablet. START 2014-01-06, STOP 2015-01-12. Active on snapshot. Essential hypertension. Chronic home medication.",
+    "ibuprofen": "MedicationRequest RxNorm 310965 Ibuprofen 200 MG Oral Tablet. START 2014-06-14, STOP 2014-08-09. Started at ER admission; already stopped before snapshot. Acute-episode analgesic.",
+    "oxy_apap": "MedicationRequest oxycodone/APAP. START 2014-06-21, STOP 2014-08-19. Inpatient ortho analgesic; stopped before snapshot. Not part of the chronic home stack.",
+    "prior_hctz": "Prior hypertension segment: HCTZ START 2013-06-10, STOP 2014-01-06. Superseded by the 2014-01-06 renewal row. Do not treat as the current chronic plan on snapshot.",
+    "document_entry": "Clinical-documents folder: January wellness reconciliation, discharge summary, and knee imaging report. These documents do not replace MedicationRequest STOP dates.",
+    "wellness_recon": "Medication Reconciliation performed 2014-01-06 at wellness visit (procedure code 430193006). It predates the June acute episode and does not describe post-discharge analgesics.",
+    "discharge_summary": "Discharge summary attested 2014-06-22 (generated overlay): 'Continue home lisinopril and hydrochlorothiazide. Continue ibuprofen 200 mg three times daily for knee pain.' The summary collapses chronic and acute lists and ignores ibuprofen STOP 2014-08-09. It cannot override independent MedicationRequest intervals.",
+    "knee_xray": "Procedure 2014-06-14 Knee X-ray. Imaging supports the encounter but does not establish outpatient medication continuation.",
+    "exception_entry": "RXQ-24 acute-analgesic exception index. Search for a prescriber-authorized instruction to treat ibuprofen or oxycodone/APAP as continuing chronic home medications after the acute episode.",
+    "exception_result": "Ticket-scoped exception search complete: no authorized post-discharge continuation of ibuprofen or oxycodone/APAP is attached to RXQ-24.",
+    "episode_review": "Episode-boundary synthesis compares the ER and inpatient boundaries, the chronic 2014 hypertension segment, and both acute analgesic rows with STOP dates before snapshot. Discharge prose that says 'continue ibuprofen' is not governing when the MedicationRequest is already stopped. Apply the local episode-scoping rule before recording review.",
+    "coverage_entry": "Commercial coverage window active on snapshot.",
+    "eligibility": "Coverage eligibility is in-window.",
+    "formulary": "Formulary lists ibuprofen as preferred NSAID (generated). Formulary preference does not reopen a stopped acute row.",
+    "copay": "Copay accumulator for the quarter.",
+    "generic_review": "Generic pharmacy review queue.",
+    "labeling_authority": "Local pharmacy episode-scoping monograph (generated overlay): for post-acute medication review, outpatient continuation is governed by MedicationRequest rows active on the snapshot date within the chronic home stack. Analgesics started during an acute encounter that have STOP before snapshot are episode-scoped and must not be carried forward unless a separate authorized continuation exists.",
+    "hold_result": "RXQ-24 routed to pending-medication-review. Chronic HCTZ and lisinopril remain the outpatient hypertension plan. Ibuprofen and oxycodone/APAP are documented as stopped acute-episode medications.",
+    "verification": "RXQ-24 remains pending-medication-review with episode boundary applied. Chronic HTN therapy is not discontinued."
+  },
+  "decision_policy": {
+    "source_url": "scenario://ehr/policy/episode-boundary-outpatient-2014",
+    "rule_id": "local-episode-scoping-v1",
+    "summary": "Outpatient plan after acute episode uses chronic rows active on snapshot; stopped acute analgesics are not concurrent home meds."
+  },
+  "observed_evidence": [
+    {
+      "kind": "public_label",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a076e7-8268-4172-8a45-0419a5b4a7d2"
+    }
+  ],
+  "classification": "integrated_overlay_candidate",
+  "native_phase2": {
+    "n_a": 3,
+    "n_d": 3,
+    "verdict": "CALIBRATION native; overlay extends to integrated depth"
+  }
+}

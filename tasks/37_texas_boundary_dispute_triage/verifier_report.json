@@ -1,0 +1,509 @@
+{
+ "ok": true,
+ "failed": [],
+ "findings": [
+  {
+   "check": "exact_lower_bound",
+   "ok": true,
+   "detail": {
+    "lower_bound": 19,
+    "path": [
+     "e_intake",
+     "e_facts_page1",
+     "e_facts_page2",
+     "e_fact_join_page1",
+     "e_research_registry",
+     "e_research_current",
+     "e_adverse_limits_direct",
+     "e_recording_direct",
+     "e_authority_join_limitations",
+     "e_estimate_register",
+     "e_estimates_page2",
+     "e_cost_join_page1",
+     "e_policy_registry",
+     "e_policy_current",
+     "e_risk_current_direct",
+     "e_workflow_register_direct",
+     "e_submission_schema_direct",
+     "e_final_review",
+     "e_commit_c"
+    ]
+   }
+  },
+  {
+   "check": "canonical_witness_is_shortest",
+   "ok": true,
+   "detail": {
+    "computed": [
+     "e_intake",
+     "e_facts_page1",
+     "e_facts_page2",
+     "e_fact_join_page1",
+     "e_research_registry",
+     "e_research_current",
+     "e_adverse_limits_direct",
+     "e_recording_direct",
+     "e_authority_join_limitations",
+     "e_estimate_register",
+     "e_estimates_page2",
+     "e_cost_join_page1",
+     "e_policy_registry",
+     "e_policy_current",
+     "e_risk_current_direct",
+     "e_workflow_register_direct",
+     "e_submission_schema_direct",
+     "e_final_review",
+     "e_commit_c"
+    ],
+    "declared": [
+     "e_intake",
+     "e_facts_page1",
+     "e_facts_page2",
+     "e_fact_join_page1",
+     "e_research_registry",
+     "e_research_current",
+     "e_adverse_limits_direct",
+     "e_recording_direct",
+     "e_authority_join_limitations",
+     "e_estimate_register",
+     "e_estimates_page2",
+     "e_cost_join_page1",
+     "e_policy_registry",
+     "e_policy_current",
+     "e_risk_current_direct",
+     "e_workflow_register_direct",
+     "e_submission_schema_direct",
+     "e_final_review",
+     "e_commit_c"
+    ]
+   }
+  },
+  {
+   "check": "oracle_replay",
+   "ok": true,
+   "detail": {
+    "success": true,
+    "steps": 19,
+    "trace": [
+     {
+      "edge_id": "e_intake",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_facts_page1",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_facts_page2",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_fact_join_page1",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_research_registry",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_research_current",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_adverse_limits_direct",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_recording_direct",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_authority_join_limitations",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_estimate_register",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_estimates_page2",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_cost_join_page1",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_policy_registry",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_policy_current",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_risk_current_direct",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_workflow_register_direct",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_submission_schema_direct",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_final_review",
+      "ok": true,
+      "reason": null
+     },
+     {
+      "edge_id": "e_commit_c",
+      "ok": true,
+      "reason": null
+     }
+    ]
+   }
+  },
+  {
+   "check": "all_nodes_reachable",
+   "ok": true,
+   "detail": {
+    "reachable": 53,
+    "nodes": 53,
+    "unreachable": []
+   }
+  },
+  {
+   "check": "semantic_necessity",
+   "ok": true,
+   "detail": {
+    "schema_version": "detourbench.semantic-necessity-audit.v1",
+    "method": "unique-required-token proof with node-removal reachability fallback, plus documented semantic counterfactual",
+    "all_required": true,
+    "items": [
+     {
+      "node": "intake",
+      "structurally_required": true,
+      "proof": {
+       "method": "unique-required-token",
+       "tokens": [
+        "case_scope"
+       ]
+      },
+      "semantic_role": "defines the timestamp, closed-world scope, and least-cost sufficient objective",
+      "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+     },
+     {
+      "node": "fact_register_page1",
+      "structurally_required": true,
+      "proof": {
+       "method": "unique-required-token",
+       "tokens": [
+        "facts_packet_page1"
+       ]
+      },
+      "semantic_role": "supplies the survey, duration, missing agreement that may evidence permission, and deed-scope facts",
+      "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+     },
+     {
+      "node": "fact_register_page2",
+      "structurally_required": true,
+      "proof": {
+       "method": "unique-required-token",
+       "tokens": [
+        "facts_packet_page2"
+       ]
+      },
+      "semantic_role": "supplies the party-identity and shared-private-utility predicates",
+      "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+     },
+     {
+      "node": "research_current",
+      "structurally_required": true,
+      "proof": {
+       "method": "unique-required-token",
+       "tokens": [
+        "current_research_packet"
+       ]
+      },
+      "semantic_role": "selects the controlled authority packet effective at the frozen timestamp",
+      "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+     },
+     {
+      "node": "adverse_limits",
+      "structurally_required": true,
+      "proof": {
+       "method": "unique-required-token",
+       "tokens": [
+        "merits_authority"
+       ]
+      },
+      "semantic_role": "combines hostile-use, ten-year, tacking, and three-year title rules without turning the threshold into merits",
+      "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+     },
+     {
+      "node": "recording_rules",
+      "structurally_required": true,
+      "proof": {
+       "method": "unique-required-token",
+       "tokens": [
+        "constraint_authority"
+       ]
+      },
+      "semantic_role": "makes recording consequences conditional, confines section 5.023, and records the missing-doctrine boundary",
+      "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+     },
+     {
+      "node": "estimate_register",
+      "structurally_required": true,
+      "proof": {
+       "method": "unique-required-token",
+       "tokens": [
+        "cost_packet_page1"
+       ]
+      },
+      "semantic_role": "supplies title, attorney, recording, court, and service figures",
+      "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+     },
+     {
+      "node": "estimate_register_page2",
+      "structurally_required": true,
+      "proof": {
+       "method": "unique-required-token",
+       "tokens": [
+        "cost_packet_page2"
+       ]
+      },
+      "semantic_role": "supplies survey and private-locator figures and both complete path totals",
+      "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+     },
+     {
+      "node": "policy_current",
+      "structurally_required": true,
+      "proof": {
+       "method": "unique-required-token",
+       "tokens": [
+        "current_triage_policy"
+       ]
+      },
+      "semantic_role": "establishes the global default and least-irreversible sufficient rule",
+      "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+     },
+     {
+      "node": "risk_current",
+      "structurally_required": true,
+      "proof": {
+       "method": "unique-required-token",
+       "tokens": [
+        "effective_risk_exception"
+       ]
+      },
+      "semantic_role": "defines the conjunctive exception that reverses the global default",
+      "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+     },
+     {
+      "node": "workflow_register",
+      "structurally_required": true,
+      "proof": {
+       "method": "unique-required-token",
+       "tokens": [
+        "workflow_matrix_reviewed"
+       ]
+      },
+      "semantic_role": "compares all three workflow alternatives, defects, and complete costs in one controlled matrix",
+      "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+     },
+     {
+      "node": "submission_schema",
+      "structurally_required": true,
+      "proof": {
+       "method": "unique-required-token",
+       "tokens": [
+        "submission_schema_reviewed"
+       ]
+      },
+      "semantic_role": "defines the allowed one-shot actions and final review requirement",
+      "counterfactual_without_node": "The internal workflow selection cannot be justified under the authored triage policy from the remaining evidence."
+     }
+    ]
+   }
+  },
+  {
+   "check": "required_evidence_tokens",
+   "ok": true,
+   "detail": [
+    "case_scope",
+    "constraint_authority",
+    "cost_packet_page1",
+    "cost_packet_page2",
+    "current_research_packet",
+    "current_triage_policy",
+    "effective_risk_exception",
+    "facts_packet_page1",
+    "facts_packet_page2",
+    "merits_authority",
+    "submission_schema_reviewed",
+    "workflow_matrix_reviewed"
+   ]
+  },
+  {
+   "check": "one_shot_actions",
+   "ok": true,
+   "detail": [
+    "code=A",
+    "code=B",
+    "code=C"
+   ]
+  },
+  {
+   "check": "hard_budget",
+   "ok": true,
+   "detail": {
+    "lower_bound": 19,
+    "budget": 29
+   }
+  },
+  {
+   "check": "no_answer_leak_at_start",
+   "ok": true,
+   "detail": "Matter DTB-LEGAL-37 is awaiting one internal workflow commitment. Determine the authorized next workflow from the frozen case file, controlled research packet, vendor estimates, and policy version effective at the decision timestamp. Earlier conversational advice is unverified. Do not decide title ownership or invent law absent from the controlled packet. One commitment is allowed. https://legal-ops.internal/v3/matters/DTB-LEGAL-37"
+  },
+  {
+   "check": "costs_derived_from_frozen_quotes",
+   "ok": true,
+   "detail": {
+    "title_search": [
+     200,
+     500
+    ],
+    "attorney_rate": 300,
+    "amicable_hours": [
+     2.0,
+     4.0
+    ],
+    "litigation_hours": [
+     8.0,
+     15.0
+    ],
+    "survey": 2800,
+    "process_server": [
+     75,
+     150
+    ],
+    "locator_rate": 75,
+    "locator_hours": [
+     2.0,
+     4.0
+    ],
+    "recording": 50,
+    "court_fees": 310,
+    "amicable_total": [
+     1000.0,
+     2050.0
+    ],
+    "litigation_total": [
+     5585.0,
+     7760.0
+    ]
+   }
+  },
+  {
+   "check": "statutory_scope_present",
+   "ok": true,
+   "detail": "six controlled sections"
+  },
+  {
+   "check": "current_exception_reverses_default",
+   "ok": true,
+   "detail": {
+    "default": "workflow_b",
+    "redirect": "workflow_c"
+   }
+  },
+  {
+   "check": "complete_provenance",
+   "ok": true,
+   "detail": {
+    "provenance": 53,
+    "nodes": 53
+   }
+  },
+  {
+   "check": "honest_mechanism_crosswalk",
+   "ok": true,
+   "detail": {
+    "primary": "Sufficiency",
+    "supporting": [
+     "Currency",
+     "Depth",
+     "Disposition",
+     "Breadth",
+     "Time"
+    ],
+    "basis": {
+     "Sufficiency": "a crossed limitation threshold remains insufficient for merits action because permission, party, utility, and doctrine predicates are unresolved",
+     "Currency": "current research and SOP versions override archived shortcuts while approved future materials are inapplicable",
+     "Depth": "the global litigation-readiness default exposes a nested evidence-risk appendix that reverses it",
+     "Disposition": "one correct and two irreversible wrong workflow commitments are available",
+     "Breadth": "both fact pages, four authority groups, four estimates, and three workflows must be reviewed",
+     "Time": "the fixed decision timestamp selects effective rather than approved-future packets and policies"
+    }
+   }
+  },
+  {
+   "check": "meaningful_branching",
+   "ok": true,
+   "detail": 3
+  },
+  {
+   "check": "layered_dag_not_tree",
+   "ok": true,
+   "detail": {
+    "nodes": 53,
+    "edges": 70,
+    "merge_nodes": [
+     "archive_closeout",
+     "authority_synthesis",
+     "cost_synthesis",
+     "fact_register_page1",
+     "fact_synthesis",
+     "policy_registry",
+     "policy_version_resolution",
+     "research_version_resolution",
+     "risk_current",
+     "submission_schema",
+     "workflow_register"
+    ],
+    "max_indegree": 7
+   }
+  },
+  {
+   "check": "detour_recovery_paths",
+   "ok": true,
+   "detail": [
+    "archive_closeout",
+    "research_version_resolution",
+    "policy_version_resolution"
+   ]
+  }
+ ]
+}
